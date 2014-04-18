@@ -1,0 +1,12 @@
+<quest repeatable="no" bot="2006">
+	<name><![CDATA[A significant recipe]]></name>
+	<name lang="fr"><![CDATA[Une recette primordial]]></name>
+	<step id="1" bot="2007"><!-- just talk with a bot -->
+		<text><![CDATA[Talk to my chefto Mersoul]]></text>
+		<text lang="fr"><![CDATA[Allez chercher le chef à Mersoul]]></text>
+	</step>
+	<rewards>
+		<item id="3006" quantity="1" />
+		<item id="1004" quantity="2" />
+	</rewards>
+</quest>

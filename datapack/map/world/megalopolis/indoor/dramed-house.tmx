@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcoJkIPKqWfLXEAgD3MSTZ
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwEmciDYUzhwqwOBjUjyW/CotaPMSWAAAFcrAuk=
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsHgQYCEiMEytEREYphYGtnMwMIhyMjCIAXEFkF3JgZBDV4sPkKPWmoOhAZv8JKAbJnOgqo3GoXYTUN1mNLWkuIFYDABA/y7m
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8QJSFeHFTHGpxiY8C4gAA30gApQ==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6YDoHA4MoEIsBcQQQR3LgV28KlDcjoIZYIM3B0EAdkwYXAAArQQK6
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeYAYHA8NMDuLU7gCq20mk2pEGAEL5AsM=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+   <properties>
+    <property name="map" value="../1.6"/>
+    <property name="x" value="20"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object type="bot" gid="1027" x="80" y="112">
+   <properties>
+    <property name="file" value="../../../bots-services.xml"/>
+    <property name="id" value="2"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="dramed"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

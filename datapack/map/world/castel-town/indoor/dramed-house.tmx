@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANNBOBR9UOPrXEAgDfXS4P
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6YCIHKn8KB3Z1ILARTW4LHrVDFdhRwQwARsEC6Q==
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsJgMLIoF41JjigWj64GJYwMwOZhaZDCJg4HhEhBP5kAVx6Z2E1DNJyDeTIRaXGAwqRViwa8OJE9qvAIAEbokjw==
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwlMYiFefhMBtYTksQEA5fACmQ==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdEGZhYBBhIU7OGMg2waEWn9wooC4AAOI/AT0=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+   <properties>
+    <property name="map" value="../-2.3"/>
+    <property name="x" value="10"/>
+    <property name="y" value="17"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object type="bot" gid="1027" x="80" y="64">
+   <properties>
+    <property name="file" value="../../../bots-services.xml"/>
+    <property name="id" value="2"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="Dramed"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

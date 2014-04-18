@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/wood.tsx"/>
+ <layer name="Walkable" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwT5GBgEBzFo3iYYADZ4BGV
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg84CMHA8MnJPyZg3i9gpwMDEJIWJiTeL2GQLVGSNiYBL30BB8JhAs+eUEC4YJP3pBAuBCShwE5AnxqAACqCQ6t
+  </data>
+ </layer>
+ <layer name="Collisions" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJydkmEKgCAMRneAEXgRf1cnqU5SHaMreANP2CQGn6IOGzxw8r2Bw0BEQZgGCEDq/QDop35holXo1cxfzoO7Sb8Lh+FiTt1TzpdwGy7m1I2GU1YEF8tx/jbdgSvm11zN4dtKr+emsnagLs59Glm8d5z/D/Vbe4tc9/7yAqvuLGE=
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AAAC0AAB
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMSPAwMEgCsRQP6eosCOhBB1ZI6otI1IusfhKJegmpJzYMBgPAFW6khudgBQD7NAUM
+  </data>
+ </layer>
+ <layer name="other" width="15" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AAAC0AAB
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="144" y="192">
+   <properties>
+    <property name="map" value="../-11.13"/>
+    <property name="x" value="25"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+   <properties>
+    <property name="map" value="../-11.13"/>
+    <property name="x" value="22"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="144" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7047"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girlplayer"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="80" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7048"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girlplayer"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="208" y="144">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7050"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girlplayer"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="16" y="144">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7049"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girlplayer"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="112" y="64">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7051"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0"/>
+</map>

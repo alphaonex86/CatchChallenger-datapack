@@ -1,0 +1,32 @@
+<text>
+	<client_logic id="1">
+		<text><![CDATA[I need to give my new recipe at my chef, but I have to stay here to work.</a><br />
+		Can u do this for me ?.<br />
+		<br />
+		<a href="next_quest_step;42">No probleme for me</a><br />]]></text>
+		<text lang="fr"><![CDATA[J'ai besoin de donner cette recette à mon chef,</a><br />
+		 Mais je doit rester içi pour travailler. Peux tu faire ça pour moi ?.<br />
+		<br />
+		<a href="next_quest_step;42">Cela ne me pose aucun problème</a><br />]]></text>
+	</client_logic>
+	<client_logic id="2">
+		<text><![CDATA[Then bye]]></text>
+		<text lang="fr"><![CDATA[Au revoir]]></text>
+	</client_logic>
+	<client_logic id="42">
+		<text><![CDATA[I hope in you]]></text>
+		<text lang="fr"><![CDATA[Je crois en toi]]></text>
+	</client_logic>
+	<client_logic id="55">
+		<text><![CDATA[What do you want?<br />
+		<br />
+		<a href="next_quest_step;56">You apprentice send me</a><br />]]></text>
+		<text lang="fr"><![CDATA[Que me veux tu ?<br />
+		<br />
+		<a href="next_quest_step;56">Votre apprentie m'envoie</a><br />]]></text>
+	</client_logic>
+	<client_logic id="56">
+		<text><![CDATA[Oh thank you, this is the new pie recipe that I looked forward, take that !]]></text>
+		<text lang="fr"><![CDATA[Oh merci, c'est la nouvelle recette que j'ai tant entendu parlé, prend ça !]]></text>
+	</client_logic>
+</text>

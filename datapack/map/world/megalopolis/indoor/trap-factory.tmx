@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxbwcDAsIJE3EGGHnIwIXs6Boimlf2kmjucwqF7AMKhGwse6HAYTQ+DJxzITQ+U0NjS5GCJ38FCD7VwoJV7h1o4DLXwHWo0tTE57gAAN3SNVA==
+  </data>
+ </layer>
+ <layer name="Other" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6oJkbgnGB63jkSAVN3AwOJ4DmnUAzE5sbBIUQOBwoFwHEkUAcBcTRFLgpiUL/3KRCeFDqhp+DwA3UALjcQOc0yTDQaZJSQI00SSmgRpocBaNgsAN7IHYYaEdQAQAAzu4VmA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlUsKwjAURQP1U2zchxPH/uZuwJUpHQvSiQtRcSH+luGL7aOXZ0hbbVoHXjjk89L0Em5IopRK/rwYtgh7GLcIe6iqfZRyII7EKcprtjmjCY2nxIyYE4usjh4CrdSa2Oh0bNpAuz1ciCtxg//h3EDn3Gn8yNZhv+w5yHXnKKVDe3eJHXjgua04hz7Nhfq9/6mHOvVrHjgPRiYLMeSB7xHLVyZd4nskPTSZSSmZyR7cH8zkCg7v20z6lC0PMbSB8FoG2/5Vv3N5lYQWULLmw8PIAkrWfHgooyUcTpGHAN4KfjeK8lC3B5ea8NA2T43Oxwo=
+  </data>
+ </layer>
+ <layer name="Other" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Bkg53cA+2CUTAKUMFomhwFo2AUDDUAAD3RAYk=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwWWcWMXPwwUP4SGD+NQ28ENwUuAeCk3qpnYxECgHMivAOJKIK4C4mosZj8mUgzZDYTAK24EHgXEA1LSA6UAV5okJz1QO02SAoZzmqRnesAFSEkPo4C2gFbpQY2DeLWj6WEUgAAALhQz/w==
+  </data>
+ </layer>
+ <layer name="other" width="33" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIw2IczMwSACxJBBLAbE0N/3dMB1o5wwgngnEs4B49gC4YTvQzh1Qe3cB6d0D4IZRAAGjaRICRtPkKBgFo2CoAgCKFA3x
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="256" y="320">
+   <properties>
+    <property name="map" value="../1.6"/>
+    <property name="x" value="4"/>
+    <property name="y" value="19"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="272" y="320">
+   <properties>
+    <property name="map" value="../1.6"/>
+    <property name="x" value="5"/>
+    <property name="y" value="19"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" type="bot" gid="1027" x="400" y="288">
+   <properties>
+    <property name="file" value="../../../bots-industries.xml"/>
+    <property name="id" value="3002"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

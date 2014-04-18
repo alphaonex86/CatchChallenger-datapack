@@ -1,0 +1,59 @@
+<!--
+Default item attribute value
+consumeAtUse="true"
+
+<trap bonus_rate="1"/> for trap
+<repel step="100"/> for repel
+<hp add="20"/> to heal or replace 20 by all to heal all
+<buff remove="9"/> to remove buff or replace 9 by all to remove all
+-->
+<items>
+    <item price="200" id="3001" image="other/recipe.png">
+        <name lang="fr">Recette d'un reppousse grade A</name>
+        <name>Repulse grade A recipe</name>
+        <description>Use for learn repulse grade A</description>
+        <description lang="fr">Apprendre à faire un reppousse grade A</description>
+    </item>
+    <item price="200" id="3002" image="other/recipe.png">
+        <name lang="fr">Recette d'une potion grade A</name>
+        <name>Potion grade A Recipe</name>
+        <description>Use for learn to do potion grade A</description>
+        <description lang="fr">Recette d'une potion grade A</description>
+    </item>
+    <item price="1000" id="3003" image="other/recipe.png">
+        <name lang="fr">Recette d'un reppousse grade B</name>
+        <name>Repluse grade B recipe</name>
+        <description>Use for learn to do repluse grade B</description>
+        <description lang="fr">Apprendre à faire un reppousse grade B</description>
+    </item>
+    <item price="1000" id="3004" image="other/recipe.png">
+        <name lang="fr">Recette d'une potion grade B</name>
+        <name>Potion grade B recipe</name>
+        <description>Use for learn to do potion grade B</description>
+        <description lang="fr">Apprendre à faire une potion grade B</description>
+    </item>
+    <item price="250" id="3006" image="other/recipe.png">
+        <name lang="fr">Recette de la tarte au Lima</name>
+        <name>Pie Lima recipe</name>
+        <description>Use for learn to do pie Lima</description>
+        <description lang="fr">Apprendre à faire une tarte au Lima</description>
+    </item>
+    <item price="250" id="3007" image="other/recipe.png">
+        <name lang="fr">Recette du gel anti-brûlure</name>
+        <name>Burn gel recipe</name>
+        <description>Use for learn to do Burn gel</description>
+        <description lang="fr">Apprendre à faire du gel anti-brûlure</description>
+    </item>
+    <item price="250" id="3008" image="other/recipe.png">
+        <name lang="fr">Recette du relaxant musculaire</name>
+        <name>Muscle relax recipe</name>
+        <description>Use for learn to do muscle relax</description>
+        <description lang="fr">Apprendre à faire du Relaxant musculaire</description>
+    </item>
+    <item price="250" id="3009" image="other/recipe.png">
+        <name lang="fr">Recette du serum</name>
+        <name>Serum recipe</name>
+        <description>Use for learn to do serum</description>
+        <description lang="fr">Apprendre à faire du serum</description>
+    </item>
+</items>

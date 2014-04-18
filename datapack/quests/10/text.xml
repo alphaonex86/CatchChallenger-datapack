@@ -1,0 +1,34 @@
+<text>
+	<client_logic id="1">
+		<text><![CDATA[are you able to help me ?<br />
+			I need you kill Polyrock for me,<br />
+			their heart is a very hard gemstone extract<br />
+			<br />
+			<a href="next_quest_step;42">and bring me their heart</a>]]></text>
+    <text lang="fr"><![CDATA[pourrai tu m'aider ?<br />
+			J'ai besoin que chasse quelque polyrock pour moi.<br />
+			leurs coeur est une pierre précieuse très difficile à extraire <br />
+			<br />
+			<a href="next_quest_step;42">Rapporte moi un de leurs coeur </a>]]></text>
+	</client_logic>
+	<client_logic id="42">
+		<text><![CDATA[I wait you with the Polyrock gem]]></text>
+		<text><![CDATA[Je t'attend avec la pierre de Polyrock]]></text>
+	</client_logic>
+	<client_logic id="50">
+		<text><![CDATA[Do you have the gem for me?<br />
+			<br />
+			<a href="next_quest_step;52">Yes I have it</a>]]></text>
+		<text lang="fr"><![CDATA[Tu as la pierre que je t'ai demandé ?<br />
+			<br />
+			<a href="next_quest_step;52">Oui je les ai</a>]]></text>
+	</client_logic>
+	<client_logic id="52">
+		<text><![CDATA[Thanks, you have finish my quest.]]></text>
+		<text lang="fr"><![CDATA[Merci, Tu nous as rendu un grand service à l'armée de l'ombre.]]></text>
+	</client_logic>
+	<client_logic id="53">
+		<text><![CDATA[You don't have the required quantity.]]></text>
+		<text lang="fr"><![CDATA[Tu n'as pas la quantité nécessaire.]]></text>
+	</client_logic>
+</text>

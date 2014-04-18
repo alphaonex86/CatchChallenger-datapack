@@ -1,0 +1,13 @@
+<quest repeatable="no" bot="2016">
+	<name><![CDATA[Sarah Birthday ]]></name>
+	<name lang="fr"><![CDATA[L'anniversaire de Sarah]]></name>
+	<step id="1">
+		<text><![CDATA[bring 3 exapode molt to the father of sarah in Chantitown ,]]></text>
+		<text lang="fr"><![CDATA[Apporte 3 mues d'exapode au père de Sarah a Chantiville,]]></text>
+		<item id="4009" quantity="3" monster="23" rate="25%" />
+	</step>
+	<rewards show="true">
+		<item id="2014" quantity="45" />
+
+	</rewards>
+</quest> 

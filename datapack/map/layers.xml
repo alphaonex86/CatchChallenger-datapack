@@ -1,0 +1,8 @@
+<!-- Can show different monster if you want, depanding of the object use, only with type="actionOn"  -->
+<list zoom="4">
+	<monstersCollision type="walkOn" monsterType="cave" background="fight/cave/" />
+	<monstersCollision type="walkOn" layer="Grass" monsterType="grass" background="fight/grass/" />
+	<monstersCollision type="walkOn" monsterType="water" item="31" tile="swim" layer="Water" background="fight/water/" />
+	<monstersCollision type="actionOn" item="2013" tile="fish" layer="Water" monsterType="water" background="fight/water/" />
+	<monstersCollision type="actionOn" item="2012" tile="fish" layer="Water" monsterType="water2" background="fight/water/" /><!-- Can show different monster if you want, depanding of the object use, only with type="actionOn"  -->
+</list>

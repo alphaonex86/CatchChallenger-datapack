@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANNBOBR9UOPrXEAgDfXS4P
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdkGKBYFLlhhuQJOBPSyR5UtTC1MP02CGpQVdHLAAAXs8CHw==
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAwE4EXgzF6kRgmFoYYONkYLDjYGCoB2JzIObgRMhhU4sM8KlVA8qpI2ENLGo/czDgBSB5dHPR9SDz0dXiA8hqJwHNmIxmLrIYstpNQLHNaGqRxWBq4wj4DSjfsBhJPTEYANmqI2o=
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAURYGrACbuClQ7AUHQ4McBwNDPBCLc4D5YHF6gMscqPzlHPjlsYlhUzMKGBgAxEUHzA==
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+   <properties>
+    <property name="map" value="../3.3"/>
+    <property name="x" value="17"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object type="bot" gid="1027" x="112" y="128">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9010"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="waiter"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="80" y="64">
+   <properties>
+    <property name="file" value="../../../bots-services.xml"/>
+    <property name="id" value="2007"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="waiter"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

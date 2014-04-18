@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayMonster" value=""/>
+  <property name="nightMonster" value=""/>
+  <property name="type" value=""/>
+  <property name="waterMonster" value=""/>
+  <property name="wildProbability" value=""/>
+ </properties>
+ <tileset firstgid="1" source="../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+ <layer name="Other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPqHAwMLgxMjB4MJJpAAUA3d6JIgg30dNeqpoNxO5A7AHlI/tlsITzqL0UmM2AGr8gAIvj4ejfwWhvGtDOjAGwdxTQB2QDcS4OOTsB2tnbDcS9tDN+wO0F2dODZBcl9j6C4sdIYqB4y8GCs6D2ZiLxM3HI44p3GFBihGBlpPy/GojXEIG9gNgTh9xaUgOABDDc09VwtbdnAOzNZkDNK7jyEHo+IiUPYQPE5iF8+YiWeQgEBipdgcKG1n6jNgAAswFBXA==
+  </data>
+ </layer>
+ <layer name="Dirt" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM1IlQQwsw0uwdKDDSwnmkxe8oGAWjYBSMglEwCkbBKBgFuAAAf10A6w==
+  </data>
+ </layer>
+ <layer name="Grass" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesBottom" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesTop" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Water" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzbEJAAAIBLFfQXD/Wa1t7YQErr6ET6p3vr4AAHA1DNcC5Q==
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP1KC0BgF11AYjzV42IGYHYg4C6nYC8S4o3k0Fe4n1700k9u1Re2kGfgLxLyj+TUd7R8EoGAWDH5iKDrQLRsEoGAWjYBQMRwAA+oMOIA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlUlOwzAUhh8SiyCFSlXgAKygC7gDh+Ao7BCq1HTHVIYDUMqOeThAYMtMuQWzYM8fNZEc1/Zz3IAA9Zc+uVKd9/tPnu1wkKgOQs3oKl29dGyBbcPoKq4ut65+3n7e/5TXNrdtHdu8trlt6+TNu+kTNRO2/J/LG8HrLOFc4dtr3pbHv1MXcXl1Gi4Tlcp8/ZrXQRaXV6dJeE4ZfBsB0SpYA+tgI8j+75J3opSlAgaEufHvQ/gcgWNwAk4lX9lnTEClyMv2sq6fb+FzB+5BGzwweW0k9vLMaKef5bxv8HkHsyNEHxg/QV34zkWdg3lV1LmfV78lL9dXsRbwrRbBElgGK4F+rk7c/m363ezAZxfsgX1wEHT31bhir5nyyutQ7ZkL+FyCK3ANbhR5Vc/VDP0sryPdM7HSO+ARPk/gGbyAVynv9BBVo2SPiXeH6MvlDb/pXnA9n3uVy/k8B+ZBlaltmveX8hYh2ecLCLsTGw==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYkMLCwJDKgpsebOZSCkb9O7L9S6z7iDWHVP+y8zEwcEAxJx/5/iTVnepAuzSgWBOLvbTyrzvQLg8o9qSBf2kFBmt6JhcUCjMwFAFxMRCXAHGpMOX2IKdlaqVnQmAhByQtUwrI8S9yWqZWeqYXGCzpmV6AHP/mAPNELhDnAXE+EBcIE9ZDqjvIzTOE9BHyL3L5j6sOgIG/QgwM/4SI9yM+d5CbZwjpGyzpebQ+Gtr2kOoOSttHxOoHALt8WeM=
+  </data>
+ </layer>
+ <layer name="Other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqGKOAdGGsV6GhvDQ8DQy0Qm4rSz04QmAO0cy4Pfe0cBbQF3IIMDDyCZGqmIM1rA+3UIdNecvMaKL94A+30IcFekB5YfiMXhJKZT0fz2ygYSAAAKREH7A==
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="30" height="30">
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="../arcania/0.1"/>
+   </properties>
+  </object>
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value="-1.2"/>
+   </properties>
+  </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value=""/>
+   </properties>
+  </object>
+  <object name="border" type="border-top" gid="5124" x="240" y="16">
+   <properties>
+    <property name="map" value="0.3"/>
+   </properties>
+  </object>
+  <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
+  <object type="rescue" gid="5122" x="176" y="416"/>
+  <object name="door" type="door" gid="5461" x="192" y="288">
+   <properties>
+    <property name="file" value="indoor/farmer"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="96" y="400">
+   <properties>
+    <property name="file" value="indoor/foundry"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="304" y="400">
+   <properties>
+    <property name="file" value="indoor/dramed-house"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5237" x="176" y="400">
+   <properties>
+    <property name="file" value="indoor/heal"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5237" x="320" y="288">
+   <properties>
+    <property name="file" value="indoor/shop"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="bot" type="bot" gid="5123" x="288" y="336">
+   <properties>
+    <property name="file" value="../../bots-services.xml"/>
+    <property name="id" value="2001"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="oldman"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="320" y="416">
+   <properties>
+    <property name="file" value="../../bots-services.xml"/>
+    <property name="id" value="201"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="128" y="288">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9023"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="smith"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="368" y="272">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9024"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="reaper"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="144" y="416">
+   <properties>
+    <property name="file" value="../../bots-services.xml"/>
+    <property name="id" value="2004"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="272" y="176">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9025"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="224" y="176">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9025"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="224" y="304">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9028"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="soldier"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

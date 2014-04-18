@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdMDIyMDBBMTMjGQaQCUbtpQ9QBNqlBMXKdLR3FIwCUsFDIH7EwNAAwo8pNweMiTEHmjcbKM2bpObxQWBvw0Db6wak3YHYA4d+NyxypJZp2NSnAel0IM7AoT8Nj9wooC0gNf9SC4y0tgGl9hLKu7jUUWLvRBHUvAvi4wLoeXy0LTQKRhIAALizGlc=
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0wEJADAIRUFDrPgaL8NA+IJ3AXwIWgXAr3tyszraieaENnRL3GfyJ7btCxs8H4kHGA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlj0KwkAQhadIkUJSCB5AUK/jb1qv4H9noaigNv4fQI21inoA9WI+iQETE9xJNoLog4+B7OTNvmJguwpRD3QFaxw4FWf8b1UDbBjVay7Xh3vPf97P5PVSWHlFJTuvqILmlSVu3qBqghaJ5w1L7/I6ldCIkk+kNH893LzLCNHqiXXEXw83r6y53LxneFyAHjPr1eFZfPRY5249fvLe1Vbs1Ut9nA/AUDHvw8n77ftr6Vv2Nx0lyoAsyIE8KAA9+uopc39L8C+DCqiCGqiDhstcWfvbUYlG8B+DCZiCGZiDhc+5Innvc7fw34E9iGE3D6hHcAJn1e75bsdF8waVobp8++8v6x0oq3LfgbLqr+W9AWOrU38=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYkMLCwJDKQjxNa3NoDUb9S5n7hqp/h4r5lLpnsNjDwsfAwIqE2fjIU0OpO8gFpNrjAnS7KxJ2w+IXYtRQ6g5ywWBNz6P5l7726AsxMBgAsSEQGwGxMRCbALGpEKba4ZR/iQH0yr8LOUh322BNz9Rwz1Kk8Bjs+Zde9Kh/hzcAAMi5X7c=
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIIRDHgHxlqFAbKXWiCBh4HBVBRC4wIgeZjaUTAKRsHgAV9FCKuB5fFRMApGwfAHAFf4A9I=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="30" height="30">
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value=""/>
+   </properties>
+  </object>
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value=""/>
+   </properties>
+  </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value=""/>
+   </properties>
+  </object>
+  <object name="border" type="border-top" gid="5124" x="240" y="16">
+   <properties>
+    <property name="map" value="0.1"/>
+   </properties>
+  </object>
+  <object name="bot spawn" type="bot spawn" gid="5122" x="160" y="256"/>
+  <object name="rescue" type="rescue" gid="5122" x="160" y="256">
+   <properties>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="160" y="240">
+   <properties>
+    <property name="file" value="indoor/player-house-floor1"/>
+    <property name="x" value="6"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="288" y="240">
+   <properties>
+    <property name="file" value="indoor/house2"/>
+    <property name="x" value="6"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="304" y="368">
+   <properties>
+    <property name="file" value="indoor/house4"/>
+    <property name="x" value="6"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5397" x="144" y="368">
+   <properties>
+    <property name="file" value="indoor/house3"/>
+    <property name="x" value="6"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="bot" type="bot" gid="5123" x="112" y="288">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9004"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="oldman"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="288" y="384">
+   <properties>
+    <property name="file" value="../../bots-services.xml"/>
+    <property name="id" value="200"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/rename.tsx"/>
+ <layer name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJz7zsPA8H0Y4ny+4W0frewvGGB/jEQMAMDj4Y0=
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4AyUMA30C6gLRAUYGCwg9K0AADO1gD/
+  </data>
+ </layer>
+ <layer name="Water" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYICiAn0+KGdhodDFkcWR5atuPzWxi1RCyhxj7salBDw9c4UPIflxhRsi/6DQh/xPyFz5xYvVQ4m9qAQDTYQc5
+  </data>
+ </layer>
+ <layer name="other" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYsIoXlZ/Fi10dPgDTkwmlz/JAaE8gv4sX055OXogcCJ/jQTVLkwz7YfbBzIKZ34XFLJhbO3HYjw/gchvM/jM8qHYgg/M8EPtgas7yoNpPjL9hatDVaqKFPzLIQtOjieb/13j8j64H3XyYOLp/O/H4Cz2tYHMzLj8Qo5YcAADBMRxn
+  </data>
+ </layer>
+ <layer name="Collisions" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAIEIGXgzFJmRgmF5ywKjeUb2DVS+5+QgAtl8Xxw==
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <layer name="other" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQAAAOEAAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="112" y="240">
+   <properties>
+    <property name="map" value="../2.4"/>
+    <property name="x" value="21"/>
+    <property name="y" value="17"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object type="bot" gid="1027" x="144" y="64">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7029"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="192" y="176">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7030"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="16" y="48">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7031"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="208" y="48">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7027"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="48" y="128">
+   <properties>
+    <property name="file" value="../../../bots.xml"/>
+    <property name="id" value="7023"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="16" y="192">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7028"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="16" y="224">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7027"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="192" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7028"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

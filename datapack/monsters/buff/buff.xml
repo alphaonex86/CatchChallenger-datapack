@@ -1,0 +1,109 @@
+﻿<!--
+This can be as "effect" balise attribute or "level" balise attribute
+capture_bonus: if not specified: 1
+duration: if not specified: ThisFight, can be: ThisFight, NumberOfTurn (with attribute durationNumberOfTurn more), Always
+-->
+<buffs>
+	<buff id="1">
+		<name>Burn</name>
+		<name lang="fr">Brulé</name>
+		<description>The monster lost life because it's in fire</description>
+		<description lang="fr">Le monster perds de la vie car il est en feu</description>
+		<effect capture_bonus="1.5" duration="NumberOfTurn" durationNumberOfTurn="2">
+			<level number="1">
+				<inFight hp="-5%" />
+			</level>
+			<level number="2" capture_bonus="1.6" duration="NumberOfTurn" durationNumberOfTurn="3">
+				<inFight hp="-7%" />
+			</level>
+		</effect>
+	</buff>
+	<buff id="2">
+		<name>Paralysed</name>
+		<name lang="fr">Paralysé</name>
+		<description>The animal is paralyzed and can not properly address</description>
+		<description lang="fr">L'animal est paralysé et ne peux plus attaquer correctement</description>
+		<effect capture_bonus="1.5" duration="NumberOfTurn" durationNumberOfTurn="10">
+			<level number="1">
+				<inFight hp="-5%" />
+			</level>
+			<level number="2" capture_bonus="1.6" duration="ThisFight">
+				<inFight hp="-7%" />
+			</level>
+		</effect>
+	</buff>
+	<buff id="3">
+		<name>Protected</name>
+		<name lang="fr">Protégé</name>
+		<description>Grow the defense</description>
+		<description lang="fr">Augmente la défense</description>
+		<effect capture_bonus="0.8" duration="ThisFight">
+			<level number="1">
+				<inFight defense="+30" />
+			</level>
+			<level number="2">
+				<inFight defense="+50" />
+			</level>
+		</effect>
+	</buff>
+	<buff id="4">
+		<name>Nervous</name>
+		<name lang="fr">Intimidé</name>
+		<description>Decreases the opponent's attack</description>
+		<description lang="fr">Diminue l'attaque de l'adversaire</description>
+		<effect capture_bonus="1.2" duration="NumberOfTurn" durationNumberOfTurn="5">
+			<level number="1">
+				<inFight attack="-30" />
+			</level>
+			<level number="2">
+				<inFight attack="-50" />
+			</level>
+		</effect>
+	</buff>
+	<buff id="5">
+		<name>Poisoned</name>
+		<name lang="fr">Empoisonné</name>
+		<description>The monster is poisoned</description>
+		<description lang="fr">Le monster est empoisonné</description>
+		<effect duration="Always">
+			<level number="1">
+				<inFight hp="-5" />
+				<inWalk hp="-5" steps="15" />
+			</level>
+			<level number="2">
+				<inFight hp="-10" />
+				<inWalk hp="-5" steps="30" />
+			</level>			
+		</effect>
+	</buff>
+	<buff id="6">
+		<name>Overpower</name>
+		<name lang="fr">Surpuissance</name>
+		<description>Grow the attack</description>
+		<description lang="fr">Augmente l'attaque</description>
+		<effect capture_bonus="0.8" duration="ThisFight">
+			<level number="1">
+				<inFight attack="+30" />
+			</level>
+			<level number="2">
+				<inFight attack="+50" />
+			</level>
+		</effect>
+	</buff>
+	<buff id="7">
+		<name>Destabilized</name>
+		<name lang="fr">Déstabilisé</name>
+		<description>Decreases the opponent's defense</description>
+		<description lang="fr">Diminue la defence de l'adversaire</description>
+		<effect capture_bonus="1.2" duration="NumberOfTurn" durationNumberOfTurn="5">
+			<level number="1">
+				<inFight defense="-30" />
+			</level>
+			<level number="2">
+				<inFight defense="-50" />
+			</level>			
+		</effect>
+	</buff>
+
+
+</buffs>

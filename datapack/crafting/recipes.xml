@@ -1,0 +1,39 @@
+<!--
+default:
+success: 100 (100%)
+quantity: 1
+-->
+<recipes>
+	<recipe id="1" itemToLearn="3001" doItemId="9">
+		<material itemId="1004" quantity="1" />
+	</recipe>
+	<recipe id="2" itemToLearn="3002" doItemId="5">
+		<material itemId="1002" quantity="1" />
+	</recipe>
+	<recipe id="3" itemToLearn="3003" doItemId="10">
+		<material itemId="1002" quantity="6" />
+		<material itemId="1006" quantity="2" />
+		<material itemId="1003" quantity="2" />
+	</recipe>
+ 	<recipe id="4" itemToLearn="3004" doItemId="6">
+		<material itemId="1002" quantity="2" />
+		<material itemId="1007" quantity="3" />
+		<material itemId="1004" quantity="5" />
+	</recipe>
+ 	<recipe id="5" itemToLearn="3006" doItemId="30">
+		<material itemId="1004" quantity="2" />
+	</recipe>
+ 	<recipe id="6" itemToLearn="3007" doItemId="13">
+		<material itemId="1009" quantity="3" />
+		<material itemId="1005" quantity="1" />
+	</recipe>
+	<recipe id="7" itemToLearn="3008" doItemId="14">
+		<material itemId="1008" quantity="3" />
+		<material itemId="1005" quantity="1" />
+	</recipe>
+ 	<recipe id="8" itemToLearn="3009" doItemId="15">
+		<material itemId="1001" quantity="3" />
+		<material itemId="1005" quantity="1" />
+	</recipe>
+</recipes>
+ 

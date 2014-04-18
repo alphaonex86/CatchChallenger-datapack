@@ -1,0 +1,8 @@
+<map zone="telomont" type="outdoor">
+	<name>Megalopolis</name>
+	<name lang="fr">Megalopolis</name>
+	<grass>
+          <monster id="13" minLevel="13" maxLevel="15" luck="50" />
+          <monster id="3" minLevel="13" maxLevel="15" luck="50" />
+  </grass>
+</map>

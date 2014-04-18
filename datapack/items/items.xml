@@ -1,0 +1,180 @@
+<!--
+Default item attribute value
+consumeAtUse="true"
+
+<trap bonus_rate="1"/> for trap
+<repel step="100"/> for repel
+<hp add="20"/> to heal or replace 20 by all to heal all
+<buff remove="9"/> to remove buff or replace 9 by all to remove all
+-->
+<items>
+    <item price="510" id="1" image="catchtrap/trap-grade-a.png">
+        <name>IronTrap</name>
+        <name lang="fr">Piége en fer</name>
+        <description>This trap is perfect to capture the very low level monsters.</description>
+        <description lang="fr">Ce piége est parfait pour capturer les monstres de trés bas niveau.</description>
+        <trap bonus_rate="1"/>
+    </item>
+    <item price="1950" id="2" image="catchtrap/trap-grade-b.png">
+        <name>SilverTrap</name>
+        <name lang="fr">Piége en argent</name>
+        <description>This trap is perfect to capture the low level monsters.</description>
+        <description lang="fr">Ce piége est parfait pour capturer les monstres de bas niveau.</description>
+        <trap bonus_rate="1.5"/>
+    </item>
+    <item price="7500" id="3" image="catchtrap/trap-grade-c.png">
+        <name>StealTrap</name>
+        <name lang="fr">Piége en acier</name>
+        <description>This trap is perfect to capture the mid level monsters.</description>
+        <description lang="fr">Ce piége est parfait pour capturer les monstres de niveau moyen.</description>
+        <trap bonus_rate="2"/>
+    </item>
+    <item price="50000" id="4" image="catchtrap/trap-grade-d.png">
+        <name>Trap grade D</name>
+        <name lang="fr">Piége grade D</name>
+        <description>This trap is perfect to capture the hight level monsters.</description>
+        <description lang="fr">Ce piége est parfait pour capturer les monstres de haut niveau.</description>
+        <trap bonus_rate="2.5"/>
+    </item>
+    <item price="45" id="5" image="potion/potion-grade-a.png">
+        <name>Potion grade A</name>
+        <name lang="fr">Potion grade A</name>
+        <description>The potion used to heal few bit your monsters</description>
+        <description lang="fr">La potion est utilisé pour soigner un peu vos monstres</description>
+        <hp add="50"/>
+    </item>
+    <item price="450" id="6" image="potion/potion-grade-b.png">
+        <name>Potion grade B</name>
+        <name lang="fr">Potion grade B</name>
+        <description>The potion used to heal your monsters</description>
+        <description lang="fr">La potion est utilisé pour soigner vos monstres</description>
+        <hp add="100"/> 
+    </item>
+    <item price="5000" id="7" image="potion/potion-grade-c.png">
+        <name>Potion grade C</name>
+        <name lang="fr">Potion grade C</name>
+        <description>The potion used to heal correctly your monsters</description>
+        <description lang="fr">La potion est utilisé pour soigner correctement vos monstres</description>
+        <hp add="200"/>
+    </item>
+    <item price="60000" id="8" image="potion/potion-grade-d.png">
+        <name>Potion grade D</name>
+        <name lang="fr">Potion grade D</name>
+        <description>The potion used to heal heavly your monsters</description>
+        <description lang="fr">La potion est utilisé pour soigner grandement vos monstres</description>
+        <hp add="all"/>
+    </item>
+    <item price="200" id="9" image="potion/repulse-grade-a.png">
+        <name>Repulse grade A</name>
+        <name lang="fr">Reppousse grade A</name>
+        <description>Used to repulse the monsters during few time</description>
+        <description lang="fr">Le repousse est utilisé pour éloigner les monstres pendant un peu de temps</description>
+        <repel step="100"/>
+    </item>
+    <item price="450" id="10" image="potion/repulse-grade-b.png">
+        <name>Repulse grade B</name>
+        <name lang="fr">Reppousse grade B</name>
+        <description>Used to repulse the monsters</description>
+        <description lang="fr">Le repousse est utilisé pour éloigner les monstres</description>
+        <repel step="250"/>
+    </item>
+    <item price="1000" id="11" image="potion/repulse-grade-c.png">
+        <name>Repulse grade C</name>
+        <name lang="fr">Reppousse grade C</name>
+        <description>Used to repulse the monsters during good time</description>
+        <description lang="fr">Le repousse est utilisé pour éloigner les monstres pendant un bon moment</description>
+        <repel step="500"/>
+    </item>
+    <item price="2000" id="12" image="potion/repulse-grade-d.png">
+        <name>Repulse grade D</name>
+        <name lang="fr">Reppousse grade D</name>
+        <description>Used to repulse the monsters during large time</description>
+        <description lang="fr">Le repousse est utilisé pour éloigner les monstres pendant un long moment</description>
+            <repel step="1000"/>
+    </item>
+    <item price="200" id="13" image="potion/burn-gel.png">
+        <name>Burn gel</name>
+        <name lang="fr">Gel de brûlure</name>
+        <description>Remove burn</description>
+        <description lang="fr">Elimine les brûlure</description>
+        <buff remove="1" />
+    </item>
+    <item price="200" id="14" image="potion/muscle-relax.png">
+        <name>muscle relax</name>
+        <name lang="fr">Relaxant musculaire</name>
+        <description>Remove paralysis</description>
+        <description lang="fr">Elimine la paralysie</description>
+        <buff remove="2" />
+    </item>
+    <item price="200" id="15" image="potion/serum.png">
+        <name>Serum</name>
+        <name lang="fr">Serum</name>
+        <description>Remove poison</description>
+        <description lang="fr">Elimine le poison</description>
+        <buff remove="5" />
+    </item>
+    <item price="200" id="16" image="other/lvl-book.png">
+        <name>Level book</name>
+        <name lang="fr">Livre de niveau</name>
+        <description>Allow to increase animal level</description>
+        <description lang="fr">Permet d'augmenter le niveau de l'animal</description>
+        <level up="1" />
+    </item>
+    <item price="1200" id="17" image="other/book-fire-throw.png">
+        <name>Book of fire throw</name>
+        <name lang="fr">Livre de jet de feu</name>
+        <description>Allow to learn fire throw</description>
+        <description lang="fr">Permet d'apprendre jet de feu</description>
+    </item>
+    <item price="20000" id="18" image="other/book-fire-throw.png">
+        <name>Book of fire throw 2</name>
+        <name lang="fr">Livre de jet de feu 2</name>
+        <description>Allow to learn fire throw level 2</description>
+        <description lang="fr">Permet d'apprendre jet de feu niveau 2</description>
+    </item>
+    <item price="500000" id="19" image="other/book-fire-throw.png">
+        <name>Book of fire throw 3</name>
+        <name lang="fr">Livre de jet de feu 3</name>
+        <description>Allow to learn fire throw level 3</description>
+        <description lang="fr">Permet d'apprendre jet de feu niveau 3</description>
+    </item>
+    
+    
+    <item price="15" id="30" image="food/pielima.png">
+        <name>Slice of Lima pie</name>
+        <name lang="fr">Part de tarte au Lima</name>
+        <description>Heal 15 Hp</description>
+        <description lang="fr">Soigne 15 Hp</description>
+        <regeneration hp="15"/>
+    </item>
+    <item price="0" id="31" image="other/Surfboard.png">
+        <name>Surfboard</name>
+        <name lang="fr">Planche de surf</name>
+        <description>Used to navigate on the water</description>
+        <description lang="fr">Permet de naviguer sur l'eau</description>
+    </item>
+
+    
+    <item price="1000" id="40" image="other/evol-plant-crystal.png">
+        <name>Plant crystal</name>
+        <name lang="fr">Cristal de plante</name>
+        <description>Allow some evolution</description>
+        <description lang="fr">Permet certaine évolution</description>
+        <regeneration hp="15"/>
+    </item>
+    <item price="1000" id="41" image="other/evol-fire-crystal.png">
+        <name>Fire crystal</name>
+        <name lang="fr">Cristal de feu</name>
+        <description lang="fr">Permet certaine évolution</description>
+        <description>Allow some evolution</description>
+        <regeneration hp="15"/>
+    </item>
+    <item price="1000" id="42" image="other/evol-water-crystal.png">
+        <name>Water crystal</name>
+        <name lang="fr">Cristal d'eau</name>
+        <description lang="fr">Permet certaine évolution</description>
+        <description>Allow some evolution</description>
+        <regeneration hp="15"/>
+    </item>
+    
+</items>

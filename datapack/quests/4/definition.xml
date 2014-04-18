@@ -1,0 +1,12 @@
+<quest repeatable="no" bot="2008">
+	<name><![CDATA[An invitation]]></name>
+	<name lang="fr"><![CDATA[Une invitation]]></name>
+	<step id="1" bot="2009"><!-- just talk with a bot -->
+		<text><![CDATA[Give this invitation to the botanist in the Castle townforest]]></text>
+		<text lang="fr"><![CDATA[Allez donner cette invitation au botaniste dans la fôret de castle ville]]></text>
+	</step>
+	<rewards>
+		<item id="2008" quantity="1" />
+		<item id="1008" quantity="1" />
+	</rewards>
+</quest>

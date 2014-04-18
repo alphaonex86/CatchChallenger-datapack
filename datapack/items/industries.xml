@@ -1,0 +1,113 @@
+<!--
+Default item attribute value
+consumeAtUse="true"
+
+<trap bonus_rate="1"/> for trap
+<repel step="100"/> for repel
+<hp add="20"/> to heal or replace 20 by all to heal all
+<buff remove="9"/> to remove buff or replace 9 by all to remove all
+-->
+<items>
+    <item price="20" id="2000" image="other/copper-ore.png">
+        <name lang="fr">Minerai de cuivre</name>
+        <name>Copper ore</name>
+        <description>Copper ore</description>
+        <description lang="fr">Minerai de cuivre</description>
+    </item>
+    <item price="50" id="2001" image="other/iron-ore.png">
+        <name lang="fr">Minerai de fer</name>
+        <name>Iron ore</name>
+        <description>Iron ore</description>
+        <description lang="fr">Minerai de fer</description>
+    </item>
+    <item price="100" id="2002" image="other/silver-ore.png">
+        <name>Silver ore</name>
+        <name lang="fr">Minerai d'argent</name>
+        <description lang="fr">Minerai d'argent</description>
+        <description>Silver ore</description>
+    </item>
+    <item price="10" id="2003" image="other/coal.png">
+        <name>coal</name>
+        <name lang="fr">Charbon</name>
+        <description>Coal</description>
+        <description lang="fr">Charbon</description>
+    </item>
+    <item price="10000" id="2004" image="other/gold-ore.png">
+        <name>Gold ore</name>
+        <name lang="fr">Minerai d'or</name>
+        <description lang="fr">Minerai d'or</description>
+        <description>Gold ore</description>
+    </item>
+    <item price="75" id="2005" image="other/copper-lingot.png">
+        <name>Copper ingot</name>
+        <name lang="fr">Lingot de cuivre</name>
+        <description>Copper ingot</description>
+        <description lang="fr">Lingot de cuivre</description>
+    </item>
+    <item price="180" id="2006" image="other/iron-lingot.png">
+        <name lang="fr">Lingot de Fer</name>
+        <name>Iron ingot</name>
+        <description lang="fr">Lingot de fer</description>
+        <description>Iron ingot</description>
+    </item>
+    <item price="360" id="2007" image="other/silver-lingot.png">
+        <name lang="fr">Lingot d'argent</name>
+        <name>Silver ingot</name>
+        <description>Silver ingot</description>
+        <description lang="fr">Lingot d'argent</description>
+    </item>
+    <item price="450" id="2008" image="other/steel-lingot.png">
+        <name>Steel ingot</name>
+        <name lang="fr">Lingot d'acier</name>
+        <description>Steel ingot</description>
+        <description lang="fr">Lingot d'acier</description>
+    </item>
+    <item price="80" id="2009" image="other/gold-lingot.png">
+        <name lang="fr">Lingot d'or</name>
+        <name>Gold ingot</name>
+        <description>Gold ingot</description>
+        <description lang="fr">Lingot d'or</description>
+    </item>
+    <item price="10" id="2010" image="other/tusk.png">
+        <name>Tusk</name>
+        <name lang="fr">Défense</name>
+        <description>Use for make dust</description>
+        <description lang="fr">Utilisé pour faire de la poudre</description>
+    </item>
+    <item price="7" id="2011" image="other/dust-tusk.png">
+        <name>dust bones</name>
+        <name lang="fr">Poussiere d'os</name>
+        <description>Help in growing of plants</description>
+        <description lang="fr">Aide au developpements des plantes</description>
+    </item>
+    <item price="40" id="2012" image="other/wood.png">
+        <name>Log</name>
+        <name lang="fr">Bûche</name>
+        <description>Use to make plants</description>
+        <description lang="fr">Matière première très utile pour la construction de meuble et de batiment</description>
+    </item>
+    <item price="67" id="2013" image="other/board.png">
+        <name>Board</name>
+        <name lang="fr">Planche</name>
+        <description lang="fr">Matière première très utile pour la construction de meuble et de batiment</description>
+        <description>Very useful raw material for the construction of piece of furniture and building</description>
+    </item>
+    <item price="15" id="2014" image="other/grassseeds.png">
+        <name lang="fr">Graines de Colza</name>
+        <name>colza seed</name>
+        <description lang="fr">Utilisé par les brasseries afin de produire de l'éthanol</description>
+        <description>Used by brewers to produce ethanol</description>
+    </item>
+    <item price="11" id="2015" image="other/ethanol.png">
+        <name lang="fr">Ethanol</name>
+        <name>Ethanol</name>
+        <description lang="fr">Utilisé afin de produire du biocarburant</description>
+        <description>Used to produce biofuel</description>
+    </item>
+    <item price="25" id="2016" image="other/biofuel.png">
+        <name lang="fr">Biocarburant</name>
+        <name>Biofuel</name>
+        <description lang="fr">Consomé par les industries de base afin de produire tout type de produit</description>
+        <description>Used by staple industries to produce quite typical of product</description>
+    </item>  
+</items>

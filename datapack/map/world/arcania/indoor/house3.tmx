@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsBiI2YnAi6FYnQi8cBQPGkwKAABUNUJu
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAe6EAxpWpIBTEcVDZwiIBXjAwM8kBagQi1XEwMDHZUsBMAaLcCiQ==
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzjYWBg4CES3+NmaABhHSAbFwbKg/E/oDoQZsAD/kHUUQ3YcTAw7Afieg7S9U5nQcX45LajYWSAT46aQIhIs0HqFjMQjwEIHB7y
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxEIsVBXHQwAAA24AC0=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEoixYBHEAUxLUkgPkOBgY5gNxPAdt7RlqoIjIcCdWHQwAAI6OAnM=
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdPOdmYHjBTZxadh4GBg4eMiwZBQMCAMWPAg0=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+   <properties>
+    <property name="map" value="../0.0"/>
+    <property name="x" value="9"/>
+    <property name="y" value="23"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" type="bot" gid="1027" x="80" y="48">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9007"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="prof"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

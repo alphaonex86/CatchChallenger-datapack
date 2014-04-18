@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJx7wsDA8GQUD2tMCgAARadrxQ==
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg40MhBnr4qqL4aIvTPgqqZQ4TaXVA1e8h013AAAD5XBFw=
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzjYGBg4CASa5CAt7MwMEzkYWCwA2q0B2JnIHYBGYIGmrCI4QKTeIhXOxFJ7WwS7NhNglpigSQwLKRYCKtbPAgwALH7HPY=
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOJFgwxaZDxeQ4GBjkgVgZiFWA2AKLWlqDag762zkSAACm+QIb
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="48">
+   <properties>
+    <property name="map" value="player-house-floor1"/>
+    <property name="x" value="9"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

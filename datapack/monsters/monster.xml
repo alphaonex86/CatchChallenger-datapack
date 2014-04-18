@@ -1,0 +1,457 @@
+<!-- default:
+ratio_gender="50%"
+catch_rate="100"
+attack_level="1"
+if level is 0, it's base attack
+luck is in percent
+evolution type can be: level (attribute level is the level), item (attribute level is the item id), trade (attribute level is useless)
+-->
+<monsters>
+	<!-- ratio_gender: 0% only male, 100% only female, -1 no gender
+	second line is stat at level 100-->
+	<monster id="1" type="fire" height="0.76m" weight="35kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="500000"
+		hp="200" attack="110" defense="100" special_attack="120" special_defense="100" speed="130" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="1" />
+			<attack level="14" id="9" />
+			<attack level="16" id="12" />
+			<attack level="20" id="1" attack_level="2" />
+			<attack level="36" id="9" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2003" quantity_min="1" quantity_max="3" luck="20" />
+		</drops>
+		<name>Panthera fira</name>
+		<name lang="fr">Panthera fira</name>
+		<description>Panthera fira is a very rare animal, it is characterized by its very hot skin..</description>
+		<description lang="fr">Panthera fira est un animal très rare, il est caractérisé par sa peau très chaud..</description>
+	</monster>
+	<!-- ratio_gender: 0% only male, 100% only female, -1 no gender
+	second line is stat at level 100-->
+	<monster id="2" type="bird" height="0.2m" weight="2kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="190" attack="90" defense="90" special_attack="80" special_defense="80" speed="120" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="10" id="15" />
+			<attack level="18" id="15" attack_level="2" />
+		</attack_list>
+		<evolutions>
+			<evolution level="18" type="level" evolveTo="30" />
+		</evolutions>
+		<drops>
+			<drop item="1001" quantity="1" luck="2" />
+			<drop item="1002" quantity="1" luck="2" />
+			<drop item="1003" quantity="1" luck="2" />
+			<drop item="1004" quantity="1" luck="2" />
+			<drop item="1005" quantity="1" luck="2" />
+			<drop item="1006" quantity="1" luck="2" />
+			<drop item="1007" quantity="1" luck="2" />
+			<drop item="1008" quantity="1" luck="2" />
+			<drop item="1009" quantity="1" luck="2" />
+		</drops>
+		<name>Elofly</name>
+		<name lang="fr">Elofly</name>
+		<description>Elofly frugivor is a small bird that lives in the forests and plains</description>
+		<description lang="fr">Elofly est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+	</monster>
+	<monster id="3" type="plant" height="0.54m" weight="15kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="160" attack="150" defense="90" special_attack="130" special_defense="70" speed="90" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="3" />
+			<attack level="20" id="3" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2014" quantity="1" luck="25" />
+		</drops>
+		<name>Conileaf</name>
+		<name lang="fr">Conifeuille</name>
+		<description>Conileaf often confused with a fruit there remains a dangerous animal</description>
+		<description lang="fr">Conifeuille souvent confondu avec un fruit il n'en reste un animal dangeureux</description>
+	</monster>
+	<monster id="4" type="psy" height="0.54m" weight="23kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="300" attack="50" defense="120" special_attack="60" special_defense="110" speed="60" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="3" />
+			<attack level="0" id="16" />
+			<attack level="10" id="14" />
+			<attack level="18" id="14" attack_level="2" />
+			<attack level="22" id="12" />
+		</attack_list>
+		<name>Tourbidi</name>
+		<name lang="fr">Tourbidi</name>
+		<description>Tourbidi is a very strange animal that spends its time turn on itself</description>
+		<description lang="fr">Tourbidi est un animal très etrange qui passe son temps a tourner sur lui même </description>
+	</monster>
+	<monster id="5" type="stone;fight" height="1.56m" weight="61kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="190" attack="110" defense="160" special_attack="80" special_defense="70" speed="30" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="8" />
+			<attack level="20" id="8" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2000" quantity="1" luck="20" />
+			<drop item="2001" quantity="1" luck="10" />
+			<drop item="2003" quantity="1" luck="30" />
+		</drops>
+		<name>Polyrock</name>
+		<name lang="fr">Polyrock</name>
+		<description>Polyrock is mainly composed of stone, which makes it so resistant</description>
+		<description lang="fr">Polyrock est composé principalement de pierre, ce qui le rend si résistant s</description>
+	</monster>
+	<monster id="6" type="water" height="0.76m" weight="51kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="100" defense="90" special_attack="80" special_defense="80" speed="100" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="2" />
+			<attack level="16" id="12" />
+			<attack level="20" id="2" attack_level="2" />
+			<attack level="22" id="12" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2010" quantity="1" luck="25" />
+		</drops>
+		<name>Dinoflop</name>
+		<name lang="fr">Dinoflop</name>
+		<description>Dinoflop spends his life turning his back on his opponent, he is very playful cepandent</description>
+		<description lang="fr">Dinoflop passe sa vie à tourner le dos à ses adversaire, il est cepandent très joueur</description>
+	</monster>
+	<monster id="8" type="normal" height="0.76m" weight="34kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="180" attack="120" defense="130" special_attack="110" special_defense="90" speed="80" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="2" />
+			<attack level="16" id="12" />
+			<attack level="20" id="2" attack_level="2" />
+		</attack_list>
+		<name>Cochini</name>
+		<name lang="fr">Cochini</name>
+		<description>cochini</description>
+		<description lang="fr">cochini</description>
+	</monster>
+	<monster id="9" type="water" height="0.76m" weight="89kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="90" defense="130" special_attack="100" special_defense="120" speed="80" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="2" />
+		</attack_list>
+		<name>Pharfan</name>
+		<name lang="fr">Pharfan</name>
+		<description>Pharfan is very rare, he enjoys watering the people they meet</description>
+		<description lang="fr">Pharfan est très rare, il s'amuse arroser les gens qu'ils rencontre</description>
+	</monster>
+	<monster id="13" type="normal" height="0.76m" weight="42kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="180" attack="140" defense="110" special_attack="110" special_defense="100" speed="150" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="3" />
+			<attack level="12" id="12" />
+			<attack level="20" id="3" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2012" quantity="1" luck="45" />
+		</drops>
+		<evolutions>
+			<evolution type="trade" evolveTo="14" />
+		</evolutions>
+		<name>Sclairus</name>
+		<name lang="fr">Sclairus</name>
+		<description>Sclairus is an insect that feed exclusively.</description>
+		<description lang="fr">Sclairus est un insecte qui se nourrir exclusivement</description>
+	</monster>
+	<monster id="14" type="normal;electric" height="0.76m" weight="62kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="220" attack="150" defense="120" special_attack="130" special_defense="110" speed="140" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="3" />
+			<attack level="12" id="12" />
+			<attack level="20" id="3" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2012" quantity="1" luck="45" />
+		</drops>
+		<name>Coleorus</name>
+		<name lang="fr">Coléorus</name>
+		<description>Coleorus is an insect that feed exclusively.</description>
+		<description lang="fr">Coléorus est un insecte qui se nourrir exclusivement</description>
+	</monster>
+	<monster id="17" type="psy" height="0.76m" weight="28kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="190" attack="70" defense="70" special_attack="230" special_defense="130" speed="120" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="10" id="14" />
+			<attack level="16" id="4" />
+			<attack level="18" id="14" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2004" quantity_min="1" quantity_max="2" luck="12" />
+		</drops>
+		<name>Volcoli</name>
+		<name lang="fr">Volcoli</name>
+		<description>Volcoli is considered the forest nymph, she spent her life has protected the forest</description>
+		<description lang="fr">Volcoli est considéré comme la nymphe des foret, elle passe sa vie a protégé la foret</description>
+	</monster>
+	<monster id="18" type="bird" height="0.76m" weight="3kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="80" defense="80" special_attack="60" special_defense="80" speed="110" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="9" />
+			<attack level="10" id="15" />
+			<attack level="18" id="15" attack_level="2" />
+			<attack level="20" id="9" attack_level="2" />
+		</attack_list>
+		<evolutions>
+			<evolution level="26" type="level" evolveTo="32" />
+		</evolutions>
+		<drops>
+			<drop item="2002" quantity="1" luck="6" />
+			<drop item="2003" quantity="1" luck="18" />
+		</drops>
+		<name>Noctula</name>
+		<name lang="fr">Noctula</name>
+		<description>Nocula small nocturnal bird, has a highly developed sense of hearing that allows him to what moves in total darkness.</description>
+		<description lang="fr">Noctula petit oiseau nocturne, posséde un ouïe très développé qui lui permet de ce deplacé dans l'obscurité totale</description>
+	</monster>
+	<monster id="19" type="water" height="0.76m" weight="14kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="200" defense="250" special_attack="180" special_defense="150" speed="180" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="2" />
+			<attack level="20" id="2" attack_level="2" />
+		</attack_list>
+		<name>Rhinocarpe</name>
+		<name lang="fr">Rhinocarpe</name>
+		<description>Rhinocarpe is a marine animal that lives near the coast ca malgrés horn is a very friendly animal</description>
+		<description lang="fr">Rhinocarpe est un animal marin, qui vit prés des cote malgrés ca corne c'est un animal très amical</description>
+	</monster>
+	<monster id="20" type="water" height="0.76m" weight="28kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="270" attack="90" defense="80" special_attack="140" special_defense="130" speed="60" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="2" />
+			<attack level="20" id="2" attack_level="2" />
+		</attack_list>
+		<name>Hampotamos</name>
+		<name lang="fr">Hampotamos</name>
+		<description>Hampotamos Amphibian is an animal very awkward, it has the unfortunate tendency to fail everything</description>
+		<description lang="fr">Hampotamos est un animal Amphibien très maladroit, il a la facheuse tendance à échouer tout ce qu'il entreprend</description>
+	</monster>
+	<monster id="21" type="fight" height="0.76m" weight="23kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="250" attack="160" defense="110" special_attack="80" special_defense="70" speed="80" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="2" />
+			<attack level="20" id="2" attack_level="2" />
+		</attack_list>
+		<name>Urcine</name>
+		<name lang="fr">Ursine</name>
+		<description>Urcine is an aggressive animal, which does not consider the value of people in the affrontents with all that power, however it can reveal this very sociable</description>
+		<description lang="fr">Urcine est un animal agressif, qui ne juge de la valeur des gens que en les affrontents avec toute ça force, malgrès les apparences il peut ce revelé très sociable</description>
+	</monster>
+	<monster id="22" type="poison" height="0.76m" weight="3.4kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="50" defense="80" special_attack="40" special_defense="40" speed="90" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="9" />
+			<attack level="10" id="10" />
+			<attack level="20" id="9" attack_level="2" />
+			<attack level="22" id="10" />
+		</attack_list>
+		<evolutions>
+			<evolution level="26" type="level" evolveTo="23" />
+		</evolutions>
+		<name>Chenipode</name>
+		<name lang="fr">Chenipode</name>
+		<description>Common wood's caterpillar, it has armor on the back to protect it from flying predators, she is very cuddly although toxic to who touch her</description>
+		<description lang="fr">chenille des bois commune , elle possède une armure sur le dos pour la protéger des prédateurs volants, elle est très caline bien que toxique pour qui la touche</description>
+	</monster>
+	<monster id="23" type="poison" height="0.76m" weight="12kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="230" attack="80" defense="110" special_attack="160" special_defense="160" speed="150" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="8" id="9" />
+			<attack level="10" id="10" />
+			<attack level="20" id="9" attack_level="2" />
+			<attack level="22" id="10" />
+		</attack_list>
+		<name>Exapode</name>
+		<name lang="fr">Exapode</name>
+		<description>Chrysalis of wood it has armor on almost integraliter body blocking him part her movements,, she is very cuddly although toxic to who touch her</description>
+		<description lang="fr">Chrysalide des bois elle possède une armure sur la quasi integraliter du corps qui lui bloque en partie ses mouvements, elle est très caline bien que toxique pour qui la touche</description>
+	</monster>
+	<monster id="25" type="plant" height="0.76m" weight="12kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="225" attack="120" defense="106" special_attack="100" special_defense="70" speed="110" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="3" />
+			<attack level="20" id="3" attack_level="2" />
+		</attack_list>
+		<name>Cowpignon</name>
+		<name lang="fr">Cowpignon</name>
+		<description>Cowpignon is an animal who have fun to challenge other monster.</description>
+		<description lang="fr">Cowpignon est un animal qui s'amuse énormement à défier les autres monstre.</description>
+	</monster>
+	<monster id="27" type="plant" height="0.76m" weight="12kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+		hp="200" attack="75" defense="126" special_attack="70" special_defense="102" speed="80" give_sp="100" give_xp="11000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="3" />
+			<attack level="12" id="12" />
+			<attack level="20" id="3" attack_level="2" />
+			<attack level="22" id="12" attack_level="2" />
+		</attack_list>
+		<name>Tarpeur</name>
+		<name lang="fr">Tarpeur</name>
+		<description>Tarpeur is a fearful animal, it lives hidden in a rock and hide at the slightest danger.</description>
+		<description lang="fr">Tarpeur est un animal peureux, il vit caché dans un rocher et ce cache au moindre danger.</description>
+	</monster>
+	<monster id="30" type="bird" height="0.2m" weight="2kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="150" attack="130" defense="120" special_attack="120" special_defense="150" speed="170" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="10" id="15" />
+			<attack level="18" id="15" attack_level="2" />
+		</attack_list>
+		<evolutions>
+			<evolution level="38" type="level" evolveTo="31" />
+		</evolutions>
+		<drops>
+			<drop item="1001" quantity="1" luck="4" />
+			<drop item="1002" quantity="1" luck="4" />
+			<drop item="1003" quantity="1" luck="4" />
+			<drop item="1004" quantity="1" luck="4" />
+			<drop item="1005" quantity="1" luck="4" />
+			<drop item="1006" quantity="1" luck="4" />
+			<drop item="1007" quantity="1" luck="4" />
+			<drop item="1008" quantity="1" luck="4" />
+			<drop item="1009" quantity="1" luck="4" />
+		</drops>
+		<name>Elowind</name>
+		<name lang="fr">Elowind</name>
+		<description>Elowind frugivor is a small bird that lives in the forests and plains</description>
+		<description lang="fr">Elowind est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+	</monster>
+	<monster id="31" type="bird" height="0.2m" weight="2kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="175" attack="170" defense="160" special_attack="160" special_defense="200" speed="200" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="10" id="15" />
+			<attack level="18" id="15" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="1001" quantity="1" luck="6" />
+			<drop item="1002" quantity="1" luck="6" />
+			<drop item="1003" quantity="1" luck="6" />
+			<drop item="1004" quantity="1" luck="6" />
+			<drop item="1005" quantity="1" luck="6" />
+			<drop item="1006" quantity="1" luck="6" />
+			<drop item="1007" quantity="1" luck="6" />
+			<drop item="1008" quantity="1" luck="6" />
+			<drop item="1009" quantity="1" luck="6" />
+		</drops>
+		<name>Elostorm</name>
+		<name lang="fr">Elostorm</name>
+		<description>Elostorm frugivor is a small bird that lives in the forests and plains</description>
+		<description lang="fr">Elostorm est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+	</monster>
+	<monster id="32" type="bird" height="0.2m" weight="2kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="175" attack="170" defense="150" special_attack="160" special_defense="200" speed="230" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="5" />
+			<attack level="0" id="7" />
+			<attack level="10" id="15" />
+			<attack level="18" id="15" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2002" quantity="1" luck="18" />
+			<drop item="2003" quantity="1" luck="54" />
+		</drops>
+		<name>Noctalo</name>
+		<name lang="fr">Noctalo</name>
+		<description>Noctalo small nocturnal bird, has a highly developed sense of hearing that allows him to what moves in total darkness.</description>
+		<description lang="fr">Noctalo petit oiseau nocturne, posséde un ouïe très développé qui lui permet de ce deplacé dans l'obscurité totale</description>
+	</monster>
+	<monster id="33" type="stone" height="1.56m" weight="61kg" ratio_gender="50%" catch_rate="100" egg_step="5000" xp_max="400000"
+	hp="150" attack="130" defense="130" special_attack="120" special_defense="80" speed="110" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="8" id="8" />
+			<attack level="20" id="8" attack_level="2" />
+		</attack_list>
+		<drops>
+			<drop item="2000" quantity="1" luck="20" />
+			<drop item="2001" quantity="1" luck="10" />
+			<drop item="2003" quantity="1" luck="30" />
+		</drops>
+		<name>Selket</name>
+		<name lang="fr">Selket</name>
+		<description>Selket is mainly composed of stone, which makes it so resistant</description>
+		<description lang="fr">Selket est composé principalement de pierre, ce qui le rend si résistant s</description>
+	</monster>
+	<monster id="40" type="poison" height="0.20m" weight="0.6kg" ratio_gender="50%" catch_rate="20" egg_step="5000" xp_max="1600000"
+		hp="150" attack="130" defense="130" special_attack="120" special_defense="80" speed="110" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="5" id="7" />
+			<attack level="8" id="10" />
+		</attack_list>
+		<drops>
+			<drop item="2000" quantity="1" luck="20" />
+			<drop item="2001" quantity="1" luck="10" />
+			<drop item="2003" quantity="1" luck="30" />
+		</drops>
+		<evolutions>
+			<evolution level="4010" type="item" evolveTo="41"/>
+		</evolutions>
+		<name>Snaki</name>
+		<name lang="fr">Snaki</name>
+		<description>Snaki is small snake found into the hurge grass</description>
+		<description lang="fr">Snaki est un petit serpent que l'ont trouve dans les grandes herbes</description>
+	</monster>
+	<monster id="41" type="poison;fire" height="0.20m" weight="0.6kg" ratio_gender="50%" catch_rate="20" egg_step="5000" xp_max="1600000"
+		hp="150" attack="130" defense="130" special_attack="120" special_defense="80" speed="110" give_sp="100" give_xp="10000" pow="2">
+		<attack_list>
+			<attack level="0" id="6" />
+			<attack level="0" id="5" />
+			<attack level="5" id="7" />
+			<attack level="8" id="10" />
+			<attack byitem="17" id="17" />
+			<attack byitem="18" id="17" attack_level="2" />
+
+		</attack_list>
+		<drops>
+			<drop item="2000" quantity="1" luck="20" />
+			<drop item="2001" quantity="1" luck="10" />
+			<drop item="2003" quantity="1" luck="30" />
+		</drops>
+		<name>Snokari</name>
+		<name lang="fr">Snokari</name>
+		<description>Snokari is snake with dedoubled head due to alteration genetic</description>
+		<description lang="fr">Snokari est un serpent avec une double tête à cause d'une alteration génétique</description>
+	</monster>
+</monsters>

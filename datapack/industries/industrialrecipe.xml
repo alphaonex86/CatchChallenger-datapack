@@ -1,0 +1,64 @@
+<industries>
+	<industrialrecipe id="1" time="1080" cycletobefull="10">
+		<resource id="2000" quantity="4" />
+		<resource id="2003" quantity="2" />
+		<product id="2005" quantity="2" />
+	</industrialrecipe>	
+	<industrialrecipe id="2" time="1080" cycletobefull="10">
+		<resource id="2001" quantity="4" />
+		<resource id="2003" quantity="4" />
+		<product id="2006" quantity="2" />
+	</industrialrecipe>	
+	<industrialrecipe id="3" time="1080" cycletobefull="10">
+		<resource id="2002" quantity="4" />
+		<resource id="2003" quantity="8" />
+		<product id="2007" quantity="2" />
+	</industrialrecipe>
+	<industrialrecipe id="4" time="1080" cycletobefull="10">
+		<resource id="2006" quantity="5" />
+		<resource id="2003" quantity="5" />
+		<product id="2008" quantity="1" />
+	</industrialrecipe>
+	<industrialrecipe id="5" time="1080" cycletobefull="10">
+		<resource id="2004" quantity="1" />
+		<resource id="2003" quantity="1" />
+		<product id="2009" quantity="1" />
+	</industrialrecipe>
+	<industrialrecipe id="6" time="1080" cycletobefull="10">
+		<resource id="2006" quantity="2" />
+		<resource id="2005" quantity="2" />
+		<product id="1" quantity="1" />
+	</industrialrecipe>
+	<industrialrecipe id="7" time="1080" cycletobefull="10">
+		<resource id="2005" quantity="1" />
+		<resource id="2006" quantity="1" />
+		<resource id="2007" quantity="2" />
+		<product id="2" quantity="1" />
+	</industrialrecipe>
+	<industrialrecipe id="8" time="1080" cycletobefull="10">
+		<resource id="2005" quantity="1" />
+		<resource id="2006" quantity="1" />
+		<resource id="2007" quantity="2" />
+		<resource id="2008" quantity="2" />
+		<product id="3" quantity="1" />
+	</industrialrecipe>
+	<industrialrecipe id="9" time="1080" cycletobefull="10">
+		<resource id="2014" quantity="20" />
+		<product id="2015" quantity="10" />
+	</industrialrecipe>
+	<industrialrecipe id="10" time="1080" cycletobefull="10">
+		<resource id="2015" quantity="10" />
+		<product id="2016" quantity="15" />
+	</industrialrecipe>
+	<industrialrecipe id="11" time="1080" cycletobefull="10">
+		<resource id="2016" quantity="10" />
+		<product id="2014" quantity="20" />
+	</industrialrecipe>
+	<industrialrecipe id="12" time="5400" cycletobefull="10">
+		<resource id="2016" quantity="25" />
+		<product id="2000" quantity="64" />
+		<product id="2001" quantity="224" />
+		<product id="2002" quantity="64" />
+		<product id="2003" quantity="304" />
+	</industrialrecipe>
+</industries>

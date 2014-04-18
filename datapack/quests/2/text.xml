@@ -1,0 +1,48 @@
+<text>
+	<client_logic id="1">
+		<text><![CDATA[I need 2 Iron trap to capture monsters. If you help me, I give you some plant.<br />
+		<br />
+		<a href="next_quest_step;42">Yes I have it</a><br />
+		<a href="2">I don't have it</a>]]></text>
+		<text lang="fr"><![CDATA[J'ai besoin de 2 trappes de fer pour mes camarades. si tu m'aides, je te donnerai des plantes.<br />
+		<br />
+		<a href="next_quest_step;42">Je les ai</a><br />
+		<a href="2">Je ne les ai pas</a>]]></text>
+	</client_logic>
+	<client_logic id="2">
+		<text><![CDATA[Then bye]]></text>
+		<text lang="fr"><![CDATA[Alors à plus tard]]></text>
+	</client_logic>
+	<client_logic id="42">
+		<text><![CDATA[I wait you with the 2 Iron trap]]></text>
+		<text lang="fr"><![CDATA[Je t'attend avec tes 2 trappes de fer]]></text>
+	</client_logic>
+	<client_logic id="50">
+		<text><![CDATA[Do you have the 2 Iron trap for me?<br />
+		<br />
+		<a href="next_quest_step">Yes I have it</a>]]></text>
+		<text lang="fr"><![CDATA[Tu as mes 2 trappes de fer ?<br />
+		<br />
+		<a href="next_quest_step">Super j'ai tout</a>]]></text>
+	</client_logic>
+	<client_logic id="52">
+		<text><![CDATA[Now talk to the reaper, it give you the plant]]></text>
+		<text lang="fr"><![CDATA[Maintenant va parler à Reaper, Il te donnera tes plantes]]></text>
+	</client_logic>
+	<client_logic id="53">
+		<text><![CDATA[You don't have required quantity.]]></text>
+		<text lang="fr"><![CDATA[Tu n'as pas la quantité nécessaire.]]></text>
+	</client_logic>
+	<client_logic id="55">
+		<text><![CDATA[What do you want?<br />
+		<br />
+		<a href="next_quest_step;56">The bandit have say to talk to you</a><br />]]></text>
+		<text lang="fr"><![CDATA[Que me veux tu ?<br />
+		<br />
+		<a href="next_quest_step;56">Un ami a dit de venir vous parler, pour avoir quelque plantes</a><br />]]></text>
+	</client_logic>
+	<client_logic id="56">
+		<text><![CDATA[Exactly, you have finish the quest for him]]></text>
+		<text lang="fr"><![CDATA[Parfait, tu nous as bien rendu service merci, tiens voila tes plantes]]></text>
+	</client_logic>
+</text>
