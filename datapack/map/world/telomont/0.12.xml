@@ -1,8 +1,8 @@
 <map zone="telomont" type="city">
-	<name>Telomont</name>
-	<name lang="fr">Telomont</name>
-	<grass>
-          <monster id="5" minLevel="15" maxLevel="17" luck="60" />
-          <monster id="2" minLevel="15" maxLevel="17" luck="40" />
-  </grass>
+    <name>Telomont</name>
+    <name lang="fr">Telomont</name>
+    <grass>
+        <monster id="5" minLevel="15" maxLevel="17" luck="60"/>
+        <monster id="2" minLevel="15" maxLevel="17" luck="40"/>
+    </grass>
 </map>

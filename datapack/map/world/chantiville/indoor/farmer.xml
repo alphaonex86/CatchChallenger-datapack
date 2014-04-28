@@ -1,4 +1,4 @@
-<map zone="chantiville" type="indoor">
+<map type="indoor" zone="chantiville">
     <name>Home</name>
     <name lang="fr">Maison</name>
 </map>

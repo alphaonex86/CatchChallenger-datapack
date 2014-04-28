@@ -1,4 +1,4 @@
-<map zone="mersoul" type="outdoor">
-	<name>Mersoul</name>
-	<name lang="fr">Mersoul</name>
+<map type="outdoor" zone="mersoul">
+    <name>Mersoul</name>
+    <name lang="fr">Mersoul</name>
 </map>

@@ -4,28 +4,27 @@ Warning: The price can't be directly show by the client, because some random par
 Some special product can be added onetime too
 -->
 <shops>
-	<shop id="1">		
-    <product itemId="1" />
-		<product itemId="5" />
-		<product itemId="9" />
-		<product itemId="13" />
-		<product itemId="14" />
-		<product itemId="15" />
-		<product itemId="3001" />
-		<product itemId="3002" />
-		<product itemId="3007" />
-		<product itemId="3008" />
-		<product itemId="3009" />
-
-	</shop>
-	<shop id="2">		
-    <product itemId="2" />
-		<product itemId="6" />
-		<product itemId="10" />
-		<product itemId="13" />
-		<product itemId="14" />
-		<product itemId="15" />
-		<product itemId="3003" />
-		<product itemId="3004" />
-	</shop>
+    <shop id="1">
+        <product itemId="1"/>
+        <product itemId="5"/>
+        <product itemId="9"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+        <product itemId="3001"/>
+        <product itemId="3002"/>
+        <product itemId="3007"/>
+        <product itemId="3008"/>
+        <product itemId="3009"/>
+    </shop>
+    <shop id="2">
+        <product itemId="2"/>
+        <product itemId="6"/>
+        <product itemId="10"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+        <product itemId="3003"/>
+        <product itemId="3004"/>
+    </shop>
 </shops>

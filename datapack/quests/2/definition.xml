@@ -1,19 +1,20 @@
 <quest repeatable="no" bot="2002">
-	<name><![CDATA[Farm your success]]></name>
-	<name lang="fr"><![CDATA[Cultive ta réussite]]></name>
-	<step id="1">
-		<text><![CDATA[Abrind 2 iron trappe to the bandit]]></text>
-		<text lang="fr"><![CDATA[Apporte les 2 trappes de fer au bandit]]></text>
-		<item id="1" quantity="5" />
-	</step>
-	<step id="2" bot="2003"><!-- just talk with a bot -->
-		<text><![CDATA[Talk to the Reaper]]></text>
-		<text lang="fr"><![CDATA[Parle à Reaper]]></text>
-	</step>
-	<rewards>
-		<item id="1001" quantity="5" />
-		<item id="1002" quantity="5" />
-		<item id="1003" quantity="5" />
-		<reputation type="empire" point="-1" />
-	</rewards>
+    <name><![CDATA[Farm your success]]></name>
+    <name lang="fr"><![CDATA[Cultive ta réussite]]></name>
+    <step id="1">
+        <text><![CDATA[Abrind 2 iron trappe to the bandit]]></text>
+        <text lang="fr"><![CDATA[Apporte les 2 trappes de fer au bandit]]></text>
+        <item quantity="5" id="1"/>
+    </step>
+    <step id="2" bot="2003">
+        <!-- just talk with a bot -->
+        <text><![CDATA[Talk to the Reaper]]></text>
+        <text lang="fr"><![CDATA[Parle à Reaper]]></text>
+    </step>
+    <rewards>
+        <item quantity="5" id="1001"/>
+        <item quantity="5" id="1002"/>
+        <item quantity="5" id="1003"/>
+        <reputation type="empire" point="-1"/>
+    </rewards>
 </quest>

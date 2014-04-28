@@ -1,9 +1,9 @@
-<map type="cave" backgroundsound="toto.ogg" zone="test">
-	<name>Cave</name>
-	<name lang="fr">Grotte</name>
-	<grass>
-          <monster id="5" minLevel="7" maxLevel="9" luck="45" />
-          <monster id="21" minLevel="7" maxLevel="9" luck="10" />
-          <monster id="18" minLevel="7" maxLevel="9" luck="45" />
-  </grass>
+<map backgroundsound="toto.ogg" zone="test" type="cave">
+    <name>Cave</name>
+    <name lang="fr">Grotte</name>
+    <grass>
+        <monster luck="45" id="5" minLevel="7" maxLevel="9"/>
+        <monster luck="10" id="21" minLevel="7" maxLevel="9"/>
+        <monster luck="45" id="18" minLevel="7" maxLevel="9"/>
+    </grass>
 </map>

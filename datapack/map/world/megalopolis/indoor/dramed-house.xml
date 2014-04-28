@@ -1,4 +1,4 @@
-<map zone="megalopolis" type="indoor">
+<map type="indoor" zone="megalopolis">
     <name>Learning Centre</name>
     <name lang="fr">Centre d'apprentissage</name>
 </map>

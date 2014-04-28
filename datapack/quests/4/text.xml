@@ -1,32 +1,32 @@
 <text>
-	<client_logic id="1">
-		<text><![CDATA[I need to give this invitation to a botanist, she is in dangerous forest</a><br />
-		Can u do this for me ?.<br />
-		<br />
-		<a href="next_quest_step;42">No probleme for me</a><br />]]></text>
-		<text lang="fr"><![CDATA[J'ai besoin de donner cette invitation a une botaniste,</a><br />
-		 Mais elle est dans une dangereuse forêt. Peux tu faire ça pour moi ?.<br />
-		<br />
-		<a href="next_quest_step;42">Cela ne me pose aucun problème</a><br />]]></text>
-	</client_logic>
-	<client_logic id="2">
-		<text><![CDATA[Then bye]]></text>
-		<text lang="fr"><![CDATA[Au revoir]]></text>
-	</client_logic>
-	<client_logic id="42">
-		<text><![CDATA[I hope in you]]></text>
-		<text lang="fr"><![CDATA[Je crois en toi]]></text>
-	</client_logic>
-	<client_logic id="55">
-		<text><![CDATA[What do you want?<br />
-		<br />
-		<a href="next_quest_step;56">One person send me</a><br />]]></text>
-		<text lang="fr"><![CDATA[Que me veux tu ?<br />
-		<br />
-		<a href="next_quest_step;56">Une personne m'envoie</a><br />]]></text>
-	</client_logic>
-	<client_logic id="56">
-		<text><![CDATA[Oh thank you, this is an invitation to a conference on berries, take that !]]></text>
-		<text lang="fr"><![CDATA[Oh merci, c'est une invitation à une conférence sur les baies , prend ça pour ta peine !]]></text>
-	</client_logic>
+    <client_logic id="1">
+        <text><![CDATA[I need to give this invitation to a botanist, she is in dangerous forest</a><br />
+        Can u do this for me ?.<br />
+        <br />
+        <a href="next_quest_step;42">No probleme for me</a><br />]]></text>
+        <text lang="fr"><![CDATA[J'ai besoin de donner cette invitation a une botaniste,</a><br />
+         Mais elle est dans une dangereuse forêt. Peux tu faire ça pour moi ?.<br />
+        <br />
+        <a href="next_quest_step;42">Cela ne me pose aucun problème</a><br />]]></text>
+    </client_logic>
+    <client_logic id="2">
+        <text><![CDATA[Then bye]]></text>
+        <text lang="fr"><![CDATA[Au revoir]]></text>
+    </client_logic>
+    <client_logic id="42">
+        <text><![CDATA[I hope in you]]></text>
+        <text lang="fr"><![CDATA[Je crois en toi]]></text>
+    </client_logic>
+    <client_logic id="55">
+        <text><![CDATA[What do you want?<br />
+        <br />
+        <a href="next_quest_step;56">One person send me</a><br />]]></text>
+        <text lang="fr"><![CDATA[Que me veux tu ?<br />
+        <br />
+        <a href="next_quest_step;56">Une personne m'envoie</a><br />]]></text>
+    </client_logic>
+    <client_logic id="56">
+        <text><![CDATA[Oh thank you, this is an invitation to a conference on berries, take that !]]></text>
+        <text lang="fr"><![CDATA[Oh merci, c'est une invitation à une conférence sur les baies , prend ça pour ta peine !]]></text>
+    </client_logic>
 </text>

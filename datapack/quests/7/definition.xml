@@ -1,13 +1,13 @@
-<quest repeatable="no" bot="2011">
-	<name><![CDATA[Help the  distillery]]></name>
-  <name lang="fr"><![CDATA[Aidez la distillery]]></name>
-	<step id="1">
-		<text><![CDATA[Collect 10 toxic fluid on Chenipode and come back to see scientific]]></text>
-		<text lang="fr"><![CDATA[Récupère 10 fluide toxic sur des Chenipode et rapporte les au scientific]]></text>
-		<item id="4005" quantity="10" monster="22" rate="100%" />
-	</step>
-	<rewards show="true">
-		<item id="2015" quantity="10" />
-		<reputation type="empire" point="+1" />
-	</rewards>
-</quest> 
+<quest bot="2011" repeatable="no">
+    <name><![CDATA[Help the  distillery]]></name>
+    <name lang="fr"><![CDATA[Aidez la distillery]]></name>
+    <step id="1">
+        <text><![CDATA[Collect 10 toxic fluid on Chenipode and come back to see scientific]]></text>
+        <text lang="fr"><![CDATA[Récupère 10 fluide toxic sur des Chenipode et rapporte les au scientific]]></text>
+        <item quantity="10" id="4005" monster="22" rate="100%"/>
+    </step>
+    <rewards show="true">
+        <item quantity="10" id="2015"/>
+        <reputation point="+1" type="empire"/>
+    </rewards>
+</quest>

@@ -1,10 +1,10 @@
 <map zone="terrapionera" type="outdoor">
     <name lang="en">Road</name>
     <name lang="fr">Route</name>
-   <grass>
-          <monster id="3" minLevel="17" maxLevel="21" luck="30" />
-          <monster id="13" minLevel="17" maxLevel="22" luck="20" />
-          <monster id="5" minLevel="16" maxLevel="22" luck="40" />
-          <monster id="30" minLevel="16" maxLevel="22" luck="10" />
-  </grass>
+    <grass>
+        <monster luck="30" minLevel="17" maxLevel="21" id="3"/>
+        <monster luck="20" minLevel="17" maxLevel="22" id="13"/>
+        <monster luck="40" minLevel="16" maxLevel="22" id="5"/>
+        <monster luck="10" minLevel="16" maxLevel="22" id="30"/>
+    </grass>
 </map>

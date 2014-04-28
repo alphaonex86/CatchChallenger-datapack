@@ -1,4 +1,4 @@
-<map zone="symposia" type="indoor">
+<map type="indoor" zone="symposia">
     <name>Foundry</name>
     <name lang="fr">Fonderie</name>
 </map>

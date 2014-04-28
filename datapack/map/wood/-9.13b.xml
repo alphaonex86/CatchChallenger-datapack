@@ -1,12 +1,12 @@
 <map type="outdoor" backgroundsound="toto.ogg" zone="terrapionera">
-	<name>boreal forest</name>
-	<name lang="fr">Fôret boréale</name>
-	<grass>
-          <monster id="23" minLevel="26" maxLevel="27" luck="20" />
-          <monster id="22" minLevel="23" maxLevel="25" luck="20" />
-          <monster id="3" minLevel="23" maxLevel="26" luck="40" />
-          <monster id="17" minLevel="25" maxLevel="27" luck="10" />
-          <monster id="21" minLevel="23" maxLevel="26" luck="10" />
-  </grass>
-	<wather></wather>
+    <name>boreal forest</name>
+    <name lang="fr">Fï¿½ret borï¿½ale</name>
+    <grass>
+        <monster luck="20" id="23" minLevel="26" maxLevel="27"/>
+        <monster luck="20" id="22" minLevel="23" maxLevel="25"/>
+        <monster luck="40" id="3" minLevel="23" maxLevel="26"/>
+        <monster luck="10" id="17" minLevel="25" maxLevel="27"/>
+        <monster luck="10" id="21" minLevel="23" maxLevel="26"/>
+    </grass>
+    <wather/>
 </map>

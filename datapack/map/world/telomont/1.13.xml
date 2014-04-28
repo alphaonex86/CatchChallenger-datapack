@@ -1,9 +1,9 @@
 <map zone="telomont" type="outdoor">
-	<name>Crossing of the fate</name>
-	<name lang="fr">Croisement du destin</name>
-	<grass>
-          <monster id="3" minLevel="15" maxLevel="18" luck="40" />
-          <monster id="13" minLevel="15" maxLevel="18" luck="50" />
-          <monster id="2" minLevel="16" maxLevel="19" luck="10" />
-  </grass>
+    <name>Crossing of the fate</name>
+    <name lang="fr">Croisement du destin</name>
+    <grass>
+        <monster id="3" minLevel="15" luck="40" maxLevel="18"/>
+        <monster id="13" minLevel="15" luck="50" maxLevel="18"/>
+        <monster id="2" minLevel="16" luck="10" maxLevel="19"/>
+    </grass>
 </map>

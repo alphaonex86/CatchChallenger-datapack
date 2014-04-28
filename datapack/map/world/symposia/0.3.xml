@@ -1,9 +1,9 @@
-<map zone="symposia" type="outdoor">
-	<name>Road 5</name>
-	<name lang="fr">Route 5</name>
-	<grass>
-          <monster id="3" minLevel="4" maxLevel="5" luck="30" />
-          <monster id="2" minLevel="4" maxLevel="5" luck="35" />
-          <monster id="13" minLevel="4" maxLevel="5" luck="35" />
-  </grass>
+<map type="outdoor" zone="symposia">
+    <name>Road 5</name>
+    <name lang="fr">Route 5</name>
+    <grass>
+        <monster luck="30" id="3" minLevel="4" maxLevel="5"/>
+        <monster luck="35" id="2" minLevel="4" maxLevel="5"/>
+        <monster luck="35" id="13" minLevel="4" maxLevel="5"/>
+    </grass>
 </map>

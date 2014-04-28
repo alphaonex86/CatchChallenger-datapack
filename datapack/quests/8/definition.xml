@@ -1,18 +1,18 @@
-<quest repeatable="no" bot="2011">
-	<name><![CDATA[Help the  distillery]]></name>
-  <name lang="fr"><![CDATA[Aidez la distillery]]></name>
-	<requirements>
-		<quest id="7" />
-	</requirements>
-	<step id="1">
-		<text><![CDATA[brind 3 Red pepper, 3 Yellow pepper and 3 Red mushoorm to the scientific]]></text>
-		<text lang="fr"><![CDATA[Apporte 3 poivron rouge, poivrons 3 jaunes et 3 Champignon rouge au scientifique]]></text>
-		<item id="3" quantity="1006" />
-		<item id="3" quantity="1007" />
-		<item id="3" quantity="1009" />
-	</step>
-	<rewards>
-		<item id="2015" quantity="10" />
-		<reputation type="empire" point="+1" />
-	</rewards>
+<quest bot="2011" repeatable="no">
+    <name><![CDATA[Help the  distillery]]></name>
+    <name lang="fr"><![CDATA[Aidez la distillery]]></name>
+    <requirements>
+        <quest id="7"/>
+    </requirements>
+    <step id="1">
+        <text><![CDATA[brind 3 Red pepper, 3 Yellow pepper and 3 Red mushoorm to the scientific]]></text>
+        <text lang="fr"><![CDATA[Apporte 3 poivron rouge, poivrons 3 jaunes et 3 Champignon rouge au scientifique]]></text>
+        <item quantity="1006" id="3"/>
+        <item quantity="1007" id="3"/>
+        <item quantity="1009" id="3"/>
+    </step>
+    <rewards>
+        <item quantity="10" id="2015"/>
+        <reputation point="+1" type="empire"/>
+    </rewards>
 </quest>

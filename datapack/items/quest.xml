@@ -8,69 +8,69 @@ consumeAtUse="true"
 <buff remove="9"/> to remove buff or replace 9 by all to remove all
 -->
 <items>
-    <item price="0" id="4001" image="other/conileaf-skin.png">
+    <item image="other/conileaf-skin.png" id="4001" price="0">
         <name lang="fr">Peau de Conileaf</name>
         <name>conileaf skin</name>
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4002" image="other/elofly-feather.png">
+    <item image="other/elofly-feather.png" id="4002" price="0">
         <name lang="fr">Plume d'Elofly</name>
-        <name>Elofly feather</name>.
+        <name>Elofly feather</name>.&#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4003" image="other/chenipode-skin.png">
+    <item image="other/chenipode-skin.png" id="4003" price="0">
         <name lang="fr">Peau de Chenipode</name>
-        <name>Chenipode skin</name>.
+        <name>Chenipode skin</name>.&#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4004" image="other/polyrock-headband.png">
+    <item image="other/polyrock-headband.png" id="4004" price="0">
         <name lang="fr">Bandeau de Polyrock</name>
-        <name>Polyrock headband</name>.
+        <name>Polyrock headband</name>.&#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4005" image="other/chenipode-fluid.png">
+    <item image="other/chenipode-fluid.png" id="4005" price="0">
         <name lang="fr">Fuilde de Chenipode</name>
-        <name>Chenipode fluid</name>.
+        <name>Chenipode fluid</name>.&#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4006" image="other/polyrock-heart.png">
+    <item image="other/polyrock-heart.png" id="4006" price="0">
         <name lang="fr">Coeur de Polyrock</name>
-        <name>Polyrock heart</name>. 
+        <name>Polyrock heart</name>. &#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4007" image="other/tourbidi-corpse.png">
+    <item image="other/tourbidi-corpse.png" id="4007" price="0">
         <name lang="fr">Cadavre de Tourbidi</name>
-        <name>Toubidi corpse</name>. 
+        <name>Toubidi corpse</name>. &#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4008" image="other/tourbidi-fight-record.png">
+    <item image="other/tourbidi-fight-record.png" id="4008" price="0">
         <name lang="fr">Relevé de combat contre Tourbidi</name>
-        <name>Toubidi fight record</name>. 
+        <name>Toubidi fight record</name>. &#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4009" image="other/exapode-molt.png">
+    <item image="other/exapode-molt.png" id="4009" price="0">
         <name lang="fr">Mue d'Exapode</name>
-        <name>Exapode molt</name>. 
+        <name>Exapode molt</name>. &#xd;
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
-    <item price="0" id="4010" image="evolution/waste_container.png">
+    <item image="evolution/waste_container.png" id="4010" price="0">
         <name lang="fr">Conteneur d'ordure</name>
-        <name>Waste container</name>. 
+        <name>Waste container</name>. &#xd;
         <description>The content can alter the ADN</description>
         <description lang="fr">Son contenu peu modifier l'ADN</description>
     </item>
-    <item price="0" id="4011" image="evolution/bio_container.png">
+    <item image="evolution/bio_container.png" id="4011" price="0">
         <name lang="fr">Conteneur biologique</name>
-        <name>Bio container</name>. 
+        <name>Bio container</name>. &#xd;
         <description>A contact do permanent damage on the ADN</description>
         <description lang="fr">Un contacte endomage de maniére permanente l'ADN</description>
     </item>

@@ -1,10 +1,10 @@
 <map zone="megalopolis" type="outdoor">
-	<name>Road 6</name>
-	<name lang="fr">Route 6</name>
-	<grass>
-          <monster id="3" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="2" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="13" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="8" minLevel="6" maxLevel="7" luck="10" />
-  </grass>
+    <name>Road 6</name>
+    <name lang="fr">Route 6</name>
+    <grass>
+        <monster luck="30" id="3" minLevel="6" maxLevel="7"/>
+        <monster luck="30" id="2" minLevel="6" maxLevel="7"/>
+        <monster luck="30" id="13" minLevel="6" maxLevel="7"/>
+        <monster luck="10" id="8" minLevel="6" maxLevel="7"/>
+    </grass>
 </map>

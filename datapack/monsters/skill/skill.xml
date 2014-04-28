@@ -193,7 +193,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-  <skill id="14" type="psy">
+    <skill id="14" type="psy">
         <name>Mental wave</name>
         <name lang="fr">Onde mental</name>
         <description>Sends a mental wave</description>
@@ -209,7 +209,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-  <skill id="15" type="bird">
+    <skill id="15" type="bird">
         <name>Blowed</name>
         <name lang="fr">Bourrasque</name>
         <description>Sends a blow</description>
@@ -225,15 +225,13 @@ endurance="40"
             </level>
         </effect>
     </skill>
-  <skill id="16" type="normal">
+    <skill id="16" type="normal">
         <name>Turn</name>
         <name lang="fr">Tourne</name>
         <description>Tourbidi turn</description>
         <description lang="fr">Tourbidi tourne</description>
         <effect>
-          <level sp="100" endurance="30" number="1">
- 
-            </level>
+            <level sp="100" endurance="30" number="1"/>
         </effect>
     </skill>
     <skill id="17" type="fire">
@@ -248,7 +246,7 @@ endurance="40"
             <level sp="300" endurance="25" number="2">
                 <life success="90%" quantity="-45"/>
             </level>
-	    <level sp="300" endurance="25" number="3">
+            <level sp="300" endurance="25" number="3">
                 <life success="90%" quantity="-50"/>
             </level>
         </effect>

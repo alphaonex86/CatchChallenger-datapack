@@ -1,4 +1,4 @@
-<map zone="terrapionnera" type="indoor">
+<map type="indoor" zone="terrapionnera">
     <name>Home</name>
     <name lang="fr">Maison</name>
 </map>

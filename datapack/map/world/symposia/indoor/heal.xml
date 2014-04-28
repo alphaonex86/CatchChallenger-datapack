@@ -1,4 +1,4 @@
-<map zone="symposia" type="indoor">
+<map type="indoor" zone="symposia">
     <name>Heal center</name>
     <name lang="fr">Centre de soin</name>
 </map>

@@ -1,15 +1,15 @@
-<quest repeatable="no" bot="2004">
-	<name><![CDATA[The Elofly hunting]]></name>
-  <name lang="fr"><![CDATA[La chasse de l'Elofly]]></name>
-	<step id="1">
-		<text><![CDATA[Collect 5 feather and come back to see the girl]]></text>
-		<text lang="fr"><![CDATA[Récupère 5 plume et rapporte les à la fille]]></text>
-		<item id="4002" quantity="5" monster="2" rate="100%" />
-	</step>
-	<rewards show="true">
-		<item id="2001" quantity="2" />
-		<item id="2002" quantity="2" />
-		<item id="2003" quantity="3" />
-		<reputation type="empire" point="+1" />
-	</rewards>
-</quest> 
+<quest bot="2004" repeatable="no">
+    <name><![CDATA[The Elofly hunting]]></name>
+    <name lang="fr"><![CDATA[La chasse de l'Elofly]]></name>
+    <step id="1">
+        <text><![CDATA[Collect 5 feather and come back to see the girl]]></text>
+        <text lang="fr"><![CDATA[Récupère 5 plume et rapporte les à la fille]]></text>
+        <item quantity="5" rate="100%" monster="2" id="4002"/>
+    </step>
+    <rewards show="true">
+        <item quantity="2" id="2001"/>
+        <item quantity="2" id="2002"/>
+        <item quantity="3" id="2003"/>
+        <reputation point="+1" type="empire"/>
+    </rewards>
+</quest>

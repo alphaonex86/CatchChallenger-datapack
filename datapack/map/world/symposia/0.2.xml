@@ -1,8 +1,8 @@
-<map type="city" zone="symposia">
+<map zone="symposia" type="city">
     <name>Symposia</name>
     <name lang="fr">Symposia</name>
     <grass>
-        <monster id="3" luck="50" minLevel="3" maxLevel="4"/>
-        <monster id="2" luck="50" minLevel="3" maxLevel="4"/>
+        <monster id="3" maxLevel="4" minLevel="3" luck="50"/>
+        <monster id="2" maxLevel="4" minLevel="3" luck="50"/>
     </grass>
 </map>

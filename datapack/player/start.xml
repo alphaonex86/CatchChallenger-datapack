@@ -8,26 +8,26 @@ The attack of monster is the 4 last attack for the level
 /!\ not check if x,y is into the range of the map
 -->
 <list>
-	<start>
-		<name>Normal player</name>
-		<description>You start a normal game as player</description>
-		<map file="world/arcania/0.0.tmx" x="10" y="15" />
-		<forcedskin value="player;girlplayer" />
-		<cash value="500" />
-		<monster id="1" level="5" captured_with="1" />
-		<reputation type="empire" level="1" />
-		<item id="5" quantity="1" />
-		<item id="1" quantity="5" />
-	</start>
-	<start>
-		<name>Shadow army</name>
-		<description>You start a game as rebellion player</description>
-		<map file="world/arcania/0.0.tmx" x="10" y="15" />
-		<forcedskin value="terranite;bandit" />
-		<cash value="500" />
-		<monster id="1" level="5" captured_with="1" />
-		<reputation type="empire" level="-1" />
-		<item id="5" quantity="2" />
-		<item id="1" quantity="5" />
-	</start>
-</list> 
+    <start>
+        <name>Normal player</name>
+        <description>You start a normal game as player</description>
+        <map x="10" y="15" file="world/arcania/0.0.tmx"/>
+        <forcedskin value="player;girlplayer"/>
+        <cash value="500"/>
+        <monster id="1" level="5" captured_with="1"/>
+        <reputation type="empire" level="1"/>
+        <item quantity="1" id="5"/>
+        <item quantity="5" id="1"/>
+    </start>
+    <start>
+        <name>Shadow army</name>
+        <description>You start a game as rebellion player</description>
+        <map x="10" y="15" file="world/arcania/0.0.tmx"/>
+        <forcedskin value="terranite;bandit"/>
+        <cash value="500"/>
+        <monster id="1" level="5" captured_with="1"/>
+        <reputation type="empire" level="-1"/>
+        <item quantity="2" id="5"/>
+        <item quantity="5" id="1"/>
+    </start>
+</list>

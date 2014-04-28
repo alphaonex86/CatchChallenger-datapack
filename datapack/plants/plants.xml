@@ -12,88 +12,76 @@ If taller not specified, is 2/4 of the fruits value.
 If flowering not specified, is 3/4 of the fruits value.
 -->
 <plants>
-	<plant id="1" itemUsed="1001"><!-- Mocochinchi -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>72</fruits>
-		</grow>
-		<quantity>1.5</quantity>
-	</plant>
-	<plant id="2" itemUsed="1002"><!-- Maracuya -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>115</fruits>
-		</grow>
-		<quantity>1.8</quantity>
-	</plant>
-	<plant id="3" itemUsed="1003"><!-- Lima -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>58</fruits>
-		</grow>
-		<quantity>1.4</quantity>
-	</plant>
-	<plant id="4" itemUsed="1004"><!-- Raspplant -->
-		<grow><!-- in mins, max 1080mins due to seconds to mature defined on 16Bits -->
-			<fruits>144</fruits>
-		</grow>
-		<quantity>2.0</quantity>
-	</plant>
-	<plant id="5" itemUsed="1005"><!-- Tuber -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>72</fruits>
-		</grow>
-		<quantity>1.5</quantity>
-	</plant>
-	<plant id="6" itemUsed="1006"><!-- Red mushroom -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>72</fruits>
-		</grow>
-		<quantity>1.5</quantity>
-	</plant>
-	<plant id="7" itemUsed="1007"><!-- Yellow Pepper -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>172</fruits>
-		</grow>
-		<quantity>2.2</quantity>
-	</plant>
-	<plant id="8" itemUsed="1008"><!-- Pine cone-->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>115</fruits>
-		</grow>
-		<quantity>1.8</quantity>
-	</plant>
-	<plant id="9" itemUsed="1009"><!-- Red Pepper -->
-		<grow><!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
-			<fruits>115</fruits>
-		</grow>
-		<quantity>1.8</quantity>
-	</plant>
+    <plant id="1" itemUsed="1001">
+        <!-- Mocochinchi -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>72</fruits>
+        </grow>
+        <quantity>1.5</quantity>
+    </plant>
+    <plant id="2" itemUsed="1002">
+        <!-- Maracuya -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>115</fruits>
+        </grow>
+        <quantity>1.8</quantity>
+    </plant>
+    <plant id="3" itemUsed="1003">
+        <!-- Lima -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>58</fruits>
+        </grow>
+        <quantity>1.4</quantity>
+    </plant>
+    <plant id="4" itemUsed="1004">
+        <!-- Raspplant -->
+        <grow>
+            <!-- in mins, max 1080mins due to seconds to mature defined on 16Bits -->
+            <fruits>144</fruits>
+        </grow>
+        <quantity>2.0</quantity>
+    </plant>
+    <plant id="5" itemUsed="1005">
+        <!-- Tuber -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>72</fruits>
+        </grow>
+        <quantity>1.5</quantity>
+    </plant>
+    <plant id="6" itemUsed="1006">
+        <!-- Red mushroom -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>72</fruits>
+        </grow>
+        <quantity>1.5</quantity>
+    </plant>
+    <plant id="7" itemUsed="1007">
+        <!-- Yellow Pepper -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>172</fruits>
+        </grow>
+        <quantity>2.2</quantity>
+    </plant>
+    <plant id="8" itemUsed="1008">
+        <!-- Pine cone-->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>115</fruits>
+        </grow>
+        <quantity>1.8</quantity>
+    </plant>
+    <plant id="9" itemUsed="1009">
+        <!-- Red Pepper -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>115</fruits>
+        </grow>
+        <quantity>1.8</quantity>
+    </plant>
 </plants>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

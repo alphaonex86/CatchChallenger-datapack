@@ -48,7 +48,7 @@ consumeAtUse="true"
         <name lang="fr">Potion grade B</name>
         <description>The potion used to heal your monsters</description>
         <description lang="fr">La potion est utilisé pour soigner vos monstres</description>
-        <hp add="100"/> 
+        <hp add="100"/>
     </item>
     <item price="5000" id="7" image="potion/potion-grade-c.png">
         <name>Potion grade C</name>
@@ -90,35 +90,35 @@ consumeAtUse="true"
         <name lang="fr">Reppousse grade D</name>
         <description>Used to repulse the monsters during large time</description>
         <description lang="fr">Le repousse est utilisé pour éloigner les monstres pendant un long moment</description>
-            <repel step="1000"/>
+        <repel step="1000"/>
     </item>
     <item price="200" id="13" image="potion/burn-gel.png">
         <name>Burn gel</name>
         <name lang="fr">Gel de brûlure</name>
         <description>Remove burn</description>
         <description lang="fr">Elimine les brûlure</description>
-        <buff remove="1" />
+        <buff remove="1"/>
     </item>
     <item price="200" id="14" image="potion/muscle-relax.png">
         <name>muscle relax</name>
         <name lang="fr">Relaxant musculaire</name>
         <description>Remove paralysis</description>
         <description lang="fr">Elimine la paralysie</description>
-        <buff remove="2" />
+        <buff remove="2"/>
     </item>
     <item price="200" id="15" image="potion/serum.png">
         <name>Serum</name>
         <name lang="fr">Serum</name>
         <description>Remove poison</description>
         <description lang="fr">Elimine le poison</description>
-        <buff remove="5" />
+        <buff remove="5"/>
     </item>
     <item price="200" id="16" image="other/lvl-book.png">
         <name>Level book</name>
         <name lang="fr">Livre de niveau</name>
         <description>Allow to increase animal level</description>
         <description lang="fr">Permet d'augmenter le niveau de l'animal</description>
-        <level up="1" />
+        <level up="1"/>
     </item>
     <item price="1200" id="17" image="other/book-fire-throw.png">
         <name>Book of fire throw</name>
@@ -138,8 +138,6 @@ consumeAtUse="true"
         <description>Allow to learn fire throw level 3</description>
         <description lang="fr">Permet d'apprendre jet de feu niveau 3</description>
     </item>
-    
-    
     <item price="15" id="30" image="food/pielima.png">
         <name>Slice of Lima pie</name>
         <name lang="fr">Part de tarte au Lima</name>
@@ -153,8 +151,6 @@ consumeAtUse="true"
         <description>Used to navigate on the water</description>
         <description lang="fr">Permet de naviguer sur l'eau</description>
     </item>
-
-    
     <item price="1000" id="40" image="other/evol-plant-crystal.png">
         <name>Plant crystal</name>
         <name lang="fr">Cristal de plante</name>
@@ -176,5 +172,4 @@ consumeAtUse="true"
         <description>Allow some evolution</description>
         <regeneration hp="15"/>
     </item>
-    
 </items>

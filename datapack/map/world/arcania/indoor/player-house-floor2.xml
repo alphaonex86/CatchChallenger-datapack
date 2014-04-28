@@ -1,4 +1,4 @@
-<map zone="arcania" type="indoor">
+<map type="indoor" zone="arcania">
     <name>Your room</name>
     <name lang="fr">Votre chambre</name>
 </map>

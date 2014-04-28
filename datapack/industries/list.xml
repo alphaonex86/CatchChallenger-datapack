@@ -1,14 +1,14 @@
 <industries>
-<link industry="1" industrialrecipe="1" />
-<link industry="2" industrialrecipe="2" />
-<link industry="3" industrialrecipe="3" />
-<link industry="4" industrialrecipe="4" />
-<link industry="5" industrialrecipe="5" />
-<link industry="6" industrialrecipe="6" />
-<link industry="7" industrialrecipe="7" />
-<link industry="8" industrialrecipe="8" />
-<link industry="9" industrialrecipe="9" />
-<link industry="10" industrialrecipe="10" />
-<link industry="11" industrialrecipe="11" />
-<link industry="12" industrialrecipe="12" />
+    <link industry="1" industrialrecipe="1"/>
+    <link industry="2" industrialrecipe="2"/>
+    <link industry="3" industrialrecipe="3"/>
+    <link industry="4" industrialrecipe="4"/>
+    <link industry="5" industrialrecipe="5"/>
+    <link industry="6" industrialrecipe="6"/>
+    <link industry="7" industrialrecipe="7"/>
+    <link industry="8" industrialrecipe="8"/>
+    <link industry="9" industrialrecipe="9"/>
+    <link industry="10" industrialrecipe="10"/>
+    <link industry="11" industrialrecipe="11"/>
+    <link industry="12" industrialrecipe="12"/>
 </industries>

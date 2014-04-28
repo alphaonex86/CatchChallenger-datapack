@@ -1,15 +1,15 @@
 <quest repeatable="no" bot="2012">
-	<name><![CDATA[Polyrock hurting]]></name>
-	<name lang="fr"><![CDATA[Chasse au Polyrock]]></name>
-	<step id="1">
-		<text><![CDATA[Hunt 12 Polyrock and come back to see me ]]></text>
-		<text lang="fr"><![CDATA[Chassé 12 Polyrock]]></text>
-		<item id="4004" quantity="12" monster="5" rate="100%" />
-	</step>
-	<rewards show="true">
-		<item id="3009" />
-		<item id="1005" />
-		<item id="1004" quantity="3" />
-		<reputation type="empire" point="+1" />
-	</rewards>
-</quest> 
+    <name><![CDATA[Polyrock hurting]]></name>
+    <name lang="fr"><![CDATA[Chasse au Polyrock]]></name>
+    <step id="1">
+        <text><![CDATA[Hunt 12 Polyrock and come back to see me ]]></text>
+        <text lang="fr"><![CDATA[Chassé 12 Polyrock]]></text>
+        <item monster="5" quantity="12" id="4004" rate="100%"/>
+    </step>
+    <rewards show="true">
+        <item id="3009"/>
+        <item id="1005"/>
+        <item quantity="3" id="1004"/>
+        <reputation type="empire" point="+1"/>
+    </rewards>
+</quest>

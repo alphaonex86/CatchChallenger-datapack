@@ -4,183 +4,183 @@ skin is invisible
 -->
 <bots>
     <bot id="3001">
-      <name>Smith Pierre</name>
-      <namelang="fr">Pierre le forgeron</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+        <name>Smith Pierre</name>
+        <name lang="fr">Pierre le forgeron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Melt copper</a><br />
+        <a href="3">Melt iron</a><br />
+        <a href="4">Melt silver</a><br />
+        <a href="5">Melt steal</a><br />
+        <a href="6">Melt gold</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
+        <a href="3">Fondre du fer</a><br />
+        <a href="4">Fondre de l'argent</a><br />
+        <a href="5">Fondre de l'acier</a><br />
+        <a href="6">Fondre de l'or</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" industry="1" type="industry"/>
+        <step id="3" industry="2" type="industry"/>
+        <step id="4" industry="3" type="industry"/>
+        <step id="5" industry="4" type="industry"/>
+        <step id="6" industry="5" type="industry"/>
     </bot>
     <bot id="3002">
-      <name>Trap seller Eric</name>
-      <namelang="fr">Eric vendeur de trappe</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Made Catchtrap</a><br />
-		<a href="3">Made Supertrap</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fabrique une Catchtrap</a><br />
-		<a href="3">Fabrique une Supertrap</a><br />]]></text>
+        <name>Trap seller Eric</name>
+        <name lang="fr">Eric vendeur de trappe</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Made Catchtrap</a><br />
+        <a href="3">Made Supertrap</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fabrique une Catchtrap</a><br />
+        <a href="3">Fabrique une Supertrap</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="6" />
-        <step id="3" type="industry" industry="7" />
+        <step id="2" industry="6" type="industry"/>
+        <step id="3" industry="7" type="industry"/>
     </bot>
     <bot id="3003">
-      <name>Lumberjack Louis</name>
-      <namelang="fr">Louis le bûcheron</name>
-      <step type="text" id="1">
-		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
-      </step>
-        <step id="2" type="industry" industry="9" />
+        <name>Lumberjack Louis</name>
+        <name lang="fr">Louis le bï¿½cheron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
+        </step>
+        <step id="2" industry="9" type="industry"/>
     </bot>
     <bot id="3004">
-      <name>Smith Luca</name>
-      <namelang="fr">Luca le forgeron</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+        <name>Smith Luca</name>
+        <name lang="fr">Luca le forgeron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Melt copper</a><br />
+        <a href="3">Melt iron</a><br />
+        <a href="4">Melt silver</a><br />
+        <a href="5">Melt steal</a><br />
+        <a href="6">Melt gold</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
+        <a href="3">Fondre du fer</a><br />
+        <a href="4">Fondre de l'argent</a><br />
+        <a href="5">Fondre de l'acier</a><br />
+        <a href="6">Fondre de l'or</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" industry="1" type="industry"/>
+        <step id="3" industry="2" type="industry"/>
+        <step id="4" industry="3" type="industry"/>
+        <step id="5" industry="4" type="industry"/>
+        <step id="6" industry="5" type="industry"/>
     </bot>
     <bot id="3005">
-      <name>Smith Elliot</name>
-      <namelang="fr">Elliot le forgeron</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+        <name>Smith Elliot</name>
+        <name lang="fr">Elliot le forgeron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Melt copper</a><br />
+        <a href="3">Melt iron</a><br />
+        <a href="4">Melt silver</a><br />
+        <a href="5">Melt steal</a><br />
+        <a href="6">Melt gold</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
+        <a href="3">Fondre du fer</a><br />
+        <a href="4">Fondre de l'argent</a><br />
+        <a href="5">Fondre de l'acier</a><br />
+        <a href="6">Fondre de l'or</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" industry="1" type="industry"/>
+        <step id="3" industry="2" type="industry"/>
+        <step id="4" industry="3" type="industry"/>
+        <step id="5" industry="4" type="industry"/>
+        <step id="6" industry="5" type="industry"/>
     </bot>
     <bot id="3006">
-      <name>Smith Bryan</name>
-      <namelang="fr">Bryan le forgeron</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+        <name>Smith Bryan</name>
+        <name lang="fr">Bryan le forgeron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Melt copper</a><br />
+        <a href="3">Melt iron</a><br />
+        <a href="4">Melt silver</a><br />
+        <a href="5">Melt steal</a><br />
+        <a href="6">Melt gold</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
+        <a href="3">Fondre du fer</a><br />
+        <a href="4">Fondre de l'argent</a><br />
+        <a href="5">Fondre de l'acier</a><br />
+        <a href="6">Fondre de l'or</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" industry="1" type="industry"/>
+        <step id="3" industry="2" type="industry"/>
+        <step id="4" industry="3" type="industry"/>
+        <step id="5" industry="4" type="industry"/>
+        <step id="6" industry="5" type="industry"/>
     </bot>
     <bot id="3007">
-      <name>Lumberjack Bruce</name>
-      <namelang="fr">Bruce le bûcheron</name>
-      <step type="text" id="1">
-		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
-      </step>
-        <step id="2" type="industry" industry="9" />
+        <name>Lumberjack Bruce</name>
+        <name lang="fr">Bruce le bï¿½cheron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
+        </step>
+        <step id="2" industry="9" type="industry"/>
     </bot>
     <bot id="3008">
-      <name>Miner Antony</name>
-      <namelang="fr">Antony le mineur</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Mine</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Miner</a><br />]]></text>
+        <name>Miner Antony</name>
+        <name lang="fr">Antony le mineur</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Mine</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Miner</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="12" />
+        <step id="2" industry="12" type="industry"/>
     </bot>
     <bot id="3009">
-      <name>Farmer Andy</name>
-      <namelang="fr">Andy le fermier</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
+        <name>Farmer Andy</name>
+        <name lang="fr">Andy le fermier</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="11" />
+        <step id="2" industry="11" type="industry"/>
     </bot>
     <bot id="3010">
-      <name>Scientific Herman</name>
-      <namelang="fr">Herman le scientific</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Distiller</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">distil</a><br />]]></text>
+        <name>Scientific Herman</name>
+        <name lang="fr">Herman le scientific</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Distiller</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">distil</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="9" />
+        <step id="2" industry="9" type="industry"/>
     </bot>
     <bot id="3011">
-      <name>Scientific Nolan</name>
-      <namelang="fr">Nolan le scientific</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Raffiner</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">refined</a><br />]]></text>
+        <name>Scientific Nolan</name>
+        <name lang="fr">Nolan le scientific</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Raffiner</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">refined</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="10" />
+        <step id="2" industry="10" type="industry"/>
     </bot>
     <bot id="3012">
-      <name>Smith Norbert</name>
-      <namelang="fr">Norbert le forgeron</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+        <name>Smith Norbert</name>
+        <name lang="fr">Norbert le forgeron</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Melt copper</a><br />
+        <a href="3">Melt iron</a><br />
+        <a href="4">Melt silver</a><br />
+        <a href="5">Melt steal</a><br />
+        <a href="6">Melt gold</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
+        <a href="3">Fondre du fer</a><br />
+        <a href="4">Fondre de l'argent</a><br />
+        <a href="5">Fondre de l'acier</a><br />
+        <a href="6">Fondre de l'or</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" industry="1" type="industry"/>
+        <step id="3" industry="2" type="industry"/>
+        <step id="4" industry="3" type="industry"/>
+        <step id="5" industry="4" type="industry"/>
+        <step id="6" industry="5" type="industry"/>
     </bot>
     <bot id="3013">
-      <name>Farmer Juliens</name>
-      <namelang="fr">Juliens le fermier</name>
-        <step type="text" id="1">
-		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
+        <name>Farmer Juliens</name>
+        <name lang="fr">Juliens le fermier</name>
+        <step id="1" type="text">
+            <text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="11" />
+        <step id="2" industry="11" type="industry"/>
     </bot>
 </bots>

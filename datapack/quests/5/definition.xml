@@ -1,13 +1,13 @@
 <quest repeatable="yes" bot="2010">
-	<name><![CDATA[The Chenipode hunting]]></name>
-  <name lang="fr"><![CDATA[La chasse du Chenipode]]></name>
-	<step id="1">
-		<text><![CDATA[Collect 10 toxic fuild and come back to see the smuggler castel Town]]></text>
-		<text lang="fr"><![CDATA[Récupère 10 fuilde toxique et rapporté les au contrebandier de Castel village]]></text>
-		<item id="4003" quantity="10" monster="22" rate="100%" />
-	</step>
-	<rewards show="true">
-		<item id="1" quantity="1" />
-		<reputation type="empire" point="-1" />
-	</rewards>
-</quest> 
+    <name><![CDATA[The Chenipode hunting]]></name>
+    <name lang="fr"><![CDATA[La chasse du Chenipode]]></name>
+    <step id="1">
+        <text><![CDATA[Collect 10 toxic fuild and come back to see the smuggler castel Town]]></text>
+        <text lang="fr"><![CDATA[Récupère 10 fuilde toxique et rapporté les au contrebandier de Castel village]]></text>
+        <item monster="22" id="4003" quantity="10" rate="100%"/>
+    </step>
+    <rewards show="true">
+        <item id="1" quantity="1"/>
+        <reputation type="empire" point="-1"/>
+    </rewards>
+</quest>
