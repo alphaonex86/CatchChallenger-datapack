@@ -1,0 +1,6 @@
+<events>
+    <event id="day">
+        <value>day</value>
+        <value>night</value>
+    </event>
+</events>

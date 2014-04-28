@@ -1,0 +1,9 @@
+<visual>
+    <category id="indoor" color="#00000000">
+    </category>
+    <category id="outdoor" color="#00000000">
+        <event id="night" color="#22000000" />
+    </category>
+    <category id="cave" color="#22000000">
+    </category>
+</visual>
