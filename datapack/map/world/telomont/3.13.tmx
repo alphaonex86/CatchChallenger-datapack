@@ -66,7 +66,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytllEOgzAIhvu4E2w7SeP7jqBR76H3z2wyJsH/p9SUhGy2yAeU2qZ0lc8DDDbY5YCfGiMaA+L2lvHQ5dCpwvViXowyX5q3/p5n8k7PfEfFszKr/1Nn7mBiYPXJ6axDrX56HXLC6zJch/72Lc9MmN1A4tH2ZT7KtbWwvWJ7SWJAfp+H7kEumxM+6iXGtX5Q/pYxKVsmKHePy8Ys2+s/to/EL6pxhKv5iF3rZ9tfrVxma7klv1c6c2T+9V7WqkXiRLarsbm7T0VKzO/GdxCHrY8nbO1auDLWcm5uyc8Z+UL9H6219sdylv5h66FZPWudKzZef0VqHuGW9bB5t/aXxCK/ES6yRXealnqz3kI+2LmQAuNIWM6W3ZsrOXvnuz0f0H7SZ0T0Ds3qLdzIN+buvc7bL7246LuwqTHR3ZnT87U7BooN+WTr7eWxB96pfV9YfkzRnQPJF2/UQAU=
+   eJytVsuOwjAMzJErHFh+Aw5V7/sJVMB/0P/XptJ68Q4zsYNiyWqbuB6P7TxKeZfv3f/vfdVDws5kCuajOZs/1+elbUZxR8u16r3qEuC2ON1BlS+P9/j9vol/RvK9OjyUm3tfBuPOEIPKz1ReeYjy5+swFV6X+X3oz77nW4mym0U83n6bz+JiLrBXsJcsBub3WHVN4qo5w2e9pHDRD+OPGIuzVcK4Iy7ubVF91Vr0mIy7+bUc496W7SvP3UvUz9hfvbjKFnE3fl/l1UfKv1/LXr1YnMz2ATafrlOTLeZT5z8MR9WnJap2Pbg2Fp2rXp6lzZn5Yv2fzbX3pzhb/6h6eKyRuZ4Cm1Z/ZXKewd3qgbx7+8tisWcGl9myO01PvlVvMR/qXCiJcSaKM2KPxjXOrfMdzwe2nvw5nL1Dq3wbbmaP+fRe11ovo3DZvvB0Y6ZrY87PR3cMFhvzqerd4rEm/on2F8VPKd7rlPwAGYBBEQ==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -101,5 +101,46 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30"/>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="bot" type="bot" gid="5123" x="304" y="320">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7078"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="80" y="256">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7079"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="128" y="208">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7080"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="80" y="32">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7081"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="320" y="64">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7082"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="terranite"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

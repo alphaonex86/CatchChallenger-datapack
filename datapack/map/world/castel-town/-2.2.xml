@@ -1,9 +1,9 @@
-<map type="outdoor" zone="castel-town">
-    <name>Road 2</name>
-    <name lang="fr">Route 2</name>
-    <grass>
-        <monster luck="40" minLevel="4" maxLevel="5" id="3"/>
-        <monster luck="30" minLevel="4" maxLevel="5" id="2"/>
-        <monster luck="30" minLevel="4" maxLevel="5" id="13"/>
-    </grass>
+<map zone="castel-town" type="outdoor">
+	<name>Road 2</name>
+	<name lang="fr">Route 2</name>
+	<grass>
+          <monster id="3" minLevel="4" maxLevel="5" luck="40" />
+          <monster id="2" minLevel="4" maxLevel="5" luck="30" />
+          <monster id="13" minLevel="4" maxLevel="5" luck="30" />
+  </grass>
 </map>

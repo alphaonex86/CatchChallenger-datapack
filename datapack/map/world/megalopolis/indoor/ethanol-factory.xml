@@ -1,4 +1,4 @@
-<map type="indoor" zone="megalopolis">
+<map zone="megalopolis" type="indoor">
     <name>Biofuel refinery</name>
     <name lang="fr">Raffinerie de biocarburant</name>
 </map>

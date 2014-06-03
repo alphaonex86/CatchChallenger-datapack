@@ -4,304 +4,309 @@ skin is invisible
 -->
 <bots>
     <bot id="1">
-        <name>Nurse Marina</name>
-        <name langue="fr">Infirmière Marina</name>
-        <step type="text" id="1">
+      <name>Nurse Marina</name>
+      <name langue="fr">Infirmière Marina</name>
+        <step id="1" type="text">
             <text><![CDATA[Do you want be healed?<br />
-        <a href="2">Yes</a><br />
-        <a href="close">No</a>]]></text>
+		<a href="2">Yes</a><br />
+		<a href="close">No</a>]]></text>
             <text lang="fr"><![CDATA[Voulez vous être soigné?<br />
-        <a href="2">Oui</a><br />
-        <a href="close">Non</a>]]></text>
+		<a href="2">Oui</a><br />
+		<a href="close">Non</a>]]></text>
         </step>
-        <step type="heal" id="2"/>
+        <step id="2" type="heal"/>
     </bot>
     <bot id="2">
-        <name>Coach Anais</name>
-        <name langue="fr">Entraineur Anais</name>
-        <step type="text" id="1">
-            <text><![CDATA[I can teach some attack.<br />
-        <a href="2">[Learn]</a>]]></text>
-        </step>
-        <step type="learn" id="2"/>
+     <name>Coach Anais</name>
+      <name langue="fr">Entraineur Anais</name>
+        <step id="1" type="text">
+		<text><![CDATA[I can teach some attack.<br />
+		<a href="2">[Learn]</a>]]></text>
+	</step>
+        <step id="2" type="learn"/>
     </bot>
     <bot id="3">
-        <name>Banker Malcolm</name>
-        <name langue="fr">banquier Malcolm</name>
-        <step type="text" id="1">
-            <text><![CDATA[I can old your item.<br />
-        <a href="2">[Warehouse]</a>]]></text>
-        </step>
-        <step type="warehouse" id="2"/>
+      <name>Banker Malcolm</name>
+      <name langue="fr">banquier Malcolm</name>
+            <step id="1" type="text">
+		    <text><![CDATA[I can old your item.<br />
+		<a href="2">[Warehouse]</a>]]></text>
+	</step>
+        <step id="2" type="warehouse"/>
     </bot>
     <bot id="4">
-        <name>??</name>
-        <name langue="fr">??</name>
-        <step type="text" id="1">
-            <text><![CDATA[I'm making some object into my industry.<br />
-        <a href="2">[Industry]</a>]]></text>
-        </step>
-        <step type="industry" id="2" industry="1"/>
+      <name>??</name>
+      <name langue="fr">??</name>
+                <step id="1" type="text">
+		    <text><![CDATA[I'm making some object into my industry.<br />
+		<a href="2">[Industry]</a>]]></text>
+	</step>
+        <step industry="1" id="2" type="industry"/>
     </bot>
     <bot id="5">
-        <name>Trader Malcolm</name>
-        <name langue="fr">Marchand Malcolm</name>
-        <step type="text" id="1">
-            <text><![CDATA[I can buy some of item.<br />
-        <a href="2">[Sell]</a>]]></text>
-        </step>
-        <step type="sell" id="2" shop="1"/>
+      <name>Trader Malcolm</name>
+      <name langue="fr">Marchand Malcolm</name>
+        <step id="1" type="text">
+		    <text><![CDATA[I can buy some of item.<br />
+		<a href="2">[Sell]</a>]]></text>
+	</step>
+        <step shop="1" id="2" type="sell"/>
     </bot>
     <bot id="6">
-        <name>Trader Malcolm</name>
-        <name langue="fr">Marchand Malcolm</name>
-        <step type="text" id="1">
-            <text><![CDATA[You can sell/buy objets into the general market.<br />
+      <name>Trader Malcolm</name>
+      <name langue="fr">Marchand Malcolm</name>
+           <step id="1" type="text">
+              <text><![CDATA[You can sell/buy objets into the general market.<br />
               <a href="2">[Market]</a>]]></text>
-        </step>
-        <step type="market" id="2"/>
+           </step>
+        <step id="2" type="market"/>
     </bot>
     <bot id="7">
-        <name>Florentin clan master</name>
-        <name langue="fr">Florentin maitre des clans</name>
-        <step type="text" id="1">
+      <name>Florentin clan master</name>
+      <name langue="fr">Florentin maitre des clans</name>
+	       <step id="1" type="text">
             <text><![CDATA[If you have some freind you can create a clan.<br />
             <a href="2">[Create clan]</a>]]></text>
-        </step>
-        <step type="clan" id="2"/>
+         </step>
+        <step id="2" type="clan"/>
     </bot>
+    
+    
     <bot id="100">
-        <name>Trader Malcolm</name>
-        <name langue="fr">Marchand Malcolm</name>
-        <step type="text" id="1">
+      <name>Trader Malcolm</name>
+      <name langue="fr">Marchand Malcolm</name>
+        <step id="1" type="text">
             <text><![CDATA[Welcome on my shop<br />
-        <a href="2">Buy</a><br />
-        <a href="3">Sell</a>]]></text>
+		<a href="2">Buy</a><br />
+		<a href="3">Sell</a>]]></text>
             <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-        <a href="2">Acheter</a><br />
-        <a href="3">Vendre</a>]]></text>
+		<a href="2">Acheter</a><br />
+		<a href="3">Vendre</a>]]></text>
         </step>
-        <step type="shop" id="2" shop="1"/>
-        <step type="sell" id="3" shop="1"/>
+        <step shop="1" id="2" type="shop"/>
+        <step shop="1" id="3" type="sell"/>
     </bot>
+    
+    
     <bot id="200">
-        <name>Cerise</name>
-        <name langue="fr">Cerise</name>
-        <step type="text" id="1">
-            <text><![CDATA[Do you want try capture Arcania.<br />
-        <a href="2">[Warehouse]</a>]]></text>
-        </step>
-        <step type="zonecapture" id="2" zone="arcania"/>
+      <name>Cerise</name>
+      <name langue="fr">Cerise</name>
+	                <step id="1" type="text">
+		    <text><![CDATA[Do you want try capture Arcania.<br />
+		<a href="2">[Warehouse]</a>]]></text>
+	</step>
+        <step zone="arcania" id="2" type="zonecapture"/>
     </bot>
     <bot id="201">
-        <step type="text" id="1">
+         <step type="text" id="1">
             <text><![CDATA[I handle the defense of Symposia]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Symposia]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="symposia"/>
+        <step zone="symposia" id="2" type="zonecapture"/>
     </bot>
     <bot id="202">
         <step type="text" id="1">
             <text><![CDATA[I handle the defense of Castel town]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Castel village]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="castel-town"/>
+        <step zone="castel-town" id="2" type="zonecapture"/>
     </bot>
     <bot id="203">
         <step type="text" id="1">
             <text><![CDATA[I handle the defense of Megalopolis]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Megalopolis]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="megalopolis"/>
+        <step zone="megalopolis" id="2" type="zonecapture"/>
     </bot>
     <bot id="204">
-        <name>Laura</name>
-        <name langue="fr">Laura</name>
-        <step type="text" id="1">
+      <name>Laura</name>
+      <name langue="fr">Laura</name>
+    <step type="text" id="1">
             <text><![CDATA[I handle the defense of Mersoul]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Mersoul]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="mersoul"/>
+        <step zone="mersoul" id="2" type="zonecapture"/>
     </bot>
     <bot id="205">
-        <step type="text" id="1">
+    <step type="text" id="1">
             <text><![CDATA[I handle the defense of Telomont]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Telomont]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="telomont"/>
+        <step zone="telomont" id="2" type="zonecapture"/>
     </bot>
-    <bot id="2001">
-        <name>Sam</name>
-        <name langue="fr">Sam</name>
-        <step type="text" id="1">
-            <text><![CDATA[The nation, the joke</a><br />        
+    <bot id="2001">       
+      <name>Sam</name>
+      <name langue="fr">Sam</name>
+     <step type="text" id="1">
+            <text><![CDATA[The nation, the joke</a><br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[La nation, quel blague</a><br />        
+            <text lang="fr"><![CDATA[La nation, quel blague</a><br />		
             <a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2002">
-        <name>Henri</name>
-        <name langue="fr">Henri</name>
-        <step type="text" id="1">
-            <text><![CDATA[It says that the shadow army prepares a big thing<br />        
+      <name>Henri</name>
+      <name langue="fr">Henri</name>
+         <step type="text" id="1">
+            <text><![CDATA[It says that the shadow army prepares a big thing<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[On raconte que L'armée de l'ombre prépare un gros truc<br />        
+            <text lang="fr"><![CDATA[On raconte que L'armée de l'ombre prépare un gros truc<br />		
             <a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2003">
-        <name>Jason</name>
-        <name langue="fr">Jason</name>
-        <step type="text" id="1">
-            <text><![CDATA[I'm busy<br />        
+      <name>Jason</name>
+      <name langue="fr">Jason</name>
+         <step type="text" id="1">
+            <text><![CDATA[I'm busy<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Je suis occupé<br />        
+            <text lang="fr"><![CDATA[Je suis occupé<br />		
             <a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2004">
-        <name>Laure</name>
-        <name langue="fr">Laure</name>
-        <step type="text" id="1">
-            <text><![CDATA[Elofly is frugivorous bird<br />        
+      <name>Laure</name>
+      <name langue="fr">Laure</name>
+         <step type="text" id="1">
+            <text><![CDATA[Elofly is frugivorous bird<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Elofly est un oiseau frugivore<br />        
+            <text lang="fr"><![CDATA[Elofly est un oiseau frugivore<br />		
             <a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2005">
-        <name>Mathieu</name>
-        <name langue="fr">Mathieu</name>
+      <name>Mathieu</name>
+      <name langue="fr">Mathieu</name>
         <step type="text" id="1">
             <text><![CDATA[<a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[<a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2006">
-        <name>Rayan</name>
-        <name langue="fr">Rayan</name>
-        <step type="text" id="1">
+    <name>Rayan</name>
+      <name langue="fr">Rayan</name>
+    <step type="text" id="1">
             <text><![CDATA[<a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[<a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2007">
-        <name>Raymond</name>
-        <name langue="fr">Raymond</name>
-        <step type="text" id="1">
+    <name>Raymond</name>
+      <name langue="fr">Raymond</name>
+            <step type="text" id="1">
             <text><![CDATA[<a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[<a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2008">
-        <name>Morgan</name>
-        <name langue="fr">Morgan</name>
-        <step type="text" id="1">
+      <name>Morgan</name>
+      <name langue="fr">Morgan</name>
+         <step type="text" id="1">
             <text><![CDATA[<![CDATA[Hi, I'm the village peasant<br />
             and I also post the letters<br />
-            Finally when I can</a><br />        
+            Finally when I can</a><br />		
             <a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[Salut, je suis le paysan du village <br />
             et je poste aussi les lettres<br />
-            enfin quand je peux<br />        
+            enfin quand je peux<br />		
             <a href="2">Quête</a><br />]]></text>
         </step>
-        <step type="quests" id="2"/>
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2009">
-        <name>Rachel</name>
-        <name langue="fr">Rachel</name>
-        <step type="text" id="1">
-            <text><![CDATA[I study the different berries in the forest<br />        
+      <name>Rachel</name>
+      <name langue="fr">Rachel</name>
+         <step type="text" id="1">
+            <text><![CDATA[I study the different berries in the forest<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[J'étudie les différentes baies dans cette foret<br />        
+            <text lang="fr"><![CDATA[J'étudie les différentes baies dans cette foret<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>   
+        <step id="2" type="quests"/> 
+    </bot>  
     <bot id="2010">
-        <name>Gaetan</name>
-        <name langue="fr">Gaëtan</name>
-        <step type="text" id="1">
-            <text><![CDATA[You know that the skin of a chenipode listen very dear to black walk<br />        
+      <name>Gaetan</name>
+      <name langue="fr">Gaëtan</name>
+         <step type="text" id="1">
+            <text><![CDATA[You know that the skin of a chenipode listen very dear to black walk<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Tu sais que la peau d'un chenipode couter très chère au marcher noir<br />        
+            <text lang="fr"><![CDATA[Tu sais que la peau d'un chenipode couter très chère au marcher noir<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>   
+        <step id="2" type="quests"/> 
+    </bot>   
     <bot id="2011">
-        <name>Gauthier</name>
-        <name langue="fr">Gauthier</name>
-        <step type="text" id="1">
-            <text><![CDATA[Welcome in my distillery, our products are cheap for good quality<br />        
+      <name>Gauthier</name>
+      <name langue="fr">Gauthier</name>
+         <step type="text" id="1">
+            <text><![CDATA[Welcome in my distillery, our products are cheap for good quality<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Bienvenue dans notre distillerie, nos produit sont peu chère de de bonne qualité<br />        
+            <text lang="fr"><![CDATA[Bienvenue dans notre distillerie, nos produit sont peu chère de de bonne qualité<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>   
+        <step id="2" type="quests"/> 
+    </bot>   
     <bot id="2012">
-        <name>Dylan</name>
-        <name langue="fr">Dylan</name>
-        <step type="text" id="1">
-            <text><![CDATA[Welcome in Mersoul, a small coastal town unpretentious<br />        
+      <name>Dylan</name>
+      <name langue="fr">Dylan</name>
+         <step type="text" id="1">
+            <text><![CDATA[Welcome in Mersoul, a small coastal town unpretentious<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Bienvenue à Mersoul, une petite ville cotière sans prétention <br />        
+            <text lang="fr"><![CDATA[Bienvenue à Mersoul, une petite ville cotière sans prétention <br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot> 
     <bot id="2013">
-        <name>Bill</name>
-        <name langue="fr">Bill</name>
-        <step type="text" id="1">
-            <text><![CDATA[Hi, do you want a small job well paid?<br />        
+      <name>Bill</name>
+      <name langue="fr">Bill</name>
+         <step type="text" id="1">
+            <text><![CDATA[Hi, do you want a small job well paid?<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[Salut, tu veux un petit boulot bien payé ? <br />        
+            <text lang="fr"><![CDATA[Salut, tu veux un petit boulot bien payé ? <br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot> 
     <bot id="2014">
-        <name>Paulo</name>
-        <name langue="fr">Paulo</name>
-        <step type="text" id="1">
-            <text><![CDATA[The shadow army, give work if you want<br />        
+      <name>Paulo</name>
+      <name langue="fr">Paulo</name>
+         <step type="text" id="1">
+            <text><![CDATA[The shadow army, give work if you want<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[L'armée de l'ombre à du travail si tu veux !<br />        
+            <text lang="fr"><![CDATA[L'armée de l'ombre à du travail si tu veux !<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
+        </step>     
+        <step id="2" type="quests"/> 
     </bot>
     <bot id="2015">
-        <name>Bob</name>
-        <name langue="fr">Bob</name>
-        <step type="text" id="1">
-            <text><![CDATA[The Empire give some work<br />        
+      <name>Bob</name>
+      <name langue="fr">Bob</name>
+         <step type="text" id="1">
+            <text><![CDATA[The Empire give some work<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[L'empire distribut des petits boulot<br />        
+            <text lang="fr"><![CDATA[L'empire distribut des petits boulot<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot> 
     <bot id="2016">
-        <name>Lorenzo</name>
-        <name langue="fr">Lorenzo</name>
-        <step type="text" id="1">
-            <text><![CDATA[To Chantiville we produce wheat which we are very proud<br />        
+      <name>Lorenzo</name>
+      <name langue="fr">Lorenzo</name>
+         <step type="text" id="1">
+            <text><![CDATA[To Chantiville we produce wheat which we are very proud<br />		
             <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[A Chantiville nous produisons un blé dont nous somme très fière<br />        
+            <text lang="fr"><![CDATA[A Chantiville nous produisons un blé dont nous somme très fière<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>
-        <step type="quests" id="2"/>
-    </bot>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot> 
 </bots>
+          

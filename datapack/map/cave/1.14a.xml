@@ -1,10 +1,10 @@
 <map type="cave" backgroundsound="toto.ogg" zone="test">
-    <name>Cave</name>
-    <name lang="fr">Grotte</name>
-    <grass>
-        <monster minLevel="17" luck="35" maxLevel="21" id="5"/>
-        <monster minLevel="17" luck="10" maxLevel="22" id="21"/>
-        <monster minLevel="17" luck="35" maxLevel="21" id="18"/>
-        <monster minLevel="17" luck="20" maxLevel="21" id="25"/>
-    </grass>
+	<name>Cave</name>
+	<name lang="fr">Grotte</name>
+	<grass>
+          <monster id="5" minLevel="17" maxLevel="21" luck="35" />
+          <monster id="21" minLevel="17" maxLevel="22" luck="10" />
+          <monster id="18" minLevel="17" maxLevel="21" luck="35" />
+          <monster id="25" minLevel="17" maxLevel="21" luck="20" />
+  </grass>
 </map>

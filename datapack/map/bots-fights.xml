@@ -4,423 +4,658 @@ skin is invisible
 -->
 <bots>
     <bot id="7001">
-        <name>Valentine</name>
-        <name langue="fr">Valentine</name>
-        <step type="fight" fightid="7001" id="1"/>
+      <name>Valentine</name>
+      <name langue="fr">Valentine</name>
+        <step type="fight" id="1" fightid="7001"/>
     </bot>
     <bot id="7002">
-        <name>Margot</name>
-        <name langue="fr">Margot</name>
-        <step type="fight" fightid="7002" id="1"/>
+      <name>Margot</name>
+      <name langue="fr">Margot</name>
+        <step type="fight" id="1" fightid="7002"/>
     </bot>
     <bot id="7003">
-        <name>Jean</name>
-        <name langue="fr">Jean</name>
-        <step type="fight" fightid="7003" id="1"/>
+      <name>Jean</name>
+      <name langue="fr">Jean</name>
+        <step type="fight" id="1" fightid="7003"/>
     </bot>
     <bot id="7004">
-        <name>Marjorie</name>
-        <name langue="fr">Marjorie</name>
-        <step type="fight" fightid="7004" id="1"/>
+      <name>Marjorie</name>
+      <name langue="fr">Marjorie</name>
+        <step type="fight" id="1" fightid="7004"/>
     </bot>
     <bot id="7005">
-        <name>Adelin</name>
-        <name langue="fr">Adelin</name>
-        <step type="fight" fightid="7005" id="1"/>
+      <name>Adelin</name>
+      <name langue="fr">Adelin</name>
+        <step type="fight" id="1" fightid="7005"/>
     </bot>
     <bot id="7006">
-        <name>Kevin</name>
-        <name langue="fr">Kevin</name>
-        <step type="fight" fightid="7006" id="1"/>
+      <name>Kevin</name>
+      <name langue="fr">Kevin</name>
+        <step type="fight" id="1" fightid="7006"/>
     </bot>
     <bot id="7007">
-        <name>Jack</name>
-        <name langue="fr">Jack</name>
-        <step type="fight" fightid="7007" id="1"/>
+      <name>Jack</name>
+      <name langue="fr">Jack</name>
+        <step type="fight" id="1" fightid="7007"/>
     </bot>
     <bot id="7008">
-        <name>Gaston</name>
-        <name langue="fr">Gaston</name>
-        <step type="fight" fightid="7008" id="1"/>
+      <name>Gaston</name>
+      <name langue="fr">Gaston</name>
+        <step type="fight" id="1" fightid="7008"/>
     </bot>
     <bot id="7009">
-        <name>Alexandra</name>
-        <name langue="fr">Alexandra</name>
-        <step type="fight" fightid="7009" id="1"/>
+      <name>Alexandra</name>
+      <name langue="fr">Alexandra</name>
+        <step type="fight" id="1" fightid="7009"/>
     </bot>
     <bot id="7010">
-        <name>Edward</name>
-        <name langue="fr">Edward</name>
-        <step type="fight" fightid="7010" id="1"/>
+      <name>Edward</name>
+      <name langue="fr">Edward</name>
+        <step type="fight" id="1" fightid="7010"/>
     </bot>
     <bot id="7011">
-        <name>Edwin</name>
-        <name langue="fr">Edwin</name>
-        <step type="fight" fightid="7011" id="1"/>
+      <name>Edwin</name>
+      <name langue="fr">Edwin</name>
+        <step type="fight" id="1" fightid="7011"/>
     </bot>
     <bot id="7012">
-        <name>Thibaud</name>
-        <name langue="fr">Thibaud</name>
-        <step type="fight" fightid="7012" id="1"/>
+      <name>Thibaud</name>
+      <name langue="fr">Thibaud</name>
+        <step type="fight" id="1" fightid="7012"/>
     </bot>
     <bot id="7013">
-        <name>Tim</name>
-        <name langue="fr">Tim</name>
-        <step type="fight" fightid="7013" id="1"/>
+      <name>Tim</name>
+      <name langue="fr">Tim</name>
+        <step type="fight" id="1" fightid="7013"/>
     </bot>
     <bot id="7014">
-        <name>Yan</name>
-        <name langue="fr">Yan</name>
-        <step type="fight" fightid="7014" id="1"/>
+      <name>Yan</name>
+      <name langue="fr">Yan</name>
+        <step type="fight" id="1" fightid="7014"/>
     </bot>
     <bot id="7015">
-        <name>Lauren</name>
-        <name langue="fr">Lauren</name>
-        <step type="fight" fightid="7015" id="1"/>
+      <name>Lauren</name>
+      <name langue="fr">Lauren</name>
+        <step type="fight" id="1" fightid="7015"/>
     </bot>
     <bot id="7016">
-        <name>Natan</name>
-        <name langue="fr">Natan</name>
-        <step type="fight" fightid="7016" id="1"/>
+      <name>Natan</name>
+      <name langue="fr">Natan</name>
+        <step type="fight" id="1" fightid="7016"/>
     </bot>
     <bot id="7017">
-        <name>Leo</name>
-        <name langue="fr">Lï¿½o</name>
-        <step type="fight" fightid="7017" id="1"/>
+      <name>Leo</name>
+      <name langue="fr">Léo</name>
+        <step type="fight" id="1" fightid="7017"/>
     </bot>
     <bot id="7018">
-        <name>Nicolas</name>
-        <name langue="fr">Nicolas</name>
-        <step type="fight" fightid="7018" id="1"/>
+      <name>Nicolas</name>
+      <name langue="fr">Nicolas</name>
+        <step type="fight" id="1" fightid="7018"/>
     </bot>
     <bot id="7019">
-        <name>Logan</name>
-        <name langue="fr">Logan</name>
-        <step type="fight" fightid="7019" id="1"/>
+      <name>Logan</name>
+      <name langue="fr">Logan</name>
+        <step type="fight" id="1" fightid="7019"/>
     </bot>
     <bot id="7020">
-        <name>Jordan</name>
-        <name langue="fr">Jordan</name>
-        <step type="fight" fightid="7020" id="1"/>
+      <name>Jordan</name>
+      <name langue="fr">Jordan</name>
+        <step type="fight" id="1" fightid="7020"/>
     </bot>
     <bot id="7021">
-        <name>Ludo</name>
-        <name langue="fr">Ludo</name>
-        <step type="fight" fightid="7021" id="1"/>
+      <name>Ludo</name>
+      <name langue="fr">Ludo</name>
+        <step type="fight" id="1" fightid="7021"/>
     </bot>
     <bot id="7022">
-        <name>Fernand</name>
-        <name langue="fr">Fernand</name>
-        <step type="fight" fightid="7022" id="1"/>
+      <name>Fernand</name>
+      <name langue="fr">Fernand</name>
+        <step type="fight" id="1" fightid="7022"/>
     </bot>
     <bot id="7023">
-        <name>Florent</name>
-        <name langue="fr">Florent</name>
-        <step type="fight" fightid="7023" id="1"/>
+      <name>Florent</name>
+      <name langue="fr">Florent</name>
+        <step type="fight" id="1" fightid="7023"/>
     </bot>
     <bot id="7024">
-        <name>Valentin</name>
-        <name langue="fr">Valentin</name>
-        <step type="fight" fightid="7024" id="1"/>
+      <name>Valentin</name>
+      <name langue="fr">Valentin</name>
+        <step type="fight" id="1" fightid="7024"/>
     </bot>
     <bot id="7025">
-        <name>Isaac</name>
-        <name langue="fr">Isaac</name>
-        <step type="fight" fightid="7025" id="1"/>
+      <name>Isaac</name>
+      <name langue="fr">Isaac</name>
+        <step type="fight" id="1" fightid="7025"/>
     </bot>
     <bot id="7026">
-        <name>Daniel</name>
-        <name langue="fr">Daniel</name>
-        <step type="fight" fightid="7026" id="1"/>
+      <name>Daniel</name>
+      <name langue="fr">Daniel</name>
+        <step type="fight" id="1" fightid="7026"/>
     </bot>
     <bot id="7027">
-        <name>Dominic</name>
-        <name langue="fr">Dominique</name>
-        <step type="fight" fightid="7027" id="1"/>
+      <name>Dominic</name>
+      <name langue="fr">Dominique</name>
+        <step type="fight" id="1" fightid="7027"/>
     </bot>
     <bot id="7028">
-        <name>Cedric</name>
-        <name langue="fr">Cï¿½dric</name>
-        <step type="fight" fightid="7028" id="1"/>
+      <name>Cedric</name>
+      <name langue="fr">Cédric</name>
+        <step type="fight" id="1" fightid="7028"/>
     </bot>
     <bot id="7029">
-        <name>Yves</name>
-        <name langue="fr">Yves</name>
-        <step type="fight" fightid="7029" id="1"/>
+      <name>Yves</name>
+      <name langue="fr">Yves</name>
+        <step type="fight" id="1" fightid="7029"/>
     </bot>
     <bot id="7030">
-        <name>Rayan</name>
-        <name langue="fr">Rayan</name>
-        <step type="fight" fightid="7030" id="1"/>
+      <name>Rayan</name>
+      <name langue="fr">Rayan</name>
+        <step type="fight" id="1" fightid="7030"/>
     </bot>
     <bot id="7031">
-        <name>Regis</name>
-        <name langue="fr">Rï¿½gis</name>
-        <step type="fight" fightid="7031" id="1"/>
+      <name>Regis</name>
+      <name langue="fr">Régis</name>
+        <step type="fight" id="1" fightid="7031"/>
     </bot>
     <bot id="7032">
-        <name>Remy</name>
-        <name langue="fr">Rï¿½mi</name>
-        <step type="fight" fightid="7032" id="1"/>
+      <name>Remy</name>
+      <name langue="fr">Rémi</name>
+        <step type="fight" id="1" fightid="7032"/>
     </bot>
     <bot id="7033">
-        <name>Marion</name>
-        <name langue="fr">Marion</name>
-        <step type="fight" fightid="7033" id="1"/>
+      <name>Marion</name>
+      <name langue="fr">Marion</name>
+        <step type="fight" id="1" fightid="7033"/>
     </bot>
     <bot id="7034">
-        <name>guardian</name>
-        <name langue="fr">Guardien</name>
-        <step type="fight" fightid="7034" id="1"/>
+      <name>guardian</name>
+      <name langue="fr">Guardien</name>
+        <step type="fight" id="1" fightid="7034"/>
     </bot>
     <bot id="7035">
-        <name>Pierre</name>
-        <name langue="fr">Pierre</name>
-        <step type="fight" fightid="7035" id="1"/>
-    </bot>
+      <name>Pierre</name>
+      <name langue="fr">Pierre</name>
+        <step type="fight" id="1" fightid="7035"/>
+    </bot>    
     <bot id="7036">
-        <name>Sign</name>
-        <name langue="fr">Panneau</name>
-        <step type="fight" fightid="7036" id="1"/>
-    </bot>
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+        <step type="fight" id="1" fightid="7036"/>
+    </bot>     
     <bot id="7037">
-        <name>Robert</name>
-        <name langue="fr">Robert</name>
-        <step type="fight" fightid="7037" id="1"/>
-    </bot>
+      <name>Robert</name>
+      <name langue="fr">Robert</name>
+        <step type="fight" id="1" fightid="7037"/>
+    </bot>    
     <bot id="7038">
-        <name>Robin</name>
-        <name langue="fr">Robin</name>
-        <step type="fight" fightid="7038" id="1"/>
-    </bot>
+      <name>Robin</name>
+      <name langue="fr">Robin</name>
+        <step type="fight" id="1" fightid="7038"/>
+    </bot>    
     <bot id="7039">
-        <name>Harold</name>
-        <name langue="fr">Harold</name>
-        <step type="fight" fightid="7039" id="1"/>
-    </bot>
+      <name>Harold</name>
+      <name langue="fr">Harold</name>
+        <step type="fight" id="1" fightid="7039"/>
+    </bot>    
     <bot id="7040">
-        <name>Kevin</name>
-        <name langue="fr">Kï¿½vin</name>
-        <step type="fight" fightid="7040" id="1"/>
-    </bot>
+      <name>Kevin</name>
+      <name langue="fr">Kévin</name>
+        <step type="fight" id="1" fightid="7040"/>
+    </bot>    
     <bot id="7041">
-        <name>Willy</name>
-        <name langue="fr">Willy</name>
-        <step type="fight" fightid="7041" id="1"/>
-    </bot>
+      <name>Willy</name>
+      <name langue="fr">Willy</name>
+        <step type="fight" id="1" fightid="7041"/>
+    </bot>    
     <bot id="7042">
-        <name>Aldwin</name>
-        <name langue="fr">Aldwin</name>
-        <step type="fight" fightid="7042" id="1"/>
-    </bot>
+      <name>Aldwin</name>
+      <name langue="fr">Aldwin</name>
+        <step type="fight" id="1" fightid="7042"/>
+    </bot>    
     <bot id="7043">
-        <name>Fanny</name>
-        <name langue="fr">Fanny</name>
-        <step type="fight" fightid="7043" id="1"/>
-    </bot>
+      <name>Fanny</name>
+      <name langue="fr">Fanny</name>
+        <step type="fight" id="1" fightid="7043"/>
+    </bot>   
     <bot id="7044">
-        <name>Quentin</name>
-        <name langue="fr">Quentin</name>
-        <step type="fight" fightid="7044" id="1"/>
-    </bot>
+      <name>Quentin</name>
+      <name langue="fr">Quentin</name>
+        <step type="fight" id="1" fightid="7044"/>
+    </bot>    
     <bot id="7045">
-        <name>Mathieu</name>
-        <name langue="fr">Mathieu</name>
-        <step type="fight" fightid="7045" id="1"/>
-    </bot>
+      <name>Mathieu</name>
+      <name langue="fr">Mathieu</name>
+        <step type="fight" id="1" fightid="7045"/>
+    </bot>    
     <bot id="7046">
-        <name>Fiora</name>
-        <name langue="fr">Fiora</name>
-        <step type="fight" fightid="7046" id="1"/>
+      <name>Fiora</name>
+      <name langue="fr">Fiora</name>
+        <step type="fight" id="1" fightid="7046"/>
     </bot>
     <bot id="7047">
-        <name>Elena</name>
-        <name langue="fr">Elï¿½na</name>
-        <step type="fight" fightid="7047" id="1"/>
+      <name>Elena</name>
+      <name langue="fr">Eléna</name>
+        <step type="fight" id="1" fightid="7047"/>
     </bot>
     <bot id="7048">
-        <name>Elodie</name>
-        <name langue="fr">Elodie</name>
-        <step type="fight" fightid="7048" id="1"/>
+      <name>Elodie</name>
+      <name langue="fr">Elodie</name>
+        <step type="fight" id="1" fightid="7048"/>
     </bot>
     <bot id="7049">
-        <name>Natalie</name>
-        <name langue="fr">Natalie</name>
-        <step type="fight" fightid="7049" id="1"/>
+      <name>Natalie</name>
+      <name langue="fr">Natalie</name>
+        <step type="fight" id="1" fightid="7049"/>
     </bot>
     <bot id="7050">
-        <name>David</name>
-        <name langue="fr">David</name>
-        <step type="fight" fightid="7050" id="1"/>
-    </bot>
+      <name>David</name>
+      <name langue="fr">David</name>
+        <step type="fight" id="1" fightid="7050"/>
+    </bot>    
     <bot id="7051">
-        <name>Stephanie</name>
-        <name langue="fr">Stï¿½phanie</name>
-        <step type="fight" fightid="7051" id="1"/>
-    </bot>
+      <name>Stephanie</name>
+      <name langue="fr">Stéphanie</name>
+        <step type="fight" id="1" fightid="7051"/>
+    </bot>    
     <bot id="7052">
-        <name>Carlos</name>
-        <name langue="fr">Carlos</name>
-        <step type="fight" fightid="7052" id="1"/>
-    </bot>
+      <name>Carlos</name>
+      <name langue="fr">Carlos</name>
+        <step type="fight" id="1" fightid="7052"/>
+    </bot>    
     <bot id="7053">
-        <name>Arielle</name>
-        <name langue="fr">Arielle</name>
-        <step type="fight" fightid="7053" id="1"/>
-    </bot>
+      <name>Arielle</name>
+      <name langue="fr">Arielle</name>
+        <step type="fight" id="1" fightid="7053"/>
+    </bot>    
     <bot id="7054">
-        <name>Andree</name>
-        <name langue="fr">Andrï¿½e</name>
-        <step type="fight" fightid="7054" id="1"/>
-    </bot>
+      <name>Andree</name>
+      <name langue="fr">Andrée</name>
+        <step type="fight" id="1" fightid="7054"/>
+    </bot>    
     <bot id="7055">
-        <name>Natacha</name>
-        <name langue="fr">Natacha</name>
-        <step type="fight" fightid="7055" id="1"/>
-    </bot>
+      <name>Natacha</name>
+      <name langue="fr">Natacha</name>
+        <step type="fight" id="1" fightid="7055"/>
+    </bot>    
     <bot id="7056">
-        <name>Marion</name>
-        <name langue="fr">Marion</name>
-        <step type="fight" fightid="7056" id="1"/>
-    </bot>
+      <name>Marion</name>
+      <name langue="fr">Marion</name>
+        <step type="fight" id="1" fightid="7056"/>
+    </bot>    
     <bot id="7057">
-        <name>Vladimir</name>
-        <name langue="fr">Vladimir</name>
-        <step type="fight" fightid="7057" id="1"/>
-    </bot>
+      <name>Vladimir</name>
+      <name langue="fr">Vladimir</name>
+        <step type="fight" id="1" fightid="7057"/>
+    </bot>    
     <bot id="7058">
-        <name>Jasmin</name>
-        <name langue="fr">Jasmin</name>
-        <step type="fight" fightid="7058" id="1"/>
-    </bot>
+      <name>Jasmin</name>
+      <name langue="fr">Jasmin</name>
+        <step type="fight" id="1" fightid="7058"/>
+    </bot>    
     <bot id="7059">
-        <name>Claire</name>
-        <name langue="fr">Claire</name>
-        <step type="fight" fightid="7059" id="1"/>
-    </bot>
+      <name>Claire</name>
+      <name langue="fr">Claire</name>
+        <step type="fight" id="1" fightid="7059"/>
+    </bot>    
     <bot id="7060">
-        <name>Ben</name>
-        <name langue="fr">Ben</name>
-        <step type="fight" fightid="7060" id="1"/>
-    </bot>
+      <name>Ben</name>
+      <name langue="fr">Ben</name>
+        <step type="fight" id="1" fightid="7060"/>
+    </bot>    
     <bot id="7061">
-        <name>Clement</name>
-        <name langue="fr">Clï¿½ment</name>
-        <step type="fight" fightid="7061" id="1"/>
-    </bot>
+      <name>Clement</name>
+      <name langue="fr">Clément</name>
+        <step type="fight" id="1" fightid="7061"/>
+    </bot>    
     <bot id="7062">
-        <name>Benjamin</name>
-        <name langue="fr">Benjamin</name>
-        <step type="fight" fightid="7062" id="1"/>
-    </bot>
+      <name>Benjamin</name>
+      <name langue="fr">Benjamin</name>
+        <step type="fight" id="1" fightid="7062"/>
+    </bot>    
     <bot id="7063">
-        <name>Tom</name>
-        <name langue="fr">Tom</name>
-        <step type="fight" fightid="7063" id="1"/>
-    </bot>
+      <name>Tom</name>
+      <name langue="fr">Tom</name>
+        <step type="fight" id="1" fightid="7063"/>
+    </bot>    
     <bot id="7064">
-        <name>Raoul</name>
-        <name langue="fr">Raoul</name>
-        <step type="fight" fightid="7064" id="1"/>
-    </bot>
+      <name>Raoul</name>
+      <name langue="fr">Raoul</name>
+        <step type="fight" id="1" fightid="7064"/>
+    </bot>    
     <bot id="7065">
-        <name>Fabrice</name>
-        <name langue="fr">Fabrice</name>
-        <step type="fight" fightid="7065" id="1"/>
-    </bot>
+      <name>Fabrice</name>
+      <name langue="fr">Fabrice</name>
+        <step type="fight" id="1" fightid="7065"/>
+    </bot>    
     <bot id="7066">
-        <name>David</name>
-        <name langue="fr">David</name>
-        <step type="fight" fightid="7066" id="1"/>
-    </bot>
+      <name>David</name>
+      <name langue="fr">David</name>
+        <step type="fight" id="1" fightid="7066"/>
+    </bot>  
     <bot id="7067">
-        <name>Aude</name>
-        <name langue="fr">Aude</name>
-        <step type="fight" fightid="7067" id="1"/>
-    </bot>
+      <name>Aude</name>
+      <name langue="fr">Aude</name>
+        <step type="fight" id="1" fightid="7067"/>
+    </bot>      
     <bot id="7068">
-        <name>Christophe</name>
-        <name langue="fr">Christophe</name>
-        <step type="fight" fightid="7068" id="1"/>
-    </bot>
+      <name>Christophe</name>
+      <name langue="fr">Christophe</name>
+        <step type="fight" id="1" fightid="7068"/>
+    </bot>      
     <bot id="7069">
-        <name>Antony</name>
-        <name langue="fr">Antony</name>
-        <step type="fight" fightid="7069" id="1"/>
-    </bot>
+      <name>Antony</name>
+      <name langue="fr">Antony</name>
+        <step type="fight" id="1" fightid="7069"/>
+    </bot>      
     <bot id="7070">
-        <name>Marie</name>
-        <name langue="fr">Marie</name>
-        <step type="fight" fightid="7070" id="1"/>
-    </bot>
+      <name>Marie</name>
+      <name langue="fr">Marie</name>
+        <step type="fight" id="1" fightid="7070"/>
+    </bot>      
     <bot id="7071">
-        <name>Paule</name>
-        <name langue="fr">Paule</name>
-        <step type="fight" fightid="7071" id="1"/>
-    </bot>
+      <name>Paule</name>
+      <name langue="fr">Paule</name>
+        <step type="fight" id="1" fightid="7071"/>
+    </bot>      
     <bot id="7072">
-        <name>Gilles</name>
-        <name langue="fr">Gilles</name>
-        <step type="fight" fightid="7072" id="1"/>
-    </bot>
+      <name>Gilles</name>
+      <name langue="fr">Gilles</name>
+        <step type="fight" id="1" fightid="7072"/>
+    </bot>      
     <bot id="7073">
-        <name>Greg</name>
-        <name langue="fr">Greg</name>
-        <step type="fight" fightid="7073" id="1"/>
+      <name>Greg</name>
+      <name langue="fr">Greg</name>
+        <step type="fight" id="1" fightid="7073"/>
     </bot>
     <bot id="7074">
-        <name>Cyril</name>
-        <name langue="fr">Cyril</name>
-        <step type="fight" fightid="7074" id="1"/>
+      <name>Cyril</name>
+      <name langue="fr">Cyril</name>
+        <step type="fight" id="1" fightid="7074"/>
     </bot>
     <bot id="7075">
-        <name>Lary</name>
-        <name langue="fr">Lary</name>
-        <step type="fight" fightid="7075" id="1"/>
+      <name>Lary</name>
+      <name langue="fr">Lary</name>
+        <step type="fight" id="1" fightid="7075"/>
     </bot>
     <bot id="7076">
-        <name>Luca</name>
-        <name langue="fr">Luca</name>
-        <step type="fight" fightid="7076" id="1"/>
+      <name>Luca</name>
+      <name langue="fr">Luca</name>
+        <step type="fight" id="1" fightid="7076"/>
     </bot>
     <bot id="7077">
-        <name>Damien</name>
-        <name langue="fr">Damien</name>
-        <step type="fight" fightid="7077" id="1"/>
+      <name>Damien</name>
+      <name langue="fr">Damien</name>
+        <step type="fight" id="1" fightid="7077"/>
     </bot>
     <bot id="7078">
-        <name>Fabien</name>
-        <name langue="fr">Fabien</name>
-        <step type="fight" fightid="7078" id="1"/>
+      <name>Fabien</name>
+      <name langue="fr">Fabien</name>
+        <step type="fight" id="1" fightid="7078"/>
     </bot>
     <bot id="7079">
-        <name>Benoit</name>
-        <name langue="fr">Benoï¿½t</name>
-        <step type="fight" fightid="7079" id="1"/>
+      <name>Benoit</name>
+      <name langue="fr">Benoît</name>
+        <step type="fight" id="1" fightid="7079"/>
     </bot>
     <bot id="7080">
-        <name>Antoine</name>
-        <name langue="fr">Antoine</name>
-        <step type="fight" fightid="7080" id="1"/>
+      <name>Antoine</name>
+      <name langue="fr">Antoine</name>
+        <step type="fight" id="1" fightid="7080"/>
     </bot>
     <bot id="7081">
-        <name>Harry</name>
-        <name langue="fr">Harry</name>
-        <step type="fight" fightid="7081" id="1"/>
+      <name>Harry</name>
+      <name langue="fr">Harry</name>
+        <step type="fight" id="1" fightid="7081"/>
     </bot>
     <bot id="7082">
-        <name>Arthur</name>
-        <name langue="fr">Arthur</name>
-        <step type="fight" fightid="7083" id="1"/>
+      <name>Arthur</name>
+      <name langue="fr">Arthur</name>
+        <step type="fight" id="1" fightid="7082"/>
     </bot>
     <bot id="7083">
-        <name>Harold</name>
-        <name langue="fr">Harold</name>
-        <step type="fight" fightid="7082" id="1"/>
+      <name>Harold</name>
+      <name langue="fr">Harold</name>
+        <step type="fight" id="1" fightid="7083"/>
     </bot>
     <bot id="7084">
-        <name>Henry</name>
-        <name langue="fr">Henry</name>
-        <step type="fight" fightid="7083" id="1"/>
+      <name>Adam</name>
+      <name langue="fr">Adam</name>
+        <step type="fight" id="1" fightid="7084"/>
+    </bot>
+    <bot id="7085">
+      <name>Hiruma</name>
+      <name langue="fr">Hiruma</name>
+        <step type="fight" id="1" fightid="7085"/>
+    </bot>
+    <bot id="7086">
+      <name>Alex</name>
+      <name langue="fr">Alex</name>
+        <step type="fight" id="1" fightid="7086"/>
+    </bot>
+    <bot id="7087">
+      <name>Cyril</name>
+      <name langue="fr">Cyril</name>
+        <step type="fight" id="1" fightid="7087"/>
+    </bot>
+    <bot id="7088">
+      <name>Dani</name>
+      <name langue="fr">Dani</name>
+        <step type="fight" id="1" fightid="7088"/>
+    </bot>
+    <bot id="7089">
+      <name>Elias</name>
+      <name langue="fr">Elias</name>
+        <step type="fight" id="1" fightid="7089"/>
+    </bot>
+    <bot id="7090">
+      <name>Denis</name>
+      <name langue="fr">Denis</name>
+        <step type="fight" id="1" fightid="7090"/>
+    </bot>
+    <bot id="7091">
+      <name>Louis</name>
+      <name langue="fr">Louis</name>
+        <step type="fight" id="1" fightid="7091"/>
+    </bot>
+    <bot id="7092">
+      <name>Kevin</name>
+      <name langue="fr">Kevin</name>
+        <step type="fight" id="1" fightid="7092"/>
+    </bot>
+    <bot id="7093">
+      <name>Logan</name>
+      <name langue="fr">Logan</name>
+        <step type="fight" id="1" fightid="7093"/>
+    </bot>
+    <bot id="7094">
+      <name>Lucas</name>
+      <name langue="fr">Lucas</name>
+        <step type="fight" id="1" fightid="7094"/>
+    </bot>
+    <bot id="7095">
+      <name>Marc</name>
+      <name langue="fr">Marc</name>
+        <step type="fight" id="1" fightid="7095"/>
+    </bot>
+    <bot id="7096">
+      <name>Loic</name>
+      <name langue="fr">Loic</name>
+        <step type="fight" id="1" fightid="7096"/>
+    </bot>
+    <bot id="7097">
+      <name>Mateo</name>
+      <name langue="fr">Mateo</name>
+        <step type="fight" id="1" fightid="7097"/>
+    </bot>
+    <bot id="7098">
+      <name>Robin</name>
+      <name langue="fr">Robin</name>
+        <step type="fight" id="1" fightid="7098"/>
+    </bot>
+    <bot id="7099">
+      <name>Theo</name>
+      <name langue="fr">Théo</name>
+        <step type="fight" id="1" fightid="7099"/>
+    </bot>
+    <bot id="7100">
+      <name>Yohan</name>
+      <name langue="fr">Yohan</name>
+        <step type="fight" id="1" fightid="7100"/>
+    </bot>
+    <bot id="7101">
+      <name>Natan</name>
+      <name langue="fr">Natan</name>
+        <step type="fight" id="1" fightid="7101"/>
+    </bot>
+    <bot id="7102">
+      <name>Max</name>
+      <name langue="fr">Max</name>
+        <step type="fight" id="1" fightid="7102"/>
+    </bot>
+    <bot id="7103">
+      <name>Jason</name>
+      <name langue="fr">Jason</name>
+        <step type="fight" id="1" fightid="7103"/>
+    </bot>
+    <bot id="7104">
+      <name>Hugo</name>
+      <name langue="fr">Hugo</name>
+        <step type="fight" id="1" fightid="7104"/>
+    </bot>
+    <bot id="7105">
+      <name>Fred</name>
+      <name langue="fr">Fred</name>
+        <step type="fight" id="1" fightid="7105"/>
+    </bot>
+    <bot id="7106">
+      <name>Jamy</name>
+      <name langue="fr">Jamy</name>
+        <step type="fight" id="1" fightid="7106"/>
+    </bot>
+    <bot id="7107">
+      <name>Frank</name>
+      <name langue="fr">Frank</name>
+        <step type="fight" id="1" fightid="7107"/>
+    </bot>
+    <bot id="7108">
+      <name>Nicolat</name>
+      <name langue="fr">Nicolat</name>
+        <step type="fight" id="1" fightid="7108"/>
+    </bot>
+    <bot id="7109">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7084"/>
+    </bot>
+    <bot id="7110">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7110"/>
+    </bot>
+    <bot id="7111">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7111"/>
+    </bot>
+    <bot id="7112">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7112"/>
+    </bot>
+    <bot id="7113">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7114">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7115">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7116">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7117">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7118">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7119">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7120">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7121">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7122">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7123">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7124">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7125">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7126">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7127">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7128">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7129">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7130">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7131">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1" fightid="7113"/>
     </bot>
 </bots>

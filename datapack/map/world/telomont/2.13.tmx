@@ -116,5 +116,21 @@
     <property name="y" value="9"/>
    </properties>
   </object>
+  <object name="bot" type="bot" gid="5123" x="192" y="208">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7076"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="320" y="96">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7077"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

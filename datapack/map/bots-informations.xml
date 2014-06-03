@@ -4,15 +4,15 @@ skin is invisible
 -->
 <bots>
     <bot id="9001">
-        <name>Sign</name>
-        <name langue="fr">Panneau</name>
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
         <step type="text" id="1">
-            <text><![CDATA[Hello world!]]></text>
+            <text><![CDATA[Hello world!]]></text> 
         </step>
     </bot>
     <bot id="9002">
-        <name>Eric</name>
-        <name langue="fr">Eric</name>
+      <name>Eric</name>
+      <name langue="fr">Eric</name>
         <step type="text" id="1">
             <text><![CDATA[Welcome to Mersoul!<br /><a href="2">Quests</a>]]></text>
             <text lang="fr"><![CDATA[Bienvenue à Mersoul!<br /><a href="2">Quétes</a>]]></text>
@@ -20,24 +20,24 @@ skin is invisible
         <step type="quests" id="2"/>
     </bot>
     <bot id="9003">
-        <name>Franc</name>
-        <name langue="fr">Franc</name>
+      <name>Franc</name>
+      <name langue="fr">Franc</name>
         <step type="text" id="1">
             <text><![CDATA[I like the sea]]></text>
             <text lang="fr"><![CDATA[Que j'aime la mer]]></text>
         </step>
     </bot>
     <bot id="9004">
-        <name>Leon</name>
-        <name langue="fr">Leon</name>
+      <name>Leon</name>
+      <name langue="fr">Leon</name>    
         <step type="text" id="1">
             <text><![CDATA[The Prof is very busy with this new discovery]]></text>
             <text lang="fr"><![CDATA[Le Prof est très occupé avec ça nouvelle découverte]]></text>
         </step>
     </bot>
     <bot id="9005">
-        <name>Guardian</name>
-        <name langue="fr">Gardien</name>
+      <name>Guardian</name>
+      <name langue="fr">Gardien</name> 
         <step type="text" id="1">
             <text><![CDATA[Road 1&#xd;
                   Warning to a wild monsters]]></text>
@@ -46,16 +46,16 @@ skin is invisible
         </step>
     </bot>
     <bot id="9006">
-        <name>Pierre</name>
-        <name langue="fr">Pierre</name>
+      <name>Pierre</name>
+      <name langue="fr">Pierre</name> 
         <step type="text" id="1">
             <text><![CDATA[Then you go to adventure ?]]></text>
             <text lang="fr"><![CDATA[Alors tu part a l'aventure ?]]></text>
         </step>
     </bot>
     <bot id="9007">
-        <name>Herman</name>
-        <name langue="fr">Herman</name>
+      <name>Herman</name>
+      <name langue="fr">Herman</name> 
         <step type="text" id="1">
             <text><![CDATA[Hey ! I'm happy to meet you<br />
                   We spoke a lot about you<br />
@@ -64,72 +64,77 @@ skin is invisible
                   On a beaucoup parlé de toi<br />
                   Et nous pensons qu'il est temps pour toi de partir pour découvrir le monde]]></text>
         </step>
-        <item quantity="3" id="1"/>
+        <item id="1" quantity="3" />
     </bot>
     <bot id="9008">
-        <name>Romain</name>
-        <name langue="fr">Romain</name>
+      <name>Romain</name>
+      <name langue="fr">Romain</name> 
         <step type="text" id="1">
             <text><![CDATA[We produce the best biofuel throughout the region]]></text>
             <text lang="fr"><![CDATA[Nous produisons le meilleur biocraburant de toute la région]]></text>
         </step>
     </bot>
     <bot id="9009">
-        <name>John</name>
-        <name langue="fr">John</name>
+      <name>John</name>
+      <name langue="fr">John</name> 
         <step type="text" id="1">
             <text><![CDATA[Are you hungry? We sell full of delicious thing]]></text>
             <text lang="fr"><![CDATA[Vous avez faim ? Nous vendons pleins de chose délicieuse]]></text>
         </step>
     </bot>
     <bot id="9010">
-        <name>Adrien</name>
-        <name langue="fr">Adrien</name>
+      <name>Adrien</name>
+      <name langue="fr">Adrien</name> 
         <step type="text" id="1">
             <text><![CDATA[I can help you?]]></text>
             <text lang="fr"><![CDATA[Je peux vous aider ?]]></text>
         </step>
     </bot>
     <bot id="9011">
-        <name>Pascal</name>
-        <name langue="fr">Pacal</name>
+      <name>Pascal</name>
+      <name langue="fr">Pacal</name> 
         <step type="text" id="1">
             <text><![CDATA[On this family we are farmer from father to son]]></text>
             <text lang="fr"><![CDATA[Dans la famille on est fermier de génération en génération]]></text>
         </step>
-        <item id="2014"/>
+        <item id="2014" />
     </bot>
     <bot id="9012">
-        <name>Marina</name>
-        <name langue="fr">Marina</name>
+      <name>Marina</name>
+      <name langue="fr">Marina</name> 
         <step type="text" id="1">
             <text><![CDATA[What are doing in my room !]]></text>
             <text lang="fr"><![CDATA[Quesque vous fait dans ma chambre]]></text>
         </step>
     </bot>
     <bot id="9013">
-        <name>Ulric</name>
-        <name langue="fr">Ulric</name>
+      <name>Ulric</name>
+      <name langue="fr">Ulric</name> 
         <step type="text" id="1">
             <text><![CDATA[What are doing in my room !]]></text>
             <text lang="fr"><![CDATA[Quesque vous fait dans ma chambre !]]></text>
         </step>
     </bot>
     <bot id="9014">
-        <name>Paul</name>
-        <name langue="fr">Paul</name>
+      <name>Paul</name>
+      <name langue="fr">Paul</name> 
         <step type="text" id="1">
-            <text><![CDATA[A visitor is really rare to see,<br />
+          <text><![CDATA[A visitor is really rare to see,<br />
                 nice to meet you,<br />
                 I hope you have a good time in chantitown]]></text>
-            <text lang="fr"><![CDATA[Un visiteur c'est vraiment rare d'en voir,<br />
+          <text lang="fr"><![CDATA[Un visiteur c'est vraiment rare d'en voir,<br />
                           ravie de vous rencontrez,<br />
                           j'espere que vous passerez un bon moment à chantiville]]></text>
         </step>
     </bot>
+    
+    
+    
+    
+    
     <bot id="9016">
-        <name>Samuel</name>
-        <name langue="fr">Samuel</name>
+      <name>Samuel</name>
+      <name langue="fr">Samuel</name> 
         <step type="text" id="1">
             <text><![CDATA[The first time I came here it was to trade flourishing wheat,<br />
                   and I fell amourreur place and I never left]]></text>
@@ -138,16 +143,16 @@ skin is invisible
         </step>
     </bot>
     <bot id="9017">
-        <name>Ted</name>
-        <name langue="fr">Ted</name>
+      <name>Ted</name>
+      <name langue="fr">Ted</name> 
         <step type="text" id="1">
             <text><![CDATA[Welcome to Megalopolis the most industrialized city]]></text>
             <text lang="fr"><![CDATA[Bienvenue à Megalopolis la ville la plus industrialisés]]></text>
         </step>
     </bot>
     <bot id="9018">
-        <name>Théo</name>
-        <name langue="fr">Théo</name>
+      <name>Théo</name>
+      <name langue="fr">Théo</name> 
         <step type="text" id="1">
             <text><![CDATA[The scholarship is surely the best way to buy and sell items]]></text>
             <text lang="fr"><![CDATA[La bourse est sûrement le meilleur moyen pour vendre et acheter des objects]]></text>
@@ -155,8 +160,8 @@ skin is invisible
     </bot>
     <bot id="9019">
         <step type="text" id="1">
-            <name>Fabien</name>
-            <name langue="fr">Fabien</name>
+          <name>Fabien</name>
+      <name langue="fr">Fabien</name> 
             <text><![CDATA[You have too many items?<br />
                   just drop them off at the bank!]]></text>
             <text lang="fr"><![CDATA[Vous avez trop d'items ?<br />
@@ -164,8 +169,8 @@ skin is invisible
         </step>
     </bot>
     <bot id="9020">
-        <name>Julie</name>
-        <name langue="fr">Julie</name>
+      <name>Julie</name>
+      <name langue="fr">Julie</name> 
         <step type="text" id="1">
             <text><![CDATA[Megalopolis is the only city where we can find <br />
                   the producer  traps and biofuels]]></text>
@@ -174,16 +179,16 @@ skin is invisible
         </step>
     </bot>
     <bot id="9021">
-        <name>Erwan</name>
-        <name langue="fr">Erwan</name>
+      <name>Erwan</name>
+      <name langue="fr">Erwan</name> 
         <step type="text" id="1">
             <text><![CDATA[The Megapolis arena is renowned for its difficulty]]></text>
             <text lang="fr"><![CDATA[L'aréne de megapolis est réputé pour sa difficulté]]></text>
         </step>
     </bot>
-    <bot id="9022">
+      <bot id="9022">
         <name>Edouard</name>
-        <name langue="fr">Edouard</name>
+      <name langue="fr">Edouard</name> 
         <step type="text" id="1">
             <text><![CDATA[Nice to meet you,<br />
                   I'm an instructor in the field of battle,<br />
@@ -195,89 +200,90 @@ skin is invisible
                             si tu veux apprendre des nouvelles attaques.]]></text>
         </step>
     </bot>
-    <bot id="9023">
+      <bot id="9023">
         <name>Henry</name>
-        <name langue="fr">Henry</name>
-        <step type="text" id="1">
+      <name langue="fr">Henry</name> 
+         <step type="text" id="1">
             <text><![CDATA[It says that the shadow army prepares a big thing]]></text>
             <text lang="fr"><![CDATA[On raconte que L'armée de l'ombre prépare un gros truc]]></text>
         </step>
-    </bot>
+    </bot>      
     <bot id="9024">
-        <name>Tanguy</name>
-        <name langue="fr">Tanguy</name>
+      <name>Tanguy</name>
+      <name langue="fr">Tanguy</name> 
         <step type="text" id="1">
             <text><![CDATA[I'm busy]]></text>
             <text lang="fr"><![CDATA[Je suis occupé]]></text>
         </step>
     </bot>
     <bot id="9025">
-        <name>Ted</name>
-        <name langue="fr">Ted</name>
+      <name>Ted</name>
+      <name langue="fr">Ted</name> 
         <step type="text" id="1">
             <text><![CDATA[Warning road is very dangerous!]]></text>
             <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
         </step>
     </bot>
     <bot id="9026">
-        <name>Carl</name>
-        <name langue="fr">Carl</name>
+      <name>Carl</name>
+      <name langue="fr">Carl</name> 
         <step type="text" id="1">
             <text><![CDATA[We are in a library here, so no noise!]]></text>
             <text lang="fr"><![CDATA[Nous somme dans une bibliothèque ici, alors pas de bruit !]]></text>
         </step>
     </bot>
     <bot id="9027">
-        <name>Charles</name>
-        <name langue="fr">Charles</name>
+      <name>Charles</name>
+      <name langue="fr">Charles</name> 
         <step type="text" id="1">
             <text><![CDATA[I protect this bank!]]></text>
             <text lang="fr"><![CDATA[Je protège cette bank!]]></text>
         </step>
     </bot>
     <bot id="9028">
-        <name>Peter</name>
-        <name langue="fr">Peter</name>
+      <name>Peter</name>
+      <name langue="fr">Peter</name> 
         <step type="text" id="1">
             <text><![CDATA[I protect this city, empire will aggregate]]></text>
             <text lang="fr"><![CDATA[Je protège cette ville, l'empire rassemblera]]></text>
         </step>
     </bot>
     <bot id="9029">
-        <name>Silvain guardian</name>
-        <name langue="fr">Guardian Silvain </name>
+      <name>Silvain guardian</name>
+      <name langue="fr">Guardian Silvain </name> 
         <step type="text" id="1">
             <text><![CDATA[Warning road is very dangerous!]]></text>
             <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
         </step>
     </bot>
     <bot id="9030">
-        <name>Simon</name>
-        <name langue="fr">Simon</name>
+    
+      <name>Simon</name>
+      <name langue="fr">Simon</name> 
         <step type="text" id="1">
             <text><![CDATA[This is not a place for kids here !]]></text>
             <text lang="fr"><![CDATA[Ce n'est pas un lieu pour des gamins ici !]]></text>
         </step>
     </bot>
     <bot id="9031">
-        <name>Victor</name>
-        <name langue="fr">Victor</name>
+      <name>Victor</name>
+      <name langue="fr">Victor</name> 
         <step type="text" id="1">
             <text><![CDATA[An idea for strengthen our forces again ?]]></text>
             <text lang="fr"><![CDATA[Une idée pour renforcer nos force le nouveau ?]]></text>
         </step>
     </bot>
     <bot id="9032">
-        <name>Yohan</name>
-        <name langue="fr">Yohan</name>
+      <name>Yohan</name>
+      <name langue="fr">Yohan</name> 
         <step type="text" id="1">
             <text><![CDATA[The shadow army recruit, what are you waiting ?! will look for more people!]]></text>
             <text lang="fr"><![CDATA[L'armée de l'ombre recrute, quesque tu attend ?! va chercher plus de monde !]]></text>
         </step>
     </bot>
     <bot id="9033">
-        <name>Marcel</name>
-        <name langue="fr">Marcel</name>
+      <name>Marcel</name>
+      <name langue="fr">Marcel</name> 
         <step type="text" id="1">
             <text><![CDATA[From here we control all power of shadow army]]></text>
             <text lang="fr"><![CDATA[D'ici nous commander toutes les force de l'armée de l'ombre]]></text>

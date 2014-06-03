@@ -1,9 +1,9 @@
 <map zone="telomont" type="outdoor">
-    <name lang="en">Road</name>
-    <name lang="fr">Route</name>
-    <grass>
-        <monster luck="30" minLevel="17" maxLevel="21" id="3"/>
-        <monster luck="20" minLevel="17" maxLevel="22" id="13"/>
-        <monster luck="50" minLevel="16" maxLevel="22" id="20"/>
-    </grass>
+	<name lang="en">Road</name>
+	<name lang="fr">Route</name>
+	<grass>
+          <monster id="3" minLevel="17" maxLevel="21" luck="30" />
+          <monster id="13" minLevel="17" maxLevel="22" luck="20" />
+          <monster id="20" minLevel="16" maxLevel="22" luck="50" />
+  </grass>
 </map>

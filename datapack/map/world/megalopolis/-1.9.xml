@@ -1,9 +1,9 @@
-<map type="outdoor" zone="megalopolis">
-    <name>Megalopolis</name>
-    <name lang="fr">Megalopolis</name>
-    <grass>
-        <monster maxLevel="15" id="13" luck="40" minLevel="13"/>
-        <monster maxLevel="15" id="3" luck="35" minLevel="13"/>
-        <monster maxLevel="15" id="4" luck="25" minLevel="13"/>
-    </grass>
+<map zone="megalopolis" type="outdoor">
+	<name>Megalopolis</name>
+	<name lang="fr">Megalopolis</name>
+	<grass>
+          <monster id="13" minLevel="13" maxLevel="15" luck="40" />
+          <monster id="3" minLevel="13" maxLevel="15" luck="35" />
+          <monster id="4" minLevel="13" maxLevel="15" luck="25" />
+  </grass>
 </map>
