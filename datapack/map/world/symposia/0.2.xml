@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <map type="city" zone="symposia">
     <name>Symposia</name>
     <name lang="fr">Symposia</name>
@@ -6,3 +7,13 @@
         <monster id="2" luck="50" minLevel="3" maxLevel="4"/>
     </grass>
 </map>
+=======
+<map type="city" zone="symposia">
+    <name>Symposia</name>
+    <name lang="fr">Symposia</name>
+    <grass>
+        <monster id="3" luck="50" minLevel="3" maxLevel="4"/>
+        <monster id="2" luck="50" minLevel="3" maxLevel="4"/>
+    </grass>
+</map>
+>>>>>>> 1a78a7427b62b7f1df47457a8fcd4a88233ef47a

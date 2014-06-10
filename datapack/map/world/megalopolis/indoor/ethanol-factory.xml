@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <map zone="megalopolis" type="indoor">
     <name>Biofuel refinery</name>
     <name lang="fr">Raffinerie de biocarburant</name>
 </map>
+=======
+<map zone="megalopolis" type="indoor">
+    <name>Biofuel refinery</name>
+    <name lang="fr">Raffinerie de biocarburant</name>
+</map>
+>>>>>>> 1a78a7427b62b7f1df47457a8fcd4a88233ef47a

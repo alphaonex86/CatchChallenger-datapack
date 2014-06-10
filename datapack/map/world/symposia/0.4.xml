@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <map zone="symposia" type="outdoor">
 	<name>Road 5</name>
 	<name lang="fr">Route 5</name>
@@ -7,3 +8,14 @@
           <monster id="13" minLevel="4" maxLevel="4" luck="35" />
   </grass>
 </map>
+=======
+<map zone="symposia" type="outdoor">
+	<name>Road 5</name>
+	<name lang="fr">Route 5</name>
+	<grass>
+          <monster id="3" minLevel="3" maxLevel="4" luck="30" />
+          <monster id="2" minLevel="4" maxLevel="4" luck="35" />
+          <monster id="13" minLevel="4" maxLevel="4" luck="35" />
+  </grass>
+</map>
+>>>>>>> 1a78a7427b62b7f1df47457a8fcd4a88233ef47a
