@@ -102,7 +102,7 @@
   </object>
   <object name="door" type="door" gid="5237" x="288" y="48">
    <properties>
-    <property name="file" value="indoor/arena"/>
+    <property name="map" value="indoor/arena"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

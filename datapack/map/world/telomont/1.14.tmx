@@ -128,7 +128,7 @@
   </object>
   <object name="door" type="door" gid="5123" x="336" y="240">
    <properties>
-    <property name="file" value="../../cave/1.14a"/>
+    <property name="map" value="../../cave/1.14a"/>
     <property name="x" value="14"/>
     <property name="y" value="27"/>
    </properties>

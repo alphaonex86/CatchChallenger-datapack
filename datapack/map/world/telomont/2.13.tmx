@@ -104,14 +104,14 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="door" type="door" gid="5123" x="32" y="288">
    <properties>
-    <property name="file" value="../indoor/2.13a"/>
+    <property name="map" value="../indoor/2.13a"/>
     <property name="x" value="1"/>
     <property name="y" value="9"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="128" y="288">
    <properties>
-    <property name="file" value="../indoor/2.13a"/>
+    <property name="map" value="../indoor/2.13a"/>
     <property name="x" value="9"/>
     <property name="y" value="9"/>
    </properties>

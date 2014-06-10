@@ -116,21 +116,21 @@
   </object>
   <object name="door" type="door" gid="5173" x="320" y="160">
    <properties>
-    <property name="file" value="indoor/dramed-house"/>
+    <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5173" x="320" y="288">
    <properties>
-    <property name="file" value="indoor/ethanol-factory"/>
+    <property name="map" value="indoor/ethanol-factory"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="144" y="64">
    <properties>
-    <property name="file" value="indoor/arena"/>
+    <property name="map" value="indoor/arena"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
@@ -139,7 +139,7 @@
    <properties>
     <property name="condition-file" value="../condition"/>
     <property name="condition-id" value="1"/>
-    <property name="file" value="indoor/secret-base"/>
+    <property name="map" value="indoor/secret-base"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

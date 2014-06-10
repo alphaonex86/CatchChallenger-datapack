@@ -111,21 +111,21 @@
   </object>
   <object name="door" type="door" gid="5397" x="80" y="48">
    <properties>
-    <property name="file" value="indoor/coffee"/>
+    <property name="map" value="indoor/coffee"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="128" y="176">
    <properties>
-    <property name="file" value="indoor/heal"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="48" y="176">
    <properties>
-    <property name="file" value="indoor/shop"/>
+    <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

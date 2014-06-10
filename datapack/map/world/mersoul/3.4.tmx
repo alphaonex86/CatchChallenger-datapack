@@ -110,7 +110,7 @@
   </object>
   <object name="door" type="door" gid="5397" x="64" y="416">
    <properties>
-    <property name="file" value="indoor/foundry"/>
+    <property name="map" value="indoor/foundry"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

@@ -104,35 +104,35 @@
   <object type="rescue" gid="5122" x="176" y="416"/>
   <object name="door" type="door" gid="5461" x="192" y="288">
    <properties>
-    <property name="file" value="indoor/farmer"/>
+    <property name="map" value="indoor/farmer"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5461" x="96" y="400">
    <properties>
-    <property name="file" value="indoor/foundry"/>
+    <property name="map" value="indoor/foundry"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5461" x="304" y="400">
    <properties>
-    <property name="file" value="indoor/dramed-house"/>
+    <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="176" y="400">
    <properties>
-    <property name="file" value="indoor/heal"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="320" y="288">
    <properties>
-    <property name="file" value="indoor/shop"/>
+    <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

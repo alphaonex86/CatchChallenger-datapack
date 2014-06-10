@@ -98,42 +98,42 @@
   <object type="rescue" gid="5122" x="224" y="288"/>
   <object name="door" type="door" gid="5237" x="144" y="112">
    <properties>
-    <property name="file" value="indoor/shop"/>
+    <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="144" y="272">
    <properties>
-    <property name="file" value="indoor/bank"/>
+    <property name="map" value="indoor/bank"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="224" y="272">
    <properties>
-    <property name="file" value="indoor/heal"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="384" y="304">
    <properties>
-    <property name="file" value="indoor/scholarship"/>
+    <property name="map" value="indoor/scholarship"/>
     <property name="x" value="15"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="416" y="304">
    <properties>
-    <property name="file" value="indoor/scholarship"/>
+    <property name="map" value="indoor/scholarship"/>
     <property name="x" value="17"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5461" x="224" y="112">
    <properties>
-    <property name="file" value="indoor/coffee"/>
+    <property name="map" value="indoor/coffee"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

@@ -102,14 +102,14 @@
   </object>
   <object name="door" type="door" gid="5237" x="416" y="432">
    <properties>
-    <property name="file" value="indoor/bank"/>
+    <property name="map" value="indoor/bank"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="288" y="384">
    <properties>
-    <property name="file" value="indoor/bank"/>
+    <property name="map" value="indoor/bank"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
