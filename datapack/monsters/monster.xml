@@ -379,6 +379,9 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="8" level="8"/>
             <attack id="8" level="20" attack_level="2"/>
         </attack_list>
+        <evolutions>
+            <evolution type="level" level="26" evolveTo="34"/>
+        </evolutions>
         <drops>
             <drop item="2000" luck="20" quantity="1"/>
             <drop item="2001" luck="10" quantity="1"/>
@@ -389,7 +392,24 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Selket is mainly composed of stone, which makes it so resistant</description>
         <description lang="fr">Selket est composé principalement de pierre, ce qui le rend si résistant s</description>
     </monster>
-    <monster xp_max="1600000" type="poison" pow="2" speed="110" attack="130" hp="150" catch_rate="20" id="40" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+<monster xp_max="400000" type="stone" pow="2" speed="130" attack="150" hp="160" catch_rate="100" id="34" weight="61kg" special_attack="140" defense="130" special_defense="100" ratio_gender="50%" give_sp="100" height="1.56m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="6" level="0"/>
+            <attack id="5" level="0"/>
+            <attack id="8" level="8"/>
+            <attack id="8" level="20" attack_level="2"/>
+        </attack_list>
+        <drops>
+            <drop item="2000" luck="20" quantity="1"/>
+            <drop item="2001" luck="10" quantity="1"/>
+            <drop item="2003" luck="30" quantity="1"/>
+        </drops>
+        <name>Selmatek</name>
+        <name lang="fr">Selmatek</name>
+        <description>Selket is mainly composed of stone, which makes it so resistant</description>
+        <description lang="fr">Selket est composé principalement de pierre, ce qui le rend si résistant s</description>
+    </monster>
+    <monster xp_max="1600000" type="poison" pow="2" speed="110" attack="130" hp="150" catch_rate="20" id="36" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
@@ -406,10 +426,10 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         </evolutions>
         <name>Snaki</name>
         <name lang="fr">Snaki</name>
-        <description>Snaki is small snake found into the hurge grass</description>
-        <description lang="fr">Snaki est un petit serpent que l'ont trouve dans les grandes herbes</description>
+        <description>Snaki is small hydre found into the hurge grass</description>
+        <description lang="fr">Snaki est un petit hydre que l'ont trouve dans les grandes herbes</description>
     </monster>
-    <monster xp_max="1600000" type="poison;fire" pow="2" speed="110" attack="130" hp="150" catch_rate="20" id="41" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+    <monster xp_max="1600000" type="poison;fire" pow="2" speed="110" attack="130" hp="150" catch_rate="20" id="37" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
@@ -425,7 +445,73 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         </drops>
         <name>Snokari</name>
         <name lang="fr">Snokari</name>
-        <description>Snokari is snake with dedoubled head due to alteration genetic</description>
-        <description lang="fr">Snokari est un serpent avec une double tête à cause d'une alteration génétique</description>
+        <description>Snokari is hydre with dedoubled head due to alteration genetic</description>
+        <description lang="fr">Snokari est unE hydre avec une double tête à cause d'une alteration génétique</description>
     </monster>
+    <monster xp_max="1600000" type="normal" pow="2" speed="137" attack="112" hp="150" catch_rate="20" id="39" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="6" level="0"/>
+            <attack id="5" level="0"/>
+            <attack id="7" level="5"/>
+            <attack id="10" level="8"/>
+            <attack id="17" byitem="17"/>
+            <attack id="17" attack_level="2" byitem="18"/>
+        </attack_list>
+        <evolutions>
+            <evolution type="level" level="26" evolveTo="34"/>
+        </evolutions>
+        <drops>
+        </drops>
+        <name>Vivipere</name>
+        <name lang="fr">Vivipere</name>
+        <description>Vivipere is a common snake encountered everywhere, who easily adapt</description>
+        <description lang="fr">Vivipère est un serpent banal que l'on rencontre un peu partout avec de grande facilité à s'adapter</description>
+    </monster>
+    <monster xp_max="1600000" type="water" pow="2" speed="137" attack="112" hp="150" catch_rate="20" id="40" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="5" level="0"/>
+            <attack id="7" level="0"/>
+            <attack id="2" level="8"/>
+            <attack id="2" level="20" attack_level="2"/>
+        </attack_list>
+        <drops>
+        </drops>
+        <name>Vivisource</name>
+        <name lang="fr">Vivisource</name>
+        <description>Vivisource is a snake that lives in water, it kills its prey by drowning</description>
+        <description lang="fr">Vivisource est un serpent qui vit dans l'eau, il tue ses proies en les noyant</description>
+    </monster>
+     <monster xp_max="400000" type="plant" pow="2" speed="90" attack="150" hp="160" catch_rate="100" id="41" weight="15kg" special_attack="130" defense="90" special_defense="70" ratio_gender="50%" give_sp="100" height="0.54m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="6" level="0"/>
+            <attack id="5" level="0"/>
+            <attack id="3" level="8"/>
+            <attack id="3" level="20" attack_level="2"/>
+        </attack_list>
+        <drops>
+        </drops>
+        <name>Viviphyta</name>
+        <name lang="fr">Viviphyta</name>
+        <description>Viviphyta life in plants and tall trees, it only nourish this plant</description>
+        <description lang="fr">Viviphyta vie dans les plantes et les grands arbres, il ce nourir exclusivement de végetaux</description>
+    </monster>
+    <monster xp_max="1600000" type="electric" pow="2" speed="132" attack="150" hp="150" catch_rate="20" id="42" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="6" level="0"/>
+            <attack id="5" level="0"/>
+            <attack id="11" level="5"/>
+            <attack id="10" level="8"/>
+            <attack id="17" byitem="17"/>
+            <attack id="17" attack_level="2" byitem="18"/>
+        </attack_list>
+        <drops>
+        </drops>
+        <name>Vivitron</name>
+        <name lang="fr">Vivitron</name>
+        <description>Vivitron is a snake that produces electricity for defense</description>
+        <description lang="fr">Vivitron est un serpent qui produit de l'electricité pour se défendre</description>
+    </monster>  
+
+
+
 </monsters>
