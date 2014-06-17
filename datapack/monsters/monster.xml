@@ -422,7 +422,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <drop item="2003" luck="30" quantity="1"/>
         </drops>
         <evolutions>
-            <evolution type="item" level="4010" evolveTo="41"/>
+            <evolution type="item" level="4010" evolveTo="37"/>
         </evolutions>
         <name>Snaki</name>
         <name lang="fr">Snaki</name>
@@ -458,7 +458,6 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="17" attack_level="2" byitem="18"/>
         </attack_list>
         <evolutions>
-            <evolution type="level" level="26" evolveTo="34"/>
         </evolutions>
         <drops>
         </drops>
