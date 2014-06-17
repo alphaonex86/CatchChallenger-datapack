@@ -457,7 +457,12 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="17" byitem="17"/>
             <attack id="17" attack_level="2" byitem="18"/>
         </attack_list>
-        <evolutions>
+        <evolutions>      
+            <evolution type="item" level="42" evolveTo="40"/>
+            <evolution type="item" level="40" evolveTo="41"/>
+            <evolution type="item" level="43" evolveTo="42"/>
+            <evolution type="level" level="43" evolveTo="43"/>
+            <evolution type="item" level="44'" evolveTo="44"/>
         </evolutions>
         <drops>
         </drops>
@@ -510,7 +515,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivitron is a snake that produces electricity for defense</description>
         <description lang="fr">Vivitron est un serpent qui produit de l'electricité pour se défendre</description>
     </monster>  
- <monster xp_max="1600000" type="bird" pow="2" speed="132" attack="150" hp="150" catch_rate="20" id="42" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+ <monster xp_max="1600000" type="bird" pow="2" speed="132" attack="150" hp="150" catch_rate="20" id="43" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="5" level="0"/>
             <attack id="7" level="0"/>
@@ -524,6 +529,20 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vividactil is a snake that can fly for several days without no stop</description>
         <description lang="fr">Vividactil est un serpent qui peux voler pendant plusieurs jours sans m'arreter </description>
     </monster>  
-
+ <monster xp_max="1600000" type="psy" pow="2" speed="122" attack="120" hp="130" catch_rate="20" id="44" weight="0.6kg" special_attack="240" defense="110" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
+        <attack_list>
+            <attack id="5" level="0"/>
+            <attack id="7" level="0"/>
+            <attack id="14" level="10"/>
+            <attack id="4" level="16"/>
+            <attack id="14" level="18" attack_level="2"/>
+        </attack_list>
+        <drops>
+        </drops>
+        <name>Vivitrans</name>
+        <name lang="fr">Vivitrans</name>
+        <description>Vivitrans can read the minds of their prey</description>
+        <description lang="fr">Vivitrans peut lire dans les pensées de ses proies</description>
+    </monster>  
 
 </monsters>

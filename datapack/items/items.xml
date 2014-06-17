@@ -151,25 +151,34 @@ consumeAtUse="true"
         <description>Used to navigate on the water</description>
         <description lang="fr">Permet de naviguer sur l'eau</description>
     </item>
-    <item price="1000" id="40" image="other/evol-plant-crystal.png">
+    <item price="1000" id="40" image="evolution/evol-plant-crystal.png">
         <name>Plant crystal</name>
         <name lang="fr">Cristal de plante</name>
         <description>Allow some evolution</description>
         <description lang="fr">Permet certaine évolution</description>
-        <regeneration hp="15"/>
     </item>
-    <item price="1000" id="41" image="other/evol-fire-crystal.png">
+    <item price="1000" id="41" image="evolution/evol-fire-crystal.png">
         <name>Fire crystal</name>
         <name lang="fr">Cristal de feu</name>
         <description lang="fr">Permet certaine évolution</description>
         <description>Allow some evolution</description>
-        <regeneration hp="15"/>
     </item>
-    <item price="1000" id="42" image="other/evol-water-crystal.png">
+    <item price="1000" id="42" image="evolution/evol-water-crystal.png">
         <name>Water crystal</name>
         <name lang="fr">Cristal d'eau</name>
         <description lang="fr">Permet certaine évolution</description>
         <description>Allow some evolution</description>
-        <regeneration hp="15"/>
+    </item>
+    <item price="1000" id="43" image="evolution/evol-electric-crystal.png">
+        <name>Electric crystal</name>
+        <name lang="fr">Cristal de foudre</name>
+        <description lang="fr">Permet certaine évolution</description>
+        <description>Allow some evolution</description>
+    </item>
+       <item price="1000" id="44" image="evolution/evol-psy-crystal.png">
+        <name>Psy crystal</name>
+        <name lang="fr">Cristal spy</name>
+        <description lang="fr">Permet certaine évolution</description>
+        <description>Allow some evolution</description>
     </item>
 </items>
