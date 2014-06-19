@@ -80,11 +80,6 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="-4.13"/>
@@ -93,11 +88,6 @@
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="-2.13"/>
-   </properties>
-  </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
-   <properties>
-    <property name="map" value=""/>
    </properties>
   </object>
  </objectgroup>

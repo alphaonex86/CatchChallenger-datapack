@@ -85,21 +85,6 @@
     <property name="map" value="3.13"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value="4.14"/>
-   </properties>
-  </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="door" type="door" gid="5123" x="272" y="336">
    <properties>
     <property name="map" value="cave/3.14a"/>

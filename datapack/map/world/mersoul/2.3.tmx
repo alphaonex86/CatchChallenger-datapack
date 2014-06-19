@@ -61,7 +61,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPdgLxLhwYBHYT0E8uuElA3oqRNnb/BGJpxoGxm5CfQeA2DewF+VmcERUjh4EUkP2bBvYScgu97BwFwxdYCg60C0bBSAQRwPIrnEA9MgpGwSigHYC1XWnVRsVlnzU034PaidSwH58/diLZhw5Ibaeit/XR/YFNDhfApgcXJmTWKKAfAADVwCjs
+   eJxjYMAPdgLxLjx4NwH95IKbBOStGGlj908glmYcGLsJ+RkEbtPAXpCfxRlRMXIYSAHZv2lgLyG30MvOUTB8gaXgQLtgFIxEEAEsv8IJ1COjYBSMAtoBWNuVVm1UXPZZQ/M9qJ1IDfvx+WMnkn3ogNR2KnpbH90f2ORwAWx6cGFCZo0C+gEA4l4ppg==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
@@ -80,16 +80,6 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="3.3"/>
@@ -121,16 +111,16 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="192" y="176">
    <properties>
-    <property name="file" value="../../bots-industries.xml"/>
-    <property name="id" value="7007"/>
+    <property name="file" value="../../bots-industries"/>
+    <property name="id" value="3007"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="288" y="32">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="2013"/>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9013"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="jhon"/>
    </properties>

@@ -90,11 +90,6 @@
     <property name="map" value="-3.3"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="-2.4"/>
@@ -103,7 +98,7 @@
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
   <object name="door" type="door" gid="5123" x="288" y="112">
    <properties>
-    <property name="map" value="../../indoor/castel-town/-2.3a"/>
+    <property name="map" value="indoor/toll"/>
     <property name="x" value="2"/>
     <property name="y" value="10"/>
    </properties>

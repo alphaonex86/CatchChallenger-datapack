@@ -95,11 +95,6 @@
     <property name="map" value="-5.13"/>
    </properties>
   </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30"/>
 </map>

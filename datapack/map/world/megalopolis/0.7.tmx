@@ -85,11 +85,6 @@
     <property name="map" value="0.6"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="1.7"/>

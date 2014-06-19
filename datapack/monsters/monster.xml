@@ -101,7 +101,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Polyrock is mainly composed of stone, which makes it so resistant</description>
         <description lang="fr">Polyrock est composé principalement de pierre, ce qui le rend si résistant s</description>
     </monster>
-    <monster xp_max="400000" type="water" pow="2" speed="100" attack="100" hp="200" catch_rate="100" id="6" weight="51kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="11000">
+    <monster xp_max="400000" type="water" pow="2" speed="100" attack="100" hp="160" catch_rate="100" id="6" weight="51kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="11000">
         <attack_list>
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>

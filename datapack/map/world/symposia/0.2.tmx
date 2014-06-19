@@ -90,11 +90,6 @@
     <property name="map" value="-1.2"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="0.3"/>
@@ -197,7 +192,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="224" y="304">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>

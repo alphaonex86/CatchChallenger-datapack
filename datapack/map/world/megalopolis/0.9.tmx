@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPMDIyMDABMTMjmQaQCRSB9ikBsTKd7R0FwwcwchDGIw2MZL8PdUBq3A3FuMblZlLFR8EoGAyAmPQ5EtLwcMq/Q9HN1AIj2e/DCQAAxW4CCA==
+   eJxjYBgFo2BkAUYOwnikgZHs96EOSI27oRjXuNxMqvgoGAWDARCTPkdCGh5O+XcouplaYCT7fTgBAM36AZY=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -88,11 +88,6 @@
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="-1.9"/>
-   </properties>
-  </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value=""/>
    </properties>
   </object>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
