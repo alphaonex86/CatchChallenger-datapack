@@ -87,35 +87,35 @@
   </object>
   <object name="door" type="door" gid="5525" x="192" y="192">
    <properties>
-    <property name="file" value="indoor/house-floor1"/>
+    <property name="map" value="indoor/house-floor1"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5525" x="304" y="176">
    <properties>
-    <property name="file" value="indoor/farmer"/>
+    <property name="map" value="indoor/farmer"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5525" x="352" y="256">
    <properties>
-    <property name="file" value="indoor/arena"/>
+    <property name="map" value="indoor/arena"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="272" y="336">
    <properties>
-    <property name="file" value="indoor/heal"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5525" x="400" y="256">
    <properties>
-    <property name="file" value="indoor/arena"/>
+    <property name="map" value="indoor/arena"/>
     <property name="x" value="9"/>
     <property name="y" value="10"/>
    </properties>

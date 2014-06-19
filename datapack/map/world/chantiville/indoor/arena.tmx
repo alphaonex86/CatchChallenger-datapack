@@ -50,46 +50,47 @@
     <property name="y" value="16"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="144" y="112">
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" type="bot" gid="1027" x="16" y="144">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
-    <property name="id" value="7047"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="girlplayer"/>
+    <property name="file" value="../../../bots-fights"/>
+    <property name="id" value="7049"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="bandit"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="112">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7048"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="girlplayer"/>
+    <property name="skin" value="bandit"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="144" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights"/>
+    <property name="id" value="7047"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="bandit"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="208" y="144">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
-    <property name="id" value="7050"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="girlplayer"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="1027" x="16" y="144">
-   <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
-    <property name="id" value="7049"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="girlplayer"/>
+    <property name="file" value="../../../bots-fights"/>
+    <property name="id" value="7047"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="bandit"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="112" y="64">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7051"/>
-    <property name="lookAt" value="top"/>
+    <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0"/>
 </map>
