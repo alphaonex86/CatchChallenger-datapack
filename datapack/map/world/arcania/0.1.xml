@@ -10,4 +10,9 @@
         <monster minLevel="3" maxLevel="3" luck="40" id="2"/>
         <monster minLevel="3" maxLevel="3" luck="30" id="13"/>
     </grass>
+    <grassNight>
+        <monster minLevel="3" maxLevel="3" luck="30" id="3"/>
+        <monster minLevel="3" maxLevel="3" luck="40" id="18"/>
+        <monster minLevel="3" maxLevel="3" luck="30" id="13"/>
+    </grassNight>
 </map>
