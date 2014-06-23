@@ -119,14 +119,14 @@
   </object>
   <object name="door" type="door" gid="5123" x="320" y="112">
    <properties>
-    <property name="map" value="../../cave/3.6a"/>
+    <property name="map" value="cave/3.6a"/>
     <property name="x" value="14"/>
     <property name="y" value="26"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="272" y="80">
    <properties>
-    <property name="map" value="../../cave/3.6a"/>
+    <property name="map" value="cave/3.6a"/>
     <property name="x" value="6"/>
     <property name="y" value="24"/>
    </properties>

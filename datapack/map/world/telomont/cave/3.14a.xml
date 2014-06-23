@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<map type="cave" backgroundsound="toto.ogg" zone="test">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="5" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="21" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="18" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="32" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
-</map>
-=======
 <map type="cave" backgroundsound="toto.ogg" zone="test">
 	<name>Challenge cave</name>
 	<name lang="fr">Grotte défie</name>

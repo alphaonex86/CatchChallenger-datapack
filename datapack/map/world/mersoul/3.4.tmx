@@ -98,7 +98,7 @@
   <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
   <object name="door" type="teleport on push" gid="5123" x="224" y="144">
    <properties>
-    <property name="map" value="../../cave/3.5b"/>
+    <property name="map" value="cave/3.5b"/>
     <property name="x" value="16"/>
     <property name="y" value="28"/>
    </properties>

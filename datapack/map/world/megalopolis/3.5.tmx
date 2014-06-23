@@ -93,7 +93,7 @@
   <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
   <object name="door" type="door" gid="5123" x="128" y="272">
    <properties>
-    <property name="map" value="../../cave/3.5a"/>
+    <property name="map" value="../mersoul/cave/3.5a"/>
     <property name="x" value="17"/>
     <property name="y" value="6"/>
    </properties>

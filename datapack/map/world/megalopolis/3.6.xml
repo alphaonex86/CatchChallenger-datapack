@@ -2,9 +2,9 @@
 	<name>Road 6</name>
 	<name lang="fr">Route 6</name>
 	<grass>
-          <monster id="3" minLevel="7" maxLevel="8" luck="30" />
-          <monster id="2" minLevel="7" maxLevel="8" luck="30" />
-          <monster id="13" minLevel="7" maxLevel="8" luck="20" />
-          <monster id="27" minLevel="7" maxLevel="8" luck="20" />
+          <monster id="3" minLevel="7" maxLevel="8" luck="35" />
+          <monster id="2" minLevel="7" maxLevel="8" luck="35" />
+          <monster id="13" minLevel="7" maxLevel="8" luck="25" />
+          <monster id="42" minLevel="7" maxLevel="8" luck="5" />
   </grass>
 </map>
