@@ -52,7 +52,7 @@ endurance="40"
         <name>Sheet cutting</name>
         <name lang="fr">Découpe feuille</name>
         <description>Lance sheet has very high speed</description>
-        <description lang="fr">Lance des feuille a très forte vitesse</description>
+        <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
             <level sp="100" endurance="20" number="1">
                 <life success="90%" quantity="-30"/>
@@ -246,7 +246,24 @@ endurance="40"
             <level sp="300" endurance="25" number="2">
                 <life success="90%" quantity="-45"/>
             </level>
-            <level sp="300" endurance="25" number="3">
+            <level sp="1000" endurance="25" number="3">
+                <life success="90%" quantity="-50"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="18" type="fight">
+        <name>Low Sweep</name>
+        <name lang="fr">Balayette</name>
+        <description>you force your opponent to fall brutally</description>
+        <description lang="fr">Mise au sol brutal de l'adversaire</description>
+        <effect>
+            <level sp="100" endurance="20" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+            <level sp="1000" endurance="25" number="3">
                 <life success="90%" quantity="-50"/>
             </level>
         </effect>

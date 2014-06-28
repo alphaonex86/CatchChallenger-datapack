@@ -133,7 +133,7 @@
   <object name="bot" type="bot" gid="5123" x="352" y="320">
    <properties>
     <property name="file" value="../../bots-informations"/>
-    <property name="id" value="2016"/>
+    <property name="id" value="9016"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="farmer"/>
    </properties>

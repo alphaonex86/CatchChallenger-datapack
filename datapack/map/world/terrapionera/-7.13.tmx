@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkksKgDAMRBNU8Bpqvf+Z1ItoF0LtJ02ioos8CIUmzKRDAQzDMAzjX7j+ehp64gzfzjSnH95R/tqeZu4O3D0l2X+1N9d3OWolKqfH0a7NIAK0R42F4upL8/W+DUNfA5Xl/LBv+O6ByLET+pbyrOUc97U5a//Weed9Hab5b/JV2Dv5fuk/T5jOan1yUDl7vR3x1Rpx
+   eJztlGEKgCAMhR0VdI3K7n+m6iK5H4GJm3MZ9WMfjMDJe/Mxcs4wDMMw/oUf719DT5rh25nm9OMzzl/b09x7gnTOmuy/mlvqu4XaiToIPYl26Q6Ac32oOVMLyPVr80XfTqCvgctybewbv3sicsQaKn2pPEs5p31tztrdus7Q1wO/y61nwj61z+kut/5XcDmj3gn45Rpz
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlklSwzAQRbXIHrAvEbJhugRhQwKXAO7BkJAAV8iCDMwHYToIkJBcgLcwVY1xO1LJ8ipd9apkqdK/fyuWZcwiQkW1Yswq1Crl6m6jV4edEnSlxwM4hKMSdKXH0H3WPIbos9TSPMoa5Lw21vLLkFqaR602bezjRatBzmtjHy8+ffbxsujz/9ps3sEQffaZL6q2orz0RB+189mmZlcvedHLWNfOUlcvNt+CvDy/a65eQn1zx5ExE/iGKcyiv+ta/b6xFBuzDCsQQRzb/1arwWZ+DZ112IBN2IrtPKX33fVOsItOA5qwB/spvx2eu3ABl3CVrKf3vej/wR069/AAj/CU6Kb33eYMdYlndF7gFd7gPdHNy12E9w90PuELxjBJ9j/vvudz7swLl/uezH9M3SdwCmfQgjacO7xHWTXM83BN/j4MYAgjuIHbDN2sXD+sD6Fx
+   eJztlktSAjEQhrNgr85cQt34uoS6AfES6j1UfHMF9oAeBNCDqCBcwG8xVLXjdEgqyazoqq8qk9Tk778zycSYdaSK7YYxO7DbqFf3GL0TOK1BV3q8gEu4qkFXekxdZ81jijpLLc2jzEH2a21tfhlSS/Oo5aa1Q7xoOch+rR3iJaTOIV7Wdf6fm8seTFHnkP5YucXy0hN11M5nl5x9vdiiVzGunaW+Xlz+BbZ5lmO+XlL9c6eZMTP4gTkssr/jWv6hsZEbswlbkEGeu7+r5eDSv4fOPhzAIRzlbp7K6+57J2ii04IzaMN5ye8jz0/wDC/QLcbL6x77O+ijM4AhvMJboVted5cz1CdG6IxhAu/wUeja5o7h/ROdL/iGKcyK9bfd90LOnVXhc9+LtfdsOazSuKZeN3ALHbiDe3io2L9Vc/0CplucVA==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwFwsDAwcAIxF8vwdQM9/YjLLmLEcbGJMYcSt9HCL7QGo+E8+MOZEvGh7jZSwXAqAykBQ8WdxILzQgwMF4D4IhBfAuLLQgPtosEJ0OOd2ukgR5iBIReI84A4H4gLhKljLi0ALfPAYMhfg8ENhEAqNH2kA+kMpLSSPYjTDTqgVTiL8zEwSECxJB9EDABUxw/e
+   eJxjYBgFwwFwsDAwcAIxF8vwdQM9/YjLLmLEcbGJMYcSt9HCL7QGo+E8+MOZEvGh7jZSwXAqAykBQ8WdxILzQgwMF4D4IhBfAuLLQgPtosEJ0OOd2ukgR5iBIReI84A4H4gLhKljLi0ALfPAYMhfg8ENgxWkQtNlOpDOQEqj2WSkV1qFszgfA4MEFEvyQcQAbpAP3g==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -97,7 +97,7 @@
   </object>
   <object name="door" type="door" gid="5237" x="416" y="432">
    <properties>
-    <property name="map" value="indoor/bank"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

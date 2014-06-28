@@ -90,6 +90,13 @@
     <property name="map" value="1.15"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5123" x="336" y="240">
+   <properties>
+    <property name="map" value="cave/1.14a"/>
+    <property name="x" value="14"/>
+    <property name="y" value="26"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="128" y="336">
@@ -112,15 +119,8 @@
    <properties>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7070"/>
-    <property name="lookAt" value="bottom"/>
+    <property name="lookAt" value="left"/>
     <property name="skin" value="girl"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5123" x="336" y="240">
-   <properties>
-    <property name="map" value="cave/1.14a"/>
-    <property name="x" value="14"/>
-    <property name="y" value="27"/>
    </properties>
   </object>
  </objectgroup>

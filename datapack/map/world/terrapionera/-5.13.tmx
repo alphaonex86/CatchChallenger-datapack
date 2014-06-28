@@ -104,7 +104,7 @@
    <properties>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7044"/>
-    <property name="lookAt" value="left"/>
+    <property name="lookAt" value="right"/>
     <property name="skin" value="girlplayer"/>
    </properties>
   </object>

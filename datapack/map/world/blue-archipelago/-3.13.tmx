@@ -61,7 +61,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1tENgkAMBuDjwhQaGURn0Wd1B9wLncQ4ifhiUQiNodjS9owJf9IcDyTf9UpyhKDLrV33eQgHqGNOP3eplCZ2uWnMTaZ3H+36rUcPkxMLsx4wqR6tzF/NU+JamRLX0pS4VzvylTX0cIb1ktjl+NZnPObj8jbnzPHMInvfFbiWjt905w3dh3cnn/IoX7uHpkfJff+5B4mN5zfVxHbN9DjW2P+GJJrzTGlq+/2XPqdmFfsqYiIUso197RiudI7U+yVYp5h+pk9mlkVm
+   eJzt1lEOgjAMBuCxcAqNHETPos/qHfBe6EmMJxFfLAqhMRRb2s6Y8CfN9kDyrRvJFoIut3bc5yEcoI45Pe9SKU3sctOYm0zvPtrxW48eJicWZj1gUj1amb86T4lrZUpcS1PiXu3IV9bQwxnGS2KX41vv8ZiPy9ucM8czi+x9V+BaOv7TnTd0H96dfMqjfO0amh4l9/3nGiQ2Pr+pJrZrpsexxt4bkmj2M6Wp7fdf+pyaVeyriIlQyDb2tWO40nOkvi/BOkX5u1ibJ1iWRUY=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
@@ -71,7 +71,7 @@
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBjagIOFgYETiLlYUNnDFYz6cRSMglEwCkbBKKA/GAl1E6421Ujz+3ACpPprqIQDMWmVEvZgALT2IzIbAAPnBEU=
+   eJxjYBjagIOFgYETiLlYUNnDFYz6cRSMglEwCkbBKKA/GAl1E6421Ujz+3ACpPprqIQDMWmVEvZgAPR0DwDHiAMN
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -88,6 +88,11 @@
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="-2.13"/>
+   </properties>
+  </object>
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="-3.12"/>
    </properties>
   </object>
  </objectgroup>

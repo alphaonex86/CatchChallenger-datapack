@@ -13,28 +13,28 @@ consumeAtUse="true"
         <name lang="fr">Piége en fer</name>
         <description>This trap is perfect to capture the very low level monsters.</description>
         <description lang="fr">Ce piége est parfait pour capturer les monstres de trés bas niveau.</description>
-        <trap bonus_rate="1"/>
+        <trap bonus_rate="0.25"/>
     </item>
     <item price="1950" id="2" image="catchtrap/trap-grade-b.png">
         <name>SilverTrap</name>
         <name lang="fr">Piége en argent</name>
         <description>This trap is perfect to capture the low level monsters.</description>
         <description lang="fr">Ce piége est parfait pour capturer les monstres de bas niveau.</description>
-        <trap bonus_rate="1.5"/>
+        <trap bonus_rate="0.4"/>
     </item>
     <item price="7500" id="3" image="catchtrap/trap-grade-c.png">
         <name>StealTrap</name>
         <name lang="fr">Piége en acier</name>
         <description>This trap is perfect to capture the mid level monsters.</description>
         <description lang="fr">Ce piége est parfait pour capturer les monstres de niveau moyen.</description>
-        <trap bonus_rate="2"/>
+        <trap bonus_rate="0.70"/>
     </item>
     <item price="50000" id="4" image="catchtrap/trap-grade-d.png">
         <name>Trap grade D</name>
         <name lang="fr">Piége grade D</name>
         <description>This trap is perfect to capture the hight level monsters.</description>
         <description lang="fr">Ce piége est parfait pour capturer les monstres de haut niveau.</description>
-        <trap bonus_rate="2.5"/>
+        <trap bonus_rate="0.9"/>
     </item>
     <item price="45" id="5" image="potion/potion-grade-a.png">
         <name>Potion grade A</name>

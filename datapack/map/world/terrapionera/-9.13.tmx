@@ -92,21 +92,21 @@
   </object>
   <object name="door" type="door" gid="5123" x="336" y="336">
    <properties>
-    <property name="map" value="../../wood/-9.13a"/>
+    <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
     <property name="y" value="15"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="336" y="320">
    <properties>
-    <property name="map" value="../../wood/-9.13a"/>
+    <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
     <property name="y" value="14"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="336" y="304">
    <properties>
-    <property name="map" value="../../wood/-9.13a"/>
+    <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
     <property name="y" value="14"/>
    </properties>

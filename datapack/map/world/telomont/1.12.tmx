@@ -153,7 +153,7 @@
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9028"/>
-    <property name="lookAt" value="right"/>
+    <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>
    </properties>
   </object>

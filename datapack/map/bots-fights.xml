@@ -129,8 +129,8 @@ skin is invisible
         <step type="fight" id="1" fightid="7025"/>
     </bot>
     <bot id="7026">
-      <name>Daniel</name>
-      <name langue="fr">Daniel</name>
+      <name>Nokomis</name>
+      <name langue="fr">Nokomis</name>
         <step type="fight" id="1" fightid="7026"/>
     </bot>
     <bot id="7027">
@@ -164,8 +164,8 @@ skin is invisible
         <step type="fight" id="1" fightid="7032"/>
     </bot>
     <bot id="7033">
-      <name>Marion</name>
-      <name langue="fr">Marion</name>
+      <name>Antony</name>
+      <name langue="fr">Antony</name>
         <step type="fight" id="1" fightid="7033"/>
     </bot>
     <bot id="7034">
@@ -657,5 +657,10 @@ skin is invisible
       <name>Henry</name>
       <name langue="fr">Henry</name>
         <step type="fight" id="1" fightid="7113"/>
+    </bot>
+    <bot id="7132">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
     </bot>
 </bots>

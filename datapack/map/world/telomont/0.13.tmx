@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztktENgCAMBctoIg5i1EHEiXRCIZGEoAQoRX56Sf+gx2sBoGEVAKMgalbI0slrM8unemX334B9hzJ3tFcTokfp/q3zCM7vFW6XP+Zy2UKnY26wv5x/SelViYytvLGcUrxrq/Tqj10OhP1LKJ3haepCeAbiGeaQ48HmSXkZhmEYhvmXGzGhGGY=
+   eJztktsNgCAMRWE0FAcx6iDiRDqhkNiENBheBX56kv5BD7dFCBp2KcQsiZplsg3yuszTV6Oy+28ofYe2d4xXS0GP3P0754XOnxVuyP/ngmzYCawN9pfyLym9OpKxlTeUU6F/CXVUek1gl4qwfw65M7xtPQUePMseGVM8pXliXoZhGIZh+vICsy4YqA==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -100,7 +100,7 @@
   <object name="bot" type="bot" gid="5123" x="240" y="160">
    <properties>
     <property name="file" value="../../bots-fights.xml"/>
-    <property name="id" value="7033"/>
+    <property name="id" value="7132"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="miner"/>
    </properties>

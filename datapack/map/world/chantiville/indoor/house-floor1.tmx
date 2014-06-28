@@ -44,7 +44,7 @@
   </object>
   <object name="teleport on push" type="door" gid="1027" x="64" y="96">
    <properties>
-    <property name="map" value="-10.13b2"/>
+    <property name="map" value="house-floor2"/>
     <property name="x" value="2"/>
     <property name="y" value="3"/>
    </properties>
