@@ -122,10 +122,9 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>
     <monster xp_max="200000" type="normal" pow="2" speed="80" attack="120" hp="180" catch_rate="100" id="8" weight="34kg" special_attack="110" defense="130" special_defense="90" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="11000">
         <attack_list>
-            <attack id="6" level="0"/>
             <attack id="5" level="0"/>
+            <attack id="7" level="0"/>
             <attack id="2" level="8"/>
-            <attack id="12" level="16"/>
             <attack id="2" level="20" attack_level="2"/>
         </attack_list>
         <name>Cochini</name>
@@ -283,6 +282,22 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <name lang="fr">Exapode</name>
         <description>Chrysalis of wood it has armor on almost integraliter body blocking him part her movements,, she is very cuddly although toxic to who touch her</description>
         <description lang="fr">Chrysalide des bois elle possède une armure sur la quasi integraliter du corps qui lui bloque en partie ses mouvements, elle est très caline bien que toxique pour qui la touche</description>
+    </monster>
+     <monster xp_max="200000" type="psy" pow="2" speed="105" attack="80" hp="210" catch_rate="100" id="24" weight="28kg" special_attack="105" defense="90" special_defense="115" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="11000">
+        <attack_list>
+            <attack id="5" level="0"/>
+            <attack id="7" level="0"/>
+            <attack id="14" level="10"/>
+            <attack id="4" level="16"/>
+            <attack id="14" level="18" attack_level="2"/>
+        </attack_list>
+        <drops>
+            <drop item="2004" luck="12" quantity_min="1" quantity_max="2"/>
+        </drops>
+        <name>Spycozeus</name>
+        <name lang="fr">Spycozeus</name>
+        <description>Spycozeus</description>
+        <description lang="fr">Spycozeus </description>
     </monster>
     <monster xp_max="200000" type="plant" pow="2" speed="110" attack="120" hp="225" catch_rate="100" id="25" weight="12kg" special_attack="100" defense="106" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="11000">
         <attack_list>

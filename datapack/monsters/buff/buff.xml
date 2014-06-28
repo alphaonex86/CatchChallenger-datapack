@@ -25,10 +25,8 @@ duration: if not specified: ThisFight, can be: ThisFight, NumberOfTurn (with att
         <description lang="fr">L'animal est paralysé et ne peux plus attaquer correctement</description>
         <effect durationNumberOfTurn="10" capture_bonus="1.5" duration="NumberOfTurn">
             <level number="1">
-                <inFight hp="-5%"/>
             </level>
             <level capture_bonus="1.6" duration="ThisFight" number="2">
-                <inFight hp="-7%"/>
             </level>
         </effect>
     </buff>

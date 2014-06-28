@@ -189,7 +189,7 @@ endurance="40"
         <description lang="fr">Diminue la defence de l'adversaire </description>
         <effect>
             <level sp="50" endurance="40" number="1">
-                <buff id="6" success="90%" applyOn="allEnemy"/>
+                <buff id="7" success="90%" applyOn="allEnemy"/>
             </level>
         </effect>
     </skill>
