@@ -84,7 +84,7 @@
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7095"/>
     <property name="lookAt" value="right"/>
-    <property name="skin" value="girl"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
  </objectgroup>

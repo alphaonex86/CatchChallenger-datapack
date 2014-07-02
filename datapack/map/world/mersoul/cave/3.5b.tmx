@@ -13,7 +13,7 @@
  <tileset firstgid="3073" source="../../../tileset/building-small.tsx"/>
  <tileset firstgid="4097" source="../../../tileset/animation.tsx"/>
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztwwENAAAMAiDfv5XJDHLY6CVVVVX13QHAyq2r
   </data>
@@ -96,7 +96,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="320" y="64">
@@ -104,7 +104,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7020"/>
     <property name="lookAt" value="left"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="240" y="192">
@@ -112,7 +112,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7021"/>
     <property name="lookAt" value="right"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="scientific"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="256" y="320">
@@ -120,7 +120,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="400" y="240">
@@ -128,7 +128,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="left"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="terranite"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="128" y="256">
@@ -136,7 +136,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7020"/>
     <property name="lookAt" value="right"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="terranite"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="208" y="400">
@@ -144,7 +144,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7022"/>
     <property name="lookAt" value="right"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
  </objectgroup>

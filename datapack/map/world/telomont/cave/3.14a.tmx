@@ -98,7 +98,7 @@
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7089"/>
     <property name="lookAt" value="bottom"/>
-    <property name="skin" value="terranite"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object type="bot" gid="5123" x="256" y="144">

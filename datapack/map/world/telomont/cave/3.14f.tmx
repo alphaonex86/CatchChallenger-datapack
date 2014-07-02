@@ -30,7 +30,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJztkkEKACAIBOur/f8RHSIIURSyFWIHgtiDI2prhBCyGH09tA/plF6kv8p7utH86pX1td1m+6POV17N8fqWrfqIu7IcGe5zfpH6GXO29hbNbvDuZ/+tLMOr9eH1eev2+pE5IVVMIMYoOQ==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -84,7 +84,7 @@
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7101"/>
     <property name="lookAt" value="left"/>
-    <property name="skin" value="girlplayer"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="240" y="336">

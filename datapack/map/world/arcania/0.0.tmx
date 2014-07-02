@@ -9,32 +9,27 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+   eJzt0qENACAAA8GW/YdGMAEJAcSJs33TJikAW0aX2zu68I9X/9QFTprysQOx
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdMDIyMDBBMTMjGQaQCUbtpQ9QBNqlBMXKdLR3FIwCUsFDIH7EwNAAwo8pNweMiTEHmjcbKM2bpObxQWBvw0Db6wak3YHYA4d+NyxypJZp2NSnAel0IM7AoT8Nj9wooC0gNf9SC4y0tgGl9hLKu7jUUWLvRBHUvAvi4wLoeXy0LTQKRhIAALizGlc=
-  </data>
- </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt0wEJADAIRUFDrPgaL8NA+IJ3AXwIWgXAr3tyszraieaENnRL3GfyJ7btCxs8H4kHGA==
+   eJxjYCAdMDIyMDBBMTMjGQaQCUbtpQ9QBNqlBMXKdLR3FIwCUsFDIH7EwNAAwo8pNweMiTEHlDcnikDYlORNRqhekFnEmEOqenzmkOL+weRfNyDtDsQeOPS7YZEjtUzDpj4NSKcDcQYO/Wl45EYBbQGp+ZdagFr5kRx7qZEfybEXBMj1L6G8i0sdJf4F6UPOuzBzsAH0PD7aFhoFIwkAADenHiw=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlj0KwkAQhadIkUJSCB5AUK/jb1qv4H9noaigNv4fQI21inoA9WI+iQETE9xJNoLog4+B7OTNvmJguwpRD3QFaxw4FWf8b1UDbBjVay7Xh3vPf97P5PVSWHlFJTuvqILmlSVu3qBqghaJ5w1L7/I6ldCIkk+kNH893LzLCNHqiXXEXw83r6y53LxneFyAHjPr1eFZfPRY5249fvLe1Vbs1Ut9nA/AUDHvw8n77ftr6Vv2Nx0lyoAsyIE8KAA9+uopc39L8C+DCqiCGqiDhstcWfvbUYlG8B+DCZiCGZiDhc+5Innvc7fw34E9iGE3D6hHcAJn1e75bsdF8waVobp8++8v6x0oq3LfgbLqr+W9AWOrU38=
+   eJztll0OwVAQhQdFH5o+NLGAUqzD/wq8ShBswgNBgl2gFoKNOVJNqDa9095KGk7yZZLe6Zl7Hia5a4VoA9aC1QRemYz/3WqDM6MGzeX6cO/5z/udvEFKKq+oZOcVVdy8ssTNG1dzsCDxvEkpLK9Xlk5UfaGmR+vh5j1oRMcXTlq0Hm5eWXO5eS/wuIJ+yak3j+fg2eOe+/VEyfvQUnmvQdrifAf2inMfTt6076+rtOxvxiDKghxQQB4UQNH49JS5vyb8y6ACLFAFNVD3mStrf1cqUQP+TdACbdABXdCLOFck72PuEP4jMDac3ZygTsEMXNR3z7AdF80bV7bq8+2/v6x3oKzKfQfKqr+W9w6XpkuF
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQjxNa3NoDUb9S5n7hqp/h4r5lLpnsNjDwsfAwIqE2fjIU0OpO8gFpNrjAnS7KxJ2w+IXYtRQ6g5ywWBNz6P5l7726AsxMBgAsSEQGwGxMRCbALGpEKba4ZR/iQH0yr8LOUh322BNz9Rwz1Kk8Bjs+Zde9Kh/hzcAAMi5X7c=
+   eJxjYBgYkMLCwJDKQjxNa3NoDUb9S5n7hqp/h4r5lLpnsNjDwsfAwIqE2fjIU0OpO8gFpNrjAnS7KxJ2w+IXYtRQ6g5ywWBNz6P5l772PBRkYHgExI+B+AkQPwXiZ0D8XBBT7XDKv8QAWuVfU1FU/kIO0t02WNMzNdyzFCk8Bnv+pRc96t/hDQCDO2TY
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIIRDHgHxlqFAbKXWiCBh4HBVBRC4wIgeZjaUTAKRsHgAV9FCKuB5fFRMApGwfAHAFf4A9I=
+   eJxjYBgFo2AUjIIRDHgHxlqFAbKXWiCBh4HBVBRC4wIgeZjaUTAKRsHQArA8PgpGwSgY/gAAHxwCyQ==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -70,7 +65,7 @@
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5397" x="144" y="368">
+  <object name="door" type="door" gid="5461" x="144" y="368">
    <properties>
     <property name="map" value="indoor/house3"/>
     <property name="x" value="5"/>

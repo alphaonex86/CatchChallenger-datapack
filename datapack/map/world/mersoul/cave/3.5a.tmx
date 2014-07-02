@@ -96,7 +96,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="left"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
   <object type="bot" gid="5123" x="304" y="288">
@@ -104,7 +104,7 @@
     <property name="file" value="../bots-fights.xml"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="miner"/>
    </properties>
   </object>
  </objectgroup>
