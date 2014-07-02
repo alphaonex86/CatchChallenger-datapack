@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="dayMonster" value=""/>
+  <property name="nightMonster" value=""/>
+  <property name="type" value=""/>
+  <property name="waterMonster" value=""/>
+  <property name="wildProbability" value=""/>
+ </properties>
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztk20KgCAMhvejg3SWnaSLFF2kDzxpSgUi6pZbH4QvvAjN7dE1sYERq79gCPwYu7e8pYFuSHBtvD2tdTZj60w7d53taoK65vgWWsrM1c3FJWwJ9637ujh40mBz4hDR3dyc7uozR6XMnCv3GS53rkprU7nUPUuZVP4bXKrPbtXuM1eS+anc/3KxkC2ZZ/R8hY2C94sRp/qQYnK44X5OPpUj5Wqfl5PP/CdJ7gYiIxCc
+  </data>
+ </layer>
+ <layer name="Dirt" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Grass" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DsKACEQBFHNvP+JjQZkGDSaaoMuWNDo+dndMZxz7q/m0pjx0B5lZ0dhx7haT7f9wx1T0V52lXsl7PwOU+5pVmfdsYbXf6Pzvm92zEmXSvEdKV2nbwNU1QK/
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesBottom" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="LedgesTop" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Water" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0kEKACEIheEWc5HxKB6tk89mBkQcbeEzCIV/FfRVRNcY1HVdp2JRpSmnwtZmhf1nou2VOcmNbPTf2mFadpXJymWwNw1T29ln8ExpZ7/7fPe8AxvlrswpLgX2t57tenamZd3XenOU6Z2h29cDf9p7ig==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0kEKACAIRFGR7n/mthIhbnSI/sBfvwh9mTkR0VGcwpzwK8PttxV31W3ebIWp/ONod7yhOtw3XdVdZXaXldlTJv3dBljVEkk=
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6AeE1L/KitkkNBLqqqq6rsDFdV+kQ==
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="30" height="30">
+  <object name="bot spawn" type="bot spawn" gid="5122" x="272" y="192"/>
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value="5.12"/>
+   </properties>
+  </object>
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="6.11"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="bot" type="bot" gid="5123" x="432" y="320">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7129"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="bandit"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

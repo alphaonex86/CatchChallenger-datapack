@@ -88,14 +88,14 @@
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
   <object name="door" type="teleport on push" gid="5123" x="128" y="320">
    <properties>
-    <property name="map" value="../../wood/-3.3a"/>
+    <property name="map" value="wood/-3.3a"/>
     <property name="x" value="24"/>
     <property name="y" value="15"/>
    </properties>
   </object>
   <object name="door" type="teleport on push" gid="5123" x="128" y="304">
    <properties>
-    <property name="map" value="../../wood/-3.3a"/>
+    <property name="map" value="wood/-3.3a"/>
     <property name="x" value="24"/>
     <property name="y" value="14"/>
    </properties>

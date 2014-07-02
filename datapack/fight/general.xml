@@ -908,7 +908,13 @@
 		<monster id="18" level="29" />
 		<gain cash="300" />
 	</fight>
-
+		<fight id="7129">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
 
 
 

@@ -564,22 +564,3 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>  
 </monsters>
 
-
-xp_for_this_level=level^pow;
-    xp_for_max_level=value;
-    max_xp=level^pow;
-    xp_to_level_up=xp_for_this_level*xp_for_max_level/max_xp;
-
-xp MAX : defini dans le datapack
-
-xp gagner : lvl^pow *give xp
-
-{somme des xp pour lvl up = xp max 
-(f(1)+ f(2)... = Xp max 
-f la fonction qui permet de calculer l'xp de chaque lvl
-exp = (LVL/(4950)*xpmax)^POW 
-1!99 = 4950
-donc 4950 % = xp max
-xmax >xlvl> 0
-xmax *((lvl^pow)/(x^pow ! 99))
-xp lvl = level * pow / xp max
