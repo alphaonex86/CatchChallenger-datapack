@@ -8,7 +8,7 @@ color is optional
     <type name="normal" color="#B5B5B5">
         <name>Normal</name>
         <name lang="fr">Normal</name>
-        <multiplicator number="0.5" to="stone"/>
+        <multiplicator number="0.5" to="stone;metal"/>
         <multiplicator number="0" to="spectre"/>
     </type>
     <type name="electric" color="#FFEC10">
@@ -22,12 +22,12 @@ color is optional
         <name>Bird</name>
         <name lang="fr">Oiseau</name>
         <multiplicator number="2" to="electric;stone"/>
-        <multiplicator number="0.5" to="plant;fight"/>
+        <multiplicator number="0.5" to="plant;fight;metal"/>
     </type>
     <type name="fire" color="#f38233">
         <name>Fire</name>
         <name lang="fr">Feu</name>
-        <multiplicator number="0.5" to="water;fire;stone"/>
+        <multiplicator number="0.5" to="water;fire;stone;metal"/>
         <multiplicator number="2" to="plant;ice"/>
     </type>
     <type name="water" color="#2E9EF3">
@@ -39,32 +39,32 @@ color is optional
     <type name="stone" color="#BF904E">
         <name>Stone</name>
         <name lang="fr">Pierre</name>
-        <multiplicator number="0.5" to="ground;fight;stone"/>
+        <multiplicator number="0.5" to="ground;fight;stone;metal"/>
         <multiplicator number="2" to="bird;fire;ice"/>
     </type>
     <type name="ground" color="#926E3B">
         <name>Ground</name>
         <name lang="fr">Sol</name>
-        <multiplicator number="2" to="fire;electric;poison;stone"/>
+        <multiplicator number="2" to="fire;electric;poison;stone;metal"/>
         <multiplicator number="0" to="plant"/>
     </type>
     <type name="plant" color="#71DA5E">
         <name>Plant</name>
         <name lang="fr">Plante</name>
-        <multiplicator number="0.5" to="fire;plant;poison;bird"/>
+        <multiplicator number="0.5" to="fire;plant;metal;poison;bird"/>
         <multiplicator number="2" to="water;ground;stone"/>
     </type>
     <type name="ice" color="#75E7F3">
         <name>Ice</name>
         <name lang="fr">Glace</name>
-        <multiplicator number="0.5" to="fire;water;ice"/>
+        <multiplicator number="0.5" to="fire;water;metal;ice"/>
         <multiplicator number="2" to="plant;ground;bird"/>
     </type>
     <type name="fight" color="#F34D4D">
         <name>Fight</name>
         <name lang="fr">Combat</name>
         <multiplicator number="0.5" to="poison;bird;psy"/>
-        <multiplicator number="2" to="normal;ice;stone"/>
+        <multiplicator number="2" to="normal;ice;stone;metal"/>
         <multiplicator number="0" to="spectre"/>
     </type>
     <type name="poison" color="#B46DC5">
@@ -72,17 +72,25 @@ color is optional
         <name lang="fr">Poison</name>
         <multiplicator number="0.5" to="poison;ground;stone;spectre"/>
         <multiplicator number="2" to="plant"/>
+        <multiplicator number="0" to="metal"/>
     </type>
     <type name="psy" color="#498E3D">
         <name>Psy</name>
         <name lang="fr">Psy</name>
-        <multiplicator number="0.5" to="psy"/>
+        <multiplicator number="0.5" to="psy;metal"/>
         <multiplicator number="2" to="poison;fight"/>
     </type>
     <type name="spectre" color="#CBFF0F">
         <name>Spectre</name>
         <name lang="fr">Spectre</name>
         <multiplicator number="2" to="psy;spectre"/>
+        <multiplicator number="0.5" to="metal"/>
         <multiplicator number="0" to="normal"/>
+    </type>
+        <type name="metal" color="#747579">
+        <name>metal</name>
+        <name lang="fr">métal</name>
+        <multiplicator number="2" to="ice;stone"/>
+        <multiplicator number="0.5" to="water;fire;metal"/>
     </type>
 </types>

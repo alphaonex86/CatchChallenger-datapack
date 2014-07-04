@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBi8IIOFgSETiLNYaGMmLjap6kk1c9S/o/4d9e+of0kFI8m/Khyku4FW/iXWLeSAJiy4GYv9CSwMDfFAXMfC8IAa/j3EgIkPY3FfA9DOeoi9CtT2O3q4YgtnWsYvLeOVFDuo5Udalz+kAlr4a7D5l55+HPXvqH9JdTOpAABSnq3g
+   eJxjYBi8IIOFgSETiLNYaGMmLjap6kk1c9S/o/4d9e+of4kBKhyE/TKc/AsDyP4m1g208i+xbiEHNGHBzVjsT2BhaIgH4joWhgfU8O8hBkx8GIv7GoB21kPsVaC239HDFVs40zJ+aRmvpNhBLT/SMj+SA2jhr8HmX3r6cdS/o/4l1c2kAgDF5a4M
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzTYGFg0ARiLSDWwMH2AGJPIPbCo4ZUNrKZuNikqifVzFH/jvp31L+j/h3M/s0A4kwgzqKzf5EBPf2LDJD9jsymtX+xgYV43EAt/xID6OVfdEBt/x7koL0fifXvQhbq+hFX/NLCX5TkX1qw6elHWpQ/o/4d9e9I9i8AlLrL9Q==
+   eJztlcsJAjEQQHPIwXuaWK1ErUTtxl8BW4K/AizBXyGuevftbRFmSXAnoMzAg4EMM3lkIIV3rg8DKIR8CCMYt9Sk5s2eUp5an9rTfM3XfH/LVwpt3zrmwbkFLGEF65DHd8OcLexgD4eQx/fEnDNc4Aq3TL535lTwgCe8YMLZFGaKvm1RevkOGvscs+eavp/Rte+xp+8Y61v6bh2l99XwivHV8PrmP9LIczqar/n+q+8b1S3V1Q==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0zEKACAIBVCHhur+F+imNbZIWimWfgiCRHxgAOvkBFDGqYlQTMzcE7tz67k9wxve8L7lpVgkvBQL1ysxz82euzNI77OF/OJtGX/T/LOakXBZ82oaLdg9GD17T+LNe5IObhwTTA==
+   eJxjYCAMOFgYGDiBmIuFCMVEAmQzcbFJVU+qmaP+HfXvqH+Hnn8LhRkYioC4GIhLgLhUmPb+JSYcSPUvrd1AqZnkuoHW6XkwgOHi34UcuOWo5cfB5F8QoIW/Bpt/6enHweD3keDHkexfSsBI8y8lAAAS8xWc
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -102,6 +102,13 @@
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="-9.13"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5237" x="48" y="240">
+   <properties>
+    <property name="map" value="indoor/shop"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>

@@ -24,11 +24,11 @@ endurance="40"
         <description>Powerful punch on fire</description>
         <description lang="fr">Puissant coup de poing en feu</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="100" endurance="35" number="1">
                 <life success="90%" quantity="-30"/>
                 <buff id="1" success="10%"/>
             </level>
-            <level sp="300" endurance="25" number="2">
+            <level sp="300" endurance="35" number="2">
                 <life success="90%" quantity="-35"/>
                 <buff id="1" success="15%" level="2"/>
             </level>
@@ -40,10 +40,10 @@ endurance="40"
         <description>Create bubbles that explodes on contact with the opponent</description>
         <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="100" endurance="35" number="1">
                 <life success="90%" quantity="-30"/>
             </level>
-            <level sp="300" endurance="25" number="2">
+            <level sp="300" endurance="35" number="2">
                 <life success="90%" quantity="-35"/>
             </level>
         </effect>
@@ -131,10 +131,10 @@ endurance="40"
         <description>Use claw for protect himsell</description>
         <description lang="fr">Utilise ses griffe afin de ce protége</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="100" endurance="35" number="1">
                 <life success="90%" quantity="-45"/>
             </level>
-            <level sp="300" endurance="25" number="2">
+            <level sp="300" endurance="40" number="2">
                 <life success="90%" quantity="-55"/>
             </level>
         </effect>
@@ -265,6 +265,23 @@ endurance="40"
             </level>
             <level sp="1000" endurance="25" number="3">
                 <life success="90%" quantity="-50"/>
+            </level>
+        </effect>
+    </skill>
+        <skill id="19" type="metal">
+        <name>steel claw</name>
+        <name lang="fr">Griffe acier</name>
+        <description>Slice through his opponent with its claws</description>
+        <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
+        <effect>
+            <level sp="100" endurance="25" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="30" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+            <level sp="1000" endurance="35" number="3">
+                <life success="90%" quantity="-55"/>
             </level>
         </effect>
     </skill>

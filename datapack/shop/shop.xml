@@ -27,4 +27,20 @@ Some special product can be added onetime too
         <product itemId="3003"/>
         <product itemId="3004"/>
     </shop>
+    <shop id="3">
+        <product itemId="3"/>
+        <product itemId="7"/>
+        <product itemId="11"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
+    <shop id="4">
+        <product itemId="4"/>
+        <product itemId="8"/>
+        <product itemId="12"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
 </shops>

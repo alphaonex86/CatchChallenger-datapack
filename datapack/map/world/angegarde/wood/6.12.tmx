@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzTEBADAIA7AeKJsypPOiYDyJgST/vUoftF6v1+v1er1er9frXe8A/AsXNQ==
+   eJzt1MENgCAMBdAemIxJHMVNZFTBpDcpph9KY/qTf9AAL0EkJ6Js33ODGW6nV6KDa+W2VK9w2/Nql1Oqx+V3Fu5b/uj2bGmMlavcC2ifge/QdWckXL+uxbmSxo/WVJiPi6470+W5UtB9lmdjCdevu+NcWfxHo3sDvVckV1spq9wv8ejea9mu6w==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUsOwCAIRO2u9z9xF90QI8MfN0xibNLCAwS71mg0qtbz/mt/7mTf5HYLcavikvxmc/dzpf2F3mcwpTjQinCpPfJblbem3tQmQ919Rf3SXfrO6jvi15tvpI4e5qkvOebJd6SPEVszn9w9IjE5rmWGPf9Lzp7LV7K11FuaFe35VswwionunbrF7M7Z08dZTDQPnD7VQQXO
+   eJztlUsOgDAIROvO+5/YhRtCylC+3TBJo4kyDxDiWqPRqFrP+x9+38m+ye0W4lblpflmc/l3pfOFnmcwtTzQiXBpPPKtqvuk3zQmQ91zRX3pVXvP6h3x9dYb6aOHuZtLibnzjswxYlv205KDtIvcR/P2/C+leKleLdbSb21XTntbscMoJ3rt1C1md82eOc5ion2Q9AGxtQXF
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -61,7 +61,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlEEOwyAMBHPIR8hTeFqf0pdWOaCurPViTODSruRLLDwm9nKdx3H942fiRaJC7OLeLNQqtmKuZCNXafV/3sFkXMtmZ94QT+5VAbadrd2B7OwV81Y5v7VZPstGppKXb32MstlM2Z0imuUqqZ6y81U1e73N7jO7n+qtDLAqhOVaNssje4SJsuyWxz1leTwf4TJVp2Ykj/4e5bbabK/w3t7eRdiesp5FZbgjvXjfM1zlz+almTfDY6q3Q/k7wmTsnj97/o4yZyPr3yeZO9geczU7InX+A+/lhoQ=
+   eJztlMENxDAIBPNII04pKe1KuUpPeVi3Qssa49ifZCU+QXhwYH3s23a88Zj4kDghVnEvFmoWWzFnspGrNPs/r2AyrmWzmi/EnXtVgG1na3cgO3vFvFT2/9ksn2UjU8nL1z562Wym7E4RjXKVVE/Z+aozW72N7jO7n+qtdLBOCMu1bJZHdg8TZdk1j3vK8lgf4eKZlu15ReXR3y2udzbbK7y3t3cRtqesZ1EZbk8v3vcoF+uVP6uXRt4MptbbofwdYTJ2y58tf0eZo5H1753MFWyPOZsdkar/ASXbhs4=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -114,6 +114,30 @@
     <property name="file" value="../../../bots-fights.xml"/>
     <property name="id" value="7129"/>
     <property name="lookAt" value="left"/>
+    <property name="skin" value="bandit"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="128" y="320">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7130"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="bandit"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="272" y="352">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7131"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="bandit"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="256" y="448">
+   <properties>
+    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="id" value="7132"/>
+    <property name="lookAt" value="right"/>
     <property name="skin" value="bandit"/>
    </properties>
   </object>

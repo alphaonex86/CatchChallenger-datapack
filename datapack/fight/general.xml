@@ -894,21 +894,120 @@
 		<monster id="18" level="29" />
 		<gain cash="300" />
 	</fight>
-		<fight id="7127">
+	<fight id="7127">
 		<start><![CDATA[Ready for the fight?]]></start>
 		<win><![CDATA[You are so strong for me!]]></win>
 		<monster id="17" level="29" />
 		<monster id="18" level="29" />
 		<gain cash="300" />
 	</fight>
-		<fight id="7128">
+	<fight id="7128">
 		<start><![CDATA[Ready for the fight?]]></start>
 		<win><![CDATA[You are so strong for me!]]></win>
 		<monster id="17" level="29" />
 		<monster id="18" level="29" />
 		<gain cash="300" />
 	</fight>
-		<fight id="7129">
+  <fight id="7129">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="39" level="29" />
+		<monster id="41" level="30" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7130">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="34" level="29" />
+		<monster id="35" level="30" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7131">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7132">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="30" level="29" />
+		<monster id="31" level="30" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7133">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="32" level="31" />
+		<monster id="18" level="28" />
+		<monster id="18" level="28" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7134">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7135">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="40" level="29" />
+		<monster id="20" level="29" />
+		<gain cash="300" />
+	</fight>
+	<fight id="7136">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="44" level="29" />
+		<monster id="17" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7137">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="19" level="30" />
+		<monster id="42" level="30" />
+		<gain cash="300" />
+	</fight>
+<fight id="7138">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7139">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7129">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7140">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7141">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="17" level="29" />
+		<monster id="18" level="29" />
+		<gain cash="300" />
+	</fight>
+<fight id="7142">
 		<start><![CDATA[Ready for the fight?]]></start>
 		<win><![CDATA[You are so strong for me!]]></win>
 		<monster id="17" level="29" />

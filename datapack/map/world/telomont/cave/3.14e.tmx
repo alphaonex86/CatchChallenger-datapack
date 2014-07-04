@@ -30,7 +30,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAIISGKEYHrbR087ke1FZ9PL3oHw92AIa2qYg24WIXFqAWxpBtl8bHFLrv3Y7CHFTkrsxeVPYtxBCcClH5+59E7Lo2AUjIJRMFwBAINWGk0=
+   eJxjYBgFo2AUjAIIOMQIwfS2j552ItuLzqaXvQPh78EQ1tQwB90sQuLUAtjSDLL52OKWXPux2UOKnZTYi8ufxLiDEoBLPz5z6Z2WR8EoGAWjYLgCAFJxM80=
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -81,7 +81,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="272" y="256">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7099"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="terranite"/>

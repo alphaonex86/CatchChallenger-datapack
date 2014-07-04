@@ -1,4 +1,4 @@
-<map type="cave" backgroundsound="toto.ogg" zone="test">
+<map type="cave" backgroundsound="toto.ogg" zone="telomont">
 	<name>Challenge cave</name>
 	<name lang="fr">Grotte défie</name>
 	<grass>

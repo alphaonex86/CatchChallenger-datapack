@@ -1,4 +1,4 @@
-<map type="cave" backgroundsound="toto.ogg" zone="test">
+<map type="cave" backgroundsound="toto.ogg" zone="telomont">
 	<name>Cave</name>
 	<name lang="fr">Grotte</name>
 	<grass>

@@ -2,8 +2,8 @@
 	<name lang="en">Road</name>
 	<name lang="fr">Route</name>
 	<grass>
-          <monster id="3" minLevel="20" maxLevel="25" luck="30" />
-          <monster id="13" minLevel="20" maxLevel="25" luck="20" />
-          <monster id="24" minLevel="21" maxLevel="26" luck="50" />
+          <monster id="3" minLevel="20" maxLevel="25" luck="40" />
+          <monster id="13" minLevel="20" maxLevel="25" luck="30" />
+          <monster id="24" minLevel="21" maxLevel="26" luck="30" />
   </grass>
 </map>
