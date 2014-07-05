@@ -11,12 +11,12 @@
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4kMjBwJDEMYAOoAGIpcA/UiykqZcEqrdE0mNHvtVwAADVkwHv
+   eJxjYBgFtAQTOYhXu5EEtbiAHYX6AdoUAZE=
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsJgBAdixYBhYjKZWHQmjA3S1+AC62sV4MLqbsLkXhtHdpo4HC7Fgd5sdBwPDfiCu54DwcanDB4Q4GRiEOfGrsYKabwRUZ0xAbRQHafbjC090DABvCxXX
+   eJxbzMDAsHiAMTsJWJ0EbMfBwFAPxDCwjQWBkcFWND61wSSgGyZz4FdjDZXfBKQ3E1AbTUBeCM0/pMQFAFqFJRk=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -26,19 +26,19 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYEAAYRYGBhEWTL4iBwODEgcDCjAGipuwYPIdgeqc0NTSGkiwYBefhEXcAigmB3TffCCO50Co24TDDHRArDoQkKJzOFADAABncAZp
+   eJxjYBhaQI6DgSGeA8GfxsLAMB2KBxuQ5iCshlgwiQT/baIgLACcRQPN
   </data>
  </layer>
  <layer name="other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBiZQIaDeLU2JKgd6gAAaBAAaQ==
+   eJxjYBg8QJiFgUGEBb+YLAeENgaKmaCpRRez5aCNO4czAAAx0gGn
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="96" y="192">
    <properties>
-    <property name="map" value="../0.0"/>
-    <property name="x" value="19"/>
+    <property name="map" value="../-1.0"/>
+    <property name="x" value="22"/>
     <property name="y" value="14"/>
    </properties>
   </object>

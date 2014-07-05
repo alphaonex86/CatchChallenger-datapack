@@ -2,14 +2,18 @@
     <condition id="1" quest="1" type="quest">
         <blockedtext><![CDATA[You have not done the quest <b>The beginner's rod</b>]]></blockedtext>
     </condition>
-    <condition item="1" id="2" type="item">
+    <condition id="2" item="1" type="item">
         <blockedtext><![CDATA[You have not an <b>Potion</b> to open the door]]></blockedtext>
     </condition>
     <condition id="3" type="clan">
         <!--if the clan have captured the area-->
         <blockedtext><![CDATA[Your clan don't own the area]]></blockedtext>
     </condition>
-    <condition fightBot="1" id="4" type="fightBot">
+    <condition id="4" fightBot="1" type="fightBot">
         <blockedtext><![CDATA[You have don't win agains the first bot]]></blockedtext>
     </condition>
+    <condition id="5" quest="100" type="quest">
+        <blockedtext><![CDATA[the door is close</b>]]></blockedtext>
+    </condition>
+
 </conditions>

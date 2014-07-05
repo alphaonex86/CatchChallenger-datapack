@@ -9,27 +9,27 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0qENACAAA8GW/YdGMAEJAcSJs33TJikAW0aX2zu68I9X/9QFTprysQOx
+   eJzt1KERAEAIBLHDf/8FUClV8IOIiFy7laQAOK/f3w5ggyfBLQNmOgWM
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdMDIyMDBBMTMjGQaQCUbtpQ9QBNqlBMXKdLR3FIwCUsFDIH7EwNAAwo8pNweMiTEHlDcnikDYlORNRqhekFnEmEOqenzmkOL+weRfNyDtDsQeOPS7YZEjtUzDpj4NSKcDcQYO/Wl45EYBbQGp+ZdagFr5kRx7qZEfybEXBMj1L6G8i0sdJf4F6UPOuzBzsAH0PD7aFhoFIwkAADenHiw=
+   eJxjYCAdMDIyMDBBMTMjGQaQCUbtpQ9QBNqlBMXKdLR3FNAeqAHjU2MA4tQNaKcHDexl5SPPXkL6CAFVEu2dKIJbH0wOF1DhQLBdsehHlsflX2z6SAG4/EPI3kM8mHLI7sUFYOYT0ovNXmx6CYUxOiCUXvHJk5LW1RlR8VIgXsKIKU6MPLIcoTyezkgYtwJxC4nqMqiQx4kNP3LLFPS0gCutoauDpT1kdcSkZWzqsOVZbGUSPvPJtRsdwMokZHXEmk0JoLRMIhYsQfMLqEzCBbD5m9ywIEYfvnRBLbvoEZejYHgAABYgKNY=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztll0OwVAQhQdFH5o+NLGAUqzD/wq8ShBswgNBgl2gFoKNOVJNqDa9095KGk7yZZLe6Zl7Hia5a4VoA9aC1QRemYz/3WqDM6MGzeX6cO/5z/udvEFKKq+oZOcVVdy8ssTNG1dzsCDxvEkpLK9Xlk5UfaGmR+vh5j1oRMcXTlq0Hm5eWXO5eS/wuIJ+yak3j+fg2eOe+/VEyfvQUnmvQdrifAf2inMfTt6076+rtOxvxiDKghxQQB4UQNH49JS5vyb8y6ACLFAFNVD3mStrf1cqUQP+TdACbdABXdCLOFck72PuEP4jMDac3ZygTsEMXNR3z7AdF80bV7bq8+2/v6x3oKzKfQfKqr+W9w6XpkuF
+   eJztljsOwjAMhjMwMFTdOEAl4BbQFdgZEYzAGQrtUA7C6yClF8MViWTSOnHSwgKWfrkP/2m/GKzmPSFOoJyZI5AekYNf5Rvo7pCp57qu4/qef97v8FLxKV5udM2rR9Fvx+3aF1eurvvr6rPt3zAUYiQ1Dut81LnNR+2b8p0DIS5S16DOR53bfBSv8lF+E++Z4aN4C6h9SC0Hr1wyeQuGz9TfNTpevd+y9pfyUrwJ3DtKpaj+gK5nBt7E4I2ZvF1HtQdt55/vc23zqtqvaYNitM5EXstE3ddUlxp4bftN/V50X1W3MdRRvFRw5heu0Wt9efV5oNbDPlyjzw4O7wzyHLQwzD+1HvbhmaNUanUm3i3kHWhPzDG8Hvd/6NtfKrg+3/7aOLh1bb83usptvxt886/xPgE2VXE/
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQjxNa3NoDUb9S5n7hqp/h4r5lLpnsNjDwsfAwIqE2fjIU0OpO8gFpNrjAnS7KxJ2w+IXYtRQ6g5ywWBNz6P5l772PBRkYHgExI+B+AkQPwXiZ0D8XBBT7XDKv8QAWuVfU1FU/kIO0t02WNMzNdyzFCk8Bnv+pRc96t/hDQCDO2TY
+   eJxjYBgYkMLCwJDKQjxNa3NoDUb9S5n7aO3fhRzk6yXFfejuJFXfYIlfdMDCx8DACsVsfAhxXP4lVh8u/8L0ketWSoEL0AxXKHYj0r8qfIT14fIvTB8ImIqS7lZy9MGAPBJbFk2OUPzi0jvY0zO1wWDzL7n2E6tvqPmXmPILWQ26WkL+ZQeyOYCYE4i58LiDjQplE7J71IFYA4g1gVgLS3mCr/xCVoOullrx60Zl/2IDS/HU7UM9PdObHvXv8AYAdvBq7w==
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIIRDHgHxlqFAbKXWiCBh4HBVBRC4wIgeZjaUTAKRsHQArA8PgpGwSgY/gAAHxwCyQ==
+   eJzt1LENACAMA0EPkBVgE9h/LGhSogQEDfqrXy4tAQBOFJOqvetX2tzoGzu7PYB/+Q9Ff5TtsvyHoj/KdgDuGXDkBWU=
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -39,42 +39,53 @@
    </properties>
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="160" y="256"/>
-  <object name="rescue" type="rescue" gid="5122" x="160" y="256">
+  <object name="rescue" type="rescue" gid="5122" x="320" y="320">
    <properties>
     <property name="type" value=""/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="160" y="240">
+  <object name="door" type="door" gid="5461" x="80" y="224">
    <properties>
-    <property name="map" value="indoor/player-house-floor1"/>
-    <property name="x" value="6"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5461" x="288" y="240">
-   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="5"/>
     <property name="map" value="indoor/house2"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="304" y="368">
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
-    <property name="map" value="indoor/house4"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
+    <property name="map" value="-1.0"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="144" y="368">
+  <object name="door" type="door" gid="5123" x="320" y="336">
    <properties>
+    <property name="map" value="indoor/player-house-floor1"/>
+    <property name="x" value="7"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="304" y="224">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="5"/>
     <property name="map" value="indoor/house3"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5123" x="160" y="336">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="5"/>
+    <property name="map" value="indoor/house4"/>
+    <property name="x" value="5"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="112" y="288">
+  <object name="bot" type="bot" gid="5123" x="192" y="160">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9004"/>
@@ -82,7 +93,7 @@
     <property name="skin" value="oldman"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="288" y="384">
+  <object name="bot" type="bot" gid="5123" x="208" y="160">
    <properties>
     <property name="file" value="../../bots-services.xml"/>
     <property name="id" value="200"/>

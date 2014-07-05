@@ -4,19 +4,20 @@
  <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiI2YnAi6FYnQjcPIoHDSYFAABEyDbU
+   eJxbzMDAsBiI2YnAi6FYHQ0/QcPYxEbxwGFSAABEw19L
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAucOQgXm0iCWoHG5iI5PYpBPyxEUl+Cw39bA/EDhSaAQA3cQPc
+   eJxjYKA/kBsAOwcSTORAsKdwYMorIoltRGJvwaKWFJAI1J9EohkA68sDxQ==
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJzjZmBg4EbDi4GYAwvWxoJBajWw4K9ADd+A+CoQXwNicw6IGeggCZsg1Ax0IMSCXe1AgUlAt0/G4X4QsEaS2wRkb8ajNhqPHKVgMQkYANa0Ejs=
+   eJzjZmBg4EbDi4GYAwvWxoJBajWAOJQXQsPwV6CGb0B8FYivAbE5B8QMdCDEgkUQagYtADsOjA2o48DkgElAz0/GFgBQYI0ktwnI3oxHbTQeOWxgMQkYAA32Ex8=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -26,43 +27,36 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYMANRFkQbCUOIB+IxYA4FIjDgFicAyFviqTWCShuCsRmQFwKxGVI6tDBJBbccuhgEwlqaQWk8fhlOAAA6OkEwQ==
+   eJxjYMANTHlR+aIcDAxiQBwKxGFALM6BXd8kFqBeoJwZEJcCcRkOdSCwiQWPA4Y4kMbjb2SgCFSnRKRaR6A6JyLVkgMAmLgFIw==
   </data>
  </layer>
  <layer name="other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAucOSgsoGjgK4AAIHIAEo=
+   eJxjYIAAYRYGBhEWBqKAMVCdCZFqR8HQAgAuqwCf
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
-   <properties>
-    <property name="map" value="../0.0"/>
-    <property name="x" value="10"/>
-    <property name="y" value="15"/>
-   </properties>
-  </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="96" y="192">
-   <properties>
-    <property name="map" value="../0.0"/>
-    <property name="x" value="10"/>
-    <property name="y" value="15"/>
-   </properties>
-  </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="48">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="176">
    <properties>
     <property name="map" value="player-house-floor1"/>
-    <property name="x" value="9"/>
-    <property name="y" value="2"/>
+    <property name="x" value="10"/>
+    <property name="y" value="8"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="3413" x="112" y="32">
+   <properties>
+    <property name="map" value="../0.0"/>
+    <property name="x" value="20"/>
+    <property name="y" value="19"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="64" y="144">
+  <object type="bot" gid="1027" x="16" y="160">
    <properties>
     <property name="file" value="../../../bots-services.xml"/>
     <property name="id" value="1"/>
-    <property name="lookAt" value="left"/>
+    <property name="lookAt" value="right"/>
     <property name="skin" value="mother"/>
    </properties>
   </object>

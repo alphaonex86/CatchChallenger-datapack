@@ -13,12 +13,12 @@
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBg40MhBnr4qqL4aIvTPgqqZQ4TaXVA1e8h013AAAD5XBFw=
+   eJxjYBh6oIoDQtdwEFY7C6pmDhFqd0HV7CFCLTVBI9C+JjrbiQsAAPpIBOY=
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJzjYGBg4CASa5CAt7MwMEzkYWCwA2q0B2JnIHYBGYIGmrCI4QKTeIhXOxFJ7WwS7NhNglpigSQwLKRYCKtbPAgwALH7HPY=
+   eJzjYGBg4CASa5CAt7MwMEzkYWCwA2q0B2JnIHYBGQIFzUB2CxKflmA2CfbsJqAW5CdiwSSoWklgWEixEFa/eBBgAPIzHYM=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -28,7 +28,7 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOJFgwxaZDxeQ4GBjkgVgZiFWA2AKLWlqDag762zkSAACm+QIb
+   eJxjYMAOJFgwxaZDxeQ4GBjkgVgZiFWA2AIqngxkp3DgMJDKoJpO9ow0AAAg8wLy
   </data>
  </layer>
  <layer name="other" width="11" height="12">
@@ -37,11 +37,11 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="48">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="144">
    <properties>
     <property name="map" value="player-house-floor1"/>
-    <property name="x" value="9"/>
-    <property name="y" value="2"/>
+    <property name="x" value="10"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>

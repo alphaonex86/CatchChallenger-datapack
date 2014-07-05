@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPOjxIh766iOE3RkHJhxG7R3Fo3ho48FWlo3iUTzSMQCO/AdV
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztVtsNwjAMTKAffPHFAry7CIhJYJF2AHZoBwMWwZFiKbKcOEmTr/akk4py9uWCS1BqwZxw2uStTcEH+HX4q+yH0FqplWUDPOq6fgYmk+u7DniWzr8Hr4OlyVrjfLtGqb6J015gD1dgy5yBtDe6PoDnyPjWnCHTW8qb6h+rp3mxLneEpTrs78vL7ftumz48zWmN0fu03PdL6/FzyNdo3ju/L65LeTlIeTl9bF58VziOtscQ0FC9pEU84fklsAd2EboYfQpC51dC78KdNV8fOo84Z1RP50/ym6LJzVsC5+20+tyt3xzflN/flDun9n+T3P6l5ib1/l0wD/wBT38wFA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzlll9OwkAQxket2gfCQxMPoAKeQo3/T+AjIWrUS6gUCwep1oOgF/ObpE2W6Wx32zRg5Et+WaAzs/O1y8A0IJqB6ZLXDHytYF22z7/it67a8ltXbfv19d+2X1//q36+TeXyNxLvh555LlX1vRERbYItEIBtsAN2Iz2v1yXqCwZdvXZV3/uofwAOQQ/0wQAcRXrepEP0Lkg69f2eof45uACX4ApcgxvFbxISpdjjQ/Bp2dfmN0OdO9S/Bw/gdo/oEesTeFb88r5z7PGdw/G8/jTwy+JzNcmv81qcKy1vHi6ewyHZVfT9gtdvCmMR/wriiryxiDWvxRV9/HfZ5iffvxODUyPnWFyLqZznirfNTynXeZF5rnibX1aarz5zyMyT8RzL30utT5vfrGIepEG5DkvOLZ5Ztj41v6yZmAcFch4s3CelRzm3fJ+vqSQsf2bm1enT5jd19KD59clr4lerW/f3eF3/P6+L31958zzA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYkMLCwJDKQn96oAC59g8X/xLrnuHi38GiTx6NL0u6VSTb/1CQgeERED8G4idA/BSInwHxc0Hs+lj4GBhY0TAbH/H20QNQM55cgH5zRcNuFPrXVJQ0dxFST8h+WLoKhZoDS1fY9C3kQE2H2NLgQMfvSAPUKj+HSrwR419SyyF09ehq6QlwuROXf5dykF4OoatHV0tPgMudIz09D/f280jx70ABACIRXAY=
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEVACAMA9EIiAVwAv5lUQNd+igL97dM2U4CALwyLE3nu8uKj+18A/hLpT03elVpD70Ceh17owOZ
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="30" height="30">
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value="0.0"/>
+   </properties>
+  </object>
+  <object name="bot spawn" type="bot spawn" gid="5122" x="160" y="256"/>
+  <object name="rescue" type="rescue" gid="5122" x="160" y="256">
+   <properties>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="160" y="224">
+   <properties>
+    <property name="map" value=""/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="border" type="border-top" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value="-2.0"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="352" y="224">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="5"/>
+    <property name="map" value="indoor/house5"/>
+    <property name="x" value="6"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="176" y="336">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="5"/>
+    <property name="map" value="indoor/house6"/>
+    <property name="x" value="6"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="bot" type="bot" gid="5123" x="192" y="320">
+   <properties>
+    <property name="file" value="../../bots-informations.xml"/>
+    <property name="id" value="9034"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="farmer"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="48" y="272">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9035"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="oldman"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -11,7 +11,7 @@ The attack of monster is the 4 last attack for the level
     <start>
         <name>Normal player</name>
         <description>You start a normal game as player</description>
-        <map x="10" y="15" file="world/arcania/0.0.tmx"/>
+        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
         <monster id="1" level="5" captured_with="1"/>

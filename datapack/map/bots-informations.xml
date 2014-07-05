@@ -289,4 +289,22 @@ skin is invisible
             <text lang="fr"><![CDATA[D'ici nous commander toutes les force de l'armée de l'ombre]]></text>
         </step>
     </bot>
+    <bot id="9034">
+      <name>Marcel</name>
+      <name langue="fr">Marcel</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Get away from me ! mistake of nature ]]></text>
+            <text lang="fr"><![CDATA[Tire toi de chez moi ! Erreur de la nature]]></text>
+        </step>
+    </bot>
+    <bot id="9035">
+      <name>Louis</name>
+      <name langue="fr">Louis</name> 
+        <step type="text" id="1">
+            <text><![CDATA[The access to the forest is forbidden because of recent events!<br />
+                  In my time we would never have accepted people of your kind ]]></text>
+            <text lang="fr"><![CDATA[L'accés à la fôret est interdit à cause des récents évenements !<br />
+                            De mon temps on aurait jamais accepté les gens de ton espéce]]></text>
+        </step>
+    </bot>
 </bots>

@@ -6,40 +6,40 @@
  <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
  <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiI2YnAi6FYnQjcPIoHDSYFAABEyDbU
+   eJxbzMDAsBiI2YnAi6FYnQj8ZBQPGkwKAAAHwFxX
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdzOBgYJjJQbocvUEsDdxBCzNxgVeMDAzyQFqBCDdwMTEwyFHBTgAK1wUG
+   eJxjYBgFUziIV7uFBLX0BnZUMAMAWlcBlw==
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYEAF7FgwLqCOhNEBTG8FBwNDJQdEzA5I7wfieiCO40DI4TIDG7CD6qcWAJlnT0XzyHUDqX4SYiFe3WIG4jEA7q4ORQ==
+   eJxbzMDAsJhMzI4Ho6tVx4PR1W7nYACDr0D6GxCLcjIwiHFCxNDtwQfQ7UEHk4BmT4baZQek7Tlwm7UJKLcZjzwuYMXB0IBLzgJoniUHgo7Co5YSQEqcAgBxFyB1
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd3OBgYLjJQZzcDiB7Jw61+OQoAXJAM+VpYO5gAkIs1FUHAwCdTQb+
+   eJxjYBgFowABAAIQAAE=
   </data>
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdRHAwMERyQNhyQHo+EMdzYMqBwA8g+ycHphnIcrJALI9DDTqwJUJdGAsDQzgLceaVAdWVE6mWFCBHgp/IAUVEuplYdTAAAI0qCi0=
+   eJxjYKAPmM4BoUWBtBgHgsYHTIHyZhwImlQgB9QjT4Y+QkCKg6EBl9wMoH0zORA0PrADKL+TA0EPBgAAiSEIfw==
   </data>
  </layer>
  <layer name="other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
+   eJxjYKAcCLMwMIiwEKfWGKjOhEi1g8U+UoAEBwODJAeCHmoAACpmAb8=
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
   <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
    <properties>
     <property name="map" value="../0.0"/>
-    <property name="x" value="18"/>
-    <property name="y" value="15"/>
+    <property name="x" value="5"/>
+    <property name="y" value="14"/>
    </properties>
   </object>
  </objectgroup>
