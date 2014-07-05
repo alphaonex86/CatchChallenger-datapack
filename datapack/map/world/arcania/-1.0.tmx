@@ -46,7 +46,7 @@
   </object>
   <object name="door" type="door" gid="5461" x="160" y="224">
    <properties>
-    <property name="map" value=""/>
+    <property name="map" value="indoor/school"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
@@ -71,6 +71,13 @@
     <property name="condition-id" value="5"/>
     <property name="map" value="indoor/house6"/>
     <property name="x" value="6"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="160" y="176">
+   <properties>
+    <property name="map" value="indoor/school"/>
+    <property name="x" value="7"/>
     <property name="y" value="2"/>
    </properties>
   </object>

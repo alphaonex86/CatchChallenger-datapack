@@ -6,4 +6,9 @@
           <monster id="2" minLevel="4" maxLevel="6" luck="35" />
           <monster id="13" minLevel="4" maxLevel="6" luck="35" />
   </grass>
+  <water>
+          <monster id="19" minLevel="4" maxLevel="5" luck="5" />
+          <monster id="20" minLevel="4" maxLevel="6" luck="90" />
+          <monster id="40" minLevel="4" maxLevel="6" luck="5" />
+  </water>
 </map>
