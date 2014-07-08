@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="17" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/terra.tsx"/>
+ <layer name="Walkable" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzrYGBY0DGKScEMK4CYCHoBjIZhUvWh6R+09qLZQy17McQJ0eTqG6n2AgBMiu95
+  </data>
+ </layer>
+ <layer name="water" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwEI8qBiUtQMB73I8vjkhpNefOGEKzxJAQBf0Aoz
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjEQAAAP8AAE=
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjEQAAAP8AAE=
+  </data>
+ </layer>
+ <layer name="Collisions" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsHgIYhEyMEyvCRkYppccMBj0KgowMCgJ4FePrAZZryNQzImAXmQ1g8G/IIDPz+hy6Hrx+RldDqaXmDBGtx+ml5gwRref0jwEAFi4QI8=
+  </data>
+ </layer>
+ <layer name="other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwGcEkDg0wLY1ZwUQFWHDbzGIf4Sh/hg0OsliOpvmD+9BQnrRbefGPuopVcL6D5uqBs5gbQ2Ge6FAXLcTQgAALm7F1U=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+YB8Q7wfiA2TovQfE94H4ARXdMwpGwWAGAMtqBNs=
+  </data>
+ </layer>
+ <layer name="other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjEQAAAP8AAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="15" height="17">
+  <object name="door" type="door" gid="1027" x="112" y="80">
+   <properties>
+    <property name="map" value="tournamentsB"/>
+    <property name="x" value="7"/>
+    <property name="y" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="15" height="17">
+  <object name="bot" type="bot" gid="1027" x="112" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights"/>
+    <property name="id" value="7143"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

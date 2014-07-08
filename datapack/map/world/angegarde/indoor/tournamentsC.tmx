@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="17" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="6161" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="7185" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJwzEmJgMBrFo3gUjzgMAHH3Q70=
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpAITCfLkSAUTZQibS4o4snn0BujuweYWUsKOlDigxN+0ik9cduFTQ023gAAAI7EHnw==
+  </data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjEQAAAP8AAE=
+  </data>
+ </layer>
+ <layer name="Collisions" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsHgIYg4yMEyvBhkYphcbmCiCSqMDZL0RQDWRQByFQy26PLLeCqBYJRBX4dCLLo/PzYTASNY71OKIXAwASb1GNQ==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+YB8Q7wfiA0SolRBhYJAEYikRCP8eEN8H4gc45JGBBVDMEoitsMgRIz8KiAP44oCQ/GgcEQYADP4Kkw==
+  </data>
+ </layer>
+ <layer name="other" width="15" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjEQAAAP8AAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="15" height="17">
+  <object name="door" type="door" gid="1027" x="112" y="80">
+   <properties>
+    <property name="map" value="tournamentsD"/>
+    <property name="x" value="7"/>
+    <property name="y" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="15" height="17">
+  <object name="bot" type="bot" gid="1027" x="112" y="112">
+   <properties>
+    <property name="file" value="../../../bots-fights"/>
+    <property name="id" value="7145"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="banbit"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

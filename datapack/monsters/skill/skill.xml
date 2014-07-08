@@ -25,11 +25,11 @@ endurance="40"
         <description lang="fr">Puissant coup de poing en feu</description>
         <effect>
             <level sp="100" endurance="35" number="1">
-                <life success="90%" quantity="-30"/>
+                <life success="90%" quantity="-40"/>
                 <buff id="1" success="10%"/>
             </level>
             <level sp="300" endurance="35" number="2">
-                <life success="90%" quantity="-35"/>
+                <life success="90%" quantity="-45"/>
                 <buff id="1" success="15%" level="2"/>
             </level>
         </effect>
@@ -41,10 +41,10 @@ endurance="40"
         <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
         <effect>
             <level sp="100" endurance="35" number="1">
-                <life success="90%" quantity="-30"/>
+                <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="35" number="2">
-                <life success="90%" quantity="-35"/>
+                <life success="90%" quantity="-45"/>
             </level>
         </effect>
     </skill>
@@ -55,10 +55,10 @@ endurance="40"
         <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
             <level sp="100" endurance="20" number="1">
-                <life success="90%" quantity="-30"/>
+                <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-35"/>
+                <life success="90%" quantity="-45"/>
             </level>
         </effect>
     </skill>
@@ -121,7 +121,7 @@ endurance="40"
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-50"/>
+                <life success="90%" quantity="-45"/>
             </level>
         </effect>
     </skill>
@@ -162,11 +162,11 @@ endurance="40"
         <description lang="fr">frappe son adversaire grâce à un éclaire</description>
         <effect>
             <level sp="100" endurance="20" number="1">
-                <life success="90%" quantity="-30"/>
+                <life success="90%" quantity="-40"/>
                 <buff id="2" success="10%"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-35"/>
+                <life success="90%" quantity="-45"/>
                 <buff id="2" success="15%" level="2"/>
             </level>
         </effect>
@@ -200,11 +200,11 @@ endurance="40"
         <description lang="fr">Envoie une onde mental</description>
         <effect>
             <level sp="10" endurance="40" number="1">
-                <life success="90%" applyOn="allEnemy" quantity="-40"/>
+                <life success="90%" applyOn="allEnemy" quantity="-45"/>
                 <buff id="3" success="5%" applyOn="allEnemy"/>
             </level>
             <level sp="300" endurance="40" number="2">
-                <life success="90%" applyOn="allEnemy" quantity="-45"/>
+                <life success="90%" applyOn="allEnemy" quantity="-50"/>
                 <buff id="3" success="10%" applyOn="allEnemy"/>
             </level>
         </effect>
@@ -215,13 +215,11 @@ endurance="40"
         <description>Sends a blow</description>
         <description lang="fr">Envoie une Bourrasque</description>
         <effect>
-            <level sp="100" endurance="30" number="1">
+            <level sp="100" endurance="35" number="1">
                 <life success="90%" applyOn="allEnemy" quantity="-40"/>
-                <buff id="3" success="5%" applyOn="allEnemy"/>
             </level>
-            <level sp="300" endurance="30" number="2">
+            <level sp="300" endurance="40" number="2">
                 <life success="90%" applyOn="allEnemy" quantity="-45"/>
-                <buff id="3" success="10%" applyOn="allEnemy"/>
             </level>
         </effect>
     </skill>
@@ -282,6 +280,79 @@ endurance="40"
             </level>
             <level sp="1000" endurance="35" number="3">
                 <life success="90%" quantity="-55"/>
+            </level>
+        </effect>
+    </skill>
+     <skill id="20" type="fight">
+        <name>Double punch</name>
+        <name lang="fr">Double poing</name>
+        <description>Coup double, hitting  your opponent brutally</description>
+        <description lang="fr">Coup double, frappant votre adversaire brutalement</description>
+        <effect>
+            <level sp="100" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-70"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="21" type="bird">
+        <name>tornado</name>
+        <name lang="fr">Tornade</name>
+        <description>Sends a tornado</description>
+        <description lang="fr">Envoie une Tornade</description>
+        <effect>
+            <level sp="100" endurance="20" number="1">
+                <life success="90%" applyOn="allEnemy" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" applyOn="allEnemy" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="22" type="plant">
+        <name>Slice grass</name>
+        <name lang="fr">Tranche herbe</name>
+        <description>Cutting the enemy through grass</description>
+        <description lang="fr">Couper l'ennemi à travers l'herbe</description>
+        <effect>
+            <level sp="100" endurance="20" number="1">
+                <life success="90%" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+        <skill id="23" type="water">
+        <name>hydro blast</name>
+        <name lang="fr">hydro blast</name>
+        <description>Compressed  water at a point which explodes on contact with the opponent</description>
+        <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
+        <effect>
+            <level sp="100" endurance="20" number="1">
+                <life success="90%" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="24" type="water">
+        <name>Tsunami</name>
+        <name lang="fr">Tsunami</name>
+        <description>Create a powerful tsunami sweeping away everything in its path</description>
+        <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
+        <effect>
+            <level sp="100" endurance="8" number="1">
+                <life success="60%" quantity="-115"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-125"/>
             </level>
         </effect>
     </skill>

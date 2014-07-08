@@ -663,4 +663,95 @@ skin is invisible
       <name langue="fr">Paul</name>
         <step type="fight" id="1" fightid="7033"/>
     </bot>
+    <bot id="7133">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7134">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7135">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7136">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7137">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7138">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7139">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7140">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7141">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7142">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7143">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7144">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7145">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7134">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7146">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7147">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7148">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    <bot id="7149">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" fightid="7033"/>
+    </bot>
+    
 </bots>

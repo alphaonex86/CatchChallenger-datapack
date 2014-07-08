@@ -307,4 +307,20 @@ skin is invisible
                             De mon temps on aurait jamais accepté les gens de ton espéce]]></text>
         </step>
     </bot>
+        <bot id="9036">
+      <name>Julie</name>
+      <name langue="fr">Julie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[But what are we can do of you !?]]></text>
+            <text lang="fr"><![CDATA[Mais qu'est ce qu'on va pouvoir faire de toi ?!]]></text>
+        </step>
+    </bot>
+    <bot id="9037">
+      <name>Antoine</name>
+      <name langue="fr">Antoine</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Only tamers graduates can go out the village !]]></text>
+            <text lang="fr"><![CDATA[Seul les dompteurs diplomés peuvent passer !]]></text>
+        </step>
+    </bot>
 </bots>
