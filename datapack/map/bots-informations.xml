@@ -323,4 +323,36 @@ skin is invisible
             <text lang="fr"><![CDATA[Seul les dompteurs diplomés peuvent passer !]]></text>
         </step>
     </bot>
+    <bot id="9038">
+      <name>Geoffrey</name>
+      <name langue="fr">Geoffrey</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Go away, useless boy, we don't want see you any more !]]></text>
+            <text lang="fr"><![CDATA[Dégage de la on veut pas de toi le naze.]]></text>
+        </step>
+    </bot>
+    <bot id="9039">
+      <name>Elie</name>
+      <name langue="fr">Elie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Go away, useless boy, we don't want see you any more !]]></text>
+            <text lang="fr"><![CDATA[Dégage de la on veut pas de toi le naze.]]></text>
+        </step>
+    </bot>
+    <bot id="9040">
+      <name>Stephani</name>
+      <name langue="fr">Stephani</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Don't approach me, monster!]]></text>
+            <text lang="fr"><![CDATA[Ne m'apporche pas, monstre !.]]></text>
+        </step>
+    </bot>
+    <bot id="9041">
+      <name>Emilie</name>
+      <name langue="fr">Emilie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Null boo !]]></text>
+            <text lang="fr"><![CDATA[Bouh le nul !]]></text>
+        </step>
+    </bot>
 </bots>
