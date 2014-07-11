@@ -13,7 +13,7 @@ endurance="40"
         <description>Small attack when can fight anymore</description>
         <description lang="fr">Petit attaque quand ne peu plus attaquer</description>
         <effect>
-            <level sp="100" endurance="40" number="1">
+            <level sp="10" endurance="40" number="1">
                 <life success="90%" quantity="-5%"/>
             </level>
         </effect>
@@ -24,7 +24,7 @@ endurance="40"
         <description>Powerful punch on fire</description>
         <description lang="fr">Puissant coup de poing en feu</description>
         <effect>
-            <level sp="100" endurance="35" number="1">
+            <level sp="10" endurance="35" number="1">
                 <life success="90%" quantity="-40"/>
                 <buff id="1" success="10%"/>
             </level>
@@ -40,7 +40,7 @@ endurance="40"
         <description>Create bubbles that explodes on contact with the opponent</description>
         <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
         <effect>
-            <level sp="100" endurance="35" number="1">
+            <level sp="10" endurance="35" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="35" number="2">
@@ -54,7 +54,7 @@ endurance="40"
         <description>Lance sheet has very high speed</description>
         <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -68,7 +68,7 @@ endurance="40"
         <description>Heals itself</description>
         <description lang="fr">Se soigne lui même</description>
         <effect>
-            <level sp="300" endurance="5" number="1">
+            <level sp="30" endurance="5" number="1">
                 <life success="90%" applyOn="themself" quantity="-105%"/>
             </level>
         </effect>
@@ -95,7 +95,7 @@ endurance="40"
         <description>Up armor</description>
         <description lang="fr">Augmente l'armure</description>
         <effect>
-            <level sp="100" endurance="40" number="1">
+            <level sp="10" endurance="40" number="1">
                 <buff id="3" success="90%" applyOn="allAlly"/>
             </level>
         </effect>
@@ -106,7 +106,7 @@ endurance="40"
         <description>Decreases the opponent's attack</description>
         <description lang="fr">Diminue l'attaque de l'adversaire </description>
         <effect>
-            <level sp="100" endurance="40" number="1">
+            <level sp="10" endurance="40" number="1">
                 <buff id="4" success="90%" applyOn="allEnemy"/>
             </level>
         </effect>
@@ -117,7 +117,7 @@ endurance="40"
         <description>Send a stone on the opponent</description>
         <description lang="fr">Envoye une pierre sur l'adversaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -131,7 +131,7 @@ endurance="40"
         <description>Use claw for protect himsell</description>
         <description lang="fr">Utilise ses griffe afin de ce protége</description>
         <effect>
-            <level sp="100" endurance="35" number="1">
+            <level sp="10" endurance="35" number="1">
                 <life success="90%" quantity="-45"/>
             </level>
             <level sp="300" endurance="40" number="2">
@@ -145,7 +145,7 @@ endurance="40"
         <description>Sticks his poisoned dart in his opponent</description>
         <description lang="fr">Enfonce son dard empoisonné dans son adversaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-30"/>
                 <buff id="5" success="10%"/>
             </level>
@@ -161,7 +161,7 @@ endurance="40"
         <description>hits his opponent with lightning</description>
         <description lang="fr">frappe son adversaire grâce à un éclaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-40"/>
                 <buff id="2" success="10%"/>
             </level>
@@ -203,7 +203,7 @@ endurance="40"
                 <life success="90%" applyOn="allEnemy" quantity="-45"/>
                 <buff id="3" success="5%" applyOn="allEnemy"/>
             </level>
-            <level sp="300" endurance="40" number="2">
+            <level sp="30" endurance="40" number="2">
                 <life success="90%" applyOn="allEnemy" quantity="-50"/>
                 <buff id="3" success="10%" applyOn="allEnemy"/>
             </level>
@@ -215,7 +215,7 @@ endurance="40"
         <description>Sends a blow</description>
         <description lang="fr">Envoie une Bourrasque</description>
         <effect>
-            <level sp="100" endurance="35" number="1">
+            <level sp="10" endurance="35" number="1">
                 <life success="90%" applyOn="allEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="40" number="2">
@@ -229,7 +229,7 @@ endurance="40"
         <description>Tourbidi turn</description>
         <description lang="fr">Tourbidi tourne</description>
         <effect>
-            <level sp="100" endurance="30" number="1"/>
+            <level sp="10" endurance="30" number="1"/>
         </effect>
     </skill>
     <skill id="17" type="fire">
@@ -238,7 +238,7 @@ endurance="40"
         <description>Fire throw against the ennemy</description>
         <description lang="fr">Jet de feu qui arose l'énemi</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -255,7 +255,7 @@ endurance="40"
         <description>you force your opponent to fall brutally</description>
         <description lang="fr">Mise au sol brutal de l'adversaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -272,7 +272,7 @@ endurance="40"
         <description>Slice through his opponent with its claws</description>
         <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
         <effect>
-            <level sp="100" endurance="25" number="1">
+            <level sp="10" endurance="25" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -289,7 +289,7 @@ endurance="40"
         <description>Coup double, hitting  your opponent brutally</description>
         <description lang="fr">Coup double, frappant votre adversaire brutalement</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -306,7 +306,7 @@ endurance="40"
         <description>Sends a tornado</description>
         <description lang="fr">Envoie une Tornade</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" applyOn="allEnemy" quantity="-55"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -320,7 +320,7 @@ endurance="40"
         <description>Cutting the enemy through grass</description>
         <description lang="fr">Couper l'ennemi à travers l'herbe</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-55"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -334,7 +334,7 @@ endurance="40"
         <description>Compressed  water at a point which explodes on contact with the opponent</description>
         <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
         <effect>
-            <level sp="100" endurance="20" number="1">
+            <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-55"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -348,7 +348,7 @@ endurance="40"
         <description>Create a powerful tsunami sweeping away everything in its path</description>
         <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
         <effect>
-            <level sp="100" endurance="8" number="1">
+            <level sp="10" endurance="8" number="1">
                 <life success="60%" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
