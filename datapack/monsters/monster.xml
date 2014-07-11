@@ -81,7 +81,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Conileaf often confused with a fruit there remains a dangerous animal</description>
         <description lang="fr">Conifeuille souvent confondu avec un fruit il n'en reste un animal dangeureux</description>
     </monster>
-    <monster xp_max="400" type="psy" pow="1.4" speed="60" attack="50" hp="300" catch_rate="25" id="4" weight="23kg" special_attack="60" defense="120" special_defense="110" ratio_gender="50%" give_sp="236" height="0.54m" egg_step="5000" give_xp="148">
+    <monster xp_max="400" type="psy" pow="1.4" speed="60" attack="50" hp="280" catch_rate="25" id="4" weight="23kg" special_attack="160" defense="120" special_defense="110" ratio_gender="50%" give_sp="236" height="0.54m" egg_step="5000" give_xp="148">
         <attack_list>
             <attack id="5" level="0"/>
             <attack id="3" level="0"/>
@@ -640,7 +640,23 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Viviteel has a armor that allows him to survive to trampling</description>
         <description lang="fr">Vivicier posséde une armure qui lui permet de survivre au pietinement</description>
     </monster> 
-    
+    <monster xp_max="400" type="fight" pow="1.4" speed="155" attack="130" hp="230" catch_rate="15" id="51" weight="57kg" special_attack="80" defense="110" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="147">
+        <attack_list>
+            <attack id="5" level="0"/>
+            <attack id="7" level="0"/>
+            <attack id="9" level="8"/>
+            <attack id="18" level="12"/>
+            <attack id="20" level="15"/>
+            <attack id="18" level="26" attack_level="2"/>
+            <attack id="20" level="32" attack_level="2"/>
+            <attack id="18" level="38" attack_level="3"/>
+            <attack id="20" level="48" attack_level="3"/>
+        </attack_list>
+        <name>Enduros</name>
+        <name lang="fr">Enduros</name>
+        <description>Enduros is an aggressive animal, which does not consider the value of people in the affrontents with all that power, however it can reveal this very sociable</description>
+        <description lang="fr">Enduros est un animal agressif, qui ne juge de la valeur des gens que en les affrontents avec toute ça force, malgrès les apparences il peut ce revelé très sociable</description>
+    </monster>
     
     
     
