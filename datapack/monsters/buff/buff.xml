@@ -116,4 +116,18 @@ duration: if not specified: ThisFight, can be: ThisFight, NumberOfTurn (with att
             </level>
         </effect>
     </buff>
+    <buff id="9">
+        <name>Iron skin</name>
+        <name lang="fr">Peau de fer</name>
+        <description>Grow the attack</description>
+        <description lang="fr">Augmente l'attaque</description>
+        <effect capture_bonus="0.8" duration="ThisFight">
+            <level number="1">
+                <inFight defense="+70"/>
+            </level>
+            <level number="2">
+                <inFight defense="+100"/>
+            </level>
+        </effect>
+    </buff>
 </buffs>

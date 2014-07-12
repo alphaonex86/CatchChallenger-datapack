@@ -72,15 +72,14 @@ endurance="40"
         <description>Fire throw against the ennemy</description>
         <description lang="fr">Jet de feu qui arose l'énemi</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-40"/>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
             </level>
-            <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-45"/>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-75"/>
             </level>
-            <level sp="1000" endurance="25" number="3">
-                <life success="90%" quantity="-50"/>
-            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
         </effect>
     </skill>
     <skill id="20" type="water">
@@ -117,12 +116,14 @@ endurance="40"
         <description>Compressed  water at a point which explodes on contact with the opponent</description>
         <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-55"/>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-65"/>
+                <life success="90%" quantity="-75"/>
             </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
         </effect>
     </skill>
     <skill id="30" type="plant">
@@ -159,11 +160,30 @@ endurance="40"
         <description>Cutting the enemy through grass</description>
         <description lang="fr">Couper l'ennemi à travers l'herbe</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-55"/>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-65"/>
+                <life success="90%" quantity="-75"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
+        </effect>
+    </skill>
+        <skill id="40" type="fight">
+        <name>Tri-fatal blow</name>
+        <name lang="fr">Tri-coup fatal</name>
+        <description>Very technical Combot but very destructive</description>
+        <description lang="fr">combot très technique mais très destructeur</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="50%" quantity="-115"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="50%" quantity="-140"/>
+            </level>
+            <level sp="1000" endurance="10" number="3">
+                <life success="50%" quantity="-170"/>
             </level>
         </effect>
     </skill>
@@ -194,10 +214,10 @@ endurance="40"
                 <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-65"/>
+                <life success="90%" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" quantity="-70"/>
+                <life success="90%" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -212,6 +232,26 @@ endurance="40"
             </level>
             <level sp="300" endurance="20" number="2">
                 <buff id="8" success="90%" applyOn="allAlly"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="50" type="bird">
+        <name>Storm</name>
+        <name lang="fr">Ouragan</name>
+        <description>A devastating wind léve sweeping all are passing, sketchy.</description>
+        <description lang="fr">Un vent dévastateur se léve balayant tout sur sont passage, peu précis c'est une arme à double tranchant. </description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="55%" applyOn="allEnemy" quantity="-140"/>
+                <life success="10%" applyOn="allAlly" quantity="-140"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" applyOn="allEnemy" quantity="-155"/>
+                <life success="9%" applyOn="allAlly" quantity="-155"/>
+            </level>
+            <level sp="300" endurance="9" number="3">
+                <life success="65%" applyOn="allEnemy" quantity="-175"/>
+                <life success="8%" applyOn="allAlly" quantity="-175"/>
             </level>
         </effect>
     </skill>
@@ -235,11 +275,30 @@ endurance="40"
         <description>Sends a tornado</description>
         <description lang="fr">Envoie une Tornade</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="allEnemy" quantity="-55"/>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="allEnemy" quantity="-65"/>
+                <life success="90%" quantity="-75"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
+        </effect>
+    </skill>
+    <skill id="60" type="psy">
+        <name>Destruction spy</name>
+        <name lang="fr">Destruction spy</name>
+        <description>Sends a mental wave</description>
+        <description lang="fr">Envoie une onde mental</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="40%" applyOn="allEnemy" quantity="-130"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="45%" applyOn="allEnemy" quantity="-150"/>
+            </level>
+            <level sp="300" endurance="10" number="3">
+                <life success="50%" applyOn="allEnemy" quantity="-160"/>
             </level>
         </effect>
     </skill>
@@ -259,7 +318,24 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="62" type="psy">
+    <skill id="63" type="psy">
+        <name>Telekinesis</name>
+        <name lang="fr">Télékinésie</name>
+        <description>Different objects projected on the opponent</description>
+        <description lang="fr">Projette différents objets sur l'adversaire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-75"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="69" type="psy">
         <name>Heal</name>
         <name lang="fr">Soin</name>
         <description>Heals itself</description>
@@ -267,6 +343,23 @@ endurance="40"
         <effect>
             <level sp="30" endurance="5" number="1">
                 <life success="90%" applyOn="themself" quantity="-105%"/>
+            </level>
+        </effect>
+    </skill>
+        <skill id="70" type="stone">
+        <name>Landslide</name>
+        <name lang="fr">Eboulement</name>
+        <description>Form a powerful landslide, taking everything in its path.s</description>
+        <description lang="fr">Un puissant éboulement se forme, emportant tout sur son passage.</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="50%" quantity="-115"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-130"/>
+            </level>
+            <level sp="1000" endurance="10" number="3">
+                <life success="70%" quantity="-150"/>
             </level>
         </effect>
     </skill>
@@ -284,6 +377,43 @@ endurance="40"
             </level>
         </effect>
     </skill>
+    <skill id="73" type="stone">
+        <name>Balls stalagmites </name>
+        <name lang="fr">Balles stalagmites </name>
+        <description>Send stalagmites at very high speed</description>
+        <description lang="fr">Envoye des stalagmites à très grande vitesse</description>
+        <effect>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-50"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-80"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="80" type="poison">
+        <name>Radioactive emanation</name>
+        <name lang="fr">Emanations radioactives</name>
+        <description>Fission takes place which releases a significant radioactivity very toxic</description>
+        <description lang="fr">Une fission à lieu ce qui dégage une importantes radioactivité, très toxic</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="65%" quantity="-100"/>
+                <buff id="5" success="5%" level="2"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="70%" quantity="-110"/>
+                <buff id="5" success="7%" level="2"/>
+            </level>
+            <level sp="1000" endurance="10" number="3">
+                <life success="75%" quantity="-120"/>
+                <buff id="5" success="10%" level="2"/>
+            </level>
+        </effect>
+    </skill>
     <skill id="81" type="poison">
         <name>Sting venom</name>
         <name lang="fr">Dard venin</name>
@@ -292,11 +422,65 @@ endurance="40"
         <effect>
             <level sp="10" endurance="20" number="1">
                 <life success="90%" quantity="-30"/>
-                <buff id="5" success="10%"/>
+                <buff id="5" success="5%"/>
             </level>
             <level sp="300" endurance="25" number="2">
                 <life success="90%" quantity="-35"/>
-                <buff id="5" success="15%" level="2"/>
+                <buff id="5" success="7%" level="2"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="82" type="poison">
+        <name>Toxic gas</name>
+        <name lang="fr">Gaz toxic</name>
+        <description>Drops a poison gas in the area</description>
+        <description lang="fr">Relâche un gaz empoisonné dans l'aire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <buff id="5" success="90%"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <buff id="5" success="90%" level="2"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="83" type="poison">
+        <name>Fang venom</name>
+        <name lang="fr">Croc venin</name>
+        <description>Sticks his poisoned Fang in his opponent</description>
+        <description lang="fr">Enfonce ses crocs empoisonné dans son adversaire</description>
+        <effect>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-50"/>
+                <buff id="5" success="15%"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+                <buff id="5" success="15%"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-80"/>
+                <buff id="5" success="15%"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="90" type="electric">
+        <name>Surge</name>
+        <name lang="fr">Surtension</name>
+        <description>Discharge accumulates then be projected in any direction</description>
+        <description lang="fr">Des Décharge s'accumule pour etre ensuite projeté dans tous les sens.</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="50%" quantity="-120"/>
+                <life success="90%" applyOn="themself" quantity="-10%"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-140"/>
+                <life success="90%" applyOn="themself" quantity="-20%"/>
+            </level>
+            <level sp="1000" endurance="10" number="3">
+                <life success="65%" quantity="-160"/>
+                <life success="90%" applyOn="themself" quantity="-30%"/>
             </level>
         </effect>
     </skill>
@@ -316,6 +500,22 @@ endurance="40"
             </level>
         </effect>
     </skill>
+    <skill id="93" type="electric">
+        <name>Thunder</name>
+        <name lang="fr">Tonnerre</name>
+        <description>hits his opponent with thunder</description>
+        <description lang="fr">frappe son adversaire grâce à la foudre</description>
+        <effect>
+           <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-60"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-75"/>
+            </level>
+            <level sp="1000" endurance="24" number="3">
+                <life success="90%" quantity="-90"/>
+        </effect>
+    </skill>
     <skill id="101" type="metal">
         <name>steel claw</name>
         <name lang="fr">Griffe acier</name>
@@ -330,6 +530,37 @@ endurance="40"
             </level>
             <level sp="1000" endurance="35" number="3">
                 <life success="90%" quantity="-55"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="103" type="metal">
+        <name>Metal rain</name>
+        <name lang="fr">Pluie métallique</name>
+        <description>A rain of metal fell on the opponent</description>
+        <description lang="fr">Une pluie de métaux s'abat sur l'ennemie</description>
+        <effect>
+            <level sp="10" endurance="25" number="1">
+                <life success="90%" quantity="60"/>
+            </level>
+            <level sp="300" endurance="30" number="2">
+                <life success="90%" quantity="-75"/>
+            </level>
+            <level sp="1000" endurance="35" number="3">
+                <life success="90%" quantity="-90"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="103" type="metal">
+        <name>Iron skin</name>
+        <name lang="fr">Peau de fer</name>
+        <description>Skin changes which solidifies for resist attack</description>
+        <description lang="fr">Modification de la peau qui se solidifie pour résister au attaque</description>
+        <effect>
+            <level sp="10" endurance="15" number="1">
+                <buff id="8" success="90%" applyOn="allAlly"/>
+            </level>
+            <level sp="300" endurance="20" number="2">
+                <buff id="8" success="90%" applyOn="allAlly"/>
             </level>
         </effect>
     </skill>
