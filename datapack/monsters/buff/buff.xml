@@ -102,4 +102,18 @@ duration: if not specified: ThisFight, can be: ThisFight, NumberOfTurn (with att
             </level>
         </effect>
     </buff>
+    <buff id="8">
+        <name>stretched</name>
+        <name lang="fr">Etiré</name>
+        <description>Grow the attack</description>
+        <description lang="fr">Augmente l'attaque</description>
+        <effect capture_bonus="0.8" duration="ThisFight">
+            <level number="1">
+                <inFight attack="+70"/>
+            </level>
+            <level number="2">
+                <inFight attack="+100"/>
+            </level>
+        </effect>
+    </buff>
 </buffs>

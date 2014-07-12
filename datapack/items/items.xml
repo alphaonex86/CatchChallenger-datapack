@@ -181,4 +181,10 @@ consumeAtUse="true"
         <description lang="fr">Permet certaine évolution</description>
         <description>Allow some evolution</description>
     </item>
+    <item price="1000" id="46" image="evolution/evol-metal.png">
+        <name>Metalevol</name>
+        <name lang="fr">Metalevol</name>
+        <description lang="fr">Permet certaine évolution</description>
+        <description>Allow some evolution</description>
+    </item>
 </items>

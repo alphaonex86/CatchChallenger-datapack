@@ -72,6 +72,8 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="22" level="16"/>
             <attack id="3" level="20" attack_level="2"/>
             <attack id="22" level="32" attack_level="2"/>
+            <attack id="28" level="45"/>
+            <attack id="28" level="55" attack_level="2"/>
         </attack_list>
         <drops>
             <drop item="2014" luck="25" quantity="1"/>
@@ -101,8 +103,10 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
             <attack id="8" level="8"/>
+            <attack id="27" level="10"/>
             <attack id="18" level="12"/>
             <attack id="20" level="16"/>
+            <attack id="27" level="18" attack_level="2"/>
             <attack id="8" level="21" attack_level="2"/>
             <attack id="18" level="26" attack_level="2"/>
             <attack id="20" level="32" attack_level="2"/>
@@ -351,7 +355,12 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
             <attack id="3" level="8"/>
+            <attack id="15" level="13"/>
+            <attack id="22" level="16"/>
             <attack id="3" level="20" attack_level="2"/>
+            <attack id="22" level="32" attack_level="2"/>
+            <attack id="28" level="45"/>
+            <attack id="28" level="55" attack_level="2"/>
         </attack_list>
         <name>Cowpignon</name>
         <name lang="fr">Cowpignon</name>
@@ -363,9 +372,12 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
             <attack id="3" level="8"/>
-            <attack id="12" level="12"/>
+            <attack id="15" level="13"/>
+            <attack id="22" level="16"/>
             <attack id="3" level="20" attack_level="2"/>
-            <attack id="12" level="22" attack_level="2"/>
+            <attack id="22" level="32" attack_level="2"/>
+            <attack id="28" level="45"/>
+            <attack id="28" level="55" attack_level="2"/>
         </attack_list>
         <name>Tarpeur</name>
         <name lang="fr">Tarpeur</name>
@@ -534,6 +546,8 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <evolution type="item" level="43" evolveTo="42"/>
             <evolution type="level" level="43" evolveTo="43"/>
             <evolution type="item" level="44'" evolveTo="44"/>
+            <evolution type="item" level="41'" evolveTo="45"/>
+            <evolution type="item" level="46'" evolveTo="46"/>
         </evolutions>
         <drops>
         </drops>
@@ -567,7 +581,12 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="6" level="0"/>
             <attack id="5" level="0"/>
             <attack id="3" level="8"/>
+            <attack id="15" level="13"/>
+            <attack id="22" level="16"/>
             <attack id="3" level="20" attack_level="2"/>
+            <attack id="22" level="32" attack_level="2"/>
+            <attack id="28" level="45"/>
+            <attack id="28" level="55" attack_level="2"/>
         </attack_list>
         <drops>
         </drops>
@@ -623,8 +642,30 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <name lang="fr">Vivitrans</name>
         <description>Vivitrans can read the minds of their prey</description>
         <description lang="fr">Vivitrans peut lire dans les pensées de ses proies</description>
+    </monster> 
+    <monster xp_max="400" type="fire" pow="1.4" speed="112" attack="140" hp="130" catch_rate="7" id="45" weight="0.6kg" special_attack="170" defense="132" special_defense="155" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+        <attack_list>
+            <attack id="6" level="0"/>
+            <attack id="5" level="0"/>
+            <attack id="1" level="8"/>
+            <attack id="18" level="10"/>
+            <attack id="9" level="14"/>
+            <attack id="12" level="16"/>
+            <attack id="17" level="26"/>
+            <attack id="25" level="27"/>
+            <attack id="1" level="20" attack_level="2"/>
+            <attack id="9" level="36" attack_level="2"/>
+            <attack id="26" level="45"/>
+            <attack id="26" level="55" attack_level="2"/>
+        </attack_list>
+        <drops>
+        </drops>
+        <name>Vivicinder</name>
+        <name lang="fr">Vivicendre</name>
+        <description>Vivitrans  life in the cinder and leave only for eat</description>
+        <description lang="fr">Vivitrans vie dans les cendres et n'en sort que pour chercher à mangé</description>
     </monster>  
-  <monster xp_max="400" type="metal" pow="1.4" speed="113" attack="90" hp="173" catch_rate="7" id="44" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+  <monster xp_max="400" type="metal" pow="1.4" speed="113" attack="90" hp="173" catch_rate="7" id="46" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
         <attack_list>
             <attack id="5" level="0"/>
             <attack id="6" level="0"/>
@@ -645,6 +686,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="5" level="0"/>
             <attack id="7" level="0"/>
             <attack id="9" level="8"/>
+            <attack id="27" level="10"/>
             <attack id="18" level="12"/>
             <attack id="20" level="15"/>
             <attack id="18" level="26" attack_level="2"/>
@@ -675,8 +717,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="9" level="14"/>
             <attack id="12" level="16"/>
             <attack id="17" level="26"/>
+            <attack id="25" level="27"/>
             <attack id="1" level="20" attack_level="2"/>
             <attack id="9" level="36" attack_level="2"/>
+            <attack id="26" level="45"/>
+            <attack id="26" level="55" attack_level="2"/>
         </attack_list>
         <drops>
         </drops>
