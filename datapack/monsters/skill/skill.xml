@@ -18,7 +18,23 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="1" type="fire">
+    <skill id="10" type="fire">
+        <name>burning</name>
+        <name lang="fr">Embrasement</name>
+        <description>Powerful attack who Aglow the opponent, low possibility of success.</description>
+        <description lang="fr">Puissante attaque qui Embrasé l'adversaire, faible possibilité de succès.</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="50%" quantity="-105"/>
+                <buff id="1" success="25%" level="1"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-115"/>
+                <buff id="1" success="25%" level="2"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="11" type="fire">
         <name>Fire punch</name>
         <name lang="fr">Point feu</name>
         <description>Powerful punch on fire</description>
@@ -34,205 +50,23 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="2" type="water">
-        <name>Bubble gun</name>
-        <name lang="fr">Canon à bulle</name>
-        <description>Create bubbles that explodes on contact with the opponent</description>
-        <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
+    <skill id="12" type="fire">
+        <name>infinite flames</name>
+        <name lang="fr">flammes infinies</name>
+        <description>Create a torrent of flame that burns slowly but very long time</description>
+        <description lang="fr">créer un torrent de flamme qui brûle lentement mais très longtemps</description>
         <effect>
-            <level sp="10" endurance="35" number="1">
-                <life success="90%" quantity="-40"/>
+            <level sp="10" endurance="15" number="1">
+                <life success="60%" quantity="-20"/>
+                <buff id="1" success="100%" level="1"/>
             </level>
-            <level sp="300" endurance="35" number="2">
-                <life success="90%" quantity="-45"/>
+            <level sp="300" endurance="20" number="2">
+                <life success="60%" quantity="-20"/>
+                <buff id="1" success="100%" level="2"/>
             </level>
         </effect>
     </skill>
-    <skill id="3" type="plant">
-        <name>Sheet cutting</name>
-        <name lang="fr">Découpe feuille</name>
-        <description>Lance sheet has very high speed</description>
-        <description lang="fr">Lance des feuille à très forte vitesse</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-40"/>
-            </level>
-            <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-45"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="4" type="normal">
-        <name>Heal</name>
-        <name lang="fr">Soin</name>
-        <description>Heals itself</description>
-        <description lang="fr">Se soigne lui même</description>
-        <effect>
-            <level sp="30" endurance="5" number="1">
-                <life success="90%" applyOn="themself" quantity="-105%"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="5" type="normal">
-        <name>Tackle</name>
-        <name lang="fr">Charge</name>
-        <description>Tackle the enemy</description>
-        <description lang="fr">Charge l'ennemie</description>
-        <effect>
-            <level sp="10" endurance="40" number="1">
-                <life success="90%" quantity="-35"/>
-                <buff id="3" success="5%" applyOn="allEnemy"/>
-            </level>
-            <level sp="150" endurance="40" number="2">
-                <life success="90%" quantity="-40"/>
-                <buff id="3" success="10%" applyOn="allEnemy"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="6" type="normal">
-        <name>Armor</name>
-        <name lang="fr">Armure</name>
-        <description>Up armor</description>
-        <description lang="fr">Augmente l'armure</description>
-        <effect>
-            <level sp="10" endurance="40" number="1">
-                <buff id="3" success="90%" applyOn="allAlly"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="7" type="normal">
-        <name>Intimidation</name>
-        <name lang="fr">Intimidation</name>
-        <description>Decreases the opponent's attack</description>
-        <description lang="fr">Diminue l'attaque de l'adversaire </description>
-        <effect>
-            <level sp="10" endurance="40" number="1">
-                <buff id="4" success="90%" applyOn="allEnemy"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="8" type="stone">
-        <name>Slingshot</name>
-        <name lang="fr">Lance pierre</name>
-        <description>Send a stone on the opponent</description>
-        <description lang="fr">Envoye une pierre sur l'adversaire</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-40"/>
-            </level>
-            <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-45"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="9" type="normal">
-        <name>Claw</name>
-        <name lang="fr">Griffe</name>
-        <description>Use claw for protect himsell</description>
-        <description lang="fr">Utilise ses griffe afin de ce protége</description>
-        <effect>
-            <level sp="10" endurance="35" number="1">
-                <life success="90%" quantity="-45"/>
-            </level>
-            <level sp="300" endurance="40" number="2">
-                <life success="90%" quantity="-55"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="10" type="poison">
-        <name>Sting venom</name>
-        <name lang="fr">Dard venin</name>
-        <description>Sticks his poisoned dart in his opponent</description>
-        <description lang="fr">Enfonce son dard empoisonné dans son adversaire</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-30"/>
-                <buff id="5" success="10%"/>
-            </level>
-            <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-35"/>
-                <buff id="5" success="15%" level="2"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="11" type="electric">
-        <name>Lightning</name>
-        <name lang="fr">Foudre</name>
-        <description>hits his opponent with lightning</description>
-        <description lang="fr">frappe son adversaire grâce à un éclaire</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-40"/>
-                <buff id="2" success="10%"/>
-            </level>
-            <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-45"/>
-                <buff id="2" success="15%" level="2"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="12" type="normal">
-        <name>Power boost</name>
-        <name lang="fr">Puissance</name>
-        <description>Grow the attack</description>
-        <description lang="fr">Augmente l'attaque</description>
-        <effect>
-            <level sp="50" endurance="40" number="1">
-                <buff id="6" success="90%" applyOn="allAlly"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="13" type="normal">
-        <name>destabilization</name>
-        <name lang="fr">Déstabilisation</name>
-        <description>Decreases the opponent's defense</description>
-        <description lang="fr">Diminue la defence de l'adversaire </description>
-        <effect>
-            <level sp="50" endurance="40" number="1">
-                <buff id="7" success="90%" applyOn="allEnemy"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="14" type="psy">
-        <name>Mental wave</name>
-        <name lang="fr">Onde mental</name>
-        <description>Sends a mental wave</description>
-        <description lang="fr">Envoie une onde mental</description>
-        <effect>
-            <level sp="10" endurance="40" number="1">
-                <life success="90%" applyOn="allEnemy" quantity="-45"/>
-                <buff id="3" success="5%" applyOn="allEnemy"/>
-            </level>
-            <level sp="30" endurance="40" number="2">
-                <life success="90%" applyOn="allEnemy" quantity="-50"/>
-                <buff id="3" success="10%" applyOn="allEnemy"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="15" type="bird">
-        <name>Blowed</name>
-        <name lang="fr">Bourrasque</name>
-        <description>Sends a blow</description>
-        <description lang="fr">Envoie une Bourrasque</description>
-        <effect>
-            <level sp="10" endurance="35" number="1">
-                <life success="90%" applyOn="allEnemy" quantity="-40"/>
-            </level>
-            <level sp="300" endurance="40" number="2">
-                <life success="90%" applyOn="allEnemy" quantity="-45"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="16" type="normal">
-        <name>Turn</name>
-        <name lang="fr">Tourne</name>
-        <description>Tourbidi turn</description>
-        <description lang="fr">Tourbidi tourne</description>
-        <effect>
-            <level sp="10" endurance="30" number="1"/>
-        </effect>
-    </skill>
-    <skill id="17" type="fire">
+    <skill id="13" type="fire">
         <name>Fire throw</name>
         <name lang="fr">Jet de feu</name>
         <description>Fire throw against the ennemy</description>
@@ -249,7 +83,91 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="18" type="fight">
+    <skill id="20" type="water">
+        <name>Tsunami</name>
+        <name lang="fr">Tsunami</name>
+        <description>Create a powerful tsunami sweeping away everything in its path</description>
+        <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="60%" quantity="-115"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-125"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="21" type="water">
+        <name>Bubble gun</name>
+        <name lang="fr">Canon à bulle</name>
+        <description>Create bubbles that explodes on contact with the opponent</description>
+        <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
+        <effect>
+            <level sp="10" endurance="35" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="35" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="23" type="water">
+        <name>hydro blast</name>
+        <name lang="fr">hydro blast</name>
+        <description>Compressed  water at a point which explodes on contact with the opponent</description>
+        <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="30" type="plant">
+        <name>whittled</name>
+        <name lang="fr">Taillade</name>
+        <description>Powerful attack who split the opponent, low possibility of success.</description>
+        <description lang="fr">Attaque puissante qui taille l'ennemi de part en part, faible possibilité de succès.</description>
+        <effect>
+            <level sp="10" endurance="8" number="1">
+                <life success="50%" quantity="-125"/>
+            </level>
+            <level sp="300" endurance="9" number="2">
+                <life success="60%" quantity="-135"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="31" type="plant">
+        <name>Sheet cutting</name>
+        <name lang="fr">Découpe feuille</name>
+        <description>Lance sheet has very high speed</description>
+        <description lang="fr">Lance des feuille à très forte vitesse</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="33" type="plant">
+        <name>Slice grass</name>
+        <name lang="fr">Tranche herbe</name>
+        <description>Cutting the enemy through grass</description>
+        <description lang="fr">Couper l'ennemi à travers l'herbe</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="41" type="fight">
         <name>Low Sweep</name>
         <name lang="fr">Balayette</name>
         <description>you force your opponent to fall brutally</description>
@@ -266,24 +184,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-        <skill id="19" type="metal">
-        <name>steel claw</name>
-        <name lang="fr">Griffe acier</name>
-        <description>Slice through his opponent with its claws</description>
-        <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
-        <effect>
-            <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="-40"/>
-            </level>
-            <level sp="300" endurance="30" number="2">
-                <life success="90%" quantity="-45"/>
-            </level>
-            <level sp="1000" endurance="35" number="3">
-                <life success="90%" quantity="-55"/>
-            </level>
-        </effect>
-    </skill>
-     <skill id="20" type="fight">
+    <skill id="43" type="fight">
         <name>Double punch</name>
         <name lang="fr">Double poing</name>
         <description>Coup double, hitting  your opponent brutally</description>
@@ -300,95 +201,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="21" type="bird">
-        <name>tornado</name>
-        <name lang="fr">Tornade</name>
-        <description>Sends a tornado</description>
-        <description lang="fr">Envoie une Tornade</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="allEnemy" quantity="-55"/>
-            </level>
-            <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="allEnemy" quantity="-65"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="22" type="plant">
-        <name>Slice grass</name>
-        <name lang="fr">Tranche herbe</name>
-        <description>Cutting the enemy through grass</description>
-        <description lang="fr">Couper l'ennemi à travers l'herbe</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-55"/>
-            </level>
-            <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-65"/>
-            </level>
-        </effect>
-    </skill>
-        <skill id="23" type="water">
-        <name>hydro blast</name>
-        <name lang="fr">hydro blast</name>
-        <description>Compressed  water at a point which explodes on contact with the opponent</description>
-        <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
-        <effect>
-            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-55"/>
-            </level>
-            <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-65"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="24" type="water">
-        <name>Tsunami</name>
-        <name lang="fr">Tsunami</name>
-        <description>Create a powerful tsunami sweeping away everything in its path</description>
-        <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
-        <effect>
-            <level sp="10" endurance="8" number="1">
-                <life success="60%" quantity="-115"/>
-            </level>
-            <level sp="300" endurance="9" number="2">
-                <life success="60%" quantity="-125"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="25" type="fire">
-        <name>infinite flames</name>
-        <name lang="fr">flammes infinies</name>
-        <description>Create a torrent of flame that burns slowly but very long time</description>
-        <description lang="fr">créer un torrent de flamme qui brûle lentement mais très longtemps</description>
-        <effect>
-            <level sp="10" endurance="15" number="1">
-                <life success="60%" quantity="-20"/>
-                <buff id="1" success="100%" level="1"/>
-            </level>
-            <level sp="300" endurance="20" number="2">
-                <life success="60%" quantity="-20"/>
-                <buff id="1" success="100%" level="2"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="26" type="fire">
-        <name>burning</name>
-        <name lang="fr">Embrasement</name>
-        <description>Powerful attack who Aglow the opponent, low possibility of success.</description>
-        <description lang="fr">Puissante attaque qui Embrasé l'adversaire, faible possibilité de succès.</description>
-        <effect>
-            <level sp="10" endurance="8" number="1">
-                <life success="50%" quantity="-105"/>
-                <buff id="1" success="25%" level="1"/>
-            </level>
-            <level sp="300" endurance="9" number="2">
-                <life success="60%" quantity="-115"/>
-                <buff id="1" success="25%" level="2"/>
-            </level>
-        </effect>
-    </skill>
-    <skill id="27" type="fight">
+    <skill id="44" type="fight">
         <name>stretching</name>
         <name lang="fr">Etirement</name>
         <description>increase agility in close combat.</description>
@@ -402,18 +215,206 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="28" type="plant">
-        <name>whittled</name>
-        <name lang="fr">Taillade</name>
-        <description>Powerful attack who split the opponent, low possibility of success.</description>
-        <description lang="fr">Attaque puissante qui taille l'ennemi de part en part, faible possibilité de succès.</description>
+    <skill id="51" type="bird">
+        <name>Blowed</name>
+        <name lang="fr">Bourrasque</name>
+        <description>Sends a blow</description>
+        <description lang="fr">Envoie une Bourrasque</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
-                <life success="50%" quantity="-125"/>
+            <level sp="10" endurance="35" number="1">
+                <life success="90%" applyOn="allEnemy" quantity="-40"/>
             </level>
-            <level sp="300" endurance="9" number="2">
-                <life success="60%" quantity="-135"/>
+            <level sp="300" endurance="40" number="2">
+                <life success="90%" applyOn="allEnemy" quantity="-45"/>
             </level>
         </effect>
     </skill>
+    <skill id="53" type="bird">
+        <name>tornado</name>
+        <name lang="fr">Tornade</name>
+        <description>Sends a tornado</description>
+        <description lang="fr">Envoie une Tornade</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" applyOn="allEnemy" quantity="-55"/>
+            </level>
+            <level sp="300" endurance="22" number="2">
+                <life success="90%" applyOn="allEnemy" quantity="-65"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="61" type="psy">
+        <name>Mental wave</name>
+        <name lang="fr">Onde mental</name>
+        <description>Sends a mental wave</description>
+        <description lang="fr">Envoie une onde mental</description>
+        <effect>
+            <level sp="10" endurance="40" number="1">
+                <life success="90%" applyOn="allEnemy" quantity="-45"/>
+                <buff id="3" success="5%" applyOn="allEnemy"/>
+            </level>
+            <level sp="30" endurance="40" number="2">
+                <life success="90%" applyOn="allEnemy" quantity="-50"/>
+                <buff id="3" success="10%" applyOn="allEnemy"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="62" type="psy">
+        <name>Heal</name>
+        <name lang="fr">Soin</name>
+        <description>Heals itself</description>
+        <description lang="fr">Se soigne lui même</description>
+        <effect>
+            <level sp="30" endurance="5" number="1">
+                <life success="90%" applyOn="themself" quantity="-105%"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="71" type="stone">
+        <name>Slingshot</name>
+        <name lang="fr">Lance pierre</name>
+        <description>Send a stone on the opponent</description>
+        <description lang="fr">Envoye une pierre sur l'adversaire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="81" type="poison">
+        <name>Sting venom</name>
+        <name lang="fr">Dard venin</name>
+        <description>Sticks his poisoned dart in his opponent</description>
+        <description lang="fr">Enfonce son dard empoisonné dans son adversaire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-30"/>
+                <buff id="5" success="10%"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <life success="90%" quantity="-35"/>
+                <buff id="5" success="15%" level="2"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="91" type="electric">
+        <name>Lightning</name>
+        <name lang="fr">Foudre</name>
+        <description>hits his opponent with lightning</description>
+        <description lang="fr">frappe son adversaire grâce à un éclaire</description>
+        <effect>
+            <level sp="10" endurance="20" number="1">
+                <life success="90%" quantity="-40"/>
+                <buff id="2" success="10%"/>
+            </level>
+            <level sp="300" endurance="25" number="2">
+                <life success="90%" quantity="-45"/>
+                <buff id="2" success="15%" level="2"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="101" type="metal">
+        <name>steel claw</name>
+        <name lang="fr">Griffe acier</name>
+        <description>Slice through his opponent with its claws</description>
+        <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
+        <effect>
+            <level sp="10" endurance="25" number="1">
+                <life success="90%" quantity="-40"/>
+            </level>
+            <level sp="300" endurance="30" number="2">
+                <life success="90%" quantity="-45"/>
+            </level>
+            <level sp="1000" endurance="35" number="3">
+                <life success="90%" quantity="-55"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="201" type="normal">
+        <name>Tackle</name>
+        <name lang="fr">Charge</name>
+        <description>Tackle the enemy</description>
+        <description lang="fr">Charge l'ennemie</description>
+        <effect>
+            <level sp="10" endurance="40" number="1">
+                <life success="90%" quantity="-35"/>
+                <buff id="3" success="5%" applyOn="allEnemy"/>
+            </level>
+            <level sp="150" endurance="40" number="2">
+                <life success="90%" quantity="-40"/>
+                <buff id="3" success="10%" applyOn="allEnemy"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="202" type="normal">
+        <name>Armor</name>
+        <name lang="fr">Armure</name>
+        <description>Up armor</description>
+        <description lang="fr">Augmente l'armure</description>
+        <effect>
+            <level sp="10" endurance="40" number="1">
+                <buff id="3" success="90%" applyOn="allAlly"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="203" type="normal">
+        <name>Intimidation</name>
+        <name lang="fr">Intimidation</name>
+        <description>Decreases the opponent's attack</description>
+        <description lang="fr">Diminue l'attaque de l'adversaire </description>
+        <effect>
+            <level sp="10" endurance="40" number="1">
+                <buff id="4" success="90%" applyOn="allEnemy"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="204" type="normal">
+        <name>Claw</name>
+        <name lang="fr">Griffe</name>
+        <description>Use claw for protect himsell</description>
+        <description lang="fr">Utilise ses griffe afin de ce protége</description>
+        <effect>
+            <level sp="10" endurance="35" number="1">
+                <life success="90%" quantity="-45"/>
+            </level>
+            <level sp="300" endurance="40" number="2">
+                <life success="90%" quantity="-55"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="205" type="normal">
+        <name>Power boost</name>
+        <name lang="fr">Puissance</name>
+        <description>Grow the attack</description>
+        <description lang="fr">Augmente l'attaque</description>
+        <effect>
+            <level sp="50" endurance="40" number="1">
+                <buff id="6" success="90%" applyOn="allAlly"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="206" type="normal">
+        <name>destabilization</name>
+        <name lang="fr">Déstabilisation</name>
+        <description>Decreases the opponent's defense</description>
+        <description lang="fr">Diminue la defence de l'adversaire </description>
+        <effect>
+            <level sp="50" endurance="40" number="1">
+                <buff id="7" success="90%" applyOn="allEnemy"/>
+            </level>
+        </effect>
+    </skill>
+    <skill id="207" type="normal">
+        <name>Turn</name>
+        <name lang="fr">Tourne</name>
+        <description>Tourbidi turn</description>
+        <description lang="fr">Tourbidi tourne</description>
+        <effect>
+            <level sp="10" endurance="30" number="1"/>
+        </effect>
+    </skill>
+ 
 </skills>
