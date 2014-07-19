@@ -102,4 +102,9 @@
    </properties>
   </object>
  </objectgroup>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1KERACEUQ8HID51w/RcIDouDm9k1z0YlAeBPRiVf3V4BcK6tz+q1C7xjAkN0AKo=
+  </data>
+ </layer>
 </map>

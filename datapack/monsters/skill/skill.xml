@@ -80,6 +80,7 @@ endurance="40"
             </level>
             <level sp="1000" endurance="24" number="3">
                 <life success="90%" quantity="-90"/>
+            </level>
         </effect>
     </skill>
     <skill id="20" type="water">
@@ -124,6 +125,7 @@ endurance="40"
             </level>
             <level sp="1000" endurance="24" number="3">
                 <life success="90%" quantity="-90"/>
+            </level>
         </effect>
     </skill>
     <skill id="30" type="plant">
@@ -168,6 +170,7 @@ endurance="40"
             </level>
             <level sp="1000" endurance="24" number="3">
                 <life success="90%" quantity="-90"/>
+            </level>    
         </effect>
     </skill>
         <skill id="40" type="fight">
@@ -283,6 +286,7 @@ endurance="40"
             </level>
             <level sp="1000" endurance="24" number="3">
                 <life success="90%" quantity="-90"/>
+            </level>
         </effect>
     </skill>
     <skill id="60" type="psy">
@@ -514,6 +518,7 @@ endurance="40"
             </level>
             <level sp="1000" endurance="24" number="3">
                 <life success="90%" quantity="-90"/>
+            </level>    
         </effect>
     </skill>
     <skill id="101" type="metal">
@@ -550,7 +555,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="103" type="metal">
+    <skill id="104" type="metal">
         <name>Iron skin</name>
         <name lang="fr">Peau de fer</name>
         <description>Skin changes which solidifies for resist attack</description>
