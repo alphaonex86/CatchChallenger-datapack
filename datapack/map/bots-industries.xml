@@ -5,7 +5,7 @@ skin is invisible
 <bots>
     <bot id="3001">
       <name>Smith Pierre</name>
-      <namelang="fr">Pierre le forgeron</name>
+      <name lang="fr">Pierre le forgeron</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Melt copper</a><br />
 		<a href="3">Melt iron</a><br />
@@ -27,7 +27,7 @@ skin is invisible
     
     <bot id="3002">
       <name>Trap seller Eric</name>
-      <namelang="fr">Eric vendeur de trappe</name>
+      <name lang="fr">Eric vendeur de trappe</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Made Catchtrap</a><br />
 		<a href="3">Made Supertrap</a><br />]]></text>
@@ -40,7 +40,7 @@ skin is invisible
     
     <bot id="3003">
       <name>Lumberjack Louis</name>
-      <namelang="fr">Louis le bûcheron</name>
+      <name lang="fr">Louis le bûcheron</name>
       <step type="text" id="1">
 		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
@@ -50,7 +50,7 @@ skin is invisible
     
     <bot id="3004">
       <name>Smith Luca</name>
-      <namelang="fr">Luca le forgeron</name>
+      <name lang="fr">Luca le forgeron</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Melt copper</a><br />
 		<a href="3">Melt iron</a><br />
@@ -72,7 +72,7 @@ skin is invisible
     
     <bot id="3005">
       <name>Smith Elliot</name>
-      <namelang="fr">Elliot le forgeron</name>
+      <name lang="fr">Elliot le forgeron</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Melt copper</a><br />
 		<a href="3">Melt iron</a><br />
@@ -94,7 +94,7 @@ skin is invisible
     
     <bot id="3006">
       <name>Smith Bryan</name>
-      <namelang="fr">Bryan le forgeron</name>
+      <name lang="fr">Bryan le forgeron</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Melt copper</a><br />
 		<a href="3">Melt iron</a><br />
@@ -116,7 +116,7 @@ skin is invisible
     
     <bot id="3007">
       <name>Lumberjack Bruce</name>
-      <namelang="fr">Bruce le bûcheron</name>
+      <name lang="fr">Bruce le bûcheron</name>
       <step type="text" id="1">
 		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
@@ -126,7 +126,7 @@ skin is invisible
     
     <bot id="3008">
       <name>Miner Antony</name>
-      <namelang="fr">Antony le mineur</name>
+      <name lang="fr">Antony le mineur</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Mine</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">Miner</a><br />]]></text>
@@ -136,7 +136,7 @@ skin is invisible
     
     <bot id="3009">
       <name>Farmer Andy</name>
-      <namelang="fr">Andy le fermier</name>
+      <name lang="fr">Andy le fermier</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
@@ -146,7 +146,7 @@ skin is invisible
     
     <bot id="3010">
       <name>Scientific Herman</name>
-      <namelang="fr">Herman le scientific</name>
+      <name lang="fr">Herman le scientific</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Distiller</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">distil</a><br />]]></text>
@@ -156,7 +156,7 @@ skin is invisible
     
     <bot id="3011">
       <name>Scientific Nolan</name>
-      <namelang="fr">Nolan le scientific</name>
+      <name lang="fr">Nolan le scientific</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Raffiner</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">refined</a><br />]]></text>
@@ -166,7 +166,7 @@ skin is invisible
     
     <bot id="3012">
       <name>Smith Norbert</name>
-      <namelang="fr">Norbert le forgeron</name>
+      <name lang="fr">Norbert le forgeron</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Melt copper</a><br />
 		<a href="3">Melt iron</a><br />
@@ -188,7 +188,7 @@ skin is invisible
     
     <bot id="3013">
       <name>Farmer Juliens</name>
-      <namelang="fr">Juliens le fermier</name>
+      <name lang="fr">Juliens le fermier</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
