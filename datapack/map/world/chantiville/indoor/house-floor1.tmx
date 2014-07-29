@@ -42,7 +42,7 @@
     <property name="y" value="12"/>
    </properties>
   </object>
-  <object name="teleport on push" type="door" gid="1027" x="64" y="96">
+  <object name="door" type="door" gid="1027" x="64" y="96">
    <properties>
     <property name="map" value="house-floor2"/>
     <property name="x" value="2"/>
@@ -51,9 +51,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="16" y="160">
+  <object name="bot" type="bot" gid="1027" x="16" y="160">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9011"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="farmer"/>

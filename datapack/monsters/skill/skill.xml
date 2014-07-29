@@ -7,7 +7,7 @@ endurance="40"
 -->
 <skills>
     <!-- the attack when have no attack -->
-    <skill id="0">
+    <skill type="normal" category="Physical" id="0">
         <name>Last luck</name>
         <name lang="fr">Derniére chance</name>
         <description>Small attack when can fight anymore</description>
@@ -18,7 +18,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="10" type="fire">
+    <skill id="10" type="fire" category="Physical">
         <name>burning</name>
         <name lang="fr">Embrasement</name>
         <description>Powerful attack who Aglow the opponent, low possibility of success.</description>
@@ -34,7 +34,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="11" type="fire">
+    <skill id="11" type="fire" category="Physical">
         <name>Fire punch</name>
         <name lang="fr">Point feu</name>
         <description>Powerful punch on fire</description>
@@ -50,7 +50,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="12" type="fire">
+    <skill id="12" type="fire" category="Physical">
         <name>infinite flames</name>
         <name lang="fr">flammes infinies</name>
         <description>Create a torrent of flame that burns slowly but very long time</description>
@@ -66,7 +66,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="13" type="fire">
+    <skill id="13" type="fire" category="Physical">
         <name>Fire throw</name>
         <name lang="fr">Jet de feu</name>
         <description>Fire throw against the ennemy</description>
@@ -83,7 +83,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="20" type="water">
+    <skill id="20" type="water" category="Physical">
         <name>Tsunami</name>
         <name lang="fr">Tsunami</name>
         <description>Create a powerful tsunami sweeping away everything in its path</description>
@@ -95,9 +95,12 @@ endurance="40"
             <level sp="300" endurance="9" number="2">
                 <life success="60%" quantity="-125"/>
             </level>
+            <level sp="300" endurance="10" number="3">
+                <life success="60%" quantity="-140"/>
+            </level>
         </effect>
     </skill>
-    <skill id="21" type="water">
+    <skill id="21" type="water" category="Physical">
         <name>Bubble gun</name>
         <name lang="fr">Canon à bulle</name>
         <description>Create bubbles that explodes on contact with the opponent</description>
@@ -111,7 +114,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="23" type="water">
+    <skill id="23" type="water" category="Physical">
         <name>hydro blast</name>
         <name lang="fr">hydro blast</name>
         <description>Compressed  water at a point which explodes on contact with the opponent</description>
@@ -128,7 +131,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="30" type="plant">
+    <skill id="30" type="plant" category="Physical">
         <name>whittled</name>
         <name lang="fr">Taillade</name>
         <description>Powerful attack who split the opponent, low possibility of success.</description>
@@ -140,23 +143,29 @@ endurance="40"
             <level sp="300" endurance="9" number="2">
                 <life success="60%" quantity="-135"/>
             </level>
+            <level sp="300" endurance="9" number="3">
+                <life success="70%" quantity="-145"/>
+            </level>
         </effect>
     </skill>
-    <skill id="31" type="plant">
+    <skill id="31" type="plant" category="Physical">
         <name>Sheet cutting</name>
         <name lang="fr">Découpe feuille</name>
         <description>Lance sheet has very high speed</description>
         <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level sp="10" endurance="25" number="1">
                 <life success="90%" quantity="-40"/>
             </level>
-            <level sp="300" endurance="25" number="2">
+            <level sp="300" endurance="30" number="2">
                 <life success="90%" quantity="-45"/>
+            </level>
+            <level sp="300" endurance="35" number="2">
+                <life success="90%" quantity="-50"/>
             </level>
         </effect>
     </skill>
-    <skill id="33" type="plant">
+    <skill id="33" type="plant" category="Physical">
         <name>Slice grass</name>
         <name lang="fr">Tranche herbe</name>
         <description>Cutting the enemy through grass</description>
@@ -173,7 +182,7 @@ endurance="40"
             </level>    
         </effect>
     </skill>
-        <skill id="40" type="fight">
+        <skill id="40" type="fight" category="Physical">
         <name>Tri-fatal blow</name>
         <name lang="fr">Tri-coup fatal</name>
         <description>Very technical Combot but very destructive</description>
@@ -190,7 +199,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="41" type="fight">
+    <skill id="41" type="fight" category="Physical">
         <name>Low Sweep</name>
         <name lang="fr">Balayette</name>
         <description>you force your opponent to fall brutally</description>
@@ -207,7 +216,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="43" type="fight">
+    <skill id="43" type="fight" category="Physical">
         <name>Double punch</name>
         <name lang="fr">Double poing</name>
         <description>Coup double, hitting  your opponent brutally</description>
@@ -224,7 +233,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="44" type="fight">
+    <skill id="44" type="fight" category="Physical">
         <name>stretching</name>
         <name lang="fr">Etirement</name>
         <description>increase agility in close combat.</description>
@@ -238,7 +247,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="50" type="bird">
+    <skill id="50" type="bird" category="Physical">
         <name>Storm</name>
         <name lang="fr">Ouragan</name>
         <description>A devastating wind léve sweeping all are passing, sketchy.</description>
@@ -258,7 +267,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="51" type="bird">
+    <skill id="51" type="bird" category="Physical">
         <name>Blowed</name>
         <name lang="fr">Bourrasque</name>
         <description>Sends a blow</description>
@@ -272,7 +281,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="53" type="bird">
+    <skill id="53" type="bird" category="Physical">
         <name>tornado</name>
         <name lang="fr">Tornade</name>
         <description>Sends a tornado</description>
@@ -289,7 +298,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="60" type="psy">
+    <skill id="60" type="psy" category="Physical">
         <name>Destruction spy</name>
         <name lang="fr">Destruction spy</name>
         <description>Sends a mental wave</description>
@@ -306,7 +315,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="61" type="psy">
+    <skill id="61" type="psy" category="Physical">
         <name>Mental wave</name>
         <name lang="fr">Onde mental</name>
         <description>Sends a mental wave</description>
@@ -322,7 +331,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="63" type="psy">
+    <skill id="63" type="psy" category="Physical">
         <name>Telekinesis</name>
         <name lang="fr">Télékinésie</name>
         <description>Different objects projected on the opponent</description>
@@ -339,18 +348,18 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="69" type="psy">
+    <skill id="69" type="psy" category="Physical">
         <name>Heal</name>
         <name lang="fr">Soin</name>
         <description>Heals itself</description>
         <description lang="fr">Se soigne lui même</description>
         <effect>
             <level sp="30" endurance="5" number="1">
-                <life success="90%" applyOn="themself" quantity="-105%"/>
+                <life success="90%" applyOn="themself" quantity="105%"/>
             </level>
         </effect>
     </skill>
-        <skill id="70" type="stone">
+    <skill id="70" type="stone" category="Physical">
         <name>Landslide</name>
         <name lang="fr">Eboulement</name>
         <description>Form a powerful landslide, taking everything in its path.s</description>
@@ -367,7 +376,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="71" type="stone">
+    <skill id="71" type="stone" category="Physical">
         <name>Slingshot</name>
         <name lang="fr">Lance pierre</name>
         <description>Send a stone on the opponent</description>
@@ -381,7 +390,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="73" type="stone">
+    <skill id="73" type="stone" category="Physical">
         <name>Balls stalagmites </name>
         <name lang="fr">Balles stalagmites </name>
         <description>Send stalagmites at very high speed</description>
@@ -398,7 +407,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="80" type="poison">
+    <skill id="80" type="poison" category="Physical">
         <name>Radioactive emanation</name>
         <name lang="fr">Emanations radioactives</name>
         <description>Fission takes place which releases a significant radioactivity very toxic</description>
@@ -418,7 +427,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="81" type="poison">
+    <skill id="81" type="poison" category="Physical">
         <name>Sting venom</name>
         <name lang="fr">Dard venin</name>
         <description>Sticks his poisoned dart in his opponent</description>
@@ -434,7 +443,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="82" type="poison">
+    <skill id="82" type="poison" category="Physical">
         <name>Toxic gas</name>
         <name lang="fr">Gaz toxic</name>
         <description>Drops a poison gas in the area</description>
@@ -448,7 +457,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="83" type="poison">
+    <skill id="83" type="poison" category="Physical">
         <name>Fang venom</name>
         <name lang="fr">Croc venin</name>
         <description>Sticks his poisoned Fang in his opponent</description>
@@ -468,7 +477,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="90" type="electric">
+    <skill id="90" type="electric" category="Physical">
         <name>Surge</name>
         <name lang="fr">Surtension</name>
         <description>Discharge accumulates then be projected in any direction</description>
@@ -488,7 +497,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="91" type="electric">
+    <skill id="91" type="electric" category="Physical">
         <name>Lightning</name>
         <name lang="fr">Foudre</name>
         <description>hits his opponent with lightning</description>
@@ -504,7 +513,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="93" type="electric">
+    <skill id="93" type="electric" category="Physical">
         <name>Thunder</name>
         <name lang="fr">Tonnerre</name>
         <description>hits his opponent with thunder</description>
@@ -521,7 +530,7 @@ endurance="40"
             </level>    
         </effect>
     </skill>
-    <skill id="101" type="metal">
+    <skill id="101" type="metal" category="Physical">
         <name>steel claw</name>
         <name lang="fr">Griffe acier</name>
         <description>Slice through his opponent with its claws</description>
@@ -538,14 +547,14 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="103" type="metal">
+    <skill id="103" type="metal" category="Physical">
         <name>Metal rain</name>
         <name lang="fr">Pluie métallique</name>
         <description>A rain of metal fell on the opponent</description>
         <description lang="fr">Une pluie de métaux s'abat sur l'ennemie</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="60"/>
+                <life success="90%" quantity="-60"/>
             </level>
             <level sp="300" endurance="30" number="2">
                 <life success="90%" quantity="-75"/>
@@ -555,7 +564,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="104" type="metal">
+    <skill id="104" type="metal" category="Physical">
         <name>Iron skin</name>
         <name lang="fr">Peau de fer</name>
         <description>Skin changes which solidifies for resist attack</description>
@@ -569,7 +578,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="201" type="normal">
+    <skill id="201" type="normal" category="Physical">
         <name>Tackle</name>
         <name lang="fr">Charge</name>
         <description>Tackle the enemy</description>
@@ -577,15 +586,13 @@ endurance="40"
         <effect>
             <level sp="10" endurance="40" number="1">
                 <life success="90%" quantity="-35"/>
-                <buff id="3" success="5%" applyOn="allEnemy"/>
             </level>
             <level sp="150" endurance="40" number="2">
                 <life success="90%" quantity="-40"/>
-                <buff id="3" success="10%" applyOn="allEnemy"/>
             </level>
         </effect>
     </skill>
-    <skill id="202" type="normal">
+    <skill id="202" type="normal" category="Physical">
         <name>Armor</name>
         <name lang="fr">Armure</name>
         <description>Up armor</description>
@@ -596,7 +603,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="203" type="normal">
+    <skill id="203" type="normal" category="Physical">
         <name>Intimidation</name>
         <name lang="fr">Intimidation</name>
         <description>Decreases the opponent's attack</description>
@@ -607,7 +614,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="204" type="normal">
+    <skill id="204" type="normal" category="Physical">
         <name>Claw</name>
         <name lang="fr">Griffe</name>
         <description>Use claw for protect himsell</description>
@@ -621,7 +628,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="205" type="normal">
+    <skill id="205" type="normal" category="Physical">
         <name>Power boost</name>
         <name lang="fr">Puissance</name>
         <description>Grow the attack</description>
@@ -632,7 +639,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="206" type="normal">
+    <skill id="206" type="normal" category="Physical">
         <name>destabilization</name>
         <name lang="fr">Déstabilisation</name>
         <description>Decreases the opponent's defense</description>
@@ -643,7 +650,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="207" type="normal">
+    <skill id="207" type="normal" category="Physical">
         <name>Turn</name>
         <name lang="fr">Tourne</name>
         <description>Tourbidi turn</description>

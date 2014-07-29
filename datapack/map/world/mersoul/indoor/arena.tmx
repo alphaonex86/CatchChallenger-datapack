@@ -48,7 +48,7 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="112" y="240">
+  <object name="door" type="door" gid="1027" x="112" y="240">
    <properties>
     <property name="map" value="../2.4"/>
     <property name="x" value="21"/>
@@ -57,65 +57,65 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="144" y="64">
+  <object name="bot" type="bot" gid="1027" x="144" y="64">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7029"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="192" y="176">
+  <object name="bot" type="bot" gid="1027" x="192" y="176">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7030"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="16" y="48">
+  <object name="bot" type="bot" gid="1027" x="16" y="48">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7031"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="208" y="48">
+  <object name="bot" type="bot" gid="1027" x="208" y="48">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7027"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="48" y="128">
+  <object name="bot" type="bot" gid="1027" x="48" y="128">
    <properties>
-    <property name="file" value="../../../bots.xml"/>
+    <property name="file" value="../../../bots"/>
     <property name="id" value="7023"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="16" y="192">
+  <object name="bot" type="bot" gid="1027" x="16" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7028"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="16" y="224">
+  <object name="bot" type="bot" gid="1027" x="16" y="224">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7027"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="192" y="112">
+  <object name="bot" type="bot" gid="1027" x="192" y="112">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7028"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

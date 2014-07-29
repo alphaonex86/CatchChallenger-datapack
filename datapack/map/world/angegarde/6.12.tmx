@@ -80,11 +80,6 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
-   <properties>
-    <property name="map" value=""/>
-   </properties>
-  </object>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="6.13"/>
@@ -93,21 +88,21 @@
   <object name="door" type="door" gid="5123" x="272" y="320">
    <properties>
     <property name="map" value="wood/6.12"/>
-    <property name="x" value="17"/>
+    <property name="x" value="9"/>
     <property name="y" value="6"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="288" y="320">
    <properties>
     <property name="map" value="wood/6.12"/>
-    <property name="x" value="18"/>
+    <property name="x" value="10"/>
     <property name="y" value="6"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="304" y="320">
    <properties>
     <property name="map" value="wood/6.12"/>
-    <property name="x" value="19"/>
+    <property name="x" value="11"/>
     <property name="y" value="6"/>
    </properties>
   </object>

@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A+gJEDlR5oc4YrwBU+ID4yxiWGzRw1RgYGDUbauhsbcAPa6TFI7aVFeh7M/h0oe9HTKrIYNrW41I+GM33sGg1n+tiFnAdGgn+RQRrQzgwi7AXVW+pk1l0TRUjXAwOgcHEfgLAZ6vaSGubk2ssGxOxomJRqHJT+0olMg8hADYuYBmlGkAXcgNgdDXtgUQcAXZcSHw==
+   eJxjYBgFo2AUoIOJIrS3Q42RgUGDEdNOWtvtBrTTg5GwulF7R+0dtXfU3lF7R+0djvamAe3MGAB7RwF9AbHtKY4BsHOwAQBFTQzS
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1d0KgCAMBWC76/2fOLoQZGw76v4K3E2R5nemQa2duu46M9t+vQqbWj0Hl4eOcXMtrmTMZLO4kon69nJn3/dwx7VW3v9rvzvfruf5SvfW/UEu6hXlWXWlDN6FXDQnwu3jUS46Oy6jdS80k85beb5jc+N0bcs/wSNbtKkZUba2p1n9RjrIzjQreu32eD31zXoASHMFoQ==
+   eJxjYBgFo2D4AkYOVDxq7/C2lxT7ceklRv+ovfSxl1pgqNg70uJ3pNtLLzBY7KVH/IzaSz97W1gYGFpZMGla27sEaMdSFkya1vYOdwAA+tYOCw==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -46,7 +46,7 @@
  </layer>
  <layer name="LedgesBottom" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxnIMDIwyCFhBUbCanCpGwWjgNpAZjStjYJhBEbT8ygYTmA0PY+CUTB8AADIowIQ
+   eJzt0sEJACAQA8FcHyL2X6UfOzhEkBnIP49NAO4alcyzVa/fQI+e+YmegQ33awF1
   </data>
  </layer>
  <layer name="LedgesTop" width="30" height="30">
@@ -61,17 +61,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztV7sNQjEMTEHBHDR8JgF2QLTAHI8xEA3siRukCPkc25dIr+Ak66w4cd75XZNpUcpdYgoygvf8S+KdYATvea+OXkB6R2OOejfCW4kd+R1aH0vvXvggcSTv1fpYei/CV4kbea/Wx9KL5lyvoxzt9+hFc67XUY72e/SiOdfrKG/N+e/nefmZ8TbjZ8bbjJ8Zb0f9HMFqiWtRP/dC1M+9EPFzi09K/3PR5xXxc4vRvdq8on7WkNHbw88ZvVafkXqtPlG9D6X2LOP0smi9F0Yh+16I1Nc/Udez/5etf/kDSQPTWg==
+   eJxjZ2JgYCcCcwBxLAMmiAdiNiLNIAeP2kuZvepEYg089qqRYA4M1zEQj00YMe01ZiTNDBhuYWFgaGVB0JQCdPNw0UuAeCkSTSlANw8XTci/pMpTy7+kylPLv9QCtI5fXGDUv6SlQ0L+IFYdqemQkD+IVTfS45dWYKj4d7R8Jg3Qq/5FB6P+Jc2/hNIzIX3k+hcmr8iBXZxS/1KrPiI1/1KrPiJEAwAVAOQz
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKgqDpZd9AgcHkXw6gOCcQc1HoDnzmYPOvBg39PRjjF1f4IIvjYuNSj27fQIHR9ExbMBjjl9S0Sko6H4z+pYd9tASj6RnTfmJpWSxmyDNg98dQTs+UypOqjlYAl385WLCrI2QOsfYNFKBX/qV3OUGpO6glP9j8S4imVD+MBgDyFDqQ
+   eJxjYBgFo4D6IIWFgSGVBUFT2zxc9EABQu4gVX6o+3eo2TNY3DFY/UtqOiRX3UCBkR6/Q90eSt0xWj5TZv6of+kLqFU+k2r+QAFa1UdDJf/Sy78A9aVTRw==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzcEJACAMBMF7pAexkCjpvzGvgjwVZAf2vRIAAAAA/G+GNOL+t/zcbrl88O8c07gBJA==
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -85,10 +85,9 @@
     <property name="map" value="../symposia/0.2"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object type="bot" gid="5123" x="256" y="288">
+  <object type="bot" gid="5123" x="192" y="448">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="1"/>
@@ -96,27 +95,19 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="336" y="112">
+  <object name="bot" type="bot" gid="5123" x="240" y="64">
    <properties>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7001"/>
-    <property name="lookAt" value="bottom"/>
+    <property name="lookAt" value="left"/>
     <property name="skin" value="girlplayer"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="112" y="400">
-   <properties>
-    <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="9022"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="dramed"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="320" y="464">
+  <object name="bot" type="bot" gid="5123" x="352" y="192">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9023"/>
-    <property name="lookAt" value="top"/>
+    <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
    </properties>
   </object>

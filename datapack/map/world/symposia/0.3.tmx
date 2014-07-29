@@ -90,7 +90,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="96" y="320">
    <properties>
-    <property name="fille" value="../../bots-fights.xml"/>
+    <property name="fille" value="../../bots-fights"/>
     <property name="id" value="7071"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girl"/>
@@ -98,7 +98,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="368" y="288">
    <properties>
-    <property name="fille" value="../../bots-fights.xml"/>
+    <property name="fille" value="../../bots-fights"/>
     <property name="id" value="7071"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="girl"/>

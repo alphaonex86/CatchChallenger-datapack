@@ -120,11 +120,21 @@
     <property name="y" value="10"/>
    </properties>
   </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value="4.3"/>
+   </properties>
+  </object>
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="3.2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="160" y="400">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9003"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -132,15 +142,15 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="64" y="288">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="903"/>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9003"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl2"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="304" y="64">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9003"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girl2"/>
@@ -148,7 +158,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="96" y="64">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="204"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl2"/>

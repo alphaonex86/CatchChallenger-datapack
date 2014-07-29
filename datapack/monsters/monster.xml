@@ -345,12 +345,17 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>
     <monster xp_max="400" type="poison" pow="1.4" speed="90" attack="50" hp="200" catch_rate="65" id="22" weight="3.4kg" special_attack="40" defense="80" special_defense="40" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="74">
         <attack_list>
-            <attack id="5" level="0"/>
-            <attack id="7" level="0"/>
-            <attack id="9" level="8"/>
-            <attack id="10" level="10"/>
-            <attack id="9" level="20" attack_level="2"/>
-            <attack id="10" level="22"/>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="81" level="8"/>
+            <attack id="101" level="12"/>
+            <attack id="83" level="14"/>
+            <attack id="81" level="20" attack_level="2"/>
+            <attack id="83" level="36" attack_level="2"/>
+            <attack id="80" level="45"/>
+            <attack id="83" level="50" attack_level="3"/>
+            <attack id="80" level="55" attack_level="2"/>           
+            <attack id="80" level="65" attack_level="3"/>
         </attack_list>
         <evolutions>
             <evolution type="level" level="26" evolveTo="23"/>
@@ -362,12 +367,17 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>
     <monster xp_max="400" type="poison" pow="1.4" speed="150" attack="80" hp="230" catch_rate="45" id="23" weight="12kg" special_attack="160" defense="110" special_defense="160" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="123">
         <attack_list>
-            <attack id="5" level="0"/>
-            <attack id="7" level="0"/>
-            <attack id="9" level="8"/>
-            <attack id="10" level="10"/>
-            <attack id="9" level="20" attack_level="2"/>
-            <attack id="10" level="22"/>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="81" level="8"/>
+            <attack id="101" level="12"/>
+            <attack id="83" level="14"/>
+            <attack id="81" level="20" attack_level="2"/>
+            <attack id="83" level="36" attack_level="2"/>
+            <attack id="80" level="45"/>
+            <attack id="83" level="50" attack_level="3"/>
+            <attack id="80" level="55" attack_level="2"/>           
+            <attack id="80" level="65" attack_level="3"/>
         </attack_list>
         <name>Exapode</name>
         <name lang="fr">Exapode</name>
@@ -398,15 +408,17 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>
     <monster xp_max="400" type="plant" pow="1.4" speed="110" attack="120" hp="225" catch_rate="33" id="25" weight="12kg" special_attack="100" defense="106" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="163">
         <attack_list>
-            <attack id="6" level="0"/>
-            <attack id="5" level="0"/>
-            <attack id="3" level="8"/>
-            <attack id="15" level="13"/>
-            <attack id="22" level="16"/>
-            <attack id="3" level="20" attack_level="2"/>
-            <attack id="22" level="32" attack_level="2"/>
-            <attack id="28" level="45"/>
-            <attack id="28" level="55" attack_level="2"/>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="21" level="8"/>
+            <attack id="23" level="14"/>
+            <attack id="41" level="16"/>
+            <attack id="21" level="20" attack_level="2"/>
+            <attack id="23" level="36" attack_level="2"/>
+            <attack id="20" level="45"/>
+            <attack id="23" level="50" attack_level="3"/>
+            <attack id="20" level="55" attack_level="2"/>
+            <attack id="20" level="65" attack_level="3"/>
         </attack_list>
         <name>Cowpignon</name>
         <name lang="fr">Cowpignon</name>
@@ -415,15 +427,17 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     </monster>
     <monster xp_max="400" type="plant" pow="1.4" speed="80" attack="87" hp="175" catch_rate="62" id="27" weight="12kg" special_attack="195" defense="136" special_defense="132" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="67">
         <attack_list>
-            <attack id="6" level="0"/>
-            <attack id="5" level="0"/>
-            <attack id="3" level="8"/>
-            <attack id="15" level="13"/>
-            <attack id="22" level="16"/>
-            <attack id="3" level="20" attack_level="2"/>
-            <attack id="22" level="32" attack_level="2"/>
-            <attack id="28" level="45"/>
-            <attack id="28" level="55" attack_level="2"/>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="21" level="8"/>
+            <attack id="23" level="14"/>
+            <attack id="41" level="16"/>
+            <attack id="21" level="20" attack_level="2"/>
+            <attack id="23" level="36" attack_level="2"/>
+            <attack id="20" level="45"/>
+            <attack id="23" level="50" attack_level="3"/>
+            <attack id="20" level="55" attack_level="2"/>
+            <attack id="20" level="65" attack_level="3"/>
         </attack_list>
         <name>Tarpeur</name>
         <name lang="fr">Tarpeur</name>
@@ -587,7 +601,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <drop item="2003" luck="30" quantity="1"/>
         </drops>
         <evolutions>
-            <evolution type="item" level="4010" evolveTo="37"/>
+            <evolution type="item" item="4010" evolveTo="37"/>
         </evolutions>
         <name>Snaki</name>
         <name lang="fr">Snaki</name>
@@ -635,13 +649,13 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="201" level="20" attack_level="2"/>
         </attack_list>
         <evolutions>      
-            <evolution type="item" level="42" evolveTo="40"/>
-            <evolution type="item" level="40" evolveTo="41"/>
-            <evolution type="item" level="43" evolveTo="42"/>
+            <evolution type="item" item="42" evolveTo="40"/>
+            <evolution type="item" item="40" evolveTo="41"/>
+            <evolution type="item" item="43" evolveTo="42"/>
+            <evolution type="item" item="44'" evolveTo="44"/>
+            <evolution type="item" item="41'" evolveTo="45"/>
+            <evolution type="item" item="46'" evolveTo="46"/>
             <evolution type="level" level="43" evolveTo="43"/>
-            <evolution type="item" level="44'" evolveTo="44"/>
-            <evolution type="item" level="41'" evolveTo="45"/>
-            <evolution type="item" level="46'" evolveTo="46"/>
         </evolutions>
         <drops>
         </drops>
@@ -704,7 +718,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="93" level="50" attack_level="3"/>
             <attack id="90" level="55" attack_level="2"/>
             <attack id="90" level="65" attack_level="3"/>
-            <attack id="17" attack_level="2" byitem="18"/>
+            <attack id="13" attack_level="2" byitem="18"/>
         </attack_list>
         <drops>
         </drops>
@@ -784,10 +798,10 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="104" level="25"/>
             <attack id="103" level="36" attack_level="2"/>
             <attack id="104" level="40" attack_level="2"/>
-            <attack id="100" level="45"/>
+            
             <attack id="103" level="50" attack_level="3"/>
-            <attack id="100" level="55" attack_level="2"/>
-            <attack id="100" level="65" attack_level="3"/>
+            
+            
         </attack_list>
         <drops>
         </drops>

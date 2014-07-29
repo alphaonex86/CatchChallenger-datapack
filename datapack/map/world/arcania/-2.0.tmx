@@ -44,20 +44,6 @@
     <property name="type" value=""/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="160" y="272">
-   <properties>
-    <property name="map" value=""/>
-    <property name="x" value=""/>
-    <property name="y" value=""/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5461" x="160" y="288">
-   <properties>
-    <property name="map" value=""/>
-    <property name="x" value=""/>
-    <property name="y" value=""/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30"/>
 </map>

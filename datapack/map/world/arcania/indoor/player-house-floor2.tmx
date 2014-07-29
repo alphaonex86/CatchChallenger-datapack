@@ -37,7 +37,7 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="160" y="144">
+  <object name="door" type="door" gid="1027" x="160" y="144">
    <properties>
     <property name="map" value="player-house-floor1"/>
     <property name="x" value="10"/>

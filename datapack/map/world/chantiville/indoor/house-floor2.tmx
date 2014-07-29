@@ -35,7 +35,7 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="door" gid="1027" x="16" y="64">
+  <object name="door" type="door" gid="1027" x="16" y="64">
    <properties>
     <property name="map" value="house-floor1"/>
     <property name="x" value="3"/>
@@ -44,9 +44,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="96" y="144">
+  <object name="bot" type="bot" gid="1027" x="96" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9012"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>

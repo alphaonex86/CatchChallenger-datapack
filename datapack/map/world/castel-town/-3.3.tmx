@@ -86,14 +86,14 @@
    </properties>
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
-  <object name="door" type="teleport on push" gid="5123" x="128" y="320">
+  <object name="door" type="door" gid="5123" x="128" y="320">
    <properties>
     <property name="map" value="wood/-3.3a"/>
     <property name="x" value="24"/>
     <property name="y" value="15"/>
    </properties>
   </object>
-  <object name="door" type="teleport on push" gid="5123" x="128" y="304">
+  <object name="door" type="door" gid="5123" x="128" y="304">
    <properties>
     <property name="map" value="wood/-3.3a"/>
     <property name="x" value="24"/>
@@ -104,7 +104,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="288" y="336">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7002"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -112,7 +112,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="224" y="240">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7003"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girl"/>

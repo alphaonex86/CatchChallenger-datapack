@@ -13,7 +13,7 @@
  </layer>
  <layer name="Other" width="33" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4D6oJkbgnGB63jkSAVN3AwOJ4DmnUAzE5sbBIUQOBwoFwHEkUAcBcTRFLgpiUL/3KRCeFDqhp+DwA3UALjcQOc0yTDQaZJSQI00SSmgRpocBaNgsAN7IHYYaEdQAQAAzu4VmA==
+   eJxjYBgFo4D6oJkbgnGB63jkSAVN3AwOJ4DmnUAzE5sbBIUQOBwoFwHEkUAcBcTRFLgpiUL/3KRCeFDqhp+DwA3UALjcQOc0yTDQaZJSQI00SSmgRpocBaOAUhDLQVvz7YHYgbZW0AUAAEO9Ff0=
   </data>
  </layer>
  <layer name="Collisions" width="33" height="20">
@@ -37,14 +37,14 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="256" y="320">
+  <object name="door" type="door" gid="1027" x="256" y="320">
    <properties>
     <property name="map" value="../1.6"/>
     <property name="x" value="4"/>
     <property name="y" value="19"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="272" y="320">
+  <object name="door" type="door" gid="1027" x="272" y="320">
    <properties>
     <property name="map" value="../1.6"/>
     <property name="x" value="5"/>

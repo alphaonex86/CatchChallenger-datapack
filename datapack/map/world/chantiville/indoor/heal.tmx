@@ -44,7 +44,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="80" y="96">
+  <object name="bot" type="bot" gid="1027" x="80" y="96">
    <properties>
     <property name="file" value="../../../bots-services"/>
     <property name="id" value="1"/>

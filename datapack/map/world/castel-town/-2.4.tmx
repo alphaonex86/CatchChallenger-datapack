@@ -16,12 +16,12 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzTENAAAIA7AhgQT/WlGAAdKjdytJATzV4wUAuCx6kAPx
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+YGRkYGBmpIHBBIAi0E7lAbB3FAx9wAbE7FDMQUd71ZDYGnS01w2I3aHYg472DgTYNdAOwAGQ0xw1090vAvJqaHx6pTvkNDcS0t0oGAWjYBSMglEwVAAAfEQFWw==
+   eJxjYKA+YGRkYGBmpIHBBIAi0E7lAbB3FAx9wAbE7FDMQUd71ZDYGnS01w2I3aHYg4720hPIMDEwyAHxLjrbawO0046JsDrkNEeNdBcDtDMOiH8RUKeGxqdXukNOc8M53Y2CUTAKRsEoGAVDDQAAI5MG1Q==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -61,12 +61,12 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDAWwE4h3oWF62GHNOLB2/ELCpJgvw8TAIMeE3w4pRlTzYfg3BX6wAdppx4TfDkLmwwAx4QQzPwZoZxwT6XYQC9D9QW3zGaDmGgKxEY3tGQWjYBSMglEwCkYBAgAAM7cxMg==
+   eJxjYBgFo2AUDAWwE4h3oWF62GHNOLB2/ELCpJgPA/jskGJENR+GfxNpBzF+wGYHIfPR3U6MH2CAVDuIBej+oLb5DFBzDYHYiMb2jIJRMApGwSgYBaMAAQCMaC+4
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9ltEJwzAMRPPRBdoNMkI7Y7pJu2f1YyjG9ulOlxwIQSJsPSkROm7b9g47TH4Pa9oXcZ+wr9H3msX1eTTNnqtCvLM8q2J5Ud6qR7wob9W7+sie4+ojew7qw1li/0eXruLr77uKr+n/nnvYQzwnW69R3DPsJd6brZdrPquc1fmscrrnFeLL8qpS5zPqZ5UT7Rszjiony8vyozqoc5mNy/Ki/WPFO3qX5UX7x4p39I7lPWsfYb9DVVVelbvKq3K7eNk6uHjZOvRxP5qXF6o=
+   eJy1ltENwzAIRPPRBdINMkIyY7pJu2f5sRQh8MGBT0JIMXJ4GCHu17Z9xO4mf4gNHZO4r9iv0Wt5cTqPIe87K8Tr5VlVlhflzXrEi/Jmfdc7Ru/Zxd5G/qyi95xil5Fndx9rebzdfazl8a4W6udVev5n1JxRtF5W3Kg5o2i9uuYzy1mdzyxn97xCfFFeVux8Ru9Z5UT7hsdR5czyZvlRHdi5nI2L8qL9Y8ZrnUV50f4x47XOsryr9pFsH7Kq8rLcVV6Wu4s3W4cu3mwddNwfEGwYtg==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -90,12 +90,11 @@
     <property name="map" value="-2.5"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="192" y="240"/>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="224" y="320">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7006"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girlplayer"/>
@@ -103,7 +102,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="368" y="32">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7008"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="terranite"/>
@@ -111,7 +110,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="160" y="160">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7007"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

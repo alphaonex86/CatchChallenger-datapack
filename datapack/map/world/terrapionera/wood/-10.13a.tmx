@@ -96,14 +96,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
-   <properties>
-    <property name="map" value="-9.13c"/>
-   </properties>
-  </object>
   <object name="bot" type="bot" gid="5123" x="368" y="416">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7061"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -111,7 +106,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="448" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7062"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
