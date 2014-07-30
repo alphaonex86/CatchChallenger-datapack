@@ -8,5 +8,4 @@
           <monster id="24" minLevel="15" maxLevel="16" luck="5" />
           <monster id="41" minLevel="15" maxLevel="16" luck="5" />
   </grass>
-	<wather></wather>
 </map>

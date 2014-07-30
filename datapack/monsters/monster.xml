@@ -788,7 +788,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivitrans  life in the cinder and leave only for eat</description>
         <description lang="fr">Vivitrans vie dans les cendres et n'en sort que pour chercher à mangé</description>
     </monster>  
-  <monster xp_max="400" type="metal" pow="1.4" speed="113" attack="90" hp="173" catch_rate="7" id="46" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+  <monster xp_max="400" type="steal" pow="1.4" speed="113" attack="90" hp="173" catch_rate="7" id="46" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
