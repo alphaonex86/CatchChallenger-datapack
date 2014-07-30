@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 <map zone="megalopolis" type="indoor">
     <name>Big factory of trap</name>
     <name lang="fr">Grande fabrique de trappe</name>
 </map>
-=======
-<map zone="megalopolis" type="indoor">
-    <name>Big factory of trap</name>
-    <name lang="fr">Grande fabrique de trappe</name>
-</map>
->>>>>>> 1a78a7427b62b7f1df47457a8fcd4a88233ef47a

@@ -257,7 +257,6 @@ skin is invisible
         </step>
     </bot>
     <bot id="9030">
-    
       <name>Simon</name>
       <name langue="fr">Simon</name> 
         <step type="text" id="1">

@@ -87,9 +87,9 @@ color is optional
         <multiplicator number="0.5" to="metal"/>
         <multiplicator number="0" to="normal"/>
     </type>
-        <type name="metal" color="#747579">
+    <type name="steal" color="#747579">
         <name>Steal</name>
-        <name lang="fr">Métal</name>
+        <name lang="fr">Metal</name>
         <multiplicator number="2" to="ice;stone"/>
         <multiplicator number="0.5" to="water;fire;metal"/>
     </type>

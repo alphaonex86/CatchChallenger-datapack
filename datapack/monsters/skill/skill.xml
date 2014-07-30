@@ -530,7 +530,7 @@ endurance="40"
             </level>    
         </effect>
     </skill>
-    <skill id="101" type="metal" category="Physical">
+    <skill id="101" type="steal" category="Physical">
         <name>steel claw</name>
         <name lang="fr">Griffe acier</name>
         <description>Slice through his opponent with its claws</description>
@@ -547,10 +547,10 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="103" type="metal" category="Physical">
-        <name>Metal rain</name>
+    <skill id="103" type="steal" category="Physical">
+        <name>steal rain</name>
         <name lang="fr">Pluie métallique</name>
-        <description>A rain of metal fell on the opponent</description>
+        <description>A rain of steal fell on the opponent</description>
         <description lang="fr">Une pluie de métaux s'abat sur l'ennemie</description>
         <effect>
             <level sp="10" endurance="25" number="1">
@@ -564,7 +564,7 @@ endurance="40"
             </level>
         </effect>
     </skill>
-    <skill id="104" type="metal" category="Physical">
+    <skill id="104" type="steal" category="Physical">
         <name>Iron skin</name>
         <name lang="fr">Peau de fer</name>
         <description>Skin changes which solidifies for resist attack</description>

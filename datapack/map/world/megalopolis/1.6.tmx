@@ -143,7 +143,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="144" y="320">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="soldier"/>
@@ -151,7 +151,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="176" y="320">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="soldier"/>
