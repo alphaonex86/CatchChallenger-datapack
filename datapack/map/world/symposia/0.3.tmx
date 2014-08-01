@@ -85,12 +85,11 @@
     <property name="map" value="0.4"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="320" y="256"/>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="96" y="320">
    <properties>
-    <property name="fille" value="../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7071"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girl"/>
@@ -98,7 +97,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="368" y="288">
    <properties>
-    <property name="fille" value="../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7071"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="girl"/>

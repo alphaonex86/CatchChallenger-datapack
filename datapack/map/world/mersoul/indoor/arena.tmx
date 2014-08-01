@@ -91,7 +91,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="48" y="128">
    <properties>
-    <property name="file" value="../../../bots"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7023"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>

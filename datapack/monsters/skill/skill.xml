@@ -14,7 +14,7 @@ endurance="40"
         <description lang="fr">Petit attaque quand ne peu plus attaquer</description>
         <effect>
             <level sp="10" endurance="40" number="1">
-                <life success="90%" quantity="-5%"/>
+                <life success="90%" quantity="-5%"  applyOn="aloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -25,11 +25,11 @@ endurance="40"
         <description lang="fr">Puissante attaque qui Embrasé l'adversaire, faible possibilité de succès.</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" quantity="-105"/>
+                <life success="50%" quantity="-105" applyOn="aloneEnemy"/>
                 <buff id="1" success="25%" level="1"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" quantity="-115"/>
+                <life success="60%" quantity="-115" applyOn="aloneEnemy"/>
                 <buff id="1" success="25%" level="2"/>
             </level>
         </effect>
@@ -585,10 +585,10 @@ endurance="40"
         <description lang="fr">Charge l'ennemie</description>
         <effect>
             <level sp="10" endurance="40" number="1">
-                <life success="90%" quantity="-35"/>
+                <life success="90%" quantity="-35" applyOn="aloneEnemy"/>
             </level>
             <level sp="150" endurance="40" number="2">
-                <life success="90%" quantity="-40"/>
+                <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -620,10 +620,10 @@ endurance="40"
         <description>Use claw for protect himsell</description>
         <description lang="fr">Utilise ses griffe afin de ce protége</description>
         <effect>
-            <level sp="10" endurance="35" number="1">
+            <level sp="10" endurance="35" number="1" applyOn="aloneEnemy">
                 <life success="90%" quantity="-45"/>
             </level>
-            <level sp="300" endurance="40" number="2">
+            <level sp="300" endurance="40" number="2" applyOn="aloneEnemy">
                 <life success="90%" quantity="-55"/>
             </level>
         </effect>

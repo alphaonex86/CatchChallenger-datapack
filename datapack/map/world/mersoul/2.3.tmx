@@ -90,8 +90,7 @@
     <property name="map" value="2.4"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="320" y="80"/>
-  <object name="border" type="border-top" gid="5124" x="240" y="480">
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="2.2"/>
    </properties>
@@ -100,7 +99,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="240" y="288">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9003"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -132,7 +131,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="400" y="64">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>

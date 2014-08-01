@@ -91,9 +91,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object type="bot" gid="5123" x="416" y="368">
+  <object name="bot" type="bot" gid="5123" x="416" y="368">
    <properties>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="miner"/>
@@ -101,7 +101,7 @@
   </object>
   <object type="bot" gid="5123" x="304" y="288">
    <properties>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7019"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="miner"/>

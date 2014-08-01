@@ -99,6 +99,11 @@
     <property name="y" value="24"/>
    </properties>
   </object>
+  <object name="border" type="border-left" gid="5124" x="0" y="272">
+   <properties>
+    <property name="map" value="2.14"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30"/>
 </map>

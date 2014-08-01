@@ -117,17 +117,17 @@
   </object>
  </objectgroup>
  <objectgroup name="object" width="30" height="30">
-  <object type="bot" gid="5123" x="240" y="160">
+  <object name="bot" type="bot" gid="5123" x="240" y="160">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2012"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
    </properties>
   </object>
-  <object type="bot" gid="5123" x="256" y="432">
+  <object name="bot" type="bot" gid="5123" x="256" y="432">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9002"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="john"/>

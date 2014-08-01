@@ -126,7 +126,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="352" y="96">
    <properties>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7004"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="girlplayer"/>

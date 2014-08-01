@@ -652,9 +652,9 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <evolution type="item" item="42" evolveTo="40"/>
             <evolution type="item" item="40" evolveTo="41"/>
             <evolution type="item" item="43" evolveTo="42"/>
-            <evolution type="item" item="44'" evolveTo="44"/>
-            <evolution type="item" item="41'" evolveTo="45"/>
-            <evolution type="item" item="46'" evolveTo="46"/>
+            <evolution type="item" item="44" evolveTo="44"/>
+            <evolution type="item" item="41" evolveTo="45"/>
+            <evolution type="item" item="46" evolveTo="46"/>
             <evolution type="level" level="43" evolveTo="43"/>
         </evolutions>
         <drops>

@@ -127,7 +127,7 @@
   </object>
   <object name="door" type="door" gid="5173" x="48" y="192">
    <properties>
-    <property name="condition-file" value="../condition"/>
+    <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="1"/>
     <property name="map" value="indoor/secret-base"/>
     <property name="x" value="5"/>

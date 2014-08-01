@@ -92,7 +92,7 @@
   </object>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
-    <property name="map" value=""/>
+    <property name="map" value="2.14"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="32" y="288">
@@ -113,15 +113,15 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="192" y="208">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7076"/>
     <property name="lookAt" value="right"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="girl"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="320" y="96">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7077"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="scientific"/>

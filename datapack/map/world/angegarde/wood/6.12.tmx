@@ -119,7 +119,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="128" y="320">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7130"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="bandit"/>
@@ -127,7 +127,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="272" y="352">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7131"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="bandit"/>
@@ -135,7 +135,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="256" y="448">
    <properties>
-    <property name="file" value="../../../bots-fights.xml"/>
+    <property name="file" value="../../../bots-fights"/>
     <property name="id" value="7132"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="bandit"/>
