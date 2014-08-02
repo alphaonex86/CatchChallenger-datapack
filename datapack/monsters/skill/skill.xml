@@ -58,11 +58,11 @@ endurance="40"
         <effect>
             <level sp="10" endurance="15" number="1">
                 <life success="60%" applyOn="aloneEnemy" quantity="-20"/>
-                <buff id="1" success="100%" level="1"/>
+                <buff id="1" success="100%"/>
             </level>
             <level sp="300" endurance="20" number="2">
                 <life success="60%" applyOn="aloneEnemy" quantity="-20"/>
-                <buff id="1" success="100%" level="2"/>
+                <buff id="1" success="100%"/>
             </level>
         </effect>
     </skill>
@@ -420,7 +420,7 @@ endurance="40"
                 <buff id="5" success="7%"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="75% applyOn="aloneEnemy"" quantity="-120"/>
+                <life success="75%" applyOn="aloneEnemy" quantity="-120"/>
                 <buff id="5" success="10%"/>
             </level>
         </effect>
