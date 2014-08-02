@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUoIOJIrS3Q42RgUGDEdNOWtvtBrTTg5GwulF7R+0dtXfU3lF7R+0djvamAe3MGAB7RwF9AbHtKY4BsHOwAQBFTQzS
+   eJxjYCAdqHCQoWkUkAQGQxgPBjcMFJgoQn0z0cNTjZGBQYMR005a2I0M3IB2ejASVjdc7aVXuqa3f2H+GgzhTM+yYzD4dyDtHa7pGZu9tPYrsvmDwb/D2d6BLq/SgHZmDIC9yICe5eRIbc8R256iZvDQug1HKwAASIQPDg==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4AkYOVDxq7/C2lxT7ceklRv+ovfSxl1pgqNg70uJ3pNtLLzBY7KVH/IzaSz97W1gYGFpZMGla27sEaMdSFkya1vYOdwAA+tYOCw==
+   eJxjYBgFo2D4AkYOVDxq7/C2lxT7ceklRv+ovfSxl1pgqNg70uJ3pNtLLzBY7KVH/IzaSz97W1gYGFpZMGlS7YWJEQuWAO1YyoJJk2ovvfPDYAcA7RYOAg==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">

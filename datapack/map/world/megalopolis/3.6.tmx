@@ -90,7 +90,6 @@
     <property name="map" value="2.6"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="112" y="240"/>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="336" y="256">

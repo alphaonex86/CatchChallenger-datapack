@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBi8IIOFgSETiLNYaGMmPdmj/h08/qWF+eQAFQ7K3ILPPYPRv8gAl98JhQmp/m0E4mYS3EQt/y4E4sVoZpMDiPEvNdIRJQAUxk0MuMOZGPfB1JASv6AwXsSAGs60AOjux2cvqXFBrH9B5hLrX1h84MOkAGR78eVbkDoXID6EB9MiftHzGja3kSJOjH+JsRcESMm/1PAvOWUBzN4UBvxpJpWBcJiQEr8HGfCnFWR8mHRvYQXY3E6MGC4/07r+xWXXQIHB3J4c9S+mm0kFAISRmmk=
+   eJxjYBi8IIOFgSETiLNYaGMmPdmj/qWPf2kNKPEvOlDhoK7baAGo6V9kgMvv1A6TRiBuJlItyG5q+XchEC9GM5tWYKDTESiMmxhwhzMx7iPHD6AwXsSAGs70APjsJdUf6oyYWIMRu7nE+hcWH/hwOiMmzsBiLwgg24sv34LUuQDxITyYFECsf9HzGja3kWsvPr2E7CUWwOyghn8pyUcpDPjTTCoD4TAhBRxkwJ9WkPFh6liJ1e3EiA10GQsCQ7G9RAygVntyqIDB7F8ApwBj+A==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlksOgjAURTtwwLBJN4GuRF2Jug6d+VuEQ39bcF7QhRR0Cd6OILW01YeNMdzkJCVNeDn0gqY9xvpgANKI6yEYgXHkdUzHzvc3fSdgCmYfrCm+rswT9z7F1xfJGctq5Lzao/q67m3b2yXt+LrmKqyLGiWvnj/V13bvkHzzfENT7zmlzzLgrN/tm+l7Md4Xfa0sz9w319e30PfXjNmDpk5Qzld3duH5bjSF4rsUjK3AGmzAVoTPpfjuMecAjuAEzsZcsxNt+UrMyUAOruBm8ZXEPtuiMKcAJbiDh3h1VA29arvPoYn1vdK9p/7+uvriSvf/qvP9V98nDinkOg==
+   eJztlj1uAjEUhF8QUrZcaXMEJJbU1NSQO0RpIXegSzoIuUEaSv6uQL/8HGQhHIHZSAjLrJ/f4qxFwUifZGTk0dhja+MqUQM8g9jjuA064MXz2GfGe17/ebugB95LGpvytojn6YFYfQT8vCnvY8VMAF75Zf+UhEQrhXV4njPllfpya+fNjYP/ycv5phjvFPbhef9d8+atLVGZ5yuV2nMX30Rw1qazqVfMxIrvUrsv2e80Z89tvqe+2e5v03J/dek9KNqJN4FH1tlPy7tRVD+C/wwioiH4AiPwHcnXd3knJ/CZghmYg4Xmq3dClVOf4bMCa7AB25y8iaHPLr4pfHZgD37BIbrMmBp65fPdUOXLN+v9Ne+zKq4vnKTvcw30yd55vf+S7yvOtyin/ZF8X5Xhe897O3mPPpq8Xw==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYwMHCwMAJxFws9GUPFBj1L3XdRkv/VvBhYnLdg+42fGbP4MPE1PIvPrN38GFiavmXGLNLRck3nxDAZjYMTMUjR6l7kM0u5UNgbGLYMDXAVD4ExiaGDZPq34UcqHaC+Fv5EBgGkMWwYVoD5HSAzF4KdT+tyivkdEBKeiMG5AgzMOQCcR4Q5wNxgTDxemlZPoPSALb0TI/6iNL0TCxAT/egNAxKV8jpmV71L7Z0Rc+2AaXmo4clNd0wkttXo/4duv4dKAAAcQ1JEg==
+   eJxjYBgYwMHCwMAJxFws9GUPFBhp/qU1oKV/K/gwMSHwnBE3fsFInNkz+DAxtfyLz+wdfJiYWoAYs0tFMcWoFb/YzIaBqXjkKAXIZpfyITA2MWyYKm7gQ2BsYtgwqWAhByZ/Kx8CwwCyGDZMa4CcDpDZSzkw1SIDeQrtRU4H1E5vOcIMDLlAnAfE+UBcIExd88kFoDSALT2D8i+x5SS5gNL0TCxAT/egNAxKV8jpmV71Ly3LMWIApfUvelgOFkCN9hW+9E6L9E8JGGntyZHmX2IAAFMTWvY=
   </data>
  </layer>
  <layer name="Other" width="30" height="30">

@@ -831,7 +831,27 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Enduros is an aggressive animal, which does not consider the value of people in the affrontents with all that power, however it can reveal this very sociable</description>
         <description lang="fr">Enduros est un animal agressif, qui ne juge de la valeur des gens que en les affrontents avec toute ça force, malgrès les apparences il peut ce revelé très sociable</description>
     </monster>
-    
+        <monster xp_max="400" type="ice" pow="1.4" speed="155" attack="130" hp="180" catch_rate="15" id="52" weight="8kg" special_attack="130" defense="107" special_defense="80" ratio_gender="50%" give_sp="100" height="0.30m" egg_step="5000" give_xp="157">
+        <attack_list>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="111" level="8"/>
+            <attack id="113" level="14"/>
+            <attack id="101" level="16"/>
+            <attack id="111" level="20" attack_level="2"/>
+            <attack id="114" level="25"/>
+            <attack id="113" level="36" attack_level="2"/>
+            <attack id="114" level="40" attack_level="2"/>
+            <attack id="110" level="45"/>
+            <attack id="113" level="50" attack_level="3"/>
+            <attack id="110" level="55" attack_level="2"/>
+            <attack id="110" level="65" attack_level="3"/>
+        </attack_list>
+        <name>Toufigel</name>
+        <name lang="fr">Toufigel</name>
+        <description>Toufigel is a peaceful animal living in the high mountains </description>
+        <description lang="fr">Toufigel est un animal paisible vivent en groupe dans les hautes montagnes</description>
+    </monster>
     
     
     
