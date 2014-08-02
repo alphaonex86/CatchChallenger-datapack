@@ -116,14 +116,6 @@
     <property name="skin" value="scientific"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="176" y="416">
-   <properties>
-    <property name="file" value="../bots-fights.xml"/>
-    <property name="id" value="7114"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="player"/>
-   </properties>
-  </object>
   <object name="bot" type="bot" gid="5123" x="112" y="224">
    <properties>
     <property name="file" value="../../bots-fights"/>

@@ -75,22 +75,21 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="bot spawn" type="bot spawn" gid="5122" x="272" y="192"/>
-  <object name="door" type="teleport on push" gid="5123" x="176" y="96">
+  <object name="door" type="door" gid="5123" x="176" y="96">
    <properties>
-    <property name="map" value=".../6.12"/>
+    <property name="map" value="../6.12"/>
     <property name="x" value="19"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="door" type="teleport on push" gid="5123" x="160" y="96">
+  <object name="door" type="door" gid="5123" x="160" y="96">
    <properties>
     <property name="map" value="../6.12"/>
     <property name="x" value="18"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="door" type="teleport on push" gid="5123" x="144" y="96">
+  <object name="door" type="door" gid="5123" x="144" y="96">
    <properties>
     <property name="map" value="../6.12"/>
     <property name="x" value="17"/>

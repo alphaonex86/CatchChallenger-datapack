@@ -113,13 +113,6 @@
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="48" y="176">
-   <properties>
-    <property name="map" value="indoor/shop"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="4.3"/>
@@ -138,7 +131,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
+ <objectgroup name="Object" width="30" height="30" visible="0">
   <object name="bot" type="bot" gid="5123" x="160" y="400">
    <properties>
     <property name="file" value="../../bots-informations"/>

@@ -1,6 +1,6 @@
 <!-- Default:
 success="100%"
-applyOn="aloneEnemy"
+applyOn="ApplyOn_AloneEnemy"
 applyOn can be: aloneEnemy, themself, allEnemy, allAlly
 sp="0", can't be learn naturaly
 endurance="40"
@@ -14,7 +14,7 @@ endurance="40"
         <description lang="fr">Petit attaque quand ne peu plus attaquer</description>
         <effect>
             <level sp="10" endurance="40" number="1">
-                <life success="90%" quantity="-5%"  applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-5%"  applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -25,11 +25,11 @@ endurance="40"
         <description lang="fr">Puissante attaque qui Embrasé l'adversaire, faible possibilité de succès.</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" quantity="-105" applyOn="aloneEnemy"/>
+                <life success="50%" quantity="-105" applyOn="ApplyOn_AloneEnemy"/>
                 <buff id="1" success="25%"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" quantity="-115" applyOn="aloneEnemy"/>
+                <life success="60%" quantity="-115" applyOn="ApplyOn_AloneEnemy"/>
                 <buff id="1" success="25%"/>
             </level>
         </effect>
@@ -41,11 +41,11 @@ endurance="40"
         <description lang="fr">Puissant coup de poing en feu</description>
         <effect>
             <level sp="10" endurance="35" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-40"/>
                 <buff id="1" success="10%"/>
             </level>
             <level sp="300" endurance="35" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-45"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-45"/>
                 <buff id="1" success="15%"/>
             </level>
         </effect>
@@ -57,11 +57,11 @@ endurance="40"
         <description lang="fr">créer un torrent de flamme qui brûle lentement mais très longtemps</description>
         <effect>
             <level sp="10" endurance="15" number="1">
-                <life success="60%" applyOn="aloneEnemy" quantity="-20"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-20"/>
                 <buff id="1" success="100%"/>
             </level>
             <level sp="300" endurance="20" number="2">
-                <life success="60%" applyOn="aloneEnemy" quantity="-20"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-20"/>
                 <buff id="1" success="100%"/>
             </level>
         </effect>
@@ -73,13 +73,13 @@ endurance="40"
         <description lang="fr">Jet de feu qui arose l'énemi</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -90,13 +90,13 @@ endurance="40"
         <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="60%" applyOn="aloneEnemy" quantity="-115"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" applyOn="aloneEnemy" quantity="-125"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-125"/>
             </level>
             <level sp="300" endurance="10" number="3">
-                <life success="60%" applyOn="aloneEnemy" quantity="-140"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-140"/>
             </level>
         </effect>
     </skill>
@@ -107,10 +107,10 @@ endurance="40"
         <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
         <effect>
             <level sp="10" endurance="35" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="35" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-45"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-45"/>
             </level>
         </effect>
     </skill>
@@ -121,13 +121,13 @@ endurance="40"
         <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -138,13 +138,13 @@ endurance="40"
         <description lang="fr">Attaque puissante qui taille l'ennemi de part en part, faible possibilité de succès.</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" applyOn="aloneEnemy" quantity="-125"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-125"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" applyOn="aloneEnemy" quantity="-135"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-135"/>
             </level>
             <level sp="300" endurance="9" number="3">
-                <life success="70%" applyOn="aloneEnemy" quantity="-145"/>
+                <life success="70%" applyOn="ApplyOn_AloneEnemy" quantity="-145"/>
             </level>
         </effect>
     </skill>
@@ -155,13 +155,13 @@ endurance="40"
         <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="30" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-45"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-45"/>
             </level>
             <level sp="300" endurance="35" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-50"/>
             </level>
         </effect>
     </skill>
@@ -172,13 +172,13 @@ endurance="40"
         <description lang="fr">Couper l'ennemi à travers l'herbe</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>    
         </effect>
     </skill>
@@ -189,13 +189,13 @@ endurance="40"
         <description lang="fr">combot très technique mais très destructeur</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" applyOn="aloneEnemy" quantity="-115"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="50%" applyOn="aloneEnemy" quantity="-140"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-140"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="50%" applyOn="aloneEnemy" quantity="-170"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-170"/>
             </level>
         </effect>
     </skill>
@@ -206,13 +206,13 @@ endurance="40"
         <description lang="fr">Mise au sol brutal de l'adversaire</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-45"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-45"/>
             </level>
             <level sp="1000" endurance="25" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-50"/>
             </level>
         </effect>
     </skill>
@@ -223,13 +223,13 @@ endurance="40"
         <description lang="fr">Coup double, frappant votre adversaire brutalement</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -288,13 +288,13 @@ endurance="40"
         <description lang="fr">Envoie une Tornade</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -336,13 +336,13 @@ endurance="40"
         <description lang="fr">Projette différents objets sur l'adversaire</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-75"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-75"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-90"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-90"/>
             </level>
         </effect>
     </skill>
@@ -364,13 +364,13 @@ endurance="40"
         <description lang="fr">Un puissant éboulement se forme, emportant tout sur son passage.</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" applyOn="aloneEnemy" quantity="-115"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" applyOn="aloneEnemy" quantity="-130"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-130"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="70%" applyOn="aloneEnemy" quantity="-150"/>
+                <life success="70%" applyOn="ApplyOn_AloneEnemy" quantity="-150"/>
             </level>
         </effect>
     </skill>
@@ -381,10 +381,10 @@ endurance="40"
         <description lang="fr">Envoye une pierre sur l'adversaire</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-45"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-45"/>
             </level>
         </effect>
     </skill>
@@ -395,13 +395,13 @@ endurance="40"
         <description lang="fr">Envoye des stalagmites à très grande vitesse</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-50"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-65"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-65"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-80"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-80"/>
             </level>
         </effect>
     </skill>
@@ -412,15 +412,15 @@ endurance="40"
         <description lang="fr">Une fission à lieu ce qui dégage une importantes radioactivité, très toxic</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="65%" applyOn="aloneEnemy" quantity="-100"/>
+                <life success="65%" applyOn="ApplyOn_AloneEnemy" quantity="-100"/>
                 <buff id="5" success="5%"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="70%" applyOn="aloneEnemy" quantity="-110"/>
+                <life success="70%" applyOn="ApplyOn_AloneEnemy" quantity="-110"/>
                 <buff id="5" success="7%"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="75%" applyOn="aloneEnemy" quantity="-120"/>
+                <life success="75%" applyOn="ApplyOn_AloneEnemy" quantity="-120"/>
                 <buff id="5" success="10%"/>
             </level>
         </effect>
@@ -432,11 +432,11 @@ endurance="40"
         <description lang="fr">Enfonce son dard empoisonné dans son adversaire</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-30"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-30"/>
                 <buff id="5" success="5%"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-35"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-35"/>
                 <buff id="5" success="7%"/>
             </level>
         </effect>
@@ -462,15 +462,15 @@ endurance="40"
         <description lang="fr">Enfonce ses crocs empoisonné dans son adversaire</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-50"/>
                 <buff id="5" success="15%"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" applyOn="aloneEnemy" quantity="-65"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-65"/>
                 <buff id="5" success="15%"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" applyOn="aloneEnemy" quantity="-80"/>
+                <life success="90%" applyOn="ApplyOn_AloneEnemy" quantity="-80"/>
                 <buff id="5" success="15%"/>
             </level>
         </effect>
@@ -482,15 +482,15 @@ endurance="40"
         <description lang="fr">Des Décharge s'accumule pour etre ensuite projeté dans tous les sens.</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" applyOn="aloneEnemy" quantity="-120"/>
+                <life success="50%" applyOn="ApplyOn_AloneEnemy" quantity="-120"/>
                 <life success="90%" applyOn="themself" quantity="-10%"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="60%" applyOn="aloneEnemy" quantity="-140"/>
+                <life success="60%" applyOn="ApplyOn_AloneEnemy" quantity="-140"/>
                 <life success="90%" applyOn="themself" quantity="-20%"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="65%" applyOn="aloneEnemy" quantity="-160"/>
+                <life success="65%" applyOn="ApplyOn_AloneEnemy" quantity="-160"/>
                 <life success="90%" applyOn="themself" quantity="-30%"/>
             </level>
         </effect>
@@ -502,11 +502,11 @@ endurance="40"
         <description lang="fr">frappe son adversaire grâce à un éclaire</description>
         <effect>
             <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-40" applyOn="ApplyOn_AloneEnemy"/>
                 <buff id="2" success="10%"/>
             </level>
             <level sp="300" endurance="25" number="2">
-                <life success="90%" quantity="-45" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-45" applyOn="ApplyOn_AloneEnemy"/>
                 <buff id="2" success="15%" level="2"/>
             </level>
         </effect>
@@ -518,13 +518,13 @@ endurance="40"
         <description lang="fr">frappe son adversaire grâce à la foudre</description>
         <effect>
            <level sp="10" endurance="20" number="1">
-                <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-60" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="22" number="2">
-                <life success="90%" quantity="-75" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-75" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="24" number="3">
-                <life success="90%" quantity="-90" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-90" applyOn="ApplyOn_AloneEnemy"/>
             </level>    
         </effect>
     </skill>
@@ -535,13 +535,13 @@ endurance="40"
         <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-40" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
-                <life success="90%" quantity="-45" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-45" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="35" number="3">
-                <life success="90%" quantity="-55" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-55" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -552,13 +552,13 @@ endurance="40"
         <description lang="fr">Une pluie de métaux s'abat sur l'ennemie</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-60" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
-                <life success="90%" quantity="-75" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-75" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="35" number="3">
-                <life success="90%" quantity="-90" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-90" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -583,13 +583,13 @@ endurance="40"
         <description lang="fr">Emprisonne son adversaire dans les neiges éternelle</description>
         <effect>
             <level sp="10" endurance="8" number="1">
-                <life success="50%" quantity="-135" applyOn="aloneEnemy"/>
+                <life success="50%" quantity="-135" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="9" number="2">
-                <life success="55%" quantity="-145" applyOn="aloneEnemy"/>
+                <life success="55%" quantity="-145" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="10" number="3">
-                <life success="60%" quantity="-155" applyOn="aloneEnemy"/>
+                <life success="60%" quantity="-155" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -600,13 +600,13 @@ endurance="40"
         <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-40" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
-                <life success="90%" quantity="-45" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-45" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="35" number="3">
-                <life success="90%" quantity="-55" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-55" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -617,13 +617,13 @@ endurance="40"
         <description lang="fr">Une avalanche de neige s'abat sur l'ennemie</description>
         <effect>
             <level sp="10" endurance="25" number="1">
-                <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-60" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
-                <life success="90%" quantity="-75" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-75" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="1000" endurance="35" number="3">
-                <life success="90%" quantity="-90" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-90" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -648,10 +648,10 @@ endurance="40"
         <description lang="fr">Charge l'ennemie</description>
         <effect>
             <level sp="10" endurance="40" number="1">
-                <life success="90%" quantity="-35" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-35" applyOn="ApplyOn_AloneEnemy"/>
             </level>
             <level sp="150" endurance="40" number="2">
-                <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
+                <life success="90%" quantity="-40" applyOn="ApplyOn_AloneEnemy"/>
             </level>
         </effect>
     </skill>
@@ -683,10 +683,10 @@ endurance="40"
         <description>Use claw for protect himsell</description>
         <description lang="fr">Utilise ses griffe afin de ce protége</description>
         <effect>
-            <level sp="10" endurance="35" number="1" applyOn="aloneEnemy">
+            <level sp="10" endurance="35" number="1" applyOn="ApplyOn_AloneEnemy">
                 <life success="90%" quantity="-45"/>
             </level>
-            <level sp="300" endurance="40" number="2" applyOn="aloneEnemy">
+            <level sp="300" endurance="40" number="2" applyOn="ApplyOn_AloneEnemy">
                 <life success="90%" quantity="-55"/>
             </level>
         </effect>
