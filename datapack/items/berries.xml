@@ -62,4 +62,10 @@ consumeAtUse="true"
         <description>Red pepper</description>
         <description lang="fr">Piment rouge</description>
     </item>
+    <item image="plants/10.png" price="5" id="1010">
+        <name lang="fr">Noix d'alban</name>
+        <name>Alban nut</name>
+        <description>Alban nut</description>
+        <description lang="fr">Noix d'alban</description>
+    </item>    
 </items>
