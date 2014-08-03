@@ -11,7 +11,6 @@ Some special product can be added onetime too
         <product itemId="13"/>
         <product itemId="14"/>
         <product itemId="15"/>
-
     </shop>
     <shop id="2">
         <product itemId="2"/>
@@ -20,7 +19,6 @@ Some special product can be added onetime too
         <product itemId="13"/>
         <product itemId="14"/>
         <product itemId="15"/>
-
     </shop>
     <shop id="3">
         <product itemId="3"/>
