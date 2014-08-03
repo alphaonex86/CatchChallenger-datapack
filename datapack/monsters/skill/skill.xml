@@ -569,10 +569,10 @@ endurance="40"
         <description lang="fr">Modification de la peau qui se solidifie pour résister au attaque</description>
         <effect>
             <level sp="10" endurance="15" number="1">
-                <buff id="8" success="90%" applyOn="allAlly"/>
+                <buff id="8" success="90%" applyOn="ApplyOn_AloneAlly"/>
             </level>
             <level sp="300" endurance="20" number="2">
-                <buff id="8" success="90%" applyOn="allAlly"/>
+                <buff id="8" success="90%" applyOn="ApplyOn_AloneAlly"/>
             </level>
         </effect>
     </skill>
