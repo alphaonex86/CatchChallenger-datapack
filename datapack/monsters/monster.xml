@@ -410,15 +410,15 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="21" level="8"/>
-            <attack id="23" level="14"/>
-            <attack id="41" level="16"/>
-            <attack id="21" level="20" attack_level="2"/>
-            <attack id="23" level="36" attack_level="2"/>
-            <attack id="20" level="45"/>
-            <attack id="23" level="50" attack_level="3"/>
-            <attack id="20" level="55" attack_level="2"/>
-            <attack id="20" level="65" attack_level="3"/>
+            <attack id="31" level="8"/>
+            <attack id="33" level="14"/>
+            <attack id="81" level="16"/>
+            <attack id="31" level="20" attack_level="2"/>
+            <attack id="33" level="36" attack_level="2"/>
+            <attack id="30" level="45"/>
+            <attack id="33" level="50" attack_level="3"/>
+            <attack id="30" level="55" attack_level="2"/>
+            <attack id="30" level="65" attack_level="3"/>
         </attack_list>
         <name>Cowpignon</name>
         <name lang="fr">Cowpignon</name>
