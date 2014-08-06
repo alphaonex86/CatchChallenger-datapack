@@ -92,4 +92,12 @@ If flowering not specified, is 3/4 of the fruits value.
         </grow>
         <quantity>1.5</quantity>
     </plant>
+        <plant id="11" itemUsed="1011">
+        <!-- Alban nut -->
+        <grow>
+            <!-- in mins, max 108mins due to seconds to mature defined on 16Bits -->
+            <fruits>72</fruits>
+        </grow>
+        <quantity>1.5</quantity>
+    </plant>
 </plants>
