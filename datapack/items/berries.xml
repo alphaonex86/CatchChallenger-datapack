@@ -67,5 +67,11 @@ consumeAtUse="true"
         <name>Alban nut</name>
         <description>Alban nut</description>
         <description lang="fr">Noix d'alban</description>
-    </item>    
+    </item>  
+        <item image="plants/11.png" price="5" id="1011">
+        <name lang="fr">Graine d'aréca</name>
+        <name>Areca seed</name>
+        <description>Areca seed</description>
+        <description lang="fr">Graine d'aréca</description>
+    </item>     
 </items>
