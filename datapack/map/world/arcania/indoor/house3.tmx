@@ -11,7 +11,7 @@
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4kMjBwJDEMYAOoAGIpcA/UiykqZcEqrdE0mNHvtVwAADVkwHv
+   eJxjYBg4kMjBwJDEMYAOoAGIpcA/UiykqZcEqrdE0iNLvtVwAADMzwHO
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">

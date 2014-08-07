@@ -56,7 +56,7 @@
  </layer>
  <layer name="Water" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzbEJAAAIBLFfQXD/Wa1t7YQErr6ET6p3vr4AAHA1DNcC5Q==
+   eJztzbEJAAAIBLEfwkXcfzlrWzshgasv4ZOuna8vAABcDZd7BWU=
   </data>
  </layer>
  <layer name="other" width="30" height="30">

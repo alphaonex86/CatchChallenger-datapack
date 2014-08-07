@@ -17,19 +17,29 @@
    eJxjYBgFo2AUjBSgxsjAoMFIf3vdgHZ60MBeVj7y7CWkjxBQJdHeiSK49cHkcAEVDgTbFYt+ZHlc/sWmjxSAyz+E7D3EgymH7F5cAGY+Ib3Y7MWml1AYowNC6RWfPClpXZ0RFS8F4iWMmOLEyCPLEcrj6YyEcSsQt5CoLoMKeZzY8CO3TMGVFgilcVjaQ1ZHTFrGpg5bnsVWJuEzn1y70QGsTEJWR6zZlABKyyRiwRI0v4DKJFwAm7/JDQti9OFLF9Syix5xOQqGBwAA1B0ndQ==
   </data>
  </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArwgxZO+uqDgSVk6idX3ygYuSCFyDRDrDpigQsnwwFqqhsFo2AUjAJSAQAMWAVp
+  </data>
+ </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVjsOwjAMzdCBoerGDYBbQFdgZ0SswBkK7VAOwu8gpRcjEYlknDpx07IAlp5M2/ccng1Wy0iIk0TJzDi4OpxvEvcWGUdbvcltv+ff73f65UbffnFUg+ZzPz3f0Ll2nW/oXKn+jRIhxhqTxPZHXft0VN+M7hwLcdG4xrY/6tqno/waHaV3+T0zdJTfSnIfGqvhK9dMvxVD55rvBnxevz/yzpfSUn4z+eyokQP+AdwvHH4zhzZl+u07VA+67r/Qc337SvVr1oAU1Jnqe4WwdU283OHX1W+1g6nfC9b5eJRfKjj7C3IwN8SvCrwPTD2ogxy8Ozh+5zIvJJamXmSfa+pBHdw5BjXiufxuZd5J7Ik9Butx/4eh86WCqwudr88Hl9f1faOv3PW9ITT/mt8nM+l4AQ==
+   eJztVjsOwjAMzdCBoerGDYBbQFdgZ0SswBkK7VAOwu8gpRfDEYlkkjpx07IAlp5MWz+HZ8NTy0iIE6BkZjO4PDPfAPcW2Yy2fJ3bfs+/3u/Uy42+9ZpRDZrP/fR+Q/fadb+he6XmN0qEGCtMElsfde3jUXPTvHMsxEXhGtv6qGsfj9KreRTfpffM4FF6K6h9KKyGr1wz9VYMnmu/G/R5/f7Iu1+KS+nN4NlRIUf1B3S/cOjNHNyUqbfvkDPo6n+h5/r8Ss5r1oAU9Zmqe4WweU11uUOva97Sg6nfi8nz1VF6qdB+IoPyL+xVMrBnheiVYfqB7od5uMb0Do7eOeQFYKn7Rfa5uh/mYc/RqI06l94t5B1gT/gY7sf9H4bulwouL3S/Ph3cuq7vG33lru8NofnX9D4Bba93mw==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQjxNqX5c5tALjPqXMvfR2r8LOcjXS4r70N1JbrwOdPyiAxY+BgZWKGbjQ4jj8i+x+nD5F6aPXLdSClyAZrhCsRuR/lXhI6wPl39h+kDAVJR0t5KjDwbkkdiyaHKE4heX3sGenqkNBpt/ybWfWH3k+JfSMpgY9+ACxJRfyGrQ1RLyLzuQzQHEnEDMhccdbFQom5Ddow7EGkCsCcRaWMoTfOUXshp0tdRKz25U9i82sBRPuqJleqYloLTdMNTaGyPNvwMFAB7rbTo=
+   eJxjYBgYkMLCwJDKQjxNqX5c5tALjPqXMvfR2r8LOcjXS4r70N1JbrwOdPyiAxY+BgZWKGbjQ4jj8i+x+nD5F6aPXLdSClyAZrhCsRuR/lXhI6wPl39h+kDAVJR0t5KjDwbkkdiyaHKE4heX3sGenqkNBpt/ybWfWH3k+JfSMpgY9+ACxJRfyGrQ1RLyLzuQzQHEnEDMhcUdqlBz2AiUTapEll0w+9WBWAOINYFYC0t5gq/8QlaDrpZa6dmNSP8QAvjsX4onXdEyPdMSUNpuGGrtjZHm34ECAOUWbaA=
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzt1LENACAMA0EPkBVgE9h/LGhSogQEDfqrXy4tAQBOFJOqvetX2tzoGzu7PYB/+Q9Ff5TtsvyHoj/KdgDuGXDkBWU=
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1KERACEUQ8HID51w/RcIDouDm9k1z0YlAeBPRiVf3V4BcK6tz+q1C7xjAkN0AKo=
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -102,9 +112,4 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt1KERACEUQ8HID51w/RcIDouDm9k1z0YlAeBPRiVf3V4BcK6tz+q1C7xjAkN0AKo=
-  </data>
- </layer>
 </map>

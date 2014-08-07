@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCANaAOxLol6qAGoba8rx8DYSyyglr08JGItINbEIs5Lor0+JGIuIObEIu6LZu43Et1BCBAbzqP2jmx7aZWPCNlLaj7ChWmdj4gF1LbXgpGBwZyRcnuvk4iPQzEhdRFEuA0EFnKj0rD6CcanFTjIjUqji9MKPORGpdHFcYFFNHYXLnBogOx9RCV7B0O40TpNIQPkcENOU+jhQK9wQU8/2NITsW1SUgB6+qFWehoFwxMAAO4nQEU=
+   eJxjYCANLATixSTqoQagtr2uHANjL7GAWvY2kYhTgTgFi3gzifYeIhG7ArELFvHDaOZ+I9EdhACx4Txq78i2l1b5iJC9pOYjXJjW+YhYQG17LRgZGMwZKbf3Oon4OBQTUhdBhNtAYCE3Kg2rn2B8WoGD3Kg0ujitwENuVBpdHBdYRGN34QKHBsjeR1SydzCEG63TFDJADjfkNIUeDvQKF/T0gy09EdsmJQWgpx9qpadRMDwBAK+Oajc=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">

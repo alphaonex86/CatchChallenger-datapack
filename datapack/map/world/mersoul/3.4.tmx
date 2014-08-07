@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztUlsKwjAQbH98C56i+DyEmqofegj1JOr5vJNT6EKIMdnVNIpkYAjZbnaSmWZZeJzzBoYm3aSbdJ9QGj0K++sLUq/y1G4M3aPWozxnLpa51flTLvdW130nF9tdQukuUV+Ba8/sFtgGOwJdl8fU4/OjqNexQNc1k+tlaF0uNuAW3DF6OW8pOYFlsnxDQuLzL+lyfTX7JPnqoHyIsXIqjH2snMgnos2vPjiMdB8dM3ARWbP6j5rSvY/c37/x3n/QHQg5BSeWuvQf3wvZA7uW+kH8Yhk+9Xlerw/f8Cgz
+   eJxjYKA+SGakgaGj9o7aO2ovBnBFU+MC5DfhwDC1LgTEmomwNxFJjQsBPY1YzAXpT2IkPWyR7SUnXrC5hVr2OgLFnYDYmYDZbEDMDsQcJNiLL4xhagiFhxqU1iDBXnxmEhuW1LaXWOAGxO5A7EGEWmL84kpMhDGQFr/UBKSE82Cyl9hwRVdHSvwiA1j8wDC94kkNjU+veIKFEwxjC69GIG6mk3uQwUIgXkxnO0HpiFb2nhXALz8Q/h0O9jaRiFOBOAWLOKlp/BCJ2BWIXbCIHybZx6QBSsNZB0oDABHuPz8=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -76,7 +76,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaOA+oBbkIGBR5D+9moD7dQZAHu9SbCzgYd27sAHFgyQvaNg8AIAIs0CRw==
+   eJztzrEVABAMANH00mQONmEooxhVFvCeAlHcX+BOBAAAADgvmYja+272ZgnoVm+2zW7Xuy8rI6iLf00eLwKk
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">

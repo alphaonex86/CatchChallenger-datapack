@@ -49,14 +49,9 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAeCIogMD0Bsr0Dafdwt3egwnkw2EtPMFD2jjQwGNLVSLAX3e5Re0ftHbV31F5S7By1lz720hOM2jv07AUA4xMNcg==
-  </data>
- </layer>
  <layer name="Water" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJxjYCAeGIogMD0Bsr0Dafdwt3egwnkw2EtPMFD2jjQwGNLVSLAX3e5Re0ftHbV31F5S7By1lz720hOM2jv07AUAEGEZEg==
   </data>
  </layer>
  <layer name="other" width="30" height="30">

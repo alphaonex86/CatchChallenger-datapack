@@ -119,14 +119,14 @@
   </object>
   <object name="door" type="door" gid="5237" x="384" y="304">
    <properties>
-    <property name="map" value="indoor/scholarship"/>
+    <property name="map" value="indoor/stock exchange"/>
     <property name="x" value="15"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="416" y="304">
    <properties>
-    <property name="map" value="indoor/scholarship"/>
+    <property name="map" value="indoor/stock exchange"/>
     <property name="x" value="17"/>
     <property name="y" value="18"/>
    </properties>

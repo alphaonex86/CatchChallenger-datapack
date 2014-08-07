@@ -90,9 +90,7 @@
   <object type="bot" gid="5123" x="192" y="448">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value=""/>
+    <property name="id" value="9001"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="240" y="64">

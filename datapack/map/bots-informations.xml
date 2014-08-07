@@ -6,10 +6,11 @@ skin is invisible
     <bot id="9001">
       <name>Sign</name>
       <name langue="fr">Panneau</name>
-        <step type="text" id="1">
-            <text><![CDATA[Hello world!]]></text> 
+         <step type="text" id="1">
+            <text><![CDATA[Road 1, area accessible for the tamers]]></text>
+            <text lang="fr"><![CDATA[Route 1, zone accessible aux dompteurs]]></text>
         </step>
-    </bot>
+            <name>Road 1</name>
     <bot id="9002">
       <name>Eric</name>
       <name langue="fr">Eric</name>
