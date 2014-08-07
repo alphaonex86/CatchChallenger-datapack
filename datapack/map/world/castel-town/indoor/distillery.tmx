@@ -42,7 +42,7 @@
  <objectgroup name="Object" width="11" height="12">
   <object name="bot" type="bot" gid="1027" x="80" y="128">
    <properties>
-    <property name="file" value="../../../bots-industries.xml"/>
+    <property name="file" value="../../../bots-industries"/>
     <property name="id" value="3010"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="miller"/>
@@ -50,7 +50,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="96" y="96">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9001"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="scientific"/>
@@ -64,6 +64,5 @@
     <property name="skin" value="scientific"/>
    </properties>
   </object>
-  <object x="-416" y="-336"/>
  </objectgroup>
 </map>

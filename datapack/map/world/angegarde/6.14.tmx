@@ -110,7 +110,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="32" y="208">
    <properties>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7112"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -119,7 +119,7 @@
   <object name="bot" type="bot" gid="5123" x="304" y="304">
    <properties>
     <property name="file" value="../../bots-fights"/>
-    <property name="id" value="7114"/>
+    <property name="id" value="7115"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="terranite"/>
    </properties>
@@ -127,7 +127,7 @@
   <object name="bot" type="bot" gid="5123" x="288" y="384">
    <properties>
     <property name="file" value="../../bots-fights"/>
-    <property name="id" value="7114"/>
+    <property name="id" value="7117"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
    </properties>
@@ -135,7 +135,7 @@
   <object name="bot" type="bot" gid="5123" x="352" y="336">
    <properties>
     <property name="file" value="../../bots-fights"/>
-    <property name="id" value="7114"/>
+    <property name="id" value="7116"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="girl"/>
    </properties>

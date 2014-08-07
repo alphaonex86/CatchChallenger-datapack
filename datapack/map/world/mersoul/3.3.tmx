@@ -94,7 +94,7 @@
   <object type="rescue" gid="5122" x="128" y="192"/>
   <object name="door" type="door" gid="5397" x="272" y="160">
    <properties>
-    <property name="file" value="indoor/dramed-house"/>
+    <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
@@ -131,7 +131,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30" visible="0">
+ <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="160" y="400">
    <properties>
     <property name="file" value="../../bots-informations"/>
