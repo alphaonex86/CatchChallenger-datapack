@@ -10,7 +10,7 @@ skin is invisible
             <text><![CDATA[Road 1, area accessible for the tamers]]></text>
             <text lang="fr"><![CDATA[Route 1, zone accessible aux dompteurs]]></text>
         </step>
-            <name>Road 1</name>
+    </bot>
     <bot id="9002">
       <name>Eric</name>
       <name langue="fr">Eric</name>
@@ -331,7 +331,7 @@ skin is invisible
             <text lang="fr"><![CDATA[Dégage de la on veut pas de toi le naze.]]></text>
         </step>
     </bot>
-    <bot id="9039">
+    <bot id="9038">
       <name>Elie</name>
       <name langue="fr">Elie</name> 
         <step type="text" id="1">
@@ -353,6 +353,38 @@ skin is invisible
         <step type="text" id="1">
             <text><![CDATA[Null boo !]]></text>
             <text lang="fr"><![CDATA[Bouh le nul !]]></text>
+        </step>
+    </bot>
+    <bot id="9042">
+      <name>Stephanie</name>
+      <name langue="fr">Stephanie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[The flowers are beautiful! isn't it ?]]></text>
+            <text lang="fr"><![CDATA[Les fleures sont magnifiques ! tu ne trouve pas ?]]></text>
+        </step>
+    </bot>
+    <bot id="9043">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name> 
+        <step type="text" id="1">
+            <text><![CDATA[TBI the biofuel industry]]></text>
+            <text lang="fr"><![CDATA[IDB l'industrie de Biocarburant]]></text>
+        </step>
+    </bot>
+    <bot id="9044">
+      <name>Philipe</name>
+      <name langue="fr">Philipe</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Telomont known for its production of metals]]></text>
+            <text lang="fr"><![CDATA[Telomont connu pour sa production de métaux]]></text>
+        </step>
+    </bot>
+    <bot id="9045">
+      <name>Josefine</name>
+      <name langue="fr">Josefine</name> 
+        <step type="text" id="1">
+            <text><![CDATA[If you continue north-west of the city you will find mine Telomont]]></text>
+            <text lang="fr"><![CDATA[Si tu continue au nord-ouest de la ville tu trouvera la mine de Telomont]]></text>
         </step>
     </bot>
 </bots>

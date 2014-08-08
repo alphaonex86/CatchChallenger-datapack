@@ -157,5 +157,19 @@
     <property name="skin" value="soldier"/>
    </properties>
   </object>
+  <object name="bot" type="bot" gid="5123" x="128" y="192">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9042"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl3"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="384" y="288">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9043"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

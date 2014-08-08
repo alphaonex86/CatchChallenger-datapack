@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4B2oBGImwfA3oVAvHgE2/tWYGDsJaR2EQnqsYEmKE4F4hQkPj6cSgV7D6FhV6iZIOyCRR4ZH6bAXnQAC0NK/TNqL3n2gsRBeYtabgGlT+TyEdle5PSdiiZGaZmKzV/EpGdK0zIuf9E6fvHl38GQrkbtpQyg13fD3b+46rjRfDQ47KVGWweXvfjaPZS2dQAMo2Zz
+   eJxjYBgFo4B2oBGImwfA3oVAvHgE2/tWAL/aRQzUcScp/qWGvU1QnArEKUh8fDiVCvYeQsOuUDNB2AWLPDI+TIG96AAWhtSKv1F7SbMXJA7KW9RyCyh9IpePyPYip+9UNDFKy1Rs/iImPVOalnH5i9bxiy//DoZ0NWovZQC9vhvu/sVVx43mI+zqqOW2wWAvvnYPpW0dAHDmaj8=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -79,7 +79,7 @@
    eJxjYBgFo2AU0AqUig60C4Y3uCPEwHAXiO8B8X0h+tn7B8mu/3S0dxQgwGjeGvpgNP8OLzCaJwcGjOajUUANAAAAjBM2
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30" visible="0">
+ <objectgroup name="Moving" width="30" height="30">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="1.11"/>
@@ -136,7 +136,7 @@
   <object name="bot" type="bot" gid="5123" x="96" y="256">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="9001"/>
+    <property name="id" value="9044"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
    </properties>
@@ -144,9 +144,9 @@
   <object name="bot" type="bot" gid="5123" x="272" y="480">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="9001"/>
+    <property name="id" value="9045"/>
     <property name="lookAt" value="left"/>
-    <property name="skin" value="player"/>
+    <property name="skin" value="girl4"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="32" y="288">
