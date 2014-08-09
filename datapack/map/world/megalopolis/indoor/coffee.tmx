@@ -38,8 +38,8 @@
   <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
    <properties>
     <property name="map" value="../0.6"/>
-    <property name="x" value="14"/>
-    <property name="y" value="7"/>
+    <property name="x" value="15"/>
+    <property name="y" value="17"/>
    </properties>
   </object>
  </objectgroup>

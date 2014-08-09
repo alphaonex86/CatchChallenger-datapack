@@ -14,15 +14,14 @@
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
- <tileset firstgid="6161" source="../../tileset/building-medium.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0LERACAIBMGnOvuwNOuzCEOJcYY3uGBDuIGQFAA04upszqSrnW/tvNnVBQD8Yz2o7tqP3eq8s+ucdf0LNQckGZnN
+   eJztzaENACAMALDt/y+4FDOFIhMQQkV1MyISAADKKDfO0/dP73ru8r7xdk2/Wy+L
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkkEOQDAQAHfPeBRepr9TvIT+wTY0etC0TalgJ5mTrukKAIZhNDUCNGSLeZs2udoddYQlw/wZ3H2qzV3ufqErIryyE8JAjoldPT9FzsyJTYN6abcnS/oZpeO863lst8DtPcYKj/ssJyrPXCq+7l2YfaTV1N84ZK8VFycn9Q==
+   eJxjYBgFo2AUjIJRMApGwSgYBYMJNAJxExpupoO9C4F4ERpeTCd7TwPxGSg+S0d7XwPxGyh+O4D2pjBgxjk6poW99ADo9r5kQMQ1Pkxte4nF1LCXm5GBgYdETCk4CMSHyMAACYFBUA==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -57,36 +56,36 @@
  </layer>
  <layer name="Water" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAQRH6YoZRe0ftHWT2IgN62YsNjNo7vNLVqL2j9g5We0fBKBgFo2AUjAIQAABJ9kIz
-  </data>
- </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBiZ4OaovYPSXilGBoZfDAgszUh7e0F2/kYT+0mm3aTYe5sKZow0e51YSNdjBYzHXQyY2JqE+CXHXmqAUXtH7aUFWMQyuPFA+XG42EtPMFD2Its9au+ovaP2Um4vACQEVjc=
-  </data>
- </layer>
- <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztkzsOwjAMhj10bSUYeKyRWma4A/QGPM4BEyNHyTGZcKVGBMsJebgUIX7pV1Ml9te/inUBoNGflh6ZO8H1NKE+tc5w17jeBPQx++YZWufiGpk+lEP36Tn6HsulPLsfl+ne27UfK45HM83Qc/SCqZEQ169jXvr12WJLZPZpjz5YPnq+kZMaYHZDMqvM+eV4IZlV5PyC50zMvVKe+aX9XXlS/hXl+vq7eCnzw3FD8+TMK8eV7J/DHUK34rs9VsZf4epAS0iTHHUJ0FhelTIcTobbMb6Je4VXS2hpcVtkbNE7y+1AeU8ge0//3Pfcpoqrraunc7gPQ8ldHQ==
-  </data>
- </layer>
- <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt08dxE2EYgOFFyCYLjtLNQZJzKME2thwA2yUQHUklgMiZEsg5lUDOqQRyTiXwaLgIeT1odLAZj76Z57Arff972N1sNAiyzPRky9053S3PzExklp5tZJbeq3K33J1r3fX/sap4EFRTQy1JUqSpo54GGmmimRZaaaM9Xlq3w14nXaykmx4y9NJHPwOsYjVrGGSI4RK7a+2ty+2ygY1sYoRRxhhngkk2s4WtbGN7QbfY2WFvJ1l2sZs97GUf+znAQQ5xmCMc5RjH43/Oye9GY0FQkacyNrV7wt5JTnGaM5zlHOe5wEUucZkrXOUa17lR0M01kqTypEO6N+3d4jZ3uMs97vOAhzziMU94yjOe84KXBd1co5uePJmQ7it7r3nDW97xng985BOf+cJXvvGdH/zkV0E3rBE6iSCYR4T5RKmgkgUsZBGLWcJSlhFjOSsSU59vMVNlr5oaakmSIk0d9TTQSBPNtNBKG+0ldjvsddKV+Pt+xnUvffQzUPD7oOshhkvsTjcjzhtljHEmmExM///897nYKeZ7+9fkd8POC7uXLOiEfW/Fdn8Dua6Jhw==
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0rENADAMAkEKT8rW2cZpsoKRnD+J+htcku+OZjncnZbqYrff/kyX7qbuawMAkNTfIQup
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENACAIRFEKW8fQTXQy3ET3lIaSwgI08X5CriSPE9GQ4+CdcuvCRjvhhRdeeOGFF154T9fK22v1mrdkoprjvfrXy2vl7bVq8rNf8GrRXu037wYV7ddO
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt07ENACAIRNErsGUK3UQ30f1XkMYFLI6Q3G/oJC9BIKdtwDH+zEpeeeWVV1555a3n/X03K7bXHGjO87167BzOv8sZO1eC91X1H/4mL2deJ8miBQ==
+  </data>
+ </layer>
+ <layer name="Other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzUEVABAARMENsJF5TxCyiKIKFVzswZ8CIwEAAAD3ptUS7wq9xVL1+7efcwRe/GEDxaEFGQ==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
-    <property name="map" value="1.6"/>
+    <property name="map" value="-1.6"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="0.7"/>
    </properties>

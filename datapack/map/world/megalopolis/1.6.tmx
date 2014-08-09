@@ -17,12 +17,12 @@
  <tileset firstgid="6161" source="../../tileset/building-big.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzrERADAIxLBn/y2YNCukgIZTodquJAXD+oPu7e7Gl66urq4uwKwHLeOadQ==
+   eJztzaERADAIBLBn/y2YtLYLgOAiotNJekl9tk6v1+v1er1er/fCCxMeMjusFw==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwEsBOJFQLyYyuY2EcCpNLKXGDBqL/3sTWHAnQaaB8BNIDAQYTGQ9iLHAXKYTxShrb0uQHwIig/TyU4QGGrxu5AHj5l45OhtL7rYULP3INCcQzjwYRxiyACWj2B1F658RW2wCA+mZVpHzr/o+DAOPbjUE4tdGQYm/y4cZvZiK2eRxQ4y4I5DatpJjNwoGAUAr2hMRw==
+   eJztlUsOgCAMRHGtXlpPop5EXPk7iL87iImLxlAwNjQ2OslsoOkDwoBSNC3G6+nNU1sRWZK5A9Ez4E6W+RHhroENzwByk4jmDjBaS780snOpCnmvyo9xXZLI7RV/fq9r5srvofhj+S0SR61jjpsLxyRya9NHI26QMR83O50j3Ke5vZtfmGHO/xeeA+f/CzP8lvxK5MbIm+jjakY39G3+EqIdnIH/MA==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -62,22 +62,22 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgWMSCivEBdLXkYlLBSLOXWu4ZtZe6YNTeUXtH7R21d6jYOwpGwSggH4y2N4a3vaPxi4oB3NeBsQ==
+   eJxjYKAvWMQCwfQGo/aO2jtq76i9o/aO2juS7R0Fo2AUUA5GWrlBL3th9qBjets3XP1LyF4AFSgpgQ==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlTtOAzEQhl2kcBGqpUHpkIAT0NAHzhBxEpYqG0ICuUVEeNbQU/A+B+9L8LtYNDv2rL2LwyJ+6ZO1kj2/xzP2TlvK0jBRah+MwBgcgEMwSey5dbWyoNQqYQ3MEP8YnIBTcAbOwcWcfW8Q/xbcgXvwAB7BU0TfLnw2CVvgGfFfwCt4A+/gA3wm9j7zvc5TA92MrxE/n/yMmlLMc7jW7u+UEdu3ipqu+/qiXfdpy8a11zr75DWhknxddzimJF+q7biWf9LX1Yu81uatGpTUsKyf6/pK8WgvVfWV3twQ35/kG8tXur/L2n7fUrbGcNlW6qpdXPvb/4HM00tlb8V/l8m9g3EjgFQKUlPmzdlDrw5B5iFENI8lj+8RYs5I3Cq+GesXmkdP8Ozr4jxf3nytLw/JN9PFeflY5pvfFTP2HXcnJF8+z1ffkP7bJXnsBM77PgfBl9cj9ij58nrEHiXfLwMbuOQ=
+   eJztljlOw0AYRgcphYtQRL4BEqSngx44A2cALkAXQ9iSAC0tSti3BvoUrGG7BPt6BJ5ljTyYceyRYzfkl57GGo3naZL/k6fYK0Q/DCgUDeaC1W7NuLLOxNFJ7xjzIzCqYDJXyvl7uc+6NTpvltX1xq+SFb3GsfTrVG+w/2QPNpX3ZiyPqi1EDZZhBVbtv3vH7ecwr+79PTz7cACHcJSR9xrPDdzCHdzb3u8Q5a1bvnc95xHMW7usvuP5gE/4gm+NNyq/0ptl/XevrreC/SizpFYzRpaTeMv0zxzMwwIswhJUDHO0ZuhtsP8GbMIWbMMO7Mb0ThSEmISpgpn3lP3P4Bwu4BKuoBXTW8FXhRpMCw+31Mwd54U4yf/O3wP7P8ITPMMLvMKbxqvLb59hH3QrWQ3BsPD+307f63S9KcvNr5PzyOI+qX6PpDfpfTJYUd8j6ZV5yoLBHt87C+UURieCOjRSGGWFedM6b9S50zqvHMO8P2H81iw=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlEEKwjAQRbOo4qK40pVb9STqQURvoK504xmsK114B/V8TpFAGDKZfJum4IdPKWl5+T+dFkNjeo775JDORRpPiTNzPM/EXRBn6XilcAvWj+0I5aLi/diO2ubyfmxHbXMlof2H9BiE712h/acS2n8t3pE2wyGNR9/rsTTmVIa56Az7xM/gRsy7wkVnGFHs+U7SISFuakncHXW6V3yI6B2d3wutVYp9e6nlfkvo/D5p7aXYt5cr60CaX6nrGPn28ha6t/OLqqKZu5a/vZtLof/1v6vr7Bv6VrfkNXNuNWXaHLHPSblz5W/KRfNKvK7z8vNIfe0qr5S5rZwa9wPp0aeJ
+   eJzlVksOAUEQ7cWYIGIjcwMk7N0AN3ABISS+C6zYOANWLCzcgPspoaPUdKnyGbPwkpeZVF7Xm07365561pg8sIBYZGpVYA2xDqSQNEvvSk7rqs0zxiwyYS8MSYN9U0lj0snwO8UW+u0EX0mDfX+Jf/X1YL8kCH3g3rHG/ZwxA+AQOAKOc2EN7ecz+5nmxWZGGs/BlT+XL82LzYw0noM2vzhvlUA/XsKllyvL1hfnrRE8amyWn2Waw6WXK8tx7+e4fCewblOBM2ZtXVnT+q6g51pg+5bTDjy7KLO9D/J7hPpJ4CvQ5vfbeDd/a9j3G+Guewab2Uoga78Jm1l6Fvw7fObu0dYotPcY9++orVFo7zHu31Fbo3BpDuhca3pXvooS9CgrzkdO966vhBb0bHv3/hyjBudrvy+qZ1zz5eYc1Twl3zNF7XyM
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCANJLFQB1MLkGpvDQ8DQy0PgqaXvXOAds3lQdD0spcSQEwY0cJeQmH0n4f26QobkOelv72wOKCHvdZA/9kAsS0vIg7oYW800L4YII7lRYgRY6+oCHXdQay9pgNkLy0APnvv8UAwpSBPkIEhX5B4e//xQDAuMI0P4T4YXcaHqa4PaGe/IKY4ueG8jQ/hPmR6sADk/Etp/UYKQM6/lNZvo2DogIEor2D2DgQYtXfU3uFuLwDk1FJS
+   eJxjYCAe1PAwMNTyUKYmiQWC0dXC2Nj0zwHy5xKwl5AaZHuR1cLYxNhBDkC2l55g1F4E2E9BvAL1NpBr730K7L1PpL3o+YWYPEoswGYWzF70/ILMx5eXiQHY8iK2cBYVwa6Pmnl5MKZnetl7jweC6W3vPx4IxgWm8ZFufp4gA0O+IH57CYFtZNjbB7SzH4u9tALY6lR6AGx16igYXABbPQgSI1THQdXhVUNqPQgSI1THQdURVIMM8NU9pOQNUuswfHUPKXmD1u1RUsBA1D+j9g6svQAC6U6e
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -105,28 +105,28 @@
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5173" x="320" y="160">
+  <object name="door" type="door" gid="5173" x="352" y="176">
    <properties>
     <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5173" x="320" y="288">
+  <object name="door" type="door" gid="5173" x="352" y="304">
    <properties>
     <property name="map" value="indoor/ethanol-factory"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="144" y="64">
+  <object name="door" type="door" gid="5237" x="208" y="304">
    <properties>
     <property name="map" value="indoor/arena"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5173" x="48" y="192">
+  <object name="door" type="door" gid="5173" x="48" y="176">
    <properties>
     <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="1"/>
@@ -140,9 +140,16 @@
     <property name="map" value="1.7"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5204" x="208" y="176">
+   <properties>
+    <property name="map" value="indoor/heal"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="144" y="320">
+  <object name="bot" type="bot" gid="5123" x="112" y="64">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
@@ -150,7 +157,7 @@
     <property name="skin" value="soldier"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="176" y="320">
+  <object name="bot" type="bot" gid="5123" x="144" y="64">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9028"/>
@@ -166,13 +173,13 @@
     <property name="skin" value="girl3"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="384" y="288">
+  <object name="bot" type="bot" gid="5123" x="400" y="304">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9043"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="224" y="96">
+  <object name="door" type="door" gid="5123" x="352" y="48">
    <properties>
     <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="2"/>

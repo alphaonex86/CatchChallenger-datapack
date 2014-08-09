@@ -14,6 +14,7 @@
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="6161" source="../../tileset/building-big.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzbEJADAMA0FnVe8/RDKCioALH+g6wfep6tBb/P1logkAALDBBQ/WW1g=
@@ -66,7 +67,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlU0KwjAQhbN0WxfWa+iidO8RFO097EX9uYjgAZxCB8fwEjLNUCnkwaNkkvTLZNrEuaKion+oIq8VbSvtyHtFe2nK3bep8+W+bch1ordg/lQ1CXzmtZksxOXnjTbxTn6Qn9UvL5cr6yO5h5Vzr+o77h3gWtTXzxepHdfEXMv6nsmX0Sxud4JvpVievizrK/McfBLjjl5fB+ZrFKuPzD+Un9W5ib5vyZ3jXkDcOe6FlH1eOleezb2IX134rLaQ5h9Ga6kNuZr7Ucvld/cgjmJWXL6DUDwUG8ajNWi5sbhcUwP65ZgPd80iJQ==
+   eJztlU0KgzAQhWfZTX8XtaCXaBfivkdoab1HvXZ/jtARHJjKMzhmsAg+eEgmiV8mownRrFmz/qEte2doe+nIPhnaU1Psvg2dr/dtz056+gDmD1Xegy+8IpKFuPJ8pkQv9pv9SX95sVxdH809L4iWGdGKvWZvMsz1qG87X6SiWZNwPet7Y98bi6RdKr6XQnm25VlfnWftqxp3afWVYL5Fofro/Lvy8zo30fetuWPcC4g7xr3QZ5+nztVnc6XiD+o+qz1k+YfRWhJHruV+tHLl3RWIo5gXV+4gFO+K1ePRGqzcUFyvKQf9eswXLqghYA==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -76,7 +77,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzVcNhAAURNEnAXbXCMUIxQjFCMUIxQjFyBYBey0Qkvl6k5zfuWb3FgVmMRKkwc2zC8to5ShQCrsVrRoNWmG3o9VjwCjsTrRmLFiF3Y3WjgOnsPum9cEXP2E3DM0eeOIV6roRrRgJUmE3o5WjQCnsVrRqNGiF3Y5WjwGjsDvRmrFgFXY3WjsOnMKuz+fz+Xy+6/sD+tsgKQ==
+   eJztzccNg1AURNHXgANbqMGhEUIjhEYIjRAaIdluw6EE3xYQ0qz+SGc712zfQt8sQozE33m2YSmtDDkKYbekVaFGI+y2tDr0GITdkdaEGYuw+6b1wRc/YfcQmB1xwjnQdS+0rrjhLuyGtCLESITdlFaGHIWwW9KqUKMRdltaHXoMwu5Ia8KMRdhdPbMHnnh5uq6bm5ubm5vb9v0B+M4j5Q==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">

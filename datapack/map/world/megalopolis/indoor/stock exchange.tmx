@@ -11,7 +11,7 @@
  </layer>
  <layer name="Other" width="33" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU4AIbuTHFtmERo6XZF7GIXaOSG0gx+xNQ/DMQfwHir1Synx5mj4LhCUbzJgKM5s2hC+TQ6KEMAAqPHQ0=
+   eJxjYBgFo2AU4AIbuTHFtmERo6XZF7GIXaOSG0gx+xNQ/DMQfwHir1Synx5mj4LhCUbzJgKM5s2hBWSJpIcaAABM9x1i
   </data>
  </layer>
  <layer name="Collisions" width="33" height="20">
@@ -35,18 +35,39 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="240" y="320">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="256" y="320">
    <properties>
     <property name="map" value="../0.6"/>
-    <property name="x" value="24"/>
-    <property name="y" value="19"/>
+    <property name="x" value="23"/>
+    <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="272" y="320">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="288" y="320">
    <properties>
     <property name="map" value="../0.6"/>
-    <property name="x" value="26"/>
-    <property name="y" value="19"/>
+    <property name="x" value="25"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="320" y="320">
+   <properties>
+    <property name="map" value="../0.6"/>
+    <property name="x" value="27"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="224" y="320">
+   <properties>
+    <property name="map" value="../0.6"/>
+    <property name="x" value="21"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="192" y="320">
+   <properties>
+    <property name="map" value="../0.6"/>
+    <property name="x" value="19"/>
+    <property name="y" value="18"/>
    </properties>
   </object>
  </objectgroup>

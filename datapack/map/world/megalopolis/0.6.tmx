@@ -17,12 +17,12 @@
  <tileset firstgid="6161" source="../../tileset/building-big.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYBzFoxgNL6IQD2V7nXhJxyPdXnLiaqDspUa6ItccNV7iMbXtJUXdqL1DK37deInH1LSXVDxq78DYO4pH8SgexYQwACX12ag=
+   eJztzaENACAQBMGjAJqi1K8UhycB8cmIsbuVpIBjzXu+fb4A0NV44EfTt7cNyxbR8g==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKA9WAjEi+lgz3CztxGIm0jAqUCcgiZGDliIQ3wRmeYNlL0LoXoXEyFGTTDQ9iKngVQcYtS2dyAApfZSkq5G7aWtvQtHmL0wu0ftHbWXFHsXIWFc4CAQHyITu0LNdiFSPbUAtvqSHmDU3uFtLywvHKazvUMFAAC5003a
+   eJztlkkOwjAMRd1122twEug9KScBVkwHYegdiKWgmkBIYicW05f+xqrzIltuDDDqbHyxHiBe3Lxf4u6M99Ynkn8k8ZA5efSumq4rgMZ6S+IbGOMlHOrT3Lg3XkT2jaN34mpIkyuZh4NzVp/AlcwCrcmkjePid6jGM0cDhGehre7PS+FSSfr75+pwu0hul5mLSpmjXNyUdw2V4/11c1/5du4nv7+cPF+PvnWvo6o9/94S3JXQsyfcaUSeVLgHuXUquRNRrisN7hIea7hW4HJ1BWRPF8g=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -62,17 +62,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzd1rtPU2EcxvF3YAATIrQTh0QQLBAWRDYG7hRwwctkSPACqP8CDMqlgAOKclkVtVUHBVFYVUCFAVBQV1TwwqBydef75pzGctIDnPK2BN/kk1/SNM/TX3t6Wk+UEK3w2Jy7PV4yfFH2p/k0WLA64d5zJHrrfW85hehCN3rQ69zZnqEe/x6D9DzDcwxhGK5YIdICpMeq6/XvMUPPLD7gIz6Fudd/VuhZxRrW8Rel9LiNLjnLgvTKzy+ax2NsOKDo9WfYzMnc573l5FTYcFxRr/n6246K61NeVy6bObJXxf1W9h7ShEhCMg4jBak4AhfSkI4MTe9VcR+SvXnk5aMAhShCMUpQCjfKUK5t3nfJIcQyVrCKNYee2cH3+DpuoBM3ncF7q8k7i3M4jwuoQS3qcBGXcNm070Hy4hAPB5xG/mPmE/RjAE8teq+QdxWNaEIzWuBBK9rQjmumfbPIO4psHEOOkT/JnMI03uG9qVdeV/K+dpu8O+jDXdzDfXjhwwM8xCNNv+/5960k7wRO4hROG/m/mL/xB0tYDrKv7H5B3ku8wghGMYbXeIO3GMeEpj9f1f+HOfI+4wu+Yh4L+Ibv+IGfWNT056v+Xd3pUbWv3bPX+4Y6Qz2h/p/c6n1KRK4hIYL7VgXknongvlUBuVa9/+u+9eLfZx0o3PtazXDvazU3ABw3+bQ=
+   eJzl1slPE2EcxvH3wGEgoWDn5JCAqEwJiQtwRxFZE1TgREzcFf4GDmxTxCsoV9wKegX0qpT9istVcPfG6p0vaSeOk9k71ETe5JOm77y/9+m07/tO1XwhVMRgbmXpa6phjFVfkLpM64PWNaQ1WtTXG67rY6z6gtRlo2mSEHEpO1le2pDLZzmIz+p3fYzIQoziIR5hDBL9uT7kBViXU+RMYwav8Brl9J+KCHE64nyP+piKALmr5LzDe3zAx3RuK/NdcsnVx1SY1rr5d7baD1vkbGMHu/iNJvqbfWgJaR/ZnUV2rL7boLl+mp476LBP7PbQ/lmgSX9yixUhSnAMpTiOEziJMqiIoVxJ5Trd+0ZUiE1sYRs7Ufuzt4b5zuE8anEBdbiIejSgEU0ecgtYM4U4gihk2T73GvNdxw3cxC3cxh3cxT10odtD7hlyzqISVah2yO1lvj70YwCD0BDHEO5jGA/SuU7PlcvkXEEb2tEh2z9rxpnvMZ7gKZ7hORKYwCRe4KXyd5bm4ww27/Mk798w31vMIok5zGMBi1jCMlaU1Piw2ifmW8M6PuMLvuIbvuMHfuKXEl7m/9Tcns1u143NeNb8q/91YeQmJP91xn1orN//Pg7y/2SPyMxRi9+xyENdPIe1kRP8tdMi96qHeROYyODVLtet7rDd7x7JK9jG
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzl1DlOw0AYhuEfcEKQUIqEFLZEB0gcgBsAd6CHDsIucRQalrBfgh0CHVvNvl6C5bUgyhRmiMcTIsuf9MiSl/nyy86INCbDjsiIU/sxbEoZ/fXJvMgUpjGDWThZkZQinTWbLSi6Obro6Vb0WOzVpZ+eAcXgP81bSaHj92tB76/Wc3+lT9ObxCy4IotYwjJKWMEq1rCODWxiy60+N9cerXebtXawiz3s4wCHOMIxyjjBqdI7H6HX/16uWesGt7jDPR7wiCc84wWvePvpNd2H1Lyz1gc+/TU9kSY0owUOUkijFRm0edH6KukMuU6vV533LCdyjgtc4ir3fc8o++UYihjHRN7Ob21Uor5fk33IVsJ2+/fb+J7jlKTOa3qMW2zM62rWrWeGDJ6xMW9Qb1Lnref/IE7zfgHgIGze
+   eJztlklOAkEUhp/aICbYC4gLOnEnJh7AG6g34AZ6AKed3kRUnC/hPO5EXTuPl3D4CHSoVJrqKiAxBv/kS1fqDVWE96oq74vkYRh0jTE3rjDhR8/pGqrlzCu59ThT/EJaZDFdHY8O1OfDsWqP228j3ygt4Ves+RaUdcOxanfJ1YlK+FWSEf+v59ftoc90VmQGZmEO5rPNravWnK6oumykfmy+wa77mOrZpmeaVVx9q/3TSMWcyDKswCqUYA3WYQM2YQu2YSdXjYmr74LFurvk2oN9OIBDOIJjOIFTOINzuMjF57PVLbnu4B4e4BGe4Ble4BXe4B0+2rjuJ7m+4LuSMxDpgm7oAQ8SkIReSEFfYO6jy4xIGa7gGm4y0b01GLjtcySw6xFVLr1lkmuPtLO3bHqlnXGhbHrFFFdKucW5+v/r78l0buiy8anIs/Bz6X+XsyVONu/J8Kv6mO7PytkS2nQ/m3dleEdG3ZWm+1O16X6d+q6c9ESmvOa+reT9LbXye037jov7ATrAb+w=
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzrEJACAMRNEMECdSJ1EnsNb5DVgIlhYp5D/49Z0I4C8GkWTl4LtbbK9a7dqtzj/wZuhuqu9u1xMAAMBPFr8/BWk=
+   eJxjYMANangYGGp5yJfHpxaf3jlA8blAbM3LwGADxLa8qGyYPC47kM1GV4tLLzKIBtoRA8SxvKhsXABmJjFmjwJMsJ/OYRYDjcv7PJhi5AJi8wIpeYYYgC/NEZNnaAGIyTPkglIeCC6jc5rJ5kHgwQyAealhIOy9P0D2Uis/IecVYgC2OoocQG5eoWUeGwXDG7DwMTCwImFQ/YsuxsaHqQ9UtqCrQdeHD6gA5VWRMKj+RRdTw2IGqGxBV4OuDwRwlQUuQHlXJOzGh12MHH0gMNruGwXDBQAAm485og==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -97,28 +97,21 @@
    </properties>
   </object>
   <object type="rescue" gid="5122" x="224" y="288"/>
-  <object name="door" type="door" gid="5237" x="64" y="112">
+  <object name="door" type="door" gid="5237" x="224" y="160">
    <properties>
     <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="64" y="288">
+  <object name="door" type="door" gid="5237" x="144" y="272">
    <properties>
     <property name="map" value="indoor/bank"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="160" y="288">
-   <properties>
-    <property name="map" value="indoor/heal"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5461" x="144" y="112">
+  <object name="door" type="door" gid="5461" x="240" y="272">
    <properties>
     <property name="map" value="indoor/coffee"/>
     <property name="x" value="5"/>
@@ -135,7 +128,7 @@
     <property name="skin" value="terranite"/>
    </properties>
   </object>
-  <object type="bot" gid="5123" x="224" y="176">
+  <object type="bot" gid="5123" x="176" y="192">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9017"/>
@@ -167,9 +160,9 @@
     <property name="skin" value="girl"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="400" y="96">
+  <object name="bot" type="bot" gid="5123" x="256" y="64">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9021"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>

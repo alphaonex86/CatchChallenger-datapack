@@ -37,9 +37,9 @@
  <objectgroup name="Moving" width="0" height="0">
   <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
    <properties>
-    <property name="map" value="../0.6"/>
-    <property name="x" value="14"/>
-    <property name="y" value="17"/>
+    <property name="map" value="../1.6"/>
+    <property name="x" value="13"/>
+    <property name="y" value="11"/>
    </properties>
   </object>
  </objectgroup>

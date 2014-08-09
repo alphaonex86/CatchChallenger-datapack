@@ -4,7 +4,7 @@
  <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../tileset/rename.tsx"/>
- <layer name="Walkable" width="11" height="12">
+ <layer name="Walkable" width="11" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAe9ADxYiIwNrU9SBibOLlqceGhqpYWmBj7YRgAO7dIjA==
   </data>
@@ -16,7 +16,7 @@
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJzzZWBo4GVgYCCEfYE4F6hWF0gTwkB1DH5AtQxEAL8RpnYCByqNT+0GDlSaXDcQE78wDAC1WRGq
+   eJzzZWBo4GVgYCCEfYE4F6hWF0gTwkB1DH5AtQxQsJgBFSxGov2Q1C7GopYBi1pk/egYl1pcgFhzYXL4zEUXQ1YLwxM4IHIgGlkcORxgYAMHKo1uLgGvwdUSE78wDAByRCTE
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -38,8 +38,8 @@
   <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
    <properties>
     <property name="map" value="../1.6"/>
-    <property name="x" value="9"/>
-    <property name="y" value="4"/>
+    <property name="x" value="13"/>
+    <property name="y" value="19"/>
    </properties>
   </object>
   <object name="door" type="door" gid="1027" x="48" y="144">

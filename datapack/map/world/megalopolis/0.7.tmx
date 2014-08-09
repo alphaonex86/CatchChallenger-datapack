@@ -16,12 +16,12 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+   eJztzaERAEAIBLGj/y6+UgyCAl4gIuJ2ZitJAQBwzhu+vruHnxrj+2gl
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPHJkYGJxIxM5MBAwdBaOADKDGyMCgwUi6PkYOBCZH3g1opwcZ9lIKBsLe2AGylwFq7xIgVkfC5MQ3qSANaEc6Em4dxvE9F4sYyP8ZA+DfUTAKRsEoIBU0AnHzANi7EIgXj9o7au8wthcAFIwWJA==
+   eJxjYMAPHJkYGJxIxM5MBAwdBaOAjoCRA4HJkR8F9AOLWPDjUXtH7R21d9TegbC3EYiboLiZjvYuRGIvpo6Ro/ZSyd4mKuBUJPNSiNRDDXAaiM9A8Vki9ZyhAn4FxG+g+CUBtTB3vaEzfgu1l4cRgU8hyZ9Ek8OHSdHHy4gZ5q+xuIsYQI4+AHaOluE=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkMEKACAIQ+3W/39xpyCEcs3ytAdCoG4zs5jWgSFidrc/q3o3C6qx5nzh6zUzvkwudP7k73svNKOs/u31ENicp/sZbv71ly9brG/kj9yf5eeNQgghhBAVDBunA9Y=
+   eJztj8EKACAIQ+3W/39xpyAG5dTqtAdC0NycmU/rhCih3e3P+b1bhfVY77yRi56V3MxdrP6Uj3+MZ1SPt+IbPV/kMv1ZD2b/Rm60V3SyuV4+07/Ky45CCCGEED8YG4gEHg==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -66,17 +66,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzTYGFg0ARiLSDWQGJnAHEmEGcBMakAWa8GDvM9gNgTiL3Q2NQCuMynlh9xAVx+p4UfcQFku2jhR2QQi8TGZhdyGNDKXmTQArSnlYbhjcveJUB7lqKFNyE3kOLGWiC2Q8L2QNzEgvAvMiAU55SkiXiovTD/UgvgCld0e7H5lx72DrR/qU0T619q07jA/AHyL8MA+Rdm70jy7yIa+jcaj72RDLTzL8zegxyodoL4IHuHq39x2Tvq31H/ElMeqfIyMKihYXVe3HaT6x9VNPNJtZdc/1JqL7n+dQWa6QbF7rwQvqkIQgwmjgsAANTiEu8=
+   eJztkj0OwjAMhV2pa7twBVoCM1fg9w6IFTgEA4KLILgnlqDCMnFMQkKXPOmpiZP69UtjSoAxeoI2ZLxD79EHtK/ou0bov0Sv0Gs2jiWpfyxGSRJ7CkZJNCsFI9WGjG1Z9AxS5VKdMeeS8Lyl3Bvm3Nl5a9+grQ8KgCM8PS0+10/lm5dK++fa+vbV2+WON6a+ybXx/iO3b97Qp+2++vCGPkNzM2/mzbw677V0OxVvbDUVQEs8qsL28PUmQk/bHl7Tcl3zX3LnxAv0zGPe1bhse3gtq38Na7wPxG1tr4X0egB5adex
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYwMHCwMAJxFwsw8uugQKyBOTpHQYpQHtS0ewi5AZauVEDaJ4mEGvhMJeQPCGQxILdv5QAQvEJs3cgAC38S6y9AwGQ/UttmpC9AwFG/Tu8/QsCtPKvNB47Jengr4Uc2PkDUV4NJBj17/AG1PIvOx+w3YWGOfkoNxefPSDz1YFYAw1r4rB3JgP5/lVHM98diD3QsCcN/OuOxXxREerbQ20AAGgWORg=
+   eJxjYBgYwMHCwMAJxFwsw8uugQKyBOTpHQYpQHtS0ewi5AZauVEDaJ4mEGvhMJeQPCGQxILdv9QAILPxYVoBQvaOVP+SS+PKn8PVv+TaO+rfUf/S0r/ogFL/DlbAyofAbHyE1bPwEdZDjBpVPgRW40PVw4aFr8KHqQcdYFOD7hZXJOyGZq4aFr4LFj3oAJsadLfg0+PGh8knFpiKMjDM4cHtFlqBUFHamT0SAAuZcYOenmkBiMm/AD+MW80=
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBaNgFIyCUUAJqOFhYKjlQfCteRkYbIDYlhdTjppgDtDcuUhmRwPtiwHiWF5MOWwAALSIBts=
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAgWE/D3XUkKr+PpXUEKu+BihXS8A8YtQQ0oPOnwNkz8VhpjUvA4MNENvyItTA9BNyC7q5+OxBB9FA+2KAOJYXUz8p5owUwMLHwMCKhNn4wGm8AV2MGADSR4lb7pOpH10fAJNCGvU=
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -93,6 +93,11 @@
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="0.8"/>
+   </properties>
+  </object>
+  <object name="border" type="border-right" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value="-1.7"/>
    </properties>
   </object>
  </objectgroup>
