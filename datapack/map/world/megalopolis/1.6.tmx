@@ -14,14 +14,15 @@
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="6161" source="../../tileset/building-big.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+   eJztzrERADAIxLBn/y2YNCukgIZTodquJAXD+oPu7e7Gl66urq4uwKwHLeOadQ==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztldENgjAQhq/66qMLqKvoJjKIMoEjFCaBTqIu4jWx6YXctQgFNPZPvpcW+gVKfwByviEaqZB6Qsdtu4yXS/ZOnwtSvL1n5CpQJvY2SBvhBPPvgY1O7L0jjwBP4qV7QN85dy5jUQpgFWCtvPcI/r2bEU6bHa67D3Ag3l/bX72R5+rA3NxeO+a+ozGdMsRbgWeot8F1WgEjjYHvDXeOuG7r02Wuiz95BnoPh7QO7dmCXB/q4+499Px2McAn1r//0s9Le7mepWP2XyntYUpnn7mcnBfnfnEN
+   eJxjYBgFgwEsBOJFQLyYyuY2EcCpNLKXGDBqL/3sTWHAnQaaB8BNIDAQYTGQ9iLHAXKYTxShrb0uQHwIig/TyU4QGGrxu5AHj5l45OhtL7rYULP3INCcQzjwYRxiyACWj2B1F658RW2wCA+mZVpHzr/o+DAOPbjUE4tdGQYm/y4cZvZiK2eRxQ4y4I5DatpJjNwoGAUAr2hMRw==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,7 +67,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlT1SwzAQhVW4UBEq0zB0zAAnoKEHzpDJSTBVHAJJuEWGEAI19BT8n4P/S/BUiFlLWks2Mp7hzXyjeCLv02pX8jQRloapEEfgGIzAGEzASWrPrav1JSE2CJtghvhnYA7OwQJcgMuGfW8R/w7cgwfwCJ7Ac0TfHfjsEvbAC+K/gjfwDj7AJ/hK7XXqtTapgWzHV8ncH71HbSnmPtxI93NmENu3itqu+9ayXfdpYuNaa511mjWh4nxdZzimOF+qHvk9wv9jMEncz035xlJofV21VnfVoKSGZf1c15eLR3upqi9354b4/ibfWL7c+V2T9v2WGe8orjpCXHeK7/71dyD39FLZXfHfpXPfDiBzRqgvdeccoleHIPcQolWy1hWP7ylizkjcKr650S80jy7j2ZfFeb68zXd9eXC+uSzO02OZrz4rauw7zk5IvuY8X31D+u+A5LEfOO9nHxhfsx6xR87XrEfskfP9BviFvBc=
+   eJzdlTtOAzEQhl2kcBGqpUHpkIAT0NAHzhBxEpYqG0ICuUVEeNbQU/A+B+9L8LtYNDv2rL2LwyJ+6ZO1kj2/xzP2TlvK0jBRah+MwBgcgEMwSey5dbWyoNQqYQ3MEP8YnIBTcAbOwcWcfW8Q/xbcgXvwAB7BU0TfLnw2CVvgGfFfwCt4A+/gA3wm9j7zvc5TA92MrxE/n/yMmlLMc7jW7u+UEdu3ipqu+/qiXfdpy8a11zr75DWhknxddzimJF+q7biWf9LX1Yu81uatGpTUsKyf6/pK8WgvVfWV3twQ35/kG8tXur/L2n7fUrbGcNlW6qpdXPvb/4HM00tlb8V/l8m9g3EjgFQKUlPmzdlDrw5B5iFENI8lj+8RYs5I3Cq+GesXmkdP8Ozr4jxf3nytLw/JN9PFeflY5pvfFTP2HXcnJF8+z1ffkP7bJXnsBM77PgfBl9cj9ij58nrEHiXfLwMbuOQ=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -169,6 +170,15 @@
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9043"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="224" y="96">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="2"/>
+    <property name="map" value=""/>
+    <property name="x" value=""/>
+    <property name="y" value=""/>
    </properties>
   </object>
  </objectgroup>

@@ -2,8 +2,8 @@
     <condition id="1" quest="1" type="quest">
         <blockedtext><![CDATA[You have not done the quest <b>The beginner's rod</b>]]></blockedtext>
     </condition>
-    <condition id="2" item="1" type="item">
-        <blockedtext><![CDATA[You have not an <b>Potion</b> to open the door]]></blockedtext>
+    <condition id="2" item="4901" type="item">
+        <blockedtext><![CDATA[You have not an <b>Admin key</b> to open the door]]></blockedtext>
     </condition>
     <condition id="3" type="clan">
         <blockedtext><![CDATA[Your clan don't own the area]]></blockedtext>

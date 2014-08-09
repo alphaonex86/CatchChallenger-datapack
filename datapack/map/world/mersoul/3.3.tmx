@@ -135,7 +135,7 @@
   <object name="bot" type="bot" gid="5123" x="160" y="400">
    <properties>
     <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9003"/>
+    <property name="id" value="9049"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
    </properties>
@@ -148,12 +148,12 @@
     <property name="skin" value="girl2"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="304" y="64">
+  <object name="bot" type="bot" gid="5123" x="208" y="144">
    <properties>
     <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9003"/>
-    <property name="lookAt" value="right"/>
-    <property name="skin" value="girl2"/>
+    <property name="id" value="9047"/>
+    <property name="lookAt" value="bas"/>
+    <property name="skin" value="kid1"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="96" y="64">

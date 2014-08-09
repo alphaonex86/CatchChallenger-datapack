@@ -331,7 +331,7 @@ skin is invisible
             <text lang="fr"><![CDATA[Dégage de la on veut pas de toi le naze.]]></text>
         </step>
     </bot>
-    <bot id="9038">
+    <bot id="9039">
       <name>Elie</name>
       <name langue="fr">Elie</name> 
         <step type="text" id="1">
@@ -387,4 +387,36 @@ skin is invisible
             <text lang="fr"><![CDATA[Si tu continue au nord-ouest de la ville tu trouvera la mine de Telomont]]></text>
         </step>
     </bot>
+    <bot id="9046">
+      <name>Carpenter Louis</name>
+      <name langue="fr">Louis le charpentier</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Hi, I work all types of wood, come see me if you need help]]></text>
+            <text lang="fr"><![CDATA[Salut, je travail tous les types de bois, viens me voir si tu as besoin]]></text>
+        </step>
+    </bot>    
+    <bot id="9047">
+      <name>Schoolboy Louis</name>
+      <name langue="fr">Louis l'Écolier</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Hi, do you whant play with me]]></text>
+            <text lang="fr"><![CDATA[Salut, tu veux joué avec moi ?]]></text>
+        </step>
+    </bot>   
+    <bot id="9048">
+      <name>Schoolboy Louis</name>
+      <name langue="fr">Louis l'Écolier</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Pushes you, you hide the sun !]]></text>
+            <text lang="fr"><![CDATA[Pousse toi tu cache le soleil !]]></text>
+        </step>
+    </bot>      
+    <bot id="9049">
+      <name>Melissa</name>
+      <name langue="fr">Melissa</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Following the recent attack animals, not so boat at sea]]></text>
+            <text lang="fr"><![CDATA[Suite au récente attaque d'animaux, les bateau ne sorte plus en mer]]></text>
+        </step>
+    </bot>       
 </bots>

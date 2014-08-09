@@ -14,14 +14,15 @@
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="6161" source="../../tileset/building-big.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
+   eJxjZGBgYBzFoxgNL6IQD2V7nXhJxyPdXnLiaqDspUa6ItccNV7iMbXtJUXdqL1DK37deInH1LSXVDxq78DYO4pH8SgexYQwACX12ag=
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlmEKgCAMhXe4ukkepG6SnaS6WBMaRGyhtUmWD94fJ/tQ5xTAXiN6ysD5A7dHD4KdITesyaMb9MJ4NebmPkdtbmw+TW6oFbfn60Cum+EwT4M7A18jnFtFboq+UleVW7kWXC5f7Ngd0bvG9aursafclF4l9SvaA8/EtEQMbg88E9PmSu/+2drc0u9R5b6LS/fd6r9aujahEmne
+   eJxjYKA9WAjEi+lgz3CztxGIm0jAqUCcgiZGDliIQ3wRmeYNlL0LoXoXEyFGTTDQ9iKngVQcYtS2dyAApfZSkq5G7aWtvQtHmL0wu0ftHbWXFHsXIWFc4CAQHyITu0LNdiFSPbUAtvqSHmDU3uFtLywvHKazvUMFAAC5003a
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -61,17 +62,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzl1rlOwzAcx3EPGbpEQDMhZkBMXBs7MHJNqE8CGyKVAHE9BGzcxwOwc5XjLYBesPO1SEWIYjdOnArBX/rIUdX6p7+dOvEdIcrwDcestccc+475GK1lBVWZ9tnvCjEQMujq+7oq2OnXNLddv6uFL+WAvD71hDjDOS5w6dnLVe2XzK2Q84BHPOHZYq6u6uQ00MQ7PjBJzlSQJcfpmFzVniYt1e9XnJ9j3PeGXLU867/lRu8/0/twjT1cx4aj/ixuf9vl2jpvTXN151C1KEQNdTTQxCb/pS1sYwe7Xrpc3bnbxZzd6EERHg5wiCMc4yRlrq7fYeYcwSjGMI5r3OAWd7jP2G/rHGqR59AMc85iDvNYwAte8YYqahn7jZZvcNb9pvs5un7hdZSl6jdLJXku2Og3zfMnj36TlOn7la33yrTvk7p16sNEoLeD/ZZC8y52sN9SaF5V7l/td0l873VY3v2qxrz7VY2fl5HhKQ==
+   eJzd1rtPU2EcxvF3YAATIrQTh0QQLBAWRDYG7hRwwctkSPACqP8CDMqlgAOKclkVtVUHBVFYVUCFAVBQV1TwwqBydef75pzGctIDnPK2BN/kk1/SNM/TX3t6Wk+UEK3w2Jy7PV4yfFH2p/k0WLA64d5zJHrrfW85hehCN3rQ69zZnqEe/x6D9DzDcwxhGK5YIdICpMeq6/XvMUPPLD7gIz6Fudd/VuhZxRrW8Rel9LiNLjnLgvTKzy+ax2NsOKDo9WfYzMnc573l5FTYcFxRr/n6246K61NeVy6bObJXxf1W9h7ShEhCMg4jBak4AhfSkI4MTe9VcR+SvXnk5aMAhShCMUpQCjfKUK5t3nfJIcQyVrCKNYee2cH3+DpuoBM3ncF7q8k7i3M4jwuoQS3qcBGXcNm070Hy4hAPB5xG/mPmE/RjAE8teq+QdxWNaEIzWuBBK9rQjmumfbPIO4psHEOOkT/JnMI03uG9qVdeV/K+dpu8O+jDXdzDfXjhwwM8xCNNv+/5960k7wRO4hROG/m/mL/xB0tYDrKv7H5B3ku8wghGMYbXeIO3GMeEpj9f1f+HOfI+4wu+Yh4L+Ibv+IGfWNT056v+Xd3pUbWv3bPX+4Y6Qz2h/p/c6n1KRK4hIYL7VgXknongvlUBuVa9/+u+9eLfZx0o3PtazXDvazU3ABw3+bQ=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQjzNzsfAwIGEOfnwm7+Qg3Q3FQozMBQBcTEQlwBxKRCrA+3RQMKaBOwl5F9sYCLQnklAPBmIpwDxVCB2B9rjgYQ9ybSXHBDPg0qTA/D5Fx8wFcUtR06cEqs/VJQ4daMAASooSB+UgBkU2osrfi14sNMgQG56JgZE8GCnkQELMP+zImE2ID4vxMBwAYgvAvElIL4MxDnAsiMXiPOAOB+IC4Rx20uMf1WA9qgiYTUqlEPE+NcFaI8rEnajgr2DOX4pAYTSMzY+rf0bKgJhg2hq+xcdIPu/VASVhgFq+Hco1Quktq/Q6aEGqOFfSTzm0hJEkqGHGv7FZu9I9S8t88FQ8i8AOgVZrA==
+   eJzl1DlOw0AYhuEfcEKQUIqEFLZEB0gcgBsAd6CHDsIucRQalrBfgh0CHVvNvl6C5bUgyhRmiMcTIsuf9MiSl/nyy86INCbDjsiIU/sxbEoZ/fXJvMgUpjGDWThZkZQinTWbLSi6Obro6Vb0WOzVpZ+eAcXgP81bSaHj92tB76/Wc3+lT9ObxCy4IotYwjJKWMEq1rCODWxiy60+N9cerXebtXawiz3s4wCHOMIxyjjBqdI7H6HX/16uWesGt7jDPR7wiCc84wWvePvpNd2H1Lyz1gc+/TU9kSY0owUOUkijFRm0edH6KukMuU6vV533LCdyjgtc4ir3fc8o++UYihjHRN7Ob21Uor5fk33IVsJ2+/fb+J7jlKTOa3qMW2zM62rWrWeGDJ6xMW9Qb1Lnref/IE7zfgHgIGze
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAGteBgYbILblpa+90UD7YoA4ls72EgM4gG7ixIK5aOxWDRzma9HYXg+g+Z5YsBfU3lIeCC7joa070EE2DwIPBPjPw9AwEPbK8w6MvQMJHHhQ6VEwCkbBKBgFo2C4AwApeAsv
+   eJztzrEJACAMRNEMECdSJ1EnsNb5DVgIlhYp5D/49Z0I4C8GkWTl4LtbbK9a7dqtzj/wZuhuqu9u1xMAAMBPFr8/BWk=
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -96,42 +97,28 @@
    </properties>
   </object>
   <object type="rescue" gid="5122" x="224" y="288"/>
-  <object name="door" type="door" gid="5237" x="144" y="112">
+  <object name="door" type="door" gid="5237" x="64" y="112">
    <properties>
     <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="144" y="272">
+  <object name="door" type="door" gid="5237" x="64" y="288">
    <properties>
     <property name="map" value="indoor/bank"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="224" y="272">
+  <object name="door" type="door" gid="5237" x="160" y="288">
    <properties>
     <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="384" y="304">
-   <properties>
-    <property name="map" value="indoor/stock exchange"/>
-    <property name="x" value="15"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5237" x="416" y="304">
-   <properties>
-    <property name="map" value="indoor/stock exchange"/>
-    <property name="x" value="17"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5461" x="224" y="112">
+  <object name="door" type="door" gid="5461" x="144" y="112">
    <properties>
     <property name="map" value="indoor/coffee"/>
     <property name="x" value="5"/>
@@ -148,7 +135,7 @@
     <property name="skin" value="terranite"/>
    </properties>
   </object>
-  <object type="bot" gid="5123" x="320" y="240">
+  <object type="bot" gid="5123" x="224" y="176">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9017"/>
@@ -156,7 +143,7 @@
     <property name="skin" value="miller"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="400" y="352">
+  <object name="bot" type="bot" gid="5123" x="384" y="320">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9018"/>
@@ -164,7 +151,7 @@
     <property name="skin" value="waiter"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="112" y="288">
+  <object name="bot" type="bot" gid="5123" x="96" y="304">
    <properties>
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9019"/>
@@ -186,6 +173,41 @@
     <property name="id" value="9021"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="304" y="288">
+   <properties>
+    <property name="file" value="indoor/stock exchange"/>
+    <property name="x" value="12"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="336" y="288">
+   <properties>
+    <property name="file" value="indoor/stock exchange"/>
+    <property name="x" value="14"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="368" y="288">
+   <properties>
+    <property name="file" value="indoor/stock exchange"/>
+    <property name="x" value="16"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="400" y="288">
+   <properties>
+    <property name="file" value="indoor/stock exchange"/>
+    <property name="x" value="18"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="432" y="288">
+   <properties>
+    <property name="file" value="indoor/stock exchange"/>
+    <property name="x" value="20"/>
+    <property name="y" value="18"/>
    </properties>
   </object>
  </objectgroup>

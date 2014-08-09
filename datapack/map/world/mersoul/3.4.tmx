@@ -128,7 +128,7 @@
   <object name="bot" type="bot" gid="5123" x="256" y="432">
    <properties>
     <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9002"/>
+    <property name="id" value="9046"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="john"/>
    </properties>
