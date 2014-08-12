@@ -1,5 +1,5 @@
-<map type="outdoor" backgroundsound="toto.ogg" zone="chantiville">
-	<name>boreal forest</name>
+<map type="outdoor" backgroundsound="toto.ogg" zone="road">
+	<name>Boreal forest</name>
 	<name lang="fr">Fôret boréale</name>
 	<grass>
           <monster id="23" minLevel="16" maxLevel="17" luck="20" />

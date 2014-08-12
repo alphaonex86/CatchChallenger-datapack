@@ -1,6 +1,6 @@
-<map zone="megalopolis" type="outdoor">
-	<name>Megalopolis</name>
-	<name lang="fr">Megalopolis</name>
+<map zone="road8" type="outdoor">
+	<name>Wood</name>
+	<name lang="fr">Forêt</name>
 	<grass>
           <monster id="13" minLevel="13" maxLevel="15" luck="40" />
           <monster id="3" minLevel="13" maxLevel="15" luck="35" />

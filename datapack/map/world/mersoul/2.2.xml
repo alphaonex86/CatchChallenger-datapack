@@ -1,6 +1,6 @@
-<map zone="mersoul" type="outdoor">
-	<name>Mersoul</name>
-	<name lang="fr">Mersoul</name>
+<map zone="road7" type="outdoor">
+	<name>Sea</name>
+	<name lang="fr">Mer</name>
 		<water>
           <monster id="19" minLevel="9" maxLevel="11" luck="5" />
           <monster id="20" minLevel="8" maxLevel="11" luck="15" />

@@ -1,6 +1,6 @@
-<map zone="telomont" type="outdoor">
-	<name>Crossing of the fate</name>
-	<name lang="fr">Croisement du destin</name>
+<map zone="road9" type="outdoor">
+	<name>Mountain</name>
+	<name lang="fr">montagne</name>
 	<grass>
           <monster id="3" minLevel="17" maxLevel="21" luck="30" />
           <monster id="13" minLevel="17" maxLevel="22" luck="20" />

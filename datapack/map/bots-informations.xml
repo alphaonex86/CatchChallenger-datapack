@@ -511,4 +511,42 @@ skin is invisible
              siécles avant de gémer.]]></text>
         </step>
     </bot>
+    <bot id="9059">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Tuber has few leaves <br />
+              stock it qualified its tigue souteraine <br />
+              what PERMER it to resist very cold winter <br />
+              and where very hot summer. ]]></text>
+            <text lang="fr"><![CDATA[Le Tuber posséde peu de feuilles,<br />
+             il stock des réserves dans sa tigue souteraine<br />
+             ce qui lui permer de résister au hiver très froids <br />
+             et où été très chaud.]]></text>
+        </step>
+    </bot>
+    <bot id="9060">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Seed Areca occurred <br />
+              by Arecanier, which grows exclusively <br />
+              land Hot / Barren. <br />
+              The seed is not edible.]]></text>
+            <text lang="fr"><![CDATA[La Graine d'aréca est produite<br />
+             par l'arécanier, qui ne pousse exclusivement sur<br />
+             les terrains Chaud/Aride. <br />
+             La graine n'est pas commestible.]]></text>
+        </step>
+    </bot>
+    <bot id="9060">
+      <name>Marie</name>
+      <name langue="fr">Marie</name>
+         <step type="text" id="1">
+            <text><![CDATA[It is said that under the city <br />
+  is hiding a criminal station.]]></text>
+            <text lang="fr"><![CDATA[On raconte que sous la ville<br />
+             se cacherait une station de criminelle.]]></text>
+        </step>
+    </bot>
 </bots>

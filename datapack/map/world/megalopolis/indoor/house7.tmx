@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/terra.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANNBOBYYCTCAwDmkRgGHhBBB5Vi6qWWAAAm9U/dg==
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxnI4hBP5CDPPAAiEACH
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAsJhGmJMIDFOrSQSGqQWBCg4GhkoOCHsSDwPDFB6E2EQeVLWEADlqrTgYGmBik4B2XgLiyRwIdUB5uNooJLWbgOKfgHgzktooDtq4N4mD9DgDAJROLUk=
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdEGXBZGMTAwFTIDuCg4EhkgPCxiVGSyDFwdBAQJ4mQIlIcx2B6pxo5AYYAAA8WwRM
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8YAYHA8NMDsJiILADKLaTg7DYKCANAACXuQWF
+  </data>
+ </layer>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" type="bot" gid="1027" x="80" y="112">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="7061"/>
+    <property name="lookAt" value="Bottom"/>
+    <property name="skin" value="oldgirl"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

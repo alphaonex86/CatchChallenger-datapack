@@ -100,5 +100,12 @@
     <property name="map" value="-1.7"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5461" x="352" y="416">
+   <properties>
+    <property name="map" value="indoor/house7"/>
+    <property name="x" value="2"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

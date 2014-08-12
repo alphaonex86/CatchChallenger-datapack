@@ -77,7 +77,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAe1PAwMNTyUKYmiQWCbXkRak1FEWxs+ucA+XMJ2EtIDczeWF6E2lBRBJsYO8gBMHvpDUbtRYD9FMQrUG8Dufbep8De+0Tai55fiMmjxAJsZsHsRc8vyHx8eZkYgC0vEpOuaJGXB2N6ppe993ggmN72/uOBYFxgGh/p5ucJMjDkC+K3lxDYRoa9fUA7+7HYSyuAnOeoWRYQAsh5jlZ16SigDGCrB0FihOo4qDq8akitB0FihOo4qDqCapABvrqHlLxBah2Gr+4hJW/Quj1KChiI+mfU3oG1FwA3NE/d
+   eJxjYCAe1PAwMNTyUKYmiQWCbXkRak1FEWxs+ucA+XMJ2EtIDczeWF6E2lBRBJsYO8gBMHvpDUbtRYD9FMQrUG8DjD2PlzR77/Og6sOmHxe4j2TvPjz2oucXZD5MHzb9xABseRFmL3p+Qebjy8vEAGx5kZh0RYu8PBjTM73svccDwfS29x8PBOMC0/hINz9PkIEhXxC/vYTANjLs7QPa2Y/FXloB5DxHbv4jByDnOVrVpaOAMgCrB5HrIZAYoToOqq4BuwwEEFMPItdDIDFCdRxUHV570QG+uoeUvEFqHYav7iElb9C6PUoKGIj6Z9TegbUXAEMhVys=
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -190,7 +190,7 @@
    <properties>
     <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="2"/>
-    <property name="map" value=""/>
+    <property name="map" value="indoor/admin"/>
     <property name="x" value=""/>
     <property name="y" value=""/>
    </properties>

@@ -77,7 +77,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxLYmFgSALimwz0BUkDbC+9wUDZOwqGNxhp6XnU3lF7h5O9MLtHwSgYBdQDNTwMDLU89Ld3DtDOuQNg7ygYBdQAAOgKDgs=
+   eJxLYmFgSALimwz0BUkDbC+9wUDZOwqGNxhp6XnU3lF7h5O9MLtHwSigJZjHOzD27hsge2t4GBhqeehv7xygnXMHwN5RMHQALC/SO0/C8iK+PAkAmT0SbQ==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
