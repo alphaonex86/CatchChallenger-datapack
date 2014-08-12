@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/rename.tsx"/>
+ <tileset firstgid="1" source="../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../tileset/rename.tsx"/>
  <layer name="Walkable" width="11" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAe9ADxYiIwNrU9SBibOLlqceGhqpYWmBj7YRgAO7dIjA==
@@ -16,7 +16,7 @@
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJzzZWBo4GVgYCCEfYE4F6hWF0gTwkB1DH5AtQxQsJgBFSxGov2Q1C7GopYBi1pk/egYl1pcgFhzYXL4zEUXQ1YLwxM4IHIgGlkcORxgYAMHKo1uLgGvwdUSE78wDAByRCTE
+   eJzzZWBo4GVgYCCEfYE4F6hWF0gTwkB1DH5AtQxEAL8RpnYCByqNT+0GDlSaXDcQE78wDAC1WRGq
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
