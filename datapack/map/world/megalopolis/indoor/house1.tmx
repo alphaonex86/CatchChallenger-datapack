@@ -4,52 +4,53 @@
  <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <layer name="Walkable" width="11" height="12" opacity="0.9">
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBjeYCEReCSoJRYAAKB1Ifc=
+   eJxjYCANNBOBqaFWEwuGgRdE4FG1qGqJBQDElEUo
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwFwMTEwyFHBHAANZgAr
+   eJxjYBhZIJaDuuZNRDNvCh7zN6LJbaGyW5CBLBBP5iFdHwBuwgPM
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsHgQYFYiMEytKhEYpraZg4GhBYhBwA1IuwOxB5QPk4OpRQZpQPF0IM7gQBXHphYXgKlNBpqRwoFdDUwOm3vRAT73EnIDsRgAP7Qv8w==
+   eJxbzMDAsJhGmJMIDFOrSQSGqQWBCg4GhkogtgPi/UBcz4EQc+BAVUsIUKp2EtC+S0A8mYOw2k1ANZ+AeDMRagm5IYmDoYFYtcRiADSrK4I=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
+   eJxjYBg8IIKDgSGSg7DYKKAdAAA4+gGD
   </data>
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcQJQFO40MkjkYGFKA2BQopwalNaA0TG4UkAcA9WUDAw==
+   eJxjYBg8QIKTgUESiOU4GBjmA3E8B0JMgQNVrQVQzJKTsNhgAEocDA3EqnUCqnUkQX0iCWqJAQCRYwYP
   </data>
  </layer>
- <layer name="other" width="11" height="12">
+ <layer name="other" width="11" height="12" opacity="0.9">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuMByjoF2Af0BAKjUALA=
+   eJxjYKAdEGXBZGMTAwFTNLYMB6YYLmDDQZk7RwECAACB/gGx
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="128" y="192">
    <properties>
     <property name="map" value="../0.6"/>
-    <property name="x" value="14"/>
-    <property name="y" value="10"/>
+    <property name="x" value="10"/>
+    <property name="y" value="3"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
   <object type="bot" gid="1027" x="80" y="96">
    <properties>
-    <property name="file" value="../../../bots-services.xml"/>
-    <property name="id" value="101"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="market"/>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9052"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="smith"/>
    </properties>
   </object>
  </objectgroup>

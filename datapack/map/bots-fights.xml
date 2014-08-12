@@ -734,8 +734,8 @@ skin is invisible
         <step type="fight" id="1" fightid="7146" leader="true"/>
     </bot>
     <bot id="7147">
-      <name>Paul</name>
-      <name langue="fr">Paul</name>
+      <name>Scientific Marco</name>
+      <name langue="fr">Marco le scientifique</name>
         <step type="fight" id="1" fightid="7147"/>
     </bot>
     <bot id="7148">

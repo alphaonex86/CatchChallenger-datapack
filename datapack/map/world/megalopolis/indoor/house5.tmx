@@ -4,19 +4,20 @@
  <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <layer name="Walkable" width="11" height="12" opacity="0.9">
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBjeYCEReCSoJRYAAKB1Ifc=
+   eJxjYCANNBOBYYCTCAwDmkRgGHhBBB5Vi6qWWAAAm9U/dg==
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwFwMTEwyFHBHAANZgAr
+   eJxjYBg+QJKFNmop0UNrkMjB0IBNXJZM8wCt5AFe
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsHgQYFYiMEytKhEYpraZg4GhBYhBwA1IuwOxB5QPk4OpRQZpQPF0IM7gQBXHphYXgKlNBpqRwoFdDUwOm3vRAT73EnIDsRgAP7Qv8w==
+   eJxbzMDAsJhGmJMIDFOrSQSGqf3KwcDwDYivAvE1IN4OxBwgw4BACEgLcyLUYgMwtUZA2hhJrSZUXBVIq0OxBieqXnzmogNaq03iYGiAiU3mgWBcaonFADocKpo=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -26,30 +27,38 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcQJQFO40MkjkYGFKA2BQopwalNaA0TG4UkAcA9WUDAw==
+   eJxjYBgcQJSDgUEMiEOBOAyIp3PgVmsKlDMD4lIgLsOjbrAAJQ6GBkUgJkatE1CdI5FqaQEA738F8g==
   </data>
  </layer>
- <layer name="other" width="11" height="12">
+ <layer name="other" width="11" height="12" opacity="0.9">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuMByjoF2Af0BAKjUALA=
+   eJxjYKAdEGVB0BIsqHxkGgRMWRC0BQsqH5keBbQFAPkaAfM=
   </data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="128" y="192">
    <properties>
     <property name="map" value="../0.6"/>
-    <property name="x" value="14"/>
-    <property name="y" value="10"/>
+    <property name="x" value="29"/>
+    <property name="y" value="3"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object type="bot" gid="1027" x="80" y="96">
+  <object type="bot" gid="1027" x="112" y="80">
    <properties>
-    <property name="file" value="../../../bots-services.xml"/>
-    <property name="id" value="101"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="market"/>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9055"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="144" y="112">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9056"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="girl2"/>
    </properties>
   </object>
  </objectgroup>

@@ -16,12 +16,12 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0bENACAMBLH8qozGpNQsQCLk4moXl6rK43aDOdldueP+9ZfL5XK5XC6Xy53qHsIMGvs=
+   eJzt0bkRACAMBLFzq5RGpcQ0wONRsLGCrSR1uHnBfNkdtcft9ZfL5XK5XC73V1f9W8KbF9Y=
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvWEhn+0btHVz2JjJiiiVjEaO2vbQCo/ZigodA/AiKH9PRXkVgOlKCYmUy01QjEDch4VQgPk2eUSQBkP8WoeHXdLD3IBAfQsKuQMzNSN24IwbA4peSuKPEXnqDwWIvGxCzo2EOOtirhkWNBh3sdQNidzTsQQd7KQUTRQbGXmLBqL2j9o7aO/TtBQC11iVM
+   eJxjYKAvWEhn+0btHVz2JjJiiiVjEaO2vbQCo/ZigodA/AiKH9PRXkVgOlKCYmUy01QjEDch4VQgPk2eUSQBkP8WoeHXdLD3IBAfQsKuQMzNSN24IwbA4peSuKPEXnqDwWIvGxCzo2EOOtirhkWNBh3sdQNidzTsQQd7KQUTRQbGXmLBqL3D215YPTEKhjcAAIiuI6o=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxrYWFgaAXiFjrRqoIMDGpAvATIXspCPxpmLy53iTEwMIijYQkGyv3rCrTTDY9/zRgwgQUD5f6FAVzuwmUvpf6FgcHiXxgIA+JwIBaF0iAcwUBYHy5AKD0TC0jVhys90wug+5deAJaPyPUvqfGLDsj1L7npglJAqX/JBeT6F5auSAXk+hM9/5IKSPXnQQ5UfcTmX2LLW0IAV31ErP8oLd/Q3RGLRW08A/X9i+6OWiC7Dg3X08G/lNan5PqX0vqU3v4llR6s7Ula0YTak7SiByp+qZWeR/1LnH8BlP49uQ==
+   eJzllrsNAkEMRCe4gJSATwNQAqIBKAFIEH0gAcnRCRRCZxgdDjAsu7Y56yRGGs0Gt1o/nfdTV8CZXAflpA9MyRcaX6u45HVTdQ0BjITH8PMuaM3lF94Z3jWHn5eVqiu1rpeX1RVe1oq8Jg+e+fAG+Xkp5fq5VNp5qX6OkuSNEu8jK6/2/0pZea194ZWX1yorL/eVVlZOuX+10nLeeq/zSvdv6XmbU+o+KuXznm+yju2Hb3f4Pa+s40Djo/ApgNd7n1p5vfdpNK82u/qebCtz78m2co/G0byc0byc/8Z7B7zBQ3E=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvUBFiYFAVQvBTWBgYUlkQNC6Aro5U2gVop6sQbvNpDXC5i1T1xNIDDch1D6n6YOpYgHHLOgDxC0vP9A73wZKeydU3WNIprcFQ8y+5+YjS/I5eL9AKLORA5cPyEaXlMbFgsKQDmDtkscjJMwxf/9K6Ph0u/iWVHiz1L73owVL/0oseaDDS/DtQAAASlWFF
+   eJxjYKAvUBFiYFAVQvBTWBgYUlkQNC6Aro5U2gVop6sQbvNpDXC5i1T1xNIDDch1D6n6YOpYgHHLOgDxC0vP9A73wZKeydU3WNIprcFQ8y+5+YjS/I5eL9AKLORA5cPyEaXlMbFgsKQDmDtkscjJMwxf/9K6Ph0u/iWVHiz1L73owVL/0pse9e/wBgBoO2Ln
   </data>
  </layer>
  <layer name="other" width="30" height="30">

@@ -11,7 +11,7 @@ skin is invisible
 		<a href="2">Yes</a><br />
 		<a href="close">No</a>]]></text>
             <text lang="fr"><![CDATA[Voulez vous être soigné?<br />
-		<a href="2">Oui</a><br />
+		<a href="2">Oui</a> <br />
 		<a href="close">Non</a>]]></text>
         </step>
         <step id="2" type="heal"/>
@@ -31,17 +31,11 @@ skin is invisible
             <step id="1" type="text">
 		    <text><![CDATA[I can old your item.<br />
 		<a href="2">[Warehouse]</a>]]></text>
+		<text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
+		<a href="2">Acheter</a><br />
+		<a href="3">Vendre</a>]]></text>
 	</step>
         <step id="2" type="warehouse"/>
-    </bot>
-    <bot id="4">
-      <name>??</name>
-      <name langue="fr">??</name>
-                <step id="1" type="text">
-		    <text><![CDATA[I'm making some object into my industry.<br />
-		<a href="2">[Industry]</a>]]></text>
-	</step>
-        <step industry="1" id="2" type="industry"/>
     </bot>
     <bot id="5">
       <name>Trader Malcolm</name>
@@ -49,6 +43,9 @@ skin is invisible
         <step id="1" type="text">
 		    <text><![CDATA[I can buy some of item.<br />
 		<a href="2">[Sell]</a>]]></text>
+		<text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
+		<a href="2">Acheter</a><br />
+		<a href="3">Vendre</a>]]></text>
 	</step>
         <step shop="1" id="2" type="sell"/>
     </bot>
@@ -58,17 +55,33 @@ skin is invisible
            <step id="1" type="text">
               <text><![CDATA[You can sell/buy objets into the general market.<br />
               <a href="2">[Market]</a>]]></text>
+              <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
+		<a href="2">Acheter</a><br />
+		<a href="3">Vendre</a>]]></text>
            </step>
         <step id="2" type="market"/>
     </bot>
     <bot id="7">
-      <name>Florentin clan master</name>
+      <name>Clan master Florentin </name>
       <name langue="fr">Florentin maitre des clans</name>
 	       <step id="1" type="text">
             <text><![CDATA[If you have some freind you can create a clan.<br />
             <a href="2">[Create clan]</a>]]></text>
          </step>
         <step id="2" type="clan"/>
+    </bot>
+    <bot id="8">
+      <name>Florist Claire</name>
+      <name langue="fr">Claire la fleuriste</name>
+           <step id="1" type="text">
+              <text><![CDATA[You can sell/buy objets into the general market.<br />
+              <a href="2">[Market]</a>]]></text>
+              <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
+              nous vendons differents types de graines<br />
+		<a href="2">Acheter</a><br />
+		<a href="3">Vendre</a>]]></text>
+           </step>
+        <step id="101" type="market"/>
     </bot>
     
     

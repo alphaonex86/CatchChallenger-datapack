@@ -419,4 +419,96 @@ skin is invisible
             <text lang="fr"><![CDATA[Suite au récente attaque d'animaux, les bateau ne sorte plus en mer]]></text>
         </step>
     </bot>       
+    <bot id="9050">
+      <name>Michel</name>
+      <name langue="fr">Michel</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I am a former trader retirement if you want I can give you two or three tips]]></text>
+            <text lang="fr"><![CDATA[Je suis un ancien trader a la retraite si tu veux je pourrai te donné deux ou trois conseils]]></text>
+        </step>
+    </bot>  
+    <bot id="9051">
+      <name>Miriam</name>
+      <name langue="fr">Miriam</name> 
+        <step type="text" id="1">
+            <text><![CDATA[My husband is a pro in terms of scholarship]]></text>
+            <text lang="fr"><![CDATA[Mon mari est un pro en matiére de bourse]]></text>
+        </step>
+    </bot>   
+    <bot id="9052">
+      <name>Smith William</name>
+      <name langue="fr">William le forgeron</name> 
+        <step type="text" id="1">
+            <text><![CDATA[All of the energy that powers the city comes from the refinery éthanole]]></text>
+            <text lang="fr"><![CDATA[La totalité de l'energie qui alimente la ville provient de la raffinerie de l'éthanole]]></text>
+        </step>
+    </bot>     
+    <bot id="9053">
+      <name>Hermans</name>
+      <name langue="fr">Herman</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Damn, where i placed my Catchtrapes !]]></text>
+            <text lang="fr"><![CDATA[Mince, où j'ai bien pu ranger mes Catchtrapes !]]></text>
+        </step>
+    </bot>   
+    <bot id="9054">
+      <name>Waiter Jack</name>
+      <name langue="fr">Jack le serveur</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I serve you something?]]></text>
+            <text lang="fr"><![CDATA[je vous sert quelque chose ?]]></text>
+        </step>
+    </bot>   
+    <bot id="9055">
+      <name>Laminien Henri</name>
+      <name langue="fr">Henri le Laminien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I find fighting between unjustified tamers <br />
+             they should be banned <br />
+             What Lamina watch over you]]></text>
+            <text lang="fr"><![CDATA[Je trouve les combats entre dompeurs injustifié,<br />
+             ils devraient être interdit !<br />
+             Que lamina veille sur toi]]></text>
+        </step>
+    </bot>  
+    <bot id="9056">
+      <name>Rutilien Amelie</name>
+      <name langue="fr">Amélie la rutilien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[My husband is so wrong! he believes in Lamina <br />
+              us only Rutifort is legitimate. <br />
+              For the glory of Rutifort]]></text>
+            <text lang="fr"><![CDATA[Mon mari est tellement dans l'erreur ! il croit en Lamina,<br />
+             entre nous seul Rutifort est légitime.<br />
+             Pour la gloire de Rutifort]]></text>
+        </step>
+    </bot>    
+    <bot id="9057">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[The Mycota plant toxic <br />
+              that grows easily in moist areas <br />
+              it is unfortunately known to be the <br />
+              sole responsible for the death of Éfrale.]]></text>
+            <text lang="fr"><![CDATA[La Mycota est une plante toxic,<br />
+             qui pousse facilement dans les regions humides<br />
+             elle reste maleureusement connu pour être <br />
+             la plante responsable de la mort d'Éfrale.]]></text>
+        </step>
+    </bot>
+    <bot id="9058">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Alban nut is a small seed upprenentes, <br />
+               indeed it owned curious  properties  <br />
+              that the seed can be able to survive two <br />
+              centurys before gemer. ]]></text>
+            <text lang="fr"><![CDATA[La Noix d'alban est une petite graines,<br />
+             au propriétés supprenentes en effet on racconte<br />
+             que cette graine serai capable de survivre deux <br />
+             siécles avant de gémer.]]></text>
+        </step>
+    </bot>
 </bots>

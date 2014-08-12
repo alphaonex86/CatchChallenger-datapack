@@ -22,7 +22,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlkkOwjAMRd1122twEug9KScBVkwHYegdiKWgmkBIYicW05f+xqrzIltuDDDqbHyxHiBe3Lxf4u6M99Ynkn8k8ZA5efSumq4rgMZ6S+IbGOMlHOrT3Lg3XkT2jaN34mpIkyuZh4NzVp/AlcwCrcmkjePid6jGM0cDhGehre7PS+FSSfr75+pwu0hul5mLSpmjXNyUdw2V4/11c1/5du4nv7+cPF+PvnWvo6o9/94S3JXQsyfcaUSeVLgHuXUquRNRrisN7hIea7hW4HJ1BWRPF8g=
+   eJztllsOgjAQRYdv6DZYieA6xZWoX4IuxNceLLGEsbbaztDxEW9yf0puD+lkOgUYddI+G18gXNTcO7i1utmVr9A3X3auaNxOe2d8RPkDWn9lSg7/q6TzDKAwbtH6Fsb1FMZy1Wmh3WgvA+tG0SdxJSTJ5fTD3tqrieByegGfSanCuKW5hwpGH6nsfr8YLhanvn+uDLcO5LrmG7d/Y/poKm7MXOs1xfy1s8887PvN85eS89XoV9+TWLnn7k3BXTNdObizgBxX/TvIPqeUbyLMtSXBXcHjGW4EuFRdAYQxGZY=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -62,17 +62,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzl1slPE2EcxvH3wGEgoWDn5JCAqEwJiQtwRxFZE1TgREzcFf4GDmxTxCsoV9wKegX0qpT9istVcPfG6p0vaSeOk9k71ETe5JOm77y/9+m07/tO1XwhVMRgbmXpa6phjFVfkLpM64PWNaQ1WtTXG67rY6z6gtRlo2mSEHEpO1le2pDLZzmIz+p3fYzIQoziIR5hDBL9uT7kBViXU+RMYwav8Brl9J+KCHE64nyP+piKALmr5LzDe3zAx3RuK/NdcsnVx1SY1rr5d7baD1vkbGMHu/iNJvqbfWgJaR/ZnUV2rL7boLl+mp476LBP7PbQ/lmgSX9yixUhSnAMpTiOEziJMqiIoVxJ5Trd+0ZUiE1sYRs7Ufuzt4b5zuE8anEBdbiIejSgEU0ecgtYM4U4gihk2T73GvNdxw3cxC3cxh3cxT10odtD7hlyzqISVah2yO1lvj70YwCD0BDHEO5jGA/SuU7PlcvkXEEb2tEh2z9rxpnvMZ7gKZ7hORKYwCRe4KXyd5bm4ww27/Mk798w31vMIok5zGMBi1jCMlaU1Piw2ifmW8M6PuMLvuIbvuMHfuKXEl7m/9Tcns1u143NeNb8q/91YeQmJP91xn1orN//Pg7y/2SPyMxRi9+xyENdPIe1kRP8tdMi96qHeROYyODVLtet7rDd7x7JK9jG
+   eJzl1s1PE0EcxvE5cFhJBGlPLAkiSIEmCuhdUaC8JILCyZiogAJ/gwdFWtSrAldei3AF5aqgvHj17WqMMYabvOjd76YzYVl2uy+tkMAkn0y7O795dtvZl8hJISKogLWVy30R0xi7bUHqMq0PWndCEyIXTTb1al9M7jPGNMrPxrYq9kW1/XXGmJiJqlPfD6rFObaEzfEdVhtyOZb/cax+18fzsBAvMIwRjEIz1okPuQHW5Tw5C3iF11hEJdvP5QlxPi/9Oaox0QC5H8n5hM/4gq8y9xrztbnkqjFRy1q3/s/ma0aN2SJnGzv4g79oZnuLD61Zupac7kVO7H7boLl+msodTHOdOF1Dxr0gru3mFutCnEYJzqAUZTiLckRQgUo9lZvu3H+HhNjEFraxE3K+915ivsuowxVcRT0a0IgYmtDsITefNXMKBQghHHbOvc18d3AXXehGD+7hPnrRh34PudXk1KAWF3AxTe5D5nuEATzGIOJIYAhP8BTPZK75WWNt7eRcxw10oDO8/7minjVjzDeOCUxiCtNIYgYvMYs5fW9W3Mc92HqdL/P9DfO9xRKW8Q7vsYJVrGEdH/TU+Gy1b3qq/y77H7L/Kftfst/Qs5d5lJrbs9ltv7mZ7zWH9V6Xjdyk5r/O/Iwz1xu/h9t7odpmbV7qHojMFNr8j0Ue6hI5rI2c4P1Nm9xbHuZNYiaD3inXre64ne8/MLPQmg==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlklOAkEUhp/aICbYC4gLOnEnJh7AG6g34AZ6AKed3kRUnC/hPO5EXTuPl3D4CHSoVJrqKiAxBv/kS1fqDVWE96oq74vkYRh0jTE3rjDhR8/pGqrlzCu59ThT/EJaZDFdHY8O1OfDsWqP228j3ygt4Ves+RaUdcOxanfJ1YlK+FWSEf+v59ftoc90VmQGZmEO5rPNravWnK6oumykfmy+wa77mOrZpmeaVVx9q/3TSMWcyDKswCqUYA3WYQM2YQu2YSdXjYmr74LFurvk2oN9OIBDOIJjOIFTOINzuMjF57PVLbnu4B4e4BGe4Ble4BXe4B0+2rjuJ7m+4LuSMxDpgm7oAQ8SkIReSEFfYO6jy4xIGa7gGm4y0b01GLjtcySw6xFVLr1lkmuPtLO3bHqlnXGhbHrFFFdKucW5+v/r78l0buiy8anIs/Bz6X+XsyVONu/J8Kv6mO7PytkS2nQ/m3dleEdG3ZWm+1O16X6d+q6c9ESmvOa+reT9LbXye037jov7ATrAb+w=
+   eJztlklOwzAUhh+QlhSVLFqxSCR2BKnsuQFwA24AB2DawU0oUOZLME/dMa2Zx0sw/FFr1bI8xS2qEPzSp7j2ey+p4t8vcUAUg0EgagRzoxxjgXxO1EC9ZszVFvN0+fN5ooV8bTzc15hnY37d9LyqWjItIq5cjx3nYtmYXzdJVeuvKBPUyErerxc01lnMVJFoGsyAWTBXdLsvv+dEyfalSr1YCzTrYoxuP9t4xlUqLzCxPZ/ziXp8eUw5JFoCy2AFVMAqWAPrYANsgi2wHdZyTF6w2fM7qLUL9sA+OACH4AgcgxNwCs5ANTTXs9UNat2CO3APHsAjeALP4AW8gjfw3sL7fqDWJ/hKakZEHaATdAEPZEAWdAMf5CK9j84LRBfgElyB64LcW/1RuucsRXYe4ZXGWzql9UgrvWXqD7xK8NKQnz5PJtf+wPIqCl+rlDb+X79PunNDlE1MIs8iLo3/Xc4WlWy+J9mVj9H1T/5sEeNMfTcR65GyXqnrn/yaGMd+T3hEk577VSXXvJ9WM/+3mbrtUrve7zfjD3t1
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYMANangYGGp5yJfHpxaf3jlA8blAbM3LwGADxLa8qGyYPC47kM1GV4tLLzKIBtoRA8SxvKhsXABmJjFmjwJMsJ/OYRYDjcv7PJhi5AJi8wIpeYYYgC/NEZNnaAGIyTPkglIeCC6jc5rJ5kHgwQyAealhIOy9P0D2Uis/IecVYgC2OoocQG5eoWUeGwXDG7DwMTCwImFQ/YsuxsaHqQ9UtqCrQdeHD6gA5VWRMKj+RRdTw2IGqGxBV4OuDwRwlQUuQHlXJOzGh12MHH0gMNruGwXDBQAAm485og==
+   eJztlc0NwjAMhX0ATkmnAJYAbsASwASc4QQSg8AsjNJVcIQiXDeOTJS2COWTnlT5L4fmxQAyFwNwNen5WG2s947xB2phAZaolW1++7x0Bp3NZ0m9lB3W7VEH2/yW8DNDs31/QeapvEO58P+jNu1YKlovfOMZDbH7rPFMF2g8k8rJvHXu+c4czUe/DHrpNsS59UDn5vIT9YqG0I5KIdUrXXqs8N+MKoAxkdu/PDap2n3ubeE1vC/GFPMzIrd/eWwemOHeFl7D+xzSW7DG/IZoW4VjHD8v1ufIvVv73NWFAuUF6dE8wQ==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -118,6 +118,76 @@
     <property name="y" value="10"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5461" x="208" y="48">
+   <properties>
+    <property name="map" value="indoor/house2"/>
+    <property name="x" value="2"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="160" y="48">
+   <properties>
+    <property name="map" value="indoor/house1"/>
+    <property name="x" value="8"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="128" y="160">
+   <properties>
+    <property name="map" value="indoor/house3"/>
+    <property name="x" value="2"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="16" y="272">
+   <properties>
+    <property name="map" value="indoor/house4"/>
+    <property name="x" value="8"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="464" y="48">
+   <properties>
+    <property name="map" value="indoor/house5"/>
+    <property name="x" value="8"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="304" y="288">
+   <properties>
+    <property name="map" value="indoor/stock exchange"/>
+    <property name="x" value="12"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="336" y="288">
+   <properties>
+    <property name="map" value="indoor/stock exchange"/>
+    <property name="x" value="14"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="368" y="288">
+   <properties>
+    <property name="map" value="indoor/stock exchange"/>
+    <property name="x" value="16"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="400" y="288">
+   <properties>
+    <property name="map" value="indoor/stock exchange"/>
+    <property name="x" value="18"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="432" y="288">
+   <properties>
+    <property name="map" value="indoor/stock exchange"/>
+    <property name="x" value="20"/>
+    <property name="y" value="18"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="48" y="96">
@@ -138,7 +208,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="384" y="320">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9018"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="waiter"/>
@@ -146,7 +216,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="96" y="304">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9019"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bankier"/>
@@ -166,41 +236,6 @@
     <property name="id" value="9021"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="304" y="288">
-   <properties>
-    <property name="file" value="indoor/stock exchange"/>
-    <property name="x" value="12"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="336" y="288">
-   <properties>
-    <property name="file" value="indoor/stock exchange"/>
-    <property name="x" value="14"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="368" y="288">
-   <properties>
-    <property name="file" value="indoor/stock exchange"/>
-    <property name="x" value="16"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="400" y="288">
-   <properties>
-    <property name="file" value="indoor/stock exchange"/>
-    <property name="x" value="18"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="432" y="288">
-   <properties>
-    <property name="file" value="indoor/stock exchange"/>
-    <property name="x" value="20"/>
-    <property name="y" value="18"/>
    </properties>
   </object>
  </objectgroup>

@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztkj0OwjAMhV2pa7twBVoCM1fg9w6IFTgEA4KLILgnlqDCMnFMQkKXPOmpiZP69UtjSoAxeoI2ZLxD79EHtK/ou0bov0Sv0Gs2jiWpfyxGSRJ7CkZJNCsFI9WGjG1Z9AxS5VKdMeeS8Lyl3Bvm3Nl5a9+grQ8KgCM8PS0+10/lm5dK++fa+vbV2+WON6a+ybXx/iO3b97Qp+2++vCGPkNzM2/mzbw677V0OxVvbDUVQEs8qsL28PUmQk/bHl7Tcl3zX3LnxAv0zGPe1bhse3gtq38Na7wPxG1tr4X0egB5adex
+   eJztUjsOwjAMdaWs7cIVaAnMXKH87oBYgUMwILgIgntiiVZYIY5JSOiSJz3FsRO/PjdaAUyRM6Qm8R55QB6RvqB3NdN/hVwjN0YcC1z/WB45cN5TeORAtVJ4pNiS2KZFZ5BKl+KCOteE8+Z076jzMOYtfYNUHxUAJ3hxXnzWz+rtl0L651J91/V2sfcbE9/o2vz+Q3dov6Gr7b36+A1dQ3Wz3+w3+5X93pSbqfzGRl0CNISTMuyMWa8j9LSdMXOSrmv/i+6CcIlsPfZ9zkTb5Vz3MobHuML3QNhU9lxIryfTZ9de
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYwMHCwMAJxFwsw8uugQKyBOTpHQYpQHtS0ewi5AZauVEDaJ4mEGvhMJeQPCGQxILdv9QAILPxYVoBQvaOVP+SS+PKn8PVv+TaO+rfUf/S0r/ogFL/DlbAyofAbHyE1bPwEdZDjBpVPgRW40PVw4aFr8KHqQcdYFOD7hZXJOyGZq4aFr4LFj3oAJsadLfg0+PGh8knFpiKMjDM4cHtFlqBUFHamT0SAAuZcYOenmkBiMm/AD+MW80=
+   eJxjYBgYwMHCwMAJxFwsw8uugQKyBOTpHQYpQHtS0ewi5AZauVEDaJ4mEGvhMJeQPCGQxILdv9QAILPxYVoBQvaOVP+SS+PKn8PVv+TaO+rfUf/S0r/ogFL/DlbAyofAbHyE1bPwEdZDjBpVPgRW40PVw4aFr8KHqQcdYFOD7hZXJOyGZq4aFr4LFj3oAJsadLfg0+PGh8knFpiKMjDM4cHtFlqBUFHamT0SAAuZcYOenknJu+Tagc1sAFmmXAc=
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -95,7 +95,7 @@
     <property name="map" value="0.8"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="0" y="256">
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="-1.7"/>
    </properties>

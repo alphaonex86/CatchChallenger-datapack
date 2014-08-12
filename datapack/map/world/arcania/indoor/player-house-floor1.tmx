@@ -38,7 +38,7 @@
  <objectgroup name="Moving" width="0" height="0">
   <object name="door" type="door" gid="1027" x="160" y="176">
    <properties>
-    <property name="map" value="player-house-floor1"/>
+    <property name="map" value="player-house-floor2"/>
     <property name="x" value="10"/>
     <property name="y" value="8"/>
    </properties>

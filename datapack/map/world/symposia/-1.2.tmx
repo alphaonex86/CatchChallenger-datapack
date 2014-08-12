@@ -93,9 +93,9 @@
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object type="bot" gid="5123" x="80" y="240">
+  <object name="bot" type="bot" gid="5123" x="80" y="240">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7003"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

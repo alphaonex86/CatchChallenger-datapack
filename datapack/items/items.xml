@@ -29,13 +29,6 @@ consumeAtUse="true"
         <description lang="fr">Ce piége est parfait pour capturer les monstres de niveau moyen.</description>
         <trap bonus_rate="1.2"/>
     </item>
-    <item price="50000" id="4" image="catchtrap/trap-grade-d.png">
-        <name>Trap grade D</name>
-        <name lang="fr">Piége grade D</name>
-        <description>This trap is perfect to capture the hight level monsters.</description>
-        <description lang="fr">Ce piége est parfait pour capturer les monstres de haut niveau.</description>
-        <trap bonus_rate="2"/>
-    </item>
     <item price="45" id="5" image="potion/potion-grade-a.png">
         <name>Potion grade A</name>
         <name lang="fr">Potion grade A</name>

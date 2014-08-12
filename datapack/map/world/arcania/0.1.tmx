@@ -106,7 +106,7 @@
     <property name="file" value="../../bots-informations.xml"/>
     <property name="id" value="9023"/>
     <property name="lookAt" value="bottom"/>
-    <property name="skin" value="oldman"/>
+    <property name="skin" value="bandit"/>
    </properties>
   </object>
  </objectgroup>

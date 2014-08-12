@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="1" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../../../../projet/CatchChallenger-ultimate2/datapack/internal/map/tileset/rename.tsx"/>
  <layer name="Walkable" width="11" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAe9ADxYiIwNrU9SBibOLlqceGhqpYWmBj7YRgAO7dIjA==
@@ -203,13 +203,6 @@
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="1027" x="112" y="48">
-   <properties>
-    <property name="map" value="arena"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
   <object name="door" type="door" gid="1027" x="112" y="144">
    <properties>
     <property name="map" value="arena"/>
@@ -231,13 +224,20 @@
     <property name="y" value="10"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="1027" x="144" y="48">
+   <properties>
+    <property name="map" value="arena"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="80" y="48">
    <properties>
     <property name="file" value="../../../bots-fights.xml"/>
     <property name="id" value="7026"/>
-    <property name="lookAt" value="bottom"/>
+    <property name="lookAt" value="top"/>
     <property name="skin" value="nokomis"/>
    </properties>
   </object>
@@ -257,11 +257,11 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="144" y="48">
+  <object type="bot" gid="1027" x="112" y="48">
    <properties>
     <property name="file" value="../../../bots-fights.xml"/>
     <property name="id" value="7025"/>
-    <property name="lookAt" value="left"/>
+    <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
    </properties>
   </object>

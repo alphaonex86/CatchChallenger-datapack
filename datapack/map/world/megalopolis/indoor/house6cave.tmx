@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/terra.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwTFGFgECQBNzMQxqSYN4oHFwYAyhMWYw==
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfEBNhYBBHwhIiuNWaoclZ4FEbhmZuBB61g8W94UiYWu6lBgAAT+oGSQ==
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj6QEyEgSEcCUuI4FZrhiZngUdtGJq5EXjUkupecSQ8mNwLAMsbB8k=
+  </data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxbzMDAwEkEXgzFmkRgmFpiAC61hjwMDOYiCIxP7ai5hM0lFgMA0G0bPg==
+  </data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAaQbigTUJaikBKwQYGJYB8UoBwmqPA9WcBOITRKh9DlTzEohfEKHWUxCCPQQJq80UhOAMItR2AtV0CEJoQmAlUM0KQQhNawAAFoYOYg==
+  </data>
+ </layer>
+ <layer name="other" width="11" height="12" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABAAIQAAE=
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="32" y="32">
+   <properties>
+    <property name="map" value="house6cave"/>
+    <property name="x" value="2"/>
+    <property name="y" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" type="bot" gid="1027" x="80" y="64">
+   <properties>
+    <property name="file" value="../../../bots-services"/>
+    <property name="id" value="9057"/>
+    <property name="lookAt" value="Bottom"/>
+    <property name="skin" value="florist"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="1027" x="80" y="96">
+   <properties>
+    <property name="file" value="../../../bots-services"/>
+    <property name="id" value="9058"/>
+    <property name="lookAt" value="Bottom"/>
+    <property name="skin" value="florist"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
