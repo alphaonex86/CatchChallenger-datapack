@@ -1,5 +1,5 @@
 <map zone="road9" type="outdoor">
-	<name>Jeté</name>
+	<name>JetÃ©</name>
 	<name lang="fr">Thrown</name>
 	<grass>
           <monster id="5" minLevel="16" maxLevel="22" luck="100" />
