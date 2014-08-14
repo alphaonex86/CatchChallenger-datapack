@@ -13,7 +13,7 @@
  </layer>
  <layer name="Other" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMNRALMdAuwA/wOa+gXLzYHLLSAOj4TzwQJRCNehyojjEqWEXDJhSqAZdzhSHOKV22QHTt/0gSeOzoO6Yw0Gc+GAAu6Bu2sNBnPhQAqCyDxemNyAmbRByF73dTUzaoIWbZZEwrcBQSxuDDaCnDVi4DYdyY6gBANTsHZA=
+   eJxjYBgFo2AUjIJRMNRALMdAuwA/wOa+gXLzYHLLSAOj4TzwQJRCNehyojjEqWEXDJhSqAZdzhSHODXsGixgFjSvzeEgTnwwgF1QN+3hIE58KAFQ2YcL0xsQkzYIuYve7iYmbdDCzbJImFZgqKWNwQbQ0wYs3IZDuTHUAAD4qB0D
   </data>
  </layer>
  <layer name="Collisions" width="45" height="26">
