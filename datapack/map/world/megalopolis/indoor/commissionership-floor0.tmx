@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="26" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../tileset/rename.tsx"/>
+ <layer name="Walkable" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6D1r7Via3E4KJj8U1VVVVXPDyKIWR0=
+  </data>
+ </layer>
+ <layer name="Other" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwFiOYanOaNgFAwVIDoEzTGlkl30MAdbmTJQ5cxgcssooA4YjVPiATFlCz416HKiOMSpYRcMEFNG4VODLmeKQ5xSu+yAac5+kKS7WVB3zOEgTnwwgF1QN+3hIE58KAFQeYQL0xsQkzYIuYve7iYmbdDCzbJImFZgqKWNwQbQ0wYs3IZDuTHUAADnjx+d
+  </data>
+ </layer>
+ <layer name="Collisions" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzlVzEKAjEQTGFhI9hcpd+wOUVb33C96AcErfQLnlhZ+gMFLSz8g0/xBW7gAmHdJBuTi4oDQ3AvmZ07NsuaCSEyBw8MujRi6vQY5ORKqbNoCrEEUlDPOLlS6ugo4fcduEVxTq6UOjqO8OwBPAXmqluHA99c36DzbcR9ZN6y9yhOvG4d3Ed2rdeYaf+ndC4N8QIco/bLFceHcFdG6L6oGLWf0rH50GNSd0XcTVO8TqT2YvvOqWHqRSE9KpbOr/CdHqX2UDr4fKdau546ob1O19T34Dh1vl+tA08dmx8J2z2RvYWqt03bXodnODe2zBsKJaGzN3gxxSlwcuVNscbnOJ6pd78avJniLs8mFprnCWhPgbPAuS4EsXJxdTi1oWZrTDVrc3JRtaEjZ/5PkeDUhpqtMU8enguH58LDcwxwcsWihKoB2c9u2pzxbt9I4dlVGyn9/DOfJ66bIg==
+  </data>
+ </layer>
+ <layer name="Other" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/hAlUBAAAAwDcSSAAB
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAURYGFIDOJxbQw5wIDgaGSCA2RVMD4sPkiAGDzZxRMApGweAC5JZf1DJnOhZ92MRg5k9jgZQ701hQxUF65IDlkDxaWQQTm85CnDnEug2bXeji6OUlDOASxwUImUOMW6gJ8IXzKBgFAwW0gPlBG4h1qFSm0QKg5xMvoFu9gdiHBXt5QwwAlWEaZOS9KqCeaiCu4SBOnBIgxcHQQD3TqAtmAP05kwp+pZY51ATLyXTPYEobUoMsTEc6QE4DoPJsPhDHc9AmbYyCUTAYAAB7WyL+
+  </data>
+ </layer>
+ <layer name="other" width="45" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh6YAYHA8NMDtLlBtKcHUC8E4cafHKkqB0Ic0bBKBgFQwOEsTAwhLMQFhtMoAzotnIWwmKDCYyG8ygYrkCCDulBlsptDws6uNl2GLeXIoB+i6SC//CZU89NmvgoGDlgqKeNwV73YwNDpe4f6mljuAAA92ceXw==
+  </data>
+ </layer>
+ <objectgroup name="Moving" width="45" height="26">
+  <object name="teleport on push" type="teleport on push" gid="1027" x="352" y="368">
+   <properties>
+    <property name="map" value="../1.7"/>
+    <property name="x" value="18"/>
+    <property name="y" value="25"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="384" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="24"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="320" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="20"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="320" y="224">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="20"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="208" y="224">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="13"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="64" y="224">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="4"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="64" y="112">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="4"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="352" y="112">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="22"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="640" y="112">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="40"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="640" y="224">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="40"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="496" y="224">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="31"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="208" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="13"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="64" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="4"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="64" y="144">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="4"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="352" y="144">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="22"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="640" y="144">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="40"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="640" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="40"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="3477" x="496" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="31"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="336" y="368">
+   <properties>
+    <property name="map" value="../1.7"/>
+    <property name="x" value="17"/>
+    <property name="y" value="25"/>
+   </properties>
+  </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="368" y="368">
+   <properties>
+    <property name="map" value="../1.7"/>
+    <property name="x" value="19"/>
+    <property name="y" value="25"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="45" height="26">
+  <object type="bot" gid="1027" x="352" y="288">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="640" y="384">
+   <properties>
+    <property name="file" value="../../../bots-services"/>
+    <property name="id" value="1"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="nurse"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="384" y="208">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="496" y="288">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

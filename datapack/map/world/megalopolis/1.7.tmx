@@ -22,7 +22,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztktsNgCAMAOm3OpQ6mWznaxJlB0ukkQ8JEBSj9pL70nrQKATDMJoahGjQFvI2bXK1O+xIS4b5M2B8qs1d7n6hKyO8shPCiE6JXT0/R84siU1CvbTboyX+jIPjfdfz2G4B+3fICo7zrCcqz1wqvu5dFGaX1KP9htxrAyQDJ/U=
+   eJxjYBgFo2AUgIAjIwODExA7M9LXTmRAL7sbgfY0IeFRMApGMmCE4oGye9TeUXuHg71NJGBq2kMMOA3EZyi0F6T/LIl6XlNoJwy8pbK96pIMDBpArClJW3tPAjEPMDGegvLdgfZ5ALGnJHZ5cu3lZoSYA8O8jAj3vAHidKB9GUCcKQnhvyWgj1IAsxcdk+ovUgE3NCxh9sHClxh/AQAcACia
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -67,7 +67,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN1MlW01Acx/GrFAWlVVxIu9NAixNOTwAoLSACK9EdgjI7nKMrVs6z4iNoZBBwegQnnEUfwXkeWLPyWyWaXG5ybtKi/s/5nCZN/v9fb5tbMySEib9d5j/OLeR4UYD+oH1W7jqO12vMsa5br7p9brlWWXPkHPm6fJ987jdXzrPPU61pcorbdb+lypPXtBhFiCp6slGqeenM/VPH+2zZ2VizV21Bk81Wj8+oKmMG9q7Omo0M968qT2fNhs/9Kzzu8fNcGR77V57vtp4g35Wc6zXfLS/I/lHl6q4nk/2qys3m/ExyZ6IOhf5v5fwRVqASG7ARVUgihWrUoBabUIfNqEcDGqPBcpvp244WtGIHdqIN7ehAJ7rQjR7swm7swd6AuQfoO5juxWEcwVEcw3GcwEmcwmmcwVmcQx/OS7mmpgv0XYSJS+jHAAYxhMsYxghGcQVXcQ3XcSP6a46Vm654WIiETWl4+vN3k75buI07uIsx3MN9PMBDPMJjPMFTjOMZnkedz3E6Qyf3BX0v8Qqv8QZv8Q7v8QEf8Qmf8QVf8Q3fMaGZ2yucREyIWZiNHISQizmYizzkYx7mowBhRLAAC2M/R/zOTZFRhaRNSrHeJTQthYFilCCOBEqxDMuxAiuxCmVYjTVYi23C+fvqVDl9FaiMOd9Pcp5CNWpQK12v57wBjQFz3aqNee3oQCe60B1T35vNXD9lz01E/PXGI3+oqiTivMc+3577A8jlsfI=
+   eJzN1MlSE0Ecx/FW44YmqAdJbjomoUoQlSeAKIlGJTm53BAVEXCp0pMn3Hf0EXTcdx9BwQ03fAR3RdzOnvxGMzrT9kz1TAbxX/Uppmvm//+lw3TMiBAm/nWZY5w7k+tZAfqD9lm5i7lu1Jhj3bf+6va55VplzZFz5Pvyc/Lab66cZ5+n2tP3Mrf7fkuVJ+9pNmoQV/SEUap5pcxd5eudtuww9uxVq7HGZq3HZ1SVMQpnV2fPRoXnV5Wns2fD5/kVHs/4ea8Mj/Mrz3fbT5DvSs71mu+WF+T8qHJ191PJeVXlhjm/ktzRqL2R/1sTP4TNyGAJlqIFWeSwDMuRxwqsxCq0ooBiPFhuG33r0Y4N2IhN6MBmdGILutCNHmzFNmzHjoC5vfTtKfViH/bjAA7iEA7jCI7iGI7jBPpwEqekXFPTafrOwMRZnMN5XMBFXMJlXMFVXMN13MBN3Ir/mmPllioVFSJtUxv9+/27Td8d9GMAd3EP9/EADzGIR3iMJ3iKZxjC87jzPS5l6OS+oO8lXuE13uAt3uE9PmAYHzGCT/iML/iKb5q5u4WTSAgxDuMxARFMxCRMxhRMRRWmYTqiiKEaMxI/R/zOzZHRgqxNTrHfOTTNhYF5SCKFdML53HzWdajHAjRgIRZhnXD+f3Wqib5mZKScrLTOS+tW1gUUA+a6VYeU08W6O6F+NsxcP2XPTcf89aZif6gqGXM+Y59vz/0BtDuuiQ==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -91,5 +91,27 @@
     <property name="map" value="0.7"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5123" x="272" y="400">
+   <properties>
+    <property name="map" value="indoor/commissionership-floor0"/>
+    <property name="x" value="21"/>
+    <property name="y" value="21"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="288" y="400">
+   <properties>
+    <property name="map" value="indoor/commissionership-floor0"/>
+    <property name="x" value="22"/>
+    <property name="y" value="21"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="304" y="400">
+   <properties>
+    <property name="map" value="indoor/commissionership-floor0"/>
+    <property name="x" value="23"/>
+    <property name="y" value="21"/>
+   </properties>
+  </object>
  </objectgroup>
+ <objectgroup name="Object" width="30" height="30"/>
 </map>
