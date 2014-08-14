@@ -191,8 +191,8 @@
     <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="2"/>
     <property name="map" value="indoor/admin"/>
-    <property name="x" value=""/>
-    <property name="y" value=""/>
+    <property name="x" value="2"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>

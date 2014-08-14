@@ -29,7 +29,6 @@ Some special product can be added onetime too
         <product itemId="15"/>
     </shop>
     <shop id="4">
-        <product itemId="4"/>
         <product itemId="8"/>
         <product itemId="12"/>
         <product itemId="13"/>

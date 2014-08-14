@@ -13,12 +13,12 @@
  </layer>
  <layer name="Other" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwFiOYanOaNgFAwVIDoEzTGlkl30MAdbmTJQ5cxgcssooA4YjVPiATFlCz416HKiOMSpYRcMEFNG4VODLmeKQ5xSu+yAac5+kKS7WVB3zOEgTnwwgF1QN+3hIE58KAFQeYQL0xsQkzYIuYve7iYmbdDCzbJImFZgqKWNwQbQ0wYs3IZDuTHUAADnjx+d
+   eJxjYBgFo2AUjIJRMNRALMdAuwA/wOa+gXLzYHLLSAOj4TzwQJRCNehyojjEqWEXDJhSqAZdzhSHOKV22QHTt/0gSeOzoO6Yw0Gc+GAAu6Bu2sNBnPhQAqCyDxemNyAmbRByF73dTUzaoIWbZZEwrcBQSxuDDaCnDVi4DYdyY6gBANTsHZA=
   </data>
  </layer>
  <layer name="Collisions" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJzlVzEKAjEQTGFhI9hcpd+wOUVb33C96AcErfQLnlhZ+gMFLSz8g0/xBW7gAmHdJBuTi4oDQ3AvmZ07NsuaCSEyBw8MujRi6vQY5ORKqbNoCrEEUlDPOLlS6ugo4fcduEVxTq6UOjqO8OwBPAXmqluHA99c36DzbcR9ZN6y9yhOvG4d3Ed2rdeYaf+ndC4N8QIco/bLFceHcFdG6L6oGLWf0rH50GNSd0XcTVO8TqT2YvvOqWHqRSE9KpbOr/CdHqX2UDr4fKdau546ob1O19T34Dh1vl+tA08dmx8J2z2RvYWqt03bXodnODe2zBsKJaGzN3gxxSlwcuVNscbnOJ6pd78avJniLs8mFprnCWhPgbPAuS4EsXJxdTi1oWZrTDVrc3JRtaEjZ/5PkeDUhpqtMU8enguH58LDcwxwcsWihKoB2c9u2pzxbt9I4dlVGyn9/DOfJ66bIg==
+   eJzlVzFuQjEMzcDwFyQWpvYaXWhF157h76i9QKV2KleAiomxNyhSOzD0Dj0KJ8CRsORacfKihIivPukpwkme3wdjzNQ5N03wA2BKo6bODUAkV0udl865V2IIvIfkaqkjsabXv8R3FUdytdSR+KS9A3FXmOvcOghyc51bZ4iev0fOzem9v+/suNWLZNzS4ZjfR3TkeUsHgdUbZbylDgKpz8/pVxlvqYPURolO7mdaqzaGCOt7XdI3aukMhXpmeh7H5zF5JqSj71+d1utMnZgfPTNtxvF5TJ7R8dD929N6l6kT8+MR6w/6t4CxmsTr8IvuPUTmDcY6oLM1vFjxEJBcs84t9T3Ec+jZ94Y3K57ybLEXnhek/Uh8KpzrSlArF6qD1AbP1po8ayO5QrUhMQP/p3ggtcGzteYuw3Of8NxneK4BJFctenAN+H72Q3zr/sYv0XOqNlr6+c88Ak04hSs=
   </data>
  </layer>
  <layer name="Other" width="45" height="26">
@@ -28,12 +28,12 @@
  </layer>
  <layer name="WalkBehind" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAURYGFIDOJxbQw5wIDgaGSCA2RVMD4sPkiAGDzZxRMApGweAC5JZf1DJnOhZ92MRg5k9jgZQ701hQxUF65IDlkDxaWQQTm85CnDnEug2bXeji6OUlDOASxwUImUOMW6gJ8IXzKBgFAwW0gPlBG4h1qFSm0QKg5xMvoFu9gdiHBXt5QwwAlWEaZOS9KqCeaiCu4SBOnBIgxcHQQD3TqAtmAP05kwp+pZY51ATLyXTPYEobUoMsTEc6QE4DoPJsPhDHc9AmbYyCUTAYAAB7WyL+
+   eJxjYIAAURYGFIDOJxbQw5wIDgaGSCA2RVMD4sPkiAGDzZxRMAqGCpgOTNtywHQtz0GcOKnmwMSmE1l+4FJPqjnogNzyi1bmEDJ/Gguk3JnGQp691DCH2LSBXl7CAEyc2LRByBxapY1RMAqGEtACpnNtINYZxOkdPb97Ad3qDcQ+LOTnU1AZpkFGG6wKqKcaiGs4iBOnBEhxMDRQzzTqghlAf86kgl+pZQ41wXIy3TOY0obUIAvTkQ6Q0wCoPJsPxPEctEkbo2AUDAYAAI2KJ9Q=
   </data>
  </layer>
  <layer name="other" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBh6YAYHA8NMDtLlBtKcHUC8E4cafHKkqB0Ic0bBKBgFQwOEsTAwhLMQFhtMoAzotnIWwmKDCYyG8ygYrkCCDulBlsptDws6uNl2GLeXIoB+i6SC//CZU89NmvgoGDlgqKeNwV73YwNDpe4f6mljuAAA92ceXw==
+   eJxjYBh6YAYHA8NMDtLlBtKcHUC8E4cafHKkqB0Ic0bByAXhLAwNYUCMLg4UA8kRDbCpJ9UMYt1SDlRThkUdUAwkRzTApp5UM6jllsEIRtMGZWYM57QxCoYukKBD2pOlctvDgg5uth3G7aUIoN8iqeA/fObUc5MmPgpGDhjqaYPU9spgAEOlnTHU08ZwAQAI6TOv
   </data>
  </layer>
  <objectgroup name="Moving" width="45" height="26">
@@ -79,27 +79,6 @@
     <property name="y" value="16"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="64" y="112">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="4"/>
-    <property name="y" value="9"/>
-   </properties>
-  </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="352" y="112">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="22"/>
-    <property name="y" value="9"/>
-   </properties>
-  </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="640" y="112">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="40"/>
-    <property name="y" value="9"/>
-   </properties>
-  </object>
   <object name="teleport on push" type="teleport on push" gid="1027" x="640" y="224">
    <properties>
     <property name="map" value="commissionership-floor0"/>
@@ -126,27 +105,6 @@
     <property name="map" value="commissionership-floor0"/>
     <property name="x" value="4"/>
     <property name="y" value="12"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="3477" x="64" y="144">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="4"/>
-    <property name="y" value="5"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="3477" x="352" y="144">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="22"/>
-    <property name="y" value="5"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="3477" x="640" y="144">
-   <properties>
-    <property name="map" value="commissionership-floor0"/>
-    <property name="x" value="40"/>
-    <property name="y" value="5"/>
    </properties>
   </object>
   <object name="door" type="door" gid="3477" x="640" y="256">
@@ -181,8 +139,8 @@
  <objectgroup name="Object" width="45" height="26">
   <object type="bot" gid="1027" x="352" y="288">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9027"/>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9061"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
    </properties>
@@ -195,19 +153,131 @@
     <property name="skin" value="nurse"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="384" y="208">
+  <object type="bot" gid="1027" x="384" y="144">
    <properties>
     <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9027"/>
+    <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="496" y="288">
+  <object name="bot" type="bot" gid="1027" x="352" y="48">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="lieutenant"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="304" y="144">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="384" y="192">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="208" y="288">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="640" y="48">
    <properties>
     <property name="file" value="../../../bots-informations.xml"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="bottom"/>
+    <property name="skin" value="lieutenant"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="656" y="272">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="64" y="48">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="lieutenant"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="304" y="192">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="32" y="192">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="112" y="192">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="32" y="144">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="672" y="144">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="592" y="192">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="592" y="144">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="480" y="176">
+   <properties>
+    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="id" value="9027"/>
+    <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
    </properties>
   </object>

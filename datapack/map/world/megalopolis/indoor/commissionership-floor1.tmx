@@ -13,12 +13,12 @@
  </layer>
  <layer name="Other" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwFiOQaXOaOAvsCEm4HBFIjNuAfaJSMXiA5Bc0ypZBc9zMFWNg1UeTWY3DIKRgG9ATFlCz416HKkqCVXDTFlFD416HKkqCVXzSgYOgBU/sPwKKAdGA3n4QkGW3wONveMJAAA590I4Q==
+   eJxjYBgFAwFiOQaXOaOAvsCEm4HBFIjNuAfaJSMXiA5Bc0ypZBc9zMFWNg1UeTWY3DIKRgG9ATFlCz416HKkqCVXDTFlFD416HKkqCVXzSggDwxE+QwyH4ZHAe0ApeE8WncPTjDY4mCwuWckAQBBVQp1
   </data>
  </layer>
  <layer name="Collisions" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJzlVktOwzAUfIuAqqaVSiGsuAY7BKdCghW9AkFskRA3gAVLNsABOAOwp3zWjEktvTzs5MVxqhRGGtUe2+NJ6rwkI6KshlcK1nnE9NlVULPXMn2OBkTHoAt2TLPX6aRgPim3eV/jc5kSXSz4NiSag+/gB/gJfg3LGXPkewLPxDVo9rLZJPKFps3MsYHcU3AT3AIzcDstz7lG1jl4E5DZ3tcqNM3cBtrMFrJtz0iszBqfvlHWkcNxdY3S6F37yDpyPv6t+eZ34fOY0uwBvAe5D/oE3YyrwP2nSaGZX5fug2++1F+R9QV8Bvl69Am6Gf/BPurEiaNG+/QusT6i2RqYjMqZ0SfoZvzPwleL2tSoWD6rwpAaZee4fOT6nUCftrWOe/I5Unet3wv0qcpj4Pq245rrvMlvHl7rTL25EzXHjLt85Dv9NinWHwyKNnm0Omj2CvWR1x4LmudimT4GTc5G15m7OBt9uc+rmNmeA/68Nz0bsWj+e0ueh+ux7k8s9i3Pf+Y3VQ+gpA==
+   eJzlVktOwzAUfIuCqqaVSiGsuAY7BKdCghW9AkFskSpuAAuWbIADcAZgT/msGSt90svDSV4SJ0phpFHtsT2epM5LYiKKS3htYJlHSJ99Ay17delzMiQ6BX3gMcte59OUyTTbln2LzyIiulrxfUS0BD/AT/AL/B5lMybI9wxeqGuw7MXZNJKVZs0ssYXcM3Ab3AFjcDfKzrlB1iV4WyMz39ciVM3cBNbMDN3mMxIqs8Wnb9R15HhSXKMsets+uo5cTn5refPb8HmKaP4IPoDSB32C7sZNkP6zQaq5X5+eh7z5Wn9D1lfwBZTr0SfobpzusOYQdeJsmLYZUu8Sm2Oab4CDcTYz+gTdjf9Z5NWiJjUqlM+6sE6N4jk+H71+r6ZP01onPeUcrfvWH9T0Kcrj4Pu2k5rvvOlvHlnrXL25VzXHjft89Dud69WRqGM+rQyWver66GsPBctz0aWPQ5Wz0XbmNs5GX+7zOmbmcyCf96pnIxTdf8+UeaQe6v6EYt/y/Gf+AONfotU=
   </data>
  </layer>
  <layer name="Other" width="45" height="26">
@@ -28,7 +28,7 @@
  </layer>
  <layer name="WalkBehind" width="45" height="26">
   <data encoding="base64" compression="zlib">
-   eJztlk0KwjAQhWeRRalrt3oK76IrbyJ4hW5qV96h/hzEv/M4oR0ax8QkklqV+eBR8hoeKUwfAWgYK3iAr0NJnVPnADvUHnVAHVHzDGCBmrFsvaZ3MdhyYliPAFatNCc84xl1QV1RtzwuTxCE7+Dd/uorx5dfqKa/CvXsv8K235YTygQ7eGrpYdOnnq3Zk/suXPu5LwjCb2C7v8Xe6cyu032zZV3k60KiVF1flcrtpSC064Zgg99aRd6p+8hJMRup+ORsCH5oDuh/X2bDzgbJ7B/TF4R/4g6o3C1G
+   eJztlj0OwjAMhT1kiMrMCqfgLjBxEySu0KUwcYfycxD+zoOjECkYp00gpYD8SU9NHOupldynAFiGCh6g+1hy+9QFwBa1Q+1RB9RUA8xQE+Jt9u4sBc4nheUAYHGX4YjveEKdURfUtUjzEwThO3g1v7ryafMvlc2vUj3Xm+D6OZ8YKuwdYQaPtV1zdYPL2Zo8aT1EqJ/WBUH4Dbj7W+qdzs86kzcbL3PoeRNcjoWy7V1is64PVvit68Q7dRc+OWYjF5+cDaEdNwfuf5/rfmfDyc8fvy4I/8QNSoIvFw==
   </data>
  </layer>
  <layer name="other" width="45" height="26">
@@ -166,54 +166,6 @@
     <property name="skin" value="scientific"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="208" y="288">
-   <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9027"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="rookie"/>
-   </properties>
-  </object>
-  <object type="bot" gid="1027" x="672" y="336">
-   <properties>
-    <property name="file" value="../../../bots-services"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="scientific"/>
-   </properties>
-  </object>
-  <object type="bot" gid="1027" x="592" y="336">
-   <properties>
-    <property name="file" value="../../../bots-services"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="scientific"/>
-   </properties>
-  </object>
-  <object type="bot" gid="1027" x="592" y="288">
-   <properties>
-    <property name="file" value="../../../bots-services"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="scientific"/>
-   </properties>
-  </object>
-  <object type="bot" gid="1027" x="672" y="288">
-   <properties>
-    <property name="file" value="../../../bots-services"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="scientific"/>
-   </properties>
-  </object>
-  <object type="bot" gid="1027" x="64" y="384">
-   <properties>
-    <property name="file" value="../../../bots-services"/>
-    <property name="id" value="1"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="oldgirl"/>
-   </properties>
-  </object>
   <object type="bot" gid="1027" x="688" y="80">
    <properties>
     <property name="file" value="../../../bots-services"/>
@@ -226,6 +178,70 @@
    <properties>
     <property name="file" value="../../../bots-services"/>
     <property name="id" value="1"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="304" y="272">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="208" y="288">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="112" y="160">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="32" y="160">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="64" y="48">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="captain"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="64" y="384">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="oldgirl"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="592" y="288">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="672" y="336">
+   <properties>
+    <property name="file" value="../../../bots-informations"/>
+    <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="scientific"/>
    </properties>

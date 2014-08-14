@@ -549,4 +549,48 @@ skin is invisible
              se cacherait une station de criminelle.]]></text>
         </step>
     </bot>
+       
+     <bot id="9061">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[Hello, what can I do for you? <br />
+<a href="2"> Getting into the police </a> <br />
+<a href="3"> Informations </a> <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Bonjours, qu'est-ce que je peux faire pour vous ?<br />
+		<a href="2">Rentrer dans la police</a> <br />
+		<a href="3">Informations</a> <br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+        <step id="2" type="text">
+            <text><![CDATA[Sorry but recruitment is closed for now <br />
+              there isn't for lieutenant for dirriger new recruits <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Désolé mais les recrutement sont fermé pour le moment,<br />
+             il n'y a plus assez de lieutenant pour dirriger les nouvelles recrues<br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+        <step id="3" type="text">
+            <text><![CDATA[The Megalopolis commissionership enforce order, <br />
+              It organizes various opperation and stock the illegal materials
+              It also has a research team  and dévellopement High-Tech <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Le commissariat de Megalopolis fait respecter l'ordre,<br />
+             Il organise les differentes oppération stocks les materiaux illegaux
+             Il posséde aussi un centre de recherche et dévellopement High-Tech<br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+    </bot>
+    <bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard<br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+      
+    </bot>
 </bots>
