@@ -90,6 +90,11 @@
     <property name="map" value="3.14"/>
    </properties>
   </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value="../angegarde/4.13"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="304" y="320">

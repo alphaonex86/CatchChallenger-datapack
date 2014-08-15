@@ -135,6 +135,13 @@
     <property name="y" value="25"/>
    </properties>
   </object>
+  <object name="teleport on push" type="teleport on push" gid="1027" x="416" y="256">
+   <properties>
+    <property name="map" value="commissionership-floor-1"/>
+    <property name="x" value="24"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="45" height="26">
   <object type="bot" gid="1027" x="352" y="288">

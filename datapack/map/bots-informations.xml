@@ -565,20 +565,20 @@ skin is invisible
         </step>
         <step id="2" type="text">
             <text><![CDATA[Sorry but recruitment is closed for now <br />
-              there isn't for lieutenant for dirriger new recruits <br />
+              there isn't for lieutenant for dirriger new recruits. <br />
 <a href="close"> Leaving </a>]]> </text>
             <text lang="fr"><![CDATA[Désolé mais les recrutement sont fermé pour le moment,<br />
-             il n'y a plus assez de lieutenant pour dirriger les nouvelles recrues<br />
+             il n'y a plus assez de lieutenant pour dirriger les nouvelles recrues.<br />
 		<a href="close">Partir</a>]]></text>
         </step>
         <step id="3" type="text">
             <text><![CDATA[The Megalopolis commissionership enforce order, <br />
               It organizes various opperation and stock the illegal materials
-              It also has a research team  and dévellopement High-Tech <br />
+              It also has a research team  and dévellopement High-Tech. <br />
 <a href="close"> Leaving </a>]]> </text>
             <text lang="fr"><![CDATA[Le commissariat de Megalopolis fait respecter l'ordre,<br />
              Il organise les differentes oppération stocks les materiaux illegaux
-             Il posséde aussi un centre de recherche et dévellopement High-Tech<br />
+             Il posséde aussi un centre de recherche et dévellopement High-Tech.<br />
 		<a href="close">Partir</a>]]></text>
         </step>
     </bot>
@@ -586,11 +586,52 @@ skin is invisible
       <name>Police rookie</name>
       <name langue="fr">Recrue de la police</name>
         <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later <br />
+            <text><![CDATA[I'm at work, returns later. <br />
 <a href="close"> Leaving </a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard<br />
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
 		<a href="close">Partir</a>]]></text>
         </step>
-      
+    </bot>
+    <bot id="9063">
+      <name>Prof Lignin</name>
+      <name langue="fr">Prof Lignine</name>
+        <step id="1" type="text">
+            <text><![CDATA[I do not really know what we're going to do with you,<br />
+            you will see me after class, I have to talk to you.<br />
+            <a href="2"> Who are the Centurie? </a> <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Je ne sais vraiment pas ce que l'on va pouvoir<br />
+             faire de toi, Tu viendra me voir après les cours,<br />
+             j'ai à te parler.<br />
+            <a href="2">Qui sont les Centurie ?</a> <br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+        <step id="2" type="text">
+            <text><![CDATA[You sleep during my lessons! <br />
+              Otherwise you knowed who are the Centurie <br />
+              they are anarchist who fights against the current police <br />
+              and whose acts are condanable <br />
+             <a href="2"> Acts? </a> <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Tu dort pendant mes cours ?!<br />
+             Sinon tu serai que les Centurie sont un groupe<br />
+             d'anarchiste qui lutte contre le pouvoir actuel,<br />
+             et dont les actes sont condanable<br />
+            <a href="3">Les actes ?</a> <br />
+		<a href="close">Partir</a>]]></text>
+        </step>
+     <step id="3" type="text">
+            <text><![CDATA[Thefts, sabotages, violences, tampering <br />
+              killing animals, hostages taking, tampering influence, corruption <br />
+              and many others, their sole purpose is to become riche and powerful  <br />
+              and establish a new government
+             <a href="2"> Acts? </a> <br />
+<a href="close"> Leaving </a>]]> </text>
+            <text lang="fr"><![CDATA[Les vols, sabotages, Violence, trafique<br />
+             meurtres d'animaux, prises d'otages, trafique d'influence, corruption<br />
+             et bien d'autre, leurs seul but est de devenir riche et puissant<br />
+             et d'instaurer un nouveau gouvernement<br />
+		<a href="close">Partir</a>]]></text>
+        </step>
     </bot>
 </bots>

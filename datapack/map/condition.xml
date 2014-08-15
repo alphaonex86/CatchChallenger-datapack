@@ -12,6 +12,6 @@
         <blockedtext><![CDATA[You have don't win agains the first bot]]></blockedtext>
     </condition>
     <condition id="5" quest="100" type="quest">
-        <blockedtext><![CDATA[the door is close</b>]]></blockedtext>
+        <blockedtext><![CDATA[the door is close]]></blockedtext>
     </condition>
 </conditions>

@@ -364,5 +364,29 @@ skin is invisible
         </step>     
         <step id="2" type="quests"/> 
     </bot> 
+        <bot id="2015">
+      <name>Bob</name>
+      <name langue="fr">Bob</name>
+         <step type="text" id="1">
+            <text><![CDATA[The Empire give some work<br />		
+            <a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[L'empire distribut des petits boulot<br />		
+            <a href="2">Quête</a><br />]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot> 
+    <bot id="2101">
+      <name>Lieutenant</name>
+      <name langue="fr">Lieutenant</name>
+         <step type="text" id="1">
+            <text><![CDATA[If it keeps I'll lose this duel <br />
+             <a href="2"> Helping Lieutenant </a> <br />
+             <a href="close"> Leaving </a>]]></text>
+            <text lang="fr"><![CDATA[Si ca continue je vais perdre ce duel<br />		
+            <a href="2">Aider le lieutenant</a><br />
+            <a href="close">Partir</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
 </bots>
           
