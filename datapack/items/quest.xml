@@ -40,39 +40,45 @@ consumeAtUse="true"
     </item>
     <item image="other/polyrock-heart.png" id="4006" price="0">
         <name lang="fr">Coeur de Polyrock</name>
-        <name>Polyrock heart</name>. &#xd;
+        <name>Polyrock heart</name>
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
     <item image="other/tourbidi-corpse.png" id="4007" price="0">
         <name lang="fr">Cadavre de Tourbidi</name>
-        <name>Toubidi corpse</name>. &#xd;
+        <name>Toubidi corpse</name>
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
     <item image="other/tourbidi-fight-record.png" id="4008" price="0">
         <name lang="fr">Relevé de combat contre Tourbidi</name>
-        <name>Toubidi fight record</name>. &#xd;
+        <name>Toubidi fight record</name>
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
     <item image="other/exapode-molt.png" id="4009" price="0">
         <name lang="fr">Mue d'Exapode</name>
-        <name>Exapode molt</name>. &#xd;
+        <name>Exapode molt</name>
         <description>Quest item</description>
         <description lang="fr">Object de quête</description>
     </item>
     <item image="evolution/waste_container.png" id="4010" price="0">
         <name lang="fr">Conteneur d'ordure</name>
-        <name>Waste container</name>. &#xd;
+        <name>Waste container</name>
         <description>The content can alter the ADN</description>
         <description lang="fr">Son contenu peu modifier l'ADN</description>
     </item>
     <item image="evolution/bio_container.png" id="4011" price="0">
         <name lang="fr">Conteneur biologique</name>
-        <name>Bio container</name>. &#xd;
+        <name>Bio container</name>
         <description>A contact do permanent damage on the ADN</description>
         <description lang="fr">Un contacte endomage de maniére permanente l'ADN</description>
+    </item>
+    <item image="other/toll-pass.png" id="4012" price="0">
+        <name lang="fr">Carte de péage</name>
+        <name>Toll pass</name>
+        <description>Allows access to the road 4</description>
+        <description lang="fr">Permet l'accès à la route 4</description>
     </item>
     
     
@@ -80,7 +86,7 @@ consumeAtUse="true"
         
     <item image="other/admin-key.png" id="4901" price="0">
         <name lang="fr">Clé d'administrateur</name>
-        <name>Admin key</name>. &#xd;
+        <name>Admin key</name>
         <description>Lets opens a hidden door</description>
         <description lang="fr">Permet d'ouvrire une porte caché</description>
     </item>

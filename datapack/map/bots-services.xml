@@ -8,11 +8,11 @@ skin is invisible
       <name langue="fr">Infirmière Marina</name>
         <step id="1" type="text">
             <text><![CDATA[Do you want be healed?<br />
-		<a href="2">Yes</a><br />
-		<a href="close">No</a>]]></text>
+		<a href="2">"Yes please"</a><br />
+		<a href="close">"No thank"</a>]]></text>
             <text lang="fr"><![CDATA[Voulez vous être soigné?<br />
-		<a href="2">Oui</a> <br />
-		<a href="close">Non</a>]]></text>
+		<a href="2">"Oui s'il vous plaît"</a> <br />
+		<a href="close">"Non merci"</a>]]></text>
         </step>
         <step id="2" type="heal"/>
     </bot>
@@ -21,7 +21,7 @@ skin is invisible
       <name langue="fr">Entraineur Anais</name>
         <step id="1" type="text">
 		<text><![CDATA[I can teach some attack.<br />
-		<a href="2">[Learn]</a>]]></text>
+		<a href="2">[*Learn*]</a>]]></text>
 	</step>
         <step id="2" type="learn"/>
     </bot>
@@ -31,42 +31,18 @@ skin is invisible
             <step id="1" type="text">
 		    <text><![CDATA[I can old your item.<br />
 		<a href="2">[Warehouse]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
+		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
 	</step>
         <step id="2" type="warehouse"/>
     </bot>
-    <bot id="5">
-      <name>Trader Malcolm</name>
-      <name langue="fr">Marchand Malcolm</name>
-        <step id="1" type="text">
-		    <text><![CDATA[I can buy some of item.<br />
-		<a href="2">[Sell]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
-	</step>
-        <step shop="1" id="2" type="sell"/>
-    </bot>
-    <bot id="6">
-      <name>Trader Malcolm</name>
-      <name langue="fr">Marchand Malcolm</name>
-           <step id="1" type="text">
-              <text><![CDATA[You can sell/buy objets into the general market.<br />
-              <a href="2">[Market]</a>]]></text>
-              <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
-           </step>
-        <step id="2" type="market"/>
-    </bot>
     <bot id="7">
-      <name>Clan master Florentin </name>
-      <name langue="fr">Florentin maitre des clans</name>
+      <name>Clan master</name>
+      <name langue="fr">Maitre des clans</name>
 	       <step id="1" type="text">
             <text><![CDATA[If you have some freind you can create a clan.<br />
-            <a href="2">[Create clan]</a>]]></text>
+            <a href="2">[*Create clan*]</a>]]></text>
          </step>
         <step id="2" type="clan"/>
     </bot>
@@ -75,13 +51,13 @@ skin is invisible
       <name langue="fr">Claire la fleuriste</name>
            <step id="1" type="text">
               <text><![CDATA[You can sell/buy objets into the general market.<br />
-              <a href="2">[Market]</a>]]></text>
+              <a href="2">[*Market*]</a>]]></text>
               <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
               nous vendons differents types de graines<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
            </step>
-        <step id="101" type="market"/>
+        <step shop="101" id="2" type="shop"/>
     </bot>
     
     
@@ -104,11 +80,11 @@ skin is invisible
       <name langue="fr">Marchand Malcolm</name>
         <step id="1" type="text">
             <text><![CDATA[Welcome on my shop<br />
-		<a href="2">Buy</a><br />
-		<a href="3">Sell</a>]]></text>
-            <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
+		<a href="2">*Buy*</a><br />
+		<a href="3">*Sell*</a>]]></text>
+            <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
         </step>
         <step shop="2" id="2" type="shop"/>
         <step shop="1" id="3" type="sell"/>
@@ -118,11 +94,11 @@ skin is invisible
       <name langue="fr">Marchand Malcolm</name>
         <step id="1" type="text">
             <text><![CDATA[Welcome on my shop<br />
-		<a href="2">Buy</a><br />
-		<a href="3">Sell</a>]]></text>
-            <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
+		<a href="2">*Buy*</a><br />
+		<a href="3">*Sell*</a>]]></text>
+            <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
         </step>
         <step shop="3" id="2" type="shop"/>
         <step shop="1" id="3" type="sell"/>
@@ -132,11 +108,11 @@ skin is invisible
       <name langue="fr">Marchand Malcolm</name>
         <step id="1" type="text">
             <text><![CDATA[Welcome on my shop<br />
-		<a href="2">Buy</a><br />
-		<a href="3">Sell</a>]]></text>
+		<a href="2">*Buy*</a><br />
+		<a href="3">*Sell*</a>]]></text>
             <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-		<a href="2">Acheter</a><br />
-		<a href="3">Vendre</a>]]></text>
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
         </step>
         <step shop="4" id="2" type="shop"/>
         <step shop="1" id="3" type="sell"/>
@@ -145,11 +121,11 @@ skin is invisible
     
     
     <bot id="200">
-      <name>Cerise</name>
-      <name langue="fr">Cerise</name>
+      <name>Mayor Cerise</name>
+      <name langue="fr">Maire Cerise</name>
 	                <step id="1" type="text">
 		    <text><![CDATA[Do you want try capture Arcania.<br />
-		<a href="2">[Warehouse]</a>]]></text>
+		<a href="2">[*Warehouse*]</a>]]></text>
 	</step>
         <step zone="arcania" id="2" type="zonecapture"/>
     </bot>
@@ -380,11 +356,11 @@ skin is invisible
       <name langue="fr">Lieutenant</name>
          <step type="text" id="1">
             <text><![CDATA[If it keeps I'll lose this duel <br />
-             <a href="2"> Helping Lieutenant </a> <br />
-             <a href="close"> Leaving </a>]]></text>
+             <a href="2">*Helping Lieutenant*</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Si ca continue je vais perdre ce duel<br />		
-            <a href="2">Aider le lieutenant</a><br />
-            <a href="close">Partir</a>]]></text>
+            <a href="2">*Aider le lieutenant*</a><br />
+            <a href="close">*Partir*</a>]]></text>
         </step>     
         <step id="2" type="quests"/> 
     </bot>

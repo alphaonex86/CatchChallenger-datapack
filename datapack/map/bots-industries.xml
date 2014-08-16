@@ -7,16 +7,16 @@ skin is invisible
       <name>Smith Pierre</name>
       <name lang="fr">Pierre le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Melt copper*</a><br />
+		<a href="3">*Melt iron*</a><br />
+		<a href="4">*Melt silver*</a><br />
+		<a href="5">*Melt steal*</a><br />
+		<a href="6">*Melt gold*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+		<a href="3">*Fondre du fer*</a><br />
+		<a href="4">*Fondre de l'argent*</a><br />
+		<a href="5">*Fondre de l'acier*</a><br />
+		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="1" />
         <step id="3" type="industry" industry="2" />
@@ -29,10 +29,10 @@ skin is invisible
       <name>Trap seller Eric</name>
       <name lang="fr">Eric vendeur de trappe</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Made Catchtrap</a><br />
-		<a href="3">Made Supertrap</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fabrique une Catchtrap</a><br />
-		<a href="3">Fabrique une Supertrap</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Made Catchtrap*</a><br />
+		<a href="3">*Made Supertrap*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fabrique une Catchtrap*</a><br />
+		<a href="3">*Fabrique une Supertrap*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="6" />
         <step id="3" type="industry" industry="7" />
@@ -42,8 +42,8 @@ skin is invisible
       <name>Lumberjack Louis</name>
       <name lang="fr">Louis le bûcheron</name>
       <step type="text" id="1">
-		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Saw a log*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Scier du bois*</a><br />]]></text>
       </step>
         <step id="2" type="industry" industry="9" />
     </bot>
@@ -52,16 +52,16 @@ skin is invisible
       <name>Smith Luca</name>
       <name lang="fr">Luca le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+				<text><![CDATA[<a href="2">*Melt copper*</a><br />
+		<a href="3">*Melt iron*</a><br />
+		<a href="4">*Melt silver*</a><br />
+		<a href="5">*Melt steal*</a><br />
+		<a href="6">*Melt gold*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+		<a href="3">*Fondre du fer*</a><br />
+		<a href="4">*Fondre de l'argent*</a><br />
+		<a href="5">*Fondre de l'acier*</a><br />
+		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="1" />
         <step id="3" type="industry" industry="2" />
@@ -74,16 +74,16 @@ skin is invisible
       <name>Smith Elliot</name>
       <name lang="fr">Elliot le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+				<text><![CDATA[<a href="2">*Melt copper*</a><br />
+		<a href="3">*Melt iron*</a><br />
+		<a href="4">*Melt silver*</a><br />
+		<a href="5">*Melt steal*</a><br />
+		<a href="6">*Melt gold*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+		<a href="3">*Fondre du fer*</a><br />
+		<a href="4">*Fondre de l'argent*</a><br />
+		<a href="5">*Fondre de l'acier*</a><br />
+		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="1" />
         <step id="3" type="industry" industry="2" />
@@ -96,16 +96,16 @@ skin is invisible
       <name>Smith Bryan</name>
       <name lang="fr">Bryan le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+				<text><![CDATA[<a href="2">*Melt copper*</a><br />
+		<a href="3">*Melt iron*</a><br />
+		<a href="4">*Melt silver*</a><br />
+		<a href="5">*Melt steal*</a><br />
+		<a href="6">*Melt gold*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+		<a href="3">*Fondre du fer*</a><br />
+		<a href="4">*Fondre de l'argent*</a><br />
+		<a href="5">*Fondre de l'acier*</a><br />
+		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="1" />
         <step id="3" type="industry" industry="2" />
@@ -118,8 +118,8 @@ skin is invisible
       <name>Lumberjack Bruce</name>
       <name lang="fr">Bruce le bûcheron</name>
       <step type="text" id="1">
-		<text><![CDATA[<a href="2">Saw a log</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Scier du bois</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Saw a log*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Scier du bois*</a><br />]]></text>
       </step>
         <step id="2" type="industry" industry="9" />
     </bot>
@@ -128,8 +128,8 @@ skin is invisible
       <name>Miner Antony</name>
       <name lang="fr">Antony le mineur</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Mine</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Miner</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Mine*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Miner*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="12" />
     </bot>
@@ -138,8 +138,8 @@ skin is invisible
       <name>Farmer Andy</name>
       <name lang="fr">Andy le fermier</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Cultiver*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Cultivate*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="11" />
     </bot>
@@ -148,8 +148,8 @@ skin is invisible
       <name>Scientific Herman</name>
       <name lang="fr">Herman le scientific</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Distiller</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">distil</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="9" />
     </bot>
@@ -158,8 +158,8 @@ skin is invisible
       <name>Scientific Nolan</name>
       <name lang="fr">Nolan le scientific</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Raffiner</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">refined</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Raffiner*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Refined*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="10" />
     </bot>
@@ -168,16 +168,16 @@ skin is invisible
       <name>Smith Norbert</name>
       <name lang="fr">Norbert le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Melt copper</a><br />
-		<a href="3">Melt iron</a><br />
-		<a href="4">Melt silver</a><br />
-		<a href="5">Melt steal</a><br />
-		<a href="6">Melt gold</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Fondre du cuivre</a><br />
-		<a href="3">Fondre du fer</a><br />
-		<a href="4">Fondre de l'argent</a><br />
-		<a href="5">Fondre de l'acier</a><br />
-		<a href="6">Fondre de l'or</a><br />]]></text>
+				<text><![CDATA[<a href="2">*Melt copper*</a><br />
+		<a href="3">*Melt iron*</a><br />
+		<a href="4">*Melt silver*</a><br />
+		<a href="5">*Melt steal*</a><br />
+		<a href="6">*Melt gold*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+		<a href="3">*Fondre du fer*</a><br />
+		<a href="4">*Fondre de l'argent*</a><br />
+		<a href="5">*Fondre de l'acier*</a><br />
+		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="1" />
         <step id="3" type="industry" industry="2" />
@@ -190,8 +190,8 @@ skin is invisible
       <name>Farmer Juliens</name>
       <name lang="fr">Juliens le fermier</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">Cultiver</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">Cultivate</a><br />]]></text>
+		<text><![CDATA[<a href="2">*Cultiver*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Cultivate*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="11" />
     </bot>

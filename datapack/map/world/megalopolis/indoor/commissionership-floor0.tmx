@@ -138,8 +138,8 @@
   <object name="teleport on push" type="teleport on push" gid="1027" x="416" y="256">
    <properties>
     <property name="map" value="commissionership-floor-1"/>
-    <property name="x" value="24"/>
-    <property name="y" value="16"/>
+    <property name="x" value="26"/>
+    <property name="y" value="18"/>
    </properties>
   </object>
  </objectgroup>

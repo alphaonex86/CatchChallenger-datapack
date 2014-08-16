@@ -99,9 +99,14 @@
     <property name="y" value="24"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="272">
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="2.14"/>
+   </properties>
+  </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value="../angegarde/4.14"/>
    </properties>
   </object>
  </objectgroup>
