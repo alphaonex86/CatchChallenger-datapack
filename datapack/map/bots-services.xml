@@ -50,14 +50,25 @@ skin is invisible
       <name>Florist Claire</name>
       <name langue="fr">Claire la fleuriste</name>
            <step id="1" type="text">
-              <text><![CDATA[You can sell/buy objets into the general market.<br />
-              <a href="2">[*Market*]</a>]]></text>
-              <text lang="fr"><![CDATA[Bienvenu dans ma boutique<br />
-              nous vendons differents types de graines<br />
-		<a href="2">*Acheter*</a><br />
-		<a href="3">*Vendre*</a>]]></text>
+              <text><![CDATA[Welcome to my shop <br />
+               We sell different types of seeds<br />
+              <a href="2">[*Buy*]</a>]]></text>
+              <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+              nous vendons différents types de graines<br />
+		<a href="2">*Acheter*</a>]]></text>
            </step>
         <step shop="101" id="2" type="shop"/>
+    </bot>
+    <bot id="9">
+      <name>Trader Eddie</name>
+      <name langue="fr">Marchand Eddie</name>
+           <step id="1" type="text">
+              <text><![CDATA[Welcome to shipyard shop.<br />
+              <a href="2">[*buy*]</a>]]></text>
+              <text lang="fr"><![CDATA[Bienvenue à la boutique du chantier naval<br />
+		<a href="2">*Acheter*</a> ]]> </text>
+           </step>
+        <step shop="102" id="2" type="shop"/>
     </bot>
     
     

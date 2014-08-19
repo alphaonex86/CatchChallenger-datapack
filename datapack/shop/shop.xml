@@ -43,4 +43,9 @@ Some special product can be added onetime too
         <product itemId="1010"/>
         <product itemId="1011"/>
     </shop>
+        <shop id="102">
+        <product itemId="100"/>
+        <product itemId="31"/>
+        
+    </shop>
 </shops>

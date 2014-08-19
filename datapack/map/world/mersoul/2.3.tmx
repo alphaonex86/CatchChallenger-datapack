@@ -66,7 +66,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt08tOwkAYhuGauGA5dQEqcBGwQMPFeCXGmHAnhKWy5OzCfcvSI9yBsOSoiW+1k7RjC61NZ1O+5AmdpJmvf8s0jw2juUOS3AnDuHe1hX+9qzNpr8X+tmss/Os0ez/Yf+aaC/86zd4r5dq73tfZyCXrDkuUWW3xl5pWzOeL8n479HTRQx8DDDHCgwjvvcaN61ZZR+l9Yu9nvOAVb3jHBNOA2WX+c468WXDfEiusscEWn/hCHoWA/rjnSE3eZF+c4gznKKKEMmrscxHQG/ccyTwq3+zS/P2tm8HvVb0/7jnSkaz2Op/sBNZRMjL77pN9FVT1jPoTb598Bt3RPbOTLM0qk6WZszSrzGFmfTn8p9PJN8nsnT0=
+   eJzt001OwkAYxvGSsGA5JQER4RCyQONhOIkxJtyEuBSXogIL9uBSQPAGwtJPSPijnaQdSz+cdDblSX6hkzTz9G2ZVtayWgF0ci0sq+24Ed51UKdu75D9R45H4V0n2fvK/gvHUnjXSfY2lGv3OqyzmdPr3pUos47EX2quYj5flPd7S08Hd7jHA7rooS92957jwnGprKP0PrH3GBNM8YwZ5njxmV3mP+fInTfue8cHPvGFb6ywRhEHPv1xz5Gaos2+KOEQZRyhgirq7HPi0yvPTaEQ7RzJDJRvdmr//p7Z/u9VvT/uOTKRtPZuP1kew4wembD7ZN8xamZG/Ym7Tz6D6ZieeZs0zSqTppnTNKvMfmZz2f+nk8kG/tOcag==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -76,7 +76,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt07EJACAMRNEUdjqlkziKoJvoYNrYiaBoDuE+pH4hEG9E/GJetTJvucHtubeKIHcWwqSrYyLc8VPabgS5I7TL2GnJimSr75Zu1g33lz0R8TaMsdc14TwpQQ==
+   eJxLYmFgSMKDaQXw2Uktext4SLOXWmDBANmLDQyEnaP20sdOetn7VQTBhuUpevt3wQDZCwMDbe8oGAXkgsXcDAxLuOlv72GgnUdIsHeouHMgwGjYjIJRMApoDQAnGSpK
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -93,6 +93,13 @@
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="2.2"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="400" y="160">
+   <properties>
+    <property name="map" value="indoor/dramed-house"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>

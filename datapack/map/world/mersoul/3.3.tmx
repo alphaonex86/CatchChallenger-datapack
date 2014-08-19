@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1NlOwkAUxvHhjoQbE+Rd3K58Crf4HBqJOYm37kui0UegdX8Ed0BxeQRcoa7c+28iptIZ26okBviSX5gM0zmlp4Pdpj6TYWwZ2J511fQx148BDGLoY40V86+tTd6zX5ZxziCvqTvC3Cgq7UqN8ZnWrDHF8awtMS4bOJo9l5lbQSql1CqfaxHqDhvGbibi5u+CrnWzl1BqHwc4xBGOcZIIf38/SZH9r3GDW9zhHg91rvtdBGmMe5jmatNBPzvRhW70ePob9Izd8zGXVGoeC1jEEiYxhWnMYDbpr6s7R9VnG/SM3fOxyZ5b2MYOdpGBBRvr2NDUDXuOeuP+Ofd8FNjzHBe4xBWyyCGPU5wlv77fbn57jp7Z8wWveEMFJZTh4BFPmrpB54heCj0Veiv0WOi10HOh9xL+DqOHXgo9FXor9FjotdBzKda57n9MNhZN0HWttNIs0f1PN2Ka5Xe20jj5y3e2nu//O2OClTs=
+   eJzt1VlOAjEcx/HyRsKLCXIXtydP4RbPoZGYf/TVfUk0egQY9yO4w7gfAVfAlXe/k4gZobUMSjBxfskn05ROO/Q/BadFfSZFO23g+MaV00NfL/rQj4GPMelI9djKuL75MrSzBq5m3SH6hlFqVWqEa1IzxpSib2yedsGgqJlzib5lJBJKrXBdDbDuoKHtZTxq/sx2r5fdmFJ72McBDnGE41jtz1dPcsx/jRvc4g73eGjwut9FkMSoj6mvMm3Usx0d6ESXr762PfbOx2xcqTnMYwGLmMAkpjCNmXj1urpzVN5b2x5752ODOTexhW3sIIU0HKxhXbNureeoO1rd552PM+Y8xwUucYUMsnBxgtP41/fby0/P0TNzvuAVbyghjwKKeMSTZl3bOaKWQk2F2go1Fmot1FyovdT+hMFDLYWaCrUVaizUWqi55Bq87l9MJhKM7b4wYf5LdL/Ttow18b+63tTzPcOEaWZ+851t5Pv/DqBllcg=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJx7yccAB8+B7Bc48EskddQAnPwINjuQzYEDI6sbKmCeACo9CkgDEsBwkwRiKSCWBmIZLOG4nJuBYQUQrwTiVdwI8ZPAdFoozMBQBMTFQFwCxKVAnAPEuUCcB8T5QFwgTF03Uzt/EAuGYv4gFozmo1EwCkbBQILHwLrlCTdhdaMANxgNw1EwCoYGAABq5RqT
+   eJx7yccAB8+B7Bc48EskddQAnPwINjuQzYEDI6sbKmCeACo9CkgDEsBwkwRiKSCWBmIZLOG4nJuBYQUQrwTiVdwI8ZPAdFoozMBQBMTFQFwCxKVAnAPEuUCcB8T5QFwgTF03Uzt/EAuGYv4gFozmo1EwCkbBQILHwLrlCTdhdZSCJDrYMVCAXmE4CkbBKKAMAABY4BsA
   </data>
  </layer>
  <layer name="other" width="30" height="30">
@@ -94,7 +94,7 @@
   <object type="rescue" gid="5122" x="128" y="192"/>
   <object name="door" type="door" gid="5397" x="272" y="160">
    <properties>
-    <property name="map" value="indoor/dramed-house"/>
+    <property name="map" value="indoor/shipyard"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
@@ -126,6 +126,13 @@
   <object name="door" type="door" gid="5237" x="48" y="176">
    <properties>
     <property name="map" value="indoor/shop"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5397" x="272" y="48">
+   <properties>
+    <property name="map" value="indoor/shipyard2"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
