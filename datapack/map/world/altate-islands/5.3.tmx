@@ -56,17 +56,17 @@
  </layer>
  <layer name="Water" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJwTFGFgEBzFIwLDwEDYOVD2DnSYj+JRPIpHMbXxQJWryHaPNH+PYtrG6UDYO1D+HegwH8WjGBsGADTJf1Y=
+   eJztwwEJAAAMA6BVGLx/1gW5gr2kqqqqvjueJYIV
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlkEKgDAMBLff0J/Ul6svEV9SvdhQCkvPsoGSgRxyGtKGJUCgZEnAg1Zr0jlf6i+NFvfQe3j3WpvonXP1HGilcgZB4ANnuTLPvXLV8u2kvkA39+g2lHP3XJ812z3uEoN3WfWf7FXeB+xVzmr0HZ5xd4P/+ABh7x5w
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlksOgDAIRHsFvYne/3B207QhBoZPW62+pAsNAgNxNKXKls+efFhyHPmczroROaxEzM2CV7O27yid2r5H73b0Pks9qpP20V57epTqlft3cZ5dSPWkOAQkFs2v0WqZy0zP+lmTt36LWqwaOL9EoL6H1uP8UgP6HOeXPfZv8dQIZvjjCu8Pyle0PuV/rnc/0lyRuV96ehA7
+   eJztlFEOgCAMQ7kC3kTvfzj5MSFmo92AH+1L+BiUpQq0FCEES23jIOZRHeVs4xrMP/1RnfXr+X/78mrkj93P0GtRf9TX++8rtbN3I0vE7x/5wrns+obIu7G02fyJvBtLO5NHnsbyHM03qwer6dezd4fZl8nilSivhNjLDYudElM=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -80,24 +80,14 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
-    <property name="map" value="4.2"/>
+    <property name="map" value="5-6.3-4"/>
    </properties>
   </object>
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
-    <property name="map" value="3.3"/>
-   </properties>
-  </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
-   <properties>
-    <property name="map" value="4.4"/>
-   </properties>
-  </object>
-  <object name="border" type="border-left" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value="5.3"/>
+    <property name="map" value="4.3"/>
    </properties>
   </object>
  </objectgroup>
