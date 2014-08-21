@@ -3,7 +3,12 @@ multiplicator number need be multiple of 2: 2, 0.5, 0
 All not into multiplicator is not multiplied or divided
 The to value is separated by ;
 color is optional
+
+
+
+Fly > fight > stone > fly
 -->
+
 <types>
     <type name="normal" color="#B5B5B5">
         <name>Normal</name>
@@ -21,8 +26,8 @@ color is optional
     <type name="bird" color="#8A47C5">
         <name>Bird</name>
         <name lang="fr">Oiseau</name>
-        <multiplicator number="2" to="electric;stone"/>
-        <multiplicator number="0.5" to="plant;fight;steal"/>
+        <multiplicator number="2" to="plant;fight"/>
+        <multiplicator number="0.5" to="steal;electric;stone"/>
     </type>
     <type name="fire" color="#f38233">
         <name>Fire</name>
