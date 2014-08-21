@@ -109,5 +109,10 @@
     <property name="skin" value="terranite"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2210" x="400" y="256">
+   <properties>
+    <property name="item" value="5"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

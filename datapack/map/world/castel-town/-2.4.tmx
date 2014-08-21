@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlsEOwDAEhrvbHtujb0svIqiosmz9Ezf1qdJo7d86zm4Wn5FfNHeFKDcrD46bIfx2mTXnuFXv/WVV13frnZrth/ssPObles5iLjWFE9r/HmbU3HHcqn8UczK40v047kw+JDYoXOByiJ4rLZ5UC+dcgnXv0Wo+q1EcqQcCuGDNbUWvW2Ov5u4dQdcFM6kPEw==
+   eJztlsEOwDAEhrvbHtujb8suIqWKsmT9E7fyoTRt7d86ztc0Z0bnZrkVonVE1zXDzRC+u6xaOW7FnVfNWZaq+7v1TXnn4faFx6xciy/mUhM4ofNvYUbtXY9b9Y5iTgaXq6/H9eRDYoPAhV4O0XslxeN6YdxL0P57pJ57NYrDzUAAF7S5rZh1bezV3P1HkHUBwm4PCg==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -114,6 +114,11 @@
     <property name="id" value="7007"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object name="object" type="object" gid="2210" x="80" y="64">
+   <properties>
+    <property name="item" value="16"/>
    </properties>
   </object>
  </objectgroup>

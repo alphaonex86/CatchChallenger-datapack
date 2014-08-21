@@ -118,5 +118,10 @@
     <property name="skin" value="girl"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2211" x="144" y="112">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

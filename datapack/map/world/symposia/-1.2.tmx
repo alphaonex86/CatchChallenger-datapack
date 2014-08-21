@@ -101,5 +101,10 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2211" x="128" y="400">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

@@ -67,7 +67,7 @@
  </layer>
  <layer name="Collisions" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="WalkBehind" width="60" height="60">
@@ -87,5 +87,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="object" width="60" height="60"/>
+ <objectgroup name="object" width="60" height="60">
+  <object name="object" type="object" gid="2211" x="240" y="192">
+   <properties>
+    <property name="item" value="41"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

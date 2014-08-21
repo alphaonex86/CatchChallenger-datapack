@@ -104,4 +104,11 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="object" width="30" height="30">
+  <object name="object" type="object" gid="2210" x="272" y="336">
+   <properties>
+    <property name="item" value="46"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

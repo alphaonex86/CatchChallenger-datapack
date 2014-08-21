@@ -146,5 +146,10 @@
     <property name="skin" value="oldman"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="5125" x="448" y="240">
+   <properties>
+    <property name="item" value="44"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

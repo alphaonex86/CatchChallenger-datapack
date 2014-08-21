@@ -108,4 +108,12 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup name="object" width="30" height="30">
+  <object name="object" type="object" gid="5125" x="176" y="176">
+   <properties>
+    <property name="item" value="40"/>
+    <property name="visible" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

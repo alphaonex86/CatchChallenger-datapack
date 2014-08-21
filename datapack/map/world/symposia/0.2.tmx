@@ -190,5 +190,11 @@
     <property name="skin" value="soldier"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="5125" x="64" y="208">
+   <properties>
+    <property name="item" value="1006"/>
+    <property name="visible" value="false"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

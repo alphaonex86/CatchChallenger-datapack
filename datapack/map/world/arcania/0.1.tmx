@@ -109,5 +109,10 @@
     <property name="skin" value="bandit"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2210" x="352" y="432">
+   <properties>
+    <property name="item" value="5"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

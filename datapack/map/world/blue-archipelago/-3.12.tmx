@@ -86,5 +86,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30"/>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="object" type="object" gid="2210" x="64" y="96">
+   <properties>
+    <property name="item" value="42"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

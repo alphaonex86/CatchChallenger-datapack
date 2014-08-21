@@ -137,5 +137,10 @@
     <property name="skin" value="terranite"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2210" x="160" y="336">
+   <properties>
+    <property name="item" value="43"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

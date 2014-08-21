@@ -123,5 +123,10 @@
     <property name="skin" value="girl"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2211" x="208" y="400">
+   <properties>
+    <property name="item" value="2"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
