@@ -852,6 +852,69 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Toufigel is a peaceful animal living in the high mountains </description>
         <description lang="fr">Toufigel est un animal paisible vivent en groupe dans les hautes montagnes</description>
     </monster>
+    <monster xp_max="500" type="bird" pow="1.4" speed="135" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="90" special_defense="95" ratio_gender="50%" give_sp="350" height="0.76m" egg_step="5000" give_xp="300">
+        <attack_list>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="51" level="8"/>
+            <attack id="53" level="14"/>
+            <attack id="61" level="16"/>
+            <attack id="51" level="20" attack_level="2"/>
+            <attack id="53" level="36" attack_level="2"/>
+            <attack id="50" level="45"/>
+            <attack id="53" level="50" attack_level="3"/>
+            <attack id="50" level="55" attack_level="2"/>
+            <attack id="50" level="65" attack_level="3"/>
+        </attack_list>
+        <evolutions>
+            <evolution type="level" level="18" evolveTo="55"/>
+        </evolutions>
+        <drops>
+            <drop item="1001" luck="2" quantity="1"/>
+            <drop item="1002" luck="2" quantity="1"/>
+            <drop item="1003" luck="2" quantity="1"/>
+            <drop item="1004" luck="2" quantity="1"/>
+            <drop item="1005" luck="2" quantity="1"/>
+            <drop item="1006" luck="2" quantity="1"/>
+            <drop item="1007" luck="2" quantity="1"/>
+            <drop item="1008" luck="2" quantity="1"/>
+            <drop item="1009" luck="2" quantity="1"/>
+        </drops>
+        <name>Flacono</name>
+        <name lang="fr">Flacono</name>
+        <description>Flacono frugivor is a small bird that lives in the forests and plains</description>
+        <description lang="fr">Flacono est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+    </monster>
+      <monster xp_max="500" type="bird" pow="1.4" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="300">
+        <attack_list>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="51" level="8"/>
+            <attack id="53" level="14"/>
+            <attack id="61" level="16"/>
+            <attack id="51" level="20" attack_level="2"/>
+            <attack id="53" level="36" attack_level="2"/>
+            <attack id="50" level="45"/>
+            <attack id="53" level="50" attack_level="3"/>
+            <attack id="50" level="55" attack_level="2"/>
+            <attack id="50" level="65" attack_level="3"/>
+        </attack_list>
+        <drops>
+            <drop item="1001" luck="2" quantity="1"/>
+            <drop item="1002" luck="2" quantity="1"/>
+            <drop item="1003" luck="2" quantity="1"/>
+            <drop item="1004" luck="2" quantity="1"/>
+            <drop item="1005" luck="2" quantity="1"/>
+            <drop item="1006" luck="2" quantity="1"/>
+            <drop item="1007" luck="2" quantity="1"/>
+            <drop item="1008" luck="2" quantity="1"/>
+            <drop item="1009" luck="2" quantity="1"/>
+        </drops>
+        <name>Cervix</name>
+        <name lang="fr">Cervix</name>
+        <description>Cervix frugivor is a small bird that lives in the forests and plains</description>
+        <description lang="fr">Cervix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+    </monster>
     
     
     
