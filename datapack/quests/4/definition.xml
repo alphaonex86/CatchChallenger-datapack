@@ -1,13 +1,12 @@
-<quest repeatable="no" bot="2008">
-    <name><![CDATA[An invitation]]></name>
-    <name lang="fr"><![CDATA[Une invitation]]></name>
-    <step id="1" bot="2009">
-        <!-- just talk with a bot -->
-        <text><![CDATA[Give this invitation to the botanist in the Castle townforest]]></text>
-        <text lang="fr"><![CDATA[Allez donner cette invitation au botaniste dans la fôret de castle ville]]></text>
+<quest repeatable="no" bot="2016">
+    <name><![CDATA[Sarah Birthday ]]></name>
+    <name lang="fr"><![CDATA[L'anniversaire de Sarah]]></name>
+    <step id="1">
+        <text><![CDATA[bring 3 exapode molt to the father of sarah in Chantitown ,]]></text>
+        <text lang="fr"><![CDATA[Apporte 3 mues d'exapode au père de Sarah a Chantiville,]]></text>
+        <item quantity="3" id="4009" monster="23" rate="25%"/>
     </step>
-    <rewards>
-        <item id="2008" quantity="1"/>
-        <item id="1008" quantity="1"/>
+    <rewards show="true">
+        <item quantity="45" id="2014"/>
     </rewards>
 </quest>

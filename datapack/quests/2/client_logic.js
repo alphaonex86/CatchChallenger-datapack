@@ -3,7 +3,7 @@ if(currentQuestStep()==0)
 if(currentQuestStep()==1)
 {
 	if(haveQuestStepRequirements())
-		return 50;//give all object to pass to step 2
+		return 2;//give all object to pass to step 2
 	else
 		return 42;//need more object
 }

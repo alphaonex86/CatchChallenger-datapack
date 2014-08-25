@@ -17,8 +17,8 @@ skin is invisible
         <step id="2" type="heal"/>
     </bot>
     <bot id="2">
-     <name>Coach Anais</name>
-      <name langue="fr">Entraineur Anais</name>
+     <name>Coach</name>
+      <name langue="fr">Entraineur</name>
         <step id="1" type="text">
 		<text><![CDATA[I can teach some attack.<br />
 		<a href="2">[*Learn*]</a>]]></text>
@@ -371,6 +371,79 @@ skin is invisible
              <a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Si ca continue je vais perdre ce duel<br />		
             <a href="2">*Aider le lieutenant*</a><br />
+            <a href="close">*Partir*</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+    <bot id="2102">
+      <name>Franck the dentelle </name>
+      <name langue="fr">Franck la dentelle</name>
+         <step type="text" id="1">
+            <text><![CDATA[Hey kid! it would tell you to break the bandit with me?<br />
+             <a href="2">"Go !"</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
+            <text lang="fr"><![CDATA[Hey petit ! ça te dirais de casser du bandit avec moi ?<br />		
+            <a href="2">"allons y"</a><br />
+            <a href="close">*Partir*</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+    <bot id="2103">
+      <name>Alphonse the passionate</name>
+      <name langue="fr">Alphonse le passionné</name>
+         <step type="text" id="1">
+            <text><![CDATA[I need a coffee! love goes so fast! when I think she has <br />
+            Will you help me liberates the world from devastation<br />		
+             <a href="2">"yes ..."</a> <br />
+             <a href="close">"um ... no thank you, another time"</a>]]></text>
+            <text lang="fr"><![CDATA[il me faut un petit café ! l'amour passe si vite ! quand je repense a elle !<br />
+            Veux tu m'aider à libére ce monde de la dévastation ?<br />		
+            <a href="2">"oui ..."</a><br />
+            <a href="close">"heu .. non merci, une autre fois"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+    <bot id="2104">
+      <name>Ecologist Edward</name>
+      <name langue="fr">Edward l'écologiste</name>
+         <step type="text" id="1">
+            <text><![CDATA[We must protect the animals! Poaching is inadmissible<br />
+            You want to fight with me against these atrocities<br />		
+             <a href="2">"yes of course"</a> <br />
+             <a href="close">"I don't have time, another time"</a>]]></text>
+            <text lang="fr"><![CDATA[Il faut protéger les animaux ! Le braconnage est inadmissible !<br />
+            Voudrez tu lutter avec moi, contre ces atrocités ?<br />		
+            <a href="2">"bien sûr"</a><br />
+            <a href="close">"J'ai pas le temps, une autre fois"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+    <bot id="2105">
+      <name>Cold Kylian</name>
+      <name langue="fr">Kylian le froid</name>
+         <step type="text" id="1">
+            <text><![CDATA[Do you want a job.<br />	
+             <a href="2">"yes please"</a> <br />
+             <a href="close">"Non merci"</a>]]></text>
+            <text lang="fr"><![CDATA[Tu veux du boulot.<br />	
+            <a href="2">"Oui s'il vous plaît"</a><br />
+            <a href="close">"No thank"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+    
+    
+    
+    
+    <bot id="2201">
+      <name>Bandit</name>
+      <name langue="fr">Bandit</name>
+         <step type="text" id="1">
+            <text><![CDATA[I would not be against a little helping hand<br />
+             <a href="2">*Helping the bandit*</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
+            <text lang="fr"><![CDATA[Je ne serai pas contre un coups de main petit<br />		
+            <a href="2">*Aider le bandit*</a><br />
             <a href="close">*Partir*</a>]]></text>
         </step>     
         <step id="2" type="quests"/> 

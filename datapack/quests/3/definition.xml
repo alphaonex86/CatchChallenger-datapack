@@ -1,15 +1,14 @@
-<quest bot="2004" repeatable="no">
-    <name><![CDATA[The Elofly hunting]]></name>
-    <name lang="fr"><![CDATA[La chasse de l'Elofly]]></name>
+<quest repeatable="no" bot="2012">
+    <name><![CDATA[Polyrock hurting]]></name>
+    <name lang="fr"><![CDATA[Chasse au Polyrock]]></name>
     <step id="1">
-        <text><![CDATA[Collect 5 feather and come back to see the girl]]></text>
-        <text lang="fr"><![CDATA[Récupère 5 plume et rapporte les à la fille]]></text>
-        <item quantity="5" rate="100%" monster="2" id="4002"/>
+        <text><![CDATA[Hunt 12 Polyrock and come back to see me ]]></text>
+        <text lang="fr"><![CDATA[Chassé 12 Polyrock]]></text>
+        <item monster="5" quantity="12" id="4004" rate="100%"/>
     </step>
     <rewards show="true">
-        <item quantity="2" id="2001"/>
-        <item quantity="2" id="2002"/>
-        <item quantity="3" id="2003"/>
-        <reputation point="+1" type="empire"/>
+        <item id="3009"/>
+        <item id="1005"/>
+        <item quantity="3" id="1004"/>
     </rewards>
 </quest>

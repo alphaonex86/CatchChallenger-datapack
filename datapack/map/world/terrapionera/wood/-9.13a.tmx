@@ -135,5 +135,15 @@
     <property name="skin" value="girlplayer"/>
    </properties>
   </object>
+  <object name="object" type="object" gid="2210" x="64" y="112">
+   <properties>
+    <property name="item" value="9"/>
+   </properties>
+  </object>
+  <object name="object" type="object" gid="2210" x="256" y="256">
+   <properties>
+    <property name="item" value="9"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

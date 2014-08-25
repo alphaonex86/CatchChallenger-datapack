@@ -99,14 +99,16 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="240" y="160">
    <properties>
+    <property name="fightRange" value="4"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7132"/>
-    <property name="lookAt" value="top"/>
+    <property name="lookAt" value="right"/>
     <property name="skin" value="miner"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="5123" x="336" y="128">
    <properties>
+    <property name="fightRange" value="3"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7033"/>
     <property name="lookAt" value="bottom"/>

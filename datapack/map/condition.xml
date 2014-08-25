@@ -11,7 +11,10 @@
     <condition id="4" fightBot="1" type="fightBot">
         <blockedtext><![CDATA[You have don't win agains the first bot]]></blockedtext>
     </condition>
-    <condition id="5" quest="100" type="quest">
+    <condition id="5" quest="9000" type="quest">
+        <blockedtext><![CDATA[the door is close]]></blockedtext>
+    </condition>
+    <condition id="1000" quest="1000" type="quest">
         <blockedtext><![CDATA[the door is close]]></blockedtext>
     </condition>
 </conditions>

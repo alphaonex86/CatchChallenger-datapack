@@ -118,6 +118,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="192" y="400">
    <properties>
+    <property name="fightRange" value="5"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7018"/>
     <property name="lookAt" value="top"/>

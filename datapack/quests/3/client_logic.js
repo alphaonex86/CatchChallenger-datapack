@@ -7,4 +7,4 @@ if(currentQuestStep()==1)
 	else
 		return 42;//need more object
 }
-
+ 

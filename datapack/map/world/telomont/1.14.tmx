@@ -101,6 +101,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="128" y="336">
    <properties>
+    <property name="fightRange" value="2"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7033"/>
     <property name="lookAt" value="right"/>
@@ -109,6 +110,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="208" y="16">
    <properties>
+    <property name="fightRange" value="4"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7067"/>
     <property name="lookAt" value="bottom"/>
@@ -117,6 +119,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="352" y="384">
    <properties>
+    <property name="fightRange" value="5"/>
     <property name="file" value="../../bots-fights.xml"/>
     <property name="id" value="7070"/>
     <property name="lookAt" value="left"/>

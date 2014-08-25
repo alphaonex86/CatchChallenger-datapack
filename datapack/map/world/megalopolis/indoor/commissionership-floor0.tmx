@@ -53,6 +53,8 @@
   </object>
   <object name="door" type="door" gid="3477" x="320" y="256">
    <properties>
+    <property name="condition-file" value="../../../condition"/>
+    <property name="condition-id" value="1000"/>
     <property name="map" value="commissionership-floor0"/>
     <property name="x" value="20"/>
     <property name="y" value="12"/>
@@ -163,7 +165,7 @@
   <object type="bot" gid="1027" x="384" y="144">
    <properties>
     <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9062"/>
+    <property name="id" value="2105"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
    </properties>
@@ -179,17 +181,17 @@
   <object type="bot" gid="1027" x="304" y="144">
    <properties>
     <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9062"/>
+    <property name="id" value="2104"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
    </properties>
   </object>
   <object type="bot" gid="1027" x="384" y="192">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9062"/>
+    <property name="file" value="../../../bots-services"/>
+    <property name="id" value="2103"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="rookie"/>
+    <property name="skin" value="alphonse"/>
    </properties>
   </object>
   <object type="bot" gid="1027" x="208" y="288">
@@ -226,10 +228,10 @@
   </object>
   <object type="bot" gid="1027" x="304" y="192">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
-    <property name="id" value="9062"/>
+    <property name="file" value="../../../bots-services"/>
+    <property name="id" value="2102"/>
     <property name="lookAt" value="top"/>
-    <property name="skin" value="rookie"/>
+    <property name="skin" value="franck"/>
    </properties>
   </object>
   <object type="bot" gid="1027" x="32" y="192">

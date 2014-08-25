@@ -50,7 +50,7 @@
    <properties>
     <property name="file" value="../../../bots-services"/>
     <property name="id" value="2"/>
-    <property name="looAt" value="bottom"/>
+    <property name="lookAt" value="bottom"/>
     <property name="skin" value="dramed"/>
    </properties>
   </object>

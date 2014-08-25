@@ -9,7 +9,7 @@
             <!-- level 0 -->
             <text>Apprentice</text>
         </level>
-        <level point="150">
+        <level point="1000">
             <!-- level 1 -->
             <text>Crafter</text>
         </level>
@@ -22,23 +22,52 @@
     -1 to -150: Dissident of the empire
     0-150: Neutral for the empire
     150+: Ally of the empire -->
-    <reputation type="empire">
-        <name>Empire</name>
-        <level point="-150">
-            <!-- level -2 -->
-            <text>Ennemy of the empire</text>
+    <reputation type="nation">
+        <name>Nation</name> 
+        <level point="10000">
+            <!-- level 1 -->
+            <text>Legendary hero</text>
+            <text lang="fr">Hero légendaire</text>
         </level>
-        <level point="-1">
-            <!-- level -1 -->
-            <text>Dissident of the empire</text>
+        <level point="1000">
+            <!-- level 1 -->
+            <text>Protector of the Nation</text>
+            <text lang="fr">Protecteur de la Nation</text>
+        </level>
+        <level point="300">
+            <!-- level 1 -->
+            <text>Peacekeeper</text>
+            <text lang="fr">Gardien de la paix</text>
+        </level>        
+        <level point="100">
+            <!-- level 1 -->
+            <text>Ally of the Nation</text>
+            <text lang="fr">Allié de la Nation</text>
         </level>
         <level point="0">
             <!-- level 0 -->
-            <text>Neutral for the empire</text>
+            <text>Neutral for the Nation</text>
+            <text lang="fr">Neutre à la Nation</text>
         </level>
-        <level point="150">
-            <!-- level 1 -->
-            <text>Ally of the empire</text>
+        <level point="-100">
+            <!-- level -1 -->
+            <text>Troublemaker</text>
+            <text lang="fr">fauteur de troubles</text>
+        </level>
+        <level point="-300">
+            <!-- level -2 -->
+            <text>Famous bandit</text>
+            <text lang="fr">Célèbre bandit</text>
+        </level>
+        <level point="-1000">
+            <!-- level -2 -->
+            <text>Dangerous terrorist</text>
+            <text lang="fr">Dangereux terroriste</text>
+        </level>
+        <level point="-10000">
+            <!-- level -2 -->
+            <text>Dictator of the Nation</text>
+            <text lang="fr">Dictateur de la Nation</text>
         </level>
     </reputation>
 </list>

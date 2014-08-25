@@ -47,7 +47,9 @@
   </object>
   <object name="door" type="door" gid="3477" x="352" y="288">
    <properties>
-    <property name="map" value="commissionership-floor0"/>
+    <property name="condition-file" value="../../../condition"/>
+    <property name="condition-id" value="1000"/>
+    <property name="map" value="commissionership-floor-1"/>
     <property name="x" value="20"/>
     <property name="y" value="12"/>
    </properties>

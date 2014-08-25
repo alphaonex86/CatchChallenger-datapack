@@ -9,7 +9,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
 <monsters>
     <!-- ratio_gender: 0% only male, 100% only female, -1 no gender
     second line is stat at level 100-->
-    <monster xp_max="500" type="fire" pow="1.4" speed="130" attack="110" hp="200" catch_rate="0" id="1" weight="35kg" special_attack="120" defense="100" special_defense="100" ratio_gender="50%" give_sp="350" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="500" type="fire" pow="1.4" speed="130" attack="110" hp="200" catch_rate="0" id="1" weight="35kg" special_attack="120" defense="85" special_defense="100" ratio_gender="50%" give_sp="350" height="0.76m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
