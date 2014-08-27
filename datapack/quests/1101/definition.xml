@@ -8,8 +8,8 @@
     </step>
     <step bot="2105" id="2">
         <!-- return speak to kylian -->
-        <text><![CDATA[Talking to the  contact in Mersoul]]></text>
-        <text lang="fr"><![CDATA[Retourner au commissaria parler à monsieur Kylian]]></text>
+        <text><![CDATA[Return to the police station to talk to Mr. Kylian]]></text>
+        <text lang="fr"><![CDATA[Retourner au commissariat parler à monsieur Kylian]]></text>
     </step>
     <rewards>
         <reputation type="nation" point="+3"/>

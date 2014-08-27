@@ -162,9 +162,9 @@
     <property name="skin" value="nurse"/>
    </properties>
   </object>
-  <object type="bot" gid="1027" x="384" y="144">
+  <object name="bot" type="bot" gid="1027" x="384" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../../bots-services"/>
     <property name="id" value="2105"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="kylian"/>
@@ -180,7 +180,7 @@
   </object>
   <object type="bot" gid="1027" x="304" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../../bots-services"/>
     <property name="id" value="2104"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="eva"/>
