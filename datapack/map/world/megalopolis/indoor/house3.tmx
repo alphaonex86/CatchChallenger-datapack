@@ -27,7 +27,7 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBg8YAYHA8NMIJYDYlkgjgfiaSwQrMCBqnYHkL8TKmbLgWkWOUCag6EBixhesJmHMjsVgeYrIdkxiQW3WkegOicktZvwqCUXAACD5wjN
+   eJxjYBg8YAYHA8NMIJYDYlkgjgfiaSwQrMCBqnYHkL8TKmbLgWkWOUCag6EBixhNgSLQfCUkOyax4FbrCFTnhKR2Ex615AIA6LQIDg==
   </data>
  </layer>
  <layer name="other" width="11" height="12" opacity="0.9">
@@ -51,6 +51,21 @@
     <property name="id" value="9053"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="miller"/>
+   </properties>
+  </object>
+  <object name="object" type="object" gid="3251" x="48" y="128">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+  <object name="OBJECT" type="object" gid="1029" x="96" y="80">
+   <properties>
+    <property name="item" value="1"/>
+   </properties>
+  </object>
+  <object name="OBJECT" type="object" gid="1029" x="16" y="128">
+   <properties>
+    <property name="item" value="1"/>
    </properties>
   </object>
  </objectgroup>

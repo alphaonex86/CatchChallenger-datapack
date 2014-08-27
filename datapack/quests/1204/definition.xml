@@ -15,6 +15,6 @@
         <item id="3008"/>
         <item id="1008" quantity="3"/>
         <item id="1005"/>
-        <reputation type="nation" point="+1"/>
+        <reputation type="nation" point="+3"/>
     </rewards>
 </quest>

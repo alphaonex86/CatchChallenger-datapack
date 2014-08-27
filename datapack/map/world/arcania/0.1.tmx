@@ -93,25 +93,33 @@
     <property name="id" value="9001"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="240" y="64">
-   <properties>
-    <property name="file" value="../../bots-fights.xml"/>
-    <property name="id" value="7001"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="girlplayer"/>
-   </properties>
-  </object>
   <object name="bot" type="bot" gid="5123" x="352" y="192">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
-    <property name="id" value="9023"/>
+    <property name="file" value="../../bots-fights"/>
+    <property name="id" value="7001"/>
     <property name="lookAt" value="bottom"/>
-    <property name="skin" value="bandit"/>
+    <property name="skin" value="girl"/>
    </properties>
   </object>
   <object name="object" type="object" gid="2210" x="352" y="432">
    <properties>
     <property name="item" value="5"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="192" y="64">
+   <properties>
+    <property name="file" value="../../bots-fights.xml"/>
+    <property name="id" value="7150"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="legatus"/>
+   </properties>
+  </object>
+  <object name="bot" type="bot" gid="5123" x="240" y="64">
+   <properties>
+    <property name="file" value="../../bots-services"/>
+    <property name="id" value="2101"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="franck"/>
    </properties>
   </object>
  </objectgroup>

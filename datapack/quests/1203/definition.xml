@@ -2,7 +2,7 @@
     <name><![CDATA[Help the  distillery]]></name>
     <name lang="fr"><![CDATA[Aidez la distillery]]></name>
     <requirements>
-        <quest id="1102"/>
+        <quest id="1202"/>
     </requirements>
     <step id="1">
         <text><![CDATA[brind 3 Red pepper, 3 Yellow pepper and 3 Red mushoorm to the scientific]]></text>

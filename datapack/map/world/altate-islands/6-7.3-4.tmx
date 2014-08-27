@@ -22,7 +22,7 @@
  </layer>
  <layer name="other" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJztl20OgjAMhofn8OsgasSPW6iJEQ7gEdATeGO3BJI6B9Qproz3SfoDMkgfOkpRCgAAAAAAABCKNFFqY8U2CZ1Vd5wdblnE/oV22bf4ZJF5u2rsIovEmVPjCjj3F7qvry1rqbPd4/vwLEzOOcnzwbim6mN58n5eojOti53zt1wE+aYdOVKk+Nr79tfs9L1vOu6Bff9R050AT0PXNTVIcTVw5ydfJLkabN/qHePOF01IczXQ2YnmV5Te37hL6cM2RUvf9HGXWFsfuLO01Nr6wP0vljQ3Lkavx9ORe10dfXO2fZf6eEKC489xlrKvXb4mZjqOOk7Mejc5S+pZh9KLxlzH6sN9baD9m4YU1zoWnr59ZWi+hw/eWwBiZMz8VsfC0HocfONjTObs9QB87VkU32wAAAAAAAAACMsTwts3vw==
+   eJztlwsOgjAMhgfnwMdB0IiPW6iJEQ/gEdATeGO3hCV1otQproz/SxoCAdKPjlKUAgAAAAAAAISiSJRaOrFKQmfVHYcGtzJi/0q7bFp8ysi8m2rcRBmJM6fGFjj3F7quzy3nUme3x/fhWZicTyTPG+Ma28dOyfNxic60Lm7O33IU5Ft05EiR4uuu21+z1ve+6LgG9v1HTdcCPA1d19QgxdXAnZ98keRqcH3tO8adL94hzdVAZyeaX1V7f+MupQ+7VC1908ddYm194M7SUmvrA/e/WNLcmKeP++O0+bxX9M3Z9Z3p/REJjj/HWcq6tr4zsjUx0bHTsWfW+52zpJ61rb1oTHXMP1zXBtq/aUhxfUXu6dtXhua7/eC9BSBGMua3OhaG1uPgGx8ZmbMXA/B1Z1F8swEAAAAAAAAgLHfxFzf+
   </data>
  </layer>
  <layer name="Dirt" width="60" height="60">
@@ -57,7 +57,7 @@
  </layer>
  <layer name="Water" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1EEOxCAMQ9FeoVLvf9YRu1lUVAgSB/wted08Qrmf67oppZRSSmnpjkQ9a5TrBHtE1CZ2rN+x+mwi0/vOaXv+iptXaXbyKuNg/I+TtcXJ2uJkbXHycpexYt3HG+2s5M2yOnqruCt6o89G4e15Mu5Chf1m3n/Fv/y28wyv0vrljXDv4F1hVjtnzuZU36hZPVuWWT1Pllc9R1Xv7ndhxruLeeZ92vFtc/OuPivM59XB24t6Nna63qyehVJKKaXj/QFeGYZM
+   eJzt1EEOgCAMRFGvYOL9z2rYucIQaIcyv8lf2wfE+7mum4iIiIi2bmTUu0a5TrBHjNrEHevvWH02kdP7zmn3/DduXqXZyascB+N3nKxtnKxtnKxtnLy8ZaxY63ijnTt5s6yO3l3cO3qjz8bNm2ke3aG6t2fK8iqtf94IdwXvCrPaOXM2p/pGzerdsszqfbK86j129VZ/CzPeKuaZ/1PFf5ubd/VZYT4vB29v1Ltxp+vN6l2IiIhovBe85YYn
   </data>
  </layer>
  <layer name="other" width="60" height="60">
@@ -84,6 +84,13 @@
   <object name="border" type="border-left" gid="5124" x="0" y="736">
    <properties>
     <property name="map" value="3.2"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5123" x="208" y="544">
+   <properties>
+    <property name="map" value="indoor/heal"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>

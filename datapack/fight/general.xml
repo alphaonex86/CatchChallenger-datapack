@@ -1054,5 +1054,12 @@
 		<monster id="3" level="3" />
 		<gain cash="100" />
 	</fight>
+		<fight id="7150">
+		<start><![CDATA[You will regret this affront]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="18" level="5" />
+		<monster id="18" level="6" />
+		<gain cash="100" />
+	</fight>
 </fights>
 

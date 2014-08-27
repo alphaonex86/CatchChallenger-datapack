@@ -4,6 +4,7 @@
     </condition>
     <condition id="2" item="4901" type="item">
         <blockedtext><![CDATA[You have not an <b>Admin key</b> to open the door]]></blockedtext>
+        <blockedtext lang="fr"><![CDATA[Vous n'avez pas la <b>admin key</b> pour ouvrir la porte]]></blockedtext>
     </condition>
     <condition id="3" type="clan">
         <blockedtext><![CDATA[Your clan don't own the area]]></blockedtext>
@@ -13,8 +14,12 @@
     </condition>
     <condition id="5" quest="9000" type="quest">
         <blockedtext><![CDATA[the door is close]]></blockedtext>
+        <blockedtext lang="fr"><![CDATA[La porte est fermé]]></blockedtext>
     </condition>
     <condition id="1000" quest="1000" type="quest">
         <blockedtext><![CDATA[the door is close]]></blockedtext>
+        <blockedtext lang="fr"><![CDATA[La porte est fermé]]></blockedtext>
     </condition>
+
+
 </conditions>

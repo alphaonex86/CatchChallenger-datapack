@@ -15,7 +15,7 @@ The attack of monster is the 4 last attack for the level
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
         <monster id="1" level="5" captured_with="1"/>
-        <reputation type="empire" level="1"/>
+        <reputation type="nation" level="1"/>
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
     </start>
@@ -26,7 +26,7 @@ The attack of monster is the 4 last attack for the level
         <forcedskin value="terranite;bandit"/>
         <cash value="500"/>
         <monster id="1" level="5" captured_with="1"/>
-        <reputation type="empire" level="-1"/>
+        <reputation type="nation" level="-1"/>
         <item quantity="2" id="5"/>
         <item quantity="5" id="1"/>
     </start>

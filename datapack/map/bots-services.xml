@@ -361,6 +361,15 @@ skin is invisible
             <a href="2">Quête</a><br />]]></text>
         </step>     
         <step id="2" type="quests"/> 
+    </bot>
+    <bot id="2016">
+    <name>John</name>
+      <name langue="fr">John artisant</name>
+         <step type="text" id="1">
+            <text><![CDATA[i'm boartbuilder]]></text>
+            <text lang="fr"><![CDATA[Je suis constructeur de bateaux]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
     </bot> 
     <bot id="2101">
       <name>Lieutenant</name>
@@ -373,7 +382,7 @@ skin is invisible
             <a href="2">*Aider le lieutenant*</a><br />
             <a href="close">*Partir*</a>]]></text>
         </step>     
-        <step id="2" type="quests"/> 
+        <step id="2" type="quests"/>
     </bot>
     <bot id="2102">
       <name>Franck the dentelle </name>
@@ -404,8 +413,8 @@ skin is invisible
         <step id="2" type="quests"/> 
     </bot>
     <bot id="2104">
-      <name>Ecologist Edward</name>
-      <name langue="fr">Edward l'écologiste</name>
+      <name>Eva Edward</name>
+      <name langue="fr">Eva l'écologiste</name>
          <step type="text" id="1">
             <text><![CDATA[We must protect the animals! Poaching is inadmissible<br />
             You want to fight with me against these atrocities<br />		
@@ -431,7 +440,20 @@ skin is invisible
         </step>     
         <step id="2" type="quests"/> 
     </bot>
-    
+     <bot id="2106">
+      <name>Lieutenant</name>
+      <name langue="fr">Lieutenant</name>
+         <step type="text" id="1">
+            <text><![CDATA[Pourquoi un civil est ici?!<br />
+             <a href="2">*speak to the lieutenant*</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
+            <text lang="fr"><![CDATA[Pourquoi un civil est ici?<br />		
+            <a href="2">*Parler au lieutenant*</a><br />
+            <a href="close">*Partir*</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+
     
     
     

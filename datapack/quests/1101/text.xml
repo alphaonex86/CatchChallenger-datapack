@@ -1,32 +1,67 @@
 <text>
     <client_logic id="1">
-        <text><![CDATA[I need help.<br />
-            Elofly destroy all farm.<br />
-            <br />
-            <a href="next_quest_step;42">Can you hunt without killing for me ?</a>]]></text>
-        <text lang="fr"><![CDATA[J'ai besoin d'aide.<br />
-            Elofly détruise les fermes.<br />
-            <br />
-            <a href="next_quest_step;42">Pourrai tu les chasser sans les tués, pour moi ?</a>]]></text>
+        <text><![CDATA[ I need someone fairly discreet. </a> <br />     
+ I'd like to collect some information about conspiracy of Centurie.<br />     
+Go spoke to my contact, he work in the shipyard Mersoul.<br /> 
+        <br />
+        <a href="next_quest_step;42">I'm leaving right away Kylian</a><br />]]></text>
+        <text lang="fr"><![CDATA[J'ai besoin de quelqu'un de d'assez discret.</a><br />
+         J'aimerai collecter quelque informations sur les agissement des centuries.<br /> 
+         Va parlé à mon contact, il travail dans le chantier naval de Mersoul.<br />
+        <br />
+        <a href="next_quest_step;42">"J'y pars tout de suite Kylian"</a><br />]]></text>
+    </client_logic>
+    <client_logic id="2">
+        <text><![CDATA[Call me sir when you address yourself to me <br />
+         hurry up, don't lose time !]]></text>
+        <text lang="fr"><![CDATA[Appel moi Monsieur quand tu t'adresse à moi <br />
+        et dépeche toi j'ai pas de temps perdre]]></text>
     </client_logic>
     <client_logic id="42">
-        <text><![CDATA[I wait you with the 5 feather]]></text>
-        <text><![CDATA[Je t'attend içi avec les 5 plumes]]></text>
+        <text><![CDATA[Hurry up !]]></text>
+        <text lang="fr"><![CDATA[Dépeche toi]]></text>
     </client_logic>
-    <client_logic id="50">
-        <text><![CDATA[Do you have the 5 feather for me?<br />
-            <br />
-            <a href="next_quest_step;52">Yes I have it</a>]]></text>
-        <text lang="fr"><![CDATA[Tu as les 5 plumes pour moi ?<br />
-            <br />
-            <a href="next_quest_step;52">Ok, j'ai tout</a>]]></text>
+    <client_logic id="55">
+        <text><![CDATA[Hello?<br />
+        <br />
+        <a href="next_quest_step;56">You apprentice send me</a><br />]]></text>
+        <text lang="fr"><![CDATA[Bonjours qu'est ce que je peux faire pour vous ?<br />
+        <br />
+        <a href="next_quest_step;56">"Kylia.. je veux dire monsieur Kylian m'envoye j'aurai<br />
+        besoin d'information sur les activités de centurie"</a><br />]]></text>
+    </client_logic>
+    <client_logic id="56">
+        <text><![CDATA[Oh thank you, this is the new pie recipe that I looked forward, take that !]]></text>
+        <text lang="fr"><![CDATA[Encore ! Il faudrait qu'il arrete je sais que je lui suis redevable<br />
+         de ne pas m'avoir évité la prison mais je risque ma vie à lui donné des informations !<br />
+         bon voila j'ai entendu dire que la centurie sont sur une grosse affaire, je ne connait pas les details<br />
+         Mais il serait question de l'attaque d'une bank et d'un repaire souterrain. ]]></text>
     </client_logic>
     <client_logic id="52">
-        <text><![CDATA[Thanks, you have finish my quest.]]></text>
-        <text lang="fr"><![CDATA[Merci,tu as rendu un grand service au village.]]></text>
+        <text><![CDATA[Hello?<br />]]></text>
+        <text lang="fr"><![CDATA[Voila je t'ai tout dit...<br />]]></text>     
     </client_logic>
-    <client_logic id="53">
-        <text><![CDATA[You don't have the requiered quantity.]]></text>
-        <text lang="fr"><![CDATA[Tu n'en a pas chassé assez.]]></text>
+    <client_logic id="12">
+        <text><![CDATA[Hello?<br /> 
+        <br />
+        <a href="next_quest_step;56">You apprentice send me</a><br />]]></text>
+        <text lang="fr"><![CDATA["Monsieur Kylian j'ai les informations que vous m'avez demandé"<br />
+        <br />
+        <a href="next_quest_step;13">*Raconté*</a><br />
+        <a href="next_quest_step;14">*Raconté et demandé d'arrété d'utilisiser ce conctact </a><br />]]></text>     
+    </client_logic>
+    <client_logic id="13">
+        <text><![CDATA[Oh thank you, this is the new pie recipe that I looked forward, take that !]]></text>
+        <text lang="fr"><![CDATA[Ok je vois, avant de lancé l'assaut j'aurai besoin de plus d'information,<br />
+         il me faudrait des preuves, et la liste des personnes impliqués.<br />
+         Un souterrain tu as dit j'ai peut-être une idée.<br />]]></text>
+    </client_logic>
+    <client_logic id="14">
+        <text><![CDATA[Oh thank you, this is the new pie recipe that I looked forward, take that !]]></text>
+        <text lang="fr"><![CDATA[Pour qui tu te prend pour me demande d'arreter d'utilisé mon contact !<br />
+         Aprrend à te taire.<br />
+         Bon, avant de lancé l'assaut j'aurai besoin de plus d'information,<br />
+         il me faudrait des preuves, et la liste des personnes impliqués.<br />
+         Un souterrain tu as dit j'ai peut-être une idée.<br />]]></text>
     </client_logic>
 </text>

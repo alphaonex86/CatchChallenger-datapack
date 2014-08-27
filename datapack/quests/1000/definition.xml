@@ -1,4 +1,4 @@
-<quest repeatable="no" bot="2101">
+<quest repeatable="no" bot="2000">
     <name><![CDATA[The policing]]></name>
     <name lang="fr"><![CDATA[Le maintien de l'ordre]]></name>
     <step id="1">
@@ -8,6 +8,6 @@
     </step>
     <rewards show="true">
         <item id="6"/>
-        <reputation type="nation" point="+1"/>
+        <reputation type="nation" point="+5"/>
     </rewards>
 </quest>

@@ -54,8 +54,8 @@ skin is invisible
         <step type="fight" id="1" fightid="7010"/>
     </bot>
     <bot id="7011">
-      <name>Edwin</name>
-      <name langue="fr">Edwin</name>
+      <name>Manon</name>
+      <name langue="fr">Manon</name>
         <step type="fight" id="1" fightid="7011"/>
     </bot>
     <bot id="7012">
@@ -747,5 +747,10 @@ skin is invisible
       <name>Paul</name>
       <name langue="fr">Paul</name>
         <step type="fight" id="1" fightid="7149"/>
+    </bot>
+        <bot id="7150">
+      <name>Legatus</name>
+      <name langue="fr">Legatus</name>
+        <step type="fight" id="1" fightid="7150"/>
     </bot>
 </bots>
