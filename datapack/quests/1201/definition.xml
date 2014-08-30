@@ -13,6 +13,6 @@
         <item quantity="2" id="2001"/>
         <item quantity="2" id="2002"/>
         <item quantity="3" id="2003"/>
-        <reputation point="+3" type="nation"/>
+        <reputation point="3" type="nation"/>
     </rewards>
 </quest>

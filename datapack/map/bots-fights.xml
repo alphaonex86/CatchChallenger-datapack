@@ -748,9 +748,33 @@ skin is invisible
       <name langue="fr">Paul</name>
         <step type="fight" id="1" fightid="7149"/>
     </bot>
-        <bot id="7150">
+    <bot id="7150">
       <name>Legatus</name>
       <name langue="fr">Legatus</name>
         <step type="fight" id="1" fightid="7150"/>
     </bot>
+    <bot id="7151">
+      <name>Decurion</name>
+      <name langue="fr">Décurion</name>
+        <step type="fight" id="1" fightid="7151"/>
+    </bot>
+        <bot id="7152">
+      <name>Decurion</name>
+      <name langue="fr">Décurion</name>
+        <step type="fight" id="1" fightid="7152"/>
+    </bot>
+        <bot id="7153">
+      <name>Decurion</name>
+      <name langue="fr">Décurion</name>
+        <step type="fight" id="1" fightid="7153"/>
+    </bot>
+    <bot id="7154">
+      <name>Legatus</name>
+      <name langue="fr">Legatus</name>
+        <step type="fight" id="1" fightid="7154" leader="true"/>
+    </bot>
+    
+    
+    
+    
 </bots>

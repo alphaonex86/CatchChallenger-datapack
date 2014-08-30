@@ -11,6 +11,6 @@
     </step>
     <rewards show="true">
         <item quantity="10" id="2015"/>
-        <reputation point="+2" type="nation"/>
+        <reputation point="2" type="nation"/>
     </rewards>
 </quest>

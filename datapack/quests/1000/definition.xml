@@ -8,6 +8,6 @@
     </step>
     <rewards show="true">
         <item id="6"/>
-        <reputation type="nation" point="+5"/>
+        <reputation type="nation" point="5"/>
     </rewards>
 </quest>

@@ -12,7 +12,7 @@
         <text lang="fr"><![CDATA[Retourner au commissariat parler à monsieur Kylian]]></text>
     </step>
     <rewards>
-        <reputation type="nation" point="+3"/>
+        <reputation type="nation" point="3"/>
     </rewards>
 </quest>
  

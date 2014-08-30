@@ -7,7 +7,7 @@
         <text lang="fr"><![CDATA[Parlez-en à mon lieutenant dans le commissariat Megalopolis]]></text>
     </step>
     <rewards>
-        <reputation type="nation" point="+12"/>
+        <reputation type="nation" point="12"/>
     </rewards>
 </quest>
  

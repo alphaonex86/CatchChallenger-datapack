@@ -40,8 +40,8 @@ consumeAtUse="true"
     </item>
     <item image="plants/6.png" price="75" id="1006">
         <name lang="fr">Mycota rouge</name>
-        <name>red Mycota</name>
-        <description>red-Mycota used in the manufacture of sugar and sweet product.</description>
+        <name>Red Mycota</name>
+        <description>Red Mycota used in the manufacture of sugar and sweet product.</description>
         <description lang="fr">Mycota toxique utilisé dans la confection de sucre et produit sucré.</description>
     </item>
     <item image="plants/7.png" price="60" id="1007">

@@ -1061,5 +1061,35 @@
 		<monster id="18" level="6" />
 		<gain cash="100" />
 	</fight>
+			<fight id="7151">
+		<start><![CDATA[What are you doing ir !]]></start>
+		<win><![CDATA[Ok, i surrender]]></win>
+		<monster id="18" level="17" />
+		<monster id="24" level="18" />
+		<gain cash="100" />
+	</fight>
+			<fight id="7152">
+		<start><![CDATA[What are you doing ir !]]></start>
+		<win><![CDATA[Ok, i surrender]]></win>
+		<monster id="32" level="18" />
+		<monster id="36" level="17" />
+		<gain cash="100" />
+	</fight>
+			<fight id="7153">
+		<start><![CDATA[What are you doing ir !]]></start>
+		<win><![CDATA[Ok, i surrender]]></win>
+		<monster id="5" level="16" />
+		<monster id="33" level="21" />
+		<gain cash="100" />
+	</fight>
+			<fight id="7154">
+		<start><![CDATA[What are you doing ir !]]></start>
+		<win><![CDATA[Ok, i surrender]]></win>
+		<monster id="6" level="24" />
+		<monster id="14" level="25" />
+		<monster id="25" level="25" />
+		<monster id="46" level="27" />
+		<gain cash="100" />
+	</fight>
 </fights>
 
