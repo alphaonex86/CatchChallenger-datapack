@@ -1,4 +1,4 @@
-<map type="outdoor" backgroundsound="toto.ogg" zone="test">
+<map type="outdoor" zone="road3">
 	<name>Wood</name>
 	<name lang="fr">Fôret</name>
 	<grass>

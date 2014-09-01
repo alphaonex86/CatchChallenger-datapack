@@ -66,7 +66,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlksKgDAMRHMLPUrv0YXew/uDLRiQ0E+CmbjpQHBT8jpjrCUaK5c6njo7a9Kkh1YaFoJr6VP3qNmbRx9rHl/7ZMUaizS5euWp7eftkTXy6u1Rw0Uye1w0s8f1Ogcs3AivJBhRTKmIfBeX6Cq1/8ReWWPUYlT2BuaPckV6n71P9u7t3zJHnjNnydJ71ltsvt+wEHedKukl6jt+cyL/h++so8+sJJ5I3e1yGi0=
+   eJzdlkEKgDAMBP2CXvQbeuo/POg//D9YwUIpNd3gJoILwUvJNJsY7TpZa4ztjv3hTGjkQIWwLLiaPNcdkbsx8mj9eJtnBc5ohPiK+NDHGEBmK5+mxjnGAnKlWlkzo+FaMp+4LKbU7xqXtQekfpcMa3+TcoYXsxTL36+56B5hc9E9csSYyGxUf+kxKi+va4yLPRrzJV8ta2/1M9XOrl8zR8yZ03jJnvUaO/3fJDH/53KVtXi9xznH83uYe+29s0LxtNQJDjMbvw==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -88,6 +88,11 @@
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="-3.13"/>
+   </properties>
+  </object>
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="-4.12"/>
    </properties>
   </object>
  </objectgroup>

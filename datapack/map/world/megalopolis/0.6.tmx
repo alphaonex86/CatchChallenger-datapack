@@ -22,7 +22,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztllsOgjAQRYdv6DZYieA6xZWoX4IuxNceLLGEsbbaztDxEW9yf0puD+lkOgUYddI+G18gXNTcO7i1utmVr9A3X3auaNxOe2d8RPkDWn9lSg7/q6TzDKAwbtH6Fsb1FMZy1Wmh3WgvA+tG0SdxJSTJ5fTD3tqrieByegGfSanCuKW5hwpGH6nsfr8YLhanvn+uDLcO5LrmG7d/Y/poKm7MXOs1xfy1s8887PvN85eS89XoV9+TWLnn7k3BXTNdObizgBxX/TvIPqeUbyLMtSXBXcHjGW4EuFRdAYQxGZY=
+   eJztlm0OgyAMhutv5RqeZOo5506y+WvTHWRfdxhkGDqGChTYR/Ymb2Jq2kchpQAoXbiv0jewl2/eO7g1e9iUXzH1Xrhh5pgLd8zr+fMgfUb5JxRfsk8e/taUzjOAQvqA4ntQ8RjGMu3Tmrvl3izsG0WfxE2hlFxKPxy1Wq0Dl9ILeE1KZsct5RlVEPqIZc/1XLhYlP39c+e51LnSoDo23Drw/wq59FEorstcEwoxf/XcOY91v3n++uRN7dGv3iex8omzNwZ3R3Rl4K4s8qgS9yB9nWLeiTBXVwruFl7XsEvA9dUdgIEeIg==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -62,7 +62,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzl1s1PE0EcxvE5cFhJBGlPLAkiSIEmCuhdUaC8JILCyZiogAJ/gwdFWtSrAldei3AF5aqgvHj17WqMMYabvOjd76YzYVl2uy+tkMAkn0y7O795dtvZl8hJISKogLWVy30R0xi7bUHqMq0PWndCEyIXTTb1al9M7jPGNMrPxrYq9kW1/XXGmJiJqlPfD6rFObaEzfEdVhtyOZb/cax+18fzsBAvMIwRjEIz1okPuQHW5Tw5C3iF11hEJdvP5QlxPi/9Oaox0QC5H8n5hM/4gq8y9xrztbnkqjFRy1q3/s/ma0aN2SJnGzv4g79oZnuLD61Zupac7kVO7H7boLl+msodTHOdOF1Dxr0gru3mFutCnEYJzqAUZTiLckRQgUo9lZvu3H+HhNjEFraxE3K+915ivsuowxVcRT0a0IgYmtDsITefNXMKBQghHHbOvc18d3AXXehGD+7hPnrRh34PudXk1KAWF3AxTe5D5nuEATzGIOJIYAhP8BTPZK75WWNt7eRcxw10oDO8/7minjVjzDeOCUxiCtNIYgYvMYs5fW9W3Mc92HqdL/P9DfO9xRKW8Q7vsYJVrGEdH/TU+Gy1b3qq/y77H7L/Kftfst/Qs5d5lJrbs9ltv7mZ7zWH9V6Xjdyk5r/O/Iwz1xu/h9t7odpmbV7qHojMFNr8j0Ue6hI5rI2c4P1Nm9xbHuZNYiaD3inXre64ne8/MLPQmg==
+   eJzl1slPU0EAx/E5cHiQANqefCaCIgWbiAt3NmUzEUVPpmFRBP0bPLC1LFdQr7gV8cp2VREUripciSHGeFO2u9+m88LweHtLSGSSTwZm3szvvXbmTSP5QkRQBnMplX0R5RqrtiDjMh0fdFyuJkQeGi3GG30x2deWv//vC/RFtYPj6ulrUKTmNtpiFjmHVeLcW8Li/o6qDLncy2Hcq9/1MRYWYhxP8QzPoaXWiQ95AdblNDkzmMUc5lFO+8UCISoKnJ/RuCYaIPcrOd/wHatYk7k3ma/FJde4Jmpa6+bvWd0zxjWb5GxhGzvYRRPtzT7cyNJesnsX2bH6bIPm+ilG7qDDPrHbQ6l3QVzbyz2jC1GEYpzFOZTgPEoRQRnK9XSu07P/CQnxF5vYwnbI/t1bxXzVqEEt6nAN11GPBjSiyUNuIWvmBE4ihHDYPred+TrQift4gC48RDd68AiPPeReIucyruAqKh1ye5mvD/0YwCDiSGAIwxjBqMxV94q53CLnNlpxB3fDB8+VNnnWTDDfC7zEK7zGGyQxibeYwjt9/9kX9/EONu/zBf5/z3wf8BEL+IRFLOEzvmAZK3r6+myVdT1d/5D1hqx/yvqXrH/r2cv8n4rb2ezWrxb1XXNUv+uykZvU/I9Tz0F1fOrzcPpdqLaZi5dxT0RmTll8j6c9jEvksDZygtf3LHJjHuZNYjKD2i7Xbdxxe95/jbLRig==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -206,7 +206,7 @@
     <property name="skin" value="miller"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="384" y="320">
+  <object name="bot" type="bot" gid="5123" x="368" y="336">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9018"/>

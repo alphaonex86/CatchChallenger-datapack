@@ -22,7 +22,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMvAbiN1D8loDaxRTaNZTtPUMhfoVk70ss8mdx2PuGxhg5DJDt5WGkDJ9CsuMkFvN4GbHbSymgZbpaNMLsxQeGor2nGeiff9HdTK/8CwLco/l31N4hYm8TFDfjsJfW9S9yHqZn/YscDvSsf5Hz8HBOV7S2lxtHmUjI3kN0xIcp9+YoGCIAAAat70c=
+   eJxjYKAMvAbiN1D8loDaxRTaRQ173XkHxt4zFOJXSPa+xCJ/Foe9b2iMkcMA2V4eRsrwKSQ7TmIxj5cRu72UAlqm50UjzF58AJu9arwITE973XhRaVz2nmagf/5FdzO98i8IcI/m31F7SbB3MOTfZhz20rr+Rc7D9Kx/kcOBnvUvch4erumZHvZy4ygTCdl7iI74MOXeHAVDBAAAX6XxFQ==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -67,12 +67,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztljlOw0AUQAcpxYBCEeUGSBBBSQc9cAbOAFyALoGwJQFaWpSwbw30KdjXS7CvR+BZo5EHM8a2ErshX3oaZ/T9nyb5X5lcpxDd0GOQi7Dnjb9yRo28KI5mekfYb5dCdEj1WT8PsT9s4OTZ9vIpt5bzbMuxeZOMljd85GVwTkHa80yvt/90D9aN96akopwVogKLsATL2d+1w/azn9f2/g6eXdiDfThIyHuF5xpu4Bbusup7CPJWpetdTSm882bOai/5fdJd3/C8wwd8wpfFq+s5YZtf7U0y/rvX1lveftSzZEY9xCw34i3SPzMwC3MwDwtQijhHKxG9NeqvwTpswCZswXZI71hGiHGYyETzHlP/BE7hDM7hAi5Dekv4ylCBSaFwwpzhw7QQR+mfs3xP/Qd4hCd4hhd4tXht89sVsQ9a0VgMwKBQv2+z73W23tThzG8hpUjiPmn+H2mv3z0x7J43gu6T2qvnKQn621zvNBRjWAsBVKEWw6rDzxvXeYPOHdd59ern/QY9LtOm
+   eJztljlOAzEUhh9SCoOSIhpxASSIoKRjK4ETUCCUEwAXoMtA2JIALS1K2CE00KdgXy/Bvh6Bf+RYY4yHGSuZaciTPnli2f7k5P3KpBJE7aBDImUwp9Zfa0aldSaOenrTmG9mRC2MfxbPg5gfkhhO6OcyMfcs51m3RueNshre4JVh/mtspl8ne9X+Ez1YkfZNM07eIiqAJbAMVqzfZwftZy+vbv8uPHtgH5TBQUTeK3iuwQ24BXcW/x5Ubx/oBwPVfUXmetdiHDVvclY7sb6LueMbPO/gA3yCL43X2TdWvWNak1/hjbL+u1fXW2o/iizJVQmQ5Vq8WfTPLJgD82ABLIKcYY5WDb0lnL8ONsAm2ALbYCegdzxJNAEmk2beY5x/Ak7BGTgHF+DSw6vmNwdfHhTAFHGckjN8GCc6iv/M8j3OfwCP4Ak8gxfwqvGK/I60uvltM+yDRtVWPaCX+O9b7/c6XW+KcvJrxzhRvE/K/0fC6/WeGHROLb/3SeEVeYqC7ibXOwOyIYy2D0VQCmEU5eUN675+9w7rvmL08n4D8lDVAg==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzllj0KwkAQhbeIwSLYhNxABe29geYGXiAYFPwt1Eobz2CstLDwBno/J8SFZbPjTGJiQD94BIbZeSzZl43fEKIJailqI7U+aKDIB+lQPQcrEdZrqu0cIfZO2kuF6lF9uZxh3oXwpXry+BbBv/pacF5qmmzQtZ5eM3OFmIMWoCVo5aZ79Hk2cp71vMjMUOsxTPkz+ep5kZmh1mNw86vmrefx11PEs0xZlr5q3oZeen1e4lmmLFd9nqvyXcN72xDaIu/WlDWu7xFmRoTCV07H8JwomZ1+kN871B+EssDNb9HkzV8E5/5E3HXvkJntFZhJDjKzRX4LfgEbuXu4NR3uPYb9O3JrOtx7DPt35NZ0TD035bsWWImy0oEZXcb3EeuTviNQWMIzIFQ2mG9Z+6X2/Q2q2C/m+wQwwYT7
+   eJzllj0KwkAQhbeIwSLYBG+ggvbeQHMDLxAMCv4WaqWNZzBWWlh4A72fAzEwbHaYScwa0A8egWF2Hkv2ZRM0lGqB2kgdojYADZECkA7Xc3QSUb2m2t5T6uBlvTBcD/aVcoF5V8aX6yniWwb/6uvAealpckG3enbN3FdqAVqCVqC1n+3R57nEedbzkmaGW09hyp/JV89LmhluPYU0vzhv/aZ8PQeeZfLFeRsRvUWgZlV9nqvy3cB72zLaEe/WlDWp7wlmxoyid04n8JyizM4+yO8D6k9GeZDmt2yK5i+GTJ2Zu04ClV/blPkt+AVc4u6R1nSk9xj17yit6UjvMerfUVrTMfXc0XctdBLlpQszeoLvI9WX+o5BkYVnyMg2lK+t/XL7/gZV7JfyfQEUjIA3
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -103,20 +103,6 @@
     <property name="map" value="indoor/trap-factory"/>
     <property name="x" value="17"/>
     <property name="y" value="18"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5173" x="352" y="176">
-   <properties>
-    <property name="map" value="indoor/dramed-house"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5173" x="352" y="304">
-   <properties>
-    <property name="map" value="indoor/ethanol-factory"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5237" x="208" y="304">
@@ -150,6 +136,20 @@
   <object name="door" type="door" gid="5173" x="48" y="48">
    <properties>
     <property name="map" value="indoor/house6"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="352" y="304">
+   <properties>
+    <property name="map" value="indoor/ethanol-factory"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="352" y="176">
+   <properties>
+    <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

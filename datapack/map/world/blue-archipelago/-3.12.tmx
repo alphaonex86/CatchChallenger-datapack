@@ -21,12 +21,12 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIHBigOx9MWrvsLCXnRE75mCkscWjYBSMglEwCkbBKBgFo2AUUAAAoNIEog==
+   eJxjYMAOXuAQpzUYKHszWBgYMoE4i4U2bFxg1L/0AbT2LzsjdszBOHz8SGpcj/p31L+j/h3176h/R/076t9R/476d/D7EQAVH629
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzSERAAAIADH6JyUGBUByCDb55iN6OfRt374AAABXCsQsArk=
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <layer name="Grass" width="30" height="30">
@@ -61,17 +61,17 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztz0ENADAMA7Hwp1go++wxENFUm8DpkmfS0ehuem11W6+n1AUAgB9dLKcGHg==
+   eJzt0MENACAMw0B3DfbfilH64cEOjRC+BawErs28VdCBbmJrqvvbx4mtkiRJ0qsOHCsGlA==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk0EKgDAQA/fQx6gvUV+i/v8B5mZ6WChIFpEMBNJbmLYRD1OLmJEFOZATuUSdWXHekL31GxSd4T28QdEzKj0zlZ6zu/6TZ7XPrKt9Zl3tU+H5DYo3OYLi749Q6ZapdMtUujXGGGO+xg243Wut
+   eJxjYEAADRYGBk0g1mKhPRsZeAD5nkDsxUJ7NjLIAPIzgTiLzv6lp99xgZHgX3qmZ2Q2PdMzMnvUv6P+HfXvqH9H/Tvq31H/jvp31L+j/iWVDQAw1c+v
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0CEOACAMBMGKCuD/D4akFklRM8klpzfibmTEPFvZ8yk6v9XdU+ei1R/aAgDdNkC3BVY=
+   eJxjYMAOOFgYGDiBmIuFMJsUtVxQjAuQatZQB6T6dyiGD639OBjYg8G/Iy1OBwoMBr+PpufhF6cDBQaD30fT8/CL04ECg8Hvo+l5+MXpSAAAsjUbbQ==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -83,6 +83,16 @@
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="-3.13"/>
+   </properties>
+  </object>
+  <object name="border" type="border-left" gid="5124" x="0" y="256">
+   <properties>
+    <property name="map" value="-4.12"/>
+   </properties>
+  </object>
+  <object name="border" type="border-right" gid="5124" x="464" y="256">
+   <properties>
+    <property name="map" value="-4.12"/>
    </properties>
   </object>
  </objectgroup>

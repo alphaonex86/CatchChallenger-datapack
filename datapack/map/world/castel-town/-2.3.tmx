@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF1AAPgfgxlC3CRz97GRkZGJgZIWwTOti7iAfT3pAB8i/MLfQAikA7laH2HiLB3okitHEPpXZmA3EOGs6lqasgoBuIPYF4DRJeSyWzYf7G5n+Qvb1UsodYO2lpLyEwau/wsPcgWllzmIc69j5Cw4+xqMFWRmQBcSYWcWLLEiVGVAwrU5HBagbU8gGEvRgwyw1smFplCQwM13Q1ai/97KUkH1FSL1OSj5DzEjXaMITCmRp2YDMDFAZrCagZBQgAAKc/Slc=
+   eJxjYBg6QI2RgUGDkf72ugHt9CBg70Mgfgxli/DRz15GoDwzVI0JlexNA5qXgcPeRTyY9oZQyV589sEAsr3ocrQEikA7laH2HiLB3okitHEPpXZmA3EOGs6lqasgoBuIPYF4DRJeSyWzYf7G5n+Qvb1UsodYO2lpLyEwai9tAHqZQ2t7D6LZd5iHOvY+QsOPsajBVkZkAXEmFnFiyxIlRlSsjKWeWc2AWj6AsBcDZrmBDVOrLIGB4Z6eR+2lzF5Qm1QdDaO3USnJR7jyEqiNlo6G0dtslOQj5LxEjTYMoXCmhh3YzACFwVoCakYBAgAAgVpRUw==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,17 +66,17 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9l7lOAzEURY1EQRFFisIPpAPqhC5QEvgHkpa1pGENEkgICDsNFCgsHfvyAYGWsPMXhE3Qc63YinnYsScZ8qQjz4yffX0z8zyTqXrGpsGUT20E0Iho8nbBno+tSZfmmdYdR34boZ3p/anEg8gNljTluey3+e3GmGyAsW3BDthien9RzBsT5JF3EyjpynPe1xq0+9Xp9ocYGwCDod9+1TyTrpzDxW9OjL9EewXmoDcPMqFSHmPedE1+5X0Yw5i08myMgnGFCaWPry/WWFyfSVeu3eS3ksg1lI4LmPs18Pd8BnPPlnme/YjJev0xD5Nf/nvS+qG1VE149Sv7Uxo/8t6nHXS93l/Zn3JyZfZjq19T6HSbkN8MWjTzUz+2+pWh7kVyz6GRQH4n6BLjlsOMrYBVsAbWw979qnuCrH0aPcjvBX1i3Al0TsEZOAcXiq6L36SjLo176DyAR/AEnjV+6ftE3QN4dIi9Ru5HCb7XkRz1eebjP6DzCYYw5gvtt8ZvraOafbGaML236e/sd7g+z/O4NxmwABbBUtg8p0u41u8+dA7AITgCx6BO6efHUaW2+XlS9EU1NW/zGxHjr6GTBzfgFtxp/GYNNcavD4MR5brNr/wufIFOQdTEG9p3jd+c8l6vE++JNCte3wCbiq6L3/8IV79+B/VL66mcbrnvCVtQv7UK2/21tXT9XttK/wfR9XttfwDtISqQ
+   eJy9lk1PU0EUhs8ljbC4ISEtP6AbLG7bupQlyN6l7VYFlmyEmJpIYrQF5GOjIQY/dioo+AOKW4rf/8KKGt37Tjon93A602n5OsmTuXfuzH3nvXfmzPT3EfX3wEXFBfFsAFyn9simiO6BBVH2oqnfW6budV+Al6I8D13Wznr8ptQ33IyJnlmex37dwiBR0dJAu4M4acP35tnlQbdf896pIaJpMDPU0i0OH9V26crx+XS5v/ZrvObAQ+hVQQ3U0e4adPfiFh+s7jyoWN2RvqPjC+lqv8ZrOiK6QwkV4W3e1hWipC4ftdrI8fl0edzsl/+l8frUMydCUR9Irpt498+4/f4+tB6I+azX1WnE3ZT72gTr6HVlvueVDoydcEy9+uXnZYcf/veVLnR9fkPjLHflyu/H5zfk26WbQ/tRcMnxfu3H51e3k7mIc46OCbS/CiZtv0dpohWwCtbAerp3vzIX8drXcQPtb4Jbtt9b6LwDO2AXvBe63fgtCV3ORy5dHZ+h8wV8Bd/Ad4ffrELmABPjNtdwPpowuU61kfPZ9P8NnT9gNkP0F+U/h9/zjtC6Oatgv6HvfNrBfs0e5MuJGTyr4t/UwCJYAsvpTm8Nh8x78qyizyyvoPMavAFbYBtE4v+Y64JY2+a+ZJ8VHGte5r0RxzkxZ3X3odMAB+Aj+OTwu+lZ26b+NpgT9eyX924OXhO8x/+ATtOuiUOUvxx+62Jfj1LJecTUPwZPhG5oPvvOhSeN0PrdOCNdOZ8rol5+Z0Mmau/b6TwRitB8Dp3Djxuh+SzntByn/j++/SxU5tXZVcPnVt/+7NvPQuV/KHvqPA==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzlVDsOwjAM9dChoKpLCxtwCeAkhQ0m2Ph/BhbuwYLEwD0xopHSNE7cEkoRT3qykrz41W1tgO9g5gHMvXzk6lV0QoBuSK9t+Z+IUd9K2Q55OgpqDlO9fdQNUg6VnNRzT1A3DfNrkYNTb4K6UcqxoRZZR0HNwf2uKnqavXNA68VZUR8Tbv4rXg2+6lnZesuiKh+bP7dvXfl9CrZ6is4rHXzUN5BNxj1ufnkW2eaWwDYC2CH3yAPyGNH+Vf3X3PzyLLLNrXf8xQyQcQqy0QTdfZOfCZcgG++W3HUEVa/tPbn2p/7nBfbAErlCrpEbTU+U8XOBmOhtal/2r1v/cpAQvU3ty/6/WO8v+Nel3qLR1f1/qfcBBCJZ6g==
+   eJzNlTkKwkAUhl/AIkpIY7SLXkI9idpppZ37Uth4DxvBwqupx/CBBCbRt0xWP/iZJPPWMAuAHaHx3LX0LZLQB+j49PusBjCv8TECtG8ZavuyHQXnn6SHdn1DA4XfBG2m/vd75K/pd4h2I0NjIq9pR8H5Z+XsyXOafrXc3M94ZfIm56L8edbBUVYeKb9UR151Ft2v1E9yPk09LtrXUQ2Fnza+9swy2TYBdqg96oA6Nun8Za1rbXztmZU1f3QGmJy8+Mjxy5/Lx3Hx4uNdiP2PUP1K/6ksFrgHlqgVao3a/NgTNpj9PhyAZ0IvRx8rIPY29b0K8jwfhsTepr5zhLJJKqq+f8tGWs+2a7ooqPuKus+k8V/6sK03rf8bUMxRew==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxmYig6MvaFE2isqQlt3DHbwV4iB4Z/QQLtiFAxFMJpuqAfYeSA0rLzk4Bk4t4yCUUAr8HcQlBlVwLxVjSV/4RKnFpgFNHs2FvNxiY+CUTDcAAAztgpB
+   eJxjYBgFlABbPgYGOz7c/FGAHYSKDrQLhgb4K8TA8E9ooF0xCoYiGE031APsPKh8Dh7s6kbBKBjK4O8gKDOqgHmrGkv+wiVOLTALaPZsLObjEh8Fo2C4AQD3ZQqy
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -96,13 +96,6 @@
    </properties>
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
-  <object name="door" type="door" gid="5123" x="288" y="112">
-   <properties>
-    <property name="map" value="indoor/toll"/>
-    <property name="x" value="2"/>
-    <property name="y" value="10"/>
-   </properties>
-  </object>
   <object name="door" type="door" gid="5123" x="160" y="272">
    <properties>
     <property name="map" value="indoor/dramed-house"/>
@@ -129,6 +122,13 @@
    <properties>
     <property name="map" value="indoor/distillery"/>
     <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5461" x="288" y="112">
+   <properties>
+    <property name="map" value="indoor/toll"/>
+    <property name="x" value="2"/>
     <property name="y" value="10"/>
    </properties>
   </object>

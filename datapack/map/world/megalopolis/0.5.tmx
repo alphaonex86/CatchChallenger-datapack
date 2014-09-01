@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxrYWFgaAXiFjLpSAZMEM1AWN8SIF5KAY3LXkL6cLmnCYirGAhjI0ZMe2dD5ZrI8O8iFiweIREsItO/lIJR/476d7D4l1qAVP9SC4z6d9S/o/6lHIz6d3D6d6TVRyPNv9QCQyU94wIHOYgTg4HB5l8A0Wr7XQ==
+   eJxrYWFgaAXiFjLpSAZMEM1AWN8SIF5KAY3LXkL6cLmnCYirGAhjI0ZMe2dD5ZrI8O8iFiweIREsItO/lIJR/476d7D4l1qAVP9SC4z6lz7+hQF6+xcGRuN31L8j0b8jrT4aaf6lFhgq6RkXOMhBnBgMDDb/AgB5Cvj7
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKgkknsVBudhIWc2H0QIFR/476l1wwlPw7VMwfbO4Z9e+of+kJRv07Mv070uqjkebfoWI+pe4hBBZyECeGy/zB5l96xS8AW5hOxA==
+   eJxjYBgYkMLCwJDKgkknsVBudhIWc2H0QIFR/476l1wwlPw7VMwfbO4Zaf7FZc9AgdH4HfXvYDafWu4ZafXRSPPvUDGfUvcQAgs5iBPDZf5g8y+94hcAKdJN8w==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -92,5 +92,11 @@
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30"/>
+ <objectgroup name="Object" width="30" height="30">
+  <object name="Object" type="Object" gid="2211" x="400" y="256">
+   <properties>
+    <property name="item" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -31,13 +31,11 @@
         <a href="next_quest_step;14">"Mission accomplie"</a><br />]]></text>     
     </client_logic>
     <client_logic id="14">
-        <text><![CDATA[Who are you asking me to stop using my contact <br />
-          Learns to shut up. <br /> 
-          Ok I see, before launch the assault  I need more information <br />
-          I would need evidence and the list of people involved. <br />
-          Underground lair you said, I can have a great idea.]]></text>
-        <text lang="fr"><![CDATA[Good job kid <br />
+        <text><![CDATA[Good job kid <br />
           You learn quickly. <br />
-           Now we can move on to the serious stuff with you.<br />]]></text>
+           Now we can move on to the serious stuff with you.]]></text>
+        <text lang="fr"><![CDATA[Bon travail petit <br /> 
+          tu apprends rapidement. <br /> 
+          Maintenant, nous pouvons passer aux choses sérieuses.]]></text>
     </client_logic>
 </text>

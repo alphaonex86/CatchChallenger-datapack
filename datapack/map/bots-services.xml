@@ -351,18 +351,7 @@ skin is invisible
         </step>     
         <step id="2" type="quests"/> 
     </bot> 
-        <bot id="2015">
-      <name>Bob</name>
-      <name langue="fr">Bob</name>
-         <step type="text" id="1">
-            <text><![CDATA[The Empire give some work<br />		
-            <a href="2">Quest</a><br />]]></text>
-            <text lang="fr"><![CDATA[L'empire distribut des petits boulot<br />		
-            <a href="2">Quête</a><br />]]></text>
-        </step>     
-        <step id="2" type="quests"/> 
-    </bot>
-    <bot id="2016">
+    <bot id="2017">
     <name>John</name>
       <name langue="fr">John artisant</name>
          <step type="text" id="1">

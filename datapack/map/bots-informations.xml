@@ -539,17 +539,7 @@ skin is invisible
              La graine n'est pas commestible.]]></text>
         </step>
     </bot>
-    <bot id="9060">
-      <name>Marie</name>
-      <name langue="fr">Marie</name>
-         <step type="text" id="1">
-            <text><![CDATA[It is said that under the city <br />
-  is hiding a criminal station.]]></text>
-            <text lang="fr"><![CDATA[On raconte que sous la ville<br />
-             se cacherait une station de criminelle.]]></text>
-        </step>
-    </bot>
-       
+
      <bot id="9061">
       <name>Police rookie</name>
       <name langue="fr">Recrue de la police</name>
@@ -646,6 +636,16 @@ skin is invisible
              j'ai à te parler.<br />
 		<a href="close">*Partir*</a>]]></text>
         </step>
-        
+    <bot id="9065">
+      <name>Marie</name>
+      <name langue="fr">Marie</name>
+         <step type="text" id="1">
+            <text><![CDATA[It is said that under the city <br />
+  is hiding a criminal station.]]></text>
+            <text lang="fr"><![CDATA[On raconte que sous la ville<br />
+             se cacherait une station de criminelle.]]></text>
+        </step>
+    </bot>
+       
     </bot>
 </bots>
