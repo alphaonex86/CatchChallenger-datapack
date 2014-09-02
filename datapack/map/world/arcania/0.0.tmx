@@ -6,7 +6,32 @@
  <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="5137" name="animation" tilewidth="16" tileheight="16">
+  <properties>
+   <property name="animation" value="500ms;4frames;random-offset"/>
+  </properties>
+  <image source="../../tileset/animation.png" trans="000000" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="animation" value="500ms;4frames"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="" value=""/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="animation" value="500ms;4frames"/>
+   </properties>
+  </tile>
+  <tile id="806">
+   <properties>
+    <property name="animation" value="500ms;4frames"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzt1KERAEAIBLHDf/8FUClV8IOIiFy7laQAOK/f3w5ggyfBLQNmOgWM

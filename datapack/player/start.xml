@@ -30,4 +30,15 @@ The attack of monster is the 4 last attack for the level
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
     </start>
+    <start>
+        <name>Starter Capiti</name>
+        <description>You start a normal game as player</description>
+        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
+        <forcedskin value="player;girlplayer"/>
+        <cash value="500"/>
+        <monster id="57" level="5" captured_with="1"/>
+        <reputation type="nation" level="1"/>
+        <item quantity="1" id="5"/>
+        <item quantity="5" id="1"/>
+    </start>
 </list>
