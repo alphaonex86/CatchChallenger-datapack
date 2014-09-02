@@ -61,12 +61,12 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFlAAxvoGx12yA7A0bIHsX8QyMvYcGyN5RQBzYCcS7B8Den0D8ewDsHQWDByzhGGgXjIJRMLIAqB2weADqZFA74PBoW2AUDHMAAPmICVc=
+   eJxjYBgFlAAxvoGx12yA7A2jkr2hoqSpX8RDHXuJBTD3HaKzvaOANLATiHcPgL0/gfj3ANg7CgYPWMJBP7tILS9BoFSE+u4YBaNgIAGoHbCYgjqZ3DwBagccHm0LjIJhDgD2xAun
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9lk1PU0EUhs8ljbC4ISEtP6AbLG7bupQlyN6l7VYFlmyEmJpIYrQF5GOjIQY/dioo+AOKW4rf/8KKGt37Tjon93A602n5OsmTuXfuzH3nvXfmzPT3EfX3wEXFBfFsAFyn9simiO6BBVH2oqnfW6budV+Al6I8D13Wznr8ptQ33IyJnlmex37dwiBR0dJAu4M4acP35tnlQbdf896pIaJpMDPU0i0OH9V26crx+XS5v/ZrvObAQ+hVQQ3U0e4adPfiFh+s7jyoWN2RvqPjC+lqv8ZrOiK6QwkV4W3e1hWipC4ftdrI8fl0edzsl/+l8frUMydCUR9Irpt498+4/f4+tB6I+azX1WnE3ZT72gTr6HVlvueVDoydcEy9+uXnZYcf/veVLnR9fkPjLHflyu/H5zfk26WbQ/tRcMnxfu3H51e3k7mIc46OCbS/CiZtv0dpohWwCtbAerp3vzIX8drXcQPtb4Jbtt9b6LwDO2AXvBe63fgtCV3ORy5dHZ+h8wV8Bd/Ad4ffrELmABPjNtdwPpowuU61kfPZ9P8NnT9gNkP0F+U/h9/zjtC6Oatgv6HvfNrBfs0e5MuJGTyr4t/UwCJYAsvpTm8Nh8x78qyizyyvoPMavAFbYBtE4v+Y64JY2+a+ZJ8VHGte5r0RxzkxZ3X3odMAB+Aj+OTwu+lZ26b+NpgT9eyX924OXhO8x/+ATtOuiUOUvxx+62Jfj1LJecTUPwZPhG5oPvvOhSeN0PrdOCNdOZ8rol5+Z0Mmau/b6TwRitB8Dp3Djxuh+SzntByn/j++/SxU5tXZVcPnVt/+7NvPQuV/KHvqPA==
+   eJy9lslOVEEUhs8lHWBxQ0IaH6A30LKlYQlL0XeA3uL0AkhIk0hiFJzdSIxh2qHgwAM0bgVR9C0Ewcie/6Tr5B5OV3V1y3CSL3VvTX/999bU0UbU0QJ9hnZV1gnGqD4KOaL7YFalrWjafsvUvO4KWFXpZeiKdiHgN2e+4WJKtORYTsO6pS6iQcc26u2kWR1557KhLr9f7vd2N9EdcLe7pjt45bS2T1ePL6Qr7a1f9loEj6A3B+ZB1bXfSmt8cbpToOJ0e9tOjy+ma/2y13xCNE0ZFeVtyuWVkixvIKnV0eML6cq4xa/8S/b6NjAnYlHtzJ730fdBWv/+AFoP1Xy26+o8Yibnf+YQHbuu+HsON2DkjGNq1a+Ulz1+5N9XmtAN+Y2Ns9yUq7CfkN+Yb59uEfWvgn5P/9ZPyK+tp/ci2XNsjKL+dXDDtXuWJ3oOXoCX4FW+db96L5K1b2MC9W+CW67dB+h8BJ/AZ7CpdJvxO650ZT/y6dr4Dp0fYA/8BL88fgsGvQdwXHN7DQeno7zXmTp6PnP7I+j8dVr/kB57/F52xNbNRYX4jX3n8w7xy2dQaE/sQdkc/s08eAyegKf5Rr3GQ+97+q5i7yxr0HkH3oN1sAES9X/4uaTWNr+Pu7KSZ83rfa/Xc08sOt2v0NkGO+Ab2PX4XQysbc6fBPdUvviVs1tC1oSc8b+hs++0/iA99PitqnM9yWX3Ec5/DRaUbmw+h+6FZ43Y+n1zQbp6PldUvv7OTE9S37bRfSIWsfkcu4f/b8Tms57Tepz2/4TOs1g6YO6uFrm3hs7n0HkWS08AKz/n7A==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -76,7 +76,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFlABbPgYGOz7c/FGAHYSKDrQLhgb4K8TA8E9ooF0xCoYiGE031APsPKh8Dh7s6kbBKBjK4O8gKDOqgHmrGkv+wiVOLTALaPZsLObjEh8Fo2C4AQD3ZQqy
+   eJxjYBgFlABbPgYGOz7c/FEwCigBf4UYGP4JDbQrRsFQBKPphnqAnQeVz8GDXd0oGAVDGfwdBGVGFTBvVWPJX7jEqQVmAc2ejcV8XOKjYBQMNwAAKk4KSA==
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
@@ -96,39 +96,39 @@
    </properties>
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="352" y="320"/>
-  <object name="door" type="door" gid="5123" x="160" y="272">
+  <object type="rescue" gid="5122" x="160" y="400"/>
+  <object name="door" type="door" gid="5461" x="288" y="112">
    <properties>
-    <property name="map" value="indoor/dramed-house"/>
-    <property name="x" value="5"/>
+    <property name="map" value="indoor/toll"/>
+    <property name="x" value="2"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="368" y="272">
+  <object name="door" type="door" gid="5237" x="368" y="272">
    <properties>
     <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="160" y="384">
+  <object name="DOOR" type="door" gid="5461" x="160" y="272">
    <properties>
-    <property name="map" value="indoor/heal"/>
+    <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object type="rescue" gid="5122" x="160" y="400"/>
-  <object name="door" type="door" gid="5123" x="128" y="96">
+  <object name="door" type="door" gid="5237" x="160" y="384">
    <properties>
-    <property name="map" value="indoor/distillery"/>
+    <property name="map" value="indoor/shop"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="288" y="112">
+  <object name="DOOR" type="door" gid="5461" x="128" y="96">
    <properties>
-    <property name="map" value="indoor/toll"/>
-    <property name="x" value="2"/>
+    <property name="map" value="indoor/dramed-house"/>
+    <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>

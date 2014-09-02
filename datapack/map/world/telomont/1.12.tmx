@@ -61,12 +61,12 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6CHtv+McecgAclN0w4AAAA8tyjKAHU=
+   eJxjYBicoGSgHTAKRsEQBlNF8cuXitDHHaNgFAw3QChvkQJG8+EoGAWUA2rmyVEwvMBoGUs8AAA5NAQO
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9V0lSVEEQraXsvlYwLIhw4wEEDII9R8CQvgd9ABZsQAVROATajeBwAJYy43AIpJlx76toMvqZnVn9fwTyIl70H+rXy8rKzMoOIYSJ4GMAHKzAemYuDUtX9DzdoZK28TjGFFgzno+r35ytL8DnzrgZxx7Px0lv8kF7zmmD2lYZ5+nn7Na6gqSfMOXYkLQego9C99qtPRjK6FrrTGt8FUN4DS6CS+Cb2LZxBBwlm8VWsV/uZa3W3jaKEJrE9aLzXQM6TXAd/AhuxO4Y4HvPfgu70Nkj7hf0Djp74D54AB7Gbt96schI6xiOnfvHuG5BZ7U/hNOizbNb3S2MbeH9KXgGnoMXsaMlPsnF913D83WyxYqt/63L16x/X7pJs07aGnqvPWjfSV3W+SPXrJ0wj7kXwJcZjaeIqxFwFBwDnxWdeaVeaJv4fBgnim1r0HsPfoj/5nagMVZeScxyvWAdnkvrJnyD3ja4k1lv6zafJLckr7yazPPL2rXuMfR+gyexnZ9VkdbVK6ZkTJl6UgVlY9mq1b3wpC/MzhnjOYYkxuvqnY7lssj1E1rDskd8zOeohpW/skdl9AXs03SdYrBG2gn6zNHwep7cPnGs81koZ6B11nm6Xs/DfYf3re5VOCe9usF6ufPNGie6E6FaHAu4f1rGvr8F34Er4Gr0awfrJnj9qweuh5vQ+QR+Br+AX52eg30lWrn/CAyJYe6/j6DzHfwB/gR/xe66VabvZr/rPNJ+SrX0Es+vwGvwBvxD+Saweh32MfeMFrSfctB1UMc/z1Emj8qiSt3/C7fSm+c=
+   eJy9V8tOFUEQ7aXuRjsBFiZu+AB5hLDnEzDKf3A/wIUbQVAEPoKn7w9giQoK6k/ARdTA3lO5U7mHulXNTKKe5GRm7vT0qa6uqq6bUkrTKcYQONyCncJcFp6u6kW6Iw1t43GMWXDO+X3KXEu2PgDvB+PmA3siH4vezI3enA8dWlt1XKRfstvqKkRfMBvYIFq3wNtpcO3eHowUdL11yhqf5pSWwGXwGfg892wcA8fJZrVV7ddnXau3t9tVSjvE3ar/3TZ0dsBd8CX4Kg/GAD9H9nv4BJ0D4mFF76BzAB6Cn8EvedC3USwyZB13cv/5Lu67tc5Z1eOP+nkPY7t4f1aPP8f1Z+5rqU9K8f23EflabPFi61/r8j3r/y9d0eyQtoXd6wjWd1qXbf7oPWsLnmDuBXCxoHEPcTUGjoMT4GTVn1frhbWJz4cpotq2Ab1NcCtfze1EY7y80pjlesE6PJfVFexD7wP4sbDebp1PAs6rqCbz/Lp2qys4geZp7uVnW8i6rospHdOknrRB01j2avV1GL2ZHj12xnMMaYx3zDsby01R6ieshmeP+pjPUQsvf3WPmugr2KdyLzE4R9oCe+ZYRD1PaZ841vks1DPQO+si3ajn4b4j+tb2KgLNyahusF7pfPPGqe50ahfHCu6fVrDvL8BVcA1cz3HtYF1B1L9G4Hr4GjpvwLfgO/B90HOwr1Sr9B+BoTHM/fcRdI7Br+A38HserFtN+m72u80j6yeppb/w++963AWul5RvCq/XYR9zz+jB+qkEWwdt/PMcTfKoKdrU/T9mgZbm
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -79,7 +79,7 @@
    eJxjYBgFo2AU0AqUig60C4Y3uCPEwHAXiO8B8X0h+tn7B8mu/3S0dxQgwGjeGvpgNP8OLzCaJwcGjOajUUANAAAAjBM2
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
+ <objectgroup name="Moving" width="30" height="30" visible="0">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="1.11"/>

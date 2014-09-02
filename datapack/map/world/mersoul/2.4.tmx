@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALiQDIjA0MTI341jgTkybWXWNDESD3cTKS9+NynDZTzIRLrkhh2+Oz1JsEs3xFuLyXpgJb+xQdG7aWPvdlAs3LQ8GSg+BQGTPFcCuydKEJYTSMQN5NvBdlgIRAvxiPvyoFbDt1fasAwUkfDGjjCjZC9pAA3oB3uaHgJDndQy15QuGCzFx17UNleEEgDmplOAGeg2YsvHmkBqOlfUN5oIhKnAnEKEeqIAQeB+BCR2BWIXYhQR21AbDgDAB2NTtw=
+   eJxjYBgFo2AUjALiQDIjA0MTI341jgTkybWXWNDESD3cTKS9+NynDZTzIRLrkhh2+Oz1JsEs3xFuLyXpgJb+xQdw2VsqMjD2YgPDwd5soFk5aHgyUHwKA6Z4LgX2TsQSb+igEYibybeCbLAQiBfjkXflwC2H7i81YBipo2ENHOFGyF5SgBvQDnc0vASHO6hlLyhcsNmLjj2obC8IpAHNTCeAM9DsxRePtADU9C8obzQRiVOBOIUIdcSAg0B8iEjsCsQuRKijNiA2nAFzwk9l
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,7 +66,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUlOw0AQRXvhRZZAJOAaIBHlHkzecw2EUFCAhFtEYoiBQ2TBDMdghjvwW+qWS0V1d9kYVnzpLTx0/fp2uW1Mqa7DahmsR8jZOqsOOTcNZlhdy5pbT+vnpEbX6CX5LoBFwZev8f554Lwmu8+yIvQV8u2a79mNqZbbq8OOU76SRx1fn5u/P1qL5uKZaW7N85aeMe2f+sZ64uus6JxqskozawLXpGw+N53Tqgr5Sn01KZop1pe9Z6lBfKZeFv8efX+rDeFrj7IyozQvfs5sfxKzuDanZJ7Uob7SvHjfUSbD94eYeJ3U/qfx7beN2QV7YB8MwBActMO+VfuUfA9R/wgcgxMwBgU4jfhq9vyU7wXqX4IrcA1uwC24i/iGZoaS8n1E/SfwDF7AK3gD72DSSj+3FF5NzJXGh+s3fVOy90j/AK/QXlTXL6aNlq5fTu+HvlUkzTbXQFg3rOG1CbYcGt+QaD+pPnbwDs6mjDl3hL7lptWH7z38Hhwa37FQp2Dni4SvzfsBv0/HX+Xl+vctmSj2ASp+P/1uttnxF+hO0mM=
+   eJztlUlOw0AQRXuRRZZAJOAaIBH5HmHwnmsghIICJNwiEkMMHCILZjgGgxjuwG+pSy4V1YONYcWXniIPXb++Xe4YUypzWPXARoBcrLPqsnOzYE7Utay79bx+zmpkJl2a7xJYVnzlGvLPPedTslOWVaUvn29mvmc3plpuUlccx3w1jzq+lFu+P16L55KZee6U5609Y94/9w31JNdZ8TlNyarNrPFc07JRbj6nVeXz1fpqUjxTqC97z0qDUKZ+K/w9Un9rDUG1x60yozYvNGe2P415XFtIZJHV4b7avJDvuKUj94eQZJ3Y/pfiO+gYswf2wQEYghE47Ph9q/ap+R6h/jE4AadgAgpwFvBN2fNjvpeofwWuwQ24BXfgPuDrmxlOzPcJ9Z/BC3h1Xm/4fQfTdvy5xSA1MVcpPlK/6RuTvUf7DyD59qK6fiFtttP6lfR/6FtF2mxLDZV1oxpeW2DbkeLrE+8n1scu3sH5jDEXDt+33LQG8H2A36MjxXei1CnE+SLia/N+wO/T8Vd5pf59S6YJ+wCXvJ9/Nzvi+AvE99Fn
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -79,7 +79,7 @@
    eJxjYBgFo2AUjALiQRLL4LYXpA4bJsc+UvSO2jt07SUFo+unhb3E6Ke3vTAzyAHUijNq2EtPMGrvqL2j9o7aO1TsBQA4FzCd
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
+ <objectgroup name="Moving" width="30" height="30" visible="0">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="2.3"/>

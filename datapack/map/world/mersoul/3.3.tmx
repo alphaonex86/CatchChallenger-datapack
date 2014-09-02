@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCANLATixVD2WQFMTCuAbO9bAUwsy0QYyzEhzHPlIN1eGJiF5M9YJsI4jomBZIDNXnJAE4k4FYhTsIg3k2jvIRKxKxC7YBE/TLKPSQPUCmdK7MWXj77R0F5q5CNy7IWB0XxEGJCaj3BhWucjYsAzGphpwcjAYM6IW/4YED8lwpzrJOLjUIxLnhg7kcFCblQaVj/B+LQCB7lRaXRxWoGH3Kg0ujgusIjG7sIFDg2QvY+oZC9yuNE6TSED5HCjdZpCBsjhhpym0NMPvdITevrBlp6IbZOSAtDTD7XS0ygYngAAsIOBYA==
+   eJxjYCANLATixVD2WQFMTCuAbO9bAUwsy0QYyzEhzHPlIN1ebCCWiTCOY8JjAJn2EguaSMSpQJyCRbyZRHsPkYhdgdgFi/hhkn1MGqBWOFNiL7589I2G9lIjH5FjLzYwmo+wA1LzES5M63xEDHhGAzMtGBkYzBlxyx8D4qdEmHOdRHwcinHJE2MnMljIjUrD6icYn1bgIDcqjS5OK/CQG5VGF8cFFtHYXbjAoQGy9xGV7EUON1qnKWSAHG60TlPIADnckNMUevqhV3pCTz/Y0hOxbVJSAHr6oVZ6GgXDEwAAyWKADA==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -61,12 +61,12 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKANuEkjc5FBlQAdLCEDzBNApWkB6BG+o/Zi2ivNODD20tL/gzUf0QMMVLr6yUC/tITN7l8DaD89w9wCyY/UtDcCaG44nvCLoJG9pICRZO9OILamc3oeCDtBYCTF60DZO9jT0y4g3k2hXbugmFR/WjEi9JKKByK/jALiAQBPGCbZ
+   eJxjYKANuEkjc5FBlQB1zBEVpa76eQKoNC0APcJ31F5Me6UZB8ZeWvqfWvmIVEBqvkMHpSLEieEDA5WufjLQLy1hs/vXANpPzzC3QPIjNe2NAJobjif8ImhkLylgJNm7E4it6ZyeB8JOEBhJ8TpQ9g729LQLiHdTaNcuKCbVn1aMCL2k4oHIL6OAeAAAEy0oaQ==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt1VlOAjEcx/HyRsKLCXIXtydP4RbPoZGYf/TVfUk0egQY9yO4w7gfAVfAlXe/k4gZobUMSjBxfskn05ROO/Q/BadFfSZFO23g+MaV00NfL/rQj4GPMelI9djKuL75MrSzBq5m3SH6hlFqVWqEa1IzxpSib2yedsGgqJlzib5lJBJKrXBdDbDuoKHtZTxq/sx2r5fdmFJ72McBDnGE41jtz1dPcsx/jRvc4g73eGjwut9FkMSoj6mvMm3Usx0d6ESXr762PfbOx2xcqTnMYwGLmMAkpjCNmXj1urpzVN5b2x5752ODOTexhW3sIIU0HKxhXbNureeoO1rd552PM+Y8xwUucYUMsnBxgtP41/fby0/P0TNzvuAVbyghjwKKeMSTZl3bOaKWQk2F2go1Fmot1FyovdT+hMFDLYWaCrUVaizUWqi55Bq87l9MJhKM7b4wYf5LdL/Ttow18b+63tTzPcOEaWZ+851t5Pv/DqBllcg=
+   eJztldlKw0AUhqd3hd4U4sO4XfkUbvgcikUOeuu+gKKP0NT9Edzbuj9CXdu6YO/9Aqmk7cQsGiqYHz5mcjI5J5l/TptLqy9lmZsu5Bzr6uonNgCDMATD9hoz0bq2WUVHvjzzggtFTd1RYmNQ61BqnDGjWeOmqmNtmXnFvq6kG6lqcq4SW7Pj64wbAeqOuMwtTSXd73k9a+kgpdQhHMExnMApnKX8v18Ylch/B/fwAI/wBM8R1/1OAhmYcOAWa1YnfnZBN/RAr8Nfrz22+mPBUGoRlmAZVmAaZmAW5mDeaK2r66P63nrtsdUf2+TcgV3Yg33Iggk52IQtTV2/fdSXbI1Z/XFJziu4hhu4hTwUoAjncGE0nm9LP+2jN3K+29/zwViDMlTs2Avjq6auVx/hpeCp4K3gseC14Lngvfh/w+DCS8FTwVvBY8FrwXMpRVz3LyqfCIbXc7Fi/Rfpfqe9NNnG/+qwCvOdsWK1U795ZqM8/582RJJw
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -76,10 +76,10 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuiBVgYIgTQNDxWOgEAex6v4og2A08pNlbCzSzTgBB12OhG3DYKyqKYC8g0V4QmCeASi/nZmBYAcQrgXgVEC/AYe8oGPzAFhh3dkBsj4d2oEH84ss/hPIRJQBf/iGUjygFyPkImG8agPmnAZiPGoD5qQEkPpqPRsEoGFiwGFifLeGmv72HgXYeGQB7aQFGw3AUjIJRMBgBAFXNKuU=
+   eJxjYKAuiBVgYIgTQNDxWOgEAex6v4og2A08pNlbCzSzTgBB12OhG3DYiwwWkGgvCMwTQKWXczMwrADilUC8CogXEGHvKBicwBYYd3ZAbI+HdqBB/OLLP4TyESUAX/4hJR+RA5DzETDfNADzTwMwHzUA81MDSHw0H42CUTCwYDGwPlvCTX97DwPtPDIA9tICjIbhKBgFo2AwAgAxzCq7
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
+ <objectgroup name="Moving" width="30" height="30" visible="0">
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="2.3"/>

@@ -66,7 +66,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVlk1OwzAQhb1gwT4CehLkbcURWJB7pMfg7wxd83cQoByEnx6hYykjXh8zthMSIZ70lNR2/c2MYychfCvC/bn4QtwGW6X+IeMjjCnNFwv9qLNDf7yyPKbGq67NE+fWGFCRrqwh+aEwV4zd4/4mPxWvaZp7fbDf3xrXMcJ4W2rjOTnXUk15jbQN47X4rFpumluZvA46P/OxrhbXq7E1vzIumxCuxNfiG/Ftk8+PY4hGrrgm6f6oN7LvhHMvfhA/ip8aPzcvX+Tqs587Y1Lsz8J5Eb+KN+I3h7t0aq1crjU/96x34XyIP8Vf4i1xvf9qHDH8zNnbS17sQ4W5IXfs+VQrZmEctdJ6lmqBdWdursZT6djhzlnjxFxNyM3VWOurzHTtxIsJuMxQzglYmau+n5k13Jr9dGrwEzOdS3oeIbPrxywK+VjtzND8rHcY7h1kdmG/ThxHYnm1xN+W+Hsg9LFZTG6zODmWpdKetZgWx6pnTkO/S6fS3OexpbnPRU9/kevYb+P/qh0sj19l
+   eJzVlk1OwzAQhb1gwT4CehLkLeIILMg90mPwdwbW/B2Ev4OA2iMwljzi9TFjOyER4klPbm3X38w4dhPCtyJ8PhOfi/tgqzY+Zn6EObX1YmUcdbrvz1eWx9R41a154toaAypSyxqTHwpzxdg97m/yU/GeprVv93bHe6OdIoy3pz5ek3Ot1ZT3SPswXovPauWmtZXJ+6DrMx/ranG9GlvrK+OiC+FSfCW+Ft905fw4hmjkinuSPh9kI/tOOPfiB/Gj+Knzc/PyRa4++6U7JsX+LJwX8av4TfzucE+cWiuXa83PPetDOJ+ZtZF2S1zvtxpHDD9z9s6SF/tYYW7InXo/tYpZGEertJ61WmDdmVuq8Vw6dLhL1jgx1zNySzXW+ioztYN4NQOXGco5AitznceZ2cJtOU/HBj8x072k9xEyhzxnVcnH6meG5mf9h+HZQeYQduvEcSSWV0v8bonfB0KOzWJyn8UpsSzVzqzFtDhWPUsa+146l5a+jy0tfS96+otcp74b/1d9AX93XmQ=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -104,11 +104,11 @@
     <property name="y" value="25"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="272" y="192">
+  <object name="door" type="door" gid="5237" x="272" y="192">
    <properties>
     <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
-    <property name="y" value="10"/>
+    <property name="y" value="6"/>
    </properties>
   </object>
  </objectgroup>

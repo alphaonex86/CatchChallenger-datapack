@@ -62,17 +62,17 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCANBEoTrzaGBLWEQCEJZtVQ0d6JJJg1h4r2biTBrD1UtPci0KxLQHwZiJ0lseNbQLnbQHyHivbCwGegmV+AOBlozzcg/R3K/gmkf9HAPmTQLIkd0xoslsSOR8EoGAWjYBSMglEwCkbBKKA1AACPFxxP
+   eJxjYCANBEoTrzaGBLWEQCEJZtVQ0d6JJJg1h4r2biTBrD1UtPci0KxLQHwZiJ0lIbhUBIJh/FtAudtAfIeK9sLAZ6CZX4A4GWjPNyD9Hcr+CaR/0cA+ZNAsiR3TGiyWxI5HwSgYBaNgFIyCUTAKRsEooDUAAL+hHKk=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt08dKA1EUgOFZ+ASCMOG+VSyj5i3sZZdHiMYKNix7ewELaNyLsWwsYNkLAZf+A8ocr4mZiTNnNl74YBaZ85Ocm3yT4+RDWvqUNY7Tija0owMeOtGFbuRM8Pmw82s1v04PM3vRh34MYBBDGMYIRk3w+UbbsumfAjPHMI4iJjCJKUxjBrPm+ztR23bTP+vM3MAmtrCNHexiD/s4MD/fi9L+7Vwyu4wrXOMGt1V68sTR9U9FdN7rNOPsRj3/3eTbjfyH5Znj/sxjAYviLi3zvIJVrJm/N+32ITOPcIwTMf+U5zOUcG7iaUp3zLzHAx7F/Ceen/GCVxNfL8zuk2zVu29Jd70qTS+l76zR9BXcoFl09b7rheiWXb392l2t/dpdrf2+iW5Fcb/NmaDbktHbr32ftfabxu+c5n7trtZ+7a7GftO6z7VOmHc/AMuphSQ=
+   eJzt08lKw1AUgOEsfAJBSLlv5RSHt3Aedn2EausETjjsnQdwAK17aUE3toLDXii49A8oOV5bm9TkZOOFD7Jozk97brNtjpMNaf1Tp3GcLnSjB73w0Id+DGDQBJ8PO79R8+sMMXMYIxjFGMYxgUlMYdoEn2+1LZv+yTFzBrPIo4A5zGMBi1gy39+J2rab/tlh5i72sI8DHOIIxzjBqfn5XpT2b6fE7LKYf8fzfZ2ePHF0/VMTnfcmzTi7Uc9/N/l2K/9heZa5PytYxZq4Sxs8b2IL2+bvTbt9xsxzXOBSzL/i+RpF3Jh4mtIDMyuo4lHMf+L5GS94NfH1wuw+yVaz+5Z016vT9FL6zhpNX84NmnlX77veim7Z1duv3dXar93V2u+b6NYU99ueCbodGb392vdZa79p/M5p7tfuau3X7mrsN6373OiEefcDUBmDQQ==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxLYmFgSCICw4CMBAODLBDLAbG8BAMGQJZHBsTYgctOSsFA2Emq3aP2jtpLC3sHKh9Ry25y7KTUbkrsJMd+Sswn1Q3U8hs5/qWl3YTsp7XdQUj1XagE7e2D4SIke0vpZC8IbALatRmItwDxVomBjV96+Znedg6UvSCAnp7pFb/o6ZlefkZPz8M9fgciH43aO/jtBQDJ6PbC
+   eJzt1ckJgDAQBdA5WIKHHFx6EtJAShBszKU/J0ggRMSsMyL58E+Cz2ESVA2A8qhJJwB67IAdBdxiP7fjYzyZqeEwQ22fyPYqtRuS6n7L5bpHuewYM9VOMWP8lPeHfkOu2WLmLWm/+aXtyfrfSVHeM50tdyFydVa0NuyOPQTvfqlmpja5XB33PFPt1z3PVDO75/nv++W4R9X9vnsC8rr3lA==
   </data>
  </layer>
  <layer name="Other" width="30" height="30">

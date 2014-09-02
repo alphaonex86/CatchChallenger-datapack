@@ -24,4 +24,9 @@
    <property name="animation" value="500ms;4frames"/>
   </properties>
  </tile>
+ <tile id="224">
+  <properties>
+   <property name="trigger" value="start:62ms;4frames;leave:62ms;3frames;over"/>
+  </properties>
+ </tile>
 </tileset>
