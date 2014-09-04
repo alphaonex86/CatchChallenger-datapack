@@ -73,7 +73,7 @@
   <object name="door" type="door" gid="5123" x="320" y="368">
    <properties>
     <property name="map" value="3.14d"/>
-    <property name="x" value="22"/>
+    <property name="x" value="20"/>
     <property name="y" value="22"/>
    </properties>
   </object>
