@@ -92,7 +92,7 @@
   </object>
   <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
  </objectgroup>
- <objectgroup name="object" width="30" height="30">
+ <objectgroup name="Object" width="30" height="30">
   <object name="object" type="object" gid="2210" x="144" y="288">
    <properties>
     <property name="item" value="6"/>

@@ -138,7 +138,7 @@ consumeAtUse="true"
         <description lang="fr">Soigne 15 Hp</description>
         <regeneration hp="15"/>
     </item>
-    <item price="1500" id="31" image="other/Surfboard.png">
+    <item price="1500" id="31" image="other/surfboard.png">
         <name>Surfboard</name>
         <name lang="fr">Planche de surf</name>
         <description>Used to navigate on the water</description>

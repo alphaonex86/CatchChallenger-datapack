@@ -61,4 +61,8 @@
         <product id="2002" quantity="64"/>
         <product id="2003" quantity="304"/>
     </industrialrecipe>
+        <industrialrecipe cycletobefull="10" time="1080" id="13">
+        <resource id="2012" quantity="10"/>
+        <product id="2013" quantity="20"/>
+    </industrialrecipe>
 </industries>

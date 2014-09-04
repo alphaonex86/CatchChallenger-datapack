@@ -87,7 +87,7 @@
   </object>
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
-    <property name="map" value="4.3"/>
+    <property name="map" value="../mersoul/4.3"/>
    </properties>
   </object>
  </objectgroup>

@@ -80,7 +80,7 @@
    eJxjYMANangYGGp5yJPfx4tKo6vFp3cOUHwuEFsD9doAsS0vKhsmj8s9yGajm4VLLz4Qw4tfHmYmLrMJ6R+OYB4Jft5PYnzgA/uIsBcWH/d5MMXIBYTyCqnqiAX40jMxeYZWgFZpvpQHgsvo6BcQyOZB4MEMgHmpYSDsvT9A9lIrPyHnFWIAtjqKXEBuXhmJ9coooByw8DEwsEIxqJ4G1b/IYiDMxoepD1S2oKtBNwsfUAGqUYViUD0Nqn+RxUBYDYu9oLIFXQ26WSCAqyxwAapxRcJufNjF0AHMPHz6QIDadSu96+pRMApgAADjqD1C
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30" visible="0">
+ <objectgroup name="Moving" width="30" height="30">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="0.5"/>
@@ -160,35 +160,35 @@
   </object>
   <object name="door" type="door" gid="5123" x="304" y="288">
    <properties>
-    <property name="map" value="indoor/stock exchange"/>
+    <property name="map" value="indoor/stock-exchange"/>
     <property name="x" value="12"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="336" y="288">
    <properties>
-    <property name="map" value="indoor/stock exchange"/>
+    <property name="map" value="indoor/stock-exchange"/>
     <property name="x" value="14"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="368" y="288">
    <properties>
-    <property name="map" value="indoor/stock exchange"/>
+    <property name="map" value="indoor/stock-exchange"/>
     <property name="x" value="16"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="400" y="288">
    <properties>
-    <property name="map" value="indoor/stock exchange"/>
+    <property name="map" value="indoor/stock-exchange"/>
     <property name="x" value="18"/>
     <property name="y" value="18"/>
    </properties>
   </object>
   <object name="door" type="door" gid="5123" x="432" y="288">
    <properties>
-    <property name="map" value="indoor/stock exchange"/>
+    <property name="map" value="indoor/stock-exchange"/>
     <property name="x" value="20"/>
     <property name="y" value="18"/>
    </properties>

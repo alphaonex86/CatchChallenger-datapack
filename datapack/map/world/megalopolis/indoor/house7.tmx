@@ -36,12 +36,21 @@
    eJxjYBg8YAYHA8NMDsJiILADKLaTg7DYKCANAACXuQWF
   </data>
  </layer>
+ <objectgroup name="Moving" width="11" height="12">
+  <object name="door" type="door" gid="1027" x="32" y="192">
+   <properties>
+    <property name="map" value="../0.7"/>
+    <property name="x" value="22"/>
+    <property name="y" value="26"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="80" y="112">
    <properties>
     <property name="file" value="../../../bots-informations"/>
-    <property name="id" value="7061"/>
-    <property name="lookAt" value="Bottom"/>
+    <property name="id" value="9061"/>
+    <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldgirl"/>
    </properties>
   </object>

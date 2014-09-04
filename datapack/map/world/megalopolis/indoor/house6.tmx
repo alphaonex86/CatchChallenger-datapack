@@ -14,12 +14,12 @@
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwwWU8FJuBgAkRwCC
+   eJxjYKAt4CRBrSbNXDEyQAkv5WYAAHGbALQ=
   </data>
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAsJhGmJMIDFOrSQSGqRViYQADNk4GFMAB5YPkYWphQA0op46ENZD0oqvFB5DVThFgYJgqgCqPLIasdgtQbCuaWmQxctwACwcQmCiASjMwoIYDsRgAhbMqig==
+   eJxbzMDAsJhGmBOIZaA0LgxTqwnENlAaF4apFWJhAAM2TgYUwAHlg+RhamFADSinjoQ1kPSiq8UHkNVOEWBgmCqAKo8shqx2C1BsK5paZDFy3AALBxCYKIBKMzCghgOxGADCjyqw
   </data>
  </layer>
  <layer name="Other" width="11" height="12">

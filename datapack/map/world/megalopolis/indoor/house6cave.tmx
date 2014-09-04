@@ -14,7 +14,7 @@
  </layer>
  <layer name="Other" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAfEBNhYBBHwhIiuNWaoclZ4FEbhmZuBB61g8W94UiYWu6lBgAAT+oGSQ==
+   eJxjYIAATgbigSYJapGBmAgDgzgSlhDBrdYMTc4Cj9owNHMj8KgdLO4NR8LUci81AACubgZ7
   </data>
  </layer>
  <layer name="other" width="11" height="12">
@@ -24,7 +24,7 @@
  </layer>
  <layer name="Collisions" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxbzMDAwEkEXgzFmkRgmFpiALLaKQIMDFMFIGxDHgYGcxEERle7BahuqwBx5iIDQuaS4l5SzEX2GyFzkf1GLfcSiwFd9yDi
+   eJxbzMDAwAnE0lAaF14MxZpAbA2lcWGYWmIAstopAgwMUwUgbEMeBgZzEQRGV7sFqG6rAHHmIgNC5pLiXlLMRfYbIXOR/UYt9xKLAaP/IQY=
   </data>
  </layer>
  <layer name="Other" width="11" height="12">
@@ -34,7 +34,7 @@
  </layer>
  <layer name="WalkBehind" width="11" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYIAAaQbigTUJaksEGBhKBUjQgARWAPUtA+KVROg/DlRzEohPEKH2OVDNSyB+QYRaT0EI9hDElEP3W6YgBGdgUYsOOoFqOgQhNCGwEqhmhSCEpjUAAKzgEHQ=
+   eJxjYIAAaQbagBIBBoZSAfL0rgDqWwbEK4nQfxyo5iQQnyBC7XOgmpdA/IIItZ6CEOwhiCmH7rdMQQjOwKIWHXQC1XQIQmhCYCVQzQpBCE1rAAA/LBA5
   </data>
  </layer>
  <layer name="other" width="11" height="12" opacity="0.9">
@@ -54,25 +54,25 @@
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="80" y="64">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9057"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="96">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9058"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="128">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9059"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="160">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../../bots-informations"/>
     <property name="id" value="9060"/>
    </properties>
   </object>

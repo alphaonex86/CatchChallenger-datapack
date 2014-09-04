@@ -121,7 +121,7 @@ skin is invisible
 		<text><![CDATA[<a href="2">*Saw a log*</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">*Scier du bois*</a><br />]]></text>
       </step>
-        <step id="2" type="industry" industry="9" />
+        <step id="2" type="industry" industry="13" />
     </bot>
     
     <bot id="3008">

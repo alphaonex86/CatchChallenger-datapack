@@ -97,9 +97,9 @@
   </object>
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
-    <property name="map" value="5.3"/>
+    <property name="map" value="../altate-islands/5.3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="object" width="30" height="30"/>
+ <objectgroup name="Object" width="30" height="30"/>
 </map>
