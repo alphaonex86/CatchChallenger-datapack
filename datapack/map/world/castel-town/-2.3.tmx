@@ -120,7 +120,7 @@
   </object>
   <object name="door" type="door" gid="5237" x="160" y="384">
    <properties>
-    <property name="map" value="indoor/shop"/>
+    <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>

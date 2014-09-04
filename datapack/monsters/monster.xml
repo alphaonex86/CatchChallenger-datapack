@@ -929,7 +929,6 @@ evolution type can be: level (attribute level is the level), item (attribute lev
             <attack id="40" level="65" attack_level="3"/>
         </attack_list>
         <evolutions>
-            <evolution type="level" level="18" evolveTo="58"/>
         </evolutions>
         <name>Capiti</name>
         <name lang="fr">Capiti</name>

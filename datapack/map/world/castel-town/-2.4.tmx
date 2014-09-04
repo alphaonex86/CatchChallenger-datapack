@@ -71,7 +71,7 @@
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdllkKwDAIRA3kqM3Z22P03yLa1mXMQAjZBl8MQaJaHZNozeeYz//19/LzjkOKi+//2lfJKw4UHk2oeYhSNl/3e7TeF8q70f4r679l9Ufl9fJD59Xy+danK690Lso/StY8WOsRaa0L7271SFY9iMKbJc57Dr92jWo6XTe2x14P
+   eJzdllkKwDAIRA3kqO3Z22P03yDaxmXsQAjZBl8MQaJaHZPonOuYz+/6e/l5xyHFxfd/7avkFQcKjybUPEQpm6/7PVrvC+XdaP+V9d+y+qPyevmh82r5fOvTlVc6F+UfJWserPWItNaF92/1SFY9iMKbJc57Db92j2q6VZz3AccHX7E=
   </data>
  </layer>
  <layer name="other" width="30" height="30">
