@@ -145,8 +145,8 @@ skin is invisible
     </bot>
     
     <bot id="3010">
-      <name>Scientific Herman</name>
-      <name lang="fr">Herman le scientific</name>
+      <name>Scientific</name>
+      <name lang="fr">Scientific</name>
         <step type="text" id="1">
 		<text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
@@ -194,5 +194,14 @@ skin is invisible
 		<text lang="fr"><![CDATA[<a href="2">*Cultivate*</a><br />]]></text>
         </step>
         <step id="2" type="industry" industry="11" />
+    </bot>
+    <bot id="3014">
+      <name>Scientific</name>
+      <name lang="fr">Scientific</name>
+        <step type="text" id="1">
+		<text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
+		<text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
+        </step>
+        <step id="2" type="industry" industry="9" />
     </bot>
 </bots>

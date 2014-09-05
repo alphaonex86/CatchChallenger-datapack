@@ -16,12 +16,17 @@
  <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztz9EJACAMA9F2P6fo/kMoThAxINSDvr/CkcqIAgDBuk39czjputsv9jq7IzW/d2/R7d0FgO4m0raSCQ==
+   eJxLYmRgSBrFo3gUj2IiMBCBMbHqqIFJsZfadg+Ef6lp7yIi8Ui3l1I8au/wtvcQGiYkPopH8SgexUMNAwACpq9P
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALiQDIjA0MTI341jgTkybWXWNDESD3cTKS9+NynDZTzIRLrkhh2+Oz1JsEs3xFuLyXpgJb+xQdw2VsqMjD2YgPDwd5soFk5aHgyUHwKA6Z4LgX2TsQSb+igEYibybeCbLAQiBfjkXflwC2H7i81YBipo2ENHOFGyF5SgBvQDnc0vASHO6hlLyhcsNmLjj2obC8IpAHNTCeAM9DsxRePtADU9C8obzQRiVOBOIUIdcSAg0B8iEjsCsQuRKijNiA2nAFzwk9l
+   eJxjYBgFo2AUjALiQDIjA0MTI341jgTkybWXWNDESD3cTKS9+NynDZRbxEAc1iUx7PDZu4gEcxaTZu2ws5eSdEBL/+IDuOwtFRkYe7GB4WDvQSDOYUTFhxggGF08l4KybyKWeEMHjUDcTL4VZIOFDPjD1JUDtxwx/iLXXloBatmLL1xoaS86SCeQLmH2kupeSgE1/QvKG01E4lQgTiFCHTEAVD4cIhK7ArELEeqoDYgNZwAOGU4B
+  </data>
+ </layer>
+ <layer name="other" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDAsgn8xIIGDhKdN9i8CAICNnOp7AuBQAyJ9AKQ=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -66,20 +71,20 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUlOw0AQRXuRRZZAJOAaIBH5HmHwnmsghIICJNwiEkMMHCILZjgGgxjuwG+pSy4V1YONYcWXniIPXb++Xe4YUypzWPXARoBcrLPqsnOzYE7Utay79bx+zmpkJl2a7xJYVnzlGvLPPedTslOWVaUvn29mvmc3plpuUlccx3w1jzq+lFu+P16L55KZee6U5609Y94/9w31JNdZ8TlNyarNrPFc07JRbj6nVeXz1fpqUjxTqC97z0qDUKZ+K/w9Un9rDUG1x60yozYvNGe2P415XFtIZJHV4b7avJDvuKUj94eQZJ3Y/pfiO+gYswf2wQEYghE47Ph9q/ap+R6h/jE4AadgAgpwFvBN2fNjvpeofwWuwQ24BXfgPuDrmxlOzPcJ9Z/BC3h1Xm/4fQfTdvy5xSA1MVcpPlK/6RuTvUf7DyD59qK6fiFtttP6lfR/6FtF2mxLDZV1oxpeW2DbkeLrE+8n1scu3sH5jDEXDt+33LQG8H2A36MjxXei1CnE+SLia/N+wO/T8Vd5pf59S6YJ+wCXvJ9/Nzvi+AvE99Fn
+   eJztlUlOw0AQRXuRRZYJUYBrgETkezBlzxK4AUIoKEyBS0RihkNkwTzcAoKAcAZ+C7dSFNXd5cTZ8aUny1P9+na5bUxfSYrVLFgMUGf3WdXIsTIYY3UtC+n9tH6d1EiMXpLvFJgWfPk9zr/uOa7J7rLMCX35fBPzN7sx2XI71dh+zFfyGMTX5ebvj9aiuXhmmlvzvKVnTPunvqGe+H1WdE41WaWZNZ5zUjaXm85pVvl8pb7yFM0U6steM5MjLlOjEP4eXX/zOeFqtwv9jNK8uDmz/UmM49yEkklSh/pK8+J82wUZvj6ExOvE1j+Nb7NizBbYBjtgF+yBVsXvm7VPyfcQ9Y/AMTgBp+AMnAd8NWt+zPcK9a/BDbgFd+AePAR8fTNDifm+oP4r6IK31Osd2w/QKcafWwynPOZK48M1St+Y7DXSP8DJtxYN6hfSUlHXL6cxpG8WSbM9Kq2B9RSN72PJmKfScJ6beAcXqHGZ4vuWJV/KM1jGz2QFrJbjvs3i7zoa309c1wPV6s/W8gVa8NsHBwpfm9fV6Sl9R6F/3z4dxTpAxa+n380G2/8GvY/b6w==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRgAs0sQxue0HqsGEYSBVmYEgD4nQgzgDiTCDOAuJsYdzmUMNeYsFQsDcFh53E2ruQgzx7kdXj4hMLcLmfWP/Q0l5izCAHUCutUMPeJDqWI+j20stuetp7nI+B4QQUY7OXVnY/B9r3AorpaS87PwMDBxTT015kMGovAiOX6cQAUtTjs5dSgJxvTvKh8gGWGFHM
+   eJztlE0KwkAMRrMQrJt2UU8o/nuL3sTTVE+iHsC9GaQYQlO+GadFIQ8eZSDktdCWyHEcx7FoZr/dDXN9dmxqoi27Y/fsgT2yp9rek6OL8g/dtdFEu+cirSvnrTOKdf/o84zZRXakkOtdydFdTfgf0d2p2ki3LYkuymsZ35J7+rq6feO5u/KR0JV7kO68IirY5/J9DS6q+G63J4h0x8C7H+U/HSFmfqj7La367uT5BUu5XhA=
   </data>
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALiQRLL4LYXpA4bJsc+UvSO2jt07SUFo+unhb3E6Ke3vTAzyAHUijNq2EtPMGrvqL2j9o7aO1TsBQA4FzCd
+   eJxjYBgFo2AUjALiQRLL4LYXpA4bJsc+UvSO2jt07SUFo+unhb3E6Ke3vTAzyAHUijNq2EtPMGrvqL0wwME/MPZSE4zaO7ztBQB0xDC0
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30" visible="0">
+ <objectgroup name="Moving" width="30" height="30">
   <object name="border" type="border-bottom" gid="5124" x="240" y="480">
    <properties>
     <property name="map" value="2.3"/>
@@ -95,6 +100,13 @@
     <property name="map" value="indoor/arena"/>
     <property name="x" value="7"/>
     <property name="y" value="13"/>
+   </properties>
+  </object>
+  <object name="door" type="door" gid="5397" x="176" y="416">
+   <properties>
+    <property name="map" value="indoor/distillery"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>
