@@ -1,10 +1,16 @@
 <map zone="road6" type="outdoor">
 	<name>Road</name>
 	<name lang="fr">Route</name>
-	<grass>
-          <monster id="3" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="2" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="13" minLevel="6" maxLevel="7" luck="30" />
-          <monster id="8" minLevel="6" maxLevel="7" luck="10" />
+  	<grass>
+          <monster id="3" minLevel="12" maxLevel="13" luck="25" />
+          <monster id="2" minLevel="12" maxLevel="13" luck="25" />
+          <monster id="13" minLevel="12" maxLevel="13" luck="35" />
+          <monster id="8" minLevel="12" maxLevel="13" luck="15" />
   </grass>
+      <grassNight>
+          <monster id="3" minLevel="13" maxLevel="15" luck="25" />
+          <monster id="18" minLevel="13" maxLevel="15" luck="25" />
+          <monster id="13" minLevel="13" maxLevel="15" luck="35" />
+          <monster id="8" minLevel="13" maxLevel="15" luck="15" />
+    </grassNight>
 </map>

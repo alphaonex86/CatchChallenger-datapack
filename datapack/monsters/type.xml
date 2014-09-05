@@ -76,7 +76,7 @@ Fly > fight > stone > fly
         <name>Poison</name>
         <name lang="fr">Poison</name>
         <multiplicator number="0.5" to="poison;ground;stone;spectre"/>
-        <multiplicator number="2" to="plant"/>
+        <multiplicator number="2" to="plant;fight"/>
         <multiplicator number="0" to="steal"/>
     </type>
     <type name="psy" color="#498E3D">

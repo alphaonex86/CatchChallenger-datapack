@@ -21,7 +21,7 @@
  </layer>
  <layer name="Other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBg6QI2RgUGDkf72ugHt9CBg70Mgfgxli/DRz15GoDwzVI0JlexNA5qXgcPeRTyY9oZQyV589sEAsr3ocrQEikA7laH2HiLB3okitHEPpXZmA3EOGs6lqasgoBuIPYF4DRJeSyWzYf7G5n+Qvb1UsodYO2lpLyEwai9tAHqZQ2t7D6LZd5iHOvY+QsOPsajBVkZkAXEmFnFiyxIlRlSsjKWeWc2AWj6AsBcDZrmBDVOrLIGB4Z6eR+2lzF5Qm1QdDaO3USnJR7jyEqiNlo6G0dtslOQj5LxEjTYMoXCmhh3YzACFwVoCakYBAgAAgVpRUw==
+   eJxjYBg6QI2RgUGDkf72ugHt9CBg70Mgfgxli/DRz15GoDwzVI0JlexNA5qXgcPeRTyY9oZQyV589sEAsr3ocrQEikA7laH2HiLB3okitHEPpXZmA3EOGs6lqasgoBuIPYF4DRJeSyWzYf7G5n+Qvb1UsodYO2lpLyEwai9tAHqZQ2t7D6LZd5iHOvY+QsOPsajBVkZkAXEmFnFiyxIlRlSsjKWeWc2AWj6AsBcDZrmBDVOrLIGB4Z6eR+2lzF5Qm1QdDaO3USnJR7jyEqiNlo6G0dtslOQjauclQuFMjXYSNjNAYbCWgJpRgAAARENQrg==
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -46,7 +46,7 @@
  </layer>
  <layer name="LedgesBottom" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt0zENADAMBLEPjw7lj7IkUkWRbAS3XAIA/HYquTVdAbv5CPo9dzIAfQ==
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
  <layer name="LedgesTop" width="30" height="30">
@@ -66,12 +66,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9lslOVEEUhs8lHWBxQ0IaH6A30LKlYQlL0XeA3uL0AkhIk0hiFJzdSIxh2qHgwAM0bgVR9C0Ewcie/6Tr5B5OV3V1y3CSL3VvTX/999bU0UbU0QJ9hnZV1gnGqD4KOaL7YFalrWjafsvUvO4KWFXpZeiKdiHgN2e+4WJKtORYTsO6pS6iQcc26u2kWR1557KhLr9f7vd2N9EdcLe7pjt45bS2T1ePL6Qr7a1f9loEj6A3B+ZB1bXfSmt8cbpToOJ0e9tOjy+ma/2y13xCNE0ZFeVtyuWVkixvIKnV0eML6cq4xa/8S/b6NjAnYlHtzJ730fdBWv/+AFoP1Xy26+o8Yibnf+YQHbuu+HsON2DkjGNq1a+Ulz1+5N9XmtAN+Y2Ns9yUq7CfkN+Yb59uEfWvgn5P/9ZPyK+tp/ci2XNsjKL+dXDDtXuWJ3oOXoCX4FW+db96L5K1b2MC9W+CW67dB+h8BJ/AZ7CpdJvxO650ZT/y6dr4Dp0fYA/8BL88fgsGvQdwXHN7DQeno7zXmTp6PnP7I+j8dVr/kB57/F52xNbNRYX4jX3n8w7xy2dQaE/sQdkc/s08eAyegKf5Rr3GQ+97+q5i7yxr0HkH3oN1sAES9X/4uaTWNr+Pu7KSZ83rfa/Xc08sOt2v0NkGO+Ab2PX4XQysbc6fBPdUvviVs1tC1oSc8b+hs++0/iA99PitqnM9yWX3Ec5/DRaUbmw+h+6FZ43Y+n1zQbp6PldUvv7OTE9S37bRfSIWsfkcu4f/b8Tms57Tepz2/4TOs1g6YO6uFrm3hs7n0HkWS08AKz/n7A==
+   eJy9lstOFEEUhk+TibDokJDGB5iNDm4ZXMpS9B1ktqj4AkrMmOBKULxtNMYgsMO7PsDAVi7e3kIQjO79T6ZO+nCmiqqZTDjJl+qu219/d90GB4gGExkCZw2nTPkV6oxqhWge3FVpqqav3wal666CNZWehK5oVwN+K+YbLudErxwreVi3Pkw04dhCve28rCPvXHZ+2O+X+70+QjQLboy0dSdOH9X26erxhXSlvfXLXmvgHvQWwCJoufYbeZtNpzsHmk73zMDR8cV0rV/2WmREt6mkqbzNubx6VuaNZ+06enwhXRm3+JV/yV5fBuZELFpD5fMe+t7Pw+/i166rfsSdSuez1bHrir/nhWOY7HEsVifVr5Q3PH7k3zeP0Y35jY23kegvpmPLY759ujXUHwPnVLuYji23vvVeJHuOjSnUvwQuu3YPC6JH4DF4Ap4W3fvVe5GsfRszqH8VXHPt3kPnA/gIPoHPRXd+p5Wu7Ec+XRtfofMNfAc/wE+P36pB7wEcF91ew8HpFO91po6ez9z+EDp/inbZX6T/PH5PKlLXTb/D+o19536F9ctnUGhPHEXZAv7NIrgPHoClojdd69feVeydZR06r8Eb8Ba8A5n6P/xcV2ub36ddmc63fuXstvfEmtP9Ap0tsA12wK7H73JgbXP+TXAr7/QrZ7eErAk5439BZ89p/UZ64PHbUud6VinvI5z/DDzP0+dz6F7Ya6Su3xd91vXN56Yq19+ZGc06+/DdJ2KROp9j9/BuI3U+6zntG2/IR2o6bu6uFrm3huZj6DyLpf8B/h7+pw==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlTkKwkAUhl/AIkpIY7SLXkI9idpppZ37Uth4DxvBwqupx/CBBCbRt0xWP/iZJPPWMAuAHaHx3LX0LZLQB+j49PusBjCv8TECtG8ZavuyHQXnn6SHdn1DA4XfBG2m/vd75K/pd4h2I0NjIq9pR8H5Z+XsyXOafrXc3M94ZfIm56L8edbBUVYeKb9UR151Ft2v1E9yPk09LtrXUQ2Fnza+9swy2TYBdqg96oA6Nun8Za1rbXztmZU1f3QGmJy8+Mjxy5/Lx3Hx4uNdiP2PUP1K/6ksFrgHlqgVao3a/NgTNpj9PhyAZ0IvRx8rIPY29b0K8jwfhsTepr5zhLJJKqq+f8tGWs+2a7ooqPuKus+k8V/6sK03rf8bUMxRew==
+   eJzNlUsOgjAQhofEBRrCBnSHXkI9CbrTle58PxZuvIcbExdeTT2Gk5gmBTvtlEfDl/wp0HkWWgDsSKTrgaVvnSQhQD+k7xctgGVLHyNG+66kXmi2o9D55xmi3UjSmOE3Q5t5+H8v/Dn9pmg3kTQl8sp2FDr/slwD8xynXy4P/zfeNXnzcyJ/lXWocJWnqjrK1tmUdc3PF6nHR/s2qsNYL2587pkls48ADqgj6oQ6R+Y66lp/2/jcM6toHQJxBshcguyoQ+Uv57FZz1uQHZ9E7CZi6pdaJ9escA+sURvUFrVT7AkOqn5fHsA7p4/HjxkTe5t67pI6zoeU2NvUcx2J2cSKpvx/XcH9nm2/6bqg3g/1PzONTenDtt6i/l+Fklml
   </data>
  </layer>
  <layer name="Other" width="30" height="30">
@@ -127,14 +127,14 @@
   </object>
   <object name="DOOR" type="door" gid="5461" x="128" y="96">
    <properties>
-    <property name="map" value="indoor/dramed-house"/>
+    <property name="map" value="indoor/distillery"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="432" y="208">
+  <object name="bot" type="bot" gid="5123" x="384" y="448">
    <properties>
     <property name="file" value="../../bots-services.xml"/>
     <property name="id" value="2010"/>

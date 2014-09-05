@@ -21,7 +21,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeuDEyMHgwIvjPSNBLCRgIe105RpZ/R+2ln71pQDszBsBedDAU7XViJB5T015SQDKa3QNlLxuQz44lXJyxhA017QWBRKBYEhrGpo4a9qoBaQ1GhL3EuI8a9iKXH9S2t4kRE8MArewlpI/W9iLHIz3tRa8HRu2lnb1LgFgdDS+lsb2g+jYdB86gob3EAGram0JC3ZhKh3KSWDBq7+CxFwAwFDfl
+   eJxjYCAeuDEyMHgwIvjPSNBLCRgIe105RpZ/R+2ln71pQDszBsBedDAU7XViJB47M6LqpZd/kweJvWxAPjsR4UJte0EgESiWhIaxqaOGvWpAWoMRYS8x7qOGvcjlBzXtdQHqa8KCYYBW9hLSR2t7keORnvai1wOj9tLO3iVArI6Gl9LYXlB9m44DZ9DQXmIANe1NIaFuTKVDOUksGLV38NgLAGGKOG4=
   </data>
  </layer>
  <layer name="Dirt" width="30" height="30">
@@ -61,12 +61,12 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzTEBAAAMwjD8O5ybmYAvFdAkm2705XK5XC6Xy+VyuVxux30dyBlv
+   eJztzUENADAIADEmDf8KcIOCJXzI9ugJuEbsVEtfLpfL5c7K88a9xeVyuVwu9z+3ATpFGbE=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlTEOwjAMRTMwdAWJ0mvAgDLTIzDAPegBEEfpSWkGS5Gxw3frlg58yQIhh9cXgtNvQuiB4tE+R4Mw/9z1cLdD7X7APQ51WoBLsXp6ca2eXlweyf9Sjee2VXgiXNT/YKgG9ENSG3hRWE9+rbCXpZyBnshe80jPLe2LN1daT33SeeI9KdehbkLdFW7a2xK3lM7Qb/VFQ/259z58es/Flda9lNkxN1ebWYmbn+lmQW7uHI3c9Jtq59aLK/2vovKeos2jqb7fuFoQLjo/vLmlrIH7CPjd2DlyrZnCTY7S/YXcz3zGWx04u2bfiWQMl9iSR8k7f1aU+wb/XW+n
+   eJzdlT0OwjAMhTMwdAWJ0mvAgDK3R2CAe9ADII7Sk9JIRLJc23kh4Uc8ySqidr68JHWmlXMTEFza/5rWc2yE+ndz93McvsD9N7/cj+W1Jpf7sbyWcBGfVl4p1/Jp5ZVyU76C+mb5DuUOjbshXHSfdxnRgf4k8bw2g+cND0Njc/k6HIG5evakkuaNrEspV6qPeT1ZA+6XjnWa4yzEReGGtbW4UdIZGI381HhBCDf1jcd86nvrlr5zuMh5t/bxrvQOjRt5SD+zuFrPClx6prtnPdo/S7jUs1fqNYU91c5tLW4v9Bav/I7S+lGp3xRXE8KVfH6Ca+kXuFeH341jRW6uSrjBo3R/Ifcz7/G5Hji7ZWMieoUb2ZIPyzedK8p9ANs1dOM=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
@@ -111,7 +111,7 @@
   <object name="bot" type="bot" gid="5123" x="112" y="288">
    <properties>
     <property name="file" value="../../bots-fights.xml"/>
-    <property name="id" value="7017"/>
+    <property name="id" value="7156"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>
    </properties>

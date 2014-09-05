@@ -6,13 +6,13 @@
     <description>Aera where the firsts hazards become</description>
     <description lang="fr">Zone où les 1er dangers apparaitrons</description>
     <grass>
-        <monster minLevel="3" maxLevel="3" luck="30" id="3"/>
-        <monster minLevel="3" maxLevel="3" luck="40" id="2"/>
-        <monster minLevel="3" maxLevel="3" luck="30" id="13"/>
+        <monster minLevel="3" maxLevel="3" luck="25" id="3"/>
+        <monster minLevel="3" maxLevel="3" luck="25" id="2"/>
+        <monster minLevel="3" maxLevel="3" luck="50" id="13"/>
     </grass>
     <grassNight>
-        <monster minLevel="3" maxLevel="3" luck="30" id="3"/>
-        <monster minLevel="3" maxLevel="3" luck="40" id="18"/>
-        <monster minLevel="3" maxLevel="3" luck="30" id="13"/>
+        <monster minLevel="3" maxLevel="3" luck="25" id="3"/>
+        <monster minLevel="3" maxLevel="3" luck="25" id="18"/>
+        <monster minLevel="3" maxLevel="3" luck="50" id="13"/>
     </grassNight>
 </map>

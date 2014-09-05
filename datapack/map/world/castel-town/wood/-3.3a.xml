@@ -1,10 +1,16 @@
 <map type="outdoor" zone="road3">
 	<name>Wood</name>
 	<name lang="fr">Fôret</name>
-	<grass>
-          <monster id="3" minLevel="5" maxLevel="6" luck="40" />
-          <monster id="22" minLevel="5" maxLevel="6" luck="50" />
-          <monster id="17" minLevel="5" maxLevel="6" luck="10" />
+  <grass>
+          <monster id="3" minLevel="6" maxLevel="9" luck="30" />
+          <monster id="22" minLevel="6" maxLevel="9" luck="35" />
+          <monster id="13" minLevel="6" maxLevel="9" luck="30" />
+          <monster id="17" minLevel="6" maxLevel="9" luck="5" />
   </grass>
-	<wather></wather>
+      <grassNight>
+          <monster id="3" minLevel="8" maxLevel="10" luck="15" />
+          <monster id="22" minLevel="8" maxLevel="10" luck="40" />
+          <monster id="13" minLevel="8" maxLevel="10" luck="35" />
+          <monster id="17" minLevel="8" maxLevel="12" luck="10" />
+    </grassNight>
 </map>

@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlcsNACAIQ/Hm/hM7AfJVQGnirfgaAgrQ+lVj4gfzYPUVuJIslL8qV6rs3Kz5TuWScr3nNYq7ewNe5Gr92hxRXOp+yz9Rgavto5V/m8vdG27frVzKF7VXXvVR3FZtLa+nBfs=
+   eJxjYBgFIx0wcmBiXHK49A0le/G5gVj1Q9VeUsFIs5dYMFjDhVbuGmh78ZUB2MqNoW4vrdQPNnsJmY8L08o99LaX3HREav0x0PYSq49Q+A8Ve9HNJde9Q83eUTC0AQBkmQV9
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -61,12 +61,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzlldENgDAIRPvhKLqJbqab6J7y3YTcHVD7IQkhRGL6elDOpbXL/Pw43ubPhLiabxPibn5MiP05WIvWe7ysResRr6cL4kE54vV0YfnR/1QedD9ZXo8H3U+WV+1Xz9j59c4bNXV+q/Ws6mdVz1HvlToPVe+VOg+qftl6tZ+jerP6Vu8nlrd6P0XnF+XsPWX1RRwst7qPvJytj+4jL2frq/dR1XtV1c/9d3Z+R0XUl6Pi33hf2DOZKQ==
+   eJzllV0KgDAMg/fg0fUmek/3LIQk/ZmChVGKRfY17bpvYxzz7Iv9Oc/1gl/N+TVe1aL5iFe1aD7jRbowHhYzXqSLys/+5/Kw+mR5EQ+rT5bX7Vdk6vyi+0bNnd9qPav62dWz671y56HqvXLnwdUvm+/2c1RvVd/q/aTyVu+n6PyyWK1TVl/GoXK7+wjFzLL7CMXMuvZR1XtV1c/P7+r8dnnWl13+b7w3VRdeVg==
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzllksKACAIRF3Y/a/cPhA/DTnVbMIY0ZdEifRIVWTo+bVL1T6qflbe7FysfK/OaWV5vPPxYlZeVF+33F/0PNl5o3lWjKqDVnZ+u342XvT7xM677ntxlIed1/JZcdTPyov+b7Hy/vZ/fp23SxOgnwjW
+   eJztVkEOwCAI48B+uv3/C9vFi0mDuAqYrRfSCEJFjCI5OFXk0nibhdk69PE9Jvy9cWygOrx96dd7XkWvV0+z6HwQr66XNWe7zK9V5yjfRe9oHOKsPGx4+/fWv5peVr+t/bMQNZ/tXa6qF/khbqG6XtZ9tvJE4+v/51/vGnsDDvtvBA==
   </data>
  </layer>
  <layer name="other" width="30" height="30">
