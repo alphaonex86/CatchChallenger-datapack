@@ -1,13 +1,13 @@
 <!-- Can show different monster if you want, depanding of the object use, only with type="actionOn"  -->
 <layers zoom="4">
-    <monstersCollision background="fight/cave/" type="walkOn" monsterType="cave">
-        <event id="day" value="night" monsterType="caveNight"/>
+    <monstersCollision monsterType="cave" background="fight/cave/" type="walkOn" >
+        <event id="day" value="night" monsterType="caveNight;cave"/>
     </monstersCollision>
-    <monstersCollision background="fight/grass/" layer="Grass" type="walkOn" monsterType="grass">
-        <event id="day" value="night" monsterType="grassNight"/>
+    <monstersCollision monsterType="grass" background="fight/grass/" layer="Grass" type="walkOn" >
+        <event id="day" value="night" monsterType="grassNight;grass"/>
     </monstersCollision>
     <monstersCollision item="31" tile="swim" background="fight/water/" layer="Water" type="walkOn" monsterType="water"/>
-    <monstersCollision item="2013" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="water"/>
+    <monstersCollision item="100" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="water"/>
     <monstersCollision item="2012" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="water2"/>
     <!-- Can show different monster if you want, depanding of the object use, only with type="actionOn"  -->
 </layers>
