@@ -846,7 +846,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Toufigel is a peaceful animal living in the high mountains </description>
         <description lang="fr">Toufigel est un animal paisible vivent en groupe dans les hautes montagnes</description>
     </monster>
-    <monster xp_max="500" type="bird" pow="1.5" speed="135" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="90" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="600" type="bird" pow="1.5" speed="135" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="90" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -868,7 +868,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Flacono frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Flacono est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-      <monster xp_max="500" type="bird" pow="1.5" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="350">
+      <monster xp_max="600" type="bird" pow="1.5" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="350">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -887,7 +887,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Cervix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Cervix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-     <monster xp_max="500" type="bird" pow="1.5" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="450">
+     <monster xp_max="600" type="bird" pow="1.5" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="450">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -906,7 +906,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Gryfix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Gryphix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="500" type="fight" pow="1.5" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="300">
+    <monster xp_max="600" type="fight" pow="1.5" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -926,8 +926,29 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         </evolutions>
         <name>Capiti</name>
         <name lang="fr">Capiti</name>
-        <description>Flacono frugivor is a small bird that lives in the forests and plains</description>
-        <description lang="fr">Flacono est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
+        <description>Capiti frugivor is a small monkey that lives in the forests and plains</description>
+        <description lang="fr">Capiti est un petit singe frugivor qui vit dans les forêts et plaines</description>
+    </monster>
+     <monster xp_max="600" type="stone" pow="1.5" speed="145" attack="125" hp="165" catch_rate="0" id="60" weight="2.7kg" special_attack="125" defense="110" special_defense="97" ratio_gender="50%" give_sp="300" height="0.4m" egg_step="5000" give_xp="300">
+        <attack_list>
+            <attack id="201" level="0"/>
+            <attack id="202" level="0"/>
+            <attack id="71" level="8"/>
+            <attack id="73" level="14"/>
+            <attack id="13" level="17"/>
+            <attack id="71" level="20" attack_level="2"/>
+            <attack id="73" level="36" attack_level="2"/>
+            <attack id="70" level="45"/>
+            <attack id="73" level="50" attack_level="3"/>
+            <attack id="70" level="55" attack_level="2"/>         
+            <attack id="70" level="65" attack_level="3"/>
+        </attack_list>
+        <evolutions>
+        </evolutions>
+        <name>Galnec</name>
+        <name lang="fr">Galnec</name>
+        <description>Galnec is a animal curious and calm , we know little about its natural environment</description>
+        <description lang="fr">Galnec est l'animal curieux et calme, on ne connaît peu de chose sur son milieux naturel.</description>
     </monster>
     
     
