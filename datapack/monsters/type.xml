@@ -44,7 +44,7 @@ Fly > fight > stone > fly
     <type name="stone" color="#BF904E">
         <name>Stone</name>
         <name lang="fr">Pierre</name>
-        <multiplicator number="0.5" to="ground;fight;stone;steal"/>
+        <multiplicator number="0.5" to="ground;fight;stone;steal;plant"/>
         <multiplicator number="2" to="bird;fire;ice"/>
     </type>
     <type name="ground" color="#926E3B">

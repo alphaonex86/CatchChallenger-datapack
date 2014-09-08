@@ -9,12 +9,12 @@ The attack of monster is the 4 last attack for the level
 -->
 <list>
     <start>
-        <name>Starter Panthera fira</name>
+        <name>Starter Galnec</name>
         <description>You start a normal game as player</description>
         <map x="20" y="19" file="world/arcania/0.0.tmx"/>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
-        <monster id="1" level="5" captured_with="1"/>
+        <monster id="60" level="5" captured_with="1"/>
         <reputation type="nation" level="1"/>
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
