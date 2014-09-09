@@ -27,7 +27,7 @@ Fly > fight > stone > fly
         <name>Bird</name>
         <name lang="fr">Oiseau</name>
         <multiplicator number="2" to="plant;fight"/>
-        <multiplicator number="0.5" to="steal;electric;stone"/>
+        <multiplicator number="0.5" to="steal;electric;stone.bird"/>
     </type>
     <type name="fire" color="#f38233">
         <name>Fire</name>

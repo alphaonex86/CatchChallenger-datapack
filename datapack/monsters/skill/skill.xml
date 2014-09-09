@@ -279,6 +279,9 @@ endurance="40"
             <level sp="300" endurance="40" number="2">
                 <life success="90%" applyOn="allEnemy" quantity="-45"/>
             </level>
+            <level sp="300" endurance="45" number="3">
+                <life success="90%" applyOn="allEnemy" quantity="-50"/>
+            </level>
         </effect>
     </skill>
     <skill id="53" type="bird" category="Physical">

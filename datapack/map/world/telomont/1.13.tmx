@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALKACMHKj3cAS5/gsQHUxgMJrdgA/jCkV520cMccu2mZ/yh52FsaXmwpydSADF+wRcWuMwhNYxIzQOUxgEpfqJ2eYavnhhsdchgcQc5YDC6fTC6aRSgAgCRAQFg
+   eJxjYBgFo2AUjALKACMHKj3cATZ/gsSQMT3dgsu+wRofhNILLdxNbryg6yHWDErSA7XyEyn60d2Lzd20ihdCdgykvYTikNIwwmcuLeKAWD/RojzDl64Hug6hR1qnl/mDsdwfjG4aBagAAPMIAko=
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">

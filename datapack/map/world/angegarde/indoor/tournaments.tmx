@@ -44,7 +44,7 @@
   </object>
   <object name="door" type="door" gid="1027" x="112" y="80">
    <properties>
-    <property name="map" value="tournamentsA"/>
+    <property name="map" value="tournamentsa"/>
     <property name="x" value="7"/>
     <property name="y" value="5"/>
    </properties>

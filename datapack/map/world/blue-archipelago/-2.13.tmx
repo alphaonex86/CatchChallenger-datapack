@@ -31,7 +31,7 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlWEKwCAIhdu/3f8EHXWDEUiYSvM5ZD4YQdD71Gm1Virl0HE+35+4dI3kejKHn+ZJ8/XO2ernwZ7PU8977dZzXvzBXfl7cKX8uJoC/i/LRfC4uZz3ImZWq6lHTIaZ7VLtUXcJx1rF8JYl+SB6W+tb5HtEc9b6GzFTXBzR+oK5oyxxlvLoApOjBn8=
+   eJxjYBgFo2BoAEYOCB5J9iLT9LSXmnbCzCNkJrJ/qe1nYs2jht3o+pHNBNILiNVHLfvR3UALe/GlVWx20yN+kcWonZ5xmU/PPEsoTKnhJmLyLL6wp1VZgs0uXG6g1C585tAibRNKt7Ssj5D9TCh90yJPYXMHvcFA2EkOGCruHAVDBwAA3DkDXw==
   </data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
@@ -61,7 +61,7 @@
  </layer>
  <layer name="other" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAM3KZQ/1CyV4qRgeH3MLcTZN8vBvrbSe9wBQH0NJTBwsCQCcRZLKhsaoLBlIZo7d+RkkdBYLiVgzJMDAyyeLAcE23stQGaKw/EsThwHA3ttQPiGiCuBeI6qD0wPq3CGWYvLjBQ9loB89HuAbCXVnYTYy8t7CbWXmrbTYq9IECtdBYDzaPSjMSpp3Z4/2QYOLtvkqAWX3iTWhcPpJ/JtZsabQ96+BuX20i1excDdr+TA0ixGwRIydsAzjI6AA==
+   eJxjYKAM3KZQ/1CyV4qRgeH3MLcTZN8vBvrbSe9wBQH0NJTBwsCQCcRZLKhsaoLBlIZo7d+RkkdBYLiVgzJMDAyyeLAcE23stQGaKw/EsThwHA3ttQPiGiCuBeI6NDatwhlmLy4wUPZaAfPR7gGwl1Z2E2MvLewm1l5q202KvSBArXQWA82j0ozEqad2eP9kGDi7b5KgFl94k1oXD6SfybWbGm0Pevgbl9tItXsXA3a/kwNIsRsESMnbAEhgOoA=
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
@@ -105,7 +105,7 @@
    <properties>
     <property name="fightRange" value="5"/>
     <property name="file" value="../../bots-fights.xml"/>
-    <property name="id" value="7036"/>
+    <property name="id" value="7157"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
    </properties>

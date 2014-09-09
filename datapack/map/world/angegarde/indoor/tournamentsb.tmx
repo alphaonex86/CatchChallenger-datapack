@@ -39,7 +39,7 @@
  <objectgroup name="Moving" width="15" height="17">
   <object name="door" type="door" gid="1027" x="112" y="80">
    <properties>
-    <property name="map" value="tournamentsC"/>
+    <property name="map" value="tournamentsc"/>
     <property name="x" value="7"/>
     <property name="y" value="15"/>
    </properties>

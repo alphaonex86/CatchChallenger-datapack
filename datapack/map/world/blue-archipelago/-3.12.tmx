@@ -92,7 +92,7 @@
   </object>
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
-    <property name="map" value="-4.12"/>
+    <property name="map" value="-2.12"/>
    </properties>
   </object>
  </objectgroup>

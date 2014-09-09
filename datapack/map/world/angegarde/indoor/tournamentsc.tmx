@@ -16,7 +16,7 @@
  </layer>
  <layer name="Other" width="15" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpAITCfLkSAUTZQibS4o4snn0BujuweYWUsKOlDigxN+0ik9cduFTQ023gAAAI7EHnw==
+   eJxjYBgFpAITCfLkSAUTeQibS4o4snn0BujuweYWUsKOlDigxN+0ik9cduFTQ023gAAAo4IHPw==
   </data>
  </layer>
  <layer name="Other" width="15" height="17">
@@ -42,7 +42,7 @@
  <objectgroup name="Moving" width="15" height="17">
   <object name="door" type="door" gid="1027" x="112" y="80">
    <properties>
-    <property name="map" value="tournamentsD"/>
+    <property name="map" value="tournamentsd"/>
     <property name="x" value="7"/>
     <property name="y" value="15"/>
    </properties>

@@ -80,7 +80,7 @@
    eJxjYCAe1PAwMNTyUKYmiQWCbXkRak1FEWxs+ucA+XMJ2EtIDczeWF5UtTA2MXaQA2D20huM2osA+ymIV6DeBhh7Hi9p9t7nQdWHTT8ucB/J3n147EXPL8h8mD5s+okB2PIizF70/ILMx5eXiQHY8iIx6YoWeXkwpmd62XuPB4Lpbe8/HgjGBabxkW5+niADQ74gfnsJgW1k2NsHtLMfi720Ash5jtz8Rw7AVqeOgsEFYPUgcj0EEiNUx0HVNWCXgQBi6kHkeggkRqiOg6rDay86wFf3kJI3SK3D8NU9pOQNWrdHSQEDUf+M2juw9gIA2JRWwQ==
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30" visible="0">
+ <objectgroup name="Moving" width="30" height="30">
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="0.6"/>
@@ -154,6 +154,15 @@
     <property name="y" value="10"/>
    </properties>
   </object>
+  <object name="door" type="door" gid="5123" x="352" y="48">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="2"/>
+    <property name="map" value="indoor/admin"/>
+    <property name="x" value="2"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="112" y="64">
@@ -184,15 +193,6 @@
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9043"/>
-   </properties>
-  </object>
-  <object name="door" type="door" gid="5123" x="352" y="48">
-   <properties>
-    <property name="condition-file" value="../../condition"/>
-    <property name="condition-id" value="2"/>
-    <property name="map" value="indoor/admin"/>
-    <property name="x" value="2"/>
-    <property name="y" value="10"/>
    </properties>
   </object>
  </objectgroup>
