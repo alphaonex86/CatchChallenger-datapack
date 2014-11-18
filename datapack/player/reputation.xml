@@ -27,7 +27,7 @@
         <level point="10000">
             <!-- level 1 -->
             <text>Legendary hero</text>
-            <text lang="fr">Hero légendaire</text>
+            <text lang="fr">Hero lÃ©gendaire</text>
         </level>
         <level point="1000">
             <!-- level 1 -->
@@ -42,12 +42,12 @@
         <level point="100">
             <!-- level 1 -->
             <text>Ally of the Nation</text>
-            <text lang="fr">Allié de la Nation</text>
+            <text lang="fr">AlliÃ© de la Nation</text>
         </level>
         <level point="0">
             <!-- level 0 -->
             <text>Neutral for the Nation</text>
-            <text lang="fr">Neutre à la Nation</text>
+            <text lang="fr">Neutre Ã  la Nation</text>
         </level>
         <level point="-100">
             <!-- level -1 -->
@@ -57,7 +57,7 @@
         <level point="-300">
             <!-- level -2 -->
             <text>Famous bandit</text>
-            <text lang="fr">Célèbre bandit</text>
+            <text lang="fr">CÃ©lÃ¨bre bandit</text>
         </level>
         <level point="-1000">
             <!-- level -2 -->
