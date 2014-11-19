@@ -85,7 +85,7 @@ skin is invisible
     </bot>
     <bot id="7017">
       <name>Leo</name>
-      <name langue="fr">Léo</name>
+      <name langue="fr">LÃ©o</name>
         <step type="fight" id="1" fightid="7017"/>
     </bot>
     <bot id="7018">
@@ -140,7 +140,7 @@ skin is invisible
     </bot>
     <bot id="7028">
       <name>Cedric</name>
-      <name langue="fr">Cédric</name>
+      <name langue="fr">CÃ©dric</name>
         <step type="fight" id="1" fightid="7028"/>
     </bot>
     <bot id="7029">
@@ -155,12 +155,12 @@ skin is invisible
     </bot>
     <bot id="7031">
       <name>Regis</name>
-      <name langue="fr">Régis</name>
+      <name langue="fr">RÃ©gis</name>
         <step type="fight" id="1" fightid="7031" leader="true"/>
     </bot>
     <bot id="7032">
       <name>Remy</name>
-      <name langue="fr">Rémi</name>
+      <name langue="fr">RÃ©mi</name>
         <step type="fight" id="1" fightid="7032"/>
     </bot>
     <bot id="7033">
@@ -200,7 +200,7 @@ skin is invisible
     </bot>    
     <bot id="7040">
       <name>Kevin</name>
-      <name langue="fr">Kévin</name>
+      <name langue="fr">KÃ©vin</name>
         <step type="fight" id="1" fightid="7040"/>
     </bot>    
     <bot id="7041">
@@ -235,7 +235,7 @@ skin is invisible
     </bot>
     <bot id="7047">
       <name>Elena</name>
-      <name langue="fr">Eléna</name>
+      <name langue="fr">ElÃ©na</name>
         <step type="fight" id="1" fightid="7047"/>
     </bot>
     <bot id="7048">
@@ -255,7 +255,7 @@ skin is invisible
     </bot>    
     <bot id="7051">
       <name>Stephanie</name>
-      <name langue="fr">Stéphanie</name>
+      <name langue="fr">StÃ©phanie</name>
         <step type="fight" id="1" fightid="7051"/>
     </bot>    
     <bot id="7052">
@@ -270,7 +270,7 @@ skin is invisible
     </bot>    
     <bot id="7054">
       <name>Andree</name>
-      <name langue="fr">Andrée</name>
+      <name langue="fr">AndrÃ©e</name>
         <step type="fight" id="1" fightid="7054"/>
     </bot>    
     <bot id="7055">
@@ -305,7 +305,7 @@ skin is invisible
     </bot>    
     <bot id="7061">
       <name>Clement</name>
-      <name langue="fr">Clément</name>
+      <name langue="fr">ClÃ©ment</name>
         <step type="fight" id="1" fightid="7061"/>
     </bot>    
     <bot id="7062">
@@ -395,7 +395,7 @@ skin is invisible
     </bot>
     <bot id="7079">
       <name>Benoit</name>
-      <name langue="fr">Benoît</name>
+      <name langue="fr">BenoÃ®t</name>
         <step type="fight" id="1" fightid="7079"/>
     </bot>
     <bot id="7080">
@@ -495,7 +495,7 @@ skin is invisible
     </bot>
     <bot id="7099">
       <name>Theo</name>
-      <name langue="fr">Théo</name>
+      <name langue="fr">ThÃ©o</name>
         <step type="fight" id="1" fightid="7099"/>
     </bot>
     <bot id="7100">
@@ -755,17 +755,17 @@ skin is invisible
     </bot>
     <bot id="7151">
       <name>Decurion</name>
-      <name langue="fr">Décurion</name>
+      <name langue="fr">DÃ©curion</name>
         <step type="fight" id="1" fightid="7151"/>
     </bot>
         <bot id="7152">
       <name>Decurion</name>
-      <name langue="fr">Décurion</name>
+      <name langue="fr">DÃ©curion</name>
         <step type="fight" id="1" fightid="7152"/>
     </bot>
         <bot id="7153">
       <name>Decurion</name>
-      <name langue="fr">Décurion</name>
+      <name langue="fr">DÃ©curion</name>
         <step type="fight" id="1" fightid="7153"/>
     </bot>
     <bot id="7154">

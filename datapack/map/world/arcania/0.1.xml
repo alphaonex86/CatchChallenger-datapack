@@ -4,7 +4,7 @@
     <shortdescription>The firsts hazards</shortdescription>
     <shortdescription lang="fr">Les 1er dangers</shortdescription>
     <description>Aera where the firsts hazards become</description>
-    <description lang="fr">Zone où les 1er dangers apparaitrons</description>
+    <description lang="fr">Zone oÃ¹ les 1er dangers apparaitrons</description>
     <grass>
         <monster minLevel="3" maxLevel="3" luck="25" id="3"/>
         <monster minLevel="3" maxLevel="3" luck="25" id="2"/>

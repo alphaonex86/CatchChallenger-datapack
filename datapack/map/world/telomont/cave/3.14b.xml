@@ -1,6 +1,6 @@
 <map type="cave" backgroundsound="toto.ogg" zone="telomont">
 	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
+	<name lang="fr">Grotte dÃ©fie</name>
 	<grass>
           <monster id="5" minLevel="20" maxLevel="23" luck="45" />
           <monster id="21" minLevel="23" maxLevel="25" luck="5" />

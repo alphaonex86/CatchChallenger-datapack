@@ -1,6 +1,6 @@
 <map zone="road8" type="outdoor">
 	<name>Wood</name>
-	<name lang="fr">Forêt</name>
+	<name lang="fr">ForÃªt</name>
   	<grass>
           <monster id="3" minLevel="14" maxLevel="18" luck="30" />
           <monster id="22" minLevel="14" maxLevel="18" luck="35" />

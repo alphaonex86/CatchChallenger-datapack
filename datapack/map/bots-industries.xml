@@ -40,7 +40,7 @@ skin is invisible
     
     <bot id="3003">
       <name>Lumberjack Louis</name>
-      <name lang="fr">Louis le bûcheron</name>
+      <name lang="fr">Louis le bÃ»cheron</name>
       <step type="text" id="1">
 		<text><![CDATA[<a href="2">*Saw a log*</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">*Scier du bois*</a><br />]]></text>
@@ -116,7 +116,7 @@ skin is invisible
     
     <bot id="3007">
       <name>Lumberjack Bruce</name>
-      <name lang="fr">Bruce le bûcheron</name>
+      <name lang="fr">Bruce le bÃ»cheron</name>
       <step type="text" id="1">
 		<text><![CDATA[<a href="2">*Saw a log*</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">*Scier du bois*</a><br />]]></text>
