@@ -1,4 +1,4 @@
-<!-- default:
+﻿<!-- default:
 ratio_gender="50%"
 catch_rate="100"
 attack_level="1"
@@ -188,7 +188,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Pharfan is very rare, he enjoys watering the people they meet</description>
         <description lang="fr">Pharfan est très rare, il s'amuse arroser les gens qu'ils rencontre</description>
     </monster>
-    <monster xp_max="400" type="normal" pow="1.4" speed="150" attack="140" hp="180" catch_rate="55" id="13" weight="42kg" special_attack="110" defense="110" special_defense="100" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="79">
+    <monster xp_max="400" type="normal" pow="1.4" speed="150" attack="110" hp="150" catch_rate="55" id="13" weight="42kg" special_attack="110" defense="110" special_defense="100" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="79">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -808,7 +808,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="41" level="8"/>
+            <attack id="41" level="7"/>
             <attack id="43" level="14"/>
             <attack id="101" level="16"/>
             <attack id="41" level="20" attack_level="2"/>
@@ -829,7 +829,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="111" level="8"/>
+            <attack id="111" level="7"/>
             <attack id="113" level="14"/>
             <attack id="101" level="16"/>
             <attack id="111" level="20" attack_level="2"/>
@@ -846,11 +846,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Toufigel is a peaceful animal living in the high mountains </description>
         <description lang="fr">Toufigel est un animal paisible vivent en groupe dans les hautes montagnes</description>
     </monster>
-    <monster xp_max="500" type="bird" pow="1.2" speed="140" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="94" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="300" type="bird" pow="1.3" speed="140" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="94" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="51" level="8"/>
+            <attack id="51" level="7"/>
             <attack id="53" level="14"/>
             <attack id="91" level="16"/>
             <attack id="51" level="20" attack_level="2"/>
@@ -868,11 +868,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Flacono frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Flacono est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-      <monster xp_max="500" type="bird" pow="1.2" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="350">
+      <monster xp_max="300" type="bird" pow="1.3" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="350">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="51" level="8"/>
+            <attack id="51" level="7"/>
             <attack id="53" level="14"/>
             <attack id="61" level="16"/>
             <attack id="51" level="20" attack_level="2"/>
@@ -887,11 +887,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Cervix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Cervix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-     <monster xp_max="500" type="bird" pow="1.2" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="450">
+     <monster xp_max="300" type="bird" pow="1.2" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="450">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="51" level="8"/>
+            <attack id="51" level="7"/>
             <attack id="53" level="14"/>
             <attack id="61" level="16"/>
             <attack id="51" level="20" attack_level="2"/>
@@ -907,11 +907,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Gryfix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Gryphix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="500" type="fight" pow="1.2" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="300">
+    <monster xp_max="300" type="fight" pow="1.3" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="41" level="8"/>
+            <attack id="41" level="7"/>
             <attack id="43" level="14"/>
             <attack id="21" level="16"/>
             <attack id="41" level="20" attack_level="2"/>
@@ -930,11 +930,11 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Capiti frugivor is a small monkey that lives in the forests and plains</description>
         <description lang="fr">Capiti est un petit singe frugivor qui vit dans les forêts et plaines</description>
     </monster>
-     <monster xp_max="500" type="stone" pow="1.2" speed="145" attack="125" hp="165" catch_rate="0" id="60" weight="2.7kg" special_attack="125" defense="110" special_defense="97" ratio_gender="50%" give_sp="300" height="0.4m" egg_step="5000" give_xp="300">
+     <monster xp_max="300" type="stone" pow="1.3" speed="145" attack="125" hp="165" catch_rate="0" id="60" weight="2.7kg" special_attack="125" defense="110" special_defense="97" ratio_gender="50%" give_sp="300" height="0.4m" egg_step="5000" give_xp="300">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
-            <attack id="71" level="8"/>
+            <attack id="71" level="7"/>
             <attack id="73" level="14"/>
             <attack id="13" level="17"/>
             <attack id="71" level="20" attack_level="2"/>
@@ -957,7 +957,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     
     
      
-     <monster xp_max="500" type="fire" pow="1.2" speed="182" attack="135" hp="213" catch_rate="0" id="102" weight="75kg" special_attack="217" defense="114" special_defense="100" ratio_gender="50%" give_sp="350" height="1.09m" egg_step="5000" give_xp="350">
+     <monster xp_max="400" type="fire" pow="1.3" speed="182" attack="135" hp="213" catch_rate="0" id="102" weight="75kg" special_attack="217" defense="114" special_defense="100" ratio_gender="50%" give_sp="350" height="1.09m" egg_step="5000" give_xp="350">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
