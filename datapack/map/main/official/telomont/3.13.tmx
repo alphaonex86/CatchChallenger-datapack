@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
@@ -88,7 +88,7 @@
   <object name="bot" type="bot" gid="5123" x="304" y="320">
    <properties>
     <property name="fightRange" value="4"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7078"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -97,7 +97,7 @@
   <object name="bot" type="bot" gid="5123" x="80" y="256">
    <properties>
     <property name="fightRange" value="4"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7079"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -105,7 +105,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="128" y="208">
    <properties>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7080"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -114,7 +114,7 @@
   <object name="bot" type="bot" gid="5123" x="80" y="32">
    <properties>
     <property name="fightRange" value="4"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7081"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>
@@ -123,7 +123,7 @@
   <object name="bot" type="bot" gid="5123" x="320" y="64">
    <properties>
     <property name="fightRange" value="2"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7082"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="terranite"/>

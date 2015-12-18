@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
@@ -59,7 +59,7 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllkFOxDAMRbOYBUtWwxwBOEDVPRtgCxo4ArClF+RAwxlIR/3i6+vbSTuWrE4h8fOP46Sn61JO1X+r/1yVi2zoGLOvfrMxPuaqTzTmIdDQyg3zHAPxI776geIeq7+2hEl+ypka+YH5LfyeegxL7H1D5+Snn5mHJca4PI8yxtVkKP9M8CJGZGCPK+YMwt5qI/HXcFs1ud2Vclf9fhdz+ckW1a2H+1h5T9WfAy60Os2I7fZti/tReZ/VvwKu5uC4jn9JbZ2xZuX29NkaG4Pf6FWcKfPzTbznrHH2Uv094cIi5pY1UKa+t87OgfLJxmlPsTZlMjtaW9aa6daeAjdiRgYGr4fmx/q1p7Izg03P6azubi3YWOOa85ljRvcGesBpj3pHa+n2TFZzp5+1r6lt770c/Z1zydY4q2dkfHf31Jm50bfXlnOK97wbr3o5tuaDe+FgctG4qlPflZvd15irc+a8Mo77P++vOW8+W1jTbHh3+xD947g8F6b7i/W2vlWgBXF5rXvvC3BZb6bdmZ5jPXdkS2+P9mhtsx5o6Y2+06K1dT3p+hF1/gMV1WEq
+   eJyllkFOxDAMRbOYBUtWwxwBOEDVPRtgCxo4ArClF+RAwxlIR/3i6+vbSTuWrE4h8fOP46Sn61JO1X+r/1yVi2zoGLOvfrMxPuaqTzTmIdDQyg3zHAPxI776geIeq7+2hEl+ypka+YH5LfyeegxL7H1D5+Snn5mHJca4PI8yxtVkKP9M8CJGZGCPK+YMwt5qI/HXcFs1ud2Vclf9fhdz+ckW1a2H+1h5T9WfAy60Os2I7fZti/tReZ/VvwKu5uC4jn9JbZ2xZuX29NkaG4Pf6FWcKfPzTbznrHH2Uv094cIi5pY1UKa+t87OgfLPsTZlMjtaW9aa6daeAjdiRgYGr4fmx/q1p7Izg03P6azubi3YWOOa85ljRvcGesBpj3pHa+n2TFZzp5+1r6lt770c/Z1zydY4q2dkfHf31Jm50bfXlnOK97wbr3o5tuaDe+FgctG4qlPflZvd15irc+a8Mo77P++vOW8+W1jTbHh3+xD947g8F6b7i/W2vlWgBXF5rXvvC3BZb6bdmZ5jPXdkS2+P9mhtsx5o6Y2+06K1dT3p+hF1/gMV1WEq
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">

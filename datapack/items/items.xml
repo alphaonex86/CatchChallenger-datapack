@@ -180,7 +180,7 @@ consumeAtUse="true"
         <description lang="fr">Permet certaine évolution</description>
         <description>Allow some evolution</description>
     </item>
-        <item price="0" id="100" image="other/fishing-rod.png">
+        <item price="10" id="100" image="other/fishing-rod.png">
         <name>Fishing rod</name>
         <name lang="fr">Canne à péche</name>
         <description lang="fr">Permet de pécher</description>

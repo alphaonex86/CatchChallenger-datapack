@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/wood.tsx"/>
@@ -78,7 +78,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="432" y="320">
    <properties>
-    <property name="file" value="../../bots-fights.xml"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7133"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bandit"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
@@ -102,7 +102,7 @@
   <object name="bot" type="bot" gid="5123" x="336" y="256">
    <properties>
     <property name="fightRange" value="1"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7015"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -111,7 +111,7 @@
   <object name="bot" type="bot" gid="5123" x="336" y="336">
    <properties>
     <property name="fightRange" value="1"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7015"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -120,7 +120,7 @@
   <object name="bot" type="bot" gid="5123" x="96" y="448">
    <properties>
     <property name="fightRange" value="4"/>
-    <property name="file" value="../bots-fights.xml"/>
+    <property name="file" value="../bots-fights"/>
     <property name="id" value="7016"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>

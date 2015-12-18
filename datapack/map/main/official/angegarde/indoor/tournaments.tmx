@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="15" height="17" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
@@ -53,7 +53,7 @@
  <objectgroup name="Object" width="15" height="17">
   <object name="bot" type="bot" gid="1027" x="64" y="96">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="1"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="nurse"/>
@@ -61,7 +61,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="160" y="96">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="103"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="market"/>

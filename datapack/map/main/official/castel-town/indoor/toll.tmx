@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
@@ -46,7 +46,7 @@
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="32" y="80">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9001"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="guardian"/>

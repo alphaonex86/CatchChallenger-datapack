@@ -636,6 +636,7 @@ skin is invisible
              j'ai à te parler.<br />
 		<a href="close">*Partir*</a>]]></text>
         </step>
+        </bot>
     <bot id="9065">
       <name>Marie</name>
       <name langue="fr">Marie</name>
@@ -645,7 +646,5 @@ skin is invisible
             <text lang="fr"><![CDATA[On raconte que sous la ville<br />
              se cacherait une station de criminelle.]]></text>
         </step>
-    </bot>
-       
     </bot>
 </bots>

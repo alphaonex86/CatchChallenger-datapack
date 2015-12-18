@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
@@ -46,7 +46,7 @@
  <objectgroup name="Object" width="0" height="0">
   <object type="bot" gid="1027" x="32" y="112">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="3"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bankier"/>
@@ -54,7 +54,7 @@
   </object>
   <object type="bot" gid="1027" x="112" y="112">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="3"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bankier"/>
@@ -62,7 +62,7 @@
   </object>
   <object type="bot" gid="1027" x="48" y="112">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="3"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bankier"/>
@@ -70,7 +70,7 @@
   </object>
   <object type="bot" gid="1027" x="128" y="112">
    <properties>
-    <property name="file" value="../../bots-services.xml"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="3"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="bankier"/>
@@ -78,7 +78,7 @@
   </object>
   <object type="bot" gid="1027" x="80" y="112">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>
