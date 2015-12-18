@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
  <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
    eJxjYCANNBOBqaFWEwuGgRdE4FG1qGqJBQDElEUo
@@ -46,7 +46,7 @@
  <objectgroup name="Object" width="0" height="0">
   <object type="bot" gid="1027" x="32" y="112">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9050"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
@@ -54,7 +54,7 @@
   </object>
   <object type="bot" gid="1027" x="48" y="112">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9051"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldgirl"/>

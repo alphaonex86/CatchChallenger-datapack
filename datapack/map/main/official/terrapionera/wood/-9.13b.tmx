@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <properties>
-  <property name="dayMonster" value=""/>
-  <property name="nightMonster" value=""/>
-  <property name="type" value=""/>
-  <property name="waterMonster" value=""/>
-  <property name="wildProbability" value=""/>
- </properties>
- <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
@@ -94,7 +87,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="304" y="400">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7055"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -102,7 +95,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="160" y="336">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7060"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girlplayer"/>
@@ -110,7 +103,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="352" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7056"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -118,7 +111,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="336" y="96">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7057"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -126,7 +119,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="192" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7058"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -134,7 +127,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="80" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7059"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl"/>
@@ -142,7 +135,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="0" y="384">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7060"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -150,7 +143,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="352" y="320">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7061"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

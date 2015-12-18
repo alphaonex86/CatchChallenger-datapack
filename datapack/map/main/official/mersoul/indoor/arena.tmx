@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../tileset/terra.tsx"/>
- <tileset firstgid="4113" source="../../../tileset/animation.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/terra.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="5137" source="../../../../tileset/rename.tsx"/>
  <layer name="Walkable" width="15" height="15">
   <data encoding="base64" compression="zlib">
    eJz7zsPA8H0Y4ny+4W0frewvGGB/jEQMAMDj4Y0=
@@ -59,7 +59,7 @@
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="144" y="64">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7029"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>
@@ -67,7 +67,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="192" y="176">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7030"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
@@ -75,7 +75,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="16" y="48">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7031"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
@@ -83,7 +83,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="208" y="48">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7027"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="player"/>
@@ -91,7 +91,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="48" y="128">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7023"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
@@ -99,7 +99,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="16" y="192">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7028"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>
@@ -107,7 +107,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="16" y="224">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7027"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -115,7 +115,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="192" y="112">
    <properties>
-    <property name="file" value="../../../bots-fights"/>
+    <property name="file" value="../../bots-fights"/>
     <property name="id" value="7028"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

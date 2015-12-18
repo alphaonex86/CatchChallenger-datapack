@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <properties>
-  <property name="dayMonster" value=""/>
-  <property name="nightMonster" value=""/>
-  <property name="type" value=""/>
-  <property name="waterMonster" value=""/>
-  <property name="wildProbability" value=""/>
- </properties>
- <tileset firstgid="1" source="../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30" opacity="0.9">
   <data encoding="base64" compression="zlib">
    eJxLYmRgSKIyBiKCmNp2jto7au9ItBfdbmLUEiNGir3k6KUEj0R7qaGGFvYOlH9H8SgexaN4FI/iUUw9DAAklkmT
@@ -119,7 +112,7 @@
  <objectgroup name="object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="240" y="160">
    <properties>
-    <property name="file" value="../../bots-services"/>
+    <property name="file" value="../bots-services"/>
     <property name="id" value="2012"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
@@ -127,7 +120,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="256" y="432">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9046"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="john"/>

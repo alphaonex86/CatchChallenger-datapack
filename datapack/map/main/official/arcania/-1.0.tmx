@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjZGBgYBzFo3gUj+JRPOjxIh766iOE3RkHJhxG7R3Fo3ho48FWlo3iUTzSMQCO/AdV
@@ -63,7 +63,7 @@
   </object>
   <object name="door" type="door" gid="5461" x="352" y="224">
    <properties>
-    <property name="condition-file" value="../../condition"/>
+    <property name="condition-file" value="../condition"/>
     <property name="condition-id" value="5"/>
     <property name="map" value="indoor/house5"/>
     <property name="x" value="6"/>
@@ -72,7 +72,7 @@
   </object>
   <object name="door" type="door" gid="5123" x="176" y="336">
    <properties>
-    <property name="condition-file" value="../../condition"/>
+    <property name="condition-file" value="../condition"/>
     <property name="condition-id" value="5"/>
     <property name="map" value="indoor/house6"/>
     <property name="x" value="6"/>
@@ -90,7 +90,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="192" y="320">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9034"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="farmer"/>
@@ -98,7 +98,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="48" y="272">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9035"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>

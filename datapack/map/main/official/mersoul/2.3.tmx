@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <properties>
-  <property name="dayMonster" value=""/>
-  <property name="nightMonster" value=""/>
-  <property name="type" value=""/>
-  <property name="waterMonster" value=""/>
-  <property name="wildProbability" value=""/>
- </properties>
- <tileset firstgid="1" source="../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzCEBAAAIA7DTPyg1KAGKidlVkgKAp3rZ1QsAFwaWK5YU
@@ -106,7 +99,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" type="bot" gid="5123" x="240" y="288">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9003"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -114,7 +107,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="272" y="368">
    <properties>
-    <property name="file" value="../../bots-informations.xml"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9003"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="girl2"/>
@@ -122,7 +115,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="192" y="176">
    <properties>
-    <property name="file" value="../../bots-industries"/>
+    <property name="file" value="../bots-industries"/>
     <property name="id" value="3007"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>
@@ -130,7 +123,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="288" y="32">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9013"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="jhon"/>
@@ -138,7 +131,7 @@
   </object>
   <object name="bot" type="bot" gid="5123" x="400" y="64">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    <property name="file" value="../bots-informations"/>
     <property name="id" value="9028"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>

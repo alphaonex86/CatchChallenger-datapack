@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
    eJxbzMDAsBiI2YnAi6FYHQt+goU/igcHJgUAAFh3XRQ=
@@ -54,7 +54,7 @@
  <objectgroup name="Object" width="11" height="12">
   <object name="bot" type="bot" gid="1027" x="112" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9038"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="nastykid1"/>
@@ -62,7 +62,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="144" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9039"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="nastykid2"/>
@@ -70,7 +70,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="112" y="112">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9040"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="kid1"/>
@@ -78,7 +78,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="16" y="112">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9041"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="kid2"/>
@@ -86,7 +86,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="48">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9063"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="prof"/>

@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <properties>
-  <property name="dayMonster" value=""/>
-  <property name="nightMonster" value=""/>
-  <property name="type" value=""/>
-  <property name="waterMonster" value=""/>
-  <property name="wildProbability" value=""/>
- </properties>
- <tileset firstgid="1" source="../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJy9k9uNA0EIBFcXykRCaBMaoZ0sHVK73DDjn/tA3l0eRTfy+nn2+r94hrjpeb2nRPxFXobjTDu5/pC41Vu7TqwHnEdmaH+Y/OSj7jxxn/W5d6x33eSQ2c0PsDqdrHe+TT537GxyHdf5vFfPT/nlzZ3vjluh85zOyqdw0szY5p3B/ahhg6E7k3kbzludSZ7zSus6L7tn+uz8c6G1uvt0y5tIBOc578mnh6qn6pRHv/l84nIH1V6+nnSe4sTNw+zahR7V7L0+9XdczqX/ud51O3++4bpvYfK74W7Uds8nz2P5fYobYO2m/tZn5bJGbxjybdJx67O7m9NEPxwrl/8/dj47rtOqvZo/cSePu1xp5Uzdr+PS92+Ze+h3PujsTrO7G29fXKc3kWNNsVmvHvJm9IK781373Z10P+dz5bsbpGEq29WVbxvPGqxjzn13XHoS8ss+1nSeUqPbY693f0OCs8mceNMOMfQrv2Pe8j64v0WUjGA=

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="45" height="26" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
- <tileset firstgid="4113" source="../../../tileset/rename.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="5137" source="../../../../tileset/building-town.tsx"/>
  <layer name="Walkable" width="45" height="26">
   <data encoding="base64" compression="zlib">
    eJzt1E0KABAQQGG5uxzMxSxs/GeUmDz1NkzNt2KMvhOU5rNmb3Wrc9L5FR9mzJgxY27veknNu3tG+3Ycp2ZdlWYz/ZO1qdsOKpP+5y8YMGPGjPkFw8kiZ3X5wA==
@@ -47,7 +47,7 @@
   </object>
   <object name="door" type="door" gid="3477" x="352" y="288">
    <properties>
-    <property name="condition-file" value="../../../condition"/>
+    <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="1000"/>
     <property name="map" value="commissionership-floor-1"/>
     <property name="x" value="20"/>
@@ -72,7 +72,7 @@
  <objectgroup name="Object" width="45" height="26">
   <object type="bot" gid="1027" x="496" y="320">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -80,7 +80,7 @@
   </object>
   <object type="bot" gid="1027" x="368" y="304">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -88,7 +88,7 @@
   </object>
   <object type="bot" gid="1027" x="336" y="304">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -96,7 +96,7 @@
   </object>
   <object type="bot" gid="1027" x="176" y="224">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -104,7 +104,7 @@
   </object>
   <object type="bot" gid="1027" x="528" y="224">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>

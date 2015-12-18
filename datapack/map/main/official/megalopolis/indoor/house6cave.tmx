@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../tileset/rename.tsx"/>
- <tileset firstgid="4113" source="../../../tileset/wood.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/wood.tsx"/>
+ <tileset firstgid="5137" source="../../../../tileset/terra.tsx"/>
  <layer name="Walkable" width="11" height="12">
   <data encoding="base64" compression="zlib">
    eJwTFGFgECQBNzMQxqSYN4oHFwYAyhMWYw==
@@ -54,25 +54,25 @@
  <objectgroup name="Object" width="0" height="0">
   <object name="bot" type="bot" gid="1027" x="80" y="64">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9057"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="96">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9058"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="128">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9059"/>
    </properties>
   </object>
   <object name="bot" type="bot" gid="1027" x="80" y="160">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9060"/>
    </properties>
   </object>

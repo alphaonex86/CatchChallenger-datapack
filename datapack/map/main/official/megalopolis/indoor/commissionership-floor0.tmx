@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="45" height="26" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../tileset/animation.tsx"/>
- <tileset firstgid="4113" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/rename.tsx"/>
  <layer name="Walkable" width="45" height="26">
   <data encoding="base64" compression="zlib">
    eJztwwEJAAAMA6D1r7Via3E4KJj8U1VVVVXPDyKIWR0=
@@ -53,7 +53,7 @@
   </object>
   <object name="door" type="door" gid="3477" x="320" y="256">
    <properties>
-    <property name="condition-file" value="../../../condition"/>
+    <property name="condition-file" value="../../condition"/>
     <property name="condition-id" value="1000"/>
     <property name="map" value="commissionership-floor0"/>
     <property name="x" value="20"/>
@@ -148,7 +148,7 @@
  <objectgroup name="Object" width="45" height="26">
   <object type="bot" gid="1027" x="352" y="288">
    <properties>
-    <property name="file" value="../../../bots-informations"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9061"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -156,7 +156,7 @@
   </object>
   <object type="bot" gid="1027" x="640" y="384">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="1"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="nurse"/>
@@ -164,7 +164,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="384" y="144">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2105"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="kylian"/>
@@ -172,7 +172,7 @@
   </object>
   <object name="bot" type="bot" gid="1027" x="352" y="48">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2106"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="lieutenant"/>
@@ -180,7 +180,7 @@
   </object>
   <object type="bot" gid="1027" x="304" y="144">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2104"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="eva"/>
@@ -188,7 +188,7 @@
   </object>
   <object type="bot" gid="1027" x="384" y="192">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2103"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="alphonse"/>
@@ -196,7 +196,7 @@
   </object>
   <object type="bot" gid="1027" x="208" y="288">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -204,7 +204,7 @@
   </object>
   <object type="bot" gid="1027" x="640" y="48">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="lieutenant"/>
@@ -212,7 +212,7 @@
   </object>
   <object type="bot" gid="1027" x="656" y="272">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="rookie"/>
@@ -220,7 +220,7 @@
   </object>
   <object type="bot" gid="1027" x="64" y="48">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="lieutenant"/>
@@ -228,7 +228,7 @@
   </object>
   <object type="bot" gid="1027" x="304" y="192">
    <properties>
-    <property name="file" value="../../../bots-services"/>
+    <property name="file" value="../../bots-services"/>
     <property name="id" value="2102"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="franck"/>
@@ -236,7 +236,7 @@
   </object>
   <object type="bot" gid="1027" x="32" y="192">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -244,7 +244,7 @@
   </object>
   <object type="bot" gid="1027" x="112" y="192">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -252,7 +252,7 @@
   </object>
   <object type="bot" gid="1027" x="32" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -260,7 +260,7 @@
   </object>
   <object type="bot" gid="1027" x="672" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -268,7 +268,7 @@
   </object>
   <object type="bot" gid="1027" x="592" y="192">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -276,7 +276,7 @@
   </object>
   <object type="bot" gid="1027" x="592" y="144">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9062"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
@@ -284,7 +284,7 @@
   </object>
   <object type="bot" gid="1027" x="480" y="176">
    <properties>
-    <property name="file" value="../../../bots-informations.xml"/>
+    <property name="file" value="../../bots-informations"/>
     <property name="id" value="9027"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="rookie"/>
