@@ -1057,9 +1057,8 @@
 		<fight id="7150">
 		<start><![CDATA[You will regret this affront]]></start>
 		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="18" level="4" />
+		<monster id="18" level="3" />
 		<monster id="3" level="4" />
-		<monster id="5" level="4" />
 		<gain cash="100" />
 	</fight>
 			<fight id="7151">
