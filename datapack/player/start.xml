@@ -8,10 +8,9 @@ The attack of monster is the 4 last attack for the level
 /!\ not check if x,y is into the range of the map
 -->
 <list>
-    <start>
+    <start id="Galnec">
         <name>Starter Galnec</name>
         <description>You start a normal game as player</description>
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
         <monster id="60" level="5" captured_with="1"/>
@@ -19,10 +18,9 @@ The attack of monster is the 4 last attack for the level
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
     </start>
-     <start>
+     <start id="Falcono">
         <name>Starter Falcono</name>
         <description>You start a normal game as player</description>
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
         <monster id="54" level="5" captured_with="1"/>
@@ -30,10 +28,9 @@ The attack of monster is the 4 last attack for the level
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
     </start>
-    <start>
+    <start id="Capiti">
         <name>Starter Capiti</name>
         <description>You start a normal game as player</description>
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
         <monster id="57" level="5" captured_with="1"/>
