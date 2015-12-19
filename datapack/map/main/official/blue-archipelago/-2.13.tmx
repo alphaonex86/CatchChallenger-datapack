@@ -1,5 +1,5 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -72,7 +72,7 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
+ <objectgroup name="Moving">
   <object name="border" type="border-left" gid="5124" x="0" y="256">
    <properties>
     <property name="map" value="-3.13"/>
@@ -83,8 +83,13 @@
     <property name="map" value="../telomont/-1.13"/>
    </properties>
   </object>
+  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+   <properties>
+    <property name="map" value="-2.12"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
+ <objectgroup name="Object">
   <object name="bot" type="bot" gid="5123" x="144" y="272">
    <properties>
     <property name="fightRange" value="1"/>
