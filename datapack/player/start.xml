@@ -7,7 +7,7 @@ The attack of monster is the 4 last attack for the level
 /!\ warning, directly put this information into db
 /!\ not check if x,y is into the range of the map
 -->
-<list>
+<profile>
     <start id="Galnec">
         <name>Starter Galnec</name>
         <description>You start a normal game as player</description>
@@ -38,4 +38,4 @@ The attack of monster is the 4 last attack for the level
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
     </start>
-</list>
+</profile>

@@ -7,7 +7,7 @@ The attack of monster is the 4 last attack for the level
 /!\ warning, directly put this information into db
 /!\ not check if x,y is into the range of the map
 -->
-<list>
+<profile>
     <start id="Galnec">
         <map x="20" y="19" file="world/arcania/0.0.tmx"/>
     </start>
@@ -17,4 +17,4 @@ The attack of monster is the 4 last attack for the level
     <start id="Capiti">
         <map x="20" y="19" file="world/arcania/0.0.tmx"/>
     </start>
-</list>
+</profile>
