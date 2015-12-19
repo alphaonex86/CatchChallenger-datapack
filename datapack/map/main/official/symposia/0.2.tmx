@@ -88,7 +88,6 @@
     <property name="map" value="0.3"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="240" y="256"/>
   <object type="rescue" gid="5122" x="176" y="416"/>
   <object name="door" type="door" gid="5461" x="192" y="288">
    <properties>

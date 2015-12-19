@@ -78,6 +78,5 @@
     <property name="map" value="../megalopolis/0.5"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="336" y="256"/>
  </objectgroup>
 </map>

@@ -69,7 +69,6 @@
     <property name="y" value="7"/>
    </properties>
   </object>
-  <object name="bot spawn" type="bot spawn" gid="5122" x="288" y="256"/>
   <object name="door" type="door" gid="5123" x="96" y="416">
    <properties>
     <property name="map" value="../3.6"/>

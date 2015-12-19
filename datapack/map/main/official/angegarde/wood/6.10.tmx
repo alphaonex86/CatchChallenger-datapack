@@ -68,7 +68,6 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="bot spawn" type="bot spawn" gid="5122" x="272" y="192"/>
   <object name="border" type="border-top" gid="5124" x="240" y="16">
    <properties>
     <property name="map" value="6.11"/>

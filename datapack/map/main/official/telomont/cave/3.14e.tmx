@@ -62,7 +62,6 @@
   </data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="bot spawn" type="bot spawn" gid="5122" x="224" y="400"/>
   <object name="door" type="door" gid="5123" x="320" y="176">
    <properties>
     <property name="map" value="3.14d"/>
