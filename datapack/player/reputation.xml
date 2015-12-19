@@ -1,5 +1,5 @@
 <!-- type need be lower char only less than 32 of lenght -->
-<list>
+<reputations>
     <!-- 0-149: Apprentice
     150-10000: Crafter
     10000+: Warsmith -->
@@ -70,4 +70,4 @@
             <text lang="fr">Dictateur de la Nation</text>
         </level>
     </reputation>
-</list>
+</reputations>
