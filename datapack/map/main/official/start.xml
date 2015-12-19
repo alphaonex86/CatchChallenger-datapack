@@ -9,12 +9,12 @@ The attack of monster is the 4 last attack for the level
 -->
 <profile>
     <start id="Galnec">
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
+        <map x="20" y="19" file="arcania/0.0"/>
     </start>
      <start id="Falcono">
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
+        <map x="20" y="19" file="arcania/0.0"/>
     </start>
     <start id="Capiti">
-        <map x="20" y="19" file="world/arcania/0.0.tmx"/>
+        <map x="20" y="19" file="arcania/0.0"/>
     </start>
 </profile>

@@ -1107,22 +1107,22 @@
     <fight id="7157">
         <start><![CDATA[Ready for the fight?]]></start>
         <win><![CDATA[You are so strong for me!]]></win>
-        <monster id="28" level="22" />
-        <monster id="28" level="22" />
+        <monster id="22" level="22" />
+        <monster id="22" level="22" />
         <gain cash="200" />
     </fight>
         <fight id="7148">
         <start><![CDATA[Ready for the fight?]]></start>
         <win><![CDATA[You are so strong for me!]]></win>
-        <monster id="28" level="22" />
-        <monster id="28" level="22" />
+        <monster id="22" level="22" />
+        <monster id="22" level="22" />
         <gain cash="200" />
     </fight>
         <fight id="7149">
         <start><![CDATA[Ready for the fight?]]></start>
         <win><![CDATA[You are so strong for me!]]></win>
-        <monster id="28" level="22" />
-        <monster id="28" level="22" />
+        <monster id="22" level="22" />
+        <monster id="22" level="22" />
         <gain cash="200" />
     </fight>
 </fights>
