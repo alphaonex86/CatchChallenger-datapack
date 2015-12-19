@@ -1,5 +1,5 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -72,7 +72,7 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
+ <objectgroup name="Moving">
   <object name="border" type="border-right" gid="5124" x="464" y="256">
    <properties>
     <property name="map" value="-2.3"/>
@@ -93,7 +93,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
+ <objectgroup name="Object">
   <object name="bot" type="bot" gid="5123" x="288" y="336">
    <properties>
     <property name="file" value="../bots-fights"/>
