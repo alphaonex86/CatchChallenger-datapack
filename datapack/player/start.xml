@@ -8,32 +8,20 @@ The attack of monster is the 4 last attack for the level
 /!\ not check if x,y is into the range of the map
 -->
 <profile>
-    <start id="Galnec">
-        <name>Starter Galnec</name>
+    <start id="Normal">
+        <name>Starter</name>
         <description>You start a normal game as player</description>
         <forcedskin value="player;girlplayer"/>
         <cash value="500"/>
-        <monster id="60" level="5" captured_with="1"/>
-        <reputation type="nation" level="1"/>
-        <item quantity="1" id="5"/>
-        <item quantity="5" id="1"/>
-    </start>
-     <start id="Falcono">
-        <name>Starter Falcono</name>
-        <description>You start a normal game as player</description>
-        <forcedskin value="player;girlplayer"/>
-        <cash value="500"/>
-        <monster id="54" level="5" captured_with="1"/>
-        <reputation type="nation" level="1"/>
-        <item quantity="1" id="5"/>
-        <item quantity="5" id="1"/>
-    </start>
-    <start id="Capiti">
-        <name>Starter Capiti</name>
-        <description>You start a normal game as player</description>
-        <forcedskin value="player;girlplayer"/>
-        <cash value="500"/>
-        <monster id="57" level="5" captured_with="1"/>
+        <monstergroup>
+            <monster id="60" level="5" captured_with="1"/>
+        </monstergroup>
+        <monstergroup>
+            <monster id="54" level="5" captured_with="1"/>
+        </monstergroup>
+        <monstergroup>
+            <monster id="57" level="5" captured_with="1"/>
+        </monstergroup>
         <reputation type="nation" level="1"/>
         <item quantity="1" id="5"/>
         <item quantity="5" id="1"/>
