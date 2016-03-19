@@ -8,13 +8,7 @@ The attack of monster is the 4 last attack for the level
 /!\ not check if x,y is into the range of the map
 -->
 <profile>
-    <start id="Galnec">
-        <map x="20" y="19" file="arcania/0.0"/>
-    </start>
-     <start id="Falcono">
-        <map x="20" y="19" file="arcania/0.0"/>
-    </start>
-    <start id="Capiti">
+    <start id="Normal">
         <map x="20" y="19" file="arcania/0.0"/>
     </start>
 </profile>
