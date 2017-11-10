@@ -1,5 +1,5 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" nextobjectid="10">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -72,23 +72,23 @@
    eJxLYmFgSMKDaQXw2Uktext4SLOXWmDBANmLDQyEnaP20sdOetn7VQTBhuUpevt3wQDZCwMDbe8oGAXkgsXcDAxLuOlv72GgnUdIsHeouHMgwGjYjIJRMApoDQAnGSpK
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+ <objectgroup name="Moving">
+  <object id="1" name="border" type="border-right" gid="5124" x="464" y="256" width="16" height="16">
    <properties>
     <property name="map" value="3.3"/>
    </properties>
   </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
+  <object id="2" name="border" type="border-top" gid="5124" x="240" y="16" width="16" height="16">
    <properties>
     <property name="map" value="2.4"/>
    </properties>
   </object>
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+  <object id="3" name="border" type="border-bottom" gid="5124" x="240" y="480" width="16" height="16">
    <properties>
     <property name="map" value="2.2"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5397" x="400" y="160">
+  <object id="4" name="door" type="door" gid="5397" x="400" y="160" width="16" height="16">
    <properties>
     <property name="map" value="indoor/dramed-house"/>
     <property name="x" value="5"/>
@@ -96,8 +96,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="240" y="288">
+ <objectgroup name="Object">
+  <object id="5" name="bot" type="bot" gid="5123" x="240" y="288" width="16" height="16">
    <properties>
     <property name="file" value="../bots-informations"/>
     <property name="id" value="9003"/>
@@ -105,7 +105,7 @@
     <property name="skin" value="girl"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="272" y="368">
+  <object id="6" name="bot" type="bot" gid="5123" x="272" y="368" width="16" height="16">
    <properties>
     <property name="file" value="../bots-informations"/>
     <property name="id" value="9003"/>
@@ -113,7 +113,7 @@
     <property name="skin" value="girl2"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="192" y="176">
+  <object id="7" name="bot" type="bot" gid="5123" x="192" y="176" width="16" height="16">
    <properties>
     <property name="file" value="../bots-industries"/>
     <property name="id" value="3007"/>
@@ -121,15 +121,7 @@
     <property name="skin" value="oldman"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="288" y="32">
-   <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9013"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="jhon"/>
-   </properties>
-  </object>
-  <object name="bot" type="bot" gid="5123" x="400" y="64">
+  <object id="9" name="bot" type="bot" gid="5123" x="400" y="64" width="16" height="16">
    <properties>
     <property name="file" value="../bots-informations"/>
     <property name="id" value="9028"/>

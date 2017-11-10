@@ -1,5 +1,5 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" nextobjectid="3">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -72,17 +72,12 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
-   <properties>
-    <property name="map" value="5-6.3-4"/>
-   </properties>
-  </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+ <objectgroup name="Moving">
+  <object id="2" name="border" type="border-left" gid="5124" x="0" y="256" width="16" height="16">
    <properties>
     <property name="map" value="../mersoul/4.3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="object" width="30" height="30"/>
+ <objectgroup name="object"/>
 </map>

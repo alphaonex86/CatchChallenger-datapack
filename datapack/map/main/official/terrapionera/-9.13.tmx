@@ -1,5 +1,5 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" nextobjectid="6">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -72,32 +72,32 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+ <objectgroup name="Moving">
+  <object id="1" name="border" type="border-left" gid="5124" x="0" y="256" width="16" height="16">
    <properties>
-    <property name="map" value="-10.13"/>
+    <property name="map" value="../chantiville/-10.13"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+  <object id="2" name="border" type="border-right" gid="5124" x="464" y="256" width="16" height="16">
    <properties>
     <property name="map" value="-8.13"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="336" y="336">
+  <object id="3" name="door" type="door" gid="5123" x="336" y="336" width="16" height="16">
    <properties>
     <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
     <property name="y" value="15"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="336" y="320">
+  <object id="4" name="door" type="door" gid="5123" x="336" y="320" width="16" height="16">
    <properties>
     <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
     <property name="y" value="14"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="336" y="304">
+  <object id="5" name="door" type="door" gid="5123" x="336" y="304" width="16" height="16">
    <properties>
     <property name="map" value="wood/-9.13a"/>
     <property name="x" value="26"/>
@@ -105,5 +105,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30"/>
+ <objectgroup name="Object"/>
 </map>
