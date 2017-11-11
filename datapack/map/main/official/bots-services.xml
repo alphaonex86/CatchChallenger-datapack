@@ -32,8 +32,7 @@ skin is invisible
 		    <text><![CDATA[I can old your item.<br />
 		<a href="2">[Warehouse]</a>]]></text>
 		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
-		<a href="2">*Acheter*</a><br />
-		<a href="3">*Vendre*</a>]]></text>
+		<a href="2">[Warehouse]</a>]]></text>
 	</step>
         <step id="2" type="warehouse"/>
     </bot>
