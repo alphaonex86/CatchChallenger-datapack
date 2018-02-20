@@ -1,42 +1,29 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map orientation="orthogonal" height="12" tilewidth="16" tileheight="16" width="11" version="1.0">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
  <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYCANNBOBR9UOPrXEAgDfXS4P
-  </data>
+ <layer name="Walkable" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAIMEAEEJlE+p4OJ3E2AB</data>
  </layer>
- <layer name="Other" width="11" height="12" opacity="0.9">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFwwXIUcEMAAoIAB8=
-  </data>
+ <layer name="Other" height="12" opacity="0.9" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAW0AACAAAB4AAgAHEj5WARY=</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsJgEzE0EhqnVJgLD1BIDRtWSr5ZYDAD7mhyl
-  </data>
+ <layer name="Collisions" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAeUAADijAAAAowsrCADdEniACu4A8AKX3FNxAPzCvFo=</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer name="Other" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer name="WalkBehind" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer name="other" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+ <objectgroup name="Moving" height="0" width="0">
+  <object type="teleport on push" name="teleport on push" gid="1027" x="80" y="192">
    <properties>
     <property name="map" value="../-7.12"/>
     <property name="x" value="18"/>
@@ -44,7 +31,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0">
+ <objectgroup name="Object" height="0" width="0">
   <object type="bot" gid="1027" x="32" y="160">
    <properties>
     <property name="file" value="../../bots-fights"/>

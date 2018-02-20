@@ -1,64 +1,51 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map orientation="orthogonal" width="11" version="1.0" tileheight="16" tilewidth="16" height="12">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
  <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsJgGuGcUDxpMCgAAOL5EJw==
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0AADCjAAAAo4wDAAETEIF6wXS1</data>
  </layer>
  <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAtECBCTTM7BFOqZqQDOyqYAQBYWQJ3
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAc0AADgAABCDBz4ABgAHEmq4agQEvAI6imQ7gTY=</data>
  </layer>
  <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYICAU2wMDKfZGDDABSQxARKwARo+ws7AcBSIj7FjyiUDxeyA2B6IHYD4CRA/BeJnaOIgdSAQB6TjgTgBiFk4GBhYgZiNA1WcVMAFdDS3AH41L/gZGF4CsREvBIOANj92MziANCeaechqkcEroPhrfsJu0EZSA3MDzB3o6pDxYgbiMQDn7B2M
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAa0EAFQEAADKBgAAywYA0BAwxAcAAMXGB2M+P0Dk5eZjB15fYAQIAAAFBggKEAAACxDoDwAA6TINKw8IEAAACRArD+rrDysyDaMAIwABhDs5LEURvDga34NxEAC2BaWBDI+gDc6CFu8AfZRY4iLgHvgFFAAMAOLAXbwBd3YMAAKAcwEGAAHAAYD99BoAHuiE19zNmIG5MYAF</data>
  </layer>
  <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAdkGNnYJAHYgV24sRxgXoc6oJ5IfQcHPJd/AwM3fzE2bEKqG41AbUeQHlPIs3LAKrL5CfODR1A+U5+4tywAii/kkg3kAMAbwUL9g==
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAYUCADQCAAAeBwAAHyAHf1MNnIoPAACLD6qrSA8AAEloaQ+IiQ+oqQ8RAHe7JgQA6z7tAeLhPQgAM4XyPdXIA+4TPzVUvQDDpWoGt905YhfQNwEs</data>
  </layer>
  <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYIAAW3YGrACbOExsCZBeCsTL2HGrjcVhLjbxBhxqkcEpfgaG00C8gAi1pAAhXggGAW5+4tyATy2yGnwAWT/MDTB3oKtDxrQCAG/NC3U=
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAaUCACQCAAA9BwA9B6QHAAClpgddgAcAyg8AAMugBwASDQsPCw8SDRQAhptgd4ClaAw8dJk4asBTDTwYgkCCe2F10bEDNG6cOx/AdZ+y8QvomzYGfwwACw==</data>
  </layer>
  <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi+4BU/A8NrfkzxU0Cx01DxE0D6JBY1hMyg1A2DFQAAH0EJPA==
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WAQAS0BAIAAAOoPAADrD8rLyA8AAMkPBwAmnAIfTAJHwAXcAwDb6cErBdo=</data>
  </layer>
  <objectgroup name="Moving" width="11" height="12">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+  <object type="teleport on push" x="80" y="192" name="teleport on push" gid="1027">
    <properties>
-    <property name="map" value="../1.6"/>
-    <property name="x" value="22"/>
-    <property name="y" value="19"/>
+    <property value="../1.6" name="map"/>
+    <property value="22" name="x"/>
+    <property value="19" name="y"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="11" height="12">
-  <object name="bot" type="bot" gid="1027" x="80" y="96">
+  <object type="bot" x="80" y="96" name="bot" gid="1027">
    <properties>
-    <property name="file" value="../../bots-industries"/>
-    <property name="id" value="3011"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="scientific"/>
+    <property value="../../bots-industries" name="file"/>
+    <property value="3011" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="scientific" name="skin"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="160" y="80">
+  <object type="bot" x="160" y="80" name="bot" gid="1027">
    <properties>
-    <property name="file" value="../../bots-informations"/>
-    <property name="id" value="8"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="scientific"/>
+    <property value="../../bots-informations" name="file"/>
+    <property value="8" name="id"/>
+    <property value="top" name="lookAt"/>
+    <property value="scientific" name="skin"/>
    </properties>
   </object>
  </objectgroup>

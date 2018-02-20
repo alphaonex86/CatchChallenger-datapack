@@ -1,36 +1,25 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map version="1.0" height="12" tileheight="16" width="11" orientation="orthogonal" tilewidth="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbwcDAsGII4y4kjEuekP7BpJYWmBQAABdgTh8=
-  </data>
+ <layer name="Walkable" height="12" width="11">
+  <data compression="zstd" encoding="base64">KLUv/WAQAeUAADCoAAAAqIoHAL0m4G6CwlMKhoDDUADAe3GoqwU=</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBicIJZloF0w9IAdFcwAAKD8AKA=
-  </data>
+ <layer name="Other" height="12" width="11">
+  <data compression="zstd" encoding="base64">KLUv/WAQAZUAADgAAF0EAD4AAxAAl7CLOiYUFg==</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiIBfHgxWjYEA9GV7udA4LtWBgY9gNxPQtCDF0tPoCuVpWVgUEdC9ZkxVQrxIHdTCEsbrBmYWjAphYojqE2GofaaCxqSXEDtvDApYYctfgwAJnBMkg=
-  </data>
+ <layer name="Collisions" height="12" width="11">
+  <data compression="zstd" encoding="base64">KLUv/WAQAeUCAFQCowAAAKMRozG3CD4EAAC/fwQlBQAAJykFEggSCDsEAIA7BFtbBBcA7gh+KsHAethbsIORENQMeA3Q2Xn4wgp2PbxLFCCBE8Ht4GaBAdDugE/NAewDHQOhAFwt</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAdTOeAYBCYz4IpRg8wCcmu5SzYxWFgEw534RInxw2ExGnlBmoDAI2BCRs=
-  </data>
+ <layer name="other" height="12" width="11">
+  <data compression="zstd" encoding="base64">KLUv/WAQAXUBAGgAAJcInwSSpwSyCLIIDQANUGAggdPAHR6KgUJAhB2FLzZYgNTenAgkuBc+Alg=</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfyLEwMMgAcTwLceptiFRHbSDNwtCAQ3wUoAEAb2IBpA==
-  </data>
+ <layer name="WalkBehind" height="12" width="11">
+  <data compression="zstd" encoding="base64">KLUv/WAQAR0BAIAAAB4EAAAcXwQ8BAAbBACABgAOQAU7ayLfdJzqwS6gfwIs</data>
  </layer>
- <objectgroup name="Moving" width="11" height="12">
-  <object name="door" type="door" gid="1027" x="80" y="192">
+ <objectgroup name="Moving" height="12" width="11">
+  <object name="door" x="80" y="192" type="door" gid="1027">
    <properties>
     <property name="map" value="../0.2"/>
     <property name="x" value="11"/>
@@ -38,8 +27,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="11" height="12">
-  <object name="bot" type="bot" gid="1027" x="80" y="64">
+ <objectgroup name="Object" height="12" width="11">
+  <object name="bot" x="80" y="64" type="bot" gid="1027">
    <properties>
     <property name="file" value="../../bots-industries"/>
     <property name="id" value="3009"/>

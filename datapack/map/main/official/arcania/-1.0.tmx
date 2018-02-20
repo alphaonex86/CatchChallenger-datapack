@@ -1,66 +1,53 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+<map tileheight="16" orientation="orthogonal" version="1.0" tilewidth="16" width="30" height="30">
+ <tileset source="../../../tileset/terra.tsx" firstgid="1"/>
+ <tileset source="../../../tileset/wood.tsx" firstgid="1025"/>
+ <tileset source="../../../tileset/rename.tsx" firstgid="2049"/>
+ <tileset source="../../../tileset/building-town.tsx" firstgid="3073"/>
+ <tileset source="../../../tileset/building-small.tsx" firstgid="4097"/>
+ <tileset source="../../../tileset/invisible.tsx" firstgid="5121"/>
+ <tileset source="../../../tileset/animation.tsx" firstgid="5137"/>
  <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjZGBgYBzFo3gUj+JRPOjxIh766iOE3RkHJhxG7R3Fo3ho48FWlo3iUTzSMQCO/AdV
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUBAGgBAAAAAaIMAAABAEcBCQBXbwUr+DP5hCxQwe4eVODiCPDoVhIIoIKa/2oB</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztVtsNwjAMdKEf8MMXC/BmESomgUXaAdihHQxYBEeKpcg4zyZf7UmWinK+y6VuC8CMKeG4SlsbgzfWx6hvYT9CVQEsdNVYh6qsn4LKZPouHZ658+/Qa69LZS1xvm0N0NVh3DPu4YJ1Fc7Atze+3qPnIPiWnCGl7csb6x/K53mpL3WEfX2kb8sr7btB0XYNcLeI8x7iS5DuL++n30qnt/gqzmv770tcWvflldBoDVteiW/j8rz0rEg1aI3eweF8H5fwwOunpzp13wJ4IfwYuM4vB9+EOWs2HT6PNGecz+fP5zeGk5o3B06bcf2pW78ZvjHv35hvTun/Jqn6ueYm9vs7Yxr4AZqSMZI=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDTUIAEKIFBywJ4IAPAAb2OEFxuznpPXEiez92Sh7uDIvt+8BfySBFFSjmn95DOMt/vf8U1TjpDVlwfIUO/SMnCHe4RkiZrQsIbzBAmldggBv/w/HG9Oa1gFEqCAnFQRFAWDKRFhFATIIqAgYhmEIGAKGAGUYApBhGIpghiEAG2qMwDhl9mLsHPQeyPkd8cjkt/wB7/zUEnF9+K9wAM+pzQHBucPh+/uY/D6AAR2ymuFdUqTVOz+ZI+KV4ia+zIDc4lxvjszAZneCxC7yRbdBnxuzIV/KtQZlvY39me1g0E99gJ6X8nm7WnocuH+sDtczJkm+35nb0a5oD0E8jMo882LUJLzyveutogM=</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALagBTOgXbBKKAlCBWlrXpqgSWj6XAUEAnIKbOoUc65cDIcUOUjTQ+p6kfBKBgFowAXAAAP0wQ8
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDb0BAIgAAGQJVRWkZAlECQDAJQ4lDgwAcUAFrl8V75oFEDCuSjFdNLgXCfUOTDGVAwIIb48QKt7iB1g=</data>
  </layer>
  <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzllmtOwlAQhUdF7Q/Cj+5ABVyFGt+rIEaNugmVYmEh1boQdGOeiW1ymc59tGnAyEm+DKV35s4pl4Fph2gGpkuOOfhcQVy2z7/it67a8ltXbfsN9d+231D/q/58m8rn70ZcjwLzfHL1vRETbYKt+Pd6G3EH7MZ6Xr9HNBAMe3ptV997qL8PDkAfDMAQHMZ63qRL9CZIu/X9nqL+GTgHF+ASXIFrxW8aEWXY413wYdnX5jdHnVvUvwP3xXN+QHwET4pf3neOPb4KWBy/G/hl8bmaFPc5ludKy5tHi+dwRHaVfT/j9avCWKx/AYkjbyzWmvcSRx//Xbb5yc/v2ODEyDkS9xKq5vnW2+anlO+8yDzfeptfVlbEcg6V0uaQmSfnFq/l76XWp81v7pgHWadahyXnFs8sW5+aX9ZMzIMSOQ8WnpPSo5xboZ+vqTSqvmfm1enT5jfz9KD5Dclr4lerW/f3eF3/P6+L3x9+yDtw
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDTUKAKIIHiVwbRAAL4ACJ+P/fyYpIfqhtmKLAQAAW7GAYH9EisKeobfhtdYDUuOGMVM531T5mIKxsMYuC7s2Gouq/nWahR7UZTCXLRXKv+npfCT/aRNJBPJwNDTOR9km4iQhDr8GGKeH0hZ+Cb+DFfwGfgFU9f/b53Vur9zrFnKo4BjTKACw0gDDYACSCjIEIcgIGi4RECZkgoSI4AgMIQJkprDQDdwzNPKhsy18eb1txLuyVrhCTr1BecKc+BhOxCvg/pPLtIjHANInMADw9bfk2+JOx4JFIgDndBO70cGMXUJeS7bTytul2jV4G+a15HeZ+O+HaSSQ+m6Fz7Qz1WgLKxv2LWs2bxD2RLeiezJVRrNdXAWQiYoRJTL0zQwCBL3vnjgyDn3SqV+2fqHiC8eUCzflYjiyPNrxZkWbrNFwAn1OM3wnlkZ9</data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQn96oAC59g8X/xLrnuHi38GiTx6NL0u6VSTb/1CQgeERED8G4idA/BSInwHxc0Hs+lj4GBhY0TAbH/H2YQMWfITVkAKoGU8uQLe5omE3Cv1rKkqauwipJ2Q/LF2FQs2BpSts+hZyoKZDbGlwoPPvSAPUKj+HSrwR41/kcggECJVD6OrR1ZIKVCnQj8uduPy7lIP0cghdPbpaegJc7hzp6Xm4t59Hin8HCgAA1ItcWQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDb0FAMLEDxqwBxSZmQyAAwrAjDEjEmxwiHko5bn64SuMB9dBmElWn0NCBPUIMBBsywJmkK3c43N8jY/xLT7Fl0hqMVwKByoAFaRANkOoXq9M4TBNFPxBA4pL4SnvvkhG+PmbiCFIPC6yp7qYqgPAwUWyE9BBbHdRgBmzBGY4FUAHDolaQWAAN5BJUIJPlYpzI93X6cs4UXhjVMK7TguUAdxUQHcFl4ouoGCmDTlAwVsj4HOT3vemZaYACw==</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQC8gy8PAIMeDm08rYAu0w44HN38UjIJRAAGsfLRVP1gAOWUPNcorcsqe0fJqFIwC2gIANNYDvw==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDc0BAIgAAB0MAAAeDAA9DAAAPgwFDg0ABVAYCSoIIMhZMgr/kSNg4SiYCgdgxonDRRVcpApMYOZi3voBFg==</data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+  <object gid="5124" name="border" x="464" y="256" type="border-right">
    <properties>
     <property name="map" value="0.0"/>
    </properties>
   </object>
-  <object name="rescue" type="rescue" gid="5122" x="160" y="256">
+  <object gid="5122" name="rescue" x="160" y="256" type="rescue">
    <properties>
     <property name="type" value=""/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="160" y="224">
+  <object gid="5461" name="door" x="160" y="224" type="door">
    <properties>
     <property name="map" value="indoor/school"/>
     <property name="x" value="5"/>
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+  <object gid="5124" name="border" x="0" y="256" type="border-left">
    <properties>
     <property name="map" value="-2.0"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="352" y="224">
+  <object gid="5461" name="door" x="352" y="224" type="door">
    <properties>
     <property name="condition-file" value="../condition"/>
     <property name="condition-id" value="5"/>
@@ -69,7 +56,7 @@
     <property name="y" value="10"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="176" y="336">
+  <object gid="5123" name="door" x="176" y="336" type="door">
    <properties>
     <property name="condition-file" value="../condition"/>
     <property name="condition-id" value="5"/>
@@ -78,7 +65,7 @@
     <property name="y" value="2"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="160" y="176">
+  <object gid="5123" name="door" x="160" y="176" type="door">
    <properties>
     <property name="map" value="indoor/school"/>
     <property name="x" value="7"/>
@@ -87,7 +74,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="192" y="320">
+  <object gid="5123" name="bot" x="192" y="320" type="bot">
    <properties>
     <property name="file" value="../bots-informations"/>
     <property name="id" value="9034"/>
@@ -95,7 +82,7 @@
     <property name="skin" value="farmer"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="48" y="272">
+  <object gid="5123" name="bot" x="48" y="272" type="bot">
    <properties>
     <property name="file" value="../bots-informations"/>
     <property name="id" value="9035"/>

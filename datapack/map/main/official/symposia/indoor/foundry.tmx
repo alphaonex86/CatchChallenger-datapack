@@ -1,56 +1,43 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map width="11" version="1.0" height="12" tileheight="16" orientation="orthogonal" tilewidth="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsJgGuGcUDxpMCgAAOL5EJw==
-  </data>
+ <layer width="11" height="12" name="Walkable">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0AADCjAAAAo4wDAAETEIF6wXS1</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAtECACw4ABEXgU4AZ2VDADAHB1An8=
-  </data>
+ <layer width="11" height="12" name="Other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAb0AADAAABAwPgAGAAcSbgA13HHgDS55dwJY</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJydzksKwjAUheELhSZoo524CbXaiZvQVgWX6G6sr10ovpfgLylEUjuoBz4Ih5vkithsQpECW+ywxwHHUCq50F1xwx0PPPH6mo1LLSXSRgSDDrqIlZtNS326AYZIMMIYKU44Y2KsKecZMuSYY4EllBbRurp3XVbGnXvG8uN3gXa7+Pl0QYP/f92ve/efrBt4AyqvHRg=
-  </data>
+ <layer width="11" height="12" name="Collisions">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0FAHQEAADKBgAAy8zNzs/QBgDqBgAA6+zt7u/wEAoHAAALDA0ODxAHMCorLC0uLzDn6DUNSktMTU5PUAcIAAAICABTDRUNAwg1DaMyAOxMCZywBRGIO2AoAd0Mj6fhzTkAgvdid8NeyABwAGAAEAAcABgAxAUXDAgA5gICgAMAA4AA4ADAACAuODczd2sAEAAcABgABADqZvaUIQA4ADAACACuC2h3HgAcABgABADXBXoAWA==</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBh4IMoLwUMNmOFwMy5xUsyl1AxyAQATBQFR
-  </data>
+ <layer width="11" height="12" name="other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAd0AADgAABUNNg02BgB0YlPxFiSwc0EXoOC2+KcACw==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgcQIyXeLVmJKgdLECUF4KJASD/DZQfAf5iATE=
-  </data>
+ <layer width="11" height="12" name="WalkBehind">
+  <data compression="zstd" encoding="base64">KLUv/WAQAe0AAEgAABYNNg0AFQ0GAPdsKRybAu+KXS41PgXhAQWw</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBje4DA7A8MhIH4EpdExSB4GHgPZYrwMDEwcmOaAxB+zY4oTC0D6QRgdiGIRG0gAAGeUCcA=
-  </data>
+ <layer width="11" height="12" name="other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAb0BAMAAAMMHAADC4sMH4xYNAAACCBYNFg0VDQAMAApADZhgJ6BxJwwV8BK8AuA+tSFA8WbXBfSWAlg=</data>
  </layer>
- <objectgroup name="Moving" width="11" height="12">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+ <objectgroup width="11" height="12" name="Moving">
+  <object type="teleport on push" x="80" y="192" name="teleport on push" gid="1027">
    <properties>
-    <property name="map" value="../0.2"/>
-    <property name="x" value="6"/>
-    <property name="y" value="25"/>
+    <property value="../0.2" name="map"/>
+    <property value="6" name="x"/>
+    <property value="25" name="y"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="11" height="12">
-  <object name="bot" type="bot" gid="1027" x="80" y="112">
+ <objectgroup width="11" height="12" name="Object">
+  <object type="bot" x="80" y="112" name="bot" gid="1027">
    <properties>
-    <property name="file" value="../../bots-industries"/>
-    <property name="id" value="3001"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="smith"/>
+    <property value="../../bots-industries" name="file"/>
+    <property value="3001" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="smith" name="skin"/>
    </properties>
   </object>
  </objectgroup>

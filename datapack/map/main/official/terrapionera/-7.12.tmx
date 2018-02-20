@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<map width="30" height="30" tileheight="16" version="1.0" orientation="orthogonal" tilewidth="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -7,83 +6,57 @@
  <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
- <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
-  </data>
+ <layer width="30" height="30" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzVVUkOgCAMhKiJD/ADbg/2ifoS6YELEewKOkkPpjBTSwecs4H3znVezrONtLUl3RIXNxcRdSn1YnGGuDKxg6bP5yWYA+9SiCFEn8lhwO251mxRYaFLma10zzHp1vKmWwswd+uDl6h3ASfHgYXntTQkPbTQ0tTHcGn+P9ZvHA2rc7HglXLm9mvMeA0vUkHxAWYt9RurncL6fYl1WJ2fJhf0ovVscXzTqmbO3fw3SPr+xTMD3KCdGeI=
-  </data>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUGAHQCAAABAQAAAwEAJAgkCADhAAAA4iUBIQEAACIFBJEUI5EUJAiRFCQINwDRTeFfJdhbDthwFLjPcgr63Tzh/0Wk+P9JGsPrQG6sCeaJA2dwIDMleMqBCwUEH5fCCw36nKD4uAIVbg3xiKTAxiBcA5vG5iDBUQf+hgQ7WgkCZ1Cwx2sC14E8kAWeivbuESi05obCq7w4kOBfEyn8i0hwckHgOvDWBwC2C384yYYCu8MqdrV2HJ25cSA/EjzIYMcE6CkTG0hmJoAF</data>
  </layer>
- <layer name="Dirt" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Dirt">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Grass" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Grass">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesRight" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesRight">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesLeft" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesLeft">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesBottom" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesBottom">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesTop">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Water" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Water">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzjEBAAAIA6CFsKr97aCHDyQgYaPrewAAAHAz7e4Aig==
-  </data>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDZUAACAAAHUUAwCcAx/Q8CwVz6gACw==</data>
  </layer>
- <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJy9VktOw0AM9aILlpFyCehJgC0LOAJwjYqDZMH/GrT8rtEWBJfgBSWScfzsaQpYeqqamTz7eWxnRESaiXzbLn73gGn3v3/u2WUtcgVcAzfALXAH3Nc/913siDxUIvMOi2rItQ8/B8Bh4K+1Gbjm4F8Aj8AT8Ay8AK/1cL/nV2s8Bc6Ac+WXaV6Bfw28Ae+drw/8fjp+l/C16rCuhhptnv/StMb/jIHl2Tvr34ilP2um0TtrVndtDejaYXU7U7WdadTmxWJ1RH5b62uMafRyGvWzrlldt+xdq7Ffz7Rve9ZMY5RTFhebe1mckUb7XhSX5ony1xAu7at0hrKYIm6rSfvyuEq/I94+zW3zM+aMS/dp7qyPbOxRXA3xkeVjbH8xOwKOFRgni9F7bjk9nAjPIfOV8Uac2rSuLM6eV+dFHD82/14NM11RzNl8tZyldWB7KovF+mkmca1Hmjb55nrGesCu2Ri9eaNjye67UZ+WnENWmyX3sIxjTG6jOwqbLza3Ga+X+5IZmOmJvtXaovXStU1zy3qsZGZvc1fM1r1e9tb08y9pZ712
-  </data>
+ <layer width="30" height="30" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUMAHKGFSCga1AABCHh0tq2Fi6tbQsfMEIl0U2ghzog8VmWin6UD9+ddJBuuM9usrusTIez0VyWIoHAXCwVSnVE/UytsBG2QUUNTX4Wkgjk4WgcMW6CLbABfrsPgJao4boVSdAHgAqADBU5MgkAAoiAAQCIgAGoAAAwCCLgGISQQQABM4C6MAIAtyDPZ3DWi7p5m/As9xjlPtWOknCL45SPg6qWqbl6+WU+Dh/UcYEsGhhGmFf/H6qThqc+U9jVvnll77USWXN2t+wFxAvsWAJvdtXuY+Hfyi2KXmSGtkWCax35T7BL+VR1HXn87/w+lpwTcT2P55/G0jW+oy5Vn0eNILFk3hIvmdzSabDu7fsNqryQZMfxJDEEZAlnevb6ZDy6+2jgmpl87z3ofYXPzP1qV+NT5husxHem3jNkl4nnkvnGza7ickrZgwLOxHexsv2eBEa5DpW7X/LWUj4T+CGpNcnktEyU/fvb+9oYdp7uEGv8XJ7IMDn4tmAANWI2oAeF6ai2CmVtn/IB</data>
  </layer>
- <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYKA9MOdjYLCAYks+iBgHCwMDJxBzsdDO3nCgXRFQHMmHKU8PNxACtHYDKeZTwy0iwHAWRQtrSswVB5olgYQlscQjCJgAxU1xyJEDkNMscrpFByFA8VA+3H4k1e/IaRZXuqUGoGa6o5ZZ2Mwh12x65m1a2oVsNqn2EKt+MJSDhAC18hcldg11MJTDipA99K7nqAWo5e7B4idy3EErt1MjbAdLuA41t5CbVgeTH0ciAABffw5L
-  </data>
+ <layer width="30" height="30" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0GALQDAAA3DgAAODkOAAAAAAAACAQAAAkEAAAKBABXDgAAWFkOABQOAAAVDhcOAAAYGQ40DgAANQ5UDgAAVQ4vAHI4FfDzhMVkQcEGUOAc+C86wV6d4E9NCj8dSIyeKfh1c4IVHSi+UApejoJ/8QRjhQPdTeFLSdBXEbw4eGkR/BsmeDDBjQhfPoJ/wgS9QUywSxxwSziw84HzAwv3YZfIwNwSU3kV3g19Z0NrPCyFHsMEsIFz4A9vAu4crqubO4ObvZ9AGw==</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+ <objectgroup width="30" height="30" name="Moving">
+  <object gid="5124" type="border-right" x="464" y="256" name="border">
    <properties>
     <property name="map" value="-6.12"/>
    </properties>
   </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
+  <object gid="5124" type="border-top" x="240" y="16" name="border">
    <properties>
     <property name="map" value="-7.13"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="288" y="48">
+  <object gid="5237" type="door" x="288" y="48" name="door">
    <properties>
     <property name="map" value="indoor/arena"/>
     <property name="x" value="5"/>
@@ -91,5 +64,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30"/>
+ <objectgroup width="30" height="30" name="Object"/>
 </map>

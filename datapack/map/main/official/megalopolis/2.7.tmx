@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<map width="30" version="1.0" tileheight="16" height="30" tilewidth="16" orientation="orthogonal">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -8,77 +7,51 @@
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzbEJAAAIA0EL9x/CScUZFKsLfBe4yohaNLv8cblcLpfL5XK5XC73x23sQiDP
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDaUAADiiBAAAogAAAwCU3YMPuNSJQbpa</data>
  </layer>
  <layer name="Dirt" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="Grass" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesLeft" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesBottom" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="Water" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzbENACAMA0EXmYkBPQqTIiaIERQUX3xn+VySLxqSZvXtnYNd2qn7qvQPFxcXFxcXFxcXFxf3d3cBdaHI6A==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUBAICCBAAAgjYAAACiBDYAAACCCAC4dD6ccAkCKLyHCIASLOVo4BSQrhY=</data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfNLEgaEIYBJKIUEcsJtVeamFizRu1d9TeUXtH7R21d9TeUXtH7R21d9TeUXtH7R3s9gIA7ENNZg==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0BAEgAAIIEAAAAAGIJALh0PpxwCbSj8B4i4D5gKUddHF4Y/wRY</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzTEKADAIA0CHvtT/P0LcOlgouN5BtpDkichF2m/vtvmc9l6bAAAAzAqKLhJV
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0BAHhiBAAAYgAAAAAAAAAAAAAGAC7F+QA+3BTOcBVeLgVhkK4W</data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+  <object name="border" gid="5124" type="border-left" x="0" y="256">
    <properties>
     <property name="map" value="1.7"/>
    </properties>
   </object>
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+  <object name="border" gid="5124" type="border-bottom" x="240" y="480">
    <properties>
     <property name="map" value="2.6"/>
    </properties>

@@ -1,69 +1,56 @@
-
-<map version="1.0" orientation="orthogonal" width="33" height="20" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <layer name="Walkable" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxbwcDAsIJE3EGGHnIwIXs6Boimlf2kmjsaDqPhMBoOgy8chlr4DjV6qIUDrdw71MJhqIXvUKOpjclxBwDtcY3w
-  </data>
+<map version="1.0" orientation="orthogonal" height="20" width="33" tilewidth="16" tileheight="16">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <layer name="Walkable" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCc0BAGioAAAAqIgAAACoAIioDgAHJ3wnQdlGoQIBUK/rqCDYPhUABJwXtoJbQLADM0FbSWEo/D6YCqKrBQ==</data>
  </layer>
- <layer name="Other" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU4AIbuTHFtmERo6XZF7GIXaOSG0gx+xNQ/DMQfwHir1Synx5mj4LhCUbzJgKM5s2hBWSJpIcaAABM9x1i
-  </data>
+ <layer name="Other" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCSUCAPAAALELALYLANELANYLAPILAADzCwAA9AsAAPULAB0NADJAwYpzuT6LKkZcFxWAGTgXLUC07koOZt8voBY0A8xjYwWw</data>
  </layer>
- <layer name="Collisions" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAIEokXkwCJtVMUyIxKW4g1UxCwI6DgaGegzQ3wPQQAsS6AV09MZhUM2GgiJuBoRiIS4C4lJu6bsBlNrr6SUC5yUA8BYinUtkNuMxGV78JKLcZiLcA8VYquwGX2ejqLwHlLgPxFSC+iuYGIRbS3ABSjwxwmT0Y0+SoGyAAX96kND1QM28SWwegA2rmTWLrAHRAjbzJAPUjDCxDqwtWcGBXR8hsUtIPKH5NkfjHgHYeR8InkNxgyoCZHnABUtMwLcCoG0jP77TEAKbbwAE=
-  </data>
+ <layer name="Collisions" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCVUGAAJFEBmgwQAPaxkg+UjmgeRfk5KeWcg4IpTIGKB4WFFvE5rTHN6BEABclvSNvtD3Yb7LV/kmPb7Gt/gSeb4hb0Ni3p8BOABpl8J8gcMJUOFAAhcHHIap7g4msl18bywTBALzWaBgKQQfzJ29GAIOeICCix8AaezwOzDFE0QEn4WBj4NRQV8SKbx4LhsGJoKOAUAAcABggBjAAwLoAyQADhBAH5D4AgfmYFCdKgGgBC90QQnwgovhqhh4S3RxEEQQQMeV/IUjAyBGed8=</data>
  </layer>
- <layer name="Other" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi+QI6DgUGeY6BdMQpGwSgYBaNgFIyCUTC8AQDhpgBO
-  </data>
+ <layer name="Other" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCZ0AAEgAAB4IAAAfCAACAGoBvrlSAAs=</data>
  </layer>
- <layer name="WalkBehind" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxjYEAAURYGDIBNjJbAFIt9IDE5DgaGeA76umUgQRA3A0MwEIcAcSj30DF7pIFJJOYPUtUTAzaRaCap6kcBKsCXfyhND9TIm6PpATtoQ6s/OuhQnwzm8mE5Dv+PlPRADUCL+CIVDKb4AgCoyxH7
-  </data>
+ <layer name="WalkBehind" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCZUDAPQCAAAVBAAAAAAAAAA1BB4IAABfCABSCwAAUwsAAFQLAABVC5IEsgSGCIgIAKcIAAAWALfhQmHMrin8ABVFI2QqFG4aQMYlUOMLNXSCkGCoJLBzv1SQG2HwxFNFoAuhDqiBfmFSZpcyroIJpnCznQ1gAQ==</data>
  </layer>
- <layer name="other" width="33" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAtEGUhToyWwBSLfdjERsEoGAWjYBSMglEwCkYB6QAAJyoApQ==
-  </data>
+ <layer name="other" height="20" width="33">
+  <data compression="zstd" encoding="base64">KLUv/WBQCb0AADAAABUENQQFAFIBPnA/bDCFmw7eCWAB</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="256" y="320">
+ <objectgroup name="Moving" height="0" width="0">
+  <object name="teleport on push" gid="1027" x="256" y="320" type="teleport on push">
    <properties>
     <property name="map" value="../0.6"/>
     <property name="x" value="23"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="288" y="320">
+  <object name="teleport on push" gid="1027" x="288" y="320" type="teleport on push">
    <properties>
     <property name="map" value="../0.6"/>
     <property name="x" value="25"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="320" y="320">
+  <object name="teleport on push" gid="1027" x="320" y="320" type="teleport on push">
    <properties>
     <property name="map" value="../0.6"/>
     <property name="x" value="27"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="224" y="320">
+  <object name="teleport on push" gid="1027" x="224" y="320" type="teleport on push">
    <properties>
     <property name="map" value="../0.6"/>
     <property name="x" value="21"/>
     <property name="y" value="18"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="192" y="320">
+  <object name="teleport on push" gid="1027" x="192" y="320" type="teleport on push">
    <properties>
     <property name="map" value="../0.6"/>
     <property name="x" value="19"/>
@@ -71,8 +58,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0">
-  <object name="bot" type="bot" gid="1027" x="256" y="240">
+ <objectgroup name="Object" height="0" width="0">
+  <object name="bot" gid="1027" x="256" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9001"/>
@@ -80,7 +67,7 @@
     <property name="skin" value="guardian"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="64" y="240">
+  <object name="bot" gid="1027" x="64" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -88,7 +75,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="240">
+  <object name="bot" gid="1027" x="80" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -96,7 +83,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="96" y="240">
+  <object name="bot" gid="1027" x="96" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -104,7 +91,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="48" y="240">
+  <object name="bot" gid="1027" x="48" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -112,7 +99,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="128">
+  <object name="bot" gid="1027" x="80" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -120,7 +107,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="64" y="128">
+  <object name="bot" gid="1027" x="64" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -128,7 +115,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="96" y="128">
+  <object name="bot" gid="1027" x="96" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -136,7 +123,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="48" y="128">
+  <object name="bot" gid="1027" x="48" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -144,7 +131,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="448" y="128">
+  <object name="bot" gid="1027" x="448" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -152,7 +139,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="432" y="128">
+  <object name="bot" gid="1027" x="432" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -160,7 +147,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="464" y="128">
+  <object name="bot" gid="1027" x="464" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -168,7 +155,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="416" y="128">
+  <object name="bot" gid="1027" x="416" y="128" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -176,7 +163,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="448" y="240">
+  <object name="bot" gid="1027" x="448" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -184,7 +171,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="432" y="240">
+  <object name="bot" gid="1027" x="432" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -192,7 +179,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="464" y="240">
+  <object name="bot" gid="1027" x="464" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>
@@ -200,7 +187,7 @@
     <property name="skin" value=""/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="416" y="240">
+  <object name="bot" gid="1027" x="416" y="240" type="bot">
    <properties>
     <property name="file" value="../../bots-services"/>
     <property name="id" value="6"/>

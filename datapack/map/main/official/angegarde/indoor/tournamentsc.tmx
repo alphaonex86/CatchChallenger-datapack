@@ -1,46 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="15" height="17" tilewidth="16" tileheight="16" nextobjectid="3">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
- <tileset firstgid="4113" source="../../../../tileset/terra.tsx"/>
- <tileset firstgid="5137" source="../../../../tileset/wood.tsx"/>
- <tileset firstgid="6161" source="../../../../tileset/rename.tsx"/>
- <tileset firstgid="7185" source="../../../../tileset/animation.tsx"/>
- <layer name="Walkable" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJwzEmJgMBrFo3gUjzgMAHH3Q70=
-  </data>
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.0" width="15" tilewidth="16" nextobjectid="3" tiledversion="1.0.3" height="17" tileheight="16" orientation="orthogonal" renderorder="right-down">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/animation.tsx" firstgid="3089"/>
+ <tileset source="../../../../tileset/terra.tsx" firstgid="4113"/>
+ <tileset source="../../../../tileset/wood.tsx" firstgid="5137"/>
+ <tileset source="../../../../tileset/rename.tsx" firstgid="6161"/>
+ <tileset source="../../../../tileset/animation.tsx" firstgid="7185"/>
+ <layer width="15" name="Walkable" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8AmUAACgyEgAAMgEA9FVXCw==</data>
  </layer>
- <layer name="Other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFpAITCfLkSAUTeQibS4o4snn0BujuweYWUsKOlDigxN+0ik9cduFTQ023gAAAo4IHPw==
-  </data>
+ <layer width="15" name="Other" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8At0BAIgAADQYADQYAJEMkQwAkQyRDA4AjgD/+AnfGMNMbwrtLYLDHQF+VsKJmUN909nOCTYMYgPoAMt4UQEW</data>
  </layer>
- <layer name="Other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjEQAAAP8AAE=
-  </data>
+ <layer width="15" name="Other" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
  </layer>
- <layer name="Collisions" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsHgIYg4yMEyvBhkYphcbmCiCSqMDZL0RQDWRQByFQy26PLLeCqBYJRBX4dCLLo/PzYTASNY71OKIXAwASb1GNQ==
-  </data>
+ <layer width="15" name="Collisions" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8AkUCAJCjAAAAowgokRRYFAAAWVp4eXoWANwlMJ0uCv6AgnARwAAAAVAfABgA5KsZhprhqfnuAHW5AAhYkdGlAV6Ae+4rLQbRhaGuFg==</data>
  </layer>
- <layer name="WalkBehind" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg+YB8Q7wfiA0SolRBhYJAEYikRCP8eEN8H4gc45JGBBVDMEoitsMgRIz8KiAP44oCQ/GgcEQYADP4Kkw==
-  </data>
+ <layer width="15" name="WalkBehind" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8Av0BAKgAAL6/wBgUAAAZGhTe3+A4FAAAOToQAESnq8LhWkAHp4J74adwAaAuF0PVBwAGgHAH7ALqKZIBQFzgHimABQ==</data>
  </layer>
- <layer name="other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjEQAAAP8AAE=
-  </data>
+ <layer width="15" name="other" height="17">
+  <data encoding="base64" compression="zstd">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
  </layer>
  <objectgroup name="Moving">
-  <object id="1" name="door" type="door" gid="1027" x="112" y="80" width="16" height="16">
+  <object gid="1027" width="16" name="door" height="16" x="112" y="80" id="1" type="door">
    <properties>
     <property name="map" value="tournamentsd"/>
     <property name="x" value="7"/>
@@ -49,7 +37,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Object">
-  <object id="2" name="bot" type="bot" gid="1027" x="112" y="128" width="16" height="16">
+  <object gid="1027" width="16" name="bot" height="16" x="112" y="128" id="2" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7145"/>

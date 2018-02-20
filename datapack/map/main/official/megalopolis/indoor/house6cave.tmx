@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map version="1.0" tilewidth="16" width="11" height="12" tileheight="16" orientation="orthogonal">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
@@ -7,73 +6,59 @@
  <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
  <tileset firstgid="4113" source="../../../../tileset/wood.tsx"/>
  <tileset firstgid="5137" source="../../../../tileset/terra.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJwTFGFgECQBNzMQxqSYN4oHFwYAyhMWYw==
-  </data>
+ <layer width="11" height="12" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQAaUAAEgRFAAAEYMAERQDALdAxcDBMK8W</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYIAATgbigSYJapGBmAgDgzgSlhDBrdYMTc4Cj9owNHMj8KgdLO4NR8LUci81AACubgZ7
-  </data>
+ <layer width="11" height="12" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAaUBAJAAAAkAKQAWFAAAFxgUNjhWWFcNABqkACbs2kFmhgpAbgsdc0P52d2nLHZjPXDiAOIBYAE=</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBj6QEyEgSEcCUuI4FZrhiZngUdtGJq5EXjUkupecSQ8mNwLAMsbB8k=
-  </data>
+ <layer width="11" height="12" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0BAHgAABYUAABXGBQ2OFZYFBcJAAtAYS/uzQzFLXTMDeVnd5+y2I31jwJY</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAwAnE0lAaF14MxZpAbA2lcWGYWmIAstopAgwMUwUgbEMeBgZzEQRGV7sFqG6rAHHmIgNC5pLiXlLMRfYbIXOR/UYt9xKLAaP/IQY=
-  </data>
+ <layer width="11" height="12" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQAW0CAMCjAAAACRujKTuUEAAAlRAxDAAANxS0tRAYAOwR0MwgAC/AgK/RwAECoAEY4DRwww8CgMG0ry5gKNABbsBTGoAF9zoAGMgEWHiFC7ha</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer width="11" height="12" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYIAAaQbagBIBBoZSAfL0rgDqWwbEK4nQfxyo5iQQnyBC7XOgmpdA/IIItZ6CEOwhiCmH7rdMQQjOwKIWHXQC1XQIQmhCYCVQzQpBCE1rAAA/LBA5
-  </data>
+ <layer width="11" height="12" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQAb0CAFQCAAAbAHQQAAB1EKimqRDHEAAAycjn6ehJEUgRaRFoEYmIiamoERUAjhuw0iIAGEAKAO4FmOuaG9r3ueYODSAFAAcA5ilSvIAGDgKAAUDsq7MMmHgAWA==</data>
  </layer>
- <layer name="other" width="11" height="12" opacity="0.9">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer width="11" height="12" name="other" opacity="0.9">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="32" y="32">
+ <objectgroup width="0" height="0" name="Moving">
+  <object x="32" gid="1027" y="32" type="teleport on push" name="teleport on push">
    <properties>
-    <property name="map" value="house6"/>
-    <property name="x" value="2"/>
-    <property name="y" value="4"/>
+    <property value="house6" name="map"/>
+    <property value="2" name="x"/>
+    <property value="4" name="y"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0">
-  <object name="bot" type="bot" gid="1027" x="80" y="64">
+ <objectgroup width="0" height="0" name="Object">
+  <object x="80" gid="1027" y="64" type="bot" name="bot">
    <properties>
-    <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9057"/>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9057" name="id"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="96">
+  <object x="80" gid="1027" y="96" type="bot" name="bot">
    <properties>
-    <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9058"/>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9058" name="id"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="128">
+  <object x="80" gid="1027" y="128" type="bot" name="bot">
    <properties>
-    <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9059"/>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9059" name="id"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="160">
+  <object x="80" gid="1027" y="160" type="bot" name="bot">
    <properties>
-    <property name="file" value="../../bots-informations"/>
-    <property name="id" value="9060"/>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9060" name="id"/>
    </properties>
   </object>
  </objectgroup>

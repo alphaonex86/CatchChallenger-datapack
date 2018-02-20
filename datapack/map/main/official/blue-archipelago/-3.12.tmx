@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<map width="30" orientation="orthogonal" tileheight="16" tilewidth="16" version="1.0" height="30">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -7,90 +6,64 @@
  <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
- <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztz6ENADAMA0F7/0GzRklAVRTUKNGDo37Zkpzi4o86urGkW93o+Ps2t3cBAACAaQ7EnB2T
-  </data>
+ <layer width="30" name="Walkable" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0BAIgBAAAAAQAAAAEAAADnAefn5wcAJHN9SDjqMPNHMSJQwveQQoN5Me4X</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYMAOXuAQpzUYKHszWBgYMoE4i4U2bFxg1L/0AbT2LzsjdszBOHz8SGpcj/p31L+j/h3176h/R/076t9R/476d/D7EQAVH629
-  </data>
+ <layer width="30" name="Other" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDbUBAJAAAOgAaAQAAGkEAABqBAcBCAELABVSGMrc+IDrQL2kIB4TKd4V/J4bNcRrwr6HFCyQYgVgAQ==</data>
  </layer>
- <layer name="Dirt" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="Dirt" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Grass" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="Grass" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesRight" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="LedgesRight" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesLeft" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="LedgesLeft" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesBottom" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="LedgesBottom" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="LedgesTop" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Water" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzbEJADAMBDGv8JD9Z02TGWxMJLj6cqry6pThb7cfvxOmvgAAsNEFUqoCBw==
-  </data>
+ <layer width="30" name="Water" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDfUAAFARFAAAEREAAAAABgA6Az6QIMVfoCLfQ8oJJMu9Wg==</data>
  </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt0MENACAMw0B3DfbfilH64cEOjRC+BawErs28VdCBbmJrqvvbx4mtkiRJ0qsOHCsGlA==
-  </data>
+ <layer width="30" name="other" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDT0BAKAAAAAAAAAAANsAGgEAAPsA2wD7AAUAO3M+op1RNTCQ4gfS8lKABA==</data>
  </layer>
- <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYEAADRYGBk0g1mKhPRsZeAD5nkDsxUJ7NjLIAPIzgTiLzv6lp99xgZHgX3qmZ2Q2PdMzMnvUv6P+HfXvqH9H/Tvq31H/jvp31L+j/iWVDQAw1c+v
-  </data>
+ <layer width="30" name="Collisions" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDT0CAPgAACgEAAApBAAAKgRIBAAASQQAAEoEaAQAAGkEAABqDwBDcn04IAXAwXqlMDEcfAEFQIEHE8ACfm6mAxx4d0LAgX+ZaANY</data>
  </layer>
- <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYMAOOFgYGDiBmIuFMJsUtVxQjAuQatZQB6T6dyiGD639OBjYg8G/Iy1OBwoMBr+PpufhF6cDBQaD30fT8/CL04ECg8Hvo+l5+MXpSAAAsjUbbQ==
-  </data>
+ <layer width="30" name="WalkBehind" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDe0BAHgAAAgEAAAJBAAACgQKAAAPAAmXwjmmiQ/t60XBd1MIAAXjs6EgXhPMjQMmnAKfEAFAcefyT5n2BUcKwAI=</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" name="Other" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
+ <objectgroup width="30" name="Moving" height="30">
+  <object name="border" type="border-top" x="240" gid="5124" y="16">
    <properties>
     <property name="map" value="-3.13"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+  <object name="border" type="border-left" x="0" gid="5124" y="256">
    <properties>
     <property name="map" value="-4.12"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+  <object name="border" type="border-right" x="464" gid="5124" y="256">
    <properties>
     <property name="map" value="-2.12"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
-  <object name="object" type="object" gid="2210" x="64" y="96">
+ <objectgroup width="30" name="Object" height="30">
+  <object name="object" type="object" x="64" gid="2210" y="96">
    <properties>
     <property name="item" value="42"/>
    </properties>

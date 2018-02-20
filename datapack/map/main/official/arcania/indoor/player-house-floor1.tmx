@@ -1,54 +1,39 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiI2YnAi6FYHQ0/QcPYxEbxwGFSAABEw19L
-  </data>
+<map width="11" orientation="orthogonal" tileheight="16" height="12" tilewidth="16" version="1.0">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/animation.tsx" firstgid="3089"/>
+ <layer width="11" name="Walkable" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAfUAAEijAAAAowejJ+QIALkmIAIFNwUA3YHOQCYAeQFXCw==</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAOsCVBbSyV7BwqYCIHgj2FA1NeEUlsIxJ7Cxa1pIBEoP4kEs0AAL3mBEE=
-  </data>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAV0BAHgAAD1dAJEIlAghsbQIYWIKABwhEgDu9iDRNeymIYDH7obXLoU8ZbJBQRs=</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAOCOWlkkGjYEABALCTAGM=
-  </data>
+ <layer width="11" name="other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAXUAACgAAFUNAAIAwkAdgwIs</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJzjZmBg4EbDi4GYAwvWxoJBajUYIEADCX8FavgGxFeB+BoQm3NAzEAHQixYBJHMpDZgx4GxAXUcmBwwCej5ydgCAAqskeQ2Admb8aiNxiOHDSwmAQMAX2QSvQ==
-  </data>
+ <layer width="11" name="Collisions" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAQ0DAKQCCwAAAAujCCsoACj1CAAA9tXWNwgSBAAoAAcnkggAAJMIO7IIAACzWwijFwDspvgPJn4q6M+YDWVDwLncWgANb30HTBh84yY4sIAAYAAQAOhr2Dv6qcwAwkAiALi6qwU=</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYMANTHlR+aIcDAxiQBwKxGFALM6BXd8kFqBeoJwZEJcCcRkOdSCwiQWPA4Y4kMbjb2SgCFSnRKRaEHAiQS2pAAB9YATa
-  </data>
+ <layer width="11" name="WalkBehind" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0CAGQCAAA1DRUIAAAWVVYXCJIEAAA1CAAANnV2CLIEABsIIQgAACIIQggNAHczEw6g0n2wFafGGWwEAHMBuZXSACAAuC+gZ8rYBlg=</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYIAAYRYGBhEWBqKAMVCdCZFqRwF1gSMHbc0HAEoDAOg=
-  </data>
+ <layer width="11" name="other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAf0AAJgAABMEAAAUBAAzBAAANAQAQQgABBAAOg051XhmwAI=</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0" visible="0">
-  <object name="door" type="door" gid="1027" x="160" y="176">
+ <objectgroup width="0" name="Moving" height="0" visible="0">
+  <object type="door" name="door" gid="1027" x="160" y="176">
    <properties>
     <property name="map" value="player-house-floor2"/>
     <property name="x" value="10"/>
     <property name="y" value="8"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="3413" x="112" y="32">
+  <object type="door" name="door" gid="3413" x="112" y="32">
    <properties>
     <property name="map" value="../0.0"/>
     <property name="x" value="20"/>
@@ -56,7 +41,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0">
+ <objectgroup width="0" name="Object" height="0">
   <object type="bot" gid="1027" x="16" y="160">
    <properties>
     <property name="file" value="../../bots-services"/>

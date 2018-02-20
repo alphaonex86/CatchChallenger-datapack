@@ -1,45 +1,32 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map tilewidth="16" width="11" version="1.0" tileheight="16" orientation="orthogonal" height="12">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiI2YnAi6FYnQj8ZBQPGkwKAAAHwFxX
-  </data>
+ <layer width="11" name="Walkable" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAdUAAEijAAAAowejJ+QGAAETEIF6AGHAFYC8gKsF</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFtAQTOYhXu5EEtbiALAlqbbGIAQDWmAGt
-  </data>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAdUAAFAAAJEIALEIAB09BQAgEZ4yr4E0AGhsqQAL</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsHiAMTsJWJ0EbMfBwFAPxDCwjQWBkcFWND61wSSgGyZz4FdjDZXfBKQ3E1AbTUBeCM0/pMQFAFqFJRk=
-  </data>
+ <layer width="11" name="Collisions" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAS0CACQCowAAAKMHJz4IAAB/CAC2BLUEAJIIAACTCDuyCAAAs1sSBA0APK4IgIFuw55qb6hMHCUWBdOAA9yC3cIA5gFMxqX3DQ==</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBhaQI6DgSGeA8GfxsLAMB2KBxuQ5iCshlgwiQT/baIgLACcRQPN
-  </data>
+ <layer width="11" name="WalkBehind" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAUUBAJAAAB4IAABfCJYEAACXGwiSBLIHAHhYkggQvieg2HBpeLOeuZUVBbA=</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg8QJiFgUGEBb+YLAeENgaKmaCpRRez5aCNO4czAAAx0gGn
-  </data>
+ <layer width="11" name="other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQASUBAHgAABMEAAAUBB0IMzQ9CAAHAC44dYCCncW5gK0M7aYIDxRoAw==</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="door" type="door" gid="1027" x="96" y="192">
+ <objectgroup width="0" name="Moving" height="0">
+  <object gid="1027" type="door" x="96" y="192" name="door">
    <properties>
-    <property name="map" value="../-1.0"/>
-    <property name="x" value="22"/>
-    <property name="y" value="14"/>
+    <property value="../-1.0" name="map"/>
+    <property value="22" name="x"/>
+    <property value="14" name="y"/>
    </properties>
   </object>
  </objectgroup>

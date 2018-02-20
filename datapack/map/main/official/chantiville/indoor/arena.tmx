@@ -1,49 +1,36 @@
-
-<map version="1.0" orientation="orthogonal" width="15" height="12" tilewidth="16" tileheight="16">
+<map tilewidth="16" orientation="orthogonal" width="15" height="12" version="1.0" tileheight="16">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/terra.tsx"/>
  <tileset firstgid="3089" source="../../../../tileset/wood.tsx"/>
  <layer name="Walkable" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJwT5GBgEBzFo3iYYADZ4BGV
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQAWUAACgRCAAAEQEAyFRXCw==</data>
  </layer>
  <layer name="Other" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg84CMHA8MnJPyZg3i9gpwMDEJIWJiTeL2GQLVGSNiYBL30BB8JhAs+eUEC4YJP3pBAuBCShwE5AnxqAACqCQ6t
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQAR0CAMgAAPEIAADy8wgRCQAAEhMJMTIz8wgRMTEeEAAPUJiZzw4tmdsIMLCxmvvQCCEjiwqXn2swAIguxK6hfwWxa+gDBbA=</data>
  </layer>
  <layer name="Collisions" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJydkmEKgCAMRneAEXgRf1cnqU5SHaMreANP2CQGn6IOGzxw8r2Bw0BEQZgGCEDq/QDop35holXo1cxfzoO7Sb8Lh+FiTt1TzpdwGy7m1I2GU1YEF8tx/jbdgSvm11zN4dtKr+emsnagLs59Glm8d5z/D/Vbe4tc9/7yAqvuLGE=
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQATUEAKQCowAAAKMOoy45DAAAOgwAOAwuWAwAAFlaeHl6sgwAshEMOgwAkpIMo7IMJwDeSWDrgTsbxhDI3RgZn9a8BWnwxsEa71cvthLwNQ6GMOErDS4BdmT8fTICGa52fc2AFwAHoDkAMAAEEAA4AM0FQL8ybKmh4W4dGwPuoFtupgvwHsBkgPsG</data>
  </layer>
  <layer name="Other" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4AAAC0AAB
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQAU0AABAAAAEAyyqABQ==</data>
  </layer>
  <layer name="WalkBehind" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAMSPAwMEgCsRQP6eosCOhBB1ZI6otI1IusfhKJegmpJzYMBgPAFW6khudgBQD7NAUM
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQAZ0BAIgAABgMAAAZGgw4DDpykpJyDAwAOkCBnSN6cCp+DXS4EQPO+CqyqYb4DSZ+qQi7gJ4EsA==</data>
  </layer>
  <layer name="other" width="15" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4AAAC0AAB
-  </data>
+  <data compression="zstd" encoding="base64">KLUv/WDQAU0AABAAAAEAyyqABQ==</data>
  </layer>
  <objectgroup name="Moving" width="0" height="0">
-  <object name="door" type="door" gid="1027" x="144" y="192">
+  <object name="door" gid="1027" x="144" y="192" type="door">
    <properties>
     <property name="map" value="../-11.13"/>
     <property name="x" value="25"/>
     <property name="y" value="16"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="1027" x="80" y="192">
+  <object name="door" gid="1027" x="80" y="192" type="door">
    <properties>
     <property name="map" value="../-11.13"/>
     <property name="x" value="22"/>
@@ -52,7 +39,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="0" height="0">
-  <object name="bot" type="bot" gid="1027" x="16" y="144">
+  <object name="bot" gid="1027" x="16" y="144" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7049"/>
@@ -60,7 +47,7 @@
     <property name="skin" value="bandit"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="112">
+  <object name="bot" gid="1027" x="80" y="112" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7048"/>
@@ -68,7 +55,7 @@
     <property name="skin" value="bandit"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="144" y="112">
+  <object name="bot" gid="1027" x="144" y="112" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7047"/>
@@ -76,7 +63,7 @@
     <property name="skin" value="bandit"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="208" y="144">
+  <object name="bot" gid="1027" x="208" y="144" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7047"/>
@@ -84,7 +71,7 @@
     <property name="skin" value="bandit"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="112" y="64">
+  <object name="bot" gid="1027" x="112" y="64" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7051"/>

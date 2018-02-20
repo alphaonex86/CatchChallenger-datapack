@@ -1,43 +1,30 @@
-
-<map version="1.0" orientation="orthogonal" width="15" height="17" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
- <tileset firstgid="4113" source="../../../../tileset/terra.tsx"/>
+<map orientation="orthogonal" tilewidth="16" tileheight="16" version="1.0" width="15" height="17">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/animation.tsx" firstgid="3089"/>
+ <tileset source="../../../../tileset/terra.tsx" firstgid="4113"/>
  <layer name="Walkable" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJzrYGBY0DEEcZEgAwOpeFTvqN7hqHcFA4RNKg0AaWO2bA==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8AuUAAGiIAACgiHIRAACoAAAABABZOanaVxUIRASGulo=</data>
  </layer>
  <layer name="Other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjEQAAAP8AAE=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
  </layer>
  <layer name="Other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjEQAAAP8AAE=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
  </layer>
  <layer name="Collisions" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsHgIYlcB0jFMb6oA6RimlxyAS68i0FwlAUw2MXodgWqdBDDZuPTiMh+Xe5D14jIfl3toEVbk6MXnZ3Q5dL34/IwuB9NLTBij2w/TS0wYo9tPaR4CAEOrSTU=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8AuUCAJCjAAAAo0UQZRAhEAAAIhBBQhAfAD4qJHBrcBvcBYMXYQ4L7gXuDO4I7oQfDe5vBP2KQl/WCa4CbgCnweQbGMMMYAHujABg4LEvcwEQ4h4AL9iN+FURBBGGoa4W</data>
  </layer>
  <layer name="WalkBehind" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg+YB8Q7wfiA2TovQfE94H4ARXdMwpGwWAGAMtqBNs=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8AvUAAEgAAL6/wN7f4AAHAOfeCgHAACD46jwAMBcQRwpgAQ==</data>
  </layer>
  <layer name="other" width="15" height="17">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjEQAAAP8AAE=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
  </layer>
  <objectgroup name="Moving" width="15" height="17">
-  <object name="door" type="door" gid="1027" x="112" y="80">
+  <object name="door" x="112" y="80" gid="1027" type="door">
    <properties>
     <property name="map" value="tournamentsc"/>
     <property name="x" value="7"/>
@@ -46,7 +33,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Object" width="15" height="17">
-  <object name="bot" type="bot" gid="1027" x="112" y="160">
+  <object name="bot" x="112" y="160" gid="1027" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7144"/>

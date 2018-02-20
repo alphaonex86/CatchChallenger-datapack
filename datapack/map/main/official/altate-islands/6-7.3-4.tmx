@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="60" height="60" tilewidth="16" tileheight="16">
+<map tileheight="16" orientation="orthogonal" height="60" tilewidth="16" width="60" version="1.0">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -8,78 +7,52 @@
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <tileset firstgid="6161" source="../../../tileset/building-big.tsx"/>
- <layer name="Walkable" width="60" height="60" opacity="0.9">
-  <data encoding="base64" compression="zlib">
-   eJzt0sENgCAQRUFs1eZtw3gjJBpMwNV1DnP/b2ErpWwAAMBQ6xK/4a2O29Si90Q0Z++/6s3arTl/c09vpube3rb5i7e40/rV9x/Z+Obev3T+qXVWp9Z4Z/syttZto/9AdNOM/5C9tbc5et/TzdHbNGse3Ry9CQAAAAAAoLUDQBUl7Q==
-  </data>
+ <layer name="Walkable" height="60" width="60" opacity="0.9">
+  <data compression="zstd" encoding="base64">KLUv/WBAN3UDAFjnAAAA52IBYgFiAR8AWQU+hO3vz4eE9aVC8QMcFRZWDFV4uhRM7AEqADA8MYTgCSiYMRnoe78KQderwt3aKAAYxmdDAYgwfRsKdnIAZIgCCoADzoFZ91cBBnjPDQVcEMOACq6ML9YGVQw2/tUC</data>
  </layer>
- <layer name="other" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztlwsOgjAMhgfnwMdB0IiPW6iJEQ/gEdATeGO3hCV1otQproz/SxoCAdKPjlKUAgAAAAAAAISiSJRaOrFKQmfVHYcGtzJi/0q7bFp8ysi8m2rcRBmJM6fGFjj3F7quzy3nUme3x/fhWZicTyTPG+Ma28dOyfNxic60Lm7O33IU5Ft05EiR4uuu21+z1ve+6LgG9v1HTdcCPA1d19QgxdXAnZ98keRqcH3tO8adL94hzdVAZyeaX1V7f+MupQ+7VC1908ddYm194M7SUmvrA/e/WNLcmKeP++O0+bxX9M3Z9Z3p/REJjj/HWcq6tr4zsjUx0bHTsWfW+52zpJ61rb1oTHXMP1zXBtq/aUhxfUXu6dtXhua7/eC9BSBGMua3OhaG1uPgGx8ZmbMXA/B1Z1F8swEAAAAAAAAgLHfxFzf+
-  </data>
+ <layer name="other" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN90IAFKFERmABwIsTvqETy/9iAaX3YnEyDBkk/6s5TsPA1IeCTMoCLACAXAcluJgQXN0tX9VxPfwVVlnoP+E8c3c0Jp+63u8dhP65gdOqPC0CDcAcBBAAAFOHHIwDIFDACXIIAKGYQgahoAhcAgYgpQhNATGCJARgM82vetUUwjw9l2Pspcor80RPU9h7HMI23erHGW3yUUmtZi/oNEKLovHw+O+v9xOn1uC5dAxhd6egbGBU5DfM+eI5L1C2GrEjbgEoIeYwzfAP1R3gt151GK7/4L9WGZ+0jyv3llnrj6Ov28wuMHF9zpJTqdzGTqP9TM8YtIm2mWA/V13FlndYOOUrYUX+L1MhAGh6zmxexRNE7EDnXzTsQo/8SxOq1A=</data>
  </layer>
- <layer name="Dirt" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="Dirt" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="Grass" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="Grass" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="LedgesRight" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="LedgesRight" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="LedgesLeft" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="LedgesLeft" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="LedgesBottom" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="LedgesBottom" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="LedgesTop" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
-  </data>
+ <layer name="LedgesTop" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN00AABAAAAEAO5gHWA==</data>
  </layer>
- <layer name="Water" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJzt1EEOgCAMRFGvYOL9z2rYucIQaIcyv8lf2wfE+7mum4iIiIi2bmTUu0a5TrBHjNrEHevvWH02kdP7zmn3/DduXqXZyascB+N3nKxtnKxtnKxtnLy8ZaxY63ijnTt5s6yO3l3cO3qjz8bNm2ke3aG6t2fK8iqtf94IdwXvCrPaOXM2p/pGzerdsszqfbK86j129VZ/CzPeKuaZ/1PFf5ubd/VZYT4vB29v1Ltxp+vN6l2IiIhovBe85YYn
-  </data>
+ <layer name="Water" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN90GAHQDERQAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEUAAARFBEUAAAAAAAAAAAAADQAv//B+uM7oPB2MlAFYOD+blSMK4VHoGKAFGa3BYVtQAVw8DA3KtwXB7ZrQ0F0R8HvyScsbulRQYGEbUADEOACKGwgDUDDC1AwlQMGgMI2UPEfa4IHUFDYGwWu5kbF9BcgFdHLhArZz4QK9oCKz4DCZ0DhL6DQF1B4DFT8nxuqki4FPyJcHw2SjqqIc1Lh5/4qhOaGggUUVmNDQQAB1vCvFg==</data>
  </layer>
- <layer name="other" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztmUtuwjAQhs0dugo3oaeAu3TTVa/V9iSIkwAbMhKWRpadxIl/z9iZT7JYIJl8zMOPOGcYhmEYhtEWw8G5h1s+jgehB80k5fXMnOfu2nC/AeYkd63OCF/iCpp3K6cxDv+AeedizOuodi6gYhyr6eH9yftD7VxAxZjj3WN9UCL3azinkOpvqLxeQu0YU13lrrklqeHLe6SkK4H2lY5nCNJXmyuB8tXoSqB8JXvwFHvy/R3HJ2D93VMua3VFxXZPeUxo8iXPP4dzJbT4ImPK0eJb6yxE5z3Kodjg58DzOC7gZ5G+3zpFfjv8H0oj4fz14X6mvkfXgLY7vZw7jzV1oM2XQMW4Vp/Oxfe50rWsMbacLfd5PNdr7DVKscbZ+/nRgieHO6d6FHdszS+Gr+mQlnJ1C0tiGb531fr+sBThuia9p0QTW8d7dk7tW7Svw2tJ+fYa46l9aY/Oc3uVnvKar0XfiTj25Dt3xtJ6VlpLyrfX/VisdnuLaUh4X9izq2EYhrEfXsGNgxo=
-  </data>
+ <layer name="other" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN30JAAJGDxiwBRAAC6cDHPADBuoCD0B7FCgA9xpG8B0rNF+jUowhQRhc0Fg8UtSvBV6+RueRef7RyHikWcc6ngM8PDpeqECpwCyQjMQY1SYiCCAIJAggCBAECEKwQjBCIBF0ChIIQQgSCoJvOMvOv7WcGcrZ6778bU/mgPdL36E5vz9Kym243YEnMu/5KJZCe4/PObSxjCTqMx48z9WU/cbU667X+OxTEKIhGP1bhXfhDdo71/lmfG+C5zhfeathpTEHC21uPU+GkQ8G5v2nC8yE/VDXuy/Znrfv3IdKybyuwvlJBWMNOzvo7+r5VHaedZJPlqrH/K7jPT1FiDGI5s7vVxUix6HLbEPlQmBwuVD8wL0un/WBdgmeXxNuBwDmjoLeGekvboPNFi67/8nNLloBBQ==</data>
  </layer>
- <layer name="Collisions" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztWltuGzEM1AXSpP1IAiSXaD+M3qOF23s4107bI1QCSoBh+Rjq4V0HHkCwdyWtNByJ4kpbyhVXXKHhY02fBvJXtZt9jnyedf25pi9OuSjfaj/bbi/oOfQrnx/xlOVG89F2e6DVlc+37BqVs64tHr3tZjBrjGzRZlbnVX7lXMjabQttZ2ELbe9regDS42A7GiwfGJVHoXF7AeueyjruWR6ofQ7iWuOPcDmB5SL0jk/UPpKvvG7gOnr8v8K9s9HjezI2Otb03bi2tD4VnTeq8T1QLsMhayPJ+WDcb+BcNX7enCb7Nf8QjYVV85fAxzHnqXFuIK6epnIecD/o8e2Zw1n7yHk7i7MHq06m773+TfNT2j0J0olzlvM+49+y/e/xb61/cs3V7mngPGn8ynqW/hrfVf6Za/Di3KP7Hnc5TzVNNW6z5nBkI9l/7jdlOSveen0q5VdNv2v68/Q271tNP0X5LF9U58guGtcMT8LNcykfarqt6e75bR7n0bj/KP/zl+U4ZmnLuXmcjv/62JLmly1IbprOBcibpS35W9QXNWS4S10tPrKsBkTjyC4H8ZuFVS+jK5LfMLoGc01lv6m/kX4y7tDm5gyuo2uwHL+837x9ZOzyuhmf6/ktiVFttXFI3Kz2Pe5WXUs7RFOJkf2N3vlKsOJnCUvbnvdiRGPLJlwrmdD1BuGciRsRRBr3xJ5kC4Jnh17Ove9PIxpnYc0BhLOmZ4bzyr0NCx4vL8/zTSjnWfFVFp6fs+bBOdfe2ecKxCkTQ3tA/Nbq/UkE6HpkIRNrELbUuSHDmfgRsrFGg8UhOkOfichPIXMYgcchOmuejSP737j3jNUICIctzkAb95k8OS79DDuLSz7Dpr0jJNZ4D7pS3ILEV5esK4HHaQjnS9dYxqWzzwb3Brluo+8Nns57HwM9nDWdo2/79gQ+rqN3JYsH+q3eVpBncGg8do4z4BWw9n4RrPoGazWivV8Ls/evzvluhbSP5nFktI2+T47QWw5pb2T+Rteoz4vqRbzQ9nrPjyw79u7/WXqg7UQ8Rt/hR9cqi19WL7T9vfjZvfTjivePv0+LlW8=
-  </data>
+ <layer name="Collisions" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBAN60UADLJFBygMaAAj2ZmZubKMZR63sxQXQE64KX80pQUDGsH6M1I/yP1VVNmXyE/kiNPh/AZfASfQPJkAjYAm8VG8eitWy9l3aPSyqkf6N7ObhkPL4kjGl44gRWoISMSKRoKgRwDEEKiKtsAEggQADAIAgIAAEAIgUAAwAAAEAQQAUAsAIYJlJFK5wBktKvH8YPWQumGncZ36tV9RjmWOGZ3jPcz3+7ocvcW3/zeI/bGcGO+xeL/PaIb/8GQ/Fejv6BtEBLXN/xXcck4WmsyCW6upLOdIL28vzQNZ9vu9/hBnnv2cx2t3aVDqDOFndddas0rAMbCPvL266HKdrP2GR3Pucb/gh9L35ui84T46+6uePPytMfNKrMA2pvPMXZ9YzUreHC3ROpPKlGqUap9muzKz3/Xv0cLfT8fUmNJ/JOlGbbpv0HIadwj/+fwnb+uO3wXzJz1AoDO8Tuqyd0F/f+Vslji2uEcDC0XZ68El9m7vmG//0eDkNw183fhY9w1/ge/yMF/Vwb/4WC8xTUYak/xPhN2PfjDx4jSdjH8NTFz2af4fqbY97/Q5D37xvn9dRXhCzm1Xk3Z0zezed/+C+y49d/cRo4x8BxOFLN3cP3LaSdH6+fnvH2wf0hfeahORvs8+DFFdoVFpVQOBuAQ3OO0vZ/+KcfLPP7Qb3k50OZdOv/oN/2Pv5AtQu54A862iHy4vT/C5Lo0zvc34HvD3PPEjwsWe55DYH/gHcdM/BO9fRtjMoA5J4cjpjvbSxvPqAE3rFu3H//SRdyvfVm+yaZL0L6hCZ0J3w0NneG19O/7PZFstQiWA3ju3kB4PLBOBNFdgob94p6ljId/H1gOiPW9B9Aj5lg2mK0niV/OVp17RDlY/Yvx4A8=</data>
  </layer>
- <layer name="WalkBehind" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJztzrkNACAQBLHtgTb5+o+4BpDISGxp8kkAAAAAAACAF70lo5rVqnb7fQQAAAAAAABwdwDyPQKG
-  </data>
+ <layer name="WalkBehind" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBANx0BAIgAAGwTAABtEwAAbhMAAG9wEwQAtQQ+uIAXOD3mAv9qe4AF</data>
  </layer>
- <layer name="other" width="60" height="60">
-  <data encoding="base64" compression="zlib">
-   eJzt1sdtwwAQBVE24ADoJtWg0IhCIwqFWCQLMUMhZihEqQSP774SBLjzgLnvv22SSJIU13KeJCta02Y+9jXD27JxR3s6BNh7ZOOJznQJsPfKxpQyygPsLdhYUkV1gL0NG1vqqA+w987GBz3pFWDv2yJJ3umDPhdjXzO8JRtXtKZNgL1bNu5oT4cAe49sPNGZLgH2XtmYUkZ5gL0FG0uqqA6wt2FjSx31AfZKkiT952vG30spZZTPxr5oWN/sK6ikiuqJ7/1hX0MtddRPfO+NfXd60JNeE98rSZIkSZIkSZL05xcPvjHN
-  </data>
+ <layer name="other" height="60" width="60">
+  <data compression="zstd" encoding="base64">KLUv/WBANw0MAIplHAUgkNWCACQpS0kaSImSkVKWDqaFKUaKEcrUiCZEhloba3tmADgAQwA1uSRX5IL8////////////////////////////////////X4/LcTUuxlpciitxIdbhMlyFi7AGLoEr4AK4z/O8zuPc5mle5mHu8iyv8ig3eZIXeZB7PMdrPMYtnuIlHuIOz/AKj3D//////////////////////////39dLstVuSj/////////////////////////////////////B////////////9NlskyViTIV/P///////////////////////////////////zSZJFNkgkwEtbk0V+bC/P///////3/0mTxTZ+JMB////////////////////////////////////z9tJs2UmTCTwf///////////////////////wcPAAkAekDcQNYH/eQHquWNYKQ5f+oFVO0FVO0FVO0FVO0FVO0FVO0FVO0FVO0FVO0FVB34B20=</data>
  </layer>
- <objectgroup name="Moving" width="60" height="60">
-  <object name="border" type="border-left" gid="5124" x="0" y="736">
+ <objectgroup name="Moving" height="60" width="60">
+  <object type="border-left" gid="5124" name="border" x="0" y="736">
    <properties>
     <property name="map" value="3.2"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="208" y="544">
+  <object type="door" gid="5123" name="door" x="208" y="544">
    <properties>
     <property name="map" value="indoor/heal"/>
     <property name="x" value="5"/>
@@ -87,8 +60,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="object" width="60" height="60">
-  <object name="object" type="object" gid="2211" x="240" y="192">
+ <objectgroup name="object" height="60" width="60">
+  <object type="object" gid="2211" name="object" x="240" y="192">
    <properties>
     <property name="item" value="41"/>
    </properties>

@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
+<map tilewidth="16" width="30" height="30" version="1.0" orientation="orthogonal" tileheight="16">
  <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
@@ -8,232 +7,206 @@
  <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
  <tileset firstgid="6161" source="../../../tileset/building-big.tsx"/>
- <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzaENACAQBMGjAJqi1K8UhycB8cmIsbuVpIBjzXu+fb4A0NV44EfTt7cNyxbR8g==
-  </data>
+ <layer width="30" height="30" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUBAHiiAAAAokINogABAKIAAAAJAClAAY1TgRc2yYGEwcIffXtQQQDhQYQZqq4W</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztVkkOgzAMNGfIN3hJKe8sfUnbU7eHdPtDExHEkAZIYkgXdaS5GI0H2XEcohY3ybvmg9wRqnuH71LUtOkL0f1eijqGOhXz8W1yHSVPmlfQXyA+xhAd/mtMpglRpnmA+J7a+BxE2Pq0kqwk1yN94+CTfGPANkcKzdmfEpx5OBu5Kg9fzixgL3Lh5pvr2mWMORJJN5+PL4Jzrv6+w764a0L2Sgl5XHxtM8m9N3zmaCpfn72mMMX+NbVDbPJ+8/4N0fX16Fffk4i05+6dw3fLZGHxXTjouFDvILNOc76J0NdEDN8NvdZwF8E3FE8WVh0o
-  </data>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDS0HAHKEDhnAhRRSRqLJJA9Gnpom4P9P+7/QbzNPWakHA0m6koEAZlPlzhXVwnX1VDA4F8PeDOyEP+TQHROIHw5HqDDPygRwEgVSBG0AEsAQMFAEDUbQJmgIMIaAITgkaBgCRrCERoUMPRfEcdQ6dm0z+ihspTHZ266hcNHo/N1fyrOqp+Th1qwlwATmg0twCf5v+PYdGjl18+8Pfr3Z8+T0LbsYnLB02Vxb7pGPBfgTZsuJAGXdBAcChMseXhJZW8CF0e9BOd6T59enLaNwGsD17Gd+Gd5jddfjpXdPme5oN+ychFgGlwQ=</data>
  </layer>
- <layer name="Dirt" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Dirt">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Grass" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Grass">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesRight" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesRight">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesLeft" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesLeft">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesBottom" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesBottom">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="LedgesTop">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="Water" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+ <layer width="30" height="30" name="Water">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF2ECoKHY2pWaNglEwEgCuNF8qQl93jIJRMNgBofoBV54ZrVdGwSgYBaNgFFALAAD4VQOP
-  </data>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDY0BAEgAAFUVAHUUdRQMAMlNIR6owMEtc4U1Yp7CNVDhPQEGNqhAgbYqDIGDAAIv35hQARY=</data>
  </layer>
- <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzl1slPE1EAx/F34DCSgNo5OSbuFGziBnfApQVJWIIn0oAKCP4NHtha1KvbFVyKekX0yiIgXgW9EmOM8cYi3P02fRNfh9lbQiIv+eTB234z7XszjZYJEUUlrKVC9kWVMXZtYeYVOj/svAOaEKVosJlv9iVlX2dZ/t9n6YtpO+fF6UsosmubbUmbnN0qKa4tbXN9e1VGPa5lN6416P54pAvxGE/wFM+gZfdJAKUh9uUkOe8whff4gCraz5ULcb7c/R7NMbEQuV/IWcYKvuKbzG1mvRaPXHNMzLLXrd+zembMMRvkbOq59i3qbTTSfj2ApiKdJadnkRO7zzZsbpBi5o64nBOnM5R9FqS0f7nHDCGO4wRO4hRO4wwqEEUlqoxcrtu9r0WEWMcGNvEn4vzsrWW9OtTjMq7gKq4hjgQa0Ogj9yB75hAOIwJdd87tYr2buIXb6EYPenEHfejHXR+5F8i5iEuoRo1L7gDrDWIIwxhBCmmM4j4e4KHMVc+KtbSS0ybPTDv1DX3ne6VTvmvGWG8cz/ECL/EKGUzgNd7grZH/7ksFeAZbz/kc/0+z3gxmMYePmMcCFvEJS/hs5MYXq6waufq7rH/I+qesf8n6t1G8zP+peL2bvfrVoj5r9up3XTFyM1rweep7UJ2f/TzcfheqbdbiZ949UZgjNt/jUR/z0iXsjZLwdYdNbtLHuhlMFFA75XrN22/3+xcxNNAg
-  </data>
+ <layer width="30" height="30" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQDY0QAGYUSD7ghicIIiI1ThZCyBBXKXg0qmYOWwh/0KwKr0L2qLRXOWCGNSJKmN6Zz5B0egFPDXj1zmrZ2V9QaJhrmyqfPS4AOABCAL9NMdhX+jv0K/Qb9Av0+2NOd0/La66St68jtU3UlRz5NPYUFlYx/Eq7il/Dr2EKfpZArIkhTSIC4sGh4UEGWlKdWEdEvuJ+G/wy2N+vz1ZCIiAAgC4u27KKl1F8rf1G/UL9Pv06BbwzCenIqIhovI0pKP8nJj49POau1O3o5OBoZGBcWNjU0MzIxMC8uLSw7P7OfhN+EX4PcORtDAH58OjgeHBjtuDnC7zznMrL/NduQeEbWp70DM1BBP8PHvh/0MD/gwX+HyTwgN6WVhbWlVVVj2pK6mlvkmlJKYCfqLG0hkBAQEAgKQAgawAJFDIEAsAQOk4AgBEoYIQlI1ACmAAGohnbsAHueVtYoOkoFx9zO2nJd44i1FO33cmOORvnXzZU0GELr0MZ4aa0296Iy/zP0ztQAtyMLM732xQAUJ31dCmtkIwrQuo6zJ0ElOloX3qsnYHwScsAqAEIHzKNdrsACGTU9VcaZED+8wXQDJCElRv9+FFw3gFIdTsdjNUNylxflF116H2a/aZUrHOqdzpIgtlzFXbCnFbWQSymiSDG9sJbJPTx6vexdA2l9QZLfw7PttAkrvP8i/d6cAN0J0e52+qcEJYK0D0=</data>
  </layer>
- <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztlklOwzAUhg2kpUUli1YsGokdRSp7bgCcBA7AtIObUKDMl2Aed0xr5vESDF9VrFqW4wxNVYH4pU9J/Z5/p4qfX0quECUYBF0jjI0qjLnmMV0DP54lxVufZ5s/lxNiPle/H+5rjMt7NR70vH5eJi2QVzH4ho3Hzf2LSrl10ob367iNuMyZLAgxBdMwA7OFeOuqe06XaV/6qZeYa4nrObb9HKZm4sqvFqTkns9mhOjJmHMqRSEWYQmWoQorsAprsA4bsAlbxfqcJPb3Nl47sAt7sA8HcAhHcAwncApnxebWUnWD1y3cwT08wCM8wTO8wCu8wXuC637g9QlfNU9PiA7ohC5wIAVp6IYMZD17HZ3nhbiAS7iC67y5tvq9aM9Z9sLViKootWVT1BpJsraC+oOqMrU0lIk+rxWq+tR1Uvn/+n2ynRt6XlCOlBPCK2z9xz1b/LzCfE/Kq5pj65/q2aLnBfXdmmSPNPVKW/9UY3qe/D3uCDHhxL/6Ke68VquZ/9uMb7vUrvf7DYOUeYU=
-  </data>
+ <layer width="30" height="30" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQDdUMAMZSNTlAjYIgAMCM2i0AAIB1CxIAAAAAzKjdAiHYG25mUuaQIt9EX1W18HWicnBGM6cngSH5xyR/E18I4QEqACIAIQDPM8o4wrxSGjMoJyYlZ0ggdVEXkmdp5TUdSWUphbNZcagQkNVHxVltVpsQ3oPn4DV4DN6Cp+AleAh24Bl4BR6BN+AJeAHe5wF4LY8lr+/EM/FKjMQb8US8EA/E+/A8vA6Pw9vwNLwMm/AkvAgvQyNDIlD0iTyONJ1fHWtjwvB04cnCU4UnCgvzil4Yr8trQS+LV8WLIlGoUZoEARUiMpDEYA7N2IAKkghKBA0BTIASNCRDwDAcAUQwhBGsAsMEiLGxsQM1bo6vo21+aLqmilDYL0xcWjbL/tKgB+ra1GvQF4n/HV0vw5T6mONfRAWwpwIcKNx2yN4bHWdIATc7WnFiA1vxoN/CPuNiSF9F9kt5Xk7tcyhfQL89mqrZTVE95AQ2M9OY4VEkQT827d9h9cDiKTnuZSem3/sD/uhtpMdH/Eg/LWYfgzNwOtDg8ob3+ELyljtKS9AH</data>
  </layer>
- <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYMANangYGGp5yJPfx4tKo6vFp3cOUHwuEFsD9doAsS0vKhsmj8s9yGajm4VLLz4Qw4tfHmYmLrMJ6R+OYB4Jft5PYnzgA/uIsBcWH/d5MMXIBYTyCqnqiAX40jMxeYZWgFZpvpQHgsvo6BcQyOZB4MEMgHmpYSDsvT9A9lIrPyHnFWIAtjqKXEBuXhmJ9coooByw8DEwsEIxqJ4G1b/IYiDMxoepD1S2oKtBNwsfUAGqUYViUD0Nqn+RxUBYDYu9oLIFXQ26WSCAqyxwAapxRcJufNjF0AHMPHz6QIDadSu96+pRMApgAADjqD1C
-  </data>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0HACIFERuQQQAPAMUAqvoHgMxMB4DVEVIErgga0RkgKnZ/zPKnnMH2XcUfcQPZVwl/QXuiQ4gPWxdZVZsmX+R7PANPQBelZ/QBQqixwkt0PwBQEM3YgA4ScFBwBBzDEFAEDAHHEJQEDAHDkAQUQSuoQmpmcnEFmfG9mWhfC28eX+R1v860D0h4jB3uU9d6RzQcu8flYe2LVBG8p5pMGawFR+69e+sv1z6V9mM7deg8HdCyMF+176Ivy47+Ji+YSK6JL1tjT/152sbuflK+l0HF++yThkT/VX1sy/LZecQwevAjfjxmx0ZxBY4P</data>
  </layer>
- <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-bottom" gid="5124" x="240" y="480">
+ <objectgroup width="30" height="30" name="Moving">
+  <object gid="5124" type="border-bottom" name="border" x="240" y="480">
    <properties>
-    <property name="map" value="0.5"/>
+    <property value="0.5" name="map"/>
    </properties>
   </object>
-  <object name="border" type="border-left" gid="5124" x="0" y="256">
+  <object gid="5124" type="border-left" name="border" x="0" y="256">
    <properties>
-    <property name="map" value="-1.6"/>
+    <property value="-1.6" name="map"/>
    </properties>
   </object>
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+  <object gid="5124" type="border-right" name="border" x="464" y="256">
    <properties>
-    <property name="map" value="1.6"/>
+    <property value="1.6" name="map"/>
    </properties>
   </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
+  <object gid="5124" type="border-top" name="border" x="240" y="16">
    <properties>
-    <property name="map" value="0.7"/>
+    <property value="0.7" name="map"/>
    </properties>
   </object>
-  <object type="rescue" gid="5122" x="224" y="288"/>
-  <object name="door" type="door" gid="5237" x="224" y="160">
+  <object gid="5122" type="rescue" x="224" y="288"/>
+  <object gid="5237" type="door" name="door" x="224" y="160">
    <properties>
-    <property name="map" value="indoor/shop"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
+    <property value="indoor/shop" name="map"/>
+    <property value="5" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5237" x="144" y="272">
+  <object gid="5237" type="door" name="door" x="144" y="272">
    <properties>
-    <property name="map" value="indoor/bank"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
+    <property value="indoor/bank" name="map"/>
+    <property value="5" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="240" y="272">
+  <object gid="5461" type="door" name="door" x="240" y="272">
    <properties>
-    <property name="map" value="indoor/coffee"/>
-    <property name="x" value="5"/>
-    <property name="y" value="10"/>
+    <property value="indoor/coffee" name="map"/>
+    <property value="5" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="208" y="48">
+  <object gid="5461" type="door" name="door" x="208" y="48">
    <properties>
-    <property name="map" value="indoor/house2"/>
-    <property name="x" value="2"/>
-    <property name="y" value="10"/>
+    <property value="indoor/house2" name="map"/>
+    <property value="2" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="160" y="48">
+  <object gid="5461" type="door" name="door" x="160" y="48">
    <properties>
-    <property name="map" value="indoor/house1"/>
-    <property name="x" value="8"/>
-    <property name="y" value="10"/>
+    <property value="indoor/house1" name="map"/>
+    <property value="8" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="128" y="160">
+  <object gid="5461" type="door" name="door" x="128" y="160">
    <properties>
-    <property name="map" value="indoor/house3"/>
-    <property name="x" value="2"/>
-    <property name="y" value="10"/>
+    <property value="indoor/house3" name="map"/>
+    <property value="2" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="16" y="272">
+  <object gid="5461" type="door" name="door" x="16" y="272">
    <properties>
-    <property name="map" value="indoor/house4"/>
-    <property name="x" value="8"/>
-    <property name="y" value="10"/>
+    <property value="indoor/house4" name="map"/>
+    <property value="8" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5461" x="464" y="48">
+  <object gid="5461" type="door" name="door" x="464" y="48">
    <properties>
-    <property name="map" value="indoor/house5"/>
-    <property name="x" value="8"/>
-    <property name="y" value="10"/>
+    <property value="indoor/house5" name="map"/>
+    <property value="8" name="x"/>
+    <property value="10" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="304" y="288">
+  <object gid="5123" type="door" name="door" x="304" y="288">
    <properties>
-    <property name="map" value="indoor/stock-exchange"/>
-    <property name="x" value="12"/>
-    <property name="y" value="18"/>
+    <property value="indoor/stock-exchange" name="map"/>
+    <property value="12" name="x"/>
+    <property value="18" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="336" y="288">
+  <object gid="5123" type="door" name="door" x="336" y="288">
    <properties>
-    <property name="map" value="indoor/stock-exchange"/>
-    <property name="x" value="14"/>
-    <property name="y" value="18"/>
+    <property value="indoor/stock-exchange" name="map"/>
+    <property value="14" name="x"/>
+    <property value="18" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="368" y="288">
+  <object gid="5123" type="door" name="door" x="368" y="288">
    <properties>
-    <property name="map" value="indoor/stock-exchange"/>
-    <property name="x" value="16"/>
-    <property name="y" value="18"/>
+    <property value="indoor/stock-exchange" name="map"/>
+    <property value="16" name="x"/>
+    <property value="18" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="400" y="288">
+  <object gid="5123" type="door" name="door" x="400" y="288">
    <properties>
-    <property name="map" value="indoor/stock-exchange"/>
-    <property name="x" value="18"/>
-    <property name="y" value="18"/>
+    <property value="indoor/stock-exchange" name="map"/>
+    <property value="18" name="x"/>
+    <property value="18" name="y"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="5123" x="432" y="288">
+  <object gid="5123" type="door" name="door" x="432" y="288">
    <properties>
-    <property name="map" value="indoor/stock-exchange"/>
-    <property name="x" value="20"/>
-    <property name="y" value="18"/>
+    <property value="indoor/stock-exchange" name="map"/>
+    <property value="20" name="x"/>
+    <property value="18" name="y"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="30" height="30">
-  <object name="bot" type="bot" gid="5123" x="48" y="96">
+ <objectgroup width="30" height="30" name="Object">
+  <object gid="5123" type="bot" name="bot" x="48" y="96">
    <properties>
-    <property name="file" value="../bots-services"/>
-    <property name="id" value="7"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="terranite"/>
+    <property value="../bots-services" name="file"/>
+    <property value="7" name="id"/>
+    <property value="left" name="lookAt"/>
+    <property value="terranite" name="skin"/>
    </properties>
   </object>
-  <object type="bot" gid="5123" x="176" y="192">
+  <object gid="5123" type="bot" x="176" y="192">
    <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9017"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="miller"/>
+    <property value="../bots-informations" name="file"/>
+    <property value="9017" name="id"/>
+    <property value="left" name="lookAt"/>
+    <property value="miller" name="skin"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="368" y="336">
+  <object gid="5123" type="bot" name="bot" x="368" y="336">
    <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9018"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="waiter"/>
+    <property value="../bots-informations" name="file"/>
+    <property value="9018" name="id"/>
+    <property value="top" name="lookAt"/>
+    <property value="waiter" name="skin"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="96" y="304">
+  <object gid="5123" type="bot" name="bot" x="96" y="304">
    <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9019"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="bankier"/>
+    <property value="../bots-informations" name="file"/>
+    <property value="9019" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="bankier" name="skin"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="320" y="400">
+  <object gid="5123" type="bot" name="bot" x="320" y="400">
    <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9020"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="girl"/>
+    <property value="../bots-informations" name="file"/>
+    <property value="9020" name="id"/>
+    <property value="left" name="lookAt"/>
+    <property value="girl" name="skin"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="5123" x="256" y="64">
+  <object gid="5123" type="bot" name="bot" x="256" y="64">
    <properties>
-    <property name="file" value="../bots-informations"/>
-    <property name="id" value="9021"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="player"/>
+    <property value="../bots-informations" name="file"/>
+    <property value="9021" name="id"/>
+    <property value="left" name="lookAt"/>
+    <property value="player" name="skin"/>
    </properties>
   </object>
  </objectgroup>

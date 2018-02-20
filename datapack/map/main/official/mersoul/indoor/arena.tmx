@@ -1,5 +1,4 @@
-
-<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="16" tileheight="16">
+<map tileheight="16" width="15" height="15" orientation="orthogonal" tilewidth="16" version="1.0">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
@@ -7,48 +6,32 @@
  <tileset firstgid="3089" source="../../../../tileset/terra.tsx"/>
  <tileset firstgid="4113" source="../../../../tileset/animation.tsx"/>
  <tileset firstgid="5137" source="../../../../tileset/rename.tsx"/>
- <layer name="Walkable" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJz7zsPA8H0Y4ny+4W0frewvGGB/jEQMAMDj4Y0=
-  </data>
+ <layer width="15" name="Walkable" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAt0AAEj3DAAA928OcA4FAGuuAlhxODcqtDmkGIq6Wg==</data>
  </layer>
- <layer name="Other" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo4AyUMA30C6gLRAUYGCwg9K0AADO1gD/
-  </data>
+ <layer width="15" name="Other" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAsUAAFAAAHAOABEQAAA+BAABJngzrQXU+FEBLA==</data>
  </layer>
- <layer name="Water" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBhYICiAn0+KGdhodDFkcWR5atuPzWxi1RCyhxj7salBDw9c4UPIflxhRsi/6DQh/xPyFz5xYvVQ4m9qAQDTYQc5
-  </data>
+ <layer width="15" name="Water" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAjUCAFAAABEQERAAAAAAFQCCT8C9OeEqHHYY2PZPeLIkuAeJr00UMyC4P40PrBlrGOHoCF/YIAZmwp1y/ERgBUKOcIKZCN4pwAI=</data>
  </layer>
- <layer name="other" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBhYsIoXlZ/Fi10dPgDTkwmlz/JAaE8gv4sX055OXogcCJ/jQTVLkwz7YfbBzIKZ34XFLJhbO3HYjw/gchvM/jM8qHYgg/M8EPtgas7yoNpPjL9hatDVaqKFPzLIQtOjieb/13j8j64H3XyYOLp/O/H4Cz2tYHMzLj8Qo5YcAADBMRxn
-  </data>
+ <layer width="15" name="other" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAi0EAAQDAACqDWoNac0MSQ0AAIoNiQ0AAEnODCnODIoNiSkNzAzPDM0MKQ0pDWnrDGlqiWkNIACCm4BjhIkvRIytOQ46tkctzgHhwOrxtYC5Ce9OBQcID4zEoxrmaPHRsrErIhzGwLb7MhuPIXEOLR6Y6LoS765egy9g4ErGV82WVxCeKeOdAiw=</data>
  </layer>
- <layer name="Collisions" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAIEIGXgzFJmRgmF5ywKjeUb2DVS+5+QgAtl8Xxw==
-  </data>
+ <layer width="15" name="Collisions" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAuUAADijAAAAFKM0BwBdKk7gBCrQjfBVAYN4IGNw3jc=</data>
  </layer>
- <layer name="Other" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCQAAAOEAAE=
-  </data>
+ <layer width="15" name="Other" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAk0AABAAAAEAfyuABQ==</data>
  </layer>
- <layer name="WalkBehind" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCQAAAOEAAE=
-  </data>
+ <layer width="15" name="WalkBehind" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAk0AABAAAAEAfyuABQ==</data>
  </layer>
- <layer name="other" width="15" height="15">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCQAAAOEAAE=
-  </data>
+ <layer width="15" name="other" height="15">
+  <data encoding="base64" compression="zstd">KLUv/WCEAk0AABAAAAEAfyuABQ==</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="door" type="door" gid="1027" x="112" y="240">
+ <objectgroup width="0" name="Moving" height="0">
+  <object x="112" gid="1027" y="240" name="door" type="door">
    <properties>
     <property name="map" value="../2.4"/>
     <property name="x" value="21"/>
@@ -56,8 +39,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="0" height="0">
-  <object name="bot" type="bot" gid="1027" x="144" y="64">
+ <objectgroup width="0" name="Object" height="0">
+  <object x="144" gid="1027" y="64" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7029"/>
@@ -65,7 +48,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="192" y="176">
+  <object x="192" gid="1027" y="176" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7030"/>
@@ -73,7 +56,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="16" y="48">
+  <object x="16" gid="1027" y="48" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7031"/>
@@ -81,7 +64,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="208" y="48">
+  <object x="208" gid="1027" y="48" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7027"/>
@@ -89,7 +72,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="48" y="128">
+  <object x="48" gid="1027" y="128" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7023"/>
@@ -97,7 +80,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="16" y="192">
+  <object x="16" gid="1027" y="192" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7028"/>
@@ -105,7 +88,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="16" y="224">
+  <object x="16" gid="1027" y="224" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7027"/>
@@ -113,7 +96,7 @@
     <property name="skin" value="player"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="192" y="112">
+  <object x="192" gid="1027" y="112" name="bot" type="bot">
    <properties>
     <property name="file" value="../../bots-fights"/>
     <property name="id" value="7028"/>

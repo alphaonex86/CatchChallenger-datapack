@@ -1,49 +1,36 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
+<map width="11" height="12" orientation="orthogonal" tileheight="16" tilewidth="16" version="1.0">
  <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
  <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
  <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsBiI2YnAi6FYHQt+goU/igcHJgUAAFh3XRQ=
-  </data>
+ <layer width="11" height="12" name="Walkable">
+  <data compression="zstd" encoding="base64">KLUv/WAQAeUAAEijAAAAowejJ+QHALkmIAIVZiIHEgOZAOQFXC0=</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAOsCVCTSwHlKaSndQGcPdxECc+2MyVpYK5AJQwBdk=
-  </data>
+ <layer width="11" height="12" name="Other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAQ0BAEAAAD1dCAAIHQgAAKhstkDBDrjR02Ly0ruSoaNINihoAw==</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJzjYGBg4CASa+DBobyo/O0sCIwN4JO3A1q2H4jrObDrJQXgMotSO4aSuYtJwAC+0hi6
-  </data>
+ <layer width="11" height="12" name="Collisions">
+  <data compression="zstd" encoding="base64">KLUv/WAQAZ0BAJgIAAAACChVDbcEPggAAL9/CACjDADspny3QMHODA+egV9pvIAO1YQ7gQvjmTKCkFHeNw==</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYGBgEGVhwAuQ5U0JqCUkPwoGNwAAM+cApQ==
-  </data>
+ <layer width="11" height="12" name="Other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAcUAAEAAAAAAFQQANQUAuq4KAICnmhuqCzYwAg==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYEAFWiwMDNpArAPEpryoctOBYtNYIDQIeAFpbyD2YUGVn8bCgAHkOBgY5gNxPAemHKkAl1mU2jHUzKUFAACsRQ3I
-  </data>
+ <layer width="11" height="12" name="WalkBehind">
+  <data compression="zstd" encoding="base64">KLUv/WAQAS0CAMgAACoEAAArLDUNl5YESktMBB4IAACfXwgAEgABE4y3QMHODA+egV1puIDi5gAAGErGHcBcENyBlRYBwH7KDQDCBbQMsA==</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer width="11" height="12" name="other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="door" type="door" gid="1027" x="80" y="192">
+ <objectgroup width="0" height="0" name="Moving">
+  <object gid="1027" type="door" x="80" y="192" name="door">
    <properties>
     <property name="map" value="../-1.0"/>
     <property name="x" value="10"/>
     <property name="y" value="14"/>
    </properties>
   </object>
-  <object name="door" type="door" gid="3413" x="112" y="32">
+  <object gid="3413" type="door" x="112" y="32" name="door">
    <properties>
     <property name="map" value="../-1.0"/>
     <property name="x" value="10"/>
@@ -51,8 +38,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="11" height="12">
-  <object name="bot" type="bot" gid="1027" x="112" y="144">
+ <objectgroup width="11" height="12" name="Object">
+  <object gid="1027" type="bot" x="112" y="144" name="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9038"/>
@@ -60,7 +47,7 @@
     <property name="skin" value="nastykid1"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="144" y="144">
+  <object gid="1027" type="bot" x="144" y="144" name="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9039"/>
@@ -68,7 +55,7 @@
     <property name="skin" value="nastykid2"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="112" y="112">
+  <object gid="1027" type="bot" x="112" y="112" name="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9040"/>
@@ -76,7 +63,7 @@
     <property name="skin" value="kid1"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="16" y="112">
+  <object gid="1027" type="bot" x="16" y="112" name="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9041"/>
@@ -84,7 +71,7 @@
     <property name="skin" value="kid2"/>
    </properties>
   </object>
-  <object name="bot" type="bot" gid="1027" x="80" y="48">
+  <object gid="1027" type="bot" x="80" y="48" name="bot">
    <properties>
     <property name="file" value="../../bots-informations"/>
     <property name="id" value="9063"/>

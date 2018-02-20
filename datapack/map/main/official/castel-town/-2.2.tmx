@@ -1,97 +1,70 @@
-
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
- <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
- <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+<map tilewidth="16" version="1.0" orientation="orthogonal" width="30" tileheight="16" height="30">
+ <tileset source="../../../tileset/terra.tsx" firstgid="1"/>
+ <tileset source="../../../tileset/wood.tsx" firstgid="1025"/>
+ <tileset source="../../../tileset/rename.tsx" firstgid="2049"/>
+ <tileset source="../../../tileset/building-town.tsx" firstgid="3073"/>
+ <tileset source="../../../tileset/building-small.tsx" firstgid="4097"/>
+ <tileset source="../../../tileset/invisible.tsx" firstgid="5121"/>
+ <tileset source="../../../tileset/animation.tsx" firstgid="5137"/>
  <layer name="Walkable" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwwENAAAMw6DOv+kLOSSsmqqqqu8ezqADhQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
  </layer>
  <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF2AAbELMDMQed7VWD0hqj9g5Le92A2B2IPaD8h0D8CIgf09kdjIwMDExAzMw4ai8tgSLQPiUgVqazvcQCUPqjd9oDAcYBiAuQX1VHUNobTfOI8pXeABYGo2AUjIJRMFQAANxeCqU=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDeUCADJFCxPAFxAAD////3cJXJK8RBX5TNL3v07Iac/pjme8YsED3p7XqTnzRfkniQ8XDg0AmEEFFGABFcQDmiL2e6IqfFwpeyCFEpeaW67al5sQuId6D+pZIEUTKsAC</data>
  </layer>
  <layer name="Dirt" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFgw2oj9o7rO0dBZQDNiBmR8IcdLJXjQGSbmBYg072ugGxOxL2oJO9o2AUjIJRMApGwSgY/gAA3N4C5g==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDc0BALgAACcABgAAAAcIACYAAAAnKEYAAABHSAsAmYIfcH8Jdd1YiZuYG7/xpvbGHwSq/e1BDQkm/KgCLA==</data>
  </layer>
  <layer name="Grass" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFlABGDux4uNuLiz+c7MUWrsPZXnxuGbV3FAwVMJzLJGR7Rkqdg24/vQE97cUVxrR2w0DZOwpGwSgYPAAAeaMCmw==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0CAGAAAAEIAAAAAAAAAQgSAClABcMTZRUABw8m2N0AAFh6JKtAuTNTQH0oU5AEVHgDCgAM1oDCW6Cq7yGFBhNwFbyjAiw=</data>
  </layer>
  <layer name="LedgesRight" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesLeft" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="LedgesBottom" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJzt0jEKACAQA8HcP0T8/yttxf7QYgbSp9gEoN+oZB5b9foR9Ll71z0Av9qENQF1
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDQ0BAEgAABwBAAAeIAEGALlxFbDbJyrMEwXY9k9U7Br6jB9gAQ==</data>
  </layer>
  <layer name="LedgesTop" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
  </layer>
  <layer name="Water" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzTENAAAIBLEXgRH8m0MCCwNDm9x8CQD80bXn6wvAjQGElgwi
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDbUAACAAADEUBQAdwQ/me1ABAQpcB0/6Ayw=</data>
  </layer>
  <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGD9gJxLvw4N00svcmAfnbo/ZSBfwE4l948G8a2UsLMFEElaZU3VCxexSMglEwvAAALrcZmQ==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDcUBAKgAALkAAAC6uwDZANv5AAAA+vsAkRQLABvMnj/kH6dwqQJWXnx6KfxCJdqxyoDYxp2aG75Jf9AG</data>
  </layer>
  <layer name="Collisions" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztlVkKgDAMRP3wBv0VpHetN9F7qmBwQc1MGkWkD0oqXfRh0qa6qrqpJTIK7DqJ/dQGQxSs61m/mSas/Tbsva+w+mpo8zx873y056d9tTzw8kX9vX1Rf9aXzVcvX4nx4t1snd95MM5WX4vDF3zP2P4T6Xv7oiC+R9AzCdmDcUDPJGSPHF92fCYutZjjy46z33icq9UmgsVXq03G4W08apJB8oq9j7wiex95xeJbfP/kOwJAmkpI
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDb0FABQChAQAAIUEAACEAAAAAAAAAACEpAQAAKUcEwAfEyEEIQQhPgDQQAUKJAAavJUErgBbhAOACAQRvDvBIALXgd0IcA58Fg7sRuA24Drwd949dWIoHAZMcPcE1wHcDb8knwBGCEpoFwUvHuKcqCCFQQQDKHw0EQQlCB6CIgig8CwRwQAUwA0PJrgFNJgACmAuhX1qg8vA3ROWcgBE6NycACDYG4mBNo6DqwfB3AOuBnaR5oDPw+geAQ==</data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgYkMLCwJDKQpgm1hxi7RkoQCv/4uIPF//iMheXPbQCLUCzW0lIZ+T6m5D6wRa/+OSIcetI8y817KMHIMV+YsskatlHC0CJfykxa6AAOf4drHmTGDAU3EhNQGp9RC161L+j/h3179AB6P4FAIX6Z/A=
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0DAKgAAGQEAABlBAAAAAAAAACEBAAAhQQaAACBAlI4CipoKylMN4XdVEHB/yxSGJDCf5oUooCCX5IleAAK4iUEzE2Fj2bCZnxR8CwRgQKpfJBWFVBwBDDnT901oLiEErx4mSnAAg==</data>
  </layer>
  <layer name="Other" width="30" height="30">
-  <data encoding="base64" compression="zlib">
-   eJztzbENACAMA0HPkP1Hg7AIUkiZlhQU6E/61pbuDZNm5tmyxkDTLl/x8BcAAAAAfnQAM2QF3g==
-  </data>
+  <data encoding="base64" compression="zstd">KLUv/WAQDSUBAKgAANwSAADdEgAA3hIAAN8SAPz/EgAEAFJ1fl4cXwak9Qi0AQ==</data>
  </layer>
  <objectgroup name="Moving" width="30" height="30">
-  <object name="border" type="border-right" gid="5124" x="464" y="256">
+  <object gid="5124" x="464" type="border-right" y="256" name="border">
    <properties>
-    <property name="map" value="../symposia/-1.2"/>
+    <property value="../symposia/-1.2" name="map"/>
    </properties>
   </object>
-  <object name="border" type="border-top" gid="5124" x="240" y="16">
+  <object gid="5124" x="240" type="border-top" y="16" name="border">
    <properties>
-    <property name="map" value="-2.3"/>
+    <property value="-2.3" name="map"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object" width="30" height="30">
-  <object type="bot" gid="5123" x="304" y="224">
+  <object gid="5123" x="304" type="bot" y="224">
    <properties>
-    <property name="fightRange" value="2"/>
-    <property name="file" value="../bots-fights"/>
-    <property name="id" value="7002"/>
-    <property name="lookAt" value="left"/>
-    <property name="skin" value="girl"/>
+    <property value="2" name="fightRange"/>
+    <property value="../bots-fights" name="file"/>
+    <property value="7002" name="id"/>
+    <property value="left" name="lookAt"/>
+    <property value="girl" name="skin"/>
    </properties>
   </object>
  </objectgroup>

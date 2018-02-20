@@ -1,57 +1,46 @@
-
-<map version="1.0" orientation="orthogonal" width="11" height="12" tilewidth="16" tileheight="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
- <layer name="Walkable" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYEAFi6EYG2hGwzC1KlgwutpRPHCYFAAAOaI39g==
-  </data>
+<map version="1.0" height="12" width="11" tileheight="16" tilewidth="16" orientation="orthogonal">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="2065"/>
+ <layer height="12" width="11" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQAd0AADAAAKODJIMIALkmIAL13MRPFebKDNTci8mgDQ==</data>
  </layer>
- <layer name="Other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFgxW8YmRgkAfSCkSo5WJiYLAH0g4U2gkAq7UBtg==
-  </data>
+ <layer height="12" width="11" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAQUBAIAAAOoBAAAfIAAKAgAAP0AABQBzJewC2nXwC+hLFWAB</data>
  </layer>
- <layer name="Collisions" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxbzMDAsJhGmJ0IDFOrTgSGqcUF7FgYGOyB2IGFsFpkgKx2ElDvJSCezEJY7Sagmk9AvJkItaS4gRZqicUAgmMnRw==
-  </data>
+ <layer height="12" width="11" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQAQ0CAMCjAAAAowcnPgQAAD9ABJIEAADSkwSy8rMSAEEJDqQAZgDjAYABQLgOdgEFXIADvCN+AXVXgALccU/FAfBLpqsF</data>
  </layer>
- <layer name="other" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFowABAAIQAAE=
-  </data>
+ <layer height="12" width="11" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
  </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAfEOZgYBDhIE6tMVCdCRDLsTAwyAOxAgtt3TYKIAAAntsBGA==
-  </data>
+ <layer height="12" width="11" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQASUBAJAAABMIAAAUCDM0HgQAAB8gBAAGAGKvOl5AAcAAID71lJMCLA==</data>
  </layer>
- <objectgroup name="Moving" width="11" height="12">
-  <object name="teleport on push" type="teleport on push" gid="1027" x="80" y="192">
+ <objectgroup height="12" width="11" name="Moving">
+  <object type="teleport on push" gid="1027" x="80" y="192" name="teleport on push">
    <properties>
-    <property name="map" value="../0.2"/>
-    <property name="x" value="19"/>
-    <property name="y" value="25"/>
+    <property value="../0.2" name="map"/>
+    <property value="19" name="x"/>
+    <property value="25" name="y"/>
    </properties>
   </object>
-  <object name="teleport on push" type="teleport on push" gid="1027" x="96" y="192">
+  <object type="teleport on push" gid="1027" x="96" y="192" name="teleport on push">
    <properties>
-    <property name="map" value="../0.2"/>
-    <property name="x" value="19"/>
-    <property name="y" value="25"/>
+    <property value="../0.2" name="map"/>
+    <property value="19" name="x"/>
+    <property value="25" name="y"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Object" width="11" height="12">
-  <object name="bot" type="bot" gid="1027" x="48" y="96">
+ <objectgroup height="12" width="11" name="Object">
+  <object type="bot" gid="1027" x="48" y="96" name="bot">
    <properties>
-    <property name="file" value="../../bots-services"/>
-    <property name="id" value="2"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="dramed"/>
+    <property value="../../bots-services" name="file"/>
+    <property value="2" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="dramed" name="skin"/>
    </properties>
   </object>
  </objectgroup>
