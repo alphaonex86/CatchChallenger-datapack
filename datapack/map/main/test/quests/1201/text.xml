@@ -1,0 +1,32 @@
+<text>
+    <client_logic id="1">
+        <text><![CDATA[I need help.<br />
+            Elofly destroy all farm.<br />
+            <br />
+            <a href="next_quest_step;42">Can you hunt without killing for me ?</a>]]></text>
+        <text lang="fr"><![CDATA[J'ai besoin d'aide.<br />
+            Elofly détruise les fermes.<br />
+            <br />
+            <a href="next_quest_step;42">Pourrai tu les chasser sans les tués, pour moi ?</a>]]></text>
+    </client_logic>
+    <client_logic id="42">
+        <text><![CDATA[I wait you with the 5 feather]]></text>
+        <text><![CDATA[Je t'attend içi avec les 5 plumes]]></text>
+    </client_logic>
+    <client_logic id="50">
+        <text><![CDATA[Do you have the 5 feather for me?<br />
+            <br />
+            <a href="next_quest_step;52">Yes I have it</a>]]></text>
+        <text lang="fr"><![CDATA[Tu as les 5 plumes pour moi ?<br />
+            <br />
+            <a href="next_quest_step;52">Ok, j'ai tout</a>]]></text>
+    </client_logic>
+    <client_logic id="52">
+        <text><![CDATA[Thanks, you have finish my quest.]]></text>
+        <text lang="fr"><![CDATA[Merci,tu as rendu un grand service au village.]]></text>
+    </client_logic>
+    <client_logic id="53">
+        <text><![CDATA[You don't have the requiered quantity.]]></text>
+        <text lang="fr"><![CDATA[Tu n'en a pas chassé assez.]]></text>
+    </client_logic>
+</text>

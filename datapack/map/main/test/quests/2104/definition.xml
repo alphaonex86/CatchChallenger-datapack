@@ -1,0 +1,18 @@
+<quest bot="2013" repeatable="no">
+    <name><![CDATA[Polyrock hurting]]></name>
+    <name lang="fr"><![CDATA[Chasse au Polyrock]]></name>
+    <requirements>
+        <quest id="2000"/>
+    </requirements>
+    <step id="1">
+        <text><![CDATA[Hunt 12 Polyrock and come back to see me ]]></text>
+        <text lang="fr"><![CDATA[Chassé 12 Polyrock]]></text>
+        <item id="4006" quantity="1" rate="8%" monster="5"/>
+    </step>
+    <rewards show="true">
+        <item id="3009"/>
+        <item id="1005"/>
+        <item id="1004" quantity="3"/>
+        <reputation point="-1" type="nation"/>
+    </rewards>
+</quest>

@@ -1,0 +1,41 @@
+<text>
+    <client_logic id="1">
+        <text><![CDATA[So, kid you are hot for fight the centurie!. </a> <br />
+          I just spotted a small army group. <br />
+         <br />
+         <a href="next_quest_step;42"> "I will bust the centurie"</a><br />]]></text>
+        <text lang="fr"><![CDATA[Alors petit tu est chaud pour combattre de la centurie !.</a><br />
+         J'ai justement repéré un petit groupe armée.<br /> 
+        <br />
+        <a href="next_quest_step;42">"Je vais les casser en deux"</a><br />]]></text>
+    </client_logic>
+    <client_logic id="2">
+        <text><![CDATA[Be careful , kid.]]></text>
+        <text lang="fr"><![CDATA[Fait attention à toi petit.]]></text>
+    </client_logic>
+    <client_logic id="42">
+        <text><![CDATA[The Centuria is just before the road 8 in grass]]></text>
+        <text lang="fr"><![CDATA[La centurie ce trouve juste avant la route 8, dans les herbes]]></text>
+    </client_logic>
+
+    <client_logic id="52">
+        <text><![CDATA[That's all I told you ...<br />]]></text>
+        <text lang="fr"><![CDATA[Voilà je t'ai tout dit...<br />]]></text>     
+    </client_logic>
+    <client_logic id="12">
+        <text><![CDATA[So what ?<br />
+         <br />
+         <a href="next_quest_step;14"> "Mission success" </a> <br />]]></text>
+        <text lang="fr"><![CDATA[Alors ?<br />
+        <br />
+        <a href="next_quest_step;14">"Mission accomplie"</a><br />]]></text>     
+    </client_logic>
+    <client_logic id="14">
+        <text><![CDATA[Good job kid <br />
+          You learn quickly. <br />
+           Now we can move on to the serious stuff with you.]]></text>
+        <text lang="fr"><![CDATA[Bon travail petit <br /> 
+          tu apprends rapidement. <br /> 
+          Maintenant, nous pouvons passer aux choses sérieuses.]]></text>
+    </client_logic>
+</text>

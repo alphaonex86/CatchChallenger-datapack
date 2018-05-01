@@ -1,0 +1,7 @@
+<industries>
+    <industrialrecipe cycletobefull="10" time="1080" id="1">
+        <resource id="2000" quantity="4"/>
+        <resource id="2003" quantity="2"/>
+        <product id="2005" quantity="2"/>
+    </industrialrecipe>
+</industries>
