@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="12" height="9" tilewidth="16" tileheight="16" infinite="0" nextobjectid="4">
+ <tileset firstgid="1" source="tileset-1.tsx"/>
+ <tileset firstgid="1025" source="tileset-2.tsx"/>
+ <tileset firstgid="2049" source="tileset-3.tsx"/>
+ <tileset firstgid="3073" source="tileset-4.tsx"/>
+ <tileset firstgid="4097" source="tileset-5.tsx"/>
+ <tileset firstgid="4097" source="tileset-6.tsx"/>
+ <tileset firstgid="5121" source="tileset-7.tsx"/>
+ <tileset firstgid="6145" source="tileset-8.tsx"/>
+ <tileset firstgid="7169" source="invisible.tsx"/>
+ <layer name="Walkable" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtuMnIwHALiG9DaWR8B4jvItH3oOrogW+RoI5Ytcg4k5+BIYsfvzkgPgwIQTEhAACpPj06
+  </data>
+ </layer>
+ <layer name="Collisions" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAWYwMGAAkhoyRwS4s6kFiyHgUUB8AANgdBq8=
+  </data>
+ </layer>
+ <layer name="Collisions" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJybycjAMAuIQWA2IwLDxJDBPKDYTiDeBcQF7AwMuxkRGCS2B4j3ItH7kMyYwI5pHj6wgUj1K4HqVgHxBTT13UB+Dxaxk0B8CovZq4Fia9gxxXCB00C5M+yYYqQCPg4IRufjwgCmmBkc
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="12" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgaIJudgSGHHVNspAEAWK4BWA==
+  </data>
+ </layer>
+ <objectgroup name="Moving">
+  <object id="1" type="teleport on push" gid="7171" x="32" y="144" width="16" height="16">
+   <properties>
+    <property name="map" value="city"/>
+    <property name="x" value="11"/>
+    <property name="y" value="33"/>
+   </properties>
+  </object>
+  <object id="2" type="teleport on push" gid="7171" x="48" y="144" width="16" height="16">
+   <properties>
+    <property name="map" value="city"/>
+    <property name="x" value="11"/>
+    <property name="y" value="33"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object">
+  <object id="3" type="bot" gid="7169" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="file" value="shop-bots"/>
+    <property name="id" value="302"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="185"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
