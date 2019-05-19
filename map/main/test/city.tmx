@@ -28,7 +28,12 @@
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDbUAACAAAB8QBQC5ww9le1ChgBTsZPzGD7A=
+   KLUv/WAQDe0AADAAAB8Q3xAHgCCDDw2m3SBq+Mv2oC4gtZN94wcj
+  </data>
+ </layer>
+ <layer name="LedgesBottom" width="30" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAQDYUAACAAAB4BAwBVQMFuwCv1ARY=
   </data>
  </layer>
  <layer name="Water" width="30" height="30">
@@ -48,12 +53,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDY0HAOJMIilwaQABZEvBESIypZmZCACm2QOQtDBDDpBmnwwgrJShhun1T1MST5zeAcngVHAiOA2cBDDexbN4FZO8yIO8x3MkySlygpweJ8co3sSTeBGlcWUuzHW5LNN4mYd5l2cZw1t4Ci+hKhflmlzP5azyKG/ynuc0z3PjIIdRQ7MRMAIYQYweNhkjhNFBMaCxBiSBSCAxROkBEAOrgB0zUlxHZuKMFNeRIssEeGG6x2LGVovdFhstkk222tF85j8fXgV7vsjsPb7nQm1+VrshouMZFD3HXbl+cXf7tb25EuuOqWtA+zzT95YFA2riz1NDBxQ=
+   KLUv/WAQDVUIANJMIilwaQABZEvBESIypZmZCACm2QOQtDBDDpBmnwwgrJShhun1T1MST5zeAQanghPBaeAkgPEunsWrmORFHuQ9niNJTpET5PQ4OUbxJp7EiyiNK3NhrstlmcbLPMy7PMsY3sJTeAlVuSjX5HouZ5VHeZP3PKd5nhsHOYwamo2AEcAIYvSwyRghjA4COqDxBiOBSCCZWdAD0IKiwQwG8wiJ73A7sjc6aMQ8ksR3+I7cW6Q/S1LrHRPahtlmYrLb3KaFB36+BWzHxY2XI94m/W0hLZd37bl6gsRBPW80e4nreVF3f0uMMaDRORg6x/lS+OrsLWt/c2dYO6CqEe1zSu8oLawoD3igGnqi
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDQ0DAIIEDRfAFUAA/x/j/3/+//+1UvqcW/TZQzITDz/SSHd4hld4hELXucxVLnLonWdeeWQAUAwWggMOAE0sE5prAArs2EPARVcOLAC+ABjwomDmOFX9hG1BZD2B6pyDao/yAyw=
+   KLUv/WAQDUUDAHIEDRfAFUAA/x/j/3/+//+1UvqcW/TZQzITDz/SSDs8wys8QqHrXOYqFzn0zjOvPDIAKAYLwQERAE2sCd2YEyprAArs2EMcF1cKzHxhjUAAMOBFwc6BUgAco2XcBnPwBKpzDqo9yg+w
   </data>
  </layer>
  <objectgroup name="Moving">

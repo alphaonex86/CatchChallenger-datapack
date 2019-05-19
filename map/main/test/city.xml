@@ -4,21 +4,18 @@
     <description>City of test</description>
     <description lang="fr">Ville de test</description>
     <water>
-        <monster id="72" minLevel="15" maxLevel="24" luck="90"/>
-        <monster id="73" minLevel="20" maxLevel="24" luck="10"/>
+        <monster id="19" minLevel="2" maxLevel="5" luck="99"/>
+        <monster id="20" level="4" luck="1"/>
     </water>
     <waterRod>
-        <monster id="72" level="10" luck="15"/>
-        <monster id="129" level="10" luck="85"/>
+        <monster id="19" minLevel="5" maxLevel="10" luck="98"/>
+        <monster id="20" minLevel="7" maxLevel="12" luck="2"/>
     </waterRod>
     <waterSuperRod>
-        <monster id="72" level="20" luck="35"/>
-        <monster id="90" level="20" luck="10"/>
-        <monster id="129" level="20" luck="35"/>
-        <monster id="170" level="20" luck="20"/>
+        <monster id="19" minLevel="10" maxLevel="25" luck="95"/>
+        <monster id="20" minLevel="20" maxLevel="27" luck="5"/>
     </waterSuperRod>
     <lava>
-        <monster id="72" minLevel="15" maxLevel="24" luck="90"/>
-        <monster id="73" minLevel="20" maxLevel="24" luck="10"/>
+        <monster id="1" minLevel="16" maxLevel="24"/>
     </lava>
 </map>
