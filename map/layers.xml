@@ -7,7 +7,8 @@
         <event id="day" value="night" monsterType="grassNight;grass"/>
     </monstersCollision>
     <monstersCollision item="31" tile="swim" background="fight/water/" layer="Water" type="walkOn" monsterType="water"/>
-    <monstersCollision item="100" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="water"/>
-    <monstersCollision item="2012" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="water2"/>
+    <monstersCollision item="100" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="waterRod"/>
+    <monstersCollision item="101" tile="fish" background="fight/water/" layer="Water" type="actionOn" monsterType="waterSuperRod"/>
+    <monstersCollision item="32" tile="swim" background="fight/cave/" layer="Lava" type="walkOn" monsterType="lava"/>
     <!-- Can show different monster if you want, depanding of the object use, only with type="actionOn"  -->
 </layers>

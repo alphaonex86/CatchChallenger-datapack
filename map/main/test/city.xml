@@ -3,4 +3,22 @@
     <name lang="fr">Test en fr</name>
     <description>City of test</description>
     <description lang="fr">Ville de test</description>
+    <water>
+        <monster id="72" minLevel="15" maxLevel="24" luck="90"/>
+        <monster id="73" minLevel="20" maxLevel="24" luck="10"/>
+    </water>
+    <waterRod>
+        <monster id="72" level="10" luck="15"/>
+        <monster id="129" level="10" luck="85"/>
+    </waterRod>
+    <waterSuperRod>
+        <monster id="72" level="20" luck="35"/>
+        <monster id="90" level="20" luck="10"/>
+        <monster id="129" level="20" luck="35"/>
+        <monster id="170" level="20" luck="20"/>
+    </waterSuperRod>
+    <lava>
+        <monster id="72" minLevel="15" maxLevel="24" luck="90"/>
+        <monster id="73" minLevel="20" maxLevel="24" luck="10"/>
+    </lava>
 </map>

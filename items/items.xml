@@ -144,6 +144,12 @@ consumeAtUse="true"
         <description>Used to navigate on the water</description>
         <description lang="fr">Permet de naviguer sur l'eau</description>
     </item>
+    <item price="0" id="32" image="other/supersurfboard.png">
+        <name>Super Surfboard</name>
+        <name lang="fr">Super Planche de surf</name>
+        <description>Used to navigate on the lava</description>
+        <description lang="fr">Permet de naviguer sur la lave</description>
+    </item>
     <item price="1000" id="40" image="evolution/evol-plant-crystal.png">
         <name>Plant crystal</name>
         <name lang="fr">Cristal de plante</name>
@@ -180,9 +186,15 @@ consumeAtUse="true"
         <description lang="fr">Permet certaine évolution</description>
         <description>Allow some evolution</description>
     </item>
-        <item price="10" id="100" image="other/fishing-rod.png">
+    <item price="10" id="100" image="other/fishing-rod.png">
         <name>Fishing rod</name>
         <name lang="fr">Canne à péche</name>
+        <description lang="fr">Permet de pécher</description>
+        <description>Allows you fishing</description>
+    </item>
+    <item price="1000" id="101" image="other/super-fishing-rod.png">
+        <name>Super Fishing rod</name>
+        <name lang="fr">Super Canne à péche</name>
         <description lang="fr">Permet de pécher</description>
         <description>Allows you fishing</description>
     </item>
