@@ -1,64 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="15">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="28">
  <tileset firstgid="1" source="../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
- <tileset firstgid="3073" source="../../tileset/building-town.tsx"/>
- <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
- <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
- <tileset firstgid="5137" source="../../tileset/animation.tsx"/>
- <tileset firstgid="6161" source="../../tileset/door.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/building-small.tsx"/>
+ <tileset firstgid="4097" source="../../tileset/invisible.tsx"/>
+ <tileset firstgid="4113" source="../../tileset/animations.tsx"/>
+ <tileset firstgid="5137" source="../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="6161" source="../../tileset/missing.tsx"/>
+ <tileset firstgid="7185" source="../../tileset/t1.tsx"/>
+ <tileset firstgid="8209" source="../../tileset/t2.tsx"/>
+ <tileset firstgid="9233" source="../../tileset/t3.tsx"/>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDV0AACABAAAAAQAJ3ndE
+   KLUv/WAQDfUBAIgBAAAAsh4BAP4yHTIdMh0yHROgMKdjMAOMD0FqcbKl9VvZmSz1y6L3qnj+USL94JzmNFOx2nuqjfaHcrSm
   </data>
  </layer>
- <layer name="other" width="30" height="30">
+ <layer name="Dirt" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDU0AABAAAAEAC/YBFg==
+   KLUv/WAQDbUAACAAAOEdBQARwQ99DykkkMAOxv//AAs=
   </data>
  </layer>
- <layer name="other" width="30" height="30">
+ <layer name="OverWalkable" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDU0AABAAAAEAC/YBFg==
-  </data>
- </layer>
- <layer name="other" width="30" height="30">
-  <data encoding="base64" compression="zstd">
-   KLUv/WAQDU0AABAAAAEAC/YBFg==
+   KLUv/WAQDbUFACIEDxqwBwAp2wJlJEck4wggEHYSq1N0RgI4/RgAHpcYvokMVTKnafJFvsflAtL32q5olB6vQhf0tMssX+XA+DagIM8UawDAAgsGjmN+pJYnaegvZ396tBMS80FaFiqMcqnpJWwHGhbPJYijmpZ6NIzsPCHQ3/b+hehvOwOZH90949zZEF/C8dTsKH4vp0dnjz9D5o7zsswtYiF/uvfsXoVeZwKFmO1VPujY7ryQaSeUbtVNq2YL
   </data>
  </layer>
  <layer name="Grass" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDbUAACAAAB8UBQC5ww9le1ChgBTsZPzGD7A=
+   KLUv/WAQDbUAACAAAB8QBQC5ww9le1ChgBTsZPzGD7A=
   </data>
  </layer>
  <layer name="Water" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDbUAACAAADEUBQDNww/tPVCQQAI7GE/zAyw=
+   KLUv/WAQDbUAACAAANEQBQDdww/tPVCQQAI7GA/zAyw=
+  </data>
+ </layer>
+ <layer name="Lava" width="30" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAQDbUAACAAALERBQDNww/tPVCQQAI7GE/zAyw=
   </data>
  </layer>
  <layer name="WaterOver" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDX0BAAQCAAC5AAAAugAAALsA2QAAANoAAADbAPkAAAD6AAAA+wAEEAA78NFK0UrRND8W
+   KLUv/WAQDaUCAMQDAAC5AAAAugAAALvWAAAA1wAAANgA2QAAANoAAADb9gAAAPcAAAD4APkAAAD6AAAA+xYBAAAXAQAAGAEABwA6wHk/0z2Lm2hmdhY30czsDPMDLA==
   </data>
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDR0JAAIOJStgrUkAAAAAAAAACCUtAAAAACCUVFEURZFKvvvu+6ryJ8lepSNkIZ4OoBIfk42n8TIexrt4Fq8C5H08j9fxOEoeyRt5Ii9kCi/hIbyDZ/AKHsEensNreAxvYRRv4km8iAex1EO90zO90iO90Vyv9Vhv9VQbeAIv4AG81ycEuvLpWDCiopybiiZzpZNi+UzxTMFMuQQ4AIAAsksPIBFACoCGgEtBoBlBB4IOCEQMyBaQrUDEgGwB2bKAuoAYENEGJoU6oKCBBOCFBhKAFwqewtwgcE9w8LU+c1OyXf4kCWxuIe8BGs/NxL6qJYIEWIHOTXoAxVcEAAd+blDEIXFGaPBzg+Kdg22gYg8G7NxMeJc0E1zN3xTwOwPzAghS3ZYWLg==
+   KLUv/WAQDV0HAOJMIilwaQABZEvBESIypZmZCACm2QOQtDBDDpBmnwwgrJShgnp961IST5zeAcngVHAiOA2cBDDexbN4FZO8yIO8x3MkySlygpweJ8co3sSTeBGlcWUuzHW5LNN4mYd5l2cZw1t4Ci+hKhflmlzP5azyKG/ynuc0z3PjIIdRQ7MRMAIYQYweNhkjhNFBLaBhBmSCmWBiiNIDIAOrtAMt8d02FSlT4IqTFr0BmyyKTbZYrJtssaL5zP0evgH2XJDZe7ieC4U7LbshoPE5GHqOm7J+ePZLq715ElcdUGtA9Xmm7y0RFtTgD66hSA8=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDZ0GAFJKGh5AVVAAAFWqyv+BKFNV+f8/KCY3014zdeUYJ/MnygN9nMd1HMdtnMZlRHIjJ3IhB1LKodzJmVxJDtdwDLdwCpdwCE2cxEUcxD2EcRdncRVHkalgLgIFBwafzEMw8MGcAIDP5aZyY7lpDicAFZdCAil0AxUIxAHIFpCtQMSAbAHZ4oC67WmCsjagRgxQECBBwaUAGDgs9fHcTOywqKXBBIdFfUGgIl4WhZybCYISrCjiggAcJEiB52a6e6JzwwXHoWOXKI6LWkFgKRjfJWumAAs=
+   KLUv/WAQDV0CAALEChLABQT/z///v1ZKn/NqrFkyEw93POMVj6h0oetc5iqXHnrnmVcGQDJMhAMJAHVAQa9MWAAkAA24Wv3cbEFkPYHqnINqj/IDLA==
   </data>
  </layer>
  <objectgroup name="Moving"/>
  <objectgroup name="Object">
-  <object id="10" gid="6197" x="80" y="432" width="16" height="32"/>
-  <object id="11" gid="6197" x="208" y="432" width="16" height="32"/>
-  <object id="12" gid="6197" x="368" y="432" width="16" height="32"/>
-  <object id="13" gid="6197" x="336" y="208" width="16" height="32"/>
-  <object id="14" gid="6197" x="80" y="208" width="16" height="32"/>
+  <object id="15" gid="2082" x="288" y="320" width="16" height="16"/>
+  <object id="19" name="Quest/Industries" x="80" y="352" width="120" height="19">
+   <text wrap="1">Quest+Industry</text>
+  </object>
+  <object id="20" name="Shop/Heal" x="200" y="352" width="82.3125" height="19">
+   <text wrap="1">Shop/Heal</text>
+  </object>
+  <object id="22" name="Gym/Path" x="304" y="336" width="82.3125" height="19">
+   <text wrap="1">Gym/Path</text>
+  </object>
+  <object id="23" gid="7285" x="32" y="128" width="16" height="16"/>
+  <object id="24" name="Test Water/Lava+animation" x="80" y="144" width="144" height="80"/>
+  <object id="25" name="Missing tileset" x="32" y="96" width="16" height="16"/>
+  <object id="26" name="Animated" x="288" y="208" width="16" height="16"/>
+  <object id="27" name="Test not accessible tile" x="64" y="288" width="16" height="16"/>
  </objectgroup>
+ <imagelayer name="Image Layer 1"/>
+ <group name="Group 1"/>
 </map>
