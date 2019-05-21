@@ -9,6 +9,6 @@ The attack of monster is the 4 last attack for the level
 -->
 <profile>
     <start id="Normal">
-        <map x="20" y="19" file="arcania/0.0"/>
+        <map x="15" y="17" file="city"/>
     </start>
 </profile>
