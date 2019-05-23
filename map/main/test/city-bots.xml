@@ -1,0 +1,36 @@
+<!--
+default:
+skin is invisible
+-->
+<bots>
+    <bot id="1">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
+            <text><![CDATA[Test missing tilset]]></text>
+            <text lang="fr"><![CDATA[Teste de tileset manquant]]></text>
+        </step>
+    </bot>
+    <bot id="2">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
+            <text><![CDATA[Map test/City]]></text>
+            <text lang="fr"><![CDATA[Map de test/ville]]></text>
+        </step>
+    </bot>
+    <bot id="3">
+        <step type="text" id="1">
+            <text><![CDATA[NPC Test]]></text>
+            <text lang="fr"><![CDATA[Teste de NPC]]></text>
+        </step>
+    </bot>
+    <bot id="4">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Test path with map change]]></text>
+            <text lang="fr"><![CDATA[Teste chemain avec changement de map]]></text>
+        </step>
+    </bot>
+</bots>
