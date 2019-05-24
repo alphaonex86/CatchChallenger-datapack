@@ -26,14 +26,14 @@
    <property name="animation" value="100ms;6frames"/>
   </properties>
  </tile>
+ <tile id="160">
+  <properties>
+   <property name="animation" value="100ms;6frames"/>
+  </properties>
+ </tile>
  <tile id="192">
   <properties>
    <property name="animation" value="400ms;4frames"/>
-  </properties>
- </tile>
- <tile id="256">
-  <properties>
-   <property name="animation" value="100ms;6frames"/>
   </properties>
  </tile>
  <tile id="288">
