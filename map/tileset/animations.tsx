@@ -28,7 +28,7 @@
  </tile>
  <tile id="192">
   <properties>
-   <property name="animation" value="200ms;4frames"/>
+   <property name="animation" value="400ms;4frames"/>
   </properties>
  </tile>
  <tile id="256">
@@ -43,17 +43,17 @@
  </tile>
  <tile id="320">
   <properties>
-   <property name="animation" value="300ms;4frames"/>
+   <property name="animation" value="500ms;4frames"/>
   </properties>
  </tile>
  <tile id="352">
   <properties>
-   <property name="animation" value="300ms;4frames"/>
+   <property name="animation" value="500ms;4frames"/>
   </properties>
  </tile>
  <tile id="384">
   <properties>
-   <property name="animation" value="200ms;4frames"/>
+   <property name="animation" value="400ms;4frames"/>
   </properties>
  </tile>
  <tile id="416">
