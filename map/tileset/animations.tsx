@@ -26,6 +26,11 @@
    <property name="animation" value="100ms;6frames"/>
   </properties>
  </tile>
+ <tile id="192">
+  <properties>
+   <property name="animation" value="200ms;4frames"/>
+  </properties>
+ </tile>
  <tile id="256">
   <properties>
    <property name="animation" value="100ms;6frames"/>
@@ -38,19 +43,17 @@
  </tile>
  <tile id="320">
   <properties>
-   <property name="animation" value="100ms;6frames"/>
-   <property name="trigger" value="start:62ms;4frames;leave:62ms;4frames;again:62ms;3frames;over"/>
+   <property name="animation" value="300ms;4frames"/>
   </properties>
  </tile>
  <tile id="352">
   <properties>
-   <property name="animation" value="100ms;6frames"/>
-   <property name="trigger" value="start:62ms;4frames;leave:62ms;3frames;over"/>
+   <property name="animation" value="300ms;4frames"/>
   </properties>
  </tile>
  <tile id="384">
   <properties>
-   <property name="animation" value="100ms;6frames"/>
+   <property name="animation" value="200ms;4frames"/>
   </properties>
  </tile>
  <tile id="416">
