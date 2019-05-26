@@ -53,12 +53,12 @@
  </layer>
  <layer name="Collisions" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDbUIAAKNIymAOQgCu5nJDzRJ8n9wmMy4OJnJEjk2hmZjj7HbzTOC2fffSGZyMOLlAZTKwcvgVfAieA1kPIx38Sw2eZIXeZD3WJOX5BV5QV6PVTyKN/EkVGfFWW1WmlWm8zhv8zQv0/AY3sJTUJjVZWVZRStomHd5lhc9yAHwRNEPRKk8Gw8nB4FTwCniBPHROCWcEAI8oNEGJsEkyZDCDsCCogEZDPMIid/hO2JvNGjEeYTE7/AduRfRJZqcJZS5a5rFNFvaWNnIbdMav3ck/2mE2cbFDW+CJlogr8bTct+Pp/HcOgSEgz0nOveG67lRjavFM2p0iALRmdvZfe73aQemb86E1cDTEqg1oH3e9F3LhR09oWevoZAP
+   KLUv/WAQDSUJAHKNJClwaxAEzJnJMzwypZmZKABOuQCcaYdsB8h2yAFE2Q2XyHz/3WQmd/Y0D09nQnk6C+F18DJ4FbwINF7Gw3gXk7zIg7zHcyzJK/KCvB4vxyxexaN4E4qz2qw0q8wKM87bPM3LPMwcXsNjeAvqsrKsKqtoBe3yLK/yogcBBDxR9ANNKE8H4vQwcBI4SZwiPhsnhVNCR6DRBgfBJGS2dPCCImA2ANMIid/A94i90KARpxESv4HvkXvIId3bpViM1iRcT2Vw2mLFHNssprvZAF7r0924zQFf497gXLqIbTylsS/8lJxoE94W0jX6VpmrTkgA2HNB5i9xPS+qeVpzo0CHKBid+Z7d596e9mD15k2sEUqVkKqN6nNL71EC2FAef/4ayvw=
   </data>
  </layer>
  <layer name="WalkBehind" width="30" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WAQDUUDAHIEDRfAFUAA/x/j/3/+//+1UvqcW/TZQzITDz/SSDs8wys8QqHrXOYqFzn0zjOvPDIAKAYLwQERAE2sCd2YEyprAArs2EMcF1cKzHxhjUAAMOBFwc6BUgAco2XcBnPwBKpzDqo9yg+w
+   KLUv/WAQDX0DAPQDAAAlBQAAJgUAARAAsR0AALIdAACzHQAAtB0AALUdsRwAALIcAACzHAAAtBwAALUcMR0AADIdAAAzHQAANB0ADwBNbATdmBMqK2QKcDhcKTDzhTUCATTgagWbjS18AZ7lDJHVJUDqnINqj/IDLA==
   </data>
  </layer>
  <objectgroup name="Moving">
@@ -69,7 +69,7 @@
   </object>
   <object id="30" type="border-left" gid="4100" x="0" y="304" width="16" height="16">
    <properties>
-    <property name="map" type="file" value=""/>
+    <property name="map" type="file" value="road.tmx"/>
    </properties>
   </object>
   <object id="31" type="rescue" gid="4098" x="240" y="432" width="16" height="16"/>
