@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="45">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="47">
  <tileset firstgid="1" source="../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
@@ -111,7 +111,7 @@
   <object id="27" name="Test not accessible tile" x="64" y="288" width="16" height="16"/>
   <object id="28" name="NPC" type="bot" gid="4097" x="304" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="city"/>
+    <property name="file" type="file" value="city-bots.xml"/>
     <property name="id" type="int" value="3"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="kid1"/>
@@ -141,6 +141,11 @@
    <properties>
     <property name="file" type="file" value="city-bots.xml"/>
     <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="45" name="Trap for bot" x="64" y="448" width="32" height="32">
+   <properties>
+    <property name="comment" value="Some simple bot will go to catch monster and be blocked"/>
    </properties>
   </object>
  </objectgroup>
