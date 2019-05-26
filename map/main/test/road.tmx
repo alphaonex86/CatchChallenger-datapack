@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="42" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="72">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="42" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="73">
  <tileset firstgid="1" source="../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
@@ -41,7 +41,13 @@
    KLUv/WCwEqUBAEgAACUFAAAmBQAPgNBjzV37hQoQgFyqgFcr0VyBlMCrorFVhxYIB0tmVq2sdz2AmsPzAQk=
   </data>
  </layer>
- <objectgroup name="Moving"/>
+ <objectgroup name="Moving">
+  <object id="72" type="border-right" gid="2052" x="656" y="272" width="16" height="16">
+   <properties>
+    <property name="map" type="file" value="city.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Object">
   <object id="48" type="object" gid="4274" x="544" y="448" width="16" height="16">
    <properties>

@@ -12,7 +12,7 @@ skin is invisible
         </step>
         <step type="text" id="2">
             <text><![CDATA[Next text]]></text>
-            <text lang="fr"><![CDATA[Prochain text]]></text>
+            <text lang="fr"><![CDATA[Prochain texte]]></text>
         </step>
     </bot>
     <bot id="2">
