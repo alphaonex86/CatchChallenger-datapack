@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextobjectid="47">
+ <tileset firstgid="1" source="../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/t1.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/t2.tsx"/>
+ <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../../datapack-pkmn/map/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../tileset/rename.tsx"/>
+ <layer name="Walkable" width="20" height="21">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCQBXUAACChAAAAAgANUJDjvyMC
+  </data>
+ </layer>
+ <layer name="OverWalkable" width="20" height="21">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCQBc0BAJgAAAkEIQEBBEkOAABKDgAASw4ADqAwrfsGQIMZWw4S6R65xbmiwmdQiymvcPo5XbteyU085o9aPw==
+  </data>
+ </layer>
+ <layer name="Collisions" width="20" height="21">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCQBV0CAGgUAAAA4TTh4QChwWUII6CQbQFQg6FBASUqBHceffcs2J9AjJyYcTJ5ZuKMyZmZkzNzoSf8nT7W1Qk1yHhtCp6fE6P+DAFLbaf1Dw==
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object id="15" type="bot" gid="5121" x="32" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="30"/>
+   </properties>
+  </object>
+  <object id="16" type="bot" gid="5121" x="80" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="31"/>
+   </properties>
+  </object>
+  <object id="17" type="bot" gid="5121" x="128" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="32"/>
+   </properties>
+  </object>
+  <object id="18" type="bot" gid="5121" x="176" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="33"/>
+   </properties>
+  </object>
+  <object id="19" type="bot" gid="5121" x="224" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="34"/>
+   </properties>
+  </object>
+  <object id="20" type="bot" gid="5121" x="272" y="272" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="21" type="bot" gid="5121" x="144" y="48" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="gym-bots.xml"/>
+    <property name="id" type="int" value="36"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="hariel"/>
+   </properties>
+  </object>
+  <object id="22" name="1 Pass quest Berry exchange" x="0" y="32" width="96" height="64"/>
+  <object id="23" name="2 Pass item Tuber" x="224" y="32" width="96" height="64"/>
+  <object id="24" name="3 Pass clan owner" x="0" y="144" width="96" height="64"/>
+  <object id="25" name="4 Pass win road fight" x="112" y="144" width="96" height="64"/>
+  <object id="26" name="5 Hidden item" x="224" y="144" width="96" height="64"/>
+  <object id="27" name="6 Gym leader" x="112" y="32" width="96" height="64"/>
+  <object id="40" type="object" gid="5298" x="272" y="192" width="16" height="16">
+   <properties>
+    <property name="item" type="int" value="1002"/>
+    <property name="visible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="41" type="object" gid="5298" x="256" y="80" width="16" height="16">
+   <properties>
+    <property name="item" type="int" value="1002"/>
+   </properties>
+  </object>
+  <object id="42" type="object" gid="5298" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="item" type="int" value="1002"/>
+    <property name="visible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="43" type="object" gid="5298" x="32" y="192" width="16" height="16">
+   <properties>
+    <property name="item" type="int" value="1002"/>
+    <property name="visible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" type="object" gid="5298" x="160" y="192" width="16" height="16">
+   <properties>
+    <property name="item" type="int" value="1002"/>
+    <property name="visible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="45" name="Buggy item" type="object" gid="5298" x="272" y="80" width="16" height="16"/>
+ </objectgroup>
+ <layer name="WalkBehind" width="20" height="21">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCQBR0BADAAAB4SAQEKgHDDAw3QFjNEJRun9ucF610RNwW14HynZAMU
+  </data>
+ </layer>
+ <objectgroup name="Moving">
+  <properties>
+   <property name="map" type="file" value="city.tmx"/>
+   <property name="x" type="int" value="0"/>
+   <property name="y" type="int" value="0"/>
+  </properties>
+  <object id="13" name="to city" type="teleport on push" gid="5123" x="144" y="336" width="16" height="16">
+   <properties>
+    <property name="map" type="file" value="city.tmx"/>
+    <property name="x" type="int" value="21"/>
+    <property name="y" type="int" value="26"/>
+   </properties>
+  </object>
+  <object id="14" type="teleport on it" gid="5123" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="29" type="teleport on it" gid="5123" x="304" y="176" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="30" type="teleport on it" gid="5123" x="192" y="176" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="31" type="teleport on it" gid="5123" x="80" y="176" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="32" type="teleport on it" gid="5123" x="304" y="64" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="33" type="teleport on it" gid="5123" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="35" name="6" type="teleport on it" gid="5123" x="256" y="272" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="7"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
+  <object id="36" name="5" type="teleport on it" gid="5123" x="208" y="272" width="16" height="16">
+   <properties>
+    <property name="x" type="int" value="14"/>
+    <property name="y" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="37" name="cond 4" type="teleport on it" gid="5123" x="160" y="272" width="16" height="16">
+   <properties>
+    <property name="condition-file" type="file" value="condition.xml"/>
+    <property name="condition-id" type="int" value="4"/>
+    <property name="x" type="int" value="7"/>
+    <property name="y" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="38" name="cond 3" type="teleport on it" gid="5123" x="112" y="272" width="16" height="16">
+   <properties>
+    <property name="condition-file" type="file" value="condition.xml"/>
+    <property name="condition-id" type="int" value="3"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="39" name="cond 2" type="teleport on it" gid="5123" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="condition-file" type="file" value="condition.xml"/>
+    <property name="condition-id" type="int" value="2"/>
+    <property name="x" type="int" value="14"/>
+    <property name="y" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="34" name="cond 1" type="teleport on it" gid="5123" x="16" y="272" width="16" height="16">
+   <properties>
+    <property name="condition-file" type="file" value="condition.xml"/>
+    <property name="condition-id" type="int" value="1"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="46" name="Buggy TP" type="teleport on it" gid="5123" x="0" y="320" width="16" height="16"/>
+ </objectgroup>
+</map>

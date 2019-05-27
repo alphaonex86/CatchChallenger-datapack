@@ -154,8 +154,9 @@
   </object>
   <object id="74" type="object" gid="4274" x="160" y="448" width="16" height="16">
    <properties>
-    <property name="item" type="int" value="5"/>
-    <property name="visible" type="bool" value="true"/>
+    <property name="infinite" type="bool" value="true"/>
+    <property name="item" type="int" value="1005"/>
+    <property name="visible" type="bool" value="false"/>
    </properties>
   </object>
   <object id="79" type="object" gid="4274" x="528" y="80" width="16" height="16">

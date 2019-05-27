@@ -87,23 +87,23 @@
     <property name="y" type="int" value="0"/>
    </properties>
   </object>
-  <object id="34" type="door" gid="4145" x="336" y="416" width="16" height="16">
+  <object id="34" name="gym" type="door" gid="4145" x="336" y="416" width="16" height="16">
    <properties>
-    <property name="map" type="file" value=""/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="map" type="file" value="gym.tmx"/>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Object">
-  <object id="19" name="Quest/Industries" x="80" y="352" width="120" height="19">
+  <object id="19" x="80" y="352" width="120" height="19">
    <text wrap="1">Quest+Industry</text>
   </object>
-  <object id="20" name="Shop/Heal" x="200" y="352" width="82.3125" height="19">
+  <object id="20" x="200" y="352" width="82.3125" height="19">
    <text wrap="1">Shop/Heal</text>
   </object>
-  <object id="22" name="Gym/Path" x="304" y="336" width="82.3125" height="19">
-   <text wrap="1">Gym/Path</text>
+  <object id="22" x="304" y="336" width="82.3125" height="19">
+   <text wrap="1">Gym/TP</text>
   </object>
   <object id="24" name="Test Water/Lava+animation" x="80" y="144" width="144" height="80"/>
   <object id="25" name="Missing tileset" x="32" y="96" width="16" height="16"/>

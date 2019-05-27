@@ -6,5 +6,12 @@
 		<gain cash="100" />
 		<item id="1001" />
 	</fight>
+    <fight id="2">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="13" level="4" />
+		<gain cash="100" />
+		<item id="1001" />
+	</fight>
 </fights>
 

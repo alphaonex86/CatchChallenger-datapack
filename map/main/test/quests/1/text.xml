@@ -1,0 +1,24 @@
+<text>
+ <client_logic id="1">
+        <condition queststep="1" />
+        <condition haverequirements="true" />
+  <text><![CDATA[Do you have the <b>Moco Berry</b> for me?<br />
+            <br />
+            <a href="next_quest_step;22">Yes I have it</a>]]></text>
+ </client_logic>
+  <client_logic id="1">
+        <condition queststep="1" />
+  <text><![CDATA[I wait the <b>Moco Berry</b>]]></text>
+ </client_logic>
+<client_logic id="1">
+  <text><![CDATA[Give me a <b>Moco Berry</b> to eat and I give you a <b>Rawst Berry</b>.<br />
+            <br />
+            <a href="next_quest_step;42">Yes</a>]]></text>
+ </client_logic>
+ <client_logic id="22">
+  <text><![CDATA[Thanks]]></text>
+ </client_logic>
+ <client_logic id="23">
+  <text><![CDATA[You don't have the <b>Moco Berry</b>.]]></text>
+ </client_logic>
+</text>
