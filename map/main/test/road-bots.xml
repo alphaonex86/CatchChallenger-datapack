@@ -32,4 +32,14 @@ skin is invisible
     <bot id="17">
         <step type="text"><text><![CDATA[Test ledge out of map]]></text></step>
     </bot>
+    <bot id="18">
+        <step type="text"><text><![CDATA[Test buggy legde place]]></text></step>
+    </bot>
+    <bot id="19">
+        <step type="text"><text><![CDATA[Test not interconnect ledge zone edge]]></text></step>
+    </bot>
+    <bot id="20">
+        <name><![CDATA[Fighter]]></name>
+        <step fightid="1" type="fight" />
+    </bot>
 </bots>
