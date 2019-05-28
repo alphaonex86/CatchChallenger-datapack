@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="2">
  <tileset firstgid="1" source="../../tileset/t2.tsx"/>
  <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
+ <tileset firstgid="2049" source="../../../../datapack-pkmn/map/invisible.tsx"/>
  <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WBgCNUAADDKBAAAygQGAIN3FeYADVihp4BCwQkS+HdE
+   KLUv/WBgCO0AADDKBAAAygQHAI1DwcxdhTlAA1boKaBQcIIE/h0R
   </data>
  </layer>
  <layer name="OverWalkable" width="20" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WBgCAUBAGgAAMkEzAQAAM0EzgQABgBuwPkzFAg4BKz48rLhDQWw
+   KLUv/WBgCHUBAMAAAMkEzAQAAM0EzgQASQIAAEoCAABLAgAHABKk3n3cP0OBgEPAii8vG95QAAs=
   </data>
  </layer>
  <layer name="Collisions" width="20" height="30">
@@ -22,4 +23,13 @@
    KLUv/WBgCNUAAHAAAAoFAAALBQAADA0FAAMATnF17LJz3w+w
   </data>
  </layer>
+ <objectgroup name="Moving">
+  <object id="1" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
+   <properties>
+    <property name="map" type="file" value="city.tmx"/>
+    <property name="x" type="int" value="15"/>
+    <property name="y" type="int" value="26"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

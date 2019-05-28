@@ -76,15 +76,15 @@
   <object id="32" type="door" gid="4177" x="144" y="416" width="16" height="16">
    <properties>
     <property name="map" type="file" value="house1.tmx"/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="x" type="int" value="5"/>
+    <property name="y" type="int" value="13"/>
    </properties>
   </object>
   <object id="33" type="door" gid="4273" x="240" y="416" width="16" height="16">
    <properties>
-    <property name="map" type="file" value=""/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="map" type="file" value="house2.tmx"/>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="28"/>
    </properties>
   </object>
   <object id="34" name="gym" type="door" gid="4145" x="336" y="416" width="16" height="16">
