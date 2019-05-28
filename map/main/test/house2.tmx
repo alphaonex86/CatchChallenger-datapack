@@ -1,1 +1,25 @@
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="../../tileset/t2.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
+ <layer name="Walkable" width="20" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCNUAADDKBAAAygQGAIN3FeYADVihp4BCwQkS+HdE
+  </data>
+ </layer>
+ <layer name="OverWalkable" width="20" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCAUBAGgAAMkEzAQAAM0EzgQABgBuwPkzFAg4BKz48rLhDQWw
+  </data>
+ </layer>
+ <layer name="Collisions" width="20" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCJUDABKEDRegCQCvCWQiaSl5CvmYmZnLbnriaPCl8df4Fl9i+Arf4AJN0MKDEc9Y8znn2dyTeVopz6SeSBYggIJHgWkH+lj9siM4xwreMGZUOtQJVvAeiv0/GvZPfH3N9rO5xZUPoO0d2/R+JgO49k5s0mdHCw==
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="20" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBgCNUAAHAAAAoFAAALBQAADA0FAAMATnF17LJz3w+w
+  </data>
+ </layer>
+</map>

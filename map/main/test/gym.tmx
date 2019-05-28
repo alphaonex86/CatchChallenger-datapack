@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextobjectid="47">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextobjectid="48">
  <tileset firstgid="1" source="../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2049" source="../../tileset/t1.tsx"/>
@@ -14,12 +14,12 @@
  </layer>
  <layer name="OverWalkable" width="20" height="21">
   <data encoding="base64" compression="zstd">
-   KLUv/WCQBc0BAJgAAAkEIQEBBEkOAABKDgAASw4ADqAwrfsGQIMZWw4S6R65xbmiwmdQiymvcPo5XbteyU085o9aPw==
+   KLUv/WCQBS0CAMAAAC8KAAkEIQEuCgEESQ4AAEoOAABLDgARoCBr1zMwg5kKqwOS6R56Vv/JdZo1Y6peeC6ufJV7MF5kPiT6Mh/GSVn0tA==
   </data>
  </layer>
  <layer name="Collisions" width="20" height="21">
   <data encoding="base64" compression="zstd">
-   KLUv/WCQBV0CAGgUAAAA4TTh4QChwWUII6CQbQFQg6FBASUqBHceffcs2J9AjJyYcTJ5ZuKMyZmZkzNzoSf8nT7W1Qk1yHhtCp6fE6P+DAFLbaf1Dw==
+   KLUv/WCQBZ0CAHAUAAAA4TTh4QChwQBlCCigkG0BMINDgxolKgZ3Hv090/QHiFf9CczMmRknJs9MnDFxZuZEZi7ohO/Tj7o6oQYzvk3Ajx98q1kZBJ87aKntdPwB
   </data>
  </layer>
  <objectgroup name="Object">
@@ -122,12 +122,6 @@
     <property name="y" type="int" value="26"/>
    </properties>
   </object>
-  <object id="14" type="teleport on it" gid="5123" x="80" y="64" width="16" height="16">
-   <properties>
-    <property name="x" type="int" value="9"/>
-    <property name="y" type="int" value="19"/>
-   </properties>
-  </object>
   <object id="29" type="teleport on it" gid="5123" x="304" y="176" width="16" height="16">
    <properties>
     <property name="x" type="int" value="9"/>
@@ -194,14 +188,24 @@
     <property name="y" type="int" value="3"/>
    </properties>
   </object>
-  <object id="34" name="cond 1" type="teleport on it" gid="5123" x="16" y="272" width="16" height="16">
+  <object id="34" name="cond 1" type="teleport on it" gid="5123" x="16" y="256" width="16" height="16">
    <properties>
     <property name="condition-file" type="file" value="condition.xml"/>
     <property name="condition-id" type="int" value="1"/>
+    <property name="leave" value="move"/>
+    <property name="lookAt" value="bottom"/>
     <property name="x" type="int" value="0"/>
     <property name="y" type="int" value="3"/>
    </properties>
   </object>
   <object id="46" name="Buggy TP" type="teleport on it" gid="5123" x="0" y="320" width="16" height="16"/>
+  <object id="47" type="teleport on it" gid="5123" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="leave" value="move"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="x" type="int" value="9"/>
+    <property name="y" type="int" value="19"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

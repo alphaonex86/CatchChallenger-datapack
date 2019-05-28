@@ -1,1 +1,20 @@
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="../../tileset/t2.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
+ <layer name="Walkable" width="15" height="15">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCEAl0BAGAAAOkC6QLpAukC6QINoCCDDxADVweBFPsoaf9J9P8k/T9J/0+g/+NMwwg=
+  </data>
+ </layer>
+ <layer name="OverWalkable" width="15" height="15">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCEAp0AAEAAAGkEAGsEAAMQAOKqMY6ZYgE=
+  </data>
+ </layer>
+ <layer name="Collisions" width="15" height="15">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCEAiUBAJgpBAAAKisEAEkEAABKSwQA6gYABQAmQDXkOGrsGo37xo3TAg==
+  </data>
+ </layer>
+</map>
