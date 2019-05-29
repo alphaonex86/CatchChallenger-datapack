@@ -13,7 +13,7 @@
  </layer>
  <layer name="OverWalkable" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEtUHAEIEEBuwgQBT0dz/P2AAoAGc5hVBSotmvE8WgtxlSDvEJV6aYkpLDD/oYCOcgmBQlgHAN1lXrS+LplT3ML75IRcNX/xPoDCTiwGgAgvnbAM5pBqqEBV/yEmt82iU1aEs6FxqNaVR6qDV+NgXjdutpgsKkBEVpUwCUWfwLhGBlwhvV0vGgERuL63uzbRZrnsTfbV8yd4JV0/DoumC+51nlb5kZBrrCX5NJun2ssY4S/F+d+RMhqcnzvGLkMHptAm7uk1syLTVNEwpouk4khVeMzDKA9JVCfld9DV0V8l0AFdLvoNcR8Ot5ccQy/30BUzldylLBS77u6zwBxs=
+   KLUv/WCwEs0HAFJEEBuwgQBT0dz/P2AAoAGc5hVBSotmvE8WgtxlSDvEJV6a0hLDDzrYCKcgGJRlAPBN1lXry6Ip1T2Mb37IRcMXN+UDS6Agk44BcAITDhonpUPw1VpnKJQVpCwobmoFSsPUoFXwsQ9qtl1NV1OCEFFZFWUSSG1SIInjNdHeriwZC5HcLl3Vq2m3XPcuem3JEh0Trb5GRaYD8zvPSvoSkGlsJvhpsoXbzRjpLOH1rkmRFM/PneOXIYOTaZO7OJrYEIlrNUjpouk4ktVeGYj6oGQVYn4TfT29q+UexjWSbyKvp+F2+VGEcje14Om+LtLp0kK+ixhWO6yWFg==
   </data>
  </layer>
  <layer name="Dirt" width="42" height="30">

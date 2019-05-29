@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="2">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="3">
  <tileset firstgid="1" source="../../tileset/t2.tsx"/>
  <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
- <tileset firstgid="2049" source="../../../../datapack-pkmn/map/invisible.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
  <layer name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zstd">
    KLUv/WBgCO0AADDKBAAAygQHAI1DwcxdhTlAA1boKaBQcIIE/h0R
@@ -24,11 +24,11 @@
   </data>
  </layer>
  <objectgroup name="Moving">
-  <object id="1" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
+  <object id="2" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
    <properties>
     <property name="map" type="file" value="city.tmx"/>
     <property name="x" type="int" value="15"/>
-    <property name="y" type="int" value="26"/>
+    <property name="y" type="int" value="0"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,9 +1,0 @@
-<map zone="megalopolis" type="outdoor"><!-- well here is half city halt outdoor (road)-->
-	<name>Megalopolis</name>
-	<name lang="fr">Megalopolis</name>
-	<grass>
-          <monster id="13" minLevel="13" maxLevel="15" luck="40" />
-          <monster id="3" minLevel="13" maxLevel="15" luck="35" />
-          <monster id="4" minLevel="13" maxLevel="15" luck="25" />
-  </grass>
-</map>

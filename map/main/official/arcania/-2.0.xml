@@ -1,8 +1,0 @@
-<map zone="arcania" type="outdoor">
-    <name>Arcania</name>
-    <name lang="fr">Arcania</name>
-    <shortdescription>The path of the beginer</shortdescription>
-    <shortdescription lang="fr">Le chemin des débutant</shortdescription>
-    <description>The town where you start</description>
-    <description lang="fr">La ville où vous commencez</description>
-</map>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="11">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="12">
  <tileset firstgid="1" source="../../tileset/t2.tsx"/>
  <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
- <tileset firstgid="2049" source="../../../../datapack-pkmn/map/invisible.tsx"/>
- <tileset firstgid="2065" source="../../tileset/rename.tsx"/>
+ <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../tileset/invisible.tsx"/>
  <layer name="Walkable" width="15" height="15">
   <data encoding="base64" compression="zstd">
    KLUv/WCEAl0BAGAAAOkC6QLpAukC6QINoCCDDxADVweBFPsoaf9J9P8k/T9J/0+g/+NMwwg=
@@ -11,7 +11,7 @@
  </layer>
  <layer name="OverWalkable" width="15" height="15">
   <data encoding="base64" compression="zstd">
-   KLUv/WCEAmUBALAAAGkEAGsEAAEIAEkCAABKAgAASwIAByDAcwc6eVEq6j4FMh1CaoxjphkL
+   KLUv/WCEAmUBALAAAGkEAGsEAAEMAEkCAABKAgAASwIAByDAcwc6eVEq6j4FMh1CaoxjphkL
   </data>
  </layer>
  <layer name="Collisions" width="15" height="15">
@@ -20,51 +20,51 @@
   </data>
  </layer>
  <objectgroup name="Object">
-  <object id="3" type="object" gid="2226" x="176" y="96" width="16" height="16">
+  <object id="3" type="object" gid="2210" x="176" y="96" width="16" height="16">
    <properties>
     <property name="item" type="int" value="1002"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="4" type="object" gid="2226" x="160" y="64" width="16" height="16">
+  <object id="4" type="object" gid="2210" x="160" y="64" width="16" height="16">
    <properties>
     <property name="item" type="int" value="1002"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="5" type="object" gid="2226" x="224" y="64" width="16" height="16">
+  <object id="5" type="object" gid="2210" x="224" y="64" width="16" height="16">
    <properties>
     <property name="infinite" type="bool" value="true"/>
     <property name="item" type="int" value="1008"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="6" type="object" gid="2226" x="224" y="96" width="16" height="16">
+  <object id="6" type="object" gid="2210" x="224" y="96" width="16" height="16">
    <properties>
     <property name="item" type="int" value="1009"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="7" type="object" gid="2226" x="224" y="128" width="16" height="16">
+  <object id="7" type="object" gid="2210" x="224" y="128" width="16" height="16">
    <properties>
     <property name="item" type="int" value="1010"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="8" type="object" gid="2226" x="176" y="128" width="16" height="16">
+  <object id="8" type="object" gid="2210" x="176" y="128" width="16" height="16">
    <properties>
     <property name="infinite" type="bool" value="true"/>
     <property name="item" type="int" value="1002"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="9" type="object" gid="2226" x="176" y="160" width="16" height="16">
+  <object id="9" type="object" gid="2210" x="176" y="160" width="16" height="16">
    <properties>
     <property name="item" type="int" value="1002"/>
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="10" type="object" gid="2226" x="224" y="160" width="16" height="16">
+  <object id="10" type="object" gid="2210" x="224" y="160" width="16" height="16">
    <properties>
     <property name="infinite" type="bool" value="true"/>
     <property name="item" type="int" value="1011"/>
@@ -73,7 +73,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Moving">
-  <object id="2" name="to city" type="teleport on push" gid="2051" x="80" y="240" width="16" height="16">
+  <object id="11" name="to city" type="teleport on push" gid="3075" x="80" y="240" width="16" height="16">
    <properties>
     <property name="map" type="file" value="city.tmx"/>
     <property name="x" type="int" value="9"/>
