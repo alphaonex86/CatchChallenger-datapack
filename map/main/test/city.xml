@@ -1,6 +1,6 @@
 <map zone="test" type="city">
-    <name>Test</name>
-    <name lang="fr">Test en fr</name>
+    <name>City</name>
+    <name lang="fr">Ville</name>
     <description>City of test</description>
     <description lang="fr">Ville de test</description>
     <water>
