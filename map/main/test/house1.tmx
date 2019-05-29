@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="12">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="15">
  <tileset firstgid="1" source="../../tileset/t2.tsx"/>
  <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
  <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
@@ -11,12 +11,12 @@
  </layer>
  <layer name="OverWalkable" width="15" height="15">
   <data encoding="base64" compression="zstd">
-   KLUv/WCEAmUBALAAAGkEAGsEAAEMAEkCAABKAgAASwIAByDAcwc6eVEq6j4FMh1CaoxjphkL
+   KLUv/WCEAh0CABQCAABpBABKAQAASQFrBAABDABKAQBJAUkCAABKAgAASwIADACKm7wFqAAI5KoTDBHuAQxgHA7QIcTR8TIU8I2ZAiw=
   </data>
  </layer>
  <layer name="Collisions" width="15" height="15">
   <data encoding="base64" compression="zstd">
-   KLUv/WCEAiUBAJgpBAAAKisEAEkEAABKSwQA6gYABQAmQDXkOGrsGo37xo3TAg==
+   KLUv/WCEApUCAOQCKQQAACorBABJBAAASksEACsBAEsJAQAACikBAAAqAQDqBgBYBAAAWQQAAFoEAAwAXkB5whSJs6GAgGkYjhpe4dSvEmZwOtzids3Dfe7GvQE=
   </data>
  </layer>
  <objectgroup name="Object">
@@ -71,7 +71,34 @@
     <property name="visible" type="bool" value="true"/>
    </properties>
   </object>
+  <object id="14" type="bot" gid="3073" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house1-bots.xml"/>
+    <property name="id" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="13" type="bot" gid="3073" x="112" y="176" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house1-bots.xml"/>
+    <property name="id" type="int" value="42"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="badguys"/>
+   </properties>
+  </object>
+  <object id="12" type="bot" gid="3073" x="32" y="112" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house1-bots.xml"/>
+    <property name="id" type="int" value="41"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="captain"/>
+   </properties>
+  </object>
  </objectgroup>
+ <layer name="WalkBehind" width="15" height="15">
+  <data encoding="base64" compression="zstd">
+   KLUv/WCEAt0AAIAAAAsBADgEAAA5BAAAOgQAAxAAGqq3UI1JWA==
+  </data>
+ </layer>
  <objectgroup name="Moving">
   <object id="11" name="to city" type="teleport on push" gid="3075" x="80" y="240" width="16" height="16">
    <properties>
