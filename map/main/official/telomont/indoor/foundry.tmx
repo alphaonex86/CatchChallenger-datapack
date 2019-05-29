@@ -1,0 +1,41 @@
+<map tilewidth="16" width="11" orientation="orthogonal" version="1.0" height="12" tileheight="16">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/rename.tsx" firstgid="3089"/>
+ <layer width="11" name="Walkable" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0AADCjAAAAo4wDAAETEIF6wXS1</data>
+ </layer>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAb0AADAAABAwPgAGAAcSbgA13HHgDS55dwJY</data>
+ </layer>
+ <layer width="11" name="Collisions" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0FAHQEAADKBgAAy8zNzs/QBgDqBgAA6+zt7u/wEAoHAAALDA0ODxAHMCorLC0uLzDn6DUNSktMTU5PUAcIAAAICABTDRUNAwg1DaMyAOxMCZywBRGIO2AoAd0Mj6fhzTkAgvdid8NeyABwAGAAEAAcABgAxAUXDAgA5gICgAMAA4AA4ADAACAuODczd2sAEAAcABgABADqZvaUIQA4ADAACACuC2h3HgAcABgABADXBXoAWA==</data>
+ </layer>
+ <layer width="11" name="other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAR0CANAAABUNwwcAAMLiwwfjFg0AAAII4wc2Ng02DRAAEpfATsAbJTx/iTdTMyB7R7AKnguA+9SGAMWbXRdQARPcFv8UYAE=</data>
+ </layer>
+ <layer width="11" name="WalkBehind" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAe0AAFgAABYNNg0AFg02DQUAF1L8bCDscqnxKQgPKIAF</data>
+ </layer>
+ <objectgroup width="11" name="Moving" height="12">
+  <object gid="1027" type="teleport on push" x="80" y="192" name="teleport on push">
+   <properties>
+    <property value="../1.12" name="map"/>
+    <property value="11" name="x"/>
+    <property value="16" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="11" name="Object" height="12">
+  <object gid="1027" type="bot" x="80" y="112" name="bot">
+   <properties>
+    <property value="../../bots-industries" name="file"/>
+    <property value="3012" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="smith" name="skin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

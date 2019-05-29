@@ -1,0 +1,74 @@
+<map tilewidth="16" orientation="orthogonal" version="1.0" height="30" width="30" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <tileset firstgid="6161" source="../../../tileset/building-big.tsx"/>
+ <layer name="Walkable" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDe0AAIhiAQAAYgEAAABiAQEAAABiAQMAZwV+WSAtlFcL</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDeUAAHAAAPIRAADzEQBRAAAAUgMARCqff20GlHn2B1g=</data>
+ </layer>
+ <layer name="Dirt" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Grass" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesRight" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesLeft" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesBottom" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesTop" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Water" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDYUBAGgRFAAAEREUAAAAAAAACwAzQK2QSwHOgcuHmYIVbgWzBQ4gQ9g9VKALYSAKUPmvFg==</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDc0CAPgAABoBAAD6ABsBANsA2QA6AQAAugC7uQA7AQDb+/n7FAA0e1BhAAq76HiMTmGAwsM4oN303IQ/TM5mdqyGFfJzHYeOo2R0E3sbPLzjqg2iZldyuya85gdt</data>
+ </layer>
+ <layer name="Collisions" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDR0HAAKGEBqwBxTJAAAAnMsafwHGbL+OrZ1IojB3EUYheNGSGgs6JfF/hfIZX9wZYRtsgi0wAHEVuSDX43IklxTS0bk53PC5OT0AR3Xw0gEMOEM82APiqVy7qcTOD4emAbFjFG4qsIPcGHUCODByOmA7ovd4drDjIoXXsjrXsNeQoKNgjTrwYAKgwG+YE+zYBgAUhnBuYJ2Q8YVeP/u7LNYPAQIouA7gO+9Mo/dMYXwnu5hMcBYADAFQAJTYI7EYXyj7yvp2hw/lGZ0NvmC4t1BhL3VrnaBDmNQGqOA6ygANMx1ztwJY</data>
+ </layer>
+ <layer name="WalkBehind" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDZ0AACAAABoBAwBsQAWYoy7/eLkfYAE=</data>
+ </layer>
+ <layer name="Other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDf0EAEINHiGQxyAIxBPRTYoMEJE8zCYyQETyMJvIABHd/HDA+Kl5rR7Pwkfhk/BBuM3TvMzD3OVZXuVRbvIkL/Ig93iO13iMWzzFSzzEHTyDV/AIbuAJvIAHUA/LYTUshtoszcosTF2WZVUWpSZLsiILUo/lWI3FqMVSrMRCHA8QAKb/tUlrk9YmrU1am7Q2aW3S2qS1SWuT1iatTVqbtE5qAw==</data>
+ </layer>
+ <objectgroup name="Moving" height="30" width="30">
+  <object type="border-bottom" x="240" gid="5124" y="480" name="border">
+   <properties>
+    <property name="map" value="1.14"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" height="30" width="30">
+  <object type="bot" x="336" gid="5123" y="416" name="bot">
+   <properties>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7068"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+  <object type="bot" x="240" gid="5123" y="256" name="bot">
+   <properties>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7069"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="player"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

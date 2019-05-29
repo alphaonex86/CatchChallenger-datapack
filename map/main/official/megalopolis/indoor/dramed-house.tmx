@@ -1,0 +1,43 @@
+<map version="1.0" tileheight="16" tilewidth="16" width="11" orientation="orthogonal" height="12">
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAIMEAEEJPE+p4OJ3QAEs</data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAfUAAGAAAJEIAJQIALG0PgAGAH8lfCqwoWIB7gDamFMBFg==</data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAXUCAEQCowAAAKMSMrcIAAAVCQAAFngIAAB5CDsIAICSCAAAkwhbsrMIEQBdCT57JwKAgVoAuQCaAk5wGXhqAp9aecG5BUAB7rin4gD4BaCuFg==</data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAbUAACgAABUENQUAOq4KAICn6nsnhA8UwAI=</data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAVUBAJgAAJcIAAAVFlhZCDU2CBsIAIAACABQnNLzBxQBwKYSGwAEANcF9I0CWA==</data>
+ </layer>
+ <layer name="other" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAdUAAGAAAJgIAACZCLi5CAAEABKuOgC4n3rKkAJY</data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object y="192" gid="1027" name="teleport on push" type="teleport on push" x="80">
+   <properties>
+    <property value="../1.6" name="map"/>
+    <property value="22" name="x"/>
+    <property value="11" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object y="112" gid="1027" type="bot" x="80">
+   <properties>
+    <property value="../../bots-services" name="file"/>
+    <property value="2" name="id"/>
+    <property value="top" name="lookAt"/>
+    <property value="dramed" name="skin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

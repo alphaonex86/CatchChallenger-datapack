@@ -1,0 +1,58 @@
+<map tileheight="16" tilewidth="16" height="12" width="11" version="1.0" orientation="orthogonal">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <layer name="Walkable" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAIMEAEEJlE+p4OJ3E2AB</data>
+ </layer>
+ <layer name="Other" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAbUAAGAAAD4AAKAAPgAAYAADEAA46VAvqlg=</data>
+ </layer>
+ <layer name="Collisions" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAX0BAHijAAAAowgoRggASAhmZ2gNAN0SGkzQfeAW94YMAOFu+L0DXuCSeyoOgF8W6moB</data>
+ </layer>
+ <layer name="Other" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <layer name="WalkBehind" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAdUAAEAAACYIKAinCAUAOhwFZma8EUt4KBFvKYAF</data>
+ </layer>
+ <layer name="other" height="12" width="11">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <objectgroup name="Moving" height="0" width="0">
+  <object x="0" name="door" y="160" type="door" gid="1027">
+   <properties>
+    <property name="map" value="../2.13"/>
+    <property name="x" value="1"/>
+    <property name="y" value="17"/>
+   </properties>
+  </object>
+  <object x="160" name="door" y="160" type="door" gid="1027">
+   <properties>
+    <property name="map" value="../2.13"/>
+    <property name="x" value="9"/>
+    <property name="y" value="17"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" height="0" width="0">
+  <object x="48" name="bot" y="112" type="bot" gid="1027">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9029"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+  <object x="112" name="bot" y="112" type="bot" gid="1027">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9029"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="guardian"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

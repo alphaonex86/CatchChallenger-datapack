@@ -1,0 +1,14 @@
+<!--
+Default:
+forcedskin value="", separated by ;
+cash value="0"
+reputation: none
+The attack of monster is the 4 last attack for the level
+/!\ warning, directly put this information into db
+/!\ not check if x,y is into the range of the map
+-->
+<profile>
+    <start id="Normal">
+        <map x="20" y="19" file="arcania/0.0"/>
+    </start>
+</profile>

@@ -1,0 +1,13 @@
+<quest repeatable="no" bot="2000">
+    <name><![CDATA[The policing]]></name>
+    <name lang="fr"><![CDATA[Le maintien de l'ordre]]></name>
+    <step id="1">
+        <text><![CDATA[Kill 5 Conileaf and collect her skin and abrind to the bandit]]></text>
+        <text lang="fr"><![CDATA[Tué 5 conifeuille afin d'en récupérer la chaire pour le bandit]]></text>
+        <item quantity="5" monster="3" id="4001" rate="95%"/>
+    </step>
+    <rewards show="true">
+        <item id="6"/>
+        <reputation type="nation" point="5"/>
+    </rewards>
+</quest>

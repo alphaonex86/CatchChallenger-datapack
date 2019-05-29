@@ -1,0 +1,83 @@
+<map height="30" orientation="orthogonal" width="30" version="1.0" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDaUCAIQCAAABAQAAAwEAIQEAACMBACYBAAAoAQBGAQAASAEAZgEAAGjhAAAA4w0AfQ8pTBU6QIFUda+Rq2CAQujTooJSUAHB/1K1A6lxIDUCQDUOpMYBWA==</data>
+ </layer>
+ <layer name="Dirt" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Grass" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDd0CAIAAAAEIAAAAAAAAAAAAAAAAGgB5QMHLH1mFB1LYebAGFPgXzxQIXQpWCA9W+s0qXJCC16umS8EuQtYgwYYUfggTAKKKgIKZHmxdCoay4DDoO06hgQRcDK+rAAs=</data>
+ </layer>
+ <layer name="LedgesRight" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesLeft" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesBottom" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDS0BAFAAABwBAAAeIAEcBwD518gVxAAFnEeL6vCAGijAEBV2Oz2hAlg=</data>
+ </layer>
+ <layer name="LedgesTop" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Water" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDdUAACgAAJEUAAUAkTbNFUQHP5wcjQoQTGODH2AB</data>
+ </layer>
+ <layer name="Collisions" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDZ0FABQChAQAAIUEAACEIQQAAAAAAAAAAAAAIaQEAAClAAAAAAAAQ6jQGygSsNAgALQCEvinEDAYgoZhCCqGgCMAKZCA4SgKxUHUPcS9V3B2qnu1hX2Be9OcD0yGmvGO78nt5afKOm++3f3BT6O4rRT2h5+U1Nz65cOljlt3NOaPWLcatqOIajdyH+YlEjx1nZltjrxWH+9pBygV3bLOQub8sCqV+YQxYboTk46Jc9Z7YCzDfET0</data>
+ </layer>
+ <layer name="WalkBehind" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDY0DALAAAGQEAABlBAAAAAAAAAAAAAAAAAAAHQB/QGHnAH9AQa1Q6M0NBS2SI9ACVD0nTQraoBGUpwkFj0wE20kzBRtAwaEQtMcXBccJCC4uBRvFgQ/NCROXAofDgB3YAQW6spOfc6PizkoojAwFXrwMKYAF</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <objectgroup name="Moving" height="30" width="30">
+  <object name="border" x="240" y="480" gid="5124" type="border-bottom">
+   <properties>
+    <property name="map" value="-2.4"/>
+   </properties>
+  </object>
+  <object name="border" x="240" y="16" gid="5124" type="border-top">
+   <properties>
+    <property name="map" value="../megalopolis/-2.6"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" height="30" width="30">
+  <object x="144" y="352" gid="5123" type="bot">
+   <properties>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7009"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object x="176" y="32" gid="5123" type="bot">
+   <properties>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7010"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="terranite"/>
+   </properties>
+  </object>
+  <object name="object" x="400" y="256" gid="2210" type="object">
+   <properties>
+    <property name="item" value="5"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

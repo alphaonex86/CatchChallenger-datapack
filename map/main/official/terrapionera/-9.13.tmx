@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map orientation="orthogonal" height="30" tilewidth="16" nextobjectid="6" tiledversion="1.0.3" width="30" renderorder="right-down" version="1.0" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer height="30" name="Walkable" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
+ </layer>
+ <layer height="30" name="Other" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDe0DAJQCAABoBAAAaQQAAGoEJAh+BACAXwQAAGAEJAifBAAAoAR/BAAAgGoEAAAdAPkASKA6fxX+JgSB4aICsb1SDJjC1nIw3BmrDcytWdtNYURfOx5AAxSDjTY3E3g58IeLKYAC60ABgOHdCcCBOZsJsMHRuVUQQzOB9JKiNQWw</data>
+ </layer>
+ <layer height="30" name="Dirt" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="Grass" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="LedgesRight" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="LedgesLeft" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="LedgesBottom" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="LedgesTop" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="Water" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer height="30" name="other" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDYUAACAAAGoEAgDT7JV/PBMfYAE=</data>
+ </layer>
+ <layer height="30" name="Collisions" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDYUEACQCKAQAACkEAAAqBAAAKEgEAABJBAAASmgEAABpBAAAaqEEACoAXRIaTAAWYDABWIDBBGCBHy1PAGAC3cSAgp+/CRgmmFsLOJgAODBgAuBAgAmAeQAC4U6ALzAGGRQm+FohhKcJChQmWFsdKJgALPBggqMc8G66ETvwYIIXBzXnpgJgAM+GQleIQIB0oKflCw==</data>
+ </layer>
+ <layer height="30" name="WalkBehind" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDTUDALAAAAgEAAAJBAAACgQAAAAAAAAAAAAAHAAWl4KXBz6k8G+Y4LgUSsapCuVO8KPlCT5I4cXB9NxUOBgQFjeB1TRRwY2vFCZIAXBQYIKdDnyQAuAggRQcB6jmrwLcEvcigaaK0KAACw==</data>
+ </layer>
+ <layer height="30" name="Other" width="30">
+  <data compression="zstd" encoding="base64">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <objectgroup name="Moving">
+  <object height="16" name="border" width="16" x="0" id="1" y="256" type="border-left" gid="5124">
+   <properties>
+    <property name="map" value="../chantiville/-10.13"/>
+   </properties>
+  </object>
+  <object height="16" name="border" width="16" x="464" id="2" y="256" type="border-right" gid="5124">
+   <properties>
+    <property name="map" value="-8.13"/>
+   </properties>
+  </object>
+  <object height="16" name="door" width="16" x="336" id="3" y="336" type="door" gid="5123">
+   <properties>
+    <property name="map" value="wood/-9.13a"/>
+    <property name="x" value="26"/>
+    <property name="y" value="15"/>
+   </properties>
+  </object>
+  <object height="16" name="door" width="16" x="336" id="4" y="320" type="door" gid="5123">
+   <properties>
+    <property name="map" value="wood/-9.13a"/>
+    <property name="x" value="26"/>
+    <property name="y" value="14"/>
+   </properties>
+  </object>
+  <object height="16" name="door" width="16" x="336" id="5" y="304" type="door" gid="5123">
+   <properties>
+    <property name="map" value="wood/-9.13a"/>
+    <property name="x" value="26"/>
+    <property name="y" value="14"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object"/>
+</map>

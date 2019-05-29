@@ -1,0 +1,95 @@
+<map tilewidth="16" width="30" tileheight="16" height="30" version="1.0" orientation="orthogonal">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
+ </layer>
+ <layer name="Other" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDV0DACQCAAAkCACRFCYBAAAoAZEURgEAAEgBJAgkCCQIZgEAAGgkCBYALRwF4MFFlgQ2ngNVtJ4FUuH1tDtLpsIBUDFuEWnMmCYVnC0NAuNL4encKBzvgQovXfZN+MZefaeQAOCYX19UEAfqOAJY</data>
+ </layer>
+ <layer name="Dirt" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Grass" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDbUCAKAAAAEIHxSEBAAAhQQAAKQEAAClBBcAB6mDKgAOAgi4XhmYGIjCyiu3PajgNmCnYLeMjw2zCuNOcLlFqLCbLCg4dFUAGp4uCI4Avx2rwGACroy3VQAL</data>
+ </layer>
+ <layer name="LedgesRight" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesLeft" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesBottom" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDfUAAEgAABwBAAAeIAEFADWuCp1NEz/4dU9U7GZ6jB9gAQ==</data>
+ </layer>
+ <layer name="LedgesTop" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Water" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Collisions" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDTUFAKQCBwIAAAcIAgAAXQBfAAAABgIAAAcnKCZ+ADQBMwGEBAAAhQSkBAAApSEIMgAABwUTXIEAJ80TABwAiuCNAhM4HErmTwF4obgURoxA12hZhSZQ8DG+VOBCwCWhC8FpAgIgwgNQIQEKAQTronAgQSCCAig8NIK5wcFVwPVgrgTAUAfGhD0gToKVolwPfEn8ejiA0KXjq+bckHGlkO1YBbnRcb0CebU=</data>
+ </layer>
+ <layer name="WalkBehind" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUCAEAAAGQEAABlBBcAB0CFrXAYAwoKTmgEKlSPllUoN0HjOFVhKRwAAgCHQ6DCAAqluaFgxYEOPeHIQJDuBI6BE4YAOPBuZUoFsA==</data>
+ </layer>
+ <layer name="Other" width="30" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <objectgroup name="Moving" width="30" height="30">
+  <object type="border-bottom" name="border" x="240" gid="5124" y="480">
+   <properties>
+    <property name="map" value="0.0"/>
+   </properties>
+  </object>
+  <object type="border-top" name="border" x="240" gid="5124" y="16">
+   <properties>
+    <property name="map" value="../symposia/0.2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="30" height="30">
+  <object type="bot" x="192" gid="5123" y="448">
+   <properties>
+    <property name="file" value="../bots-informations"/>
+    <property name="id" value="9001"/>
+   </properties>
+  </object>
+  <object type="bot" name="bot" x="352" gid="5123" y="192">
+   <properties>
+    <property name="fightRange" value="3"/>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7001"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+  <object type="object" name="object" x="352" gid="2210" y="432">
+   <properties>
+    <property name="item" value="5"/>
+   </properties>
+  </object>
+  <object type="bot" name="bot" x="192" gid="5123" y="64">
+   <properties>
+    <property name="file" value="../bots-fights"/>
+    <property name="id" value="7150"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="legatus"/>
+   </properties>
+  </object>
+  <object type="bot" name="bot" x="240" gid="5123" y="64">
+   <properties>
+    <property name="file" value="../bots-services"/>
+    <property name="id" value="2101"/>
+    <property name="lookAt" value="left"/>
+    <property name="skin" value="franck"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

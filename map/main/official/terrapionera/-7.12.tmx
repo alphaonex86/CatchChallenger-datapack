@@ -1,0 +1,68 @@
+<map width="30" height="30" tileheight="16" version="1.0" orientation="orthogonal" tilewidth="16">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer width="30" height="30" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACgBAAAAAQEACOZfLQ==</data>
+ </layer>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUGAHQCAAABAQAAAwEAJAgkCADhAAAA4iUBIQEAACIFBJEUI5EUJAiRFCQINwDRTeFfJdhbDthwFLjPcgr63Tzh/0Wk+P9JGsPrQG6sCeaJA2dwIDMleMqBCwUEH5fCCw36nKD4uAIVbg3xiKTAxiBcA5vG5iDBUQf+hgQ7WgkCZ1Cwx2sC14E8kAWeivbuESi05obCq7w4kOBfEyn8i0hwckHgOvDWBwC2C384yYYCu8MqdrV2HJ25cSA/EjzIYMcE6CkTG0hmJoAF</data>
+ </layer>
+ <layer width="30" height="30" name="Dirt">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Grass">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesRight">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesLeft">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesBottom">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesTop">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Water">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDZUAACAAAHUUAwCcAx/Q8CwVz6gACw==</data>
+ </layer>
+ <layer width="30" height="30" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQDUUMAHKGFSCga1AABCHh0tq2Fi6tbQsfMEIl0U2ghzog8VmWin6UD9+ddJBuuM9usrusTIez0VyWIoHAXCwVSnVE/UytsBG2QUUNTX4Wkgjk4WgcMW6CLbABfrsPgJao4boVSdAHgAqADBU5MgkAAoiAAQCIgAGoAAAwCCLgGISQQQABM4C6MAIAtyDPZ3DWi7p5m/As9xjlPtWOknCL45SPg6qWqbl6+WU+Dh/UcYEsGhhGmFf/H6qThqc+U9jVvnll77USWXN2t+wFxAvsWAJvdtXuY+Hfyi2KXmSGtkWCax35T7BL+VR1HXn87/w+lpwTcT2P55/G0jW+oy5Vn0eNILFk3hIvmdzSabDu7fsNqryQZMfxJDEEZAlnevb6ZDy6+2jgmpl87z3ofYXPzP1qV+NT5husxHem3jNkl4nnkvnGza7ickrZgwLOxHexsv2eBEa5DpW7X/LWUj4T+CGpNcnktEyU/fvb+9oYdp7uEGv8XJ7IMDn4tmAANWI2oAeF6ai2CmVtn/IB</data>
+ </layer>
+ <layer width="30" height="30" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQDR0GALQDAAA3DgAAODkOAAAAAAAACAQAAAkEAAAKBABXDgAAWFkOABQOAAAVDhcOAAAYGQ40DgAANQ5UDgAAVQ4vAHI4FfDzhMVkQcEGUOAc+C86wV6d4E9NCj8dSIyeKfh1c4IVHSi+UApejoJ/8QRjhQPdTeFLSdBXEbw4eGkR/BsmeDDBjQhfPoJ/wgS9QUywSxxwSziw84HzAwv3YZfIwNwSU3kV3g19Z0NrPCyFHsMEsIFz4A9vAu4crqubO4ObvZ9AGw==</data>
+ </layer>
+ <layer width="30" height="30" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <objectgroup width="30" height="30" name="Moving">
+  <object gid="5124" type="border-right" x="464" y="256" name="border">
+   <properties>
+    <property name="map" value="-6.12"/>
+   </properties>
+  </object>
+  <object gid="5124" type="border-top" x="240" y="16" name="border">
+   <properties>
+    <property name="map" value="-7.13"/>
+   </properties>
+  </object>
+  <object gid="5237" type="door" x="288" y="48" name="door">
+   <properties>
+    <property name="map" value="indoor/arena"/>
+    <property name="x" value="5"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="30" height="30" name="Object"/>
+</map>

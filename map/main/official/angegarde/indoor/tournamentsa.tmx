@@ -1,0 +1,51 @@
+<map orientation="orthogonal" width="15" tileheight="16" height="17" version="1.0" tilewidth="16">
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/terra.tsx"/>
+ <layer name="Walkable" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Am0BAEiIAACgiACooKANAAWuCt1KgqHAe4BiqQChPRC4FrRVBEAAEMclAwDwCvVqAQ==</data>
+ </layer>
+ <layer name="water" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Ah0BADAAABEMAAAKAMZJYKgbsS4VPyeAF5JfUXDUAmAAV8ajKsAC</data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
+ </layer>
+ <layer name="Other" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
+ </layer>
+ <layer name="Collisions" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8AnUCAHijAAAAoxQ0IRAAACIQQUIaAD4qJHBrcBvcBYMXYQ4L7gUuAi4OLgc/M9x/hMLcUAADgOYAwKDbUUUAYgUABXEPgBfgnvtKi0F0YairBQ==</data>
+ </layer>
+ <layer name="other" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Ak0CAMgAAMoQyxDJEOvpShFLESoRAAALEQkRAAArEgCOo7CyM3BmjAZYoTuBO4M7gzfi+mXYmxcXX1EBjttZM+6zSx3YK4XdDY+qAAs=</data>
+ </layer>
+ <layer name="WalkBehind" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8AvUAAEgAAL6/wN7f4AAHAOfeCgHAACD46jwAMBcQRwpgAQ==</data>
+ </layer>
+ <layer name="other" width="15" height="17">
+  <data compression="zstd" encoding="base64">KLUv/WD8Ak0AABAAAAEA9yuABQ==</data>
+ </layer>
+ <objectgroup name="Moving" width="15" height="17">
+  <object name="door" gid="1027" x="112" y="80" type="door">
+   <properties>
+    <property name="map" value="tournamentsb"/>
+    <property name="x" value="7"/>
+    <property name="y" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="15" height="17">
+  <object name="bot" gid="1027" x="112" y="112" type="bot">
+   <properties>
+    <property name="file" value="../../bots-fights"/>
+    <property name="id" value="7143"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="girl"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

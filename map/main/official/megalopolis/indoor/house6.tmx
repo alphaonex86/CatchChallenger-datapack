@@ -1,0 +1,53 @@
+<map width="11" height="12" tilewidth="16" tileheight="16" orientation="orthogonal" version="1.0">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/rename.tsx" firstgid="3089"/>
+ <tileset source="../../../../tileset/wood.tsx" firstgid="4113"/>
+ <tileset source="../../../../tileset/terra.tsx" firstgid="5137"/>
+ <layer name="Walkable" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAQUBADgAAIMJKREUCgBBCQ9PqcDFCN7gkgNvcMmBN7jk3QRY</data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAbUAAEAAAAkpAHQNAAQABtLYcVXkKZPtBNo=</data>
+ </layer>
+ <layer name="Collisions" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQATUDABQCowAAAKMJHCk8EgQABgkACBIEJicolBAAAJUQtLUSBJEQHwChhIU1g5WD34Y/vBMAA9AdABhwdnMGoBXgwL3BnfCVvp3BXCBuAW/BmRkD53DXXcJcG69wAPBThYGN9zoAMDLdNw==</data>
+ </layer>
+ <layer name="Other" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAaUAAEAAADkMAAA6DAMAEkAFL0cZUwAL</data>
+ </layer>
+ <layer name="WalkBehind" width="11" height="12">
+  <data encoding="base64" compression="zstd">KLUv/WAQAT0CAOAAABwVBJIEAAA85ggAADXoCLKnCHQQAAB1EJIEEQCuAS9QCbwiClwabn7lKxE7Mg5cD6fDUIUghKMy7QIKkAAkvi7bCbQB</data>
+ </layer>
+ <layer name="other" width="11" height="12" opacity="0.9">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <objectgroup name="Moving" width="0" height="0">
+  <object name="teleport on push" gid="1027" x="80" y="192" type="teleport on push">
+   <properties>
+    <property name="map" value="../1.6"/>
+    <property name="x" value="3"/>
+    <property name="y" value="3"/>
+   </properties>
+  </object>
+  <object name="teleport on push" gid="1027" x="32" y="64" type="teleport on push">
+   <properties>
+    <property name="map" value="house6cave"/>
+    <property name="x" value="2"/>
+    <property name="y" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="0" height="0">
+  <object name="bot" gid="1027" x="80" y="80" type="bot">
+   <properties>
+    <property name="file" value="../../bots-services"/>
+    <property name="id" value="8"/>
+    <property name="lookAt" value="Bottom"/>
+    <property name="skin" value="florist"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

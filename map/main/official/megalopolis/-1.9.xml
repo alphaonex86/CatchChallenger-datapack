@@ -1,0 +1,16 @@
+<map zone="road8" type="outdoor">
+	<name>Wood</name>
+	<name lang="fr">Forêt</name>
+  	<grass>
+          <monster id="3" minLevel="14" maxLevel="18" luck="30" />
+          <monster id="22" minLevel="14" maxLevel="18" luck="35" />
+          <monster id="13" minLevel="14" maxLevel="18" luck="30" />
+          <monster id="17" minLevel="14" maxLevel="18" luck="5" />
+  </grass>
+      <grassNight>
+          <monster id="3" minLevel="15" maxLevel="19" luck="15" />
+          <monster id="22" minLevel="15" maxLevel="19" luck="40" />
+          <monster id="13" minLevel="15" maxLevel="19" luck="35" />
+          <monster id="17" minLevel="15" maxLevel="19" luck="10" />
+    </grassNight>
+</map>

@@ -1,0 +1,15 @@
+<map zone="road4" type="outdoor">
+	<name>Road</name>
+	<name lang="fr">Route</name>
+  	<grass>
+          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="2" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="13" minLevel="9" maxLevel="10" luck="45" />
+          <monster id="45" minLevel="9" maxLevel="10" luck="5" />
+  </grass>
+      <grassNight>
+          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="18" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="13" minLevel="9" maxLevel="10" luck="50" />
+    </grassNight>
+</map>

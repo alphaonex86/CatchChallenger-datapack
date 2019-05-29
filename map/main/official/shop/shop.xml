@@ -1,0 +1,51 @@
+<!-- default attributes for the product
+overridePrice="none"
+Warning: The price can't be directly show by the client, because some random part like local taxe need be applied
+Some special product can be added onetime too
+-->
+<shops>
+    <shop id="1">
+        <product itemId="1"/>
+        <product itemId="5"/>
+        <product itemId="9"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
+    <shop id="2">
+        <product itemId="2"/>
+        <product itemId="6"/>
+        <product itemId="10"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
+    <shop id="3">
+        <product itemId="3"/>
+        <product itemId="7"/>
+        <product itemId="11"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
+    <shop id="4">
+        <product itemId="8"/>
+        <product itemId="12"/>
+        <product itemId="13"/>
+        <product itemId="14"/>
+        <product itemId="15"/>
+    </shop>
+        <shop id="101">
+        <product itemId="1002"/>
+        <product itemId="1005"/>
+        <product itemId="1006"/>
+        <product itemId="1007"/>
+        <product itemId="1010"/>
+        <product itemId="1011"/>
+    </shop>
+        <shop id="102">
+        <product itemId="100"/>
+        <product itemId="31"/>
+        
+    </shop>
+</shops>

@@ -1,0 +1,12 @@
+<map type="outdoor" backgroundsound="toto.ogg" zone="road11">
+	<name>boreal forest</name>
+	<name lang="fr">Fôret boréale</name>
+	<grass>
+          <monster id="23" minLevel="16" maxLevel="17" luck="20" />
+          <monster id="22" minLevel="13" maxLevel="15" luck="20" />
+          <monster id="3" minLevel="13" maxLevel="16" luck="40" />
+          <monster id="17" minLevel="15" maxLevel="17" luck="10" />
+          <monster id="21" minLevel="13" maxLevel="16" luck="10" />
+  </grass>
+	<wather></wather>
+</map>

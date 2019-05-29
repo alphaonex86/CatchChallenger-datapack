@@ -1,0 +1,72 @@
+<map version="1.0" orientation="orthogonal" height="30" tilewidth="16" width="30" tileheight="16">
+ <tileset firstgid="1" source="../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../tileset/building-town.tsx"/>
+ <tileset firstgid="4097" source="../../../tileset/building-small.tsx"/>
+ <tileset firstgid="5121" source="../../../tileset/invisible.tsx"/>
+ <tileset firstgid="5137" source="../../../tileset/animation.tsx"/>
+ <layer name="Walkable" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0LAAIEBwngAT9YBbF9//WX0rUVey8v63heX/vqbgyiOIiAl6hQPQEwxgAQRFUeEgAwCIQYAgYEAA6GAJQjYDgQABY0AsYAonALB/d8W11EypmlTDU/MK8G+j78l+jzxUuq/4u3YuaVWW/db5f27HeCW/mdSXMT/r1CW7odv5Tdv7oUCbYkc69e3ryz5Trj7guCO+Ein3/BBpX12wt84rgvhDqfSjC6/wFYvT6Jel2pz+n2xR82W+N74xg/61T65Aa/1BTTJ8Nj1E6xR3502CJ/kl3CuC+eC95Y8lReSk7yAuBBc+3u0b2Adwz6re4h5ONnmLPN4iMZMAX4rziA4sEIA27PnL7Ff9dd2VYeqry0V0HtywCmsEWGenqG7Pj17S940G44BvuhBxRz30xe8502l6OP5yu+tG/Iqd6quZN/Y78Mmecszj08ENkrd9P/O7+9Ka01++NZvq54b8DOe+LK0g0A7N/7f/v67gc=</data>
+ </layer>
+ <layer name="Other" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDf0CANgAAAEIAIAABgAAAAcAAAAHAAAAACYARgAAAEcVALFrQQqAAebIUnA2N1ROAFT4PxCClswqVN6RKnwnElzTArtVTzytflkogPCMW0MBDVBQOUdUOJsPTi51c01ypwJY</data>
+ </layer>
+ <layer name="Dirt" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDaUAADgAACcAAAAnAwCAA/wenH+97w+w</data>
+ </layer>
+ <layer name="Grass" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDS0GAKgAAAEIAAEIAACAgAAAAAAAAAAAAAA/AAcHhSoACP64AI0eJBR+vwgOEAj2wOEcIAAHfnyhMF/LKQwFwvkyBL9AnqC/CRS6U4JxUfiAiAADzD2k8A9nFAAIDKDwMREBcCCA4F0E8Y6cwl8jeIkI2FoEvhcEgAi8KoK3iAgAG10uBBA+IU/8CgkeDAK9BxS/POz7kuIqB3Yi2Ifj5krsDpC9uKg9oNBVEfTrCX+DBLkI/sco2Elxh+MWSAgg8KJg8I0JFWAB</data>
+ </layer>
+ <layer name="LedgesRight" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesLeft" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesBottom" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="LedgesTop" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="Water" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer name="other" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDdUCAHBoBAAAaQQAAGoEAABoaBgAJ0DBUQ6cZggU7DKdYHSWrAKACXo4Bda5oaCdEcAG4RGSgstxqsIjWYE5V4WLS0HPERN8ABXWTbCZPwU9MRNQSOEKzgWi4HX5Ag==</data>
+ </layer>
+ <layer name="Collisions" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDe0FACQCKAQAACkEAAAqBAAAKChIBAAASQQAAEpoBAAAaQQAAGoEAEqo0OkhCIAOCAzUOhLYQaBC8A0BBRJQXIZgBmgIGIYAFlhlH4kD+lk+NAJB3j7uKZFN5b/kMoR39RcIPQf3t4z5LoP1wIASmzlkQoemznu+Z4it/cET8/Yv+p/ZQJ2Zn4pC8EsRLgKo/c6G04S+NKdkzszfwzmzJFPgmCuLZitmxP/j86sYw3MO/xGPE0ogSn2bd/UBNe7LPA==</data>
+ </layer>
+ <layer name="WalkBehind" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDV0DAGAAAAgEAAAJBAAACgQeAG4cBeolAcDw218UPEiO4PV+puDuhM3/KajOjYK6NSnEBswU3ElCZtJMQUcjeHaZMDdTqNBLxQQjQIFz4PmLQIyj4DtHKODBSPDiwFQH8hsp/Nwm+GNIwQuHZgqw</data>
+ </layer>
+ <layer name="Other" height="30" width="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <objectgroup name="Moving" height="30" width="30">
+  <object type="border-right" gid="5124" x="464" name="border" y="256">
+   <properties>
+    <property name="map" value="0.8"/>
+   </properties>
+  </object>
+  <object type="border-top" gid="5124" x="240" name="border" y="16">
+   <properties>
+    <property name="map" value="-1.9"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" height="30" width="30">
+  <object type="object" gid="2210" x="64" name="object" y="336">
+   <properties>
+    <property name="item" value="16"/>
+   </properties>
+  </object>
+  <object type="object" gid="2210" x="272" name="object" y="432">
+   <properties>
+    <property name="item" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

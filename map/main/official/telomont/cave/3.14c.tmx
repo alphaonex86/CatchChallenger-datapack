@@ -1,0 +1,60 @@
+<map width="30" tileheight="16" version="1.0" height="30" tilewidth="16" orientation="orthogonal">
+ <tileset firstgid="1" source="../../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../../tileset/building-small.tsx"/>
+ <tileset firstgid="4097" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="5121" source="../../../../tileset/invisible.tsx"/>
+ <layer width="30" name="Walkable" visible="0" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACjCAQAAwgEACOZfLQ==</data>
+ </layer>
+ <layer width="30" name="other" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDY0AACAAAMIIAwQubADADDUZLwOw</data>
+ </layer>
+ <layer width="30" name="Dirt" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="Grass" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDeUBAHgAAMIBAMIBAAAAAAAAAAAOAJRABfCYgBXoIMUTpPimSYo5YDC1h4r3jzT+bSYANq47pMHlsALp+F4BLA==</data>
+ </layer>
+ <layer width="30" name="LedgesRight" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="LedgesLeft" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="LedgesBottom" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="Water" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="other" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" name="Collisions" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDTUFAPIEChCwJwguuGzNISZJtUsj6ekBn+Dm/z+eA8LNr2hFo3xYnLz6hThZXR0uAKSuCmgABCuID+cELgbXdCC/32Q7Q3aLmBY4ZmCGM+B3POElgzOweAaALWJCsOKmASDAzw2KgVc3TUzwVSDAIXj8OuDboMXtdM+ICcDCQMH7EL445p/VPhfp/hP7opbvIYE7bj03Mjp3FmfoO7wU3hcbTOHlG2cqgAU=</data>
+ </layer>
+ <layer width="30" name="WalkBehind" height="30">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACg3AAAANwEACOZfLQ==</data>
+ </layer>
+ <objectgroup width="30" name="Moving" height="30">
+  <object x="128" name="door" y="176" gid="5123" type="door">
+   <properties>
+    <property name="map" value="3.14b"/>
+    <property name="x" value="8"/>
+    <property name="y" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="30" name="Object" height="30">
+  <object x="112" name="bot" y="224" gid="5123" type="bot">
+   <properties>
+    <property name="file" value="../../bots-fights"/>
+    <property name="id" value="7095"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="miner"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

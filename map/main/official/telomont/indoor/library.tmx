@@ -1,0 +1,43 @@
+<map tilewidth="16" width="11" height="12" version="1.0" orientation="orthogonal" tileheight="16">
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <layer width="11" height="12" name="Walkable">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0AABgAAMgEAEEJlE+p4OJ3E2AB</data>
+ </layer>
+ <layer width="11" height="12" name="Other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAQ0BAGAAABkEALEItBoEOT4HAPAGJCvuAozAsJeteQDl9hRoAw==</data>
+ </layer>
+ <layer width="11" height="12" name="Collisions">
+  <data compression="zstd" encoding="base64">KLUv/WAQAeUBAJCjAAAAoxQ0eAgAAHkIkpOyswgRAOwiAPdEF2BAKQDcwYwBiAA34CkNbk4A05UrABTgjnsqDoBfAOpqAQ==</data>
+ </layer>
+ <layer width="11" height="12" name="Other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <layer width="11" height="12" name="WalkBehind">
+  <data compression="zstd" encoding="base64">KLUv/WAQAWUBAIAAABUEWAgAAFk1NQSRlAgACgCGl85W4zYHKQgugZsaj8rYCzxY9i3wgwJY</data>
+ </layer>
+ <layer width="11" height="12" name="other">
+  <data compression="zstd" encoding="base64">KLUv/WAQAR0BAFgAAJgIAACZCLi5CAkAHEABFOAY8OFJAIzoAoPL3hzLjAJY</data>
+ </layer>
+ <objectgroup width="0" height="0" name="Moving">
+  <object type="teleport on push" gid="1027" x="80" y="192" name="teleport on push">
+   <properties>
+    <property value="../1.12" name="map"/>
+    <property value="6" name="x"/>
+    <property value="9" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="0" height="0" name="Object">
+  <object type="bot" gid="1027" x="48" y="112">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9026" name="id"/>
+    <property value="top" name="lookAt"/>
+    <property value="miller" name="skin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

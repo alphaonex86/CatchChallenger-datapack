@@ -1,0 +1,239 @@
+<map version="1.0" tilewidth="16" width="45" orientation="orthogonal" tileheight="16" height="26">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <tileset source="../../../../tileset/animation.tsx" firstgid="3089"/>
+ <tileset source="../../../../tileset/rename.tsx" firstgid="4113"/>
+ <layer name="Walkable" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEW0AABgAAMMCAJDh9uJFASw=</data>
+ </layer>
+ <layer name="Other" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEX0DAMAAAF0IADQLAAA1CwAANgsVNV0IFRU1XQgbAL8PBxXukKKw/HsqWKMwfB0NKtitGEfLaWAhEyq4H+CVzmUCvZNT6CnzOEiWOAaodvxTqtgxDP4sOUUP0uhCB3MUu2ukahOkoCNeBUuIQYA05lSABQ==</data>
+ </layer>
+ <layer name="Collisions" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEcULAMJJHSaAC0EBJOwxeca7nBRmzIcgJt84GgDDMDCHxw7ilOXS4ySndrOOBxNUg7aK7YlwsE4AogIBv0Hbc0LxGhvR43jSbHERPYzlwVkU0lJ/IiLxDL70FXwEX/MN/GoOW8amKiEgHx6RlQ6IL4JRTENj2BaWk1Z6CnuoMUpCKMj1AIBKSU0NBOIJIgohgFiKIgAKCRIQImACQoiQCIh0AplgAhpRD2SrHZjHy4l7dKK/uecEQPPdgaEv/qruJssHg7TY0k7S/r+IeAl1d85lks0SztwLip2/k4J7dJ/jusr4TofJqF3sPfT2phNdPT43C/UGWH+iFeOdtFlw7TsuxorQCHnntbDttQq9Y9j9IYduq+HJZ+fBsGtmgL0syLBjIdsRXNKs2EaeCS04zNiO+gW8YJmBPerYMD8UwxYZH9KXTyIswuKtl0m2ZcctRp/ftC6NLflIihGbqMBZTKF8vnHBmFM7xjP7t+9/CbZVhUDMo4U0SU7NpAE=</data>
+ </layer>
+ <layer name="Other" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEU0AABAAAAEAQ9IDLA==</data>
+ </layer>
+ <layer name="WalkBehind" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEY0GAPIGEhuQCRAAJANQRB7ELMRRmhTOG55S+tZVe/jjaTtFqMSFKOVS3JRyBaYDMbRMDJ2bPMmLPMh7fGGAYbkGl+A5XuMx3uI1fzr/ATIAYUCFtw9Cwc0Hg2QIOxhkN+F8AQNgwPZnVgGMgNwUPsgI/hLSoiCF72QIjpPgZg2XyRAYSpU58oCfyU/crGE4sIPXeuUK7gZTiYCr4Maw0t1aWY6dBF5YhENgCSO6TOx0sLLqMUQgvylu261tl2lgxhIUiIPwc2HGAn14OC14AjCCU88l</data>
+ </layer>
+ <layer name="other" width="45" height="26">
+  <data compression="zstd" encoding="base64">KLUv/WBIEf0EALQDAACYCAAAmQi4CAAAuQimCwCApaQApQuZCACAmAAAAAAdCFYEAABXBLkIAIC4PQh2BAAAdwRYCAAAWQgkAK14zxUAEYADR0DBByl8EA48boIZQoQFgoYPwoHHTTBD4LBAPDhLSAHgKijB65SDE9NFwwvom2I5OHFdB6JkB2gfUPH+glxgKGtmAuByAID7AuoeVMG9K4MU/DMqLwpgAQ==</data>
+ </layer>
+ <objectgroup name="Moving" width="45" height="26">
+  <object name="door" x="384" y="256" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor0"/>
+    <property name="x" value="24"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" x="320" y="224" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="20"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" x="320" y="256" gid="3477" type="door">
+   <properties>
+    <property name="condition-file" value="../../condition"/>
+    <property name="condition-id" value="1000"/>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="20"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" x="208" y="256" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="13"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" x="64" y="256" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="4"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" x="64" y="144" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="4"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" x="352" y="144" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="22"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" x="640" y="144" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="40"/>
+    <property name="y" value="5"/>
+   </properties>
+  </object>
+  <object name="door" x="640" y="256" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="40"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" x="496" y="256" gid="3477" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="31"/>
+    <property name="y" value="12"/>
+   </properties>
+  </object>
+  <object name="door" x="208" y="224" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="13"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" x="64" y="224" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="4"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" x="64" y="112" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="4"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="door" x="352" y="112" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="22"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="door" x="640" y="112" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="40"/>
+    <property name="y" value="9"/>
+   </properties>
+  </object>
+  <object name="door" x="640" y="224" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="40"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+  <object name="door" x="496" y="224" gid="1027" type="door">
+   <properties>
+    <property name="map" value="commissionership-floor1"/>
+    <property name="x" value="31"/>
+    <property name="y" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object" width="45" height="26">
+  <object x="640" y="384" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-services"/>
+    <property name="id" value="1"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object x="688" y="80" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-services"/>
+    <property name="id" value="1"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object x="592" y="64" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-services"/>
+    <property name="id" value="1"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object x="304" y="272" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object x="208" y="288" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object x="112" y="160" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object x="32" y="160" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object x="64" y="48" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="captain"/>
+   </properties>
+  </object>
+  <object x="64" y="384" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="oldgirl"/>
+   </properties>
+  </object>
+  <object x="592" y="288" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+  <object x="672" y="336" gid="1027" type="bot">
+   <properties>
+    <property name="file" value="../../bots-informations"/>
+    <property name="id" value="9062"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="scientific"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

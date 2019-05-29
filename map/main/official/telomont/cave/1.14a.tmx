@@ -1,0 +1,54 @@
+<map version="1.0" width="30" height="30" tilewidth="16" orientation="orthogonal" tileheight="16">
+ <tileset firstgid="1" source="../../../../tileset/terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/wood.tsx"/>
+ <tileset firstgid="2049" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="3073" source="../../../../tileset/building-small.tsx"/>
+ <tileset firstgid="4097" source="../../../../tileset/animation.tsx"/>
+ <tileset firstgid="5121" source="../../../../tileset/invisible.tsx"/>
+ <layer width="30" height="30" name="Walkable" visible="0">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACjCAQAAwgEACOZfLQ==</data>
+ </layer>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDSUBAGgAAHQAUQAAAFIAcgCSBgDsiJ4/JL4odSdI8YCpvAGFj/0BFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Dirt">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Grass">
+  <data encoding="base64" compression="zstd">KLUv/WAQDd0EAJgAAMIBAMIBwgHCAQAAAAAAAAAAMAAPCYQqFF4AKSh3gSl4EZynYgoujYGMgMTNbYLvC4H/QUIXjBcRAAB6XCYYXjTUCJngDSAIYyTFI9hRR+YJdgxcJSAANDy14daUMCDBVgeGgEPaIqcQAIXPiwh2hozCCweuCHaoQHGoJVwCT2tUBaBABik0l8LYcQpcENud4RLg5RhzKoAF</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesRight">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesLeft">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="LedgesBottom">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Water">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQDTULACLFDBOwBxZ/a85N9tGPl9Bhsbd1xO8BN484DHwvBP8KOrQ9gBvSDKkPqbEFGraU1J90QLhJHYCUqICrBVCKAEBR2QESCEAgFIAAgBgOAAiYBcAImAEAGAlIACwGxgHInLhb+RrkcdGdQaV8dZOM0YWrsTMIE3NlgLTbczLKG67xC/IjDz2tKLzLKw312rlQ+geykr4f1tf0vvqUy+nPMbM/nS9hi4bnBifoqJadnGrHq9IQ1PW1/m33VVvEeedyfK27G+4vVNi7julsy+0QAweXY+313j/MEwvnNTYmrITvFVNiw3Szu+ny7Z7xE6Fs6AzzLtsX4n7Vxd3hEk2mWs/Hzv9pDOCGYq8F45eQ1ozAxLHAuT9nnlz1YOCQNgaIf8bph/eMmI/u27zT35UxRfUeGGT+rhXsvGVN/ov1N7j7cEfW9zyIuNd6IEY981dxi7jXeRqFlL77/DMI+UB6I9XipNodQAo=</data>
+ </layer>
+ <layer width="30" height="30" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQDU0AABAAAAEAC/YBFg==</data>
+ </layer>
+ <layer width="30" height="30" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQDWUAACg3AAAANwEACOZfLQ==</data>
+ </layer>
+ <objectgroup width="30" height="30" name="Moving">
+  <object type="teleport on push" name="door" x="224" y="448" gid="5123">
+   <properties>
+    <property value="../1.14" name="map"/>
+    <property value="21" name="x"/>
+    <property value="15" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="30" height="30" name="Object"/>
+</map>

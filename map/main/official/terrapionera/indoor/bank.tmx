@@ -1,0 +1,75 @@
+<map orientation="orthogonal" width="11" version="1.0" tilewidth="16" tileheight="16" height="12">
+ <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+ <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+ <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+ <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+ <layer width="11" name="Walkable" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAY0AABgAAIMEAEEJlE+p4OJ3E2AB</data>
+ </layer>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAW0AACAAAB4AAgAHEj5WARY=</data>
+ </layer>
+ <layer width="11" name="Collisions" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAS0CALijAAAAoxQ0RggASGZnaDoIAIA6CFpaCBQAf60IQWNga4AlICLuAcjAneCK22UMAHmqgJsTXsR9ywACuOSeigPgl4W6Wg==</data>
+ </layer>
+ <layer width="11" name="Other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <layer width="11" name="WalkBehind" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAe0AAFAAACYIKAgaCACABgAGQIGhGkp3AjctfoHxlgJY</data>
+ </layer>
+ <layer width="11" name="other" height="12">
+  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <objectgroup width="0" name="Moving" height="0">
+  <object type="teleport on push" gid="1027" name="teleport on push" x="80" y="192">
+   <properties>
+    <property value="../-7.13" name="map"/>
+    <property value="18" name="x"/>
+    <property value="24" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="0" name="Object" height="0">
+  <object type="bot" gid="1027" x="32" y="112">
+   <properties>
+    <property value="../../bots-services" name="file"/>
+    <property value="3" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="bankier" name="skin"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="112" y="112">
+   <properties>
+    <property value="../../bots-services" name="file"/>
+    <property value="3" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="bankier" name="skin"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="48" y="112">
+   <properties>
+    <property value="../../bots-services" name="file"/>
+    <property value="3" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="bankier" name="skin"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="128" y="112">
+   <properties>
+    <property value="../../bots-services" name="file"/>
+    <property value="3" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="bankier" name="skin"/>
+   </properties>
+  </object>
+  <object type="bot" gid="1027" x="80" y="112">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9027" name="id"/>
+    <property value="bottom" name="lookAt"/>
+    <property value="soldier" name="skin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

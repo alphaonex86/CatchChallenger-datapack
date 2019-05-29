@@ -1,0 +1,65 @@
+<map version="1.0" tilewidth="16" width="11" height="12" tileheight="16" orientation="orthogonal">
+ <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+ <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+ <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+ <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+ <tileset firstgid="3089" source="../../../../tileset/rename.tsx"/>
+ <tileset firstgid="4113" source="../../../../tileset/wood.tsx"/>
+ <tileset firstgid="5137" source="../../../../tileset/terra.tsx"/>
+ <layer width="11" height="12" name="Walkable">
+  <data encoding="base64" compression="zstd">KLUv/WAQAaUAAEgRFAAAEYMAERQDALdAxcDBMK8W</data>
+ </layer>
+ <layer width="11" height="12" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAaUBAJAAAAkAKQAWFAAAFxgUNjhWWFcNABqkACbs2kFmhgpAbgsdc0P52d2nLHZjPXDiAOIBYAE=</data>
+ </layer>
+ <layer width="11" height="12" name="other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0BAHgAABYUAABXGBQ2OFZYFBcJAAtAYS/uzQzFLXTMDeVnd5+y2I31jwJY</data>
+ </layer>
+ <layer width="11" height="12" name="Collisions">
+  <data encoding="base64" compression="zstd">KLUv/WAQAW0CAMCjAAAACRujKTuUEAAAlRAxDAAANxS0tRAYAOwR0MwgAC/AgK/RwAECoAEY4DRwww8CgMG0ry5gKNABbsBTGoAF9zoAGMgEWHiFC7ha</data>
+ </layer>
+ <layer width="11" height="12" name="Other">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <layer width="11" height="12" name="WalkBehind">
+  <data encoding="base64" compression="zstd">KLUv/WAQAb0CAFQCAAAbAHQQAAB1EKimqRDHEAAAycjn6ehJEUgRaRFoEYmIiamoERUAjhuw0iIAGEAKAO4FmOuaG9r3ueYODSAFAAcA5ilSvIAGDgKAAUDsq7MMmHgAWA==</data>
+ </layer>
+ <layer width="11" height="12" name="other" opacity="0.9">
+  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+ </layer>
+ <objectgroup width="0" height="0" name="Moving">
+  <object x="32" gid="1027" y="32" type="teleport on push" name="teleport on push">
+   <properties>
+    <property value="house6" name="map"/>
+    <property value="2" name="x"/>
+    <property value="4" name="y"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup width="0" height="0" name="Object">
+  <object x="80" gid="1027" y="64" type="bot" name="bot">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9057" name="id"/>
+   </properties>
+  </object>
+  <object x="80" gid="1027" y="96" type="bot" name="bot">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9058" name="id"/>
+   </properties>
+  </object>
+  <object x="80" gid="1027" y="128" type="bot" name="bot">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9059" name="id"/>
+   </properties>
+  </object>
+  <object x="80" gid="1027" y="160" type="bot" name="bot">
+   <properties>
+    <property value="../../bots-informations" name="file"/>
+    <property value="9060" name="id"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
