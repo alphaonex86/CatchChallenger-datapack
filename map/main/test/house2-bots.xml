@@ -1,0 +1,53 @@
+<bots>
+    <bot id="50">
+        <name>Nurse</name>
+        <name lang="fr">Infirmière</name>
+        <step type="text" id="1">
+            <text><![CDATA[I will heal for you...<br /><a href="2;3">[Heal]</a>]]></text>
+            <text lang="fr"><![CDATA[Laissez moi vous soigner...<br /><a href="2;3">[Soin]</a>]]></text>
+        </step>
+        <step type="heal" id="2"/>
+        <step type="text" id="3">
+            <text><![CDATA[Have a good day!]]></text>
+            <text lang="fr"><![CDATA[Bonne journée!]]></text>
+        </step>
+    </bot>
+    <bot id="51">
+        <name>Seller</name>
+        <name lang="fr">Vendeur</name>
+        <step type="text" id="1">
+        <text><![CDATA[Welcome to the PokeMart<br />
+            <a href="2">Buy</a><br />
+            <a href="3">Sell</a>]]></text>
+        <text lang="fr"><![CDATA[Bienvenu dans la Boutique Pokémon<br />
+            <a href="2">Acheter</a><br />
+            <a href="3">Vendre</a>]]></text>
+        </step>
+        <step type="shop" shop="1" id="2"/>
+        <step type="sell" shop="1" id="3"/>
+    </bot>
+    <bot id="52">
+        <name><![CDATA[Girl]]></name>
+        <step type="text" id="1">
+            <text><![CDATA[Listen...<br /><br /><a href="2">[Learn]</a>]]></text>
+            <text lang="fr"><![CDATA[Écoute...<br /><br /><a href="2">[Apprendre]</a>]]></text>
+        </step>
+        <step type="learn" id="2"/>
+    </bot>
+    <bot id="53">
+        <name><![CDATA[]]></name>
+        <step type="text" id="1">
+            <text><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Create clan]</a>]]></text>
+            <text lang="fr"><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Creer un clan]</a>]]></text>
+        </step>
+        <step type="zonecapture" id="2" zone="test" />
+    </bot>
+    <bot id="54">
+        <name><![CDATA[Scientist]]></name>
+        <step type="text" id="1">
+            <text><![CDATA[I wish see all<br /><br /><a href="2">[Market]</a>]]></text>
+            <text lang="fr"><![CDATA[Je veux tout voir<br /><br /><a href="2">[Marché]</a>]]></text>
+        </step>
+        <step type="market" id="2"/>
+    </bot>
+</bots>

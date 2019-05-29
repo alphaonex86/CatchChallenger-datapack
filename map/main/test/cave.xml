@@ -1,0 +1,7 @@
+<map type="cave" zone="test" backgroundsound="music/cave.opus">
+    <name>Cave</name>
+    <cave>
+        <monster minLevel="22" luck="40" id="32" maxLevel="25"/>
+        <monster level="25" luck="60" id="33"/>
+    </cave>
+</map>

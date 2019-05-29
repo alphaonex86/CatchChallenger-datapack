@@ -77,7 +77,7 @@
     <property name="id" type="int" value="40"/>
    </properties>
   </object>
-  <object id="13" type="bot" gid="3073" x="112" y="176" width="16" height="16">
+  <object id="13" name="Industry" type="bot" gid="3073" x="112" y="176" width="16" height="16">
    <properties>
     <property name="file" type="file" value="house1-bots.xml"/>
     <property name="id" type="int" value="42"/>
@@ -85,7 +85,7 @@
     <property name="skin" value="badguys"/>
    </properties>
   </object>
-  <object id="12" type="bot" gid="3073" x="32" y="112" width="16" height="16">
+  <object id="12" name="Quest" type="bot" gid="3073" x="32" y="112" width="16" height="16">
    <properties>
     <property name="file" type="file" value="house1-bots.xml"/>
     <property name="id" type="int" value="41"/>

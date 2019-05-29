@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="10" height="20" tilewidth="16" tileheight="16" infinite="0" nextobjectid="2">
+ <tileset firstgid="1" source="../../tileset/t1.tsx"/>
+ <tileset firstgid="1025" source="../../tileset/invisible.tsx"/>
+ <layer name="Walkable" width="10" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAgAq0AADCiAgAA0AEEABVAQftSKgAKzqeOCA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="10" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAgAt0CAPgAAOICAADC4wKjAgDqAgAAoeqh6gLqAuoC6gLq6oICHKAQjY0B4AITsXkdU6YJxvGsh+aJCT+n6W3pN6qhwZab/kSPAIg00kyUn2x9/3iNeSFJ+F/Z9LWPvhg=
+  </data>
+ </layer>
+ <layer name="OverCollisions" width="10" height="20">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAgAn0AACgAAIYCAAIACkCNRRXAAg==
+  </data>
+ </layer>
+ <objectgroup name="Moving">
+  <object id="1" name="to city" type="teleport on push" gid="1027" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="map" type="file" value="city.tmx"/>
+    <property name="x" type="int" value="24"/>
+    <property name="y" type="int" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

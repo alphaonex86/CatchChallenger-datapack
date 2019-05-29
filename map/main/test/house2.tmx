@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="3">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="8">
  <tileset firstgid="1" source="../../tileset/t2.tsx"/>
  <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
  <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
@@ -10,25 +10,67 @@
  </layer>
  <layer name="OverWalkable" width="20" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WBgCHUBAMAAAMkEzAQAAM0EzgQASQIAAEoCAABLAgAHABKk3n3cP0OBgEPAii8vG95QAAs=
+   KLUv/WBgCM0BANgAAMkEAM4EAPkCAAD6AvoCSQIAAEoCAABLAgAKIGDj1gEy9eL44ymBHDwHjJkKu7PoU8PQsaE4Fg==
   </data>
  </layer>
  <layer name="Collisions" width="20" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WBgCJUDABKEDRegCQCvCWQiaSl5CvmYmZnLbnriaPCl8df4Fl9i+Arf4AJN0MKDEc9Y8znn2dyTeVopz6SeSBYggIJHgWkH+lj9siM4xwreMGZUOtQJVvAeiv0/GvZPfH3N9rO5xZUPoO0d2/R+JgO49k5s0mdHCw==
+   KLUv/WBgCI0HANKJHiaALQQFwK8W44tsfnJcVmsJ0viYZhOk8bTnlgl81jQFlmAZ3/ufep+MtHFcog0yZ2ts2p4PBmNpEVfCC+F1YPAqeBF0fNIKWJGokZXIC2Djq/giSOJ7+JzmxGQr+Rg8KpMKWYEoF0pjldEWNoVnYQObwEfxTXwQDl9DNKChNVKBnYJpN8ACHOJiAh+oXo46AcrURlPvA3DPFk14kEeYATZlR6DNBU2EWi5IKC5HHTLyM3nyHP7NoTNzDK28bUvmF0lY4+4Xd56gx+g4R7ys0PK/hD5QaN2OJx+lWe04SaGK5yWmudYNOYrlYUWj/Qk=
   </data>
  </layer>
  <layer name="WalkBehind" width="20" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WBgCNUAAHAAAAoFAAALBQAADA0FAAMATnF17LJz3w+w
+   KLUv/WBgCG0DAHIEDxygJyAAQOEQK/uTuQ+5Z2YWEc/MzIumpPX/feEBW54CeM0xUYKMjpHxKK7BElyBT+IMhUd40iHeYaVrcRMgEINM3T1UqICCBwlMlPlYm6WG+Iy7x49R8yqm4zNtB/P4YFmMXXSwmMcMAgs=
   </data>
  </layer>
+ <objectgroup name="Object">
+  <object id="3" name="Nurse" type="bot" gid="2049" x="80" y="320" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house2-bots.xml"/>
+    <property name="id" type="int" value="50"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="nurse"/>
+   </properties>
+  </object>
+  <object id="4" name="Seller" type="bot" gid="2049" x="0" y="368" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house2-bots.xml"/>
+    <property name="id" type="int" value="51"/>
+    <property name="lookAt" value="right"/>
+    <property name="skin" value="oldman"/>
+   </properties>
+  </object>
+  <object id="5" name="Market" type="bot" gid="2049" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house2-bots.xml"/>
+    <property name="id" type="int" value="54"/>
+    <property name="lookAt" value="top"/>
+    <property name="skin" value="market"/>
+   </properties>
+  </object>
+  <object id="6" name="Zone capture" type="bot" gid="2049" x="192" y="192" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house2-bots.xml"/>
+    <property name="id" type="int" value="53"/>
+    <property name="lookAt" value="move"/>
+    <property name="skin" value="rookie"/>
+   </properties>
+  </object>
+  <object id="7" name="Learn" type="bot" gid="2049" x="128" y="112" width="16" height="16">
+   <properties>
+    <property name="file" type="file" value="house2-bots.xml"/>
+    <property name="id" type="int" value="52"/>
+    <property name="lookAt" value="bottom"/>
+    <property name="skin" value="smith"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Moving">
   <object id="2" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
    <properties>
     <property name="map" type="file" value="city.tmx"/>
     <property name="x" type="int" value="15"/>
-    <property name="y" type="int" value="0"/>
+    <property name="y" type="int" value="26"/>
    </properties>
   </object>
  </objectgroup>
