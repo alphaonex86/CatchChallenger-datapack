@@ -198,4 +198,16 @@ consumeAtUse="true"
         <description lang="fr">Permet de pécher</description>
         <description>Allows you fishing</description>
     </item>
+    <item price="10" id="102" image="food/donus.png">
+        <name>Donus</name>
+        <name lang="fr">Donus</name>
+        <description lang="fr">Donus</description>
+        <description>Donus</description>
+        <hp add="10"/>
+    </item>
+    <item price="1000" id="103" image="food/pie.png">
+        <name>Pie</name>
+        <description>Pie</description>
+        <hp add="15"/>
+    </item>
 </items>
