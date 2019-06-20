@@ -1,6 +1,6 @@
 <musics>
     <!-- can be overwriten into the map.xml, keep empty if nothing -->
-    <map type="city">music/city.ogg</map>
-    <map type="indoor">music/indoor.ogg</map>
-    <map type="outdoor">music/outdoor.ogg</map>
+    <map type="city">music/city.opus</map>
+    <map type="indoor">music/indoor.opus</map>
+    <map type="outdoor">music/outdoor.opus</map>
 </musics>
