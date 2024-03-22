@@ -20,7 +20,7 @@
  <objectgroup name="Moving">
   <object id="1" name="to city" type="teleport on push" gid="1027" x="64" y="272" width="16" height="16">
    <properties>
-    <property name="map" type="file" value="city.tmx"/>
+    <property name="map" type="file" value="city"/>
     <property name="x" type="int" value="24"/>
     <property name="y" type="int" value="10"/>
    </properties>

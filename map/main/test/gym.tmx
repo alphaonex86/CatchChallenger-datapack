@@ -25,37 +25,31 @@
  <objectgroup id="4" name="Object">
   <object id="15" type="bot" gid="5121" x="32" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="30"/>
    </properties>
   </object>
   <object id="16" type="bot" gid="5121" x="80" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="31"/>
    </properties>
   </object>
   <object id="17" type="bot" gid="5121" x="128" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="32"/>
    </properties>
   </object>
   <object id="18" type="bot" gid="5121" x="176" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="33"/>
    </properties>
   </object>
   <object id="19" type="bot" gid="5121" x="224" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="34"/>
    </properties>
   </object>
   <object id="20" type="bot" gid="5121" x="272" y="272" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="35"/>
    </properties>
   </object>
@@ -110,13 +104,13 @@
  </layer>
  <objectgroup id="6" name="Moving">
   <properties>
-   <property name="map" type="file" value="city.tmx"/>
+   <property name="map" type="file" value="city"/>
    <property name="x" type="int" value="0"/>
    <property name="y" type="int" value="0"/>
   </properties>
   <object id="13" name="to city" type="teleport on push" gid="5123" x="144" y="336" width="16" height="16">
    <properties>
-    <property name="map" type="file" value="city.tmx"/>
+    <property name="map" type="file" value="city"/>
     <property name="x" type="int" value="21"/>
     <property name="y" type="int" value="26"/>
    </properties>
@@ -165,7 +159,6 @@
   </object>
   <object id="37" name="cond 4" type="teleport on it" gid="5123" x="160" y="272" width="16" height="16">
    <properties>
-    <property name="condition-file" type="file" value="condition.xml"/>
     <property name="condition-id" type="int" value="4"/>
     <property name="x" type="int" value="7"/>
     <property name="y" type="int" value="10"/>
@@ -173,7 +166,6 @@
   </object>
   <object id="38" name="cond 3" type="teleport on it" gid="5123" x="112" y="272" width="16" height="16">
    <properties>
-    <property name="condition-file" type="file" value="condition.xml"/>
     <property name="condition-id" type="int" value="3"/>
     <property name="x" type="int" value="0"/>
     <property name="y" type="int" value="10"/>
@@ -181,7 +173,6 @@
   </object>
   <object id="39" name="cond 2" type="teleport on it" gid="5123" x="64" y="272" width="16" height="16">
    <properties>
-    <property name="condition-file" type="file" value="condition.xml"/>
     <property name="condition-id" type="int" value="2"/>
     <property name="x" type="int" value="14"/>
     <property name="y" type="int" value="3"/>
@@ -189,7 +180,6 @@
   </object>
   <object id="34" name="cond 1" type="teleport on it" gid="5123" x="16" y="256" width="16" height="16">
    <properties>
-    <property name="condition-file" type="file" value="condition.xml"/>
     <property name="condition-id" type="int" value="1"/>
     <property name="leave" value="move"/>
     <property name="lookAt" value="bottom"/>

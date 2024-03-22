@@ -1,98 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="42" height="30" tilewidth="16" tileheight="16" infinite="0" nextobjectid="86">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="42" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="86">
  <tileset firstgid="1" source="../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="2065" source="../../tileset/animations.tsx"/>
  <tileset firstgid="3089" source="../../tileset/t1.tsx"/>
  <tileset firstgid="4113" source="../../tileset/rename.tsx"/>
- <layer name="Walkable" width="42" height="30">
+ <layer id="1" name="Walkable" width="42" height="30">
   <data encoding="base64" compression="zstd">
    KLUv/WCwEs0BAFgBAAAAMg3yDfIN8g+AYKdj5UGVINVpZaoi3RYU0CM3S72fJv2TSQBqIM4AVf3KqAHSfwRpw/x3Mg==
   </data>
  </layer>
- <layer name="OverWalkable" width="42" height="30">
+ <layer id="2" name="OverWalkable" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEs0HAFJEEBuwgQBT0dz/P2AAoAGc5hVBSotmvE8WgtxlSDvEJV6a0hLDDzrYCKcgGJRlAPBN1lXry6Ip1T2Mb37IRcMXN+UDS6Agk44BcAITDhonpUPw1VpnKJQVpCwobmoFSsPUoFXwsQ9qtl1NV1OCEFFZFWUSSG1SIInjNdHeriwZC5HcLl3Vq2m3XPcuem3JEh0Trb5GRaYD8zvPSvoSkGlsJvhpsoXbzRjpLOH1rkmRFM/PneOXIYOTaZO7OJrYEIlrNUjpouk4ktVeGYj6oGQVYn4TfT29q+UexjWSbyKvp+F2+VGEcje14Om+LtLp0kK+ixhWO6yWFg==
+   KLUv/WCwEt0HAEQEAAEIABENAAASEw0AcQkAUQ0AAFJTDQAzUTENFVEJADUzDQA10Q0AANLTUfEN1dT1DvTzEQ4TDgAR8THzAQhRCRFRCRRLoCCTjgFwAhMOGuelQ5DUWqcolFWmLEhuahVKw9SglfGxD2q2XV1XVIYYUVklZVJIcdIiieNpIrxdLRkPkdx+upJX01K57iX0ypIluiNafY2KTAfmd56V9CUg09hM8NNkC7eNMdZZ4uvdkyIpnjgHjl9ABqfTJujiNrEhpdZqAKVG03EmK78yIOqDk9XE/Bb6GnpXlWMY1yXfQl5Dw23lRwjljtQC0z26yNIFC9kuYl5NjGp0
   </data>
  </layer>
- <layer name="Dirt" width="42" height="30">
+ <layer id="3" name="Dirt" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEk0AABAAAAEAq9MDLA==
+   KLUv/WCwEkUAAAgAAQCsQ++E
   </data>
  </layer>
- <layer name="Grass" width="42" height="30">
+ <layer id="4" name="Grass" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEtUCAFAAAN8IHwgAAN8II6DAwwEQA8sYDmV/2kTeEqmlpalKqpCmFXUjFEPM7ElpoqJJpxVq1UC9EhSvM4fyxkUkVlPjMPPSpnwGYTqLp9qAqsxA7a1SjaivbFRFWw==
+   KLUv/WCwEs0CAEgA3wgfCAAA3wgjoMB1EAPLmA5lf9pE3hKppaWpSqqQplV1oxSGmNmTaqKiyadV2qqheiUYX2cO5cWJSKymxmHyUkz5DMJ0Fk21IVWZTe2tUI1QHwohRcVa
   </data>
  </layer>
- <layer name="LedgesBottom" width="42" height="30">
+ <layer id="5" name="LedgesBottom" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEtUBAEgAAB4BAB4BHgEOgIBDD7m0U9HfUvO+iDrsrzT8nlN9QP3NpzVWphQCVbZvopIIqktTSw0joPq9Ajs=
+   KLUv/WCwEtUBAEAAHgEAHgEeAQ6AgOcBubRT0d9S876IOuyvNPyeU31A/c1na6xMFQKVbN9ElQiqlqaWakZAFfBULgY=
   </data>
  </layer>
- <layer name="LedgesRight" width="42" height="30">
+ <layer id="6" name="LedgesRight" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEjUBAFAAAP//AN8A/z8BCADfQEXEMCHFgN0NBN86rUwVFjgKZ9bsWAVt
+   KLUv/WCwEjUBAEgA//8A3wD/PwEIAN9ARcQwIcWA3Q0E3zqtTBUWOApn1gwZ1QkB
   </data>
  </layer>
- <layer name="Collisions" width="42" height="30">
+ <layer id="7" name="Collisions" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEv0MALKEDRTAIQDDMLzW/wBj3kNYYFWlN++HByJDrDvB0L33Dg0ty/KwLbBYLBbr3m2o99g2AtuA7WKbCIDDqJDRggCwghKZGSsAEuAQMAQ4AgggCRgCrIABYAIiIAVEgARA4ATEGYOgVA0Br41/B53dDt7a1HkBtkGS6/iCOABoKndq0DCfTNXlkEYAf1oRPnY9vjQ/+dFDhG4Dp4scSOnTRwcAYio4Kpa2yOeNcyh99hLE80ezl5rJ1BcY31ORr/2JvbyXE12VTIE9VYUKuRvz+s2X4pmCeKqq8YFwMieR3ptcz6+ANQELuSsiw3w5mcLOBxfgqrYuVuACBUndmiVgsdkNT7/fVIm1swZiqmJzn+Msr6veSqOxxsB3+jbQmfmvw6tpdDGa6M90OwrdCWWT1yZcpp+zt7wVxZGfYsZwfZ7QzV+Yz03FunQdITvLWSrMppKziO6ag6IxT7lhmkpmGfu31aZk3fbs1vUYudPzBllojMZP2cBDl817I1qC6CWRwyxwivhx/5sAbcC7merpnYoL7XUEOz+NhYev5TvbCx4=
+   KLUv/WCwEhUNALIEDhbApdAB////f29rfK2ELFasFZ8FubUMIkOsO8HQvfcODS3L8rAtsFgsFuvebaj32DYC24DtYpsIgMOokNXSGLCCEpkZqwMS4BAwBDgCCCEJGAKsgEFgAiIgBUSABETgBMQZk6BUDQevWXsHBTMPbrjZeYx1g0jq7AG3Yoop8QLrsKidYvKQ0NN/mqh7cD3Bzd/8eUP2b+zTFw/U8+mjAQAxZRxFl61fE/JA/Z+9hAD4VeqXmPxcC44nU6rP/vSmuVeYrlqn/J92oezcTQviGxVWO4XyFArs2+aKTmK9N3Gdj7BtAkm5Y4Px+UWZgpMPmA93bdFu4QUVW3Zrl/IGsWMxdX9c/ZFn/9MpPNv70FnkX5mrKcfqA2tQ36BnEr9OrGazxdBEMrPbKvQmbk9eS+Dyfk7ess08xt5UMoTjEzFN6OIxOeW5oOti3TPb4jltSswa5ws+2Lp8C42sKX82ObTXoikeiizDQTQmOOKnsjjdl41TetPJbaOEkX/jux5vM16fQj7hgeYhGkBuVHT6ptSnhDpiOpksbkOs3Z21RAo=
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup id="8" name="Object">
   <object id="51" type="bot" gid="2049" x="624" y="304" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="10"/>
    </properties>
   </object>
   <object id="52" type="bot" gid="2049" x="288" y="464" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="17"/>
    </properties>
   </object>
   <object id="53" type="bot" gid="2049" x="336" y="432" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="16"/>
    </properties>
   </object>
   <object id="54" type="bot" gid="2049" x="416" y="400" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="15"/>
    </properties>
   </object>
   <object id="56" type="bot" gid="2049" x="416" y="336" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="13"/>
    </properties>
   </object>
   <object id="57" type="bot" gid="2049" x="368" y="336" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="12"/>
    </properties>
   </object>
   <object id="58" type="bot" gid="2049" x="304" y="336" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="11"/>
    </properties>
   </object>
   <object id="75" type="bot" gid="2049" x="48" y="384" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="18"/>
    </properties>
   </object>
   <object id="76" type="bot" gid="2049" x="144" y="400" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="14"/>
    </properties>
   </object>
@@ -173,7 +164,6 @@
   </object>
   <object id="81" type="bot" gid="2049" x="464" y="96" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="14"/>
    </properties>
   </object>
@@ -186,7 +176,6 @@
   </object>
   <object id="84" type="bot" gid="2049" x="32" y="128" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="road-bots.xml"/>
     <property name="id" type="int" value="20"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="prof"/>
@@ -196,15 +185,15 @@
    <polygon points="0,0 -112,0 -112,32 -128,32 -128,0 -128,-16 0,-16"/>
   </object>
  </objectgroup>
- <layer name="WalkBehind" width="42" height="30">
+ <layer id="9" name="WalkBehind" width="42" height="30">
   <data encoding="base64" compression="zstd">
-   KLUv/WCwEmUEAIAAACUFAAAmBcEEwQTBBEIFNqDQwwnQgpFAaIwDjam/PwVikKtS3k3R3EZIsH326bg4uSkl1nNKYiCoghFEHQ/sMafuzFD5TdDhyan8YRpJAZELE0m659F2omkRovIkpxuQx+mxquiokZG4V6HrIdB96V3QH8FaS5nuAnIZEXC4egr48MAzzPYb/S4F
+   KLUv/WCwEmUEAHgAJQUAACYFwQTBBMEEQgU2oNC1HNCCkUBojBuNqb8/BWKQq6K8TdHcRkiw+uzTuDhjU5pYT6jEwFAFI4g6HthjTrozQ+U3QsOToPLHNIISaFyYSNKeR9vJp4oQlSc53YA8TseqokaJjLR7FVoPgd6X3gX9Eay1lOkuIJcRAY+rZ4E4HHjmyZY44l8k
   </data>
  </layer>
- <objectgroup name="Moving">
+ <objectgroup id="10" name="Moving">
   <object id="72" type="border-right" gid="2052" x="656" y="272" width="16" height="16">
    <properties>
-    <property name="map" type="file" value="city.tmx"/>
+    <property name="map" type="file" value="city"/>
    </properties>
   </object>
  </objectgroup>

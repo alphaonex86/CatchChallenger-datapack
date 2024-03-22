@@ -4,4 +4,49 @@
         <monster id="3" minLevel="2" maxLevel="5" luck="90"/>
         <monster id="25" level="4" luck="10"/>
     </grass>
+    <bot id="10">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text"><!-- test without, should work -->
+            <text><![CDATA[Test object after grass]]></text>
+            <text lang="fr"><![CDATA[Teste de objet aprés herbe]]></text>
+        </step>
+    </bot>
+    <bot id="11">
+        <step type="text"><text><![CDATA[Test after ledges colision]]></text></step>
+    </bot>
+    <bot id="12">
+        <step type="text"><text><![CDATA[Bot trap, bottom]]></text></step>
+    </bot>
+    <bot id="13">
+        <step type="text"><text><![CDATA[Bot trap, left/right]]></text></step>
+    </bot>
+    <bot id="14">
+        <step type="text"><text><![CDATA[Test double ledges]]></text></step>
+    </bot>
+    <bot id="15">
+        <step type="text"><text><![CDATA[Bot trap, bottom]]></text></step>
+    </bot>
+    <bot id="16">
+        <step type="text"><text><![CDATA[Bot trap, right]]></text></step>
+    </bot>
+    <bot id="17">
+        <step type="text"><text><![CDATA[Test ledge out of map]]></text></step>
+    </bot>
+    <bot id="18">
+        <step type="text"><text><![CDATA[Test buggy legde place]]></text></step>
+    </bot>
+    <bot id="19">
+        <step type="text"><text><![CDATA[Test not interconnect ledge zone edge]]></text></step>
+    </bot>
+    <bot id="20">
+        <name><![CDATA[Fighter]]></name>
+        <step type="fight">
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="13" level="4" />
+            <gain cash="100" />
+            <item id="1001" />
+        </step>
+    </bot>
 </map>

@@ -9,7 +9,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
 <monsters>
     <!-- ratio_gender: 0% only male, 100% only female, -1 no gender
     second line is stat at level 100-->
-    <monster xp_max="500" type="fire" pow="1.4" speed="130" attack="110" hp="200" catch_rate="0" id="1" weight="35kg" special_attack="120" defense="85" special_defense="100" ratio_gender="50%" give_sp="350" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="1000000" type="fire" pow="2" speed="130" attack="110" hp="200" catch_rate="0" id="1" weight="35kg" special_attack="120" defense="85" special_defense="100" ratio_gender="50%" give_sp="350" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -34,7 +34,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Panthera fira is a very rare animal, it is characterized by its very hot skin..</description>
         <description lang="fr">Panthera fira est un animal très rare, il est caractérisé par sa peau très chaud..</description>
     </monster>
-    <monster xp_max="400" type="bird" pow="1.4" speed="120" attack="90" hp="190" catch_rate="60" id="2" weight="2kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="85">
+    <monster xp_max="1000000" type="bird" pow="2" speed="120" attack="90" hp="190" catch_rate="60" id="2" weight="2kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -67,7 +67,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Elofly frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Elofly est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="400" type="plant" pow="1.4" speed="90" attack="150" hp="160" catch_rate="60" id="3" weight="15kg" special_attack="130" defense="90" special_defense="70" ratio_gender="50%" give_sp="100" height="0.54m" egg_step="5000" give_xp="87">
+    <monster xp_max="1000000" type="plant" pow="2" speed="90" attack="150" hp="160" catch_rate="60" id="3" weight="15kg" special_attack="130" defense="90" special_defense="70" ratio_gender="50%" give_sp="100" height="0.54m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -89,7 +89,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Conileaf often confused with a fruit there remains a dangerous animal</description>
         <description lang="fr">Conifeuille souvent confondu avec un fruit il n'en reste un animal dangeureux</description>
     </monster>
-    <monster xp_max="400" type="psy" pow="1.4" speed="60" attack="50" hp="280" catch_rate="25" id="4" weight="23kg" special_attack="160" defense="120" special_defense="110" ratio_gender="50%" give_sp="236" height="0.54m" egg_step="5000" give_xp="148">
+    <monster xp_max="1000000" type="psy" pow="2" speed="60" attack="50" hp="280" catch_rate="25" id="4" weight="23kg" special_attack="160" defense="120" special_defense="110" ratio_gender="50%" give_sp="236" height="0.54m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="207" level="0"/>
@@ -109,7 +109,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Tourbidi is a very strange animal that spends its time turn on itself</description>
         <description lang="fr">Tourbidi est un animal très etrange qui passe son temps a tourner sur lui même </description>
     </monster>
-    <monster xp_max="400" type="stone" pow="1.4" speed="30" attack="110" hp="190" catch_rate="36" id="5" weight="61kg" special_attack="80" defense="160" special_defense="70" ratio_gender="50%" give_sp="124" height="1.56m" egg_step="5000" give_xp="102">
+    <monster xp_max="1000000" type="stone" pow="2" speed="30" attack="110" hp="190" catch_rate="36" id="5" weight="61kg" special_attack="80" defense="160" special_defense="70" ratio_gender="50%" give_sp="124" height="1.56m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -133,7 +133,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Polyrock is mainly composed of stone, which makes it so resistant</description>
         <description lang="fr">Polyrock est composé principalement de pierre, ce qui le rend si résistant s</description>
     </monster>
-    <monster xp_max="400" type="water" pow="1.4" speed="100" attack="100" hp="160" catch_rate="55" id="6" weight="51kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="139">
+    <monster xp_max="1000000" type="water" pow="2" speed="100" attack="100" hp="160" catch_rate="55" id="6" weight="51kg" special_attack="80" defense="90" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -155,7 +155,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Dinoflop spends his life turning his back on his opponent, he is very playful cepandent</description>
         <description lang="fr">Dinoflop passe sa vie à tourner le dos à ses adversaire, il est cepandent très joueur</description>
     </monster>
-    <monster xp_max="400" type="normal" pow="1.4" speed="80" attack="120" hp="180" catch_rate="35" id="8" weight="34kg" special_attack="110" defense="130" special_defense="90" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="95">
+    <monster xp_max="1000000" type="normal" pow="2" speed="80" attack="120" hp="180" catch_rate="35" id="8" weight="34kg" special_attack="110" defense="130" special_defense="90" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -169,7 +169,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>cochini</description>
         <description lang="fr">cochini</description>
     </monster>
-    <monster xp_max="400" type="water" pow="1.4" speed="80" attack="90" hp="200" catch_rate="0" id="9" weight="89kg" special_attack="100" defense="130" special_defense="120" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="1000000" type="water" pow="2" speed="80" attack="90" hp="200" catch_rate="0" id="9" weight="89kg" special_attack="100" defense="130" special_defense="120" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -188,7 +188,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Pharfan is very rare, he enjoys watering the people they meet</description>
         <description lang="fr">Pharfan est très rare, il s'amuse arroser les gens qu'ils rencontre</description>
     </monster>
-    <monster xp_max="400" type="normal" pow="1.4" speed="150" attack="110" hp="150" catch_rate="55" id="13" weight="42kg" special_attack="110" defense="110" special_defense="100" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="79">
+    <monster xp_max="1000000" type="normal" pow="2" speed="150" attack="110" hp="150" catch_rate="55" id="13" weight="42kg" special_attack="110" defense="110" special_defense="100" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -208,7 +208,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Sclairus is an insect that feed exclusively.</description>
         <description lang="fr">Sclairus est un insecte qui se nourrir exclusivement</description>
     </monster>
-    <monster xp_max="400" type="electric" pow="1.4" speed="140" attack="150" hp="22" catch_rate="100" id="14" weight="62kg" special_attack="130" defense="120" special_defense="110" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="161">
+    <monster xp_max="1000000" type="electric" pow="2" speed="140" attack="150" hp="22" catch_rate="100" id="14" weight="62kg" special_attack="130" defense="120" special_defense="110" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -230,7 +230,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Coleorus is an insect that feed exclusively.</description>
         <description lang="fr">Coléorus est un insecte qui se nourrir exclusivement</description>
     </monster>
-    <monster xp_max="400" type="psy" pow="1.4" speed="120" attack="70" hp="150" catch_rate="18" id="17" weight="28kg" special_attack="190" defense="70" special_defense="130" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="155">
+    <monster xp_max="1000000" type="psy" pow="2" speed="120" attack="70" hp="150" catch_rate="18" id="17" weight="28kg" special_attack="190" defense="70" special_defense="130" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -252,7 +252,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Volcoli is considered the forest nymph, she spent her life has protected the forest</description>
         <description lang="fr">Volcoli est considéré comme la nymphe des foret, elle passe sa vie a protégé la foret</description>
     </monster>
-    <monster xp_max="400" type="bird" pow="1.4" speed="110" attack="80" hp="200" catch_rate="45" id="18" weight="3kg" special_attack="60" defense="80" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="95">
+    <monster xp_max="1000000" type="bird" pow="2" speed="110" attack="80" hp="200" catch_rate="45" id="18" weight="3kg" special_attack="60" defense="80" special_defense="80" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -278,7 +278,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Nocula small nocturnal bird, has a highly developed sense of hearing that allows him to what moves in total darkness.</description>
         <description lang="fr">Noctula petit oiseau nocturne, posséde un ouïe très développé qui lui permet de ce deplacé dans l'obscurité totale</description>
     </monster>
-    <monster xp_max="400" type="water" pow="1.4" speed="180" attack="180" hp="190" catch_rate="25" id="19" weight="14kg" special_attack="170" defense="150" special_defense="142" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="192">
+    <monster xp_max="1000000" type="water" pow="2" speed="180" attack="180" hp="190" catch_rate="25" id="19" weight="14kg" special_attack="170" defense="150" special_defense="142" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -297,7 +297,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Rhinocarpe is a marine animal that lives near the coast ca malgrés horn is a very friendly animal</description>
         <description lang="fr">Rhinocarpe est un animal marin, qui vit prés des cote malgrés ca corne c'est un animal très amical</description>
     </monster>
-    <monster xp_max="400" type="water" pow="1.4" speed="60" attack="90" hp="270" catch_rate="50" id="20" weight="28kg" special_attack="140" defense="80" special_defense="130" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="126">
+    <monster xp_max="1000000" type="water" pow="2" speed="60" attack="90" hp="270" catch_rate="50" id="20" weight="28kg" special_attack="140" defense="80" special_defense="130" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -316,7 +316,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Hampotamos Amphibian is an animal very awkward, it has the unfortunate tendency to fail everything</description>
         <description lang="fr">Hampotamos est un animal Amphibien très maladroit, il a la facheuse tendance à échouer tout ce qu'il entreprend</description>
     </monster>
-    <monster xp_max="400" type="fight" pow="1.4" speed="80" attack="160" hp="250" catch_rate="100" id="21" weight="23kg" special_attack="80" defense="110" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="147">
+    <monster xp_max="1000000" type="fight" pow="2" speed="80" attack="160" hp="250" catch_rate="100" id="21" weight="23kg" special_attack="80" defense="110" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -337,7 +337,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Urcine is an aggressive animal, which does not consider the value of people in the affrontents with all that power, however it can reveal this very sociable</description>
         <description lang="fr">Urcine est un animal agressif, qui ne juge de la valeur des gens que en les affrontents avec toute ça force, malgrès les apparences il peut ce revelé très sociable</description>
     </monster>
-    <monster xp_max="400" type="poison" pow="1.4" speed="90" attack="50" hp="200" catch_rate="65" id="22" weight="3.4kg" special_attack="40" defense="80" special_defense="40" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="74">
+    <monster xp_max="1000000" type="poison" pow="2" speed="90" attack="50" hp="200" catch_rate="65" id="22" weight="3.4kg" special_attack="40" defense="80" special_defense="40" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -359,7 +359,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Common wood's caterpillar, it has armor on the back to protect it from flying predators, she is very cuddly although toxic to who touch her</description>
         <description lang="fr">chenille des bois commune , elle possède une armure sur le dos pour la protéger des prédateurs volants, elle est très caline bien que toxique pour qui la touche</description>
     </monster>
-    <monster xp_max="400" type="poison" pow="1.4" speed="150" attack="80" hp="230" catch_rate="45" id="23" weight="12kg" special_attack="160" defense="110" special_defense="160" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="123">
+    <monster xp_max="1000000" type="poison" pow="2" speed="150" attack="80" hp="230" catch_rate="45" id="23" weight="12kg" special_attack="160" defense="110" special_defense="160" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -378,7 +378,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Chrysalis of wood it has armor on almost integraliter body blocking him part her movements,, she is very cuddly although toxic to who touch her</description>
         <description lang="fr">Chrysalide des bois elle possède une armure sur la quasi integraliter du corps qui lui bloque en partie ses mouvements, elle est très caline bien que toxique pour qui la touche</description>
     </monster>
-     <monster xp_max="400" type="psy" pow="1.4" speed="105" attack="80" hp="210" catch_rate="16" id="24" weight="28kg" special_attack="105" defense="90" special_defense="115" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="127">
+     <monster xp_max="1000000" type="psy" pow="2" speed="105" attack="80" hp="210" catch_rate="16" id="24" weight="28kg" special_attack="105" defense="90" special_defense="115" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -400,7 +400,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Spycozeus</description>
         <description lang="fr">Spycozeus </description>
     </monster>
-    <monster xp_max="400" type="plant" pow="1.4" speed="110" attack="120" hp="225" catch_rate="33" id="25" weight="12kg" special_attack="100" defense="106" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="163">
+    <monster xp_max="1000000" type="plant" pow="2" speed="110" attack="120" hp="225" catch_rate="33" id="25" weight="12kg" special_attack="100" defense="106" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -419,7 +419,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Cowpignon is an animal who have fun to challenge other monster.</description>
         <description lang="fr">Cowpignon est un animal qui s'amuse énormement à défier les autres monstre.</description>
     </monster>
-    <monster xp_max="400" type="plant" pow="1.4" speed="80" attack="87" hp="175" catch_rate="62" id="27" weight="12kg" special_attack="195" defense="136" special_defense="132" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="67">
+    <monster xp_max="1000000" type="plant" pow="2" speed="80" attack="87" hp="175" catch_rate="62" id="27" weight="12kg" special_attack="195" defense="136" special_defense="132" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -438,7 +438,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Tarpeur is a fearful animal, it lives hidden in a rock and hide at the slightest danger.</description>
         <description lang="fr">Tarpeur est un animal peureux, il vit caché dans un rocher et ce cache au moindre danger.</description>
     </monster>
-    <monster xp_max="400" type="bird" pow="1.4" speed="170" attack="130" hp="150" catch_rate="28" id="30" weight="2kg" special_attack="120" defense="120" special_defense="150" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="140">
+    <monster xp_max="1000000" type="bird" pow="2" speed="170" attack="130" hp="150" catch_rate="28" id="30" weight="2kg" special_attack="120" defense="120" special_defense="150" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -471,7 +471,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Elowind frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Elowind est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="400" type="bird" pow="1.4" speed="200" attack="170" hp="165" catch_rate="21" id="31" weight="2kg" special_attack="163" defense="145" special_defense="138" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="171">
+    <monster xp_max="1000000" type="bird" pow="2" speed="200" attack="170" hp="165" catch_rate="21" id="31" weight="2kg" special_attack="163" defense="145" special_defense="138" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="10000">
         <attack_list>
                         <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -501,7 +501,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Elostorm frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Elostorm est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="400" type="bird" pow="1.4" speed="230" attack="170" hp="175" catch_rate="26" id="32" weight="2kg" special_attack="160" defense="150" special_defense="200" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="151">
+    <monster xp_max="1000000" type="bird" pow="2" speed="230" attack="170" hp="175" catch_rate="26" id="32" weight="2kg" special_attack="160" defense="150" special_defense="200" ratio_gender="50%" give_sp="100" height="0.2m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -524,7 +524,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Noctalo small nocturnal bird, has a highly developed sense of hearing that allows him to what moves in total darkness.</description>
         <description lang="fr">Noctalo petit oiseau nocturne, posséde un ouïe très développé qui lui permet de ce deplacé dans l'obscurité totale</description>
     </monster>
-    <monster xp_max="400" type="stone" pow="1.4" speed="110" attack="130" hp="150" catch_rate="35" id="33" weight="61kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="1.56m" egg_step="5000" give_xp="115">
+    <monster xp_max="1000000" type="stone" pow="2" speed="110" attack="130" hp="150" catch_rate="35" id="33" weight="61kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="1.56m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -551,7 +551,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Selket is mainly composed of stone, which makes it so resistant</description>
         <description lang="fr">Selket est composé principalement de pierre, ce qui le rend si résistant s</description>
     </monster>
-<monster xp_max="400" type="stone" pow="1.4" speed="130" attack="150" hp="160" catch_rate="17" id="34" weight="61kg" special_attack="140" defense="130" special_defense="100" ratio_gender="50%" give_sp="100" height="1.56m" egg_step="5000" give_xp="173">
+<monster xp_max="1000000" type="stone" pow="2" speed="130" attack="150" hp="160" catch_rate="17" id="34" weight="61kg" special_attack="140" defense="130" special_defense="100" ratio_gender="50%" give_sp="100" height="1.56m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -575,7 +575,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Selket is mainly composed of stone, which makes it so resistant</description>
         <description lang="fr">Selket est composé principalement de pierre, ce qui le rend si résistant s</description>
     </monster>
-    <monster xp_max="400" type="poison" pow="1.4" speed="110" attack="130" hp="150" catch_rate="55" id="36" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="100">
+    <monster xp_max="1000000" type="poison" pow="2" speed="110" attack="130" hp="150" catch_rate="55" id="36" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -602,7 +602,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Snaki is small hydre found into the hurge grass</description>
         <description lang="fr">Snaki est un petit hydre que l'ont trouve dans les grandes herbes</description>
     </monster>
-    <monster xp_max="400" type="poison;fire" pow="1.4" speed="110" attack="130" hp="150" catch_rate="7" id="37" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+    <monster xp_max="1000000" type="poison;fire" pow="2" speed="110" attack="130" hp="150" catch_rate="7" id="37" weight="0.6kg" special_attack="120" defense="130" special_defense="80" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -633,7 +633,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Snokari is hydre with dedoubled head due to alteration genetic</description>
         <description lang="fr">Snokari est unE hydre avec une double tête à cause d'une alteration génétique</description>
     </monster>
-    <monster xp_max="400" type="normal" pow="1.4" speed="137" attack="112" hp="150" catch_rate="7" id="39" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+    <monster xp_max="1000000" type="normal" pow="2" speed="137" attack="112" hp="150" catch_rate="7" id="39" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -658,7 +658,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivipere is a common snake encountered everywhere, who easily adapt</description>
         <description lang="fr">Vivipère est un serpent banal que l'on rencontre un peu partout avec de grande facilité à s'adapter</description>
     </monster>
-    <monster xp_max="400" type="water" pow="1.4" speed="137" attack="112" hp="150" catch_rate="7" id="40" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+    <monster xp_max="1000000" type="water" pow="2" speed="137" attack="112" hp="150" catch_rate="7" id="40" weight="0.6kg" special_attack="160" defense="120" special_defense="127" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -679,7 +679,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivisource is a snake that lives in water, it kills its prey by drowning</description>
         <description lang="fr">Vivisource est un serpent qui vit dans l'eau, il tue ses proies en les noyant</description>
     </monster>
-     <monster xp_max="400" type="plant" pow="1.4" speed="90" attack="150" hp="160" catch_rate="7" id="41" weight="15kg" special_attack="130" defense="90" special_defense="70" ratio_gender="50%" give_sp="100" height="0.54m" egg_step="5000" give_xp="200">
+     <monster xp_max="1000000" type="plant" pow="2" speed="90" attack="150" hp="160" catch_rate="7" id="41" weight="15kg" special_attack="130" defense="90" special_defense="70" ratio_gender="50%" give_sp="100" height="0.54m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -700,7 +700,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Viviphyta life in plants and tall trees, it only nourish this plant</description>
         <description lang="fr">Viviphyta vie dans les plantes et les grands arbres, il ce nourir exclusivement de végetaux</description>
     </monster>
-    <monster xp_max="400" type="electric" pow="1.4" speed="132" attack="150" hp="150" catch_rate="7" id="42" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+    <monster xp_max="1000000" type="electric" pow="2" speed="132" attack="150" hp="150" catch_rate="7" id="42" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -721,7 +721,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivitron is a snake that produces electricity for defense</description>
         <description lang="fr">Vivitron est un serpent qui produit de l'electricité pour se défendre</description>
     </monster>  
- <monster xp_max="400" type="bird" pow="1.4" speed="132" attack="150" hp="150" catch_rate="7" id="43" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+ <monster xp_max="1000000" type="bird" pow="2" speed="132" attack="150" hp="150" catch_rate="7" id="43" weight="0.6kg" special_attack="180" defense="115" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -741,7 +741,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vividactil is a snake that can fly for several days without no stop</description>
         <description lang="fr">Vividactil est un serpent qui peux voler pendant plusieurs jours sans m'arreter </description>
     </monster>  
- <monster xp_max="400" type="psy" pow="1.4" speed="122" attack="120" hp="130" catch_rate="7" id="44" weight="0.6kg" special_attack="240" defense="110" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+ <monster xp_max="1000000" type="psy" pow="2" speed="122" attack="120" hp="130" catch_rate="7" id="44" weight="0.6kg" special_attack="240" defense="110" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -761,7 +761,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivitrans can read the minds of their prey</description>
         <description lang="fr">Vivitrans peut lire dans les pensées de ses proies</description>
     </monster> 
-    <monster xp_max="400" type="fire" pow="1.4" speed="112" attack="140" hp="130" catch_rate="7" id="45" weight="0.6kg" special_attack="170" defense="132" special_defense="155" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+    <monster xp_max="1000000" type="fire" pow="2" speed="112" attack="140" hp="130" catch_rate="7" id="45" weight="0.6kg" special_attack="170" defense="132" special_defense="155" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -782,7 +782,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Vivitrans  life in the cinder and leave only for eat</description>
         <description lang="fr">Vivitrans vie dans les cendres et n'en sort que pour chercher à mangé</description>
     </monster>  
-  <monster xp_max="400" type="steal" pow="1.4" speed="113" attack="90" hp="173" catch_rate="7" id="46" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="200">
+  <monster xp_max="1000000" type="steal" pow="2" speed="113" attack="90" hp="173" catch_rate="7" id="46" weight="0.6kg" special_attack="150" defense="168" special_defense="115" ratio_gender="50%" give_sp="100" height="0.20m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -804,7 +804,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Viviteel has a armor that allows him to survive to trampling</description>
         <description lang="fr">Vivicier posséde une armure qui lui permet de survivre au pietinement</description>
     </monster> 
-    <monster xp_max="400" type="fight" pow="1.4" speed="155" attack="130" hp="230" catch_rate="15" id="51" weight="57kg" special_attack="80" defense="110" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="147">
+    <monster xp_max="1000000" type="fight" pow="2" speed="155" attack="130" hp="230" catch_rate="15" id="51" weight="57kg" special_attack="80" defense="110" special_defense="70" ratio_gender="50%" give_sp="100" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -825,7 +825,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Enduros is an aggressive animal, which does not consider the value of people in the affrontents with all that power, however it can reveal this very sociable</description>
         <description lang="fr">Enduros est un animal agressif, qui ne juge de la valeur des gens que en les affrontents avec toute ça force, malgrès les apparences il peut ce revelé très sociable</description>
     </monster>
-        <monster xp_max="400" type="ice" pow="1.4" speed="155" attack="130" hp="180" catch_rate="15" id="52" weight="8kg" special_attack="130" defense="107" special_defense="80" ratio_gender="50%" give_sp="100" height="0.30m" egg_step="5000" give_xp="157">
+        <monster xp_max="1000000" type="ice" pow="2" speed="155" attack="130" hp="180" catch_rate="15" id="52" weight="8kg" special_attack="130" defense="107" special_defense="80" ratio_gender="50%" give_sp="100" height="0.30m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -846,7 +846,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Toufigel is a peaceful animal living in the high mountains </description>
         <description lang="fr">Toufigel est un animal paisible vivent en groupe dans les hautes montagnes</description>
     </monster>
-    <monster xp_max="300" type="bird" pow="1.3" speed="140" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="94" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="300">
+    <monster xp_max="1000000" type="bird" pow="2" speed="140" attack="115" hp="185" catch_rate="0" id="54" weight="2.5kg" special_attack="130" defense="94" special_defense="95" ratio_gender="50%" give_sp="300" height="0.76m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -868,7 +868,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Flacono frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Flacono est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-      <monster xp_max="300" type="bird" pow="1.3" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="350">
+      <monster xp_max="1000000" type="bird" pow="2" speed="142" attack="165" hp="238" catch_rate="0" id="55" weight="4.6kg" special_attack="194" defense="122" special_defense="145" ratio_gender="50%" give_sp="350" height="0.54m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -887,7 +887,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Cervix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Cervix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-     <monster xp_max="300" type="bird" pow="1.2" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="450">
+     <monster xp_max="1000000" type="bird" pow="2" speed="142" attack="176" hp="242" catch_rate="0" id="56" weight="28.1kg" special_attack="234" defense="113" special_defense="156" ratio_gender="50%" give_sp="400" height="1.8m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -907,7 +907,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Gryfix frugivor is a small bird that lives in the forests and plains</description>
         <description lang="fr">Gryphix est un petit oiseau frugivor qui vit dans les forêts et plaines</description>
     </monster>
-    <monster xp_max="300" type="fight" pow="1.3" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="300">
+    <monster xp_max="1000000" type="fight" pow="2" speed="115" attack="109" hp="235" catch_rate="0" id="57" weight="2.5kg" special_attack="117" defense="135" special_defense="92" ratio_gender="50%" give_sp="300" height="0.24m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -930,7 +930,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
         <description>Capiti frugivor is a small monkey that lives in the forests and plains</description>
         <description lang="fr">Capiti est un petit singe frugivor qui vit dans les forêts et plaines</description>
     </monster>
-     <monster xp_max="300" type="stone" pow="1.3" speed="145" attack="125" hp="165" catch_rate="0" id="60" weight="2.7kg" special_attack="125" defense="110" special_defense="97" ratio_gender="50%" give_sp="300" height="0.4m" egg_step="5000" give_xp="300">
+     <monster xp_max="1000000" type="stone" pow="2" speed="145" attack="125" hp="165" catch_rate="0" id="60" weight="2.7kg" special_attack="125" defense="110" special_defense="97" ratio_gender="50%" give_sp="300" height="0.4m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>
@@ -957,7 +957,7 @@ evolution type can be: level (attribute level is the level), item (attribute lev
     
     
      
-     <monster xp_max="400" type="fire" pow="1.3" speed="182" attack="135" hp="213" catch_rate="0" id="102" weight="75kg" special_attack="217" defense="114" special_defense="100" ratio_gender="50%" give_sp="350" height="1.09m" egg_step="5000" give_xp="350">
+     <monster xp_max="1000000" type="fire" pow="2" speed="182" attack="135" hp="213" catch_rate="0" id="102" weight="75kg" special_attack="217" defense="114" special_defense="100" ratio_gender="50%" give_sp="350" height="1.09m" egg_step="5000" give_xp="10000">
         <attack_list>
             <attack id="201" level="0"/>
             <attack id="202" level="0"/>

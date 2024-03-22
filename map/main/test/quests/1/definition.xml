@@ -1,4 +1,4 @@
-<quest bot="41" repeatable="yes">
+<quest bot="house1/41" repeatable="yes">
  <name><![CDATA[Berry exchange]]></name>
  <name lang="fr"><![CDATA[Échange de baie]]></name>
  <step id="1">

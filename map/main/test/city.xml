@@ -18,4 +18,38 @@
     <lava>
         <monster id="1" minLevel="16" maxLevel="24"/>
     </lava>
+    <bot id="1">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
+            <text><![CDATA[Test missing tilset<br /><a href="next">[Next]</a>]]></text>
+            <text lang="fr"><![CDATA[Teste de tileset manquant<br /><a href="next">[Suivant]</a>]]></text>
+        </step>
+        <step type="text" id="2">
+            <text><![CDATA[Next text]]></text>
+            <text lang="fr"><![CDATA[Prochain texte]]></text>
+        </step>
+    </bot>
+    <bot id="2">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text">
+            <text><![CDATA[Map test/City]]></text>
+            <text lang="fr"><![CDATA[Map de test/ville]]></text>
+        </step>
+    </bot>
+    <bot id="3">
+        <step type="text">
+            <text><![CDATA[NPC Test]]></text>
+            <text lang="fr"><![CDATA[Teste de NPC]]></text>
+        </step>
+    </bot>
+    <bot id="4">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text">
+            <text><![CDATA[Test path with map change]]></text>
+            <text lang="fr"><![CDATA[Teste chemain avec changement de map]]></text>
+        </step>
+    </bot>
 </map>
