@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextobjectid="49">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="49">
  <tileset firstgid="1" source="../../tileset/inside-terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/inside-decoration.tsx"/>
  <tileset firstgid="2049" source="../../tileset/t1.tsx"/>
@@ -7,22 +7,22 @@
  <tileset firstgid="4097" source="../../tileset/building-small.tsx"/>
  <tileset firstgid="5121" source="../../tileset/invisible.tsx"/>
  <tileset firstgid="5137" source="../../tileset/rename.tsx"/>
- <layer name="Walkable" width="20" height="21">
+ <layer id="1" name="Walkable" width="20" height="21">
   <data encoding="base64" compression="zstd">
    KLUv/WCQBXUAACChAAAAAgANUJDjvyMC
   </data>
  </layer>
- <layer name="OverWalkable" width="20" height="21">
+ <layer id="2" name="OverWalkable" width="20" height="21">
   <data encoding="base64" compression="zstd">
-   KLUv/WCQBS0CAMAAAC8KAAkEIQEuCgEESQ4AAEoOAABLDgARoCBr1zMwg5kKqwOS6R56Vv/JdZo1Y6peeC6ufJV7MF5kPiT6Mh/GSVn0tA==
+   KLUv/WCQBS0CALgALwoACQQhAS4KAQRJDgAASg4AAEsOABGAMM3WMxKX7gECFv9y5sA0a4ZQ9YI4i4EKXoDzk3WT+cDJAundgA6kMKjzAQ==
   </data>
  </layer>
- <layer name="Collisions" width="20" height="21">
+ <layer id="3" name="Collisions" width="20" height="21">
   <data encoding="base64" compression="zstd">
-   KLUv/WCQBZ0CAHAUAAAA4TTh4QChwQBlCCigkG0BMINDgxolKgZ3Hv090/QHiFf9CczMmRknJs9MnDFxZuZEZi7ohO/Tj7o6oQYzvk3Ajx98q1kZBJ87aKntdPwB
+   KLUv/WCQBZ0CAHAUAAAA4TTh4QChwQBlCCigkG0xMINTwxolKgZ3DvE9o7QGDFf9CZTJiRknRp5MnDFxyuREZi7onO/zj7o6pQQzlJ2Cjz9oq70TBj878FKT6ZoC
   </data>
  </layer>
- <objectgroup name="Object">
+ <objectgroup id="4" name="Object">
   <object id="15" type="bot" gid="5121" x="32" y="272" width="16" height="16">
    <properties>
     <property name="file" type="file" value="gym-bots.xml"/>
@@ -61,7 +61,6 @@
   </object>
   <object id="21" type="bot" gid="5121" x="144" y="48" width="16" height="16">
    <properties>
-    <property name="file" type="file" value="gym-bots.xml"/>
     <property name="id" type="int" value="36"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="hariel"/>
@@ -104,12 +103,12 @@
   </object>
   <object id="45" name="Buggy item" type="object" gid="5298" x="272" y="80" width="16" height="16"/>
  </objectgroup>
- <layer name="WalkBehind" width="20" height="21">
+ <layer id="5" name="WalkBehind" width="20" height="21">
   <data encoding="base64" compression="zstd">
-   KLUv/WCQBR0BADAAAB4SAQEKgHDDAw3QFjNEJRun9ucF610RNwW14HynZAMU
+   KLUv/WCQBR0BACgAHhIBAQqAYOsBDdAWM0QlG6f25wHruyJuCmrBmZ1CQjcC
   </data>
  </layer>
- <objectgroup name="Moving">
+ <objectgroup id="6" name="Moving">
   <properties>
    <property name="map" type="file" value="city.tmx"/>
    <property name="x" type="int" value="0"/>

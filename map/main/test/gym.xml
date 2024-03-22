@@ -1,4 +1,48 @@
 <map zone="test" type="indoor">
     <name>Gym</name>
     <description>Gym/TP of test</description>
+    <bot id="30">
+        <step type="text">
+            <text><![CDATA[To pass, finish the quest <b>Berry exchange</b>]]></text>
+            <text lang="fr"><![CDATA[Pour passer finir la quéte <b>Échange de baie</b>]]></text>
+        </step>
+    </bot>
+    <bot id="31">
+        <step type="text">
+            <text><![CDATA[To pass, you need have <b>Air Mail</b>]]></text>
+            <text lang="fr"><![CDATA[Pour passer vous devez avoir une <b>lettre aire</b>]]></text>
+        </step>
+    </bot>
+    <bot id="32">
+        <step type="text">
+            <text><![CDATA[To pass, your clan need own the area]]></text>
+            <text lang="fr"><![CDATA[Pour passer votre clan doit controler la zone]]></text>
+        </step>
+    </bot>
+    <bot id="33">
+        <step type="text">
+            <text><![CDATA[To pass, you need win agains the first bot]]></text>
+            <text lang="fr"><![CDATA[Pour passer vous devez gagner face au premier bot]]></text>
+        </step>
+    </bot>
+    <bot id="34">
+        <step type="text">
+            <text><![CDATA[Hidden item]]></text>
+        </step>
+    </bot>
+    <bot id="35">
+        <step type="text">
+            <text><![CDATA[Gym leader]]></text>
+        </step>
+    </bot>
+    <bot id="36">
+        <name><![CDATA[Gym leader]]></name>
+        <step type="fight" leader="true">
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="13" level="4" />
+            <gain cash="100" />
+            <item id="1001" />
+        </step>
+    </bot>
 </map>
