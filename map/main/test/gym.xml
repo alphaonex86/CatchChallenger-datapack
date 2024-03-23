@@ -40,9 +40,9 @@
         <step type="fight" leader="true">
             <start><![CDATA[Ready for the fight?]]></start>
             <win><![CDATA[You are so strong for me!]]></win>
-            <monster id="13" level="4" />
+            <monster id="Sclairus" level="4" />
             <gain cash="100" />
-            <item id="1001" />
+            <item id="Moco Berry" />
         </step>
     </bot>
     <condition id="1" quest="1" type="quest">

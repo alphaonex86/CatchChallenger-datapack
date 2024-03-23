@@ -25,12 +25,12 @@
             <a href="3">Vendre</a>]]></text>
         </step>
         <step type="shop" id="2">
-            <product itemId="1"/>
-            <product itemId="5"/>
-            <product itemId="9"/>
-            <product itemId="13"/>
-            <product itemId="14"/>
-            <product itemId="15"/>
+            <product itemId="IronTrap"/>
+            <product itemId="Potion grade A"/>
+            <product itemId="Repulse grade A"/>
+            <product itemId="Burn gel"/>
+            <product itemId="Muscle relax"/>
+            <product itemId="Serum"/>
         </step>
         <step type="sell" id="3"/>
     </bot>
@@ -49,13 +49,5 @@
             <text lang="fr"><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Creer un clan]</a>]]></text>
         </step>
         <step type="zonecapture" id="2" zone="test" />
-    </bot>
-    <bot id="54">
-        <name><![CDATA[Scientist]]></name>
-        <step type="text" id="1">
-            <text><![CDATA[I wish see all<br /><br /><a href="2">[Market]</a>]]></text>
-            <text lang="fr"><![CDATA[Je veux tout voir<br /><br /><a href="2">[Marché]</a>]]></text>
-        </step>
-        <step type="market" id="2"/>
     </bot>
 </map>

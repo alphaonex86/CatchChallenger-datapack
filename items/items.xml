@@ -93,7 +93,7 @@ consumeAtUse="true"
         <buff remove="1"/>
     </item>
     <item price="200" id="14" image="potion/muscle-relax.png">
-        <name>muscle relax</name>
+        <name>Muscle relax</name>
         <name lang="fr">Relaxant musculaire</name>
         <description>Remove paralysis</description>
         <description lang="fr">Elimine la paralysie</description>

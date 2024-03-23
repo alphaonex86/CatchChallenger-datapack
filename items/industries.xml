@@ -27,7 +27,7 @@ consumeAtUse="true"
         <description>Silver ore</description>
     </item>
     <item image="other/coal.png" id="2003" price="10">
-        <name>coal</name>
+        <name>Coal</name>
         <name lang="fr">Charbon</name>
         <description>Coal</description>
         <description lang="fr">Charbon</description>

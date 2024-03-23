@@ -4,10 +4,10 @@
  <step id="1">
   <text><![CDATA[Give a <b>Moco Berry</b> to the young trainer who like the berries to have an <b>Tuber</b>.]]></text>
   <text lang="fr"><![CDATA[Donnez une <b>Moco Berry</b> au jeune dresseur qui aime les baies pour avoir une <b>Tuber</b>.]]></text>
-  <item quantity="1" id="1001"/>
+  <item quantity="1" id="Moco Berry"/>
  </step>
  <rewards show="true">
-  <item id="1005"/>
+  <item id="Tuber"/>
   <allow type="clan"/>
  </rewards>
 </quest>

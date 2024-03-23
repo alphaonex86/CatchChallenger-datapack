@@ -38,13 +38,6 @@
     <property name="skin" value="oldman"/>
    </properties>
   </object>
-  <object id="5" name="Market" type="bot" gid="2049" x="112" y="48" width="16" height="16">
-   <properties>
-    <property name="id" type="int" value="54"/>
-    <property name="lookAt" value="top"/>
-    <property name="skin" value="market"/>
-   </properties>
-  </object>
   <object id="6" name="Zone capture" type="bot" gid="2049" x="192" y="192" width="16" height="16">
    <properties>
     <property name="id" type="int" value="53"/>

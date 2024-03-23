@@ -23,9 +23,9 @@
             <text lang="fr"><![CDATA[Bonjour, je vends quelques produits technologique!<br /><br /><a href="2">[Voir]</a>]]></text>
         </step>
         <step type="industry" id="2" cycletobefull="10" time="1080">
-            <resource id="2000" quantity="4"/>
-            <resource id="2003" quantity="2"/>
-            <product id="2005" quantity="2"/>
+            <resource id="Copper ore" quantity="4"/>
+            <resource id="Coal" quantity="2"/>
+            <product id="Copper ingot" quantity="2"/>
         </step>
     </bot>
 </map>
