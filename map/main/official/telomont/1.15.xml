@@ -1,4 +1,18 @@
-<map>
+<map zone="road9" type="outdoor">
+	<name>Jeté</name>
+	<name lang="fr">Thrown</name>
+	<grass>
+          <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35" />
+          <monster id="Urcine" minLevel="16" maxLevel="21" luck="10" />
+          <monster id="Elofly" minLevel="16" maxLevel="21" luck="45" />
+          <monster id="Selket" minLevel="16" maxLevel="21" luck="10" />
+  </grass>
+  <grassNight>
+          <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35" />
+          <monster id="Urcine" minLevel="17" maxLevel="22" luck="10" />
+          <monster id="Noctula" minLevel="17" maxLevel="22" luck="45" />
+          <monster id="Selket" minLevel="17" maxLevel="22" luck="10" />
+  </grassNight>
 <bot id="7068">
       <name>Christophe</name>
       <name langue="fr">Christophe</name>

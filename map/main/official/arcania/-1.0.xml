@@ -1,4 +1,10 @@
-<map>
+<map zone="arcania" type="city">
+    <name>Arcania</name>
+    <name lang="fr">Arcania</name>
+    <shortdescription>The path of the beginer</shortdescription>
+    <shortdescription lang="fr">Le chemin des débutant</shortdescription>
+    <description>The town where you start</description>
+    <description lang="fr">La ville où vous commencez</description>
 <bot id="9034">
       <name>Marcel</name>
       <name langue="fr">Marcel</name> 

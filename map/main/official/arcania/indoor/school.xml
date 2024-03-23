@@ -1,4 +1,6 @@
-<map>
+<map zone="arcania" type="indoor">
+    <name>House</name>
+    <name lang="fr">Maison</name>
 <bot id="9038">
       <name>Geoffrey</name>
       <name langue="fr">Geoffrey</name> 

@@ -1,4 +1,12 @@
-<map>
+<map zone="blue archipelago" type="outdoor">
+	<name lang="en">Road</name>
+	<name lang="fr">Route</name>
+	<grass>
+          <monster id="Conileaf" minLevel="17" maxLevel="21" luck="30" />
+          <monster id="Sclairus" minLevel="17" maxLevel="22" luck="20" />
+          <monster id="Hampotamos" minLevel="16" maxLevel="22" luck="40" />
+          <monster id="Elowind" minLevel="18" maxLevel="18" luck="10" />
+  </grass>
 <bot id="7036">
       <name>Sign</name>
       <name langue="fr">Panneau</name>

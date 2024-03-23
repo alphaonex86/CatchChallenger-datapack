@@ -2,13 +2,13 @@
 	<name>Megalopolis</name>
 	<name lang="fr">Megalopolis</name>
 	<grass>
-          <monster id="3" minLevel="4" maxLevel="5" luck="30" />
-          <monster id="2" minLevel="4" maxLevel="6" luck="35" />
-          <monster id="13" minLevel="4" maxLevel="6" luck="35" />
+          <monster id="Conileaf" minLevel="4" maxLevel="5" luck="30" />
+          <monster id="Elofly" minLevel="4" maxLevel="6" luck="35" />
+          <monster id="Sclairus" minLevel="4" maxLevel="6" luck="35" />
   </grass>
   <water>
-          <monster id="19" minLevel="4" maxLevel="5" luck="5" />
-          <monster id="20" minLevel="4" maxLevel="6" luck="90" />
-          <monster id="40" minLevel="4" maxLevel="6" luck="5" />
+          <monster id="Rhinocarpe" minLevel="4" maxLevel="5" luck="5" />
+          <monster id="Hampotamos" minLevel="4" maxLevel="6" luck="90" />
+          <monster id="Vivisource" minLevel="4" maxLevel="6" luck="5" />
   </water>
 </map>

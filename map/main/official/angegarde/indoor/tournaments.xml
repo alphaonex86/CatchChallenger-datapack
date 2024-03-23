@@ -1,4 +1,6 @@
-<map>
+<map zone="angegarde" type="outdoor">
+	<name lang="en">Tournaments</name>
+	<name lang="fr">Tournaments</name>
 <bot id="1">
       <name>Nurse Marina</name>
       <name langue="fr">Infirmière Marina</name>

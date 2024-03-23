@@ -1,4 +1,6 @@
-<map>
+<map zone="chantiville" type="city">
+    <name lang="en">Chantitown</name>
+    <name lang="fr">Chantiville</name>
 <bot id="9014">
       <name>Paul</name>
       <name langue="fr">Paul</name> 

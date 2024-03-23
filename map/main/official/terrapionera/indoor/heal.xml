@@ -1,4 +1,6 @@
-<map>
+<map zone="terrapionnera" type="indoor">
+    <name>Home</name>
+    <name lang="fr">Maison</name>
 <bot id="1">
       <name>Nurse Marina</name>
       <name langue="fr">Infirmière Marina</name>

@@ -2,13 +2,13 @@
 	<name>Road 5</name>
 	<name lang="fr">Route 5</name>
 	<grass>
-          <monster id="13" minLevel="8" maxLevel="12" luck="30" />
-          <monster id="2" minLevel="10" maxLevel="13" luck="35" />
-          <monster id="3" minLevel="4" maxLevel="4" luck="35" />
+          <monster id="Sclairus" minLevel="8" maxLevel="12" luck="30" />
+          <monster id="Elofly" minLevel="10" maxLevel="13" luck="35" />
+          <monster id="Conileaf" minLevel="4" maxLevel="4" luck="35" />
   </grass>
   <grassNight>
-          <monster id="13" minLevel="8" maxLevel="12" luck="30" />
-          <monster id="18" minLevel="10" maxLevel="13" luck="35" />
-          <monster id="3" minLevel="4" maxLevel="4" luck="35" />
+          <monster id="Sclairus" minLevel="8" maxLevel="12" luck="30" />
+          <monster id="Noctula" minLevel="10" maxLevel="13" luck="35" />
+          <monster id="Conileaf" minLevel="4" maxLevel="4" luck="35" />
     </grassNight>
 </map>

@@ -1,4 +1,12 @@
-<map>
+<map type="cave" backgroundsound="toto.ogg" zone="telomont">
+	<name>Challenge cave</name>
+	<name lang="fr">Grotte défie</name>
+	<grass>
+          <monster id="Polyrock" minLevel="20" maxLevel="23" luck="45" />
+          <monster id="Urcine" minLevel="23" maxLevel="25" luck="5" />
+          <monster id="Noctula" minLevel="21" maxLevel="23" luck="35" />
+          <monster id="Noctalo" minLevel="23" maxLevel="24" luck="15" />
+  </grass>
 <bot id="7104">
       <name>Hugo</name>
       <name langue="fr">Hugo</name>

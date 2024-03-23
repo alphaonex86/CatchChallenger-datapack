@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="indoor">
+    <name>Brewery</name>
+    <name lang="fr">Brasserie</name>
 <bot id="3010">
       <name>Scientific</name>
       <name lang="fr">Scientific</name>
@@ -6,10 +8,7 @@
 		<text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
 		<text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
         </step>
-        <step id="2" type="industry" cycletobefull="10" time="1080" id="9">
-        <resource id="2014" quantity="20"/>
-        <product id="2015" quantity="10"/>
-    </step>
+        <step id="2" type="industry" industry="9" />
     </bot>
 <bot id="9001">
       <name>Sign</name>

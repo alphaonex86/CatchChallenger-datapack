@@ -2,9 +2,9 @@
 	<name>Cave</name>
 	<name lang="fr">Grotte</name>
 	<grass>
-          <monster id="33" minLevel="21" maxLevel="25" luck="35" />
-          <monster id="21" minLevel="21" maxLevel="25" luck="10" />
-          <monster id="18" minLevel="21" maxLevel="25" luck="35" />
-          <monster id="25" minLevel="21" maxLevel="25" luck="20" />
+          <monster id="Selket" minLevel="21" maxLevel="25" luck="35" />
+          <monster id="Urcine" minLevel="21" maxLevel="25" luck="10" />
+          <monster id="Noctula" minLevel="21" maxLevel="25" luck="35" />
+          <monster id="Cowpignon" minLevel="21" maxLevel="25" luck="20" />
   </grass>
 </map>

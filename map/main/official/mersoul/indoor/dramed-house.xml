@@ -1,4 +1,6 @@
-<map>
+<map zone="mersoul" type="indoor">
+    <name>Learning Centre</name>
+    <name lang="fr">Centre d'apprentissage</name>
 <bot id="2">
      <name>Coach</name>
       <name langue="fr">Entraineur</name>

@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>House</name>
+    <name lang="fr">House</name>
 <bot id="9055">
       <name>Laminien Henri</name>
       <name langue="fr">Henri le Laminien</name> 

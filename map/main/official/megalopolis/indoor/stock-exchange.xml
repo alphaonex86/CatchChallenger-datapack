@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>Stock exchange</name>
+    <name lang="fr">Bourse</name>
 <bot id="9001">
       <name>Sign</name>
       <name langue="fr">Panneau</name>

@@ -1,4 +1,6 @@
-<map>
+<map zone="symposia" type="indoor">
+    <name>House</name>
+    <name lang="fr">Maison</name>
 <bot id="2">
      <name>Coach</name>
       <name langue="fr">Entraineur</name>

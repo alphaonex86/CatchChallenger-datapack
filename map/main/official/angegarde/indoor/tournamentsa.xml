@@ -1,4 +1,6 @@
-<map>
+<map zone="angegarde" type="outdoor">
+	<name lang="en">Tournaments</name>
+	<name lang="fr">Tournaments</name>
 <bot id="7143">
       <name>Paul</name>
       <name langue="fr">Paul</name>

@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>House</name>
+    <name lang="fr">House</name>
 <bot id="9053">
       <name>Hermans</name>
       <name langue="fr">Herman</name> 

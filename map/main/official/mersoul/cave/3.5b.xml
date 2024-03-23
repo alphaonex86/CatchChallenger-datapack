@@ -1,4 +1,11 @@
-<map>
+<map type="cave" backgroundsound="toto.ogg" zone="test">
+	<name>Cave</name>
+	<name lang="fr">Grotte</name>
+	<grass>
+          <monster id="Polyrock" minLevel="7" maxLevel="9" luck="45" />
+          <monster id="Urcine" minLevel="7" maxLevel="9" luck="10" />
+          <monster id="Noctula" minLevel="7" maxLevel="9" luck="45" />
+  </grass>
 <bot id="7019">
       <name>Logan</name>
       <name langue="fr">Logan</name>

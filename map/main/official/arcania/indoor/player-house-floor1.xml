@@ -1,4 +1,6 @@
-<map>
+<map zone="arcania" type="indoor">
+    <name>Your home</name>
+    <name lang="fr">Votre maison</name>
 <bot id="1">
       <name>Nurse Marina</name>
       <name langue="fr">Infirmière Marina</name>

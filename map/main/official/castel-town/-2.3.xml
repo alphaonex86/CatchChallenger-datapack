@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="city">
+	<name>Castel Town</name>
+	<name lang="fr">Ville Seigneur</name>
 <bot id="2010">
       <name>Gaetan</name>
       <name langue="fr">Gaëtan</name>

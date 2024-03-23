@@ -1,4 +1,6 @@
-<map>
+<map zone="terrapionera" type="city">
+    <name lang="en">Terrapionera</name>
+    <name lang="fr">Terrapionera</name>
 <bot id="9009">
       <name>John</name>
       <name langue="fr">John</name> 

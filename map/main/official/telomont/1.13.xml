@@ -1,4 +1,17 @@
-<map>
+<map zone="road9" type="outdoor">
+	<name>Crossing of the fate</name>
+	<name lang="fr">Croisement du destin</name>
+	<grass>
+          <monster id="Polyrock" minLevel="21" maxLevel="25" luck="35" />
+          <monster id="Urcine" minLevel="21" maxLevel="25" luck="10" />
+          <monster id="Elofly" minLevel="21" maxLevel="25" luck="45" />
+          <monster id="Tourbidi" minLevel="21" maxLevel="25" luck="10" />
+  </grass>
+  <grassNight>
+          <monster id="Polyrock" minLevel="23" maxLevel="27" luck="35" />
+          <monster id="Urcine" minLevel="23" maxLevel="27" luck="20" />
+          <monster id="Noctula" minLevel="23" maxLevel="27" luck="45" />
+  </grassNight>
 <bot id="7032">
       <name>Remy</name>
       <name langue="fr">Rémi</name>

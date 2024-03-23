@@ -1,4 +1,6 @@
-<map>
+<map zone="mersoul" type="indoor">
+    <name>Shop</name>
+    <name lang="fr">Boutique</name>
 <bot id="9">
       <name>Trader Eddie</name>
       <name langue="fr">Marchand Eddie</name>

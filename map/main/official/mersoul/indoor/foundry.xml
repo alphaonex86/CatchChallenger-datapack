@@ -1,4 +1,6 @@
-<map>
+<map zone="mersoul" type="indoor">
+    <name>Shop</name>
+    <name lang="fr">Boutique</name>
 <bot id="7006">
       <name>Kevin</name>
       <name langue="fr">Kevin</name>

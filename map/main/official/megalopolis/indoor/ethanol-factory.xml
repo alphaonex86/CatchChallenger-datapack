@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>Biofuel refinery</name>
+    <name lang="fr">Raffinerie de biocarburant</name>
 <bot id="3011">
       <name>Scientific Nolan</name>
       <name lang="fr">Nolan le scientific</name>
@@ -22,3 +24,4 @@
         <step shop="101" id="2" type="shop"/>
     </bot>
 </map>
+

@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>House</name>
+    <name lang="fr">House</name>
 <bot id="8">
       <name>Florist Claire</name>
       <name langue="fr">Claire la fleuriste</name>

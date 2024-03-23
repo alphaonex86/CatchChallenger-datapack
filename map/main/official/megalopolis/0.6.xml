@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="city">
+	<name>Megalopolis</name>
+	<name lang="fr">Megalopolis</name>
 <bot id="7">
       <name>Clan master</name>
       <name langue="fr">Maitre des clans</name>

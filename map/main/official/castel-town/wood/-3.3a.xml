@@ -1,4 +1,18 @@
-<map>
+<map type="outdoor" zone="road3">
+	<name>Wood</name>
+	<name lang="fr">Fôret</name>
+  <grass>
+          <monster id="Conileaf" minLevel="6" maxLevel="9" luck="30" />
+          <monster id="Chenipode" minLevel="6" maxLevel="9" luck="35" />
+          <monster id="Sclairus" minLevel="6" maxLevel="9" luck="30" />
+          <monster id="Volcoli" minLevel="6" maxLevel="9" luck="5" />
+  </grass>
+      <grassNight>
+          <monster id="Conileaf" minLevel="8" maxLevel="10" luck="15" />
+          <monster id="Chenipode" minLevel="8" maxLevel="10" luck="40" />
+          <monster id="Sclairus" minLevel="8" maxLevel="10" luck="35" />
+          <monster id="Volcoli" minLevel="8" maxLevel="12" luck="10" />
+    </grassNight>
 <bot id="7005">
       <name>Adelin</name>
       <name langue="fr">Adelin</name>

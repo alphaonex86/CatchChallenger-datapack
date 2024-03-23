@@ -2,21 +2,14 @@
 	<name>Road</name>
 	<name lang="fr">Route</name>
   	<grass>
-          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="2" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="13" minLevel="9" maxLevel="10" luck="45" />
-          <monster id="45" minLevel="9" maxLevel="10" luck="5" />
+          <monster id="Conileaf" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Elofly" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Sclairus" minLevel="9" maxLevel="10" luck="45" />
+          <monster id="Vivicinder" minLevel="9" maxLevel="10" luck="5" />
   </grass>
       <grassNight>
-          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="18" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="13" minLevel="9" maxLevel="10" luck="50" />
+          <monster id="Conileaf" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Noctula" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Sclairus" minLevel="9" maxLevel="10" luck="50" />
     </grassNight>
-        <condition id="1" quest="1" type="quest">
-        <blockedtext><![CDATA[You have not done the quest <b>The beginner's rod</b>]]></blockedtext>
-    </condition>
-        <condition id="2" item="4901" type="item">
-        <blockedtext><![CDATA[You have not an <b>Admin key</b> to open the door]]></blockedtext>
-        <blockedtext lang="fr"><![CDATA[Vous n'avez pas la <b>admin key</b> pour ouvrir la porte]]></blockedtext>
-    </condition>
 </map>

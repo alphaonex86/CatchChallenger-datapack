@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="indoor">
+    <name>Heal center</name>
+    <name lang="fr">Centre de soin</name>
 <bot id="1">
       <name>Nurse Marina</name>
       <name langue="fr">Infirmière Marina</name>

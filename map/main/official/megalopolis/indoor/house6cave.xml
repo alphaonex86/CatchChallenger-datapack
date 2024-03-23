@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>House</name>
+    <name lang="fr">House</name>
 <bot id="9057">
       <name>Sign</name>
       <name langue="fr">Panneau</name>

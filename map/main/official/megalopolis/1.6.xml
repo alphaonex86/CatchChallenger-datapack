@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="city">
+	<name>Megalopolis</name>
+	<name lang="fr">Megalopolis</name>
 <bot id="9028">
       <name>Peter</name>
       <name langue="fr">Peter</name> 

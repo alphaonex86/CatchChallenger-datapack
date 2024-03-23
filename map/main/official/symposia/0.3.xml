@@ -1,4 +1,16 @@
-<map>
+<map zone="symposia" type="outdoor">
+	<name>Road 5</name>
+	<name lang="fr">Route 5</name>
+	<grass>
+          <monster id="Conileaf" minLevel="4" maxLevel="5" luck="25" />
+          <monster id="Elofly" minLevel="5" maxLevel="6" luck="25" />
+          <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50" />
+  </grass>
+      <grassNight>
+          <monster id="Conileaf" minLevel="4" maxLevel="6" luck="25" />
+          <monster id="Noctula" minLevel="5" maxLevel="6" luck="25" />
+          <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50" />
+    </grassNight>
 <bot id="7071">
       <name>Paule</name>
       <name langue="fr">Paule</name>

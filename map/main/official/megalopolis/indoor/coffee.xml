@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>Restaurant Carroucel</name>
+    <name lang="fr">Restaurant Carroucel</name>
 <bot id="9009">
       <name>John</name>
       <name langue="fr">John</name> 

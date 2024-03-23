@@ -1,4 +1,6 @@
-<map>
+<map zone="telomont" type="indoor">
+    <name>Home</name>
+    <name lang="fr">Maison</name>
 <bot id="9029">
       <name>Silvain guardian</name>
       <name langue="fr">Guardian Silvain </name> 
@@ -16,3 +18,4 @@
         </step>
     </bot>
 </map>
+

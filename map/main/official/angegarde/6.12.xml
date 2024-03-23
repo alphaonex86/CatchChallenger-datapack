@@ -1,4 +1,12 @@
-<map>
+<map zone="road11" type="outdoor">
+	<name lang="en">Road</name>
+	<name lang="fr">Route</name>
+	<grass>
+          <monster id="Conileaf" minLevel="23" maxLevel="25" luck="30" />
+          <monster id="Sclairus" minLevel="24" maxLevel="26" luck="10" />
+          <monster id="Hampotamos" minLevel="23" maxLevel="25" luck="40" />
+          <monster id="Dinoflop" minLevel="23" maxLevel="25" luck="20" />
+  </grass>
 <bot id="7120">
       <name>Henry</name>
       <name langue="fr">Henry</name>

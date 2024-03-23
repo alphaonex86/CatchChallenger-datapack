@@ -1,4 +1,6 @@
-<map>
+<map zone="chantiville" type="indoor">
+    <name>Home</name>
+    <name lang="fr">Maison</name>
 <bot id="3013">
       <name>Farmer Juliens</name>
       <name lang="fr">Juliens le fermier</name>

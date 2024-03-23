@@ -1,4 +1,6 @@
-<map>
+<map zone="megalopolis" type="indoor">
+    <name>Arena</name>
+    <name lang="fr">Arène</name>
 <bot id="7026">
       <name>Nokomis</name>
       <name langue="fr">Nokomis</name>

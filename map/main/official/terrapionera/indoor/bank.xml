@@ -1,4 +1,6 @@
-<map>
+<map zone="terrapionnera" type="indoor">
+    <name>Bank</name>
+    <name lang="fr">Bank</name>
 <bot id="3">
       <name>Banker Malcolm</name>
       <name langue="fr">banquier Malcolm</name>

@@ -1,4 +1,16 @@
-<map>
+<map zone="road4" type="outdoor">
+	<name>Road 4</name>
+	<name lang="fr">Route 4</name>
+  	<grass>
+          <monster id="Conileaf" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Elofly" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Sclairus" minLevel="9" maxLevel="10" luck="50" />
+  </grass>
+      <grassNight>
+          <monster id="Conileaf" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Noctula" minLevel="9" maxLevel="10" luck="25" />
+          <monster id="Sclairus" minLevel="9" maxLevel="10" luck="50" />
+    </grassNight>
 <bot id="7009">
       <name>Alexandra</name>
       <name langue="fr">Alexandra</name>

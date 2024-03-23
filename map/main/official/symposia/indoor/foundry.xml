@@ -1,4 +1,6 @@
-<map>
+<map zone="symposia" type="indoor">
+    <name>Foundry</name>
+    <name lang="fr">Fonderie</name>
 <bot id="3001">
       <name>Smith Pierre</name>
       <name lang="fr">Pierre le forgeron</name>

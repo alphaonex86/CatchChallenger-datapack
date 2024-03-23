@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="indoor">
+    <name>Big house</name>
+    <name lang="fr">Grande maison</name>
 <bot id="9001">
       <name>Sign</name>
       <name langue="fr">Panneau</name>

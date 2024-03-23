@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="indoor">
+    <name>Brewery</name>
+    <name lang="fr">Brasserie</name>
 <bot id="3014">
       <name>Scientific</name>
       <name lang="fr">Scientific</name>

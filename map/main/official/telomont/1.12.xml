@@ -1,4 +1,6 @@
-<map>
+<map zone="telomont" type="city">
+	<name>Telomont</name>
+	<name lang="fr">Telomont</name>
 <bot id="9044">
       <name>Philipe</name>
       <name langue="fr">Philipe</name> 

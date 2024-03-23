@@ -1,4 +1,6 @@
-<map>
+<map zone="symposia" type="indoor">
+    <name>Shop</name>
+    <name lang="fr">Boutique</name>
 <bot id="103">
       <name>Trader Malcolm</name>
       <name langue="fr">Marchand Malcolm</name>

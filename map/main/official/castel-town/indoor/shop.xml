@@ -1,4 +1,6 @@
-<map>
+<map zone="castel-town" type="indoor">
+    <name>Shop</name>
+    <name lang="fr">Boutique</name>
 <bot id="100">
       <name>Trader Malcolm</name>
       <name langue="fr">Marchand Malcolm</name>

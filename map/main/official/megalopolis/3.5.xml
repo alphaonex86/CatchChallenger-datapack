@@ -1,4 +1,7 @@
-<map>
+<map zone="road6" type="outdoor">
+	<name>Road</name>
+	<name lang="fr">Route</name>
+
 <bot id="7017">
       <name>Leo</name>
       <name langue="fr">Léo</name>

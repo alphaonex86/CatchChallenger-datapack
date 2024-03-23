@@ -1,4 +1,6 @@
-<map>
+<map zone="mersoul" type="indoor">
+    <name>Arena</name>
+    <name lang="fr">Arène</name>
 <bot id="7029">
       <name>Yves</name>
       <name langue="fr">Yves</name>
