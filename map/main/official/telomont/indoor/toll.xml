@@ -1,5 +1,18 @@
-<map zone="telomont" type="indoor">
-    <name>Home</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="9029">
+      <name>Silvain guardian</name>
+      <name langue="fr">Guardian Silvain </name> 
+        <step type="text" id="1">
+            <text><![CDATA[Warning road is very dangerous!]]></text>
+            <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
+        </step>
+    </bot>
+<bot id="9029">
+      <name>Silvain guardian</name>
+      <name langue="fr">Guardian Silvain </name> 
+        <step type="text" id="1">
+            <text><![CDATA[Warning road is very dangerous!]]></text>
+            <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
+        </step>
+    </bot>
 </map>
-

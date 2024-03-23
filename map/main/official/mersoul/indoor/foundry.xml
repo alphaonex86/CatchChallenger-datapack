@@ -1,4 +1,14 @@
-<map zone="mersoul" type="indoor">
-    <name>Shop</name>
-    <name lang="fr">Boutique</name>
+<map>
+<bot id="7006">
+      <name>Kevin</name>
+      <name langue="fr">Kevin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elofly" level="12" />
+		<monster id="Elofly" level="12" />
+		<gain cash="200" />
+		<gain item="1005" />
+	  </step>
+    </bot>
 </map>

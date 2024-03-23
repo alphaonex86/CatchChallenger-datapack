@@ -1,4 +1,34 @@
-<map zone="megalopolis" type="city">
-	<name>Megalopolis</name>
-	<name lang="fr">Megalopolis</name>
+<map>
+<bot id="9028">
+      <name>Peter</name>
+      <name langue="fr">Peter</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this city, empire will aggregate]]></text>
+            <text lang="fr"><![CDATA[Je protège cette ville, l'empire rassemblera]]></text>
+        </step>
+    </bot>
+<bot id="9028">
+      <name>Peter</name>
+      <name langue="fr">Peter</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this city, empire will aggregate]]></text>
+            <text lang="fr"><![CDATA[Je protège cette ville, l'empire rassemblera]]></text>
+        </step>
+    </bot>
+<bot id="9042">
+      <name>Stephanie</name>
+      <name langue="fr">Stephanie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[The flowers are beautiful! isn't it ?]]></text>
+            <text lang="fr"><![CDATA[Les fleurs sont magnifiques ! Tu ne trouve pas ?]]></text>
+        </step>
+    </bot>
+<bot id="9043">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name> 
+        <step type="text" id="1">
+            <text><![CDATA[TBI the biofuel industry]]></text>
+            <text lang="fr"><![CDATA[IDB l'industrie de Biocarburant]]></text>
+        </step>
+    </bot>
 </map>

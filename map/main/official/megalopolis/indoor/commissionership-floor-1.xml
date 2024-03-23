@@ -1,4 +1,56 @@
-<map zone="megalopolis" type="indoor">
-    <name>Commissionership</name>
-    <name lang="fr">Commissariat </name>
+<map>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+        <condition id="1000" quest="1000" type="quest">
+        <blockedtext><![CDATA[the door is close]]></blockedtext>
+        <blockedtext lang="fr"><![CDATA[La porte est fermé]]></blockedtext>
+    </condition>
 </map>

@@ -40,7 +40,7 @@
  <objectgroup width="0" name="Object" height="0">
   <object gid="1027" type="bot" x="16" name="bot" y="160">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9011" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="farmer" name="skin"/>

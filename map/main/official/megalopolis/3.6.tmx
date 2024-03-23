@@ -75,7 +75,7 @@
   <object name="bot" x="336" y="256" gid="5123" type="bot">
    <properties>
     <property name="fightRange" value="1"/>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7015"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -84,7 +84,7 @@
   <object name="bot" x="336" y="336" gid="5123" type="bot">
    <properties>
     <property name="fightRange" value="1"/>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7015"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -93,7 +93,7 @@
   <object name="bot" x="96" y="448" gid="5123" type="bot">
    <properties>
     <property name="fightRange" value="4"/>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7016"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="player"/>

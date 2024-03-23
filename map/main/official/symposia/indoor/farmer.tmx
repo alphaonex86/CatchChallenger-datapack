@@ -30,7 +30,7 @@
  <objectgroup name="Object" height="12" width="11">
   <object name="bot" x="80" y="64" type="bot" gid="1027">
    <properties>
-    <property name="file" value="../../bots-industries"/>
+    
     <property name="id" value="3009"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="miller"/>

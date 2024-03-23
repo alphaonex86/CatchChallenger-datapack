@@ -1,4 +1,37 @@
-<map zone="terrapionera" type="indoor">
-    <name>Home</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="7073">
+      <name>Greg</name>
+      <name langue="fr">Greg</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="23" />
+		<monster id="Polyrock" level="23" />
+		<monster id="Polyrock" level="23" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7074">
+      <name>Cyril</name>
+      <name langue="fr">Cyril</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctula" level="25" />
+		<monster id="Noctula" level="26" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7075">
+      <name>Lary</name>
+      <name langue="fr">Lary</name>
+        <step type="fight" id="1" leader="true">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctalo" level="28" />
+		<monster id="Polyrock" level="29" />
+		<monster id="Selket" level="31" />
+		<gain cash="2000" />
+	  </step>
+    </bot>
 </map>

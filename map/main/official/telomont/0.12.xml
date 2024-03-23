@@ -1,16 +1,24 @@
-<map zone="telomont" type="city">
-	<name>Telomont</name>
-	<name lang="fr">Telomont</name>
-	<grass>
-          <monster id="5" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="21" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="2" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="33" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="5" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="21" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="18" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="33" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
+<map>
+<bot id="7008">
+      <name>Gaston</name>
+      <name langue="fr">Gaston</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="12" />
+		<monster id="Polyrock" level="12" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="2015">
+      <name>Bob</name>
+      <name langue="fr">Bob</name>
+         <step type="text" id="1">
+            <text><![CDATA[The Empire give some work<br />		
+            <a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[L'empire distribue des petits boulots<br />		
+            <a href="2">Quête</a><br />]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
 </map>

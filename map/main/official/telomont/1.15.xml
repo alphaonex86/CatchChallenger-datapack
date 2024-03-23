@@ -1,16 +1,24 @@
-<map zone="road9" type="outdoor">
-	<name>Jeté</name>
-	<name lang="fr">Thrown</name>
-	<grass>
-          <monster id="5" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="21" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="2" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="33" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="5" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="21" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="18" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="33" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
+<map>
+<bot id="7068">
+      <name>Christophe</name>
+      <name langue="fr">Christophe</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Hampotamos" level="25" />
+		<monster id="Dinoflop" level="25" />
+		<gain cash="200" />
+		<gain item="1" />
+	  </step>
+    </bot>
+<bot id="7069">
+      <name>Antony</name>
+      <name langue="fr">Antony</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Rhinocarpe" level="27" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

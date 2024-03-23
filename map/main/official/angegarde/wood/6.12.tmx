@@ -78,7 +78,7 @@
  <objectgroup height="30" width="30" name="Object">
   <object gid="5123" type="bot" x="208" y="208" name="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7129"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="bandit"/>
@@ -86,7 +86,7 @@
   </object>
   <object gid="5123" type="bot" x="128" y="320" name="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7130"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="bandit"/>
@@ -94,7 +94,7 @@
   </object>
   <object gid="5123" type="bot" x="272" y="352" name="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7131"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="bandit"/>
@@ -102,7 +102,7 @@
   </object>
   <object gid="5123" type="bot" x="256" y="448" name="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7132"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="bandit"/>

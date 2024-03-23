@@ -1,10 +1,24 @@
-<map type="cave" backgroundsound="toto.ogg" zone="test">
-	<name>Cave</name>
-	<name lang="fr">Grotte</name>
-	<grass>
-          <monster id="5" minLevel="14" maxLevel="18" luck="35" />
-          <monster id="21" minLevel="14" maxLevel="18" luck="10" />
-          <monster id="18" minLevel="14" maxLevel="18" luck="45" />
-          <monster id="33" minLevel="14" maxLevel="19" luck="10" />
-  </grass>
+<map>
+<bot id="7019">
+      <name>Logan</name>
+      <name langue="fr">Logan</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="14" />
+		<monster id="Polyrock" level="14" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7019">
+      <name>Logan</name>
+      <name langue="fr">Logan</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="14" />
+		<monster id="Polyrock" level="14" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

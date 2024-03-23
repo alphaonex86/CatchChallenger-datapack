@@ -1,4 +1,11 @@
-<map zone="castel-town" type="indoor">
-    <name>House</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="2">
+     <name>Coach</name>
+      <name langue="fr">Entraineur</name>
+        <step id="1" type="text">
+		<text><![CDATA[I can teach some attack.<br />
+		<a href="2">[*Learn*]</a>]]></text>
+	</step>
+        <step id="2" type="learn"/>
+    </bot>
 </map>

@@ -106,7 +106,7 @@
  <objectgroup height="30" name="Object" width="30">
   <object x="160" y="400" type="bot" name="bot" gid="5123">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9049" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="girl" name="skin"/>
@@ -114,7 +114,7 @@
   </object>
   <object x="64" y="288" type="bot" name="bot" gid="5123">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9003" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="girl2" name="skin"/>
@@ -122,7 +122,7 @@
   </object>
   <object x="224" y="144" type="bot" name="bot" gid="5123">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9047" name="id"/>
     <property value="bas" name="lookAt"/>
     <property value="kid1" name="skin"/>
@@ -130,7 +130,7 @@
   </object>
   <object x="96" y="64" type="bot" name="bot" gid="5123">
    <properties>
-    <property value="../bots-services" name="file"/>
+    
     <property value="204" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="girl2" name="skin"/>

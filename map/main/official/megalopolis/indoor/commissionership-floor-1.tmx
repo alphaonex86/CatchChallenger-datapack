@@ -34,7 +34,7 @@
   </object>
   <object name="door" x="352" y="288" gid="3477" type="door">
    <properties>
-    <property value="../../condition" name="condition-file"/>
+    
     <property value="1000" name="condition-id"/>
     <property value="commissionership-floor-1" name="map"/>
     <property value="20" name="x"/>
@@ -59,7 +59,7 @@
  <objectgroup name="Object" width="45" height="26">
   <object x="496" y="320" gid="1027" type="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9062" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rookie" name="skin"/>
@@ -67,7 +67,7 @@
   </object>
   <object x="368" y="304" gid="1027" type="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9062" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rookie" name="skin"/>
@@ -75,7 +75,7 @@
   </object>
   <object x="336" y="304" gid="1027" type="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9062" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rookie" name="skin"/>
@@ -83,7 +83,7 @@
   </object>
   <object x="176" y="224" gid="1027" type="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9062" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rookie" name="skin"/>
@@ -91,7 +91,7 @@
   </object>
   <object x="528" y="224" gid="1027" type="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9062" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rookie" name="skin"/>

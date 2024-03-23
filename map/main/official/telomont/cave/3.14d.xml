@@ -1,11 +1,42 @@
-<map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="5" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="21" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="18" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="32" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
+<map>
+<bot id="7097">
+      <name>Mateo</name>
+      <name langue="fr">Mateo</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Coleorus" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7096">
+      <name>Loic</name>
+      <name langue="fr">Loic</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Panthera fira" level="33" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7098">
+      <name>Robin</name>
+      <name langue="fr">Robin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Selket" level="30" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7097">
+      <name>Mateo</name>
+      <name langue="fr">Mateo</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Coleorus" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>
-

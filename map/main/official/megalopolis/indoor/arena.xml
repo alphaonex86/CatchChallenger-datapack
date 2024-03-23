@@ -1,4 +1,50 @@
-<map zone="megalopolis" type="indoor">
-    <name>Arena</name>
-    <name lang="fr">Arène</name>
+<map>
+<bot id="7026">
+      <name>Nokomis</name>
+      <name langue="fr">Nokomis</name>
+        <step type="fight" id="1" leader="true">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctula" level="22" />
+		<monster id="Urcine" level="25" />
+		<monster id="Noctula" level="24" />
+		<monster id="Volcoli" level="27" />
+		<gain cash="2000" />
+	  </step>
+    </bot>
+<bot id="7024">
+      <name>Valentin</name>
+      <name langue="fr">Valentin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Urcine" level="18" />
+		<monster id="Urcine" level="19" />
+		<monster id="Urcine" level="20" />				
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7023">
+      <name>Florent</name>
+      <name langue="fr">Florent</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Urcine" level="16" />
+		<monster id="Noctula" level="16" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7025">
+      <name>Isaac</name>
+      <name langue="fr">Isaac</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctula" level="28" />
+		<monster id="Noctula" level="19" />
+		<monster id="Noctula" level="20" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

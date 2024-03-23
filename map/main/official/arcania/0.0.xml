@@ -1,8 +1,18 @@
-<map zone="arcania" type="city">
-    <name>Arcania</name>
-    <name lang="fr">Arcania</name>
-    <shortdescription>The path of the beginer</shortdescription>
-    <shortdescription lang="fr">Le chemin des débutant</shortdescription>
-    <description>The town where you start</description>
-    <description lang="fr">La ville où vous commencez</description>
+<map>
+<bot id="9037">
+      <name>Antoine</name>
+      <name langue="fr">Antoine</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Only tamers graduates can go out the village !]]></text>
+            <text lang="fr"><![CDATA[Seuls les dompteurs diplômés peuvent passer !]]></text>
+        </step>
+    </bot>
+<bot id="9036">
+      <name>Julie</name>
+      <name langue="fr">Julie</name> 
+        <step type="text" id="1">
+            <text><![CDATA[But what are we can do of you !?]]></text>
+            <text lang="fr"><![CDATA[Mais qu'allons nous bien pouvoir faire de toi ?!]]></text>
+        </step>
+    </bot>
 </map>

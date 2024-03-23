@@ -1,4 +1,10 @@
-<map zone="telomont" type="indoor">
-    <name>Home</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="9026">
+      <name>Carl</name>
+      <name langue="fr">Carl</name> 
+        <step type="text" id="1">
+            <text><![CDATA[We are in a library here, so no noise!]]></text>
+            <text lang="fr"><![CDATA[Nous sommes dans une bibliothèque ici, alors pas de bruit !]]></text>
+        </step>
+    </bot>
 </map>

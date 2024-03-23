@@ -85,7 +85,7 @@
  <objectgroup name="Object">
   <object id="8" name="bot" type="bot" gid="5123" x="192" y="320" width="16" height="16">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9034"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="farmer"/>
@@ -93,7 +93,7 @@
   </object>
   <object id="9" name="bot" type="bot" gid="5123" x="48" y="272" width="16" height="16">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9035"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="oldman"/>

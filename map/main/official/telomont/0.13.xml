@@ -1,16 +1,24 @@
-<map zone="road9" type="outdoor">
-	<name>Mountain</name>
-	<name lang="fr">montagne</name>
-	<grass>
-          <monster id="5" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="21" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="2" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="33" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="5" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="21" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="18" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="33" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
+<map>
+<bot id="7132">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elowind" level="27" />
+		<monster id="Elostorm" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7033">
+      <name>Antony</name>
+      <name langue="fr">Antony</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="21" />
+		<monster id="Polyrock" level="21" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

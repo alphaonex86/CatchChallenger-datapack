@@ -1,4 +1,58 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="9057">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[The Mycota plant toxic <br />
+              that grows easily in moist areas <br />
+              it is unfortunately known to be the <br />
+              sole responsible for the death of Éfrale.]]></text>
+            <text lang="fr"><![CDATA[La Mycota est une plante toxic,<br />
+             qui pousse facilement dans les regions humides<br />
+             elle reste malheureusement connue pour être <br />
+             la plante responsable de la mort d'Éfrale.]]></text>
+        </step>
+    </bot>
+<bot id="9058">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Alban nut is a small seed upprenentes, <br />
+               indeed it owned curious  properties  <br />
+              that the seed can be able to survive two <br />
+              centurys before gemer. ]]></text>
+            <text lang="fr"><![CDATA[La Noix d'alban est une petite graine,<br />
+             aux propriétés surprenantes en effet on raconte<br />
+             que cette graine serait capable de survivre deux <br />
+             siècles avant de germer.]]></text>
+        </step>
+    </bot>
+<bot id="9059">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Tuber has few leaves <br />
+              stock it qualified its tigue souteraine <br />
+              what PERMER it to resist very cold winter <br />
+              and where very hot summer. ]]></text>
+            <text lang="fr"><![CDATA[Le Tuber possède peu de feuilles,<br />
+             il stocke des réserves dans sa tige souterraine<br />
+             ce qui lui permet de résister aux hivers très froids <br />
+             et aux étés très chaud.]]></text>
+        </step>
+    </bot>
+<bot id="9060">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+         <step type="text" id="1">
+            <text><![CDATA[Seed Areca occurred <br />
+              by Arecanier, which grows exclusively <br />
+              land Hot / Barren. <br />
+              The seed is not edible.]]></text>
+            <text lang="fr"><![CDATA[La Graine d'aréca est produite<br />
+             par l'arécanier, qui ne pousse que sur<br />
+             les terrains Chaud/Aride. <br />
+             La graine n'est pas comestible.]]></text>
+        </step>
+    </bot>
 </map>

@@ -39,25 +39,25 @@
  <objectgroup width="0" height="0" name="Object">
   <object x="80" gid="1027" y="64" type="bot" name="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9057" name="id"/>
    </properties>
   </object>
   <object x="80" gid="1027" y="96" type="bot" name="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9058" name="id"/>
    </properties>
   </object>
   <object x="80" gid="1027" y="128" type="bot" name="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9059" name="id"/>
    </properties>
   </object>
   <object x="80" gid="1027" y="160" type="bot" name="bot">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9060" name="id"/>
    </properties>
   </object>

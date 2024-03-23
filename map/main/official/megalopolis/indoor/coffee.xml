@@ -1,4 +1,27 @@
-<map zone="megalopolis" type="indoor">
-    <name>Restaurant Carroucel</name>
-    <name lang="fr">Restaurant Carroucel</name>
+<map>
+<bot id="9009">
+      <name>John</name>
+      <name langue="fr">John</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Are you hungry? We sell full of delicious thing]]></text>
+            <text lang="fr"><![CDATA[Vous avez faim ? Nous vendons plein de choses délicieuses]]></text>
+        </step>
+    </bot>
+<bot id="9010">
+      <name>Adrien</name>
+      <name langue="fr">Adrien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I can help you?]]></text>
+            <text lang="fr"><![CDATA[Je peux vous aider ?]]></text>
+        </step>
+    </bot>
+<bot id="2006">
+    <name>Rayan</name>
+      <name langue="fr">Rayan</name>
+    <step type="text" id="1">
+            <text><![CDATA[<a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Quête</a><br />]]></text>
+        </step>
+        <step id="2" type="quests"/>
+    </bot>
 </map>

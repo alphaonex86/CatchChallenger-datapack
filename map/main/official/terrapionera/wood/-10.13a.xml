@@ -1,11 +1,37 @@
-<map type="outdoor" backgroundsound="toto.ogg" zone="road">
-	<name>Boreal forest</name>
-	<name lang="fr">Fôret boréale</name>
-	<grass>
-          <monster id="23" minLevel="16" maxLevel="17" luck="20" />
-          <monster id="22" minLevel="13" maxLevel="15" luck="20" />
-          <monster id="3" minLevel="13" maxLevel="16" luck="40" />
-          <monster id="17" minLevel="15" maxLevel="17" luck="10" />
-          <monster id="21" minLevel="13" maxLevel="16" luck="10" />
-  </grass>
+<map>
+<bot id="7061">
+      <name>Clement</name>
+      <name langue="fr">Clément</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Conileaf" level="29" />
+		<monster id="Conileaf" level="29" />
+		<monster id="Conileaf" level="30" />
+		<gain cash="200" />
+		<gain item="1" />
+	  </step>
+    </bot>
+<bot id="7062">
+      <name>Benjamin</name>
+      <name langue="fr">Benjamin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elofly" level="32" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7063">
+      <name>Tom</name>
+      <name langue="fr">Tom</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Volcoli" level="29" />
+		<monster id="Volcoli" level="30" />
+		<monster id="Volcoli" level="31" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

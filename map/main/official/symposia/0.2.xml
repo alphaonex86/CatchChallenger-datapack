@@ -1,14 +1,63 @@
-<map type="city" zone="symposia">
-    <name>Symposia</name>
-    <name lang="fr">Symposia</name>
-	<grass>
-          <monster id="3" minLevel="4" maxLevel="5" luck="25" />
-          <monster id="2" minLevel="5" maxLevel="6" luck="25" />
-          <monster id="13" minLevel="5" maxLevel="6" luck="50" />
-  </grass>
-      <grassNight>
-          <monster id="3" minLevel="4" maxLevel="6" luck="25" />
-          <monster id="18" minLevel="5" maxLevel="6" luck="25" />
-          <monster id="13" minLevel="5" maxLevel="6" luck="50" />
-    </grassNight>
+<map>
+<bot id="2001">       
+      <name>Sam</name>
+      <name langue="fr">Sam</name>
+     <step type="text" id="1">
+            <text><![CDATA[The nation, the joke</a><br />		
+            <a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[La nation, quel blague</a><br />		
+            <a href="2">Quête</a><br />]]></text>
+        </step>
+        <step id="2" type="quests"/>
+    </bot>
+<bot id="201">
+         <step type="text" id="1">
+            <text><![CDATA[I handle the defense of Symposia]]></text>
+            <text lang="fr"><![CDATA[Je m'occupe de la défense de Symposia]]></text>
+        </step>
+        <step zone="symposia" id="2" type="zonecapture"/>
+    </bot>
+<bot id="9023">
+        <name>Henry</name>
+      <name langue="fr">Henry</name> 
+         <step type="text" id="1">
+            <text><![CDATA[It says that the shadow army prepares a big thing]]></text>
+            <text lang="fr"><![CDATA[On raconte que l'Armée de l'Ombre prépare quelque chose.]]></text>
+        </step>
+    </bot>
+<bot id="2004">
+      <name>Laure</name>
+      <name langue="fr">Laure</name>
+         <step type="text" id="1">
+            <text><![CDATA[Elofly is frugivorous bird<br />		
+            <a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[Elofly est un oiseau frugivore<br />		
+            <a href="2">Quête</a><br />]]></text>
+        </step>
+        <step id="2" type="quests"/>
+    </bot>
+<bot id="9025">
+      <name>Ted</name>
+      <name langue="fr">Ted</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Warning road is very dangerous!]]></text>
+            <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
+        </step>
+    </bot>
+<bot id="9025">
+      <name>Ted</name>
+      <name langue="fr">Ted</name> 
+        <step type="text" id="1">
+            <text><![CDATA[Warning road is very dangerous!]]></text>
+            <text lang="fr"><![CDATA[Attention route très dangereuse !]]></text>
+        </step>
+    </bot>
+<bot id="9028">
+      <name>Peter</name>
+      <name langue="fr">Peter</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this city, empire will aggregate]]></text>
+            <text lang="fr"><![CDATA[Je protège cette ville, l'empire rassemblera]]></text>
+        </step>
+    </bot>
 </map>

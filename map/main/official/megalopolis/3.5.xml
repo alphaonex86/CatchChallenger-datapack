@@ -1,5 +1,26 @@
-<map zone="road6" type="outdoor">
-	<name>Road</name>
-	<name lang="fr">Route</name>
-
+<map>
+<bot id="7017">
+      <name>Leo</name>
+      <name langue="fr">Léo</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Conileaf" level="13" />
+		<monster id="Conileaf" level="13" />
+		<monster id="Elofly" level="13" />
+		<gain cash="200" />
+		<gain item="1003" />
+	  </step>
+    </bot>
+<bot id="7018">
+      <name>Nicolas</name>
+      <name langue="fr">Nicolas</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctula" level="13" />
+		<monster id="Noctula" level="14" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

@@ -1,10 +1,23 @@
-<map zone="blue archipelago" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="3" minLevel="17" maxLevel="21" luck="30" />
-          <monster id="13" minLevel="17" maxLevel="22" luck="20" />
-          <monster id="20" minLevel="16" maxLevel="22" luck="40" />
-          <monster id="30" minLevel="18" maxLevel="18" luck="10" />
-  </grass>
+<map>
+<bot id="7036">
+      <name>Sign</name>
+      <name langue="fr">Panneau</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Hampotamos" level="22" />
+		<monster id="Hampotamos" level="22" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7038">
+      <name>Robin</name>
+      <name langue="fr">Robin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Conileaf" level="28" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

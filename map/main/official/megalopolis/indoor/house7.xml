@@ -1,4 +1,34 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="9061">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[Hello, what can I do for you? <br />
+<a href="2"> Getting into the police </a> <br />
+<a href="3"> Informations </a> <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Bonjour, que puis-je faire pour vous ?<br />
+		<a href="2">Rentrer dans la police</a> <br />
+		<a href="3">Informations</a> <br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+        <step id="2" type="text">
+            <text><![CDATA[Sorry but recruitment is closed for now <br />
+              there isn't for lieutenant for diriger new recruits. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Désolé mais les recrutements sont fermés pour le moment,<br />
+             il n'y a plus assez de lieutenants pour diriger les nouvelles recrues.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+        <step id="3" type="text">
+            <text><![CDATA[The Megalopolis commissionership enforce order, <br />
+              It organizes various opperation and stock the illegal materials
+              It also has a research team  and dévellopement High-Tech. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Le commissariat de Megalopolis fait respecter l'ordre,<br />
+             Il organise les différentes opérations, stocke les matériaux illégaux
+             Il possède aussi un centre de recherche et développement High-Tech.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
 </map>

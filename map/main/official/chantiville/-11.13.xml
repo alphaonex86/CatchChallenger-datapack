@@ -1,4 +1,34 @@
-<map zone="chantiville" type="city">
-    <name lang="en">Chantitown</name>
-    <name lang="fr">Chantiville</name>
+<map>
+<bot id="9014">
+      <name>Paul</name>
+      <name langue="fr">Paul</name> 
+        <step type="text" id="1">
+          <text><![CDATA[A visitor is really rare to see,<br />
+                nice to meet you,<br />
+                I hope you have a good time in chantitown]]></text>
+          <text lang="fr"><![CDATA[Un visiteur ! C'est vraiment rare d'en voir,<br />
+                          ravie de vous rencontrer,<br />
+                          j'espère que vous passerez un bon moment à Chantiville]]></text>
+        </step>
+    </bot>
+<bot id="9016">
+      <name>Samuel</name>
+      <name langue="fr">Samuel</name> 
+        <step type="text" id="1">
+            <text><![CDATA[The first time I came here it was to trade flourishing wheat,<br />
+                  and I fell in love with this place and I never left]]></text>
+            <text lang="fr"><![CDATA[La première fois que je suis venu ici c'était pour le commerce de blé florissant,<br />
+                            et je suis tombé amoureux du lieu et je ne suis plus jamais parti]]></text>
+        </step>
+    </bot>
+<bot id="9016">
+      <name>Samuel</name>
+      <name langue="fr">Samuel</name> 
+        <step type="text" id="1">
+            <text><![CDATA[The first time I came here it was to trade flourishing wheat,<br />
+                  and I fell in love with this place and I never left]]></text>
+            <text lang="fr"><![CDATA[La première fois que je suis venu ici c'était pour le commerce de blé florissant,<br />
+                            et je suis tombé amoureux du lieu et je ne suis plus jamais parti]]></text>
+        </step>
+    </bot>
 </map>

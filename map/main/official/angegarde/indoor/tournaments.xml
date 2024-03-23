@@ -1,4 +1,29 @@
-<map zone="angegarde" type="outdoor">
-	<name lang="en">Tournaments</name>
-	<name lang="fr">Tournaments</name>
+<map>
+<bot id="1">
+      <name>Nurse Marina</name>
+      <name langue="fr">Infirmière Marina</name>
+        <step id="1" type="text">
+            <text><![CDATA[Do you want be healed?<br />
+		<a href="2">"Yes please"</a><br />
+		<a href="close">"No thank"</a>]]></text>
+            <text lang="fr"><![CDATA[Voulez-vous être soigné?<br />
+		<a href="2">"Oui s'il vous plaît"</a> <br />
+		<a href="close">"Non merci"</a>]]></text>
+        </step>
+        <step id="2" type="heal"/>
+    </bot>
+<bot id="103">
+      <name>Trader Malcolm</name>
+      <name langue="fr">Marchand Malcolm</name>
+        <step id="1" type="text">
+            <text><![CDATA[Welcome on my shop<br />
+		<a href="2">*Buy*</a><br />
+		<a href="3">*Sell*</a>]]></text>
+            <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
+        </step>
+        <step shop="4" id="2" type="shop"/>
+        <step shop="1" id="3" type="sell"/>
+    </bot>
 </map>

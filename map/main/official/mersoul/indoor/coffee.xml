@@ -1,4 +1,19 @@
-<map zone="mersoul" type="indoor">
-    <name>Shop</name>
-    <name lang="fr">Boutique</name>
+<map>
+<bot id="9010">
+      <name>Adrien</name>
+      <name langue="fr">Adrien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I can help you?]]></text>
+            <text lang="fr"><![CDATA[Je peux vous aider ?]]></text>
+        </step>
+    </bot>
+<bot id="2007">
+    <name>Raymond</name>
+      <name langue="fr">Raymond</name>
+            <step type="text" id="1">
+            <text><![CDATA[<a href="2">Quest</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">Quête</a><br />]]></text>
+        </step>
+        <step id="2" type="quests"/>
+    </bot>
 </map>

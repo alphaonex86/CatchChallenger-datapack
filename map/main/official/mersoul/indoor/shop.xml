@@ -1,4 +1,16 @@
-<map zone="mersoul" type="indoor">
-    <name>Shop</name>
-    <name lang="fr">Boutique</name>
+<map>
+<bot id="101">
+      <name>Trader Malcolm</name>
+      <name langue="fr">Marchand Malcolm</name>
+        <step id="1" type="text">
+            <text><![CDATA[Welcome on my shop<br />
+		<a href="2">*Buy*</a><br />
+		<a href="3">*Sell*</a>]]></text>
+            <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+		<a href="2">*Acheter*</a><br />
+		<a href="3">*Vendre*</a>]]></text>
+        </step>
+        <step shop="2" id="2" type="shop"/>
+        <step shop="1" id="3" type="sell"/>
+    </bot>
 </map>

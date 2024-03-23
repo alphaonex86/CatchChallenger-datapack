@@ -1,4 +1,222 @@
-<map zone="megalopolis" type="indoor">
-    <name>Commissionership</name>
-    <name lang="fr">Commissariat </name>
+<map>
+<bot id="9061">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[Hello, what can I do for you? <br />
+<a href="2"> Getting into the police </a> <br />
+<a href="3"> Informations </a> <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Bonjour, que puis-je faire pour vous ?<br />
+		<a href="2">Rentrer dans la police</a> <br />
+		<a href="3">Informations</a> <br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+        <step id="2" type="text">
+            <text><![CDATA[Sorry but recruitment is closed for now <br />
+              there isn't for lieutenant for diriger new recruits. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Désolé mais les recrutements sont fermés pour le moment,<br />
+             il n'y a plus assez de lieutenants pour diriger les nouvelles recrues.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+        <step id="3" type="text">
+            <text><![CDATA[The Megalopolis commissionership enforce order, <br />
+              It organizes various opperation and stock the illegal materials
+              It also has a research team  and dévellopement High-Tech. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Le commissariat de Megalopolis fait respecter l'ordre,<br />
+             Il organise les différentes opérations, stocke les matériaux illégaux
+             Il possède aussi un centre de recherche et développement High-Tech.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="1">
+      <name>Nurse Marina</name>
+      <name langue="fr">Infirmière Marina</name>
+        <step id="1" type="text">
+            <text><![CDATA[Do you want be healed?<br />
+		<a href="2">"Yes please"</a><br />
+		<a href="close">"No thank"</a>]]></text>
+            <text lang="fr"><![CDATA[Voulez-vous être soigné?<br />
+		<a href="2">"Oui s'il vous plaît"</a> <br />
+		<a href="close">"Non merci"</a>]]></text>
+        </step>
+        <step id="2" type="heal"/>
+    </bot>
+<bot id="2105">
+      <name>Cold Kylian</name>
+      <name langue="fr">Kylian le froid</name>
+         <step type="text" id="1">
+            <text><![CDATA[Do you want a job.<br />	
+             <a href="2">"yes please"</a> <br />
+             <a href="close">"Non merci"</a>]]></text>
+            <text lang="fr"><![CDATA[Tu veux du boulot.<br />	
+            <a href="2">"Oui s'il vous plaît"</a><br />
+            <a href="close">"No thank"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+<bot id="2106">
+      <name>Lieutenant</name>
+      <name langue="fr">Lieutenant</name>
+         <step type="text" id="1">
+            <text><![CDATA[Pourquoi un civil est ici?!<br />
+             <a href="2">*speak to the lieutenant*</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
+            <text lang="fr"><![CDATA[Pourquoi un civil est ici?<br />		
+            <a href="2">*Parler au lieutenant*</a><br />
+            <a href="close">*Partir*</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+<bot id="2104">
+      <name>Eva Edward</name>
+      <name langue="fr">Eva l'écologiste</name>
+         <step type="text" id="1">
+            <text><![CDATA[We must protect the animals! Poaching is inadmissible<br />
+            You want to fight with me against these atrocities<br />		
+             <a href="2">"yes of course"</a> <br />
+             <a href="close">"I don't have time, another time"</a>]]></text>
+            <text lang="fr"><![CDATA[Il faut protéger les animaux ! Le braconnage est inadmissible !<br />
+            Voudrez tu lutter avec moi, contre ces atrocités ?<br />		
+            <a href="2">"bien sûr"</a><br />
+            <a href="close">"J'ai pas le temps, une autre fois"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+<bot id="2103">
+      <name>Alphonse the passionate</name>
+      <name langue="fr">Alphonse le passionné</name>
+         <step type="text" id="1">
+            <text><![CDATA[I need a coffee! love goes so fast! when I think she has <br />
+            Will you help me liberates the world from devastation<br />		
+             <a href="2">"yes ..."</a> <br />
+             <a href="close">"um ... no thank you, another time"</a>]]></text>
+            <text lang="fr"><![CDATA[il me faut un petit café ! l'amour passe si vite ! quand je repense a elle !<br />
+            Veux tu m'aider à libérer ce monde de la dévastation ?<br />		
+            <a href="2">"oui ..."</a><br />
+            <a href="close">"heu .. non merci, une autre fois"</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9027">
+      <name>Charles</name>
+      <name langue="fr">Charles</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this bank!]]></text>
+            <text lang="fr"><![CDATA[Je protège cette banque !]]></text>
+        </step>
+    </bot>
+<bot id="9027">
+      <name>Charles</name>
+      <name langue="fr">Charles</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this bank!]]></text>
+            <text lang="fr"><![CDATA[Je protège cette banque !]]></text>
+        </step>
+    </bot>
+<bot id="9027">
+      <name>Charles</name>
+      <name langue="fr">Charles</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this bank!]]></text>
+            <text lang="fr"><![CDATA[Je protège cette banque !]]></text>
+        </step>
+    </bot>
+<bot id="2102">
+      <name>Franck the dentelle </name>
+      <name langue="fr">Franck la dentelle</name>
+         <step type="text" id="1">
+            <text><![CDATA[Hey kid! it would tell you to break the bandit with me?<br />
+             <a href="2">"Go !"</a> <br />
+             <a href="close">*Leaving*</a>]]></text>
+            <text lang="fr"><![CDATA[Hé petit ! ça te dirais de casser du bandit avec moi ?<br />		
+            <a href="2">"Allons-y"</a><br />
+            <a href="close">*Partir*</a>]]></text>
+        </step>     
+        <step id="2" type="quests"/> 
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9062">
+      <name>Police rookie</name>
+      <name langue="fr">Recrue de la police</name>
+        <step id="1" type="text">
+            <text><![CDATA[I'm at work, returns later. <br />
+<a href="close">*Leaving*</a>]]> </text>
+            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
+		<a href="close">*Partir*</a>]]></text>
+        </step>
+    </bot>
+<bot id="9027">
+      <name>Charles</name>
+      <name langue="fr">Charles</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I protect this bank!]]></text>
+            <text lang="fr"><![CDATA[Je protège cette banque !]]></text>
+        </step>
+    </bot>
+        <condition id="1000" quest="1000" type="quest">
+        <blockedtext><![CDATA[the door is close]]></blockedtext>
+        <blockedtext lang="fr"><![CDATA[La porte est fermé]]></blockedtext>
+    </condition>
 </map>

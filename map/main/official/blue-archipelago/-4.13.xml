@@ -1,10 +1,35 @@
-<map zone="blue archipelago" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="3" minLevel="17" maxLevel="21" luck="30" />
-          <monster id="13" minLevel="17" maxLevel="22" luck="20" />
-          <monster id="20" minLevel="16" maxLevel="22" luck="40" />
-          <monster id="30" minLevel="16" maxLevel="22" luck="10" />
-  </grass>
+<map>
+<bot id="7039">
+      <name>Harold</name>
+      <name langue="fr">Harold</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Cochini" level="24" />
+		<monster id="Cochini" level="24" />
+		<monster id="Cochini" level="24" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7040">
+      <name>Kevin</name>
+      <name langue="fr">Kévin</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Pharfan" level="27" />
+		<gain cash="200" />
+		<gain item="1" />
+	  </step>
+    </bot>
+<bot id="7041">
+      <name>Willy</name>
+      <name langue="fr">Willy</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="27" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

@@ -50,7 +50,7 @@
  <objectgroup width="30" name="Object" height="30">
   <object x="112" name="bot" y="224" gid="5123" type="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7095"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="miner"/>

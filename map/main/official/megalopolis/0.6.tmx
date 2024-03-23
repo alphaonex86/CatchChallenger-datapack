@@ -163,7 +163,7 @@
  <objectgroup width="30" height="30" name="Object">
   <object gid="5123" type="bot" name="bot" x="48" y="96">
    <properties>
-    <property value="../bots-services" name="file"/>
+    
     <property value="7" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -171,7 +171,7 @@
   </object>
   <object gid="5123" type="bot" x="176" y="192">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9017" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="miller" name="skin"/>
@@ -179,7 +179,7 @@
   </object>
   <object gid="5123" type="bot" name="bot" x="368" y="336">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9018" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="waiter" name="skin"/>
@@ -187,7 +187,7 @@
   </object>
   <object gid="5123" type="bot" name="bot" x="96" y="304">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9019" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bankier" name="skin"/>
@@ -195,7 +195,7 @@
   </object>
   <object gid="5123" type="bot" name="bot" x="320" y="400">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9020" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="girl" name="skin"/>
@@ -203,7 +203,7 @@
   </object>
   <object gid="5123" type="bot" name="bot" x="256" y="64">
    <properties>
-    <property value="../bots-informations" name="file"/>
+    
     <property value="9021" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="player" name="skin"/>

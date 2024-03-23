@@ -34,7 +34,7 @@
  <objectgroup name="Object" width="0" height="0">
   <object type="bot" gid="1027" x="32" y="160">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7073" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -42,7 +42,7 @@
   </object>
   <object type="bot" gid="1027" x="112" y="80">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7074" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -50,7 +50,7 @@
   </object>
   <object type="bot" gid="1027" x="80" y="64">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7075" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="rick" name="skin"/>

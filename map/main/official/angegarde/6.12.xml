@@ -1,10 +1,45 @@
-<map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="3" minLevel="23" maxLevel="25" luck="30" />
-          <monster id="13" minLevel="24" maxLevel="26" luck="10" />
-          <monster id="20" minLevel="23" maxLevel="25" luck="40" />
-          <monster id="6" minLevel="23" maxLevel="25" luck="20" />
-  </grass>
+<map>
+<bot id="7120">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Chenipode" level="32" />
+		<monster id="Exapode" level="33" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7122">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Cowpignon" level="32" />
+		<monster id="Cowpignon" level="32" />
+		<monster id="Cowpignon" level="32" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7123">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Coleorus" level="35" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7121">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Rhinocarpe" level="34" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

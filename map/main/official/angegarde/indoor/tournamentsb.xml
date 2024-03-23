@@ -1,4 +1,16 @@
-<map zone="angegarde" type="outdoor">
-	<name lang="en">Tournaments</name>
-	<name lang="fr">Tournaments</name>
+<map>
+<bot id="7144">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" leader="true">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="43" />
+		<monster id="Selket" level="43" />
+		<monster id="Polyrock" level="43" />
+		<monster id="Selmatek" level="42" />
+		<monster id="Urcine" level="46" />
+		<gain cash="400" />
+	  </step>
+    </bot>
 </map>

@@ -82,7 +82,7 @@
   <object gid="5123" name="BOT" x="448" y="96" type="bot">
    <properties>
     <property name="fightRange" value="3"/>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7106"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="scientific"/>

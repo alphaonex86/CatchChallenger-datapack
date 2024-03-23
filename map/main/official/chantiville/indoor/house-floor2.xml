@@ -1,4 +1,10 @@
-<map zone="chantiville" type="indoor">
-    <name>Home</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="9012">
+      <name>Marina</name>
+      <name langue="fr">Marina</name> 
+        <step type="text" id="1">
+            <text><![CDATA[What are doing in my room !]]></text>
+            <text lang="fr"><![CDATA[Que faites vous dans ma chambre !]]></text>
+        </step>
+    </bot>
 </map>

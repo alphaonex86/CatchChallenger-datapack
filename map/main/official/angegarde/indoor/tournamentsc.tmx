@@ -39,7 +39,7 @@
  <objectgroup name="Object">
   <object gid="1027" width="16" name="bot" height="16" x="112" y="128" id="2" type="bot">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7145"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>

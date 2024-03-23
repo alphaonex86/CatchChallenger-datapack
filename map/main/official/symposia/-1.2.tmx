@@ -60,7 +60,7 @@
  <objectgroup width="30" name="Object" height="30">
   <object x="80" type="bot" y="240" gid="5123" name="bot">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7003"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>

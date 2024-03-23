@@ -19,3 +19,4 @@ local on map file
 you can replace id="123" by id="name", will be internally converted to id, no performance/memory change for server if datapack cache used
 apply to: monster, skill, item
 if the name change and use name, then you need remplace them into all file
+This convertion is case-insensitive

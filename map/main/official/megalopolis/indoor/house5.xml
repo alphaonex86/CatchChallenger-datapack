@@ -1,4 +1,26 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="9055">
+      <name>Laminien Henri</name>
+      <name langue="fr">Henri le Laminien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I find fighting between unjustified tamers <br />
+             they should be banned <br />
+             What Lamina watch over you]]></text>
+            <text lang="fr"><![CDATA[Je trouve les combats entre dompteurs injustifiés,<br />
+             ils devraient être interdit !<br />
+             Que Lamina veille sur toi]]></text>
+        </step>
+    </bot>
+<bot id="9056">
+      <name>Rutilien Amelie</name>
+      <name langue="fr">Amélie la rutilien</name> 
+        <step type="text" id="1">
+            <text><![CDATA[My husband is so wrong! he believes in Lamina <br />
+              us only Rutifort is legitimate. <br />
+              For the glory of Rutifort]]></text>
+            <text lang="fr"><![CDATA[Mon mari est tellement dans l'erreur ! Il croit en Lamina !<br />
+             Entre nous, seul Rutifort est légitime.<br />
+             Pour la gloire de Rutifort]]></text>
+        </step>
+    </bot>
 </map>

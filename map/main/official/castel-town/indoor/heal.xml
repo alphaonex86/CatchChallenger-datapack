@@ -1,4 +1,15 @@
-<map zone="castel-town" type="indoor">
-    <name>Heal center</name>
-    <name lang="fr">Centre de soin</name>
+<map>
+<bot id="1">
+      <name>Nurse Marina</name>
+      <name langue="fr">Infirmière Marina</name>
+        <step id="1" type="text">
+            <text><![CDATA[Do you want be healed?<br />
+		<a href="2">"Yes please"</a><br />
+		<a href="close">"No thank"</a>]]></text>
+            <text lang="fr"><![CDATA[Voulez-vous être soigné?<br />
+		<a href="2">"Oui s'il vous plaît"</a> <br />
+		<a href="close">"Non merci"</a>]]></text>
+        </step>
+        <step id="2" type="heal"/>
+    </bot>
 </map>

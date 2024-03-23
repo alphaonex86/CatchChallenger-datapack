@@ -60,7 +60,7 @@
  <objectgroup height="30" name="Object" width="30">
   <object gid="5123" x="416" type="bot" y="368" name="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7019" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="miner" name="skin"/>
@@ -68,7 +68,7 @@
   </object>
   <object gid="5123" x="304" type="bot" y="288">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7019" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="miner" name="skin"/>

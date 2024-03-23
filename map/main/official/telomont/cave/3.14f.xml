@@ -1,10 +1,23 @@
-<map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="5" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="21" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="18" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="32" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
+<map>
+<bot id="7101">
+      <name>Natan</name>
+      <name langue="fr">Natan</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Volcoli" level="29" />
+		<monster id="Noctula" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7100">
+      <name>Yohan</name>
+      <name langue="fr">Yohan</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctalo" level="32" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

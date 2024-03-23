@@ -1,4 +1,15 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="8">
+      <name>Florist Claire</name>
+      <name langue="fr">Claire la fleuriste</name>
+           <step id="1" type="text">
+              <text><![CDATA[Welcome to my shop <br />
+               We sell different types of seeds<br />
+              <a href="2">[*Buy*]</a>]]></text>
+              <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+              nous vendons différents types de graines<br />
+		<a href="2">*Acheter*</a>]]></text>
+           </step>
+        <step shop="101" id="2" type="shop"/>
+    </bot>
 </map>

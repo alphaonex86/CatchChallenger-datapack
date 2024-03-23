@@ -60,7 +60,7 @@
  <objectgroup height="30" name="Object" width="30">
   <object type="bot" name="bot" gid="5123" x="192" y="192">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7019" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="miner" name="skin"/>
@@ -68,7 +68,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="320" y="64">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7020" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="miner" name="skin"/>
@@ -76,7 +76,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="240" y="192">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7021" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="scientific" name="skin"/>
@@ -84,7 +84,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="256" y="320">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7019" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="miner" name="skin"/>
@@ -92,7 +92,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="400" y="240">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7019" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -100,7 +100,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="128" y="256">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7020" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -108,7 +108,7 @@
   </object>
   <object type="bot" name="bot" gid="5123" x="208" y="400">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7022" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="miner" name="skin"/>

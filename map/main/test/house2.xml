@@ -1,6 +1,6 @@
 <!-- test when attributes is missing -->
 <map>
-        <bot id="50">
+    <bot id="50">
         <name>Nurse</name>
         <name lang="fr">Infirmière</name>
         <step type="text" id="1">

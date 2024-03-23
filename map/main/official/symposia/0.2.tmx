@@ -101,7 +101,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object y="336" name="bot" gid="5123" type="bot" x="288">
    <properties>
-    <property name="file" value="../bots-services"/>
+    
     <property name="id" value="2001"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="oldman"/>
@@ -109,7 +109,7 @@
   </object>
   <object y="416" name="bot" gid="5123" type="bot" x="320">
    <properties>
-    <property name="file" value="../bots-services"/>
+    
     <property name="id" value="201"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>
@@ -117,7 +117,7 @@
   </object>
   <object y="288" name="bot" gid="5123" type="bot" x="128">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9023"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="smith"/>
@@ -125,7 +125,7 @@
   </object>
   <object y="416" name="bot" gid="5123" type="bot" x="144">
    <properties>
-    <property name="file" value="../bots-services"/>
+    
     <property name="id" value="2004"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl"/>
@@ -133,7 +133,7 @@
   </object>
   <object y="176" name="bot" gid="5123" type="bot" x="272">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9025"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="guardian"/>
@@ -141,7 +141,7 @@
   </object>
   <object y="176" name="bot" gid="5123" type="bot" x="224">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9025"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="guardian"/>
@@ -149,7 +149,7 @@
   </object>
   <object y="304" name="bot" gid="5123" type="bot" x="224">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9028"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="soldier"/>

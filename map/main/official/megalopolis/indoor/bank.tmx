@@ -33,7 +33,7 @@
  <objectgroup width="0" name="Object" height="0">
   <object type="bot" x="32" y="112" gid="1027">
    <properties>
-    <property value="../../bots-services" name="file"/>
+    
     <property value="3" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bankier" name="skin"/>
@@ -41,7 +41,7 @@
   </object>
   <object type="bot" x="112" y="112" gid="1027">
    <properties>
-    <property value="../../bots-services" name="file"/>
+    
     <property value="3" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bankier" name="skin"/>
@@ -49,7 +49,7 @@
   </object>
   <object type="bot" x="48" y="112" gid="1027">
    <properties>
-    <property value="../../bots-services" name="file"/>
+    
     <property value="3" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bankier" name="skin"/>
@@ -57,7 +57,7 @@
   </object>
   <object type="bot" x="128" y="112" gid="1027">
    <properties>
-    <property value="../../bots-services" name="file"/>
+    
     <property value="3" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bankier" name="skin"/>
@@ -65,7 +65,7 @@
   </object>
   <object type="bot" x="80" y="112" gid="1027">
    <properties>
-    <property value="../../bots-informations" name="file"/>
+    
     <property value="9027" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="soldier" name="skin"/>

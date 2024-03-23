@@ -31,7 +31,7 @@
  <objectgroup height="12" name="Object" width="11">
   <object type="bot" x="80" name="bot" y="128" gid="1027">
    <properties>
-    <property name="file" value="../../bots-industries"/>
+    
     <property name="id" value="3010"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="miller"/>
@@ -39,7 +39,7 @@
   </object>
   <object type="bot" x="96" name="bot" y="96" gid="1027">
    <properties>
-    <property name="file" value="../../bots-informations"/>
+    
     <property name="id" value="9001"/>
     <property name="lookAt" value="top"/>
     <property name="skin" value="scientific"/>
@@ -47,7 +47,7 @@
   </object>
   <object type="bot" x="48" name="bot" y="160" gid="1027">
    <properties>
-    <property name="file" value="../../bots-services"/>
+    
     <property name="id" value="2011"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="scientific"/>

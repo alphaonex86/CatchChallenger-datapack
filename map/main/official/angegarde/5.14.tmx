@@ -61,7 +61,7 @@
   <object gid="5123" x="48" y="96" type="bot" name="bot">
    <properties>
     <property value="2" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7107" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="player" name="skin"/>
@@ -69,7 +69,7 @@
   </object>
   <object gid="5123" x="128" y="160" type="bot" name="bot">
    <properties>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7108" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="girl" name="skin"/>
@@ -78,7 +78,7 @@
   <object gid="5123" x="320" y="160" type="bot" name="bot">
    <properties>
     <property value="5" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7109" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -87,7 +87,7 @@
   <object gid="5123" x="336" y="144" type="bot" name="bot">
    <properties>
     <property value="2" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7110" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -96,7 +96,7 @@
   <object gid="5123" x="416" y="144" type="bot" name="bot">
    <properties>
     <property value="1" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7111" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="girlplayer" name="skin"/>
@@ -105,7 +105,7 @@
   <object gid="5123" x="208" y="256" type="bot" name="bot">
    <properties>
     <property value="2" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7112" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="terranite" name="skin"/>
@@ -114,7 +114,7 @@
   <object gid="5123" x="32" y="208" type="bot" name="bot">
    <properties>
     <property value="1" name="fightRange"/>
-    <property value="../bots-fights" name="file"/>
+    
     <property value="7112" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="girl" name="skin"/>

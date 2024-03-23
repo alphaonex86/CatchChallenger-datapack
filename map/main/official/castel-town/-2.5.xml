@@ -1,14 +1,26 @@
-<map zone="road4" type="outdoor">
-	<name>Road 4</name>
-	<name lang="fr">Route 4</name>
-  	<grass>
-          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="2" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="13" minLevel="9" maxLevel="10" luck="50" />
-  </grass>
-      <grassNight>
-          <monster id="3" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="18" minLevel="9" maxLevel="10" luck="25" />
-          <monster id="13" minLevel="9" maxLevel="10" luck="50" />
-    </grassNight>
+<map>
+<bot id="7009">
+      <name>Alexandra</name>
+      <name langue="fr">Alexandra</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Conileaf" level="11" />
+		<monster id="Conileaf" level="11" />
+		<monster id="Conileaf" level="12" />
+		<monster id="Conileaf" level="12" />
+		<gain cash="350" />
+	  </step>
+    </bot>
+<bot id="7010">
+      <name>Edward</name>
+      <name langue="fr">Edward</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="12" />
+		<monster id="Polyrock" level="12" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

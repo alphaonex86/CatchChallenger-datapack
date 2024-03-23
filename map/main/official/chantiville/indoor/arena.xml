@@ -1,4 +1,64 @@
-<map zone="chantiville" type="indoor">
-    <name>Home</name>
-    <name lang="fr">Maison</name>
+<map>
+<bot id="7049">
+      <name>Natalie</name>
+      <name langue="fr">Natalie</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Conileaf" level="33" />
+		<monster id="Conileaf" level="33" />
+		<monster id="Conileaf" level="33" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7048">
+      <name>Elodie</name>
+      <name langue="fr">Elodie</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elofly" level="33" />
+		<monster id="Elofly" level="33" />
+		<monster id="Elofly" level="33" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7047">
+      <name>Elena</name>
+      <name langue="fr">Eléna</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Sclairus" level="32" />
+		<monster id="Elofly" level="33" />
+		<monster id="Conileaf" level="33" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7047">
+      <name>Elena</name>
+      <name langue="fr">Eléna</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Sclairus" level="32" />
+		<monster id="Elofly" level="33" />
+		<monster id="Conileaf" level="33" />
+		<gain cash="200" />
+	  </step>
+    </bot>
+<bot id="7051">
+      <name>Stephanie</name>
+      <name langue="fr">Stéphanie</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elofly" level="34" />
+		<monster id="Conileaf" level="36" />
+		<monster id="Sclairus" level="37" />
+		<monster id="Cochini" level="38" />
+		<monster id="Volcoli" level="38" />
+		<gain cash="200" />
+	  </step>
+    </bot>
 </map>

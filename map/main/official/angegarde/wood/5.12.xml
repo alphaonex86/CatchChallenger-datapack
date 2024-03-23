@@ -1,12 +1,14 @@
-<map type="outdoor" backgroundsound="toto.ogg" zone="test">
-	<name>Wood</name>
-	<name lang="fr">Fôret</name>
-	<grass>
-          <monster id="3" minLevel="15" maxLevel="16" luck="40" />
-          <monster id="22" minLevel="15" maxLevel="16" luck="25" />
-          <monster id="14" minLevel="15" maxLevel="16" luck="25" />
-          <monster id="24" minLevel="15" maxLevel="16" luck="5" />
-          <monster id="41" minLevel="15" maxLevel="16" luck="5" />
-  </grass>
-	<wather></wather>
+<map>
+<bot id="7133">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Noctalo" level="31" />
+		<monster id="Noctula" level="28" />
+		<monster id="Noctula" level="28" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

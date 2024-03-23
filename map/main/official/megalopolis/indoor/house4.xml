@@ -1,4 +1,10 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="9054">
+      <name>Waiter Jack</name>
+      <name langue="fr">Jack le serveur</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I serve you something?]]></text>
+            <text lang="fr"><![CDATA[Je vous sert quelque chose ?]]></text>
+        </step>
+    </bot>
 </map>

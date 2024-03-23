@@ -33,7 +33,7 @@
  <objectgroup height="0" width="0" name="Object">
   <object type="bot" gid="1027" x="80" y="96">
    <properties>
-    <property value="../../bots-services" name="file"/>
+    
     <property value="1" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="nurse" name="skin"/>

@@ -52,7 +52,7 @@
  <objectgroup height="30" width="30" name="Object">
   <object x="432" gid="5123" y="320" type="bot" name="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7133" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="bandit" name="skin"/>

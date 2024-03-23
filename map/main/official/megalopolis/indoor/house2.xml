@@ -1,4 +1,18 @@
-<map zone="megalopolis" type="indoor">
-    <name>House</name>
-    <name lang="fr">House</name>
+<map>
+<bot id="9050">
+      <name>Michel</name>
+      <name langue="fr">Michel</name> 
+        <step type="text" id="1">
+            <text><![CDATA[I am a former trader retirement if you want I can give you two or three tips]]></text>
+            <text lang="fr"><![CDATA[Je suis un ancien trader a la retraite si tu veux je pourrai te donner deux ou trois conseils]]></text>
+        </step>
+    </bot>
+<bot id="9051">
+      <name>Miriam</name>
+      <name langue="fr">Miriam</name> 
+        <step type="text" id="1">
+            <text><![CDATA[My husband is a pro in terms of scholarship]]></text>
+            <text lang="fr"><![CDATA[Mon mari est un pro en matière de bourse]]></text>
+        </step>
+    </bot>
 </map>

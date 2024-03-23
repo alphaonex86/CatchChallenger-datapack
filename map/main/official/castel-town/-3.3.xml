@@ -1,14 +1,22 @@
-<map zone="road3" type="outdoor">
-	<name>Road 3</name>
-	<name lang="fr">Route 3</name>
-  	<grass>
-          <monster id="3" minLevel="7" maxLevel=8" luck="25" />
-          <monster id="2" minLevel="7" maxLevel="8" luck="25" />
-          <monster id="13" minLevel="7" maxLevel="8" luck="50" />
-  </grass>
-      <grassNight>
-          <monster id="3" minLevel="7" maxLevel="8" luck="25" />
-          <monster id="18" minLevel="7" maxLevel="8" luck="25" />
-          <monster id="13" minLevel="7" maxLevel="8" luck="50" />
-    </grassNight>
+<map>
+<bot id="7002">
+      <name>Margot</name>
+      <name langue="fr">Margot</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Viviphyta" level="8" />
+		<gain cash="100" />
+	  </step>
+    </bot>
+<bot id="7003">
+      <name>Jean</name>
+      <name langue="fr">Jean</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Hampotamos" level="6" />
+		<gain cash="150" />
+	  </step>
+    </bot>
 </map>

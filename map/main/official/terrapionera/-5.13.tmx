@@ -60,7 +60,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" gid="5123" x="288" type="bot" y="48">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7043"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girlplayer"/>
@@ -68,7 +68,7 @@
   </object>
   <object name="bot" gid="5123" x="112" type="bot" y="336">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7044"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="girlplayer"/>
@@ -76,7 +76,7 @@
   </object>
   <object name="bot" gid="5123" x="128" type="bot" y="240">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7045"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="player"/>
@@ -84,7 +84,7 @@
   </object>
   <object name="bot" gid="5123" x="16" type="bot" y="112">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7046"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girlplayer"/>
@@ -92,7 +92,7 @@
   </object>
   <object name="bot" gid="5123" x="160" type="bot" y="160">
    <properties>
-    <property name="file" value="../bots-fights"/>
+    
     <property name="id" value="7044"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="player"/>

@@ -1,11 +1,46 @@
-<map type="outdoor" backgroundsound="toto.ogg" zone="test">
-	<name>Wood</name>
-	<name lang="fr">Fôret</name>
-	<grass>
-          <monster id="3" minLevel="15" maxLevel="16" luck="40" />
-          <monster id="22" minLevel="15" maxLevel="16" luck="25" />
-          <monster id="14" minLevel="15" maxLevel="16" luck="25" />
-          <monster id="24" minLevel="15" maxLevel="16" luck="5" />
-          <monster id="41" minLevel="15" maxLevel="16" luck="5" />
-  </grass>
+<map>
+<bot id="7129">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Vivipere" level="27" />
+		<monster id="Viviphyta" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7130">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Selket" level="27" />
+		<monster id="Selmatek" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7131">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Volcoli" level="27" />
+		<monster id="Noctula" level="27" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7132">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elowind" level="27" />
+		<monster id="Elostorm" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

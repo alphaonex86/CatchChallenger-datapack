@@ -35,7 +35,7 @@
  <objectgroup height="17" name="Object" width="15">
   <object gid="1027" type="bot" x="112" name="bot" y="128">
    <properties>
-    <property name="file" value="../../bots-fights"/>
+    
     <property name="id" value="7146"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="nokomis"/>

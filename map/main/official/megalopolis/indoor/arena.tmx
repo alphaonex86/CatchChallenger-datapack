@@ -222,7 +222,7 @@
  <objectgroup width="0" height="0" name="Object">
   <object x="80" gid="1027" y="48" type="bot" name="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7026" name="id"/>
     <property value="top" name="lookAt"/>
     <property value="nokomis" name="skin"/>
@@ -230,7 +230,7 @@
   </object>
   <object x="144" gid="1027" y="96" type="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7024" name="id"/>
     <property value="left" name="lookAt"/>
     <property value="player" name="skin"/>
@@ -238,7 +238,7 @@
   </object>
   <object x="16" gid="1027" y="128" type="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7023" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="player" name="skin"/>
@@ -246,7 +246,7 @@
   </object>
   <object x="112" gid="1027" y="48" type="bot">
    <properties>
-    <property value="../../bots-fights" name="file"/>
+    
     <property value="7025" name="id"/>
     <property value="right" name="lookAt"/>
     <property value="player" name="skin"/>

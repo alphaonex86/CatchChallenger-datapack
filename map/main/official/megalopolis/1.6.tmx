@@ -80,7 +80,7 @@
   </object>
   <object name="door" gid="5173" x="48" type="door" y="176">
    <properties>
-    <property name="condition-file" value="../condition"/>
+    
     <property name="condition-id" value="1"/>
     <property name="map" value="indoor/secret-base"/>
     <property name="x" value="5"/>
@@ -122,7 +122,7 @@
   </object>
   <object name="door" gid="5123" x="352" type="door" y="48">
    <properties>
-    <property name="condition-file" value="../condition"/>
+    
     <property name="condition-id" value="2"/>
     <property name="map" value="indoor/admin"/>
     <property name="x" value="2"/>
@@ -133,7 +133,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object name="bot" gid="5123" x="112" type="bot" y="64">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9028"/>
     <property name="lookAt" value="right"/>
     <property name="skin" value="soldier"/>
@@ -141,7 +141,7 @@
   </object>
   <object name="bot" gid="5123" x="144" type="bot" y="64">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9028"/>
     <property name="lookAt" value="left"/>
     <property name="skin" value="soldier"/>
@@ -149,7 +149,7 @@
   </object>
   <object name="bot" gid="5123" x="128" type="bot" y="192">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9042"/>
     <property name="lookAt" value="bottom"/>
     <property name="skin" value="girl3"/>
@@ -157,7 +157,7 @@
   </object>
   <object name="bot" gid="5123" x="400" type="bot" y="304">
    <properties>
-    <property name="file" value="../bots-informations"/>
+    
     <property name="id" value="9043"/>
    </properties>
   </object>

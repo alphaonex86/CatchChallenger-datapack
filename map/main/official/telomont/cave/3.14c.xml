@@ -1,10 +1,14 @@
-<map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="5" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="21" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="18" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="32" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
+<map>
+<bot id="7095">
+      <name>Marc</name>
+      <name langue="fr">Marc</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Chenipode" level="28" />
+    <monster id="Chenipode" level="28" />
+    <monster id="Exapode" level="29" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

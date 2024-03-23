@@ -65,7 +65,7 @@
  <objectgroup name="Object" width="30" height="30">
   <object gid="5123" name="bot" x="224" type="bot" y="160">
    <properties>
-    <property value="../bots-industries" name="file"/>
+    
     <property value="7008" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="miner" name="skin"/>
@@ -73,7 +73,7 @@
   </object>
   <object gid="5123" name="bot" x="432" type="bot" y="144">
    <properties>
-    <property value="../bots-services" name="file"/>
+    
     <property value="2015" name="id"/>
     <property value="bottom" name="lookAt"/>
     <property value="scientific" name="skin"/>

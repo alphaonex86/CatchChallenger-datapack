@@ -1,10 +1,37 @@
-<map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="5" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="21" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="18" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="32" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
+<map>
+<bot id="7089">
+      <name>Elias</name>
+      <name langue="fr">Elias</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="27" />
+    <monster id="Polyrock" level="27" />
+    <monster id="Polyrock" level="27" />
+    <monster id="Selket" level="27" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7090">
+      <name>Denis</name>
+      <name langue="fr">Denis</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Volcoli" level="31" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7091">
+      <name>Louis</name>
+      <name langue="fr">Louis</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Cochini" level="28" />
+    <monster id="Polyrock" level="28" />
+    <monster id="Selket" level="28" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>

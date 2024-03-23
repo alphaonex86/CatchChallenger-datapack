@@ -1,4 +1,16 @@
-<map zone="angegarde" type="outdoor">
-	<name lang="en">Tournaments</name>
-	<name lang="fr">Tournaments</name>
+<map>
+<bot id="7143">
+      <name>Paul</name>
+      <name langue="fr">Paul</name>
+        <step type="fight" id="1" leader="true">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Dinoflop" level="42" />
+		<monster id="Hampotamos" level="42" />
+		<monster id="Vivisource" level="45" />
+		<monster id="Rhinocarpe" level="41" />
+		<monster id="Tarpeur" level="42" />
+		<gain cash="400" />
+	  </step>
+    </bot>
 </map>

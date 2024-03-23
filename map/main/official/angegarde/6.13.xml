@@ -1,10 +1,57 @@
-<map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="3" minLevel="23" maxLevel="25" luck="30" />
-          <monster id="13" minLevel="24" maxLevel="26" luck="10" />
-          <monster id="20" minLevel="23" maxLevel="25" luck="40" />
-          <monster id="6" minLevel="23" maxLevel="25" luck="20" />
-  </grass>
+<map>
+<bot id="7118">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Elofly" level="32" />
+		<monster id="Conileaf" level="33" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7116">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Exapode" level="32" />
+		<monster id="Exapode" level="32" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7117">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Volcoli" level="32" />
+		<monster id="Noctula" level="32" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7119">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Polyrock" level="31" />
+		<monster id="Urcine" level="33" />
+		<gain cash="300" />
+	  </step>
+    </bot>
+<bot id="7115">
+      <name>Henry</name>
+      <name langue="fr">Henry</name>
+        <step type="fight" id="1">
+		<start><![CDATA[Ready for the fight?]]></start>
+		<win><![CDATA[You are so strong for me!]]></win>
+		<monster id="Dinoflop" level="32" />
+		<monster id="Noctula" level="3" />
+		<gain cash="300" />
+	  </step>
+    </bot>
 </map>
