@@ -1,40 +1,39 @@
 <map version="1.0" height="12" tileheight="16" width="11" orientation="orthogonal" tilewidth="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
- <layer name="Walkable" height="12" width="11">
-  <data compression="zstd" encoding="base64">KLUv/WAQAeUAADCoAAAAqIoHAL0m4G6CwlMKhoDDUADAe3GoqwU=</data>
- </layer>
- <layer name="Other" height="12" width="11">
-  <data compression="zstd" encoding="base64">KLUv/WAQAZUAADgAAF0EAD4AAxAAl7CLOiYUFg==</data>
- </layer>
- <layer name="Collisions" height="12" width="11">
-  <data compression="zstd" encoding="base64">KLUv/WAQAeUCAFQCowAAAKMRozG3CD4EAAC/fwQlBQAAJykFEggSCDsEAIA7BFtbBBcA7gh+KsHAethbsIORENQMeA3Q2Xn4wgp2PbxLFCCBE8Ht4GaBAdDugE/NAewDHQOhAFwt</data>
- </layer>
- <layer name="other" height="12" width="11">
-  <data compression="zstd" encoding="base64">KLUv/WAQAXUBAGgAAJcInwSSpwSyCLIIDQANUGAggdPAHR6KgUJAhB2FLzZYgNTenAgkuBc+Alg=</data>
- </layer>
- <layer name="WalkBehind" height="12" width="11">
-  <data compression="zstd" encoding="base64">KLUv/WAQAR0BAIAAAB4EAAAcXwQ8BAAbBACABgAOQAU7ayLfdJzqwS6gfwIs</data>
- </layer>
- <objectgroup name="Moving" height="12" width="11">
-  <object name="door" x="80" y="192" type="door" gid="1027">
-   <properties>
-    <property name="map" value="../0.2"/>
-    <property name="x" value="11"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Object" height="12" width="11">
-  <object name="bot" x="80" y="64" type="bot" gid="1027">
-   <properties>
-    
-    <property name="id" value="3009"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="miller"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+    <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+    <tileset firstgid="1041" source="../../../../tileset/inside-mobilier.tsx"/>
+    <tileset firstgid="2065" source="../../../../tileset/inside-decoration.tsx"/>
+    <layer name="Walkable" height="12" width="11">
+        <data compression="zstd" encoding="base64">KLUv/WAQAeUAADCoAAAAqIoHAL0m4G6CwlMKhoDDUADAe3GoqwU=</data>
+    </layer>
+    <layer name="Other" height="12" width="11">
+        <data compression="zstd" encoding="base64">KLUv/WAQAZUAADgAAF0EAD4AAxAAl7CLOiYUFg==</data>
+    </layer>
+    <layer name="Collisions" height="12" width="11">
+        <data compression="zstd" encoding="base64">KLUv/WAQAeUCAFQCowAAAKMRozG3CD4EAAC/fwQlBQAAJykFEggSCDsEAIA7BFtbBBcA7gh+KsHAethbsIORENQMeA3Q2Xn4wgp2PbxLFCCBE8Ht4GaBAdDugE/NAewDHQOhAFwt</data>
+    </layer>
+    <layer name="other" height="12" width="11">
+        <data compression="zstd" encoding="base64">KLUv/WAQAXUBAGgAAJcInwSSpwSyCLIIDQANUGAggdPAHR6KgUJAhB2FLzZYgNTenAgkuBc+Alg=</data>
+    </layer>
+    <layer name="WalkBehind" height="12" width="11">
+        <data compression="zstd" encoding="base64">KLUv/WAQAR0BAIAAAB4EAAAcXwQ8BAAbBACABgAOQAU7ayLfdJzqwS6gfwIs</data>
+    </layer>
+    <objectgroup name="Moving" height="12" width="11">
+        <object name="door" x="80" y="192" type="door" gid="1027">
+            <properties>
+                <property name="map" value="../0.2"/>
+                <property name="x" value="11"/>
+                <property name="y" value="18"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Object" height="12" width="11">
+        <object name="bot" x="80" y="64" type="bot" gid="1027">
+            <properties>
+                <property name="id" value="1" type="int"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="miller"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

@@ -1,10 +1,10 @@
 <map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Cave</name>
-	<name lang="fr">Grotte</name>
-	<grass>
-          <monster id="Selket" minLevel="21" maxLevel="25" luck="35" />
-          <monster id="Urcine" minLevel="21" maxLevel="25" luck="10" />
-          <monster id="Noctula" minLevel="21" maxLevel="25" luck="35" />
-          <monster id="Cowpignon" minLevel="21" maxLevel="25" luck="20" />
-  </grass>
+    <name>Cave</name>
+    <name lang="fr">Grotte</name>
+    <grass>
+        <monster id="Selket" minLevel="21" maxLevel="25" luck="35"/>
+        <monster id="Urcine" minLevel="21" maxLevel="25" luck="10"/>
+        <monster id="Noctula" minLevel="21" maxLevel="25" luck="35"/>
+        <monster id="Cowpignon" minLevel="21" maxLevel="25" luck="20"/>
+    </grass>
 </map>

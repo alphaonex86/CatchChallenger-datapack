@@ -1,10 +1,10 @@
 <map zone="megalopolis" type="indoor">
     <name>House</name>
     <name lang="fr">House</name>
-<bot id="9057">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="1">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[The Mycota plant toxic <br />
               that grows easily in moist areas <br />
               it is unfortunately known to be the <br />
@@ -15,10 +15,10 @@
              la plante responsable de la mort d'Éfrale.]]></text>
         </step>
     </bot>
-<bot id="9058">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="2">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[Alban nut is a small seed upprenentes, <br />
                indeed it owned curious  properties  <br />
               that the seed can be able to survive two <br />
@@ -29,10 +29,10 @@
              siècles avant de germer.]]></text>
         </step>
     </bot>
-<bot id="9059">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="3">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[Tuber has few leaves <br />
               stock it qualified its tigue souteraine <br />
               what PERMER it to resist very cold winter <br />
@@ -43,10 +43,10 @@
              et aux étés très chaud.]]></text>
         </step>
     </bot>
-<bot id="9060">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="4">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[Seed Areca occurred <br />
               by Arecanier, which grows exclusively <br />
               land Hot / Barren. <br />

@@ -1,32 +1,21 @@
 <map type="cave" backgroundsound="toto.ogg" zone="test">
-	<name>Cave</name>
-	<name lang="fr">Grotte</name>
-	<grass>
-          <monster id="Polyrock" minLevel="14" maxLevel="18" luck="35" />
-          <monster id="Urcine" minLevel="14" maxLevel="18" luck="10" />
-          <monster id="Noctula" minLevel="14" maxLevel="18" luck="45" />
-          <monster id="Selket" minLevel="14" maxLevel="19" luck="10" />
-  </grass>
-<bot id="7019">
-      <name>Logan</name>
-      <name langue="fr">Logan</name>
+    <name>Cave</name>
+    <name lang="fr">Grotte</name>
+    <grass>
+        <monster id="Polyrock" minLevel="14" maxLevel="18" luck="35"/>
+        <monster id="Urcine" minLevel="14" maxLevel="18" luck="10"/>
+        <monster id="Noctula" minLevel="14" maxLevel="18" luck="45"/>
+        <monster id="Selket" minLevel="14" maxLevel="19" luck="10"/>
+    </grass>
+    <bot id="2">
+        <name>Logan</name>
+        <name langue="fr">Logan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7019">
-      <name>Logan</name>
-      <name langue="fr">Logan</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="14"/>
+            <monster id="Polyrock" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

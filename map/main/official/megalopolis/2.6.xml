@@ -1,69 +1,59 @@
 <map zone="road6" type="outdoor">
-	<name>Road</name>
-	<name lang="fr">Route</name>
-  	<grass>
-          <monster id="Conileaf" minLevel="12" maxLevel="13" luck="25" />
-          <monster id="Elofly" minLevel="12" maxLevel="13" luck="25" />
-          <monster id="Sclairus" minLevel="12" maxLevel="13" luck="35" />
-          <monster id="Cochini" minLevel="12" maxLevel="13" luck="15" />
-  </grass>
-      <grassNight>
-          <monster id="Conileaf" minLevel="13" maxLevel="15" luck="25" />
-          <monster id="Noctula" minLevel="13" maxLevel="15" luck="25" />
-          <monster id="Sclairus" minLevel="13" maxLevel="15" luck="35" />
-          <monster id="Cochini" minLevel="13" maxLevel="15" luck="15" />
+    <name>Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="12" maxLevel="13" luck="25"/>
+        <monster id="Elofly" minLevel="12" maxLevel="13" luck="25"/>
+        <monster id="Sclairus" minLevel="12" maxLevel="13" luck="35"/>
+        <monster id="Cochini" minLevel="12" maxLevel="13" luck="15"/>
+    </grass>
+    <grassNight>
+        <monster id="Conileaf" minLevel="13" maxLevel="15" luck="25"/>
+        <monster id="Noctula" minLevel="13" maxLevel="15" luck="25"/>
+        <monster id="Sclairus" minLevel="13" maxLevel="15" luck="35"/>
+        <monster id="Cochini" minLevel="13" maxLevel="15" luck="15"/>
     </grassNight>
-<bot id="7011">
-      <name>Manon</name>
-      <name langue="fr">Manon</name>
+    <bot id="5">
+        <name>Manon</name>
+        <name langue="fr">Manon</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Conileaf" level="15" />
-		<gain cash="200" />
-		<gain item="1006" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Conileaf" level="15"/>
+            <gain cash="200"/>
+            <gain item="1006"/>
+        </step>
     </bot>
-<bot id="7012">
-      <name>Thibaud</name>
-      <name langue="fr">Thibaud</name>
+    <bot id="6">
+        <name>Thibaud</name>
+        <name langue="fr">Thibaud</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="15" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="15"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7013">
-      <name>Tim</name>
-      <name langue="fr">Tim</name>
+    <bot id="7">
+        <name>Tim</name>
+        <name langue="fr">Tim</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="16" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="16"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7014">
-      <name>Yan</name>
-      <name langue="fr">Yan</name>
+    <bot id="8">
+        <name>Yan</name>
+        <name langue="fr">Yan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="12" />
-		<monster id="Conileaf" level="12" />
-		<monster id="Sclairus" level="12" />		
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7012">
-      <name>Thibaud</name>
-      <name langue="fr">Thibaud</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="15" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="12"/>
+            <monster id="Conileaf" level="12"/>
+            <monster id="Sclairus" level="12"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

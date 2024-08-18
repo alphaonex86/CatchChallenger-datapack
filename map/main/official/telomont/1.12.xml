@@ -1,39 +1,39 @@
 <map zone="telomont" type="city">
-	<name>Telomont</name>
-	<name lang="fr">Telomont</name>
-<bot id="9044">
-      <name>Philipe</name>
-      <name langue="fr">Philipe</name> 
+    <name>Telomont</name>
+    <name lang="fr">Telomont</name>
+    <bot id="1">
+        <name>Philipe</name>
+        <name langue="fr">Philipe</name>
         <step type="text" id="1">
             <text><![CDATA[Telomont known for its production of metals]]></text>
             <text lang="fr"><![CDATA[Telomont est connu pour sa production de métaux]]></text>
         </step>
     </bot>
-<bot id="9045">
-      <name>Josefine</name>
-      <name langue="fr">Josefine</name> 
+    <bot id="2">
+        <name>Josefine</name>
+        <name langue="fr">Josefine</name>
         <step type="text" id="1">
             <text><![CDATA[If you continue north-west of the city you will find mine Telomont]]></text>
             <text lang="fr"><![CDATA[Si tu continue au nord-ouest de la ville tu trouvera la mine de Telomont]]></text>
         </step>
     </bot>
-<bot id="9028">
-      <name>Peter</name>
-      <name langue="fr">Peter</name> 
+    <bot id="3">
+        <name>Peter</name>
+        <name langue="fr">Peter</name>
         <step type="text" id="1">
             <text><![CDATA[I protect this city, empire will aggregate]]></text>
             <text lang="fr"><![CDATA[Je protège cette ville, l'empire rassemblera]]></text>
         </step>
     </bot>
-<bot id="2014">
-      <name>Paulo</name>
-      <name langue="fr">Paulo</name>
-         <step type="text" id="1">
+    <bot id="4">
+        <name>Paulo</name>
+        <name langue="fr">Paulo</name>
+        <step type="text" id="1">
             <text><![CDATA[The shadow army, give work if you want<br />		
             <a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[L'armée de l'ombre a du travail si tu veux !<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>     
-        <step id="2" type="quests"/> 
+        </step>
+        <step id="2" type="quests"/>
     </bot>
 </map>

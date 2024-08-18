@@ -1,43 +1,42 @@
 <map tileheight="16" version="1.0" orientation="orthogonal" tilewidth="16" height="12" width="11">
- <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
- <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
- <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
- <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
- <layer name="Walkable" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAdUAACgAAIioqAcAXQm4DVNnKRKuAG9zLsC2FGgD</data>
- </layer>
- <layer name="Other" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAY0AAEAAAAoCAAAeAAIAB1IZVgEW</data>
- </layer>
- <layer name="Collisions" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQASUCAMCjAAAAoxMzEgQApgioCBIExsfICBIEEgQSAC+uCAMRH0zhDnA1sFPGHcBcQHASPPXwTYhXMH7LAAK45J6KA+AXgLpa</data>
- </layer>
- <layer name="Other" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer name="WalkBehind" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAY0BAIAAABUEfwuSBAAANQSSspIEDAD/NRN4GWxuGoeCYKl/P41dYA+s5QZgp8IvGz5QAAs=</data>
- </layer>
- <layer name="other" height="12" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAcUAAEgAAIYIiAinCAAEAO5Hjf8wwi+GdxTAAg==</data>
- </layer>
- <objectgroup name="Moving" height="0" width="0">
-  <object x="80" type="teleport on push" y="192" name="teleport on push" gid="1027">
-   <properties>
-    <property name="map" value="../4.14"/>
-    <property name="x" value="17"/>
-    <property name="y" value="12"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Object" height="0" width="0">
-  <object x="80" type="bot" y="96" name="bot" gid="1027">
-   <properties>
-    
-    <property name="id" value="1"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="nurse"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+    <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+    <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+    <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+    <layer name="Walkable" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAdUAACgAAIioqAcAXQm4DVNnKRKuAG9zLsC2FGgD</data>
+    </layer>
+    <layer name="Other" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAY0AAEAAAAoCAAAeAAIAB1IZVgEW</data>
+    </layer>
+    <layer name="Collisions" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQASUCAMCjAAAAoxMzEgQApgioCBIExsfICBIEEgQSAC+uCAMRH0zhDnA1sFPGHcBcQHASPPXwTYhXMH7LAAK45J6KA+AXgLpa</data>
+    </layer>
+    <layer name="Other" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer name="WalkBehind" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAY0BAIAAABUEfwuSBAAANQSSspIEDAD/NRN4GWxuGoeCYKl/P41dYA+s5QZgp8IvGz5QAAs=</data>
+    </layer>
+    <layer name="other" height="12" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAcUAAEgAAIYIiAinCAAEAO5Hjf8wwi+GdxTAAg==</data>
+    </layer>
+    <objectgroup name="Moving" height="0" width="0">
+        <object x="80" type="teleport on push" y="192" name="teleport on push" gid="1027">
+            <properties>
+                <property name="map" value="../4.14"/>
+                <property name="x" value="17"/>
+                <property name="y" value="12"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Object" height="0" width="0">
+        <object x="80" type="bot" y="96" name="bot" gid="1027">
+            <properties>
+                <property name="id" value="1" type="int"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="nurse"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

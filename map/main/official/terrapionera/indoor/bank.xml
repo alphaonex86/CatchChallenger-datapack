@@ -1,53 +1,20 @@
 <map zone="terrapionnera" type="indoor">
     <name>Bank</name>
     <name lang="fr">Bank</name>
-<bot id="3">
-      <name>Banker Malcolm</name>
-      <name langue="fr">banquier Malcolm</name>
-            <step id="1" type="text">
-		    <text><![CDATA[I can old your item.<br />
+    <bot id="4">
+        <name>Banker Malcolm</name>
+        <name langue="fr">banquier Malcolm</name>
+        <step id="1" type="text">
+            <text><![CDATA[I can old your item.<br />
 		<a href="2">[Warehouse]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
+            <text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
 		<a href="2">[Warehouse]</a>]]></text>
-	</step>
+        </step>
         <step id="2" type="warehouse"/>
     </bot>
-<bot id="3">
-      <name>Banker Malcolm</name>
-      <name langue="fr">banquier Malcolm</name>
-            <step id="1" type="text">
-		    <text><![CDATA[I can old your item.<br />
-		<a href="2">[Warehouse]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
-		<a href="2">[Warehouse]</a>]]></text>
-	</step>
-        <step id="2" type="warehouse"/>
-    </bot>
-<bot id="3">
-      <name>Banker Malcolm</name>
-      <name langue="fr">banquier Malcolm</name>
-            <step id="1" type="text">
-		    <text><![CDATA[I can old your item.<br />
-		<a href="2">[Warehouse]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
-		<a href="2">[Warehouse]</a>]]></text>
-	</step>
-        <step id="2" type="warehouse"/>
-    </bot>
-<bot id="3">
-      <name>Banker Malcolm</name>
-      <name langue="fr">banquier Malcolm</name>
-            <step id="1" type="text">
-		    <text><![CDATA[I can old your item.<br />
-		<a href="2">[Warehouse]</a>]]></text>
-		<text lang="fr"><![CDATA[Bienvenue dans ma boutique<br />
-		<a href="2">[Warehouse]</a>]]></text>
-	</step>
-        <step id="2" type="warehouse"/>
-    </bot>
-<bot id="9027">
-      <name>Charles</name>
-      <name langue="fr">Charles</name> 
+    <bot id="5">
+        <name>Charles</name>
+        <name langue="fr">Charles</name>
         <step type="text" id="1">
             <text><![CDATA[I protect this bank!]]></text>
             <text lang="fr"><![CDATA[Je protège cette banque !]]></text>

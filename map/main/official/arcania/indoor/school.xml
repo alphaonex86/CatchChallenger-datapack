@@ -1,46 +1,46 @@
 <map zone="arcania" type="indoor">
     <name>House</name>
     <name lang="fr">Maison</name>
-<bot id="9038">
-      <name>Geoffrey</name>
-      <name langue="fr">Geoffrey</name> 
+    <bot id="1">
+        <name>Geoffrey</name>
+        <name langue="fr">Geoffrey</name>
         <step type="text" id="1">
             <text><![CDATA[Go away, useless boy, we don't want see you any more !]]></text>
             <text lang="fr"><![CDATA[Dégage de la, on veut pas de toi le naze.]]></text>
         </step>
     </bot>
-<bot id="9039">
-      <name>Elie</name>
-      <name langue="fr">Elie</name> 
+    <bot id="2">
+        <name>Elie</name>
+        <name langue="fr">Elie</name>
         <step type="text" id="1">
             <text><![CDATA[Go away, useless boy, we don't want see you any more !]]></text>
             <text lang="fr"><![CDATA[Dégage de la, on veut pas de toi le naze.]]></text>
         </step>
     </bot>
-<bot id="9040">
-      <name>Stephani</name>
-      <name langue="fr">Stephani</name> 
+    <bot id="3">
+        <name>Stephani</name>
+        <name langue="fr">Stephani</name>
         <step type="text" id="1">
             <text><![CDATA[Don't approach me, monster!]]></text>
             <text lang="fr"><![CDATA[Ne m'approche pas, monstre !.]]></text>
         </step>
     </bot>
-<bot id="9041">
-      <name>Emilie</name>
-      <name langue="fr">Emilie</name> 
+    <bot id="4">
+        <name>Emilie</name>
+        <name langue="fr">Emilie</name>
         <step type="text" id="1">
             <text><![CDATA[Null boo !]]></text>
             <text lang="fr"><![CDATA[Bouh le nul !]]></text>
         </step>
     </bot>
-<bot id="9063">
-      <name>Prof Lignin</name>
-      <name langue="fr">Prof Lignine</name>
+    <bot id="5">
+        <name>Prof Lignin</name>
+        <name langue="fr">Prof Lignine</name>
         <step id="1" type="text">
             <text><![CDATA[I do not really know what we're going to do with you,<br />
             you will see me after class, I have to talk to you.<br />
             <a href="2">"Who are the Centurie ?"</a> <br />
-<a href="close">*Leaving*</a>]]> </text>
+<a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Je ne sais vraiment pas ce que l'on va pouvoir<br />
              faire de toi, Tu viendra me voir après les cours,<br />
              j'ai à te parler.<br />
@@ -53,7 +53,7 @@
               they are anarchist who fights against the current police <br />
               and whose acts are condanable <br />
              <a href="3">"Acts?"</a> <br />
-<a href="close"> Leaving </a>]]> </text>
+<a href="close"> Leaving </a>]]></text>
             <text lang="fr"><![CDATA[Tu dort pendant mes cours ?!<br />
              Sinon tu serai que les Centurie sont les membres d'un groupe<br />
              d'anarchiste qui lutte contre le pouvoir actuel,<br />
@@ -61,12 +61,12 @@
             <a href="3">"Les actes ?"</a> <br />
 		<a href="close">*Partir*</a>]]></text>
         </step>
-     <step id="3" type="text">
+        <step id="3" type="text">
             <text><![CDATA[Thefts, sabotages, violences, tampering <br />
               killing animals, hostages taking, tampering influence, corruption <br />
               and many others, their sole purpose is to become riche and powerful  <br />
               and establish a new government<br />
-<a href="close"> Leaving </a>]]> </text>
+<a href="close"> Leaving </a>]]></text>
             <text lang="fr"><![CDATA[Les vols, sabotages, Violence, trafics<br />
              meurtres d'animaux, prises d'otages, trafics d'influence, corruption<br />
              et bien d'autre, leurs seul but est de devenir riche et puissant<br />

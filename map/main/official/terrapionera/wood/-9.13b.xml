@@ -1,101 +1,90 @@
 <map type="outdoor" backgroundsound="toto.ogg" zone="road11">
-	<name>boreal forest</name>
-	<name lang="fr">Fôret boréale</name>
-	<grass>
-          <monster id="Exapode" minLevel="16" maxLevel="17" luck="20" />
-          <monster id="Chenipode" minLevel="13" maxLevel="15" luck="20" />
-          <monster id="Conileaf" minLevel="13" maxLevel="16" luck="40" />
-          <monster id="Volcoli" minLevel="15" maxLevel="17" luck="10" />
-          <monster id="Urcine" minLevel="13" maxLevel="16" luck="10" />
-  </grass>
-	<wather></wather>
-<bot id="7055">
-      <name>Natacha</name>
-      <name langue="fr">Natacha</name>
+    <name>boreal forest</name>
+    <name lang="fr">Fôret boréale</name>
+    <grass>
+        <monster id="Exapode" minLevel="16" maxLevel="17" luck="20"/>
+        <monster id="Chenipode" minLevel="13" maxLevel="15" luck="20"/>
+        <monster id="Conileaf" minLevel="13" maxLevel="16" luck="40"/>
+        <monster id="Volcoli" minLevel="15" maxLevel="17" luck="10"/>
+        <monster id="Urcine" minLevel="13" maxLevel="16" luck="10"/>
+    </grass>
+    <wather/>
+    <bot id="7">
+        <name>Natacha</name>
+        <name langue="fr">Natacha</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="29" />
-		<monster id="Hampotamos" level="30" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Hampotamos" level="29"/>
+            <monster id="Hampotamos" level="30"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7060">
-      <name>Ben</name>
-      <name langue="fr">Ben</name>
+    <bot id="8">
+        <name>Ben</name>
+        <name langue="fr">Ben</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Urcine" level="29" />
-		<monster id="Chenipode" level="32" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Urcine" level="29"/>
+            <monster id="Chenipode" level="32"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7056">
-      <name>Marion</name>
-      <name langue="fr">Marion</name>
+    <bot id="9">
+        <name>Marion</name>
+        <name langue="fr">Marion</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Elofly" level="29" />
-		<monster id="Sclairus" level="30" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Elofly" level="29"/>
+            <monster id="Sclairus" level="30"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7057">
-      <name>Vladimir</name>
-      <name langue="fr">Vladimir</name>
+    <bot id="10">
+        <name>Vladimir</name>
+        <name langue="fr">Vladimir</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="29" />
-		<monster id="Urcine" level="30" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="29"/>
+            <monster id="Urcine" level="30"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7058">
-      <name>Jasmin</name>
-      <name langue="fr">Jasmin</name>
+    <bot id="11">
+        <name>Jasmin</name>
+        <name langue="fr">Jasmin</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Urcine" level="29" />
-		<monster id="Conileaf" level="30" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Urcine" level="29"/>
+            <monster id="Conileaf" level="30"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7059">
-      <name>Claire</name>
-      <name langue="fr">Claire</name>
+    <bot id="12">
+        <name>Claire</name>
+        <name langue="fr">Claire</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Dinoflop" level="31" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Dinoflop" level="31"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7060">
-      <name>Ben</name>
-      <name langue="fr">Ben</name>
+    <bot id="13">
+        <name>Clement</name>
+        <name langue="fr">Clément</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Urcine" level="29" />
-		<monster id="Chenipode" level="32" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7061">
-      <name>Clement</name>
-      <name langue="fr">Clément</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Conileaf" level="29" />
-		<monster id="Conileaf" level="29" />
-		<monster id="Conileaf" level="30" />
-		<gain cash="200" />
-		<gain item="1" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Conileaf" level="29"/>
+            <monster id="Conileaf" level="29"/>
+            <monster id="Conileaf" level="30"/>
+            <gain cash="200"/>
+            <gain item="1"/>
+        </step>
     </bot>
 </map>

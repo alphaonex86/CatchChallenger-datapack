@@ -1,63 +1,63 @@
 <map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Conileaf" minLevel="20" maxLevel="25" luck="40" />
-          <monster id="Sclairus" minLevel="20" maxLevel="25" luck="30" />
-          <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="30" />
-  </grass>
-<bot id="7078">
-      <name>Fabien</name>
-      <name langue="fr">Fabien</name>
+    <name lang="en">Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="20" maxLevel="25" luck="40"/>
+        <monster id="Sclairus" minLevel="20" maxLevel="25" luck="30"/>
+        <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="30"/>
+    </grass>
+    <bot id="1">
+        <name>Fabien</name>
+        <name langue="fr">Fabien</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Chenipode" level="27" />
-		<monster id="Exapode" level="28" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Chenipode" level="27"/>
+            <monster id="Exapode" level="28"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7079">
-      <name>Benoit</name>
-      <name langue="fr">Benoît</name>
+    <bot id="2">
+        <name>Benoit</name>
+        <name langue="fr">Benoît</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Elowind" level="27" />
-		<monster id="Elostorm" level="28" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Elowind" level="27"/>
+            <monster id="Elostorm" level="28"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7080">
-      <name>Antoine</name>
-      <name langue="fr">Antoine</name>
+    <bot id="3">
+        <name>Antoine</name>
+        <name langue="fr">Antoine</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="29" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="29"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7081">
-      <name>Harry</name>
-      <name langue="fr">Harry</name>
+    <bot id="4">
+        <name>Harry</name>
+        <name langue="fr">Harry</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Pharfan" level="29" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Pharfan" level="29"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7082">
-      <name>Arthur</name>
-      <name langue="fr">Arthur</name>
+    <bot id="5">
+        <name>Arthur</name>
+        <name langue="fr">Arthur</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Conileaf" level="27" />
-    <monster id="Conileaf" level="27" />
-    <monster id="Conileaf" level="27" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Conileaf" level="27"/>
+            <monster id="Conileaf" level="27"/>
+            <monster id="Conileaf" level="27"/>
+            <gain cash="300"/>
+        </step>
     </bot>
 </map>

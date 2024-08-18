@@ -1,86 +1,75 @@
 <map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Conileaf" minLevel="23" maxLevel="25" luck="30" />
-          <monster id="Sclairus" minLevel="24" maxLevel="26" luck="10" />
-          <monster id="Hampotamos" minLevel="23" maxLevel="25" luck="40" />
-          <monster id="Dinoflop" minLevel="23" maxLevel="25" luck="20" />
-  </grass>
-<bot id="7107">
-      <name>Frank</name>
-      <name langue="fr">Frank</name>
+    <name lang="en">Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="23" maxLevel="25" luck="30"/>
+        <monster id="Sclairus" minLevel="24" maxLevel="26" luck="10"/>
+        <monster id="Hampotamos" minLevel="23" maxLevel="25" luck="40"/>
+        <monster id="Dinoflop" minLevel="23" maxLevel="25" luck="20"/>
+    </grass>
+    <bot id="7">
+        <name>Frank</name>
+        <name langue="fr">Frank</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Conileaf" level="33" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Conileaf" level="33"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7108">
-      <name>Nicolat</name>
-      <name langue="fr">Nicolat</name>
+    <bot id="8">
+        <name>Nicolat</name>
+        <name langue="fr">Nicolat</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Elostorm" level="33" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Elostorm" level="33"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7109">
-      <name>Henry</name>
-      <name langue="fr">Henry</name>
+    <bot id="9">
+        <name>Henry</name>
+        <name langue="fr">Henry</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Tarpeur" level="27" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Tarpeur" level="27"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7110">
-      <name>Henry</name>
-      <name langue="fr">Henry</name>
+    <bot id="10">
+        <name>Henry</name>
+        <name langue="fr">Henry</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="29" />
-		<monster id="Rhinocarpe" level="29" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="29"/>
+            <monster id="Rhinocarpe" level="29"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7111">
-      <name>Henry</name>
-      <name langue="fr">Henry</name>
+    <bot id="11">
+        <name>Henry</name>
+        <name langue="fr">Henry</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Tourbidi" level="28" />
-		<monster id="Tourbidi" level="28" />
-		<monster id="Tourbidi" level="28" />
-		<monster id="Tourbidi" level="29" />		
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Tourbidi" level="28"/>
+            <monster id="Tourbidi" level="28"/>
+            <monster id="Tourbidi" level="28"/>
+            <monster id="Tourbidi" level="29"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7112">
-      <name>Henry</name>
-      <name langue="fr">Henry</name>
+    <bot id="12">
+        <name>Henry</name>
+        <name langue="fr">Henry</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Volcoli" level="30" />
-		<monster id="Noctula" level="30" />
-		<gain cash="300" />
-	  </step>
-    </bot>
-<bot id="7112">
-      <name>Henry</name>
-      <name langue="fr">Henry</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Volcoli" level="30" />
-		<monster id="Noctula" level="30" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Volcoli" level="30"/>
+            <monster id="Noctula" level="30"/>
+            <gain cash="300"/>
+        </step>
     </bot>
 </map>

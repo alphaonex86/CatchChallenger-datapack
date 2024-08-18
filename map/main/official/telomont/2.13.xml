@@ -1,31 +1,31 @@
 <map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Conileaf" minLevel="20" maxLevel="25" luck="30" />
-          <monster id="Sclairus" minLevel="20" maxLevel="25" luck="20" />
-          <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="50" />
-  </grass>
-<bot id="7076">
-      <name>Luca</name>
-      <name langue="fr">Luca</name>
+    <name lang="en">Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="20" maxLevel="25" luck="30"/>
+        <monster id="Sclairus" minLevel="20" maxLevel="25" luck="20"/>
+        <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="50"/>
+    </grass>
+    <bot id="1">
+        <name>Luca</name>
+        <name langue="fr">Luca</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Cowpignon" level="27" />
-		<monster id="Cowpignon" level="28" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Cowpignon" level="27"/>
+            <monster id="Cowpignon" level="28"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7077">
-      <name>Damien</name>
-      <name langue="fr">Damien</name>
+    <bot id="2">
+        <name>Damien</name>
+        <name langue="fr">Damien</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="27" />
-		<monster id="Coleorus" level="28" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="27"/>
+            <monster id="Coleorus" level="28"/>
+            <gain cash="300"/>
+        </step>
     </bot>
 </map>

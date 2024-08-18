@@ -45,9 +45,9 @@
         </step>
     </bot>
     <bot id="4">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text">
             <text><![CDATA[Test path with map change]]></text>
             <text lang="fr"><![CDATA[Teste chemain avec changement de map]]></text>
         </step>

@@ -1,53 +1,42 @@
 <map type="cave" backgroundsound="toto.ogg" zone="telomont">
-	<name>Challenge cave</name>
-	<name lang="fr">Grotte défie</name>
-	<grass>
-          <monster id="Polyrock" minLevel="20" maxLevel="23" luck="45" />
-          <monster id="Urcine" minLevel="23" maxLevel="25" luck="5" />
-          <monster id="Noctula" minLevel="21" maxLevel="23" luck="35" />
-          <monster id="Noctalo" minLevel="23" maxLevel="24" luck="15" />
-  </grass>
-<bot id="7104">
-      <name>Hugo</name>
-      <name langue="fr">Hugo</name>
+    <name>Challenge cave</name>
+    <name lang="fr">Grotte défie</name>
+    <grass>
+        <monster id="Polyrock" minLevel="20" maxLevel="23" luck="45"/>
+        <monster id="Urcine" minLevel="23" maxLevel="25" luck="5"/>
+        <monster id="Noctula" minLevel="21" maxLevel="23" luck="35"/>
+        <monster id="Noctalo" minLevel="23" maxLevel="24" luck="15"/>
+    </grass>
+    <bot id="4">
+        <name>Hugo</name>
+        <name langue="fr">Hugo</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Selket" level="29" />
-		<monster id="Selket" level="30" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Selket" level="29"/>
+            <monster id="Selket" level="30"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7102">
-      <name>Max</name>
-      <name langue="fr">Max</name>
+    <bot id="5">
+        <name>Max</name>
+        <name langue="fr">Max</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="33" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="33"/>
+            <gain cash="300"/>
+        </step>
     </bot>
-<bot id="7103">
-      <name>Jason</name>
-      <name langue="fr">Jason</name>
+    <bot id="6">
+        <name>Jason</name>
+        <name langue="fr">Jason</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="29" />
-		<monster id="Selket" level="29" />
-		<gain cash="300" />
-	  </step>
-    </bot>
-<bot id="7103">
-      <name>Jason</name>
-      <name langue="fr">Jason</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="29" />
-		<monster id="Selket" level="29" />
-		<gain cash="300" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="29"/>
+            <monster id="Selket" level="29"/>
+            <gain cash="300"/>
+        </step>
     </bot>
 </map>

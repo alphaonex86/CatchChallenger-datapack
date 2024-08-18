@@ -1,13 +1,13 @@
 <map zone="mersoul" type="indoor">
     <name>Learning Centre</name>
     <name lang="fr">Centre d'apprentissage</name>
-<bot id="2">
-     <name>Coach</name>
-      <name langue="fr">Entraineur</name>
+    <bot id="1">
+        <name>Coach</name>
+        <name langue="fr">Entraineur</name>
         <step id="1" type="text">
-		<text><![CDATA[I can teach some attack.<br />
+            <text><![CDATA[I can teach some attack.<br />
 		<a href="2">[*Learn*]</a>]]></text>
-	</step>
+        </step>
         <step id="2" type="learn"/>
     </bot>
 </map>

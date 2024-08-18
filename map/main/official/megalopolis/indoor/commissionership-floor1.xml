@@ -1,9 +1,9 @@
 <map zone="megalopolis" type="indoor">
     <name>Commissionership</name>
     <name lang="fr">Commissariat </name>
-<bot id="1">
-      <name>Nurse Marina</name>
-      <name langue="fr">Infirmière Marina</name>
+    <bot id="17">
+        <name>Nurse Marina</name>
+        <name langue="fr">Infirmière Marina</name>
         <step id="1" type="text">
             <text><![CDATA[Do you want be healed?<br />
 		<a href="2">"Yes please"</a><br />
@@ -14,108 +14,12 @@
         </step>
         <step id="2" type="heal"/>
     </bot>
-<bot id="1">
-      <name>Nurse Marina</name>
-      <name langue="fr">Infirmière Marina</name>
-        <step id="1" type="text">
-            <text><![CDATA[Do you want be healed?<br />
-		<a href="2">"Yes please"</a><br />
-		<a href="close">"No thank"</a>]]></text>
-            <text lang="fr"><![CDATA[Voulez-vous être soigné?<br />
-		<a href="2">"Oui s'il vous plaît"</a> <br />
-		<a href="close">"Non merci"</a>]]></text>
-        </step>
-        <step id="2" type="heal"/>
-    </bot>
-<bot id="1">
-      <name>Nurse Marina</name>
-      <name langue="fr">Infirmière Marina</name>
-        <step id="1" type="text">
-            <text><![CDATA[Do you want be healed?<br />
-		<a href="2">"Yes please"</a><br />
-		<a href="close">"No thank"</a>]]></text>
-            <text lang="fr"><![CDATA[Voulez-vous être soigné?<br />
-		<a href="2">"Oui s'il vous plaît"</a> <br />
-		<a href="close">"Non merci"</a>]]></text>
-        </step>
-        <step id="2" type="heal"/>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
+    <bot id="18">
+        <name>Police rookie</name>
+        <name langue="fr">Recrue de la police</name>
         <step id="1" type="text">
             <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
+<a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
 		<a href="close">*Partir*</a>]]></text>
         </step>

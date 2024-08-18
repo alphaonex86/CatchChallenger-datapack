@@ -1,256 +1,252 @@
 <map tileheight="16" width="11" orientation="orthogonal" tilewidth="16" height="12" version="1.0">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/rename.tsx"/>
- <layer width="11" height="12" visible="0" name="Walkable">
-  <data compression="zstd" encoding="base64">KLUv/WAQARUBADAAAIyjjKMLAABTAkxABBTcAuqesDPAXe+pOgB+LsBCoA0=</data>
- </layer>
- <layer width="11" height="12" name="Other">
-  <data compression="zstd" encoding="base64">KLUv/WAQASUBAIAAAIQBAACFhgGkpaYBAD4ABwAHElZ51QHAAYA95TQXeCMFbQ==</data>
- </layer>
- <layer width="11" height="12" name="Collisions">
-  <data compression="zstd" encoding="base64">KLUv/WAQAc0BANBNAACADQAAAE1tAACALW1OAACAAE6QCLAIDQwA7KbsZkngEghGWNGQ/RTFvOQDgAAcvIACgMFvHA==</data>
- </layer>
- <layer width="11" height="12" name="Other">
-  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer width="11" height="12" name="WalkBehind">
-  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer width="11" height="12" name="other">
-  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <objectgroup width="0" height="0" name="Moving">
-  <object x="80" gid="1027" y="192" type="teleport on push" name="teleport on push">
-   <properties>
-    <property value="../1.6" name="map"/>
-    <property value="13" name="x"/>
-    <property value="19" name="y"/>
-   </properties>
-  </object>
-  <object x="48" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="32" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="16" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="96" gid="1027" y="128" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="96" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="112" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="128" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="80" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="64" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="48" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="48" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="32" gid="1027" y="64" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="16" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="16" gid="1027" y="96" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="16" gid="1027" y="112" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="48" gid="1027" y="64" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="48" gid="1027" y="48" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="64" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="80" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="96" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="112" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="144" gid="1027" y="80" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="144" gid="1027" y="64" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="112" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="128" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="144" gid="1027" y="144" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
-  <object x="144" gid="1027" y="48" type="door" name="door">
-   <properties>
-    <property value="arena" name="map"/>
-    <property value="5" name="x"/>
-    <property value="10" name="y"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup width="0" height="0" name="Object">
-  <object x="80" gid="1027" y="48" type="bot" name="bot">
-   <properties>
-    
-    <property value="7026" name="id"/>
-    <property value="top" name="lookAt"/>
-    <property value="nokomis" name="skin"/>
-   </properties>
-  </object>
-  <object x="144" gid="1027" y="96" type="bot">
-   <properties>
-    
-    <property value="7024" name="id"/>
-    <property value="left" name="lookAt"/>
-    <property value="player" name="skin"/>
-   </properties>
-  </object>
-  <object x="16" gid="1027" y="128" type="bot">
-   <properties>
-    
-    <property value="7023" name="id"/>
-    <property value="right" name="lookAt"/>
-    <property value="player" name="skin"/>
-   </properties>
-  </object>
-  <object x="112" gid="1027" y="48" type="bot">
-   <properties>
-    
-    <property value="7025" name="id"/>
-    <property value="right" name="lookAt"/>
-    <property value="player" name="skin"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+    <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+    <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+    <tileset firstgid="2065" source="../../../../tileset/rename.tsx"/>
+    <layer width="11" height="12" visible="0" name="Walkable">
+        <data compression="zstd" encoding="base64">KLUv/WAQARUBADAAAIyjjKMLAABTAkxABBTcAuqesDPAXe+pOgB+LsBCoA0=</data>
+    </layer>
+    <layer width="11" height="12" name="Other">
+        <data compression="zstd" encoding="base64">KLUv/WAQASUBAIAAAIQBAACFhgGkpaYBAD4ABwAHElZ51QHAAYA95TQXeCMFbQ==</data>
+    </layer>
+    <layer width="11" height="12" name="Collisions">
+        <data compression="zstd" encoding="base64">KLUv/WAQAc0BANBNAACADQAAAE1tAACALW1OAACAAE6QCLAIDQwA7KbsZkngEghGWNGQ/RTFvOQDgAAcvIACgMFvHA==</data>
+    </layer>
+    <layer width="11" height="12" name="Other">
+        <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer width="11" height="12" name="WalkBehind">
+        <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer width="11" height="12" name="other">
+        <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <objectgroup width="0" height="0" name="Moving">
+        <object x="80" gid="1027" y="192" type="teleport on push" name="teleport on push">
+            <properties>
+                <property value="../1.6" name="map"/>
+                <property value="13" name="x"/>
+                <property value="19" name="y"/>
+            </properties>
+        </object>
+        <object x="48" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="32" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="16" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="96" gid="1027" y="128" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="96" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="112" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="128" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="80" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="64" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="48" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="48" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="32" gid="1027" y="64" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="16" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="16" gid="1027" y="96" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="16" gid="1027" y="112" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="48" gid="1027" y="64" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="48" gid="1027" y="48" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="64" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="80" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="96" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="112" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="144" gid="1027" y="80" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="144" gid="1027" y="64" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="112" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="128" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="144" gid="1027" y="144" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+        <object x="144" gid="1027" y="48" type="door" name="door">
+            <properties>
+                <property value="arena" name="map"/>
+                <property value="5" name="x"/>
+                <property value="10" name="y"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup width="0" height="0" name="Object">
+        <object x="80" gid="1027" y="48" type="bot" name="bot">
+            <properties>
+                <property value="1" name="id" type="int"/>
+                <property value="top" name="lookAt"/>
+                <property value="nokomis" name="skin"/>
+            </properties>
+        </object>
+        <object x="144" gid="1027" y="96" type="bot">
+            <properties>
+                <property value="2" name="id" type="int"/>
+                <property value="left" name="lookAt"/>
+                <property value="player" name="skin"/>
+            </properties>
+        </object>
+        <object x="16" gid="1027" y="128" type="bot">
+            <properties>
+                <property value="3" name="id" type="int"/>
+                <property value="right" name="lookAt"/>
+                <property value="player" name="skin"/>
+            </properties>
+        </object>
+        <object x="112" gid="1027" y="48" type="bot">
+            <properties>
+                <property value="4" name="id" type="int"/>
+                <property value="right" name="lookAt"/>
+                <property value="player" name="skin"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

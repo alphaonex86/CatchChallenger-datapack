@@ -1,16 +1,16 @@
 <map zone="road8" type="outdoor">
-	<name>Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="Urcine" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="Elofly" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="Selket" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="Urcine" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="Noctula" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="Selket" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
+    <name>Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35"/>
+        <monster id="Urcine" minLevel="16" maxLevel="21" luck="10"/>
+        <monster id="Elofly" minLevel="16" maxLevel="21" luck="45"/>
+        <monster id="Selket" minLevel="16" maxLevel="21" luck="10"/>
+    </grass>
+    <grassNight>
+        <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35"/>
+        <monster id="Urcine" minLevel="17" maxLevel="22" luck="10"/>
+        <monster id="Noctula" minLevel="17" maxLevel="22" luck="45"/>
+        <monster id="Selket" minLevel="17" maxLevel="22" luck="10"/>
+    </grassNight>
 </map>

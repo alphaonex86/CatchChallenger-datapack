@@ -1,46 +1,36 @@
 <map zone="road6" type="outdoor">
-	<name>Road</name>
-	<name lang="fr">Route</name>
-  	<grass>
-          <monster id="Conileaf" minLevel="11" maxLevel="13" luck="25" />
-          <monster id="Elofly" minLevel="11" maxLevel="13" luck="25" />
-          <monster id="Sclairus" minLevel="11" maxLevel="13" luck="35" />
-          <monster id="Vivitron" minLevel="11" maxLevel="13" luck="15" />
-  </grass>
-      <grassNight>
-          <monster id="Conileaf" minLevel="13" maxLevel="15" luck="25" />
-          <monster id="Noctula" minLevel="13" maxLevel="15" luck="25" />
-          <monster id="Sclairus" minLevel="13" maxLevel="15" luck="35" />
-          <monster id="Vivitron" minLevel="13" maxLevel="15" luck="15" />
+    <name>Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="11" maxLevel="13" luck="25"/>
+        <monster id="Elofly" minLevel="11" maxLevel="13" luck="25"/>
+        <monster id="Sclairus" minLevel="11" maxLevel="13" luck="35"/>
+        <monster id="Vivitron" minLevel="11" maxLevel="13" luck="15"/>
+    </grass>
+    <grassNight>
+        <monster id="Conileaf" minLevel="13" maxLevel="15" luck="25"/>
+        <monster id="Noctula" minLevel="13" maxLevel="15" luck="25"/>
+        <monster id="Sclairus" minLevel="13" maxLevel="15" luck="35"/>
+        <monster id="Vivitron" minLevel="13" maxLevel="15" luck="15"/>
     </grassNight>
-<bot id="7015">
-      <name>Lauren</name>
-      <name langue="fr">Lauren</name>
+    <bot id="2">
+        <name>Lauren</name>
+        <name langue="fr">Lauren</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Hampotamos" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7015">
-      <name>Lauren</name>
-      <name langue="fr">Lauren</name>
+    <bot id="3">
+        <name>Natan</name>
+        <name langue="fr">Natan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="14" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7016">
-      <name>Natan</name>
-      <name langue="fr">Natan</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Hampotamos" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

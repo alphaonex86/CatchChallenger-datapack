@@ -1,43 +1,42 @@
 <map height="12" width="11" version="1.0" tilewidth="16" orientation="orthogonal" tileheight="16">
- <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
- <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
- <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
- <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
- <layer height="12" name="Walkable" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAIMEAEEJlE+p4OJ3E2AB</data>
- </layer>
- <layer height="12" name="Other" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAf0AAGAAAJEIlAixtAgAPgAGAAcSdr7UgO4+ZeOZMr5RAAs=</data>
- </layer>
- <layer height="12" name="Collisions" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAS0CAKijAAAAoxU1kggAANKTCLLysxIEEgQUAG+vCAMRJYAKdwYwHgAYAOSpCnDGeAeoe+KpAm4BuAmuBlfN4M53VBgAuXBeLQ==</data>
- </layer>
- <layer height="12" name="Other" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAb0AACgAAJIEsgYA4iIAADzV3FAjuGh4UQVY</data>
- </layer>
- <layer height="12" name="WalkBehind" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer height="12" name="other" width="11">
-  <data encoding="base64" compression="zstd">KLUv/WAQAe0AAGgAABMEAAAUBDMEAAA0BQBirgLggqdq/edTbgJY</data>
- </layer>
- <objectgroup height="0" name="Moving" width="0">
-  <object name="door" x="80" y="192" gid="1027" type="door">
-   <properties>
-    <property value="../-2.3" name="map"/>
-    <property value="10" name="x"/>
-    <property value="17" name="y"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup height="0" name="Object" width="0">
-  <object name="bot" x="80" y="64" gid="1027" type="bot">
-   <properties>
-    
-    <property value="2" name="id"/>
-    <property value="bottom" name="lookAt"/>
-    <property value="dramed" name="skin"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset firstgid="1" source="../../../../tileset/inside-terra.tsx"/>
+    <tileset firstgid="1025" source="../../../../tileset/invisible.tsx"/>
+    <tileset firstgid="1041" source="../../../../tileset/inside-decoration.tsx"/>
+    <tileset firstgid="2065" source="../../../../tileset/inside-mobilier.tsx"/>
+    <layer height="12" name="Walkable" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAIMEAEEJlE+p4OJ3E2AB</data>
+    </layer>
+    <layer height="12" name="Other" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAf0AAGAAAJEIlAixtAgAPgAGAAcSdr7UgO4+ZeOZMr5RAAs=</data>
+    </layer>
+    <layer height="12" name="Collisions" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAS0CAKijAAAAoxU1kggAANKTCLLysxIEEgQUAG+vCAMRJYAKdwYwHgAYAOSpCnDGeAeoe+KpAm4BuAmuBlfN4M53VBgAuXBeLQ==</data>
+    </layer>
+    <layer height="12" name="Other" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAb0AACgAAJIEsgYA4iIAADzV3FAjuGh4UQVY</data>
+    </layer>
+    <layer height="12" name="WalkBehind" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer height="12" name="other" width="11">
+        <data encoding="base64" compression="zstd">KLUv/WAQAe0AAGgAABMEAAAUBDMEAAA0BQBirgLggqdq/edTbgJY</data>
+    </layer>
+    <objectgroup height="0" name="Moving" width="0">
+        <object name="door" x="80" y="192" gid="1027" type="door">
+            <properties>
+                <property value="../-2.3" name="map"/>
+                <property value="10" name="x"/>
+                <property value="17" name="y"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup height="0" name="Object" width="0">
+        <object name="bot" x="80" y="64" gid="1027" type="bot">
+            <properties>
+                <property value="1" name="id" type="int"/>
+                <property value="bottom" name="lookAt"/>
+                <property value="dramed" name="skin"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

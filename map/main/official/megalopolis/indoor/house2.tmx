@@ -1,51 +1,49 @@
 <map orientation="orthogonal" version="1.0" width="11" tilewidth="16" tileheight="16" height="12">
- <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
- <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
- <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
- <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
- <layer name="Walkable" width="11" height="12">
-  <data compression="zstd" encoding="base64">KLUv/WAQAd0AACgAAIMp6AgAQQkQQAUXH3jDTY6eQsPF7ybAAg==</data>
- </layer>
- <layer name="Other" width="11" height="12">
-  <data compression="zstd" encoding="base64">KLUv/WAQATUBAFgAADkEmgicCLq8HQoAfU94qe+pzoYyBBAYIH5BiwID3BYvqAAL</data>
- </layer>
- <layer name="Collisions" width="11" height="12">
-  <data compression="zstd" encoding="base64">KLUv/WAQAT0DADQCowAAAKMJKRgIAAAZCLc+v38IODkIKQCSCAAAkwiys5sIuwgeALkmuAh4qgQvQEfE4QnYLbwZAdgDAAseCBpxbag5H27GUxqsEOgAW/DQACAAuBfwU8WuVIEAQB+w4mYIgLtkulo=</data>
- </layer>
- <layer name="Other" width="11" height="12">
-  <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer name="WalkBehind" width="11" height="12">
-  <data compression="zstd" encoding="base64">KLUv/WAQAcUBANgAAJcIAAAen18ImJkIuAgAALkIeggAAHt8CAALADKXjl2mEqTgaoW7YEVDANjNoQFAuIAeUAAL</data>
- </layer>
- <layer name="other" width="11" height="12" opacity="0.9">
-  <data compression="zstd" encoding="base64">KLUv/WAQAdUAAGAAABMEAAAUBDM0BAAEAHquOgC4n3rKTgAL</data>
- </layer>
- <objectgroup name="Moving" width="0" height="0">
-  <object name="teleport on push" gid="1027" x="32" y="192" type="teleport on push">
-   <properties>
-    <property name="map" value="../0.6"/>
-    <property name="x" value="13"/>
-    <property name="y" value="3"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="Object" width="0" height="0">
-  <object gid="1027" x="32" y="112" type="bot">
-   <properties>
-    
-    <property name="id" value="9050"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="oldman"/>
-   </properties>
-  </object>
-  <object gid="1027" x="48" y="112" type="bot">
-   <properties>
-    
-    <property name="id" value="9051"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="oldgirl"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+    <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+    <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+    <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+    <layer name="Walkable" width="11" height="12">
+        <data compression="zstd" encoding="base64">KLUv/WAQAd0AACgAAIMp6AgAQQkQQAUXH3jDTY6eQsPF7ybAAg==</data>
+    </layer>
+    <layer name="Other" width="11" height="12">
+        <data compression="zstd" encoding="base64">KLUv/WAQATUBAFgAADkEmgicCLq8HQoAfU94qe+pzoYyBBAYIH5BiwID3BYvqAAL</data>
+    </layer>
+    <layer name="Collisions" width="11" height="12">
+        <data compression="zstd" encoding="base64">KLUv/WAQAT0DADQCowAAAKMJKRgIAAAZCLc+v38IODkIKQCSCAAAkwiys5sIuwgeALkmuAh4qgQvQEfE4QnYLbwZAdgDAAseCBpxbag5H27GUxqsEOgAW/DQACAAuBfwU8WuVIEAQB+w4mYIgLtkulo=</data>
+    </layer>
+    <layer name="Other" width="11" height="12">
+        <data compression="zstd" encoding="base64">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer name="WalkBehind" width="11" height="12">
+        <data compression="zstd" encoding="base64">KLUv/WAQAcUBANgAAJcIAAAen18ImJkIuAgAALkIeggAAHt8CAALADKXjl2mEqTgaoW7YEVDANjNoQFAuIAeUAAL</data>
+    </layer>
+    <layer name="other" width="11" height="12" opacity="0.9">
+        <data compression="zstd" encoding="base64">KLUv/WAQAdUAAGAAABMEAAAUBDM0BAAEAHquOgC4n3rKTgAL</data>
+    </layer>
+    <objectgroup name="Moving" width="0" height="0">
+        <object name="teleport on push" gid="1027" x="32" y="192" type="teleport on push">
+            <properties>
+                <property name="map" value="../0.6"/>
+                <property name="x" value="13"/>
+                <property name="y" value="3"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup name="Object" width="0" height="0">
+        <object gid="1027" x="32" y="112" type="bot">
+            <properties>
+                <property name="id" value="1" type="int"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="oldman"/>
+            </properties>
+        </object>
+        <object gid="1027" x="48" y="112" type="bot">
+            <properties>
+                <property name="id" value="2" type="int"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="oldgirl"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

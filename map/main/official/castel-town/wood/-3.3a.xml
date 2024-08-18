@@ -1,70 +1,50 @@
 <map type="outdoor" zone="road3">
-	<name>Wood</name>
-	<name lang="fr">Fôret</name>
-  <grass>
-          <monster id="Conileaf" minLevel="6" maxLevel="9" luck="30" />
-          <monster id="Chenipode" minLevel="6" maxLevel="9" luck="35" />
-          <monster id="Sclairus" minLevel="6" maxLevel="9" luck="30" />
-          <monster id="Volcoli" minLevel="6" maxLevel="9" luck="5" />
-  </grass>
-      <grassNight>
-          <monster id="Conileaf" minLevel="8" maxLevel="10" luck="15" />
-          <monster id="Chenipode" minLevel="8" maxLevel="10" luck="40" />
-          <monster id="Sclairus" minLevel="8" maxLevel="10" luck="35" />
-          <monster id="Volcoli" minLevel="8" maxLevel="12" luck="10" />
+    <name>Wood</name>
+    <name lang="fr">Fôret</name>
+    <grass>
+        <monster id="Conileaf" minLevel="6" maxLevel="9" luck="30"/>
+        <monster id="Chenipode" minLevel="6" maxLevel="9" luck="35"/>
+        <monster id="Sclairus" minLevel="6" maxLevel="9" luck="30"/>
+        <monster id="Volcoli" minLevel="6" maxLevel="9" luck="5"/>
+    </grass>
+    <grassNight>
+        <monster id="Conileaf" minLevel="8" maxLevel="10" luck="15"/>
+        <monster id="Chenipode" minLevel="8" maxLevel="10" luck="40"/>
+        <monster id="Sclairus" minLevel="8" maxLevel="10" luck="35"/>
+        <monster id="Volcoli" minLevel="8" maxLevel="12" luck="10"/>
     </grassNight>
-<bot id="7005">
-      <name>Adelin</name>
-      <name langue="fr">Adelin</name>
+    <bot id="7">
+        <name>Adelin</name>
+        <name langue="fr">Adelin</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Conileaf" level="9" />
-		<monster id="Chenipode" level="11" />
-		<monster id="Viviphyta" level="13" />
-		<gain cash="250" />
-		<gain item="4012" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Conileaf" level="9"/>
+            <monster id="Chenipode" level="11"/>
+            <monster id="Viviphyta" level="13"/>
+            <gain cash="250"/>
+            <gain item="4012"/>
+        </step>
     </bot>
-<bot id="2009">
-      <name>Rachel</name>
-      <name langue="fr">Rachel</name>
-         <step type="text" id="1">
+    <bot id="8">
+        <name>Rachel</name>
+        <name langue="fr">Rachel</name>
+        <step type="text" id="1">
             <text><![CDATA[I study the different berries in the forest<br />		
             <a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[J'étudie les différentes baies dans cette forêt<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>   
-        <step id="2" type="quests"/> 
+        </step>
+        <step id="2" type="quests"/>
     </bot>
-<bot id="7004">
-      <name>Marjorie</name>
-      <name langue="fr">Marjorie</name>
+    <bot id="9">
+        <name>Marjorie</name>
+        <name langue="fr">Marjorie</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="10" />
-		<gain cash="150" />
-	  </step>
-    </bot>
-<bot id="7004">
-      <name>Marjorie</name>
-      <name langue="fr">Marjorie</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="10" />
-		<gain cash="150" />
-	  </step>
-    </bot>
-<bot id="7004">
-      <name>Marjorie</name>
-      <name langue="fr">Marjorie</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="10" />
-		<gain cash="150" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="10"/>
+            <gain cash="150"/>
+        </step>
     </bot>
 </map>

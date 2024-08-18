@@ -1,9 +1,9 @@
 <map zone="megalopolis" type="indoor">
     <name>Shop</name>
     <name lang="fr">Boutique</name>
-<bot id="101">
-      <name>Trader Malcolm</name>
-      <name langue="fr">Marchand Malcolm</name>
+    <bot id="1">
+        <name>Trader Malcolm</name>
+        <name langue="fr">Marchand Malcolm</name>
         <step id="1" type="text">
             <text><![CDATA[Welcome on my shop<br />
 		<a href="2">*Buy*</a><br />

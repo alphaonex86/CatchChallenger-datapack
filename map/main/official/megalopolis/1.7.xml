@@ -1,14 +1,15 @@
-<map zone="megalopolis" type="city"><!-- well here is half city halt outdoor (road)-->
-	<name>Megalopolis</name>
-	<name lang="fr">Megalopolis</name>
-	<grass>
-          <monster id="Conileaf" minLevel="4" maxLevel="5" luck="30" />
-          <monster id="Elofly" minLevel="4" maxLevel="6" luck="35" />
-          <monster id="Sclairus" minLevel="4" maxLevel="6" luck="35" />
-  </grass>
-  <water>
-          <monster id="Rhinocarpe" minLevel="4" maxLevel="5" luck="5" />
-          <monster id="Hampotamos" minLevel="4" maxLevel="6" luck="90" />
-          <monster id="Vivisource" minLevel="4" maxLevel="6" luck="5" />
-  </water>
+<map zone="megalopolis" type="city">
+    <!-- well here is half city halt outdoor (road)-->
+    <name>Megalopolis</name>
+    <name lang="fr">Megalopolis</name>
+    <grass>
+        <monster id="Conileaf" minLevel="4" maxLevel="5" luck="30"/>
+        <monster id="Elofly" minLevel="4" maxLevel="6" luck="35"/>
+        <monster id="Sclairus" minLevel="4" maxLevel="6" luck="35"/>
+    </grass>
+    <water>
+        <monster id="Rhinocarpe" minLevel="4" maxLevel="5" luck="5"/>
+        <monster id="Hampotamos" minLevel="4" maxLevel="6" luck="90"/>
+        <monster id="Vivisource" minLevel="4" maxLevel="6" luck="5"/>
+    </water>
 </map>

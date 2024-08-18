@@ -1,90 +1,70 @@
 <map zone="mersoul" type="indoor">
     <name>Arena</name>
     <name lang="fr">Arène</name>
-<bot id="7029">
-      <name>Yves</name>
-      <name langue="fr">Yves</name>
+    <bot id="13">
+        <name>Yves</name>
+        <name langue="fr">Yves</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="16" />
-		<monster id="Hampotamos" level="16" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="16"/>
+            <monster id="Hampotamos" level="16"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7030">
-      <name>Rayan</name>
-      <name langue="fr">Rayan</name>
+    <bot id="14">
+        <name>Rayan</name>
+        <name langue="fr">Rayan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Dinoflop" level="18" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Dinoflop" level="18"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7031">
-      <name>Regis</name>
-      <name langue="fr">Régis</name>
+    <bot id="15">
+        <name>Regis</name>
+        <name langue="fr">Régis</name>
         <step type="fight" id="1" leader="true">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="16" />
-		<monster id="Hampotamos" level="16" />
-		<monster id="Polyrock" level="17" />
-		<monster id="Dinoflop" level="17" />
-		<monster id="Pharfan" level="16" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="16"/>
+            <monster id="Hampotamos" level="16"/>
+            <monster id="Polyrock" level="17"/>
+            <monster id="Dinoflop" level="17"/>
+            <monster id="Pharfan" level="16"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7027">
-      <name>Dominic</name>
-      <name langue="fr">Dominique</name>
+    <bot id="16">
+        <name>Dominic</name>
+        <name langue="fr">Dominique</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="17" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Hampotamos" level="17"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7023">
-      <name>Florent</name>
-      <name langue="fr">Florent</name>
+    <bot id="17">
+        <name>Florent</name>
+        <name langue="fr">Florent</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Urcine" level="16" />
-		<monster id="Noctula" level="16" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Urcine" level="16"/>
+            <monster id="Noctula" level="16"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7028">
-      <name>Cedric</name>
-      <name langue="fr">Cédric</name>
+    <bot id="18">
+        <name>Cedric</name>
+        <name langue="fr">Cédric</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="17" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7027">
-      <name>Dominic</name>
-      <name langue="fr">Dominique</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="17" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7028">
-      <name>Cedric</name>
-      <name langue="fr">Cédric</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="17" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="17"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

@@ -1,15 +1,15 @@
 <map zone="mersoul" type="indoor">
     <name>Shop</name>
     <name lang="fr">Boutique</name>
-<bot id="9">
-      <name>Trader Eddie</name>
-      <name langue="fr">Marchand Eddie</name>
-           <step id="1" type="text">
-              <text><![CDATA[Welcome to shipyard shop.<br />
+    <bot id="1">
+        <name>Trader Eddie</name>
+        <name langue="fr">Marchand Eddie</name>
+        <step id="1" type="text">
+            <text><![CDATA[Welcome to shipyard shop.<br />
               <a href="2">[*buy*]</a>]]></text>
-              <text lang="fr"><![CDATA[Bienvenue à la boutique du chantier naval<br />
-		<a href="2">*Acheter*</a> ]]> </text>
-           </step>
+            <text lang="fr"><![CDATA[Bienvenue à la boutique du chantier naval<br />
+		<a href="2">*Acheter*</a> ]]></text>
+        </step>
         <step shop="102" id="2" type="shop"/>
     </bot>
 </map>

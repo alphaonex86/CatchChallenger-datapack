@@ -1,65 +1,54 @@
 <map zone="road9" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Conileaf" minLevel="17" maxLevel="21" luck="30" />
-          <monster id="Sclairus" minLevel="17" maxLevel="22" luck="20" />
-          <monster id="Polyrock" minLevel="16" maxLevel="22" luck="40" />
-          <monster id="Elowind" minLevel="16" maxLevel="22" luck="10" />
-  </grass>
-<bot id="7043">
-      <name>Fanny</name>
-      <name langue="fr">Fanny</name>
+    <name lang="en">Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="17" maxLevel="21" luck="30"/>
+        <monster id="Sclairus" minLevel="17" maxLevel="22" luck="20"/>
+        <monster id="Polyrock" minLevel="16" maxLevel="22" luck="40"/>
+        <monster id="Elowind" minLevel="16" maxLevel="22" luck="10"/>
+    </grass>
+    <bot id="5">
+        <name>Fanny</name>
+        <name langue="fr">Fanny</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="29" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="29"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7044">
-      <name>Quentin</name>
-      <name langue="fr">Quentin</name>
+    <bot id="6">
+        <name>Quentin</name>
+        <name langue="fr">Quentin</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="27" />
-		<monster id="Dinoflop" level="27" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="27"/>
+            <monster id="Dinoflop" level="27"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7045">
-      <name>Mathieu</name>
-      <name langue="fr">Mathieu</name>
+    <bot id="7">
+        <name>Mathieu</name>
+        <name langue="fr">Mathieu</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="29" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="29"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7046">
-      <name>Fiora</name>
-      <name langue="fr">Fiora</name>
+    <bot id="8">
+        <name>Fiora</name>
+        <name langue="fr">Fiora</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="32" />
-		<monster id="Elofly" level="32" />
-		<monster id="Conileaf" level="32" />
-		<gain cash="200" />
-		<gain item="1" />
-	  </step>
-    </bot>
-<bot id="7044">
-      <name>Quentin</name>
-      <name langue="fr">Quentin</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="27" />
-		<monster id="Dinoflop" level="27" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="32"/>
+            <monster id="Elofly" level="32"/>
+            <monster id="Conileaf" level="32"/>
+            <gain cash="200"/>
+            <gain item="1"/>
+        </step>
     </bot>
 </map>

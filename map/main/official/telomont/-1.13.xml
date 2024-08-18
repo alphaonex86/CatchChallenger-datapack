@@ -1,41 +1,41 @@
 <map zone="road9" type="outdoor">
-	<name>Mountain</name>
-	<name lang="fr">Montagne</name>
-	<grass>
-          <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="Urcine" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="Elofly" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="Selket" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="Urcine" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="Noctula" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="Selket" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
-<bot id="7034">
-      <name>guardian</name>
-      <name langue="fr">Guardien</name>
+    <name>Mountain</name>
+    <name lang="fr">Montagne</name>
+    <grass>
+        <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35"/>
+        <monster id="Urcine" minLevel="16" maxLevel="21" luck="10"/>
+        <monster id="Elofly" minLevel="16" maxLevel="21" luck="45"/>
+        <monster id="Selket" minLevel="16" maxLevel="21" luck="10"/>
+    </grass>
+    <grassNight>
+        <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35"/>
+        <monster id="Urcine" minLevel="17" maxLevel="22" luck="10"/>
+        <monster id="Noctula" minLevel="17" maxLevel="22" luck="45"/>
+        <monster id="Selket" minLevel="17" maxLevel="22" luck="10"/>
+    </grassNight>
+    <bot id="1">
+        <name>guardian</name>
+        <name langue="fr">Guardien</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Elofly" level="21" />
-		<monster id="Conileaf" level="21" />
-		<monster id="Elofly" level="22" />
-		<gain cash="200" />
-		<gain item="1" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Elofly" level="21"/>
+            <monster id="Conileaf" level="21"/>
+            <monster id="Elofly" level="22"/>
+            <gain cash="200"/>
+            <gain item="1"/>
+        </step>
     </bot>
-<bot id="7035">
-      <name>Pierre</name>
-      <name langue="fr">Pierre</name>
+    <bot id="2">
+        <name>Pierre</name>
+        <name langue="fr">Pierre</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Chenipode" level="20" />
-		<monster id="Chenipode" level="20" />
-		<monster id="Exapode" level="23" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Chenipode" level="20"/>
+            <monster id="Chenipode" level="20"/>
+            <monster id="Exapode" level="23"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

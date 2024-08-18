@@ -1,13 +1,13 @@
 <map zone="symposia" type="indoor">
     <name>Silo</name>
     <name lang="fr">Silo</name>
-<bot id="3009">
-      <name>Farmer Andy</name>
-      <name lang="fr">Andy le fermier</name>
+    <bot id="1">
+        <name>Farmer Andy</name>
+        <name lang="fr">Andy le fermier</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">*Cultiver*</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">*Cultivate*</a><br />]]></text>
+            <text><![CDATA[<a href="2">*Cultiver*</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">*Cultivate*</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="11" />
+        <step id="2" type="industry" industry="11"/>
     </bot>
 </map>

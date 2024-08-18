@@ -1,38 +1,38 @@
 <map zone="road9" type="outdoor">
-	<name>Jeté</name>
-	<name lang="fr">Thrown</name>
-	<grass>
-          <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="Urcine" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="Elofly" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="Selket" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="Urcine" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="Noctula" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="Selket" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
-<bot id="7068">
-      <name>Christophe</name>
-      <name langue="fr">Christophe</name>
+    <name>Jeté</name>
+    <name lang="fr">Thrown</name>
+    <grass>
+        <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35"/>
+        <monster id="Urcine" minLevel="16" maxLevel="21" luck="10"/>
+        <monster id="Elofly" minLevel="16" maxLevel="21" luck="45"/>
+        <monster id="Selket" minLevel="16" maxLevel="21" luck="10"/>
+    </grass>
+    <grassNight>
+        <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35"/>
+        <monster id="Urcine" minLevel="17" maxLevel="22" luck="10"/>
+        <monster id="Noctula" minLevel="17" maxLevel="22" luck="45"/>
+        <monster id="Selket" minLevel="17" maxLevel="22" luck="10"/>
+    </grassNight>
+    <bot id="1">
+        <name>Christophe</name>
+        <name langue="fr">Christophe</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Hampotamos" level="25" />
-		<monster id="Dinoflop" level="25" />
-		<gain cash="200" />
-		<gain item="1" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Hampotamos" level="25"/>
+            <monster id="Dinoflop" level="25"/>
+            <gain cash="200"/>
+            <gain item="1"/>
+        </step>
     </bot>
-<bot id="7069">
-      <name>Antony</name>
-      <name langue="fr">Antony</name>
+    <bot id="2">
+        <name>Antony</name>
+        <name langue="fr">Antony</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Rhinocarpe" level="27" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Rhinocarpe" level="27"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

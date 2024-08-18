@@ -1,45 +1,44 @@
 <map zone="mersoul" type="city">
-	<name>Mersoul</name>
-	<name lang="fr">Mersoul</name>
-		<water>
-          <monster id="Rhinocarpe" minLevel="9" maxLevel="11" luck="5" />
-          <monster id="Hampotamos" minLevel="8" maxLevel="11" luck="15" />
-          <monster id="Tarpeur" minLevel="8" maxLevel="11" luck="40" />
-          <monster id="Vivisource" minLevel="8" maxLevel="11" luck="5" />
-          <monster id="Elofly" minLevel="8" maxLevel="11" luck="35" />
-  </water>
-<bot id="9049">
-      <name>Melissa</name>
-      <name langue="fr">Melissa</name> 
+    <name>Mersoul</name>
+    <name lang="fr">Mersoul</name>
+    <water>
+        <monster id="Rhinocarpe" minLevel="9" maxLevel="11" luck="5"/>
+        <monster id="Hampotamos" minLevel="8" maxLevel="11" luck="15"/>
+        <monster id="Tarpeur" minLevel="8" maxLevel="11" luck="40"/>
+        <monster id="Vivisource" minLevel="8" maxLevel="11" luck="5"/>
+        <monster id="Elofly" minLevel="8" maxLevel="11" luck="35"/>
+    </water>
+    <bot id="1">
+        <name>Melissa</name>
+        <name langue="fr">Melissa</name>
         <step type="text" id="1">
             <text><![CDATA[Following the recent attack animals, not so boat at sea]]></text>
             <text lang="fr"><![CDATA[Suite aux récentes attaques d'animaux, les bateaux ne sortent plus en mer]]></text>
         </step>
     </bot>
-<bot id="9003">
-      <name>Franc</name>
-      <name langue="fr">Franc</name>
+    <bot id="2">
+        <name>Franc</name>
+        <name langue="fr">Franc</name>
         <step type="text" id="1">
             <text><![CDATA[I like the sea]]></text>
             <text lang="fr"><![CDATA[Que j'aime la mer]]></text>
         </step>
     </bot>
-<bot id="9047">
-      <name>Schoolboy Louis</name>
-      <name langue="fr">Louis l'Écolier</name> 
+    <bot id="3">
+        <name>Schoolboy Louis</name>
+        <name langue="fr">Louis l'Écolier</name>
         <step type="text" id="1">
             <text><![CDATA[Hi, do you whant play with me]]></text>
             <text lang="fr"><![CDATA[Salut, tu veux jouer avec moi ?]]></text>
         </step>
     </bot>
-<bot id="204">
-      <name>Laura</name>
-      <name langue="fr">Laura</name>
-    <step type="text" id="1">
+    <bot id="4">
+        <name>Laura</name>
+        <name langue="fr">Laura</name>
+        <step type="text" id="1">
             <text><![CDATA[I handle the defense of Mersoul]]></text>
             <text lang="fr"><![CDATA[Je m'occupe de la défense de Mersoul]]></text>
         </step>
         <step zone="mersoul" id="2" type="zonecapture"/>
     </bot>
 </map>
-

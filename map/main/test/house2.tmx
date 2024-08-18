@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" compressionlevel="6" width="20" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="8">
- <tileset firstgid="1" source="../../tileset/t2.tsx"/>
- <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
- <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
- <layer id="1" name="Walkable" width="20" height="30">
-  <data encoding="base64" compression="zstd">
+    <tileset firstgid="1" source="../../tileset/t2.tsx"/>
+    <tileset firstgid="1025" source="../../tileset/t1.tsx"/>
+    <tileset firstgid="2049" source="../../tileset/invisible.tsx"/>
+    <layer id="1" name="Walkable" width="20" height="30">
+        <data encoding="base64" compression="zstd">
    KLUv/WBgCO0AADDKBAAAygQHAI1DwcxdhTlAA1boKaBQcIIE/h0R
   </data>
- </layer>
- <layer id="2" name="OverWalkable" width="20" height="30">
-  <data encoding="base64" compression="zstd">
+    </layer>
+    <layer id="2" name="OverWalkable" width="20" height="30">
+        <data encoding="base64" compression="zstd">
    KLUv/WBgCMUBANAAyQQAzgQA+QIAAPoC+gJJAgAASgIAAEsCAAoAEqReHPjjzRKAg6cZMAaosJtn0QNqGECHA+Wu
   </data>
- </layer>
- <layer id="3" name="Collisions" width="20" height="30">
-  <data encoding="base64" compression="zstd">
+    </layer>
+    <layer id="3" name="Collisions" width="20" height="30">
+        <data encoding="base64" compression="zstd">
    KLUv/WBgCJUHANLJHieALaQ1DPPXGDKAfkpODqMGHxeHbxY+Li5GWJoPSH5DAuFaUFvKTVKfjLRxXKINMmdrbNqeDwZjaRFXwgvhdWDwKngRdHzSCliRqJGVyAtg46v4Ikjie/ic5sRkK/kYPCqTClmBKBdKY5XRFjaFZ2EDm8BH8U18EA5fQzSgoTVSgZ2CaTfAAhziYg4fqF6OOgHKZI027xPgHi2A8CCPMANskh1FuwuaGrVckFBcjjpk5Gfy5Dn8m0Nn5hhaeduWzC+EsEbuB3eeRI/oOYeo7NLyXwl9UnzdjicfpVntOEmhiuclprnWDTmK5WFFo/0J
   </data>
- </layer>
- <layer id="4" name="WalkBehind" width="20" height="30">
-  <data encoding="base64" compression="zstd">
+    </layer>
+    <layer id="4" name="WalkBehind" width="20" height="30">
+        <data encoding="base64" compression="zstd">
    KLUv/WBgCHUDAGJEDx2gJ2kMXgSfvP0AET/8DAAAlv0AAAAAj9YegxAbpFueAnjNMVGCjI6R8SiuwRJcgU/iDIVHeNIh3mGlazETIPCCTd09VKiUggcJXJT5WJulhnjGuceOqXkV0jGZtoN7fLAsxm46XAzHyOAV
   </data>
- </layer>
- <objectgroup id="5" name="Object">
-  <object id="3" name="Nurse" type="bot" gid="2049" x="80" y="320" width="16" height="16">
-   <properties>
-    <property name="id" type="int" value="50"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="nurse"/>
-   </properties>
-  </object>
-  <object id="4" name="Seller" type="bot" gid="2049" x="0" y="368" width="16" height="16">
-   <properties>
-    <property name="id" type="int" value="51"/>
-    <property name="lookAt" value="right"/>
-    <property name="skin" value="oldman"/>
-   </properties>
-  </object>
-  <object id="6" name="Zone capture" type="bot" gid="2049" x="192" y="192" width="16" height="16">
-   <properties>
-    <property name="id" type="int" value="53"/>
-    <property name="lookAt" value="move"/>
-    <property name="skin" value="rookie"/>
-   </properties>
-  </object>
-  <object id="7" name="Learn" type="bot" gid="2049" x="128" y="112" width="16" height="16">
-   <properties>
-    <property name="id" type="int" value="52"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="smith"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="6" name="Moving">
-  <object id="2" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
-   <properties>
-    <property name="map" type="file" value="city"/>
-    <property name="x" type="int" value="15"/>
-    <property name="y" type="int" value="26"/>
-   </properties>
-  </object>
- </objectgroup>
+    </layer>
+    <objectgroup id="5" name="Object">
+        <object id="3" name="Nurse" type="bot" gid="2049" x="80" y="320" width="16" height="16">
+            <properties>
+                <property name="id" type="int" value="1"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="nurse"/>
+            </properties>
+        </object>
+        <object id="4" name="Seller" type="bot" gid="2049" x="0" y="368" width="16" height="16">
+            <properties>
+                <property name="id" type="int" value="2"/>
+                <property name="lookAt" value="right"/>
+                <property name="skin" value="oldman"/>
+            </properties>
+        </object>
+        <object id="6" name="Zone capture" type="bot" gid="2049" x="192" y="192" width="16" height="16">
+            <properties>
+                <property name="id" type="int" value="4"/>
+                <property name="lookAt" value="move"/>
+                <property name="skin" value="rookie"/>
+            </properties>
+        </object>
+        <object id="7" name="Learn" type="bot" gid="2049" x="128" y="112" width="16" height="16">
+            <properties>
+                <property name="id" type="int" value="3"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="smith"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup id="6" name="Moving">
+        <object id="2" name="to city" type="teleport on push" gid="2051" x="144" y="480" width="16" height="16">
+            <properties>
+                <property name="map" type="file" value="city"/>
+                <property name="x" type="int" value="15"/>
+                <property name="y" type="int" value="26"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

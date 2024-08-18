@@ -1,9 +1,9 @@
 <map zone="terrapionera" type="city">
     <name lang="en">Terrapionera</name>
     <name lang="fr">Terrapionera</name>
-<bot id="9009">
-      <name>John</name>
-      <name langue="fr">John</name> 
+    <bot id="1">
+        <name>John</name>
+        <name langue="fr">John</name>
         <step type="text" id="1">
             <text><![CDATA[Are you hungry? We sell full of delicious thing]]></text>
             <text lang="fr"><![CDATA[Vous avez faim ? Nous vendons plein de choses délicieuses]]></text>

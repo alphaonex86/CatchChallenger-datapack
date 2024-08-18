@@ -1,12 +1,12 @@
 <map type="outdoor" backgroundsound="toto.ogg" zone="road11">
-	<name>Boreal forest</name>
-	<name lang="fr">Fôret boréale</name>
-	<grass>
-          <monster id="Exapode" minLevel="16" maxLevel="17" luck="20" />
-          <monster id="Chenipode" minLevel="13" maxLevel="15" luck="20" />
-          <monster id="Conileaf" minLevel="13" maxLevel="16" luck="40" />
-          <monster id="Volcoli" minLevel="15" maxLevel="17" luck="10" />
-          <monster id="Urcine" minLevel="13" maxLevel="16" luck="10" />
-  </grass>
-	<wather></wather>
+    <name>Boreal forest</name>
+    <name lang="fr">Fôret boréale</name>
+    <grass>
+        <monster id="Exapode" minLevel="16" maxLevel="17" luck="20"/>
+        <monster id="Chenipode" minLevel="13" maxLevel="15" luck="20"/>
+        <monster id="Conileaf" minLevel="13" maxLevel="16" luck="40"/>
+        <monster id="Volcoli" minLevel="15" maxLevel="17" luck="10"/>
+        <monster id="Urcine" minLevel="13" maxLevel="16" luck="10"/>
+    </grass>
+    <wather/>
 </map>

@@ -1,13 +1,13 @@
 <map zone="chantiville" type="indoor">
     <name>Home</name>
     <name lang="fr">Maison</name>
-<bot id="9011">
-      <name>Pascal</name>
-      <name langue="fr">Pacal</name> 
+    <bot id="1">
+        <name>Pascal</name>
+        <name langue="fr">Pacal</name>
         <step type="text" id="1">
             <text><![CDATA[On this family we are farmer from father to son]]></text>
             <text lang="fr"><![CDATA[Dans la famille on est fermier de génération en génération]]></text>
         </step>
-        <item id="2014" />
+        <item id="2014"/>
     </bot>
 </map>

@@ -1,9 +1,9 @@
 <map zone="angegarde" type="outdoor">
-	<name lang="en">Heal</name>
-	<name lang="fr">Heal</name>
-<bot id="1">
-      <name>Nurse Marina</name>
-      <name langue="fr">Infirmière Marina</name>
+    <name lang="en">Heal</name>
+    <name lang="fr">Heal</name>
+    <bot id="1">
+        <name>Nurse Marina</name>
+        <name langue="fr">Infirmière Marina</name>
         <step id="1" type="text">
             <text><![CDATA[Do you want be healed?<br />
 		<a href="2">"Yes please"</a><br />

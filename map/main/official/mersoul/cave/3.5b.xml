@@ -1,86 +1,54 @@
 <map type="cave" backgroundsound="toto.ogg" zone="test">
-	<name>Cave</name>
-	<name lang="fr">Grotte</name>
-	<grass>
-          <monster id="Polyrock" minLevel="7" maxLevel="9" luck="45" />
-          <monster id="Urcine" minLevel="7" maxLevel="9" luck="10" />
-          <monster id="Noctula" minLevel="7" maxLevel="9" luck="45" />
-  </grass>
-<bot id="7019">
-      <name>Logan</name>
-      <name langue="fr">Logan</name>
+    <name>Cave</name>
+    <name lang="fr">Grotte</name>
+    <grass>
+        <monster id="Polyrock" minLevel="7" maxLevel="9" luck="45"/>
+        <monster id="Urcine" minLevel="7" maxLevel="9" luck="10"/>
+        <monster id="Noctula" minLevel="7" maxLevel="9" luck="45"/>
+    </grass>
+    <bot id="10">
+        <name>Logan</name>
+        <name langue="fr">Logan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="14"/>
+            <monster id="Polyrock" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7020">
-      <name>Jordan</name>
-      <name langue="fr">Jordan</name>
+    <bot id="11">
+        <name>Jordan</name>
+        <name langue="fr">Jordan</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="16" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="16"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7021">
-      <name>Ludo</name>
-      <name langue="fr">Ludo</name>
+    <bot id="12">
+        <name>Ludo</name>
+        <name langue="fr">Ludo</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Noctula" level="14" />
-		<monster id="Noctula" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Noctula" level="14"/>
+            <monster id="Noctula" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7019">
-      <name>Logan</name>
-      <name langue="fr">Logan</name>
+    <bot id="13">
+        <name>Fernand</name>
+        <name langue="fr">Fernand</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7019">
-      <name>Logan</name>
-      <name langue="fr">Logan</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7020">
-      <name>Jordan</name>
-      <name langue="fr">Jordan</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="16" />
-		<gain cash="200" />
-	  </step>
-    </bot>
-<bot id="7022">
-      <name>Fernand</name>
-      <name langue="fr">Fernand</name>
-        <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="14" />
-		<monster id="Polyrock" level="14" />
-		<monster id="Noctula" level="14" />
-		<monster id="Noctula" level="14" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="14"/>
+            <monster id="Polyrock" level="14"/>
+            <monster id="Noctula" level="14"/>
+            <monster id="Noctula" level="14"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

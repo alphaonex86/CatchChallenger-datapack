@@ -1,16 +1,16 @@
 <map zone="road8" type="outdoor">
-	<name>wood</name>
-	<name lang="fr">Forêt</name>
-  	<grass>
-          <monster id="Conileaf" minLevel="14" maxLevel="18" luck="30" />
-          <monster id="Chenipode" minLevel="14" maxLevel="18" luck="35" />
-          <monster id="Sclairus" minLevel="14" maxLevel="18" luck="30" />
-          <monster id="Volcoli" minLevel="14" maxLevel="18" luck="5" />
-  </grass>
-      <grassNight>
-          <monster id="Conileaf" minLevel="15" maxLevel="19" luck="15" />
-          <monster id="Chenipode" minLevel="15" maxLevel="19" luck="40" />
-          <monster id="Sclairus" minLevel="15" maxLevel="19" luck="35" />
-          <monster id="Volcoli" minLevel="15" maxLevel="19" luck="10" />
+    <name>wood</name>
+    <name lang="fr">Forêt</name>
+    <grass>
+        <monster id="Conileaf" minLevel="14" maxLevel="18" luck="30"/>
+        <monster id="Chenipode" minLevel="14" maxLevel="18" luck="35"/>
+        <monster id="Sclairus" minLevel="14" maxLevel="18" luck="30"/>
+        <monster id="Volcoli" minLevel="14" maxLevel="18" luck="5"/>
+    </grass>
+    <grassNight>
+        <monster id="Conileaf" minLevel="15" maxLevel="19" luck="15"/>
+        <monster id="Chenipode" minLevel="15" maxLevel="19" luck="40"/>
+        <monster id="Sclairus" minLevel="15" maxLevel="19" luck="35"/>
+        <monster id="Volcoli" minLevel="15" maxLevel="19" luck="10"/>
     </grassNight>
 </map>

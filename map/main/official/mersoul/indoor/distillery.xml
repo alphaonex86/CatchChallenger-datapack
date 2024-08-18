@@ -1,32 +1,32 @@
 <map zone="castel-town" type="indoor">
     <name>Brewery</name>
     <name lang="fr">Brasserie</name>
-<bot id="3014">
-      <name>Scientific</name>
-      <name lang="fr">Scientific</name>
+    <bot id="1">
+        <name>Scientific</name>
+        <name lang="fr">Scientific</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
+            <text><![CDATA[<a href="2">*Distiller*</a><br />]]></text>
+            <text lang="fr"><![CDATA[<a href="2">*Distil*</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="9" />
+        <step id="2" type="industry" industry="9"/>
     </bot>
-<bot id="9001">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="2">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[Road 1, area accessible for the tamers]]></text>
             <text lang="fr"><![CDATA[Route 1, zone accessible aux dompteurs]]></text>
         </step>
     </bot>
-<bot id="2011">
-      <name>Gauthier</name>
-      <name langue="fr">Gauthier</name>
-         <step type="text" id="1">
+    <bot id="3">
+        <name>Gauthier</name>
+        <name langue="fr">Gauthier</name>
+        <step type="text" id="1">
             <text><![CDATA[Welcome in my distillery, our products are cheap for good quality<br />		
             <a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[Bienvenue dans notre distillerie, nos produits sont peu chers de de bonne qualité<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>   
-        <step id="2" type="quests"/> 
+        </step>
+        <step id="2" type="quests"/>
     </bot>
 </map>

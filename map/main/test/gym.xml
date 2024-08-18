@@ -1,48 +1,48 @@
 <map zone="test" type="indoor">
     <name>Gym</name>
     <description>Gym/TP of test</description>
-    <bot id="30">
+    <bot id="1">
         <step type="text">
             <text><![CDATA[To pass, finish the quest <b>Berry exchange</b>]]></text>
             <text lang="fr"><![CDATA[Pour passer finir la quéte <b>Échange de baie</b>]]></text>
         </step>
     </bot>
-    <bot id="31">
+    <bot id="2">
         <step type="text">
             <text><![CDATA[To pass, you need have <b>Air Mail</b>]]></text>
             <text lang="fr"><![CDATA[Pour passer vous devez avoir une <b>lettre aire</b>]]></text>
         </step>
     </bot>
-    <bot id="32">
+    <bot id="3">
         <step type="text">
             <text><![CDATA[To pass, your clan need own the area]]></text>
             <text lang="fr"><![CDATA[Pour passer votre clan doit controler la zone]]></text>
         </step>
     </bot>
-    <bot id="33">
+    <bot id="4">
         <step type="text">
             <text><![CDATA[To pass, you need win agains the first bot]]></text>
             <text lang="fr"><![CDATA[Pour passer vous devez gagner face au premier bot]]></text>
         </step>
     </bot>
-    <bot id="34">
+    <bot id="5">
         <step type="text">
             <text><![CDATA[Hidden item]]></text>
         </step>
     </bot>
-    <bot id="35">
+    <bot id="6">
         <step type="text">
             <text><![CDATA[Gym leader]]></text>
         </step>
     </bot>
-    <bot id="36">
+    <bot id="7">
         <name><![CDATA[Gym leader]]></name>
         <step type="fight" leader="true">
             <start><![CDATA[Ready for the fight?]]></start>
             <win><![CDATA[You are so strong for me!]]></win>
-            <monster id="Sclairus" level="4" />
-            <gain cash="100" />
-            <item id="Moco Berry" />
+            <monster id="Sclairus" level="4"/>
+            <gain cash="100"/>
+            <item id="Moco Berry"/>
         </step>
     </bot>
     <condition id="1" quest="1" type="quest">

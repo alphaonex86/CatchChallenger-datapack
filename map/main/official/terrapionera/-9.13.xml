@@ -1,10 +1,10 @@
 <map zone="road10" type="outdoor">
     <name lang="en">Road</name>
     <name lang="fr">Route</name>
-   <grass>
-          <monster id="Conileaf" minLevel="17" maxLevel="21" luck="30" />
-          <monster id="Sclairus" minLevel="17" maxLevel="22" luck="20" />
-          <monster id="Polyrock" minLevel="16" maxLevel="22" luck="40" />
-          <monster id="Elowind" minLevel="16" maxLevel="22" luck="10" />
-  </grass>
+    <grass>
+        <monster id="Conileaf" minLevel="17" maxLevel="21" luck="30"/>
+        <monster id="Sclairus" minLevel="17" maxLevel="22" luck="20"/>
+        <monster id="Polyrock" minLevel="16" maxLevel="22" luck="40"/>
+        <monster id="Elowind" minLevel="16" maxLevel="22" luck="10"/>
+    </grass>
 </map>

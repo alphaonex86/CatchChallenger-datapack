@@ -15,47 +15,47 @@
         <monster minLevel="3" maxLevel="3" luck="25" id="Noctula"/>
         <monster minLevel="3" maxLevel="3" luck="50" id="Sclairus"/>
     </grassNight>
-<bot id="9001">
-      <name>Sign</name>
-      <name langue="fr">Panneau</name>
-         <step type="text" id="1">
+    <bot id="1">
+        <name>Sign</name>
+        <name langue="fr">Panneau</name>
+        <step type="text" id="1">
             <text><![CDATA[Road 1, area accessible for the tamers]]></text>
             <text lang="fr"><![CDATA[Route 1, zone accessible aux dompteurs]]></text>
         </step>
     </bot>
-<bot id="7001">
-      <name>Valentine</name>
-      <name langue="fr">Valentine</name>
+    <bot id="2">
+        <name>Valentine</name>
+        <name langue="fr">Valentine</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Sclairus" level="4" />
-		<gain cash="100" />
-		<item id="1004" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Sclairus" level="4"/>
+            <gain cash="100"/>
+            <item id="1004"/>
+        </step>
     </bot>
-<bot id="7150">
-      <name>Legatus</name>
-      <name langue="fr">Legatus</name>
+    <bot id="3">
+        <name>Legatus</name>
+        <name langue="fr">Legatus</name>
         <step type="fight" id="1">
-		<start><![CDATA[You will regret this affront]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Noctula" level="3" />
-		<monster id="Conileaf" level="4" />
-		<gain cash="100" />
-	  </step>
+            <start><![CDATA[You will regret this affront]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Noctula" level="3"/>
+            <monster id="Conileaf" level="4"/>
+            <gain cash="100"/>
+        </step>
     </bot>
-<bot id="2101">
-      <name>Lieutenant</name>
-      <name langue="fr">Lieutenant</name>
-         <step type="text" id="1">
+    <bot id="4">
+        <name>Lieutenant</name>
+        <name langue="fr">Lieutenant</name>
+        <step type="text" id="1">
             <text><![CDATA[If it keeps I'll lose this duel <br />
              <a href="2">*Helping Lieutenant*</a> <br />
              <a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Si ça continue je vais perdre ce duel<br />		
             <a href="2">*Aider le lieutenant*</a><br />
             <a href="close">*Partir*</a>]]></text>
-        </step>     
+        </step>
         <step id="2" type="quests"/>
     </bot>
 </map>

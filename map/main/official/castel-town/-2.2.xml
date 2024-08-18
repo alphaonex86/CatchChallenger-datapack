@@ -1,24 +1,24 @@
 <map zone="road" type="outdoor">
-	<name>Road 2</name>
-	<name lang="fr">Route 2</name>
-  	<grass>
-          <monster id="Conileaf" minLevel="4" maxLevel="5" luck="25" />
-          <monster id="Elofly" minLevel="5" maxLevel="6" luck="25" />
-          <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50" />
-  </grass>
-      <grassNight>
-          <monster id="Conileaf" minLevel="4" maxLevel="6" luck="25" />
-          <monster id="Noctula" minLevel="5" maxLevel="6" luck="25" />
-          <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50" />
+    <name>Road 2</name>
+    <name lang="fr">Route 2</name>
+    <grass>
+        <monster id="Conileaf" minLevel="4" maxLevel="5" luck="25"/>
+        <monster id="Elofly" minLevel="5" maxLevel="6" luck="25"/>
+        <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50"/>
+    </grass>
+    <grassNight>
+        <monster id="Conileaf" minLevel="4" maxLevel="6" luck="25"/>
+        <monster id="Noctula" minLevel="5" maxLevel="6" luck="25"/>
+        <monster id="Sclairus" minLevel="5" maxLevel="6" luck="50"/>
     </grassNight>
-<bot id="7002">
-      <name>Margot</name>
-      <name langue="fr">Margot</name>
+    <bot id="1">
+        <name>Margot</name>
+        <name langue="fr">Margot</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Viviphyta" level="8" />
-		<gain cash="100" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Viviphyta" level="8"/>
+            <gain cash="100"/>
+        </step>
     </bot>
 </map>

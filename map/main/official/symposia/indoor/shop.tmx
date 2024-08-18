@@ -1,43 +1,42 @@
 <map width="11" version="1.0" tileheight="16" tilewidth="16" height="12" orientation="orthogonal">
- <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
- <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
- <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
- <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
- <layer width="11" name="Walkable" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAKEEAEEJ5KcocPG7pQAW</data>
- </layer>
- <layer width="11" name="Other" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAY0AAEAAAAoCAAAeAAIAB1IZVgEW</data>
- </layer>
- <layer width="11" name="Collisions" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAbUCAPCjAAAAoxQ0gwgAAIQIAEYIAABHSGZnaAhjCAAAZAgYAOwRcDARAAFuhtmb8FMD4BcgwA0BzGCnjABgLiA4CU89+Kkw07ov6PcaIIBL7qk4AH4BqKsF</data>
- </layer>
- <layer width="11" name="Other" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer width="11" name="WalkBehind" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAeUAAFgAAGMIAABkCCYoCAUANjgV/Dy4ktnLAF8UaAM=</data>
- </layer>
- <layer width="11" name="other" height="12">
-  <data encoding="base64" compression="zstd">KLUv/WAQAX0AACgAAKcIAAIAbkCNCxVgAQ==</data>
- </layer>
- <objectgroup width="0" name="Moving" height="0">
-  <object y="192" type="teleport on push" name="teleport on push" gid="1027" x="80">
-   <properties>
-    <property name="map" value="../0.2"/>
-    <property name="x" value="20"/>
-    <property name="y" value="18"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup width="0" name="Object" height="0">
-  <object y="96" type="bot" gid="1027" x="80">
-   <properties>
-    
-    <property name="id" value="100"/>
-    <property name="lookAt" value="bottom"/>
-    <property name="skin" value="market"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+    <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+    <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="1041"/>
+    <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="2065"/>
+    <layer width="11" name="Walkable" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAY0AABgAAKEEAEEJ5KcocPG7pQAW</data>
+    </layer>
+    <layer width="11" name="Other" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAY0AAEAAAAoCAAAeAAIAB1IZVgEW</data>
+    </layer>
+    <layer width="11" name="Collisions" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAbUCAPCjAAAAoxQ0gwgAAIQIAEYIAABHSGZnaAhjCAAAZAgYAOwRcDARAAFuhtmb8FMD4BcgwA0BzGCnjABgLiA4CU89+Kkw07ov6PcaIIBL7qk4AH4BqKsF</data>
+    </layer>
+    <layer width="11" name="Other" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer width="11" name="WalkBehind" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAeUAAFgAAGMIAABkCCYoCAUANjgV/Dy4ktnLAF8UaAM=</data>
+    </layer>
+    <layer width="11" name="other" height="12">
+        <data encoding="base64" compression="zstd">KLUv/WAQAX0AACgAAKcIAAIAbkCNCxVgAQ==</data>
+    </layer>
+    <objectgroup width="0" name="Moving" height="0">
+        <object y="192" type="teleport on push" name="teleport on push" gid="1027" x="80">
+            <properties>
+                <property name="map" value="../0.2"/>
+                <property name="x" value="20"/>
+                <property name="y" value="18"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup width="0" name="Object" height="0">
+        <object y="96" type="bot" gid="1027" x="80">
+            <properties>
+                <property name="id" value="1" type="int"/>
+                <property name="lookAt" value="bottom"/>
+                <property name="skin" value="market"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

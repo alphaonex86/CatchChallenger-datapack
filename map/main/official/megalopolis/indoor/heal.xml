@@ -1,9 +1,9 @@
 <map zone="megalopolis" type="indoor">
     <name>Heal center</name>
     <name lang="fr">Centre de soin</name>
-<bot id="1">
-      <name>Nurse Marina</name>
-      <name langue="fr">Infirmière Marina</name>
+    <bot id="1">
+        <name>Nurse Marina</name>
+        <name langue="fr">Infirmière Marina</name>
         <step id="1" type="text">
             <text><![CDATA[Do you want be healed?<br />
 		<a href="2">"Yes please"</a><br />

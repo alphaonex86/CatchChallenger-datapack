@@ -1,48 +1,48 @@
 <map zone="road9" type="outdoor">
-	<name>Mountain</name>
-	<name lang="fr">Montagne</name>
-	<grass>
-          <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35" />
-          <monster id="Urcine" minLevel="16" maxLevel="21" luck="10" />
-          <monster id="Elofly" minLevel="16" maxLevel="21" luck="45" />
-          <monster id="Selket" minLevel="16" maxLevel="21" luck="10" />
-  </grass>
-  <grassNight>
-          <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35" />
-          <monster id="Urcine" minLevel="17" maxLevel="22" luck="10" />
-          <monster id="Noctula" minLevel="17" maxLevel="22" luck="45" />
-          <monster id="Selket" minLevel="17" maxLevel="22" luck="10" />
-  </grassNight>
-<bot id="7033">
-      <name>Antony</name>
-      <name langue="fr">Antony</name>
+    <name>Mountain</name>
+    <name lang="fr">Montagne</name>
+    <grass>
+        <monster id="Polyrock" minLevel="16" maxLevel="21" luck="35"/>
+        <monster id="Urcine" minLevel="16" maxLevel="21" luck="10"/>
+        <monster id="Elofly" minLevel="16" maxLevel="21" luck="45"/>
+        <monster id="Selket" minLevel="16" maxLevel="21" luck="10"/>
+    </grass>
+    <grassNight>
+        <monster id="Polyrock" minLevel="17" maxLevel="22" luck="35"/>
+        <monster id="Urcine" minLevel="17" maxLevel="22" luck="10"/>
+        <monster id="Noctula" minLevel="17" maxLevel="22" luck="45"/>
+        <monster id="Selket" minLevel="17" maxLevel="22" luck="10"/>
+    </grassNight>
+    <bot id="1">
+        <name>Antony</name>
+        <name langue="fr">Antony</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="21" />
-		<monster id="Polyrock" level="21" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="21"/>
+            <monster id="Polyrock" level="21"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7067">
-      <name>Aude</name>
-      <name langue="fr">Aude</name>
+    <bot id="2">
+        <name>Aude</name>
+        <name langue="fr">Aude</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Polyrock" level="25" />
-		<monster id="Dinoflop" level="25" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Polyrock" level="25"/>
+            <monster id="Dinoflop" level="25"/>
+            <gain cash="200"/>
+        </step>
     </bot>
-<bot id="7070">
-      <name>Marie</name>
-      <name langue="fr">Marie</name>
+    <bot id="3">
+        <name>Marie</name>
+        <name langue="fr">Marie</name>
         <step type="fight" id="1">
-		<start><![CDATA[Ready for the fight?]]></start>
-		<win><![CDATA[You are so strong for me!]]></win>
-		<monster id="Noctula" level="27" />
-		<gain cash="200" />
-	  </step>
+            <start><![CDATA[Ready for the fight?]]></start>
+            <win><![CDATA[You are so strong for me!]]></win>
+            <monster id="Noctula" level="27"/>
+            <gain cash="200"/>
+        </step>
     </bot>
 </map>

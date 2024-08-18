@@ -1,21 +1,21 @@
 <map zone="castel-town" type="city">
-	<name>Castel Town</name>
-	<name lang="fr">Ville Seigneur</name>
-<bot id="2010">
-      <name>Gaetan</name>
-      <name langue="fr">Gaëtan</name>
-         <step type="text" id="1">
+    <name>Castel Town</name>
+    <name lang="fr">Ville Seigneur</name>
+    <bot id="1">
+        <name>Gaetan</name>
+        <name langue="fr">Gaëtan</name>
+        <step type="text" id="1">
             <text><![CDATA[You know that the skin of a chenipode has a high value in the black market<br />		
             <a href="2">Quest</a><br />]]></text>
             <text lang="fr"><![CDATA[Tu sais que la peau d'un chenipode coûte très chère au marché noir<br />		
             <a href="2">Quête</a><br />]]></text>
-        </step>   
-        <step id="2" type="quests"/> 
+        </step>
+        <step id="2" type="quests"/>
     </bot>
-<bot id="2008">
-      <name>Morgan</name>
-      <name langue="fr">Morgan</name>
-         <step type="text" id="1">
+    <bot id="2">
+        <name>Morgan</name>
+        <name langue="fr">Morgan</name>
+        <step type="text" id="1">
             <text><![CDATA[<![CDATA[Hi, I'm the village peasant<br />
             and I also post the letters<br />
             Finally when I can</a><br />		

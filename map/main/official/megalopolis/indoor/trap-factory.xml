@@ -1,16 +1,16 @@
 <map zone="megalopolis" type="indoor">
     <name>Big factory of trap</name>
     <name lang="fr">Grande fabrique de trappe</name>
-<bot id="3002">
-      <name>Trap seller Eric</name>
-      <name lang="fr">Eric vendeur de trappe</name>
+    <bot id="1">
+        <name>Trap seller Eric</name>
+        <name lang="fr">Eric vendeur de trappe</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">*Made Catchtrap*</a><br />
+            <text><![CDATA[<a href="2">*Made Catchtrap*</a><br />
 		<a href="3">*Made Supertrap*</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">*Fabrique une Catchtrap*</a><br />
+            <text lang="fr"><![CDATA[<a href="2">*Fabrique une Catchtrap*</a><br />
 		<a href="3">*Fabrique une Supertrap*</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="6" />
-        <step id="3" type="industry" industry="7" />
+        <step id="2" type="industry" industry="6"/>
+        <step id="3" type="industry" industry="7"/>
     </bot>
 </map>

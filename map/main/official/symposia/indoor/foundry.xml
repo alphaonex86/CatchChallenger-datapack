@@ -1,25 +1,25 @@
 <map zone="symposia" type="indoor">
     <name>Foundry</name>
     <name lang="fr">Fonderie</name>
-<bot id="3001">
-      <name>Smith Pierre</name>
-      <name lang="fr">Pierre le forgeron</name>
+    <bot id="1">
+        <name>Smith Pierre</name>
+        <name lang="fr">Pierre le forgeron</name>
         <step type="text" id="1">
-		<text><![CDATA[<a href="2">*Melt copper*</a><br />
+            <text><![CDATA[<a href="2">*Melt copper*</a><br />
 		<a href="3">*Melt iron*</a><br />
 		<a href="4">*Melt silver*</a><br />
 		<a href="5">*Melt steal*</a><br />
 		<a href="6">*Melt gold*</a><br />]]></text>
-		<text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
+            <text lang="fr"><![CDATA[<a href="2">*Fondre du cuivre*</a><br />
 		<a href="3">*Fondre du fer*</a><br />
 		<a href="4">*Fondre de l'argent*</a><br />
 		<a href="5">*Fondre de l'acier*</a><br />
 		<a href="6">*Fondre de l'or*</a><br />]]></text>
         </step>
-        <step id="2" type="industry" industry="1" />
-        <step id="3" type="industry" industry="2" />
-        <step id="4" type="industry" industry="3" />
-        <step id="5" type="industry" industry="4" />
-        <step id="6" type="industry" industry="5" />
+        <step id="2" type="industry" industry="1"/>
+        <step id="3" type="industry" industry="2"/>
+        <step id="4" type="industry" industry="3"/>
+        <step id="5" type="industry" industry="4"/>
+        <step id="6" type="industry" industry="5"/>
     </bot>
 </map>

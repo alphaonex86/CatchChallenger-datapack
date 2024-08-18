@@ -1,52 +1,12 @@
 <map zone="megalopolis" type="indoor">
     <name>Commissionership</name>
     <name lang="fr">Commissariat </name>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
+    <bot id="5">
+        <name>Police rookie</name>
+        <name langue="fr">Recrue de la police</name>
         <step id="1" type="text">
             <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
-            <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
-		<a href="close">*Partir*</a>]]></text>
-        </step>
-    </bot>
-<bot id="9062">
-      <name>Police rookie</name>
-      <name langue="fr">Recrue de la police</name>
-        <step id="1" type="text">
-            <text><![CDATA[I'm at work, returns later. <br />
-<a href="close">*Leaving*</a>]]> </text>
+<a href="close">*Leaving*</a>]]></text>
             <text lang="fr"><![CDATA[Je suis en plein travail, repasse plus tard.<br />
 		<a href="close">*Partir*</a>]]></text>
         </step>

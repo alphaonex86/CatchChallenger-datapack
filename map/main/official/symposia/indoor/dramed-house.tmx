@@ -1,47 +1,46 @@
 <map version="1.0" height="12" width="11" tileheight="16" tilewidth="16" orientation="orthogonal">
- <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
- <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
- <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="1041"/>
- <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="2065"/>
- <layer height="12" width="11" name="Walkable">
-  <data encoding="base64" compression="zstd">KLUv/WAQAd0AADAAAKODJIMIALkmIAL13MRPFebKDNTci8mgDQ==</data>
- </layer>
- <layer height="12" width="11" name="Other">
-  <data encoding="base64" compression="zstd">KLUv/WAQAQUBAIAAAOoBAAAfIAAKAgAAP0AABQBzJewC2nXwC+hLFWAB</data>
- </layer>
- <layer height="12" width="11" name="Collisions">
-  <data encoding="base64" compression="zstd">KLUv/WAQAQ0CAMCjAAAAowcnPgQAAD9ABJIEAADSkwSy8rMSAEEJDqQAZgDjAYABQLgOdgEFXIADvCN+AXVXgALccU/FAfBLpqsF</data>
- </layer>
- <layer height="12" width="11" name="other">
-  <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
- </layer>
- <layer height="12" width="11" name="WalkBehind">
-  <data encoding="base64" compression="zstd">KLUv/WAQASUBAJAAABMIAAAUCDM0HgQAAB8gBAAGAGKvOl5AAcAAID71lJMCLA==</data>
- </layer>
- <objectgroup height="12" width="11" name="Moving">
-  <object type="teleport on push" gid="1027" x="80" y="192" name="teleport on push">
-   <properties>
-    <property value="../0.2" name="map"/>
-    <property value="19" name="x"/>
-    <property value="25" name="y"/>
-   </properties>
-  </object>
-  <object type="teleport on push" gid="1027" x="96" y="192" name="teleport on push">
-   <properties>
-    <property value="../0.2" name="map"/>
-    <property value="19" name="x"/>
-    <property value="25" name="y"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup height="12" width="11" name="Object">
-  <object type="bot" gid="1027" x="48" y="96" name="bot">
-   <properties>
-    
-    <property value="2" name="id"/>
-    <property value="bottom" name="lookAt"/>
-    <property value="dramed" name="skin"/>
-   </properties>
-  </object>
- </objectgroup>
+    <tileset source="../../../../tileset/inside-terra.tsx" firstgid="1"/>
+    <tileset source="../../../../tileset/invisible.tsx" firstgid="1025"/>
+    <tileset source="../../../../tileset/inside-mobilier.tsx" firstgid="1041"/>
+    <tileset source="../../../../tileset/inside-decoration.tsx" firstgid="2065"/>
+    <layer height="12" width="11" name="Walkable">
+        <data encoding="base64" compression="zstd">KLUv/WAQAd0AADAAAKODJIMIALkmIAL13MRPFebKDNTci8mgDQ==</data>
+    </layer>
+    <layer height="12" width="11" name="Other">
+        <data encoding="base64" compression="zstd">KLUv/WAQAQUBAIAAAOoBAAAfIAAKAgAAP0AABQBzJewC2nXwC+hLFWAB</data>
+    </layer>
+    <layer height="12" width="11" name="Collisions">
+        <data encoding="base64" compression="zstd">KLUv/WAQAQ0CAMCjAAAAowcnPgQAAD9ABJIEAADSkwSy8rMSAEEJDqQAZgDjAYABQLgOdgEFXIADvCN+AXVXgALccU/FAfBLpqsF</data>
+    </layer>
+    <layer height="12" width="11" name="other">
+        <data encoding="base64" compression="zstd">KLUv/WAQAU0AABAAAAEACyqABQ==</data>
+    </layer>
+    <layer height="12" width="11" name="WalkBehind">
+        <data encoding="base64" compression="zstd">KLUv/WAQASUBAJAAABMIAAAUCDM0HgQAAB8gBAAGAGKvOl5AAcAAID71lJMCLA==</data>
+    </layer>
+    <objectgroup height="12" width="11" name="Moving">
+        <object type="teleport on push" gid="1027" x="80" y="192" name="teleport on push">
+            <properties>
+                <property value="../0.2" name="map"/>
+                <property value="19" name="x"/>
+                <property value="25" name="y"/>
+            </properties>
+        </object>
+        <object type="teleport on push" gid="1027" x="96" y="192" name="teleport on push">
+            <properties>
+                <property value="../0.2" name="map"/>
+                <property value="19" name="x"/>
+                <property value="25" name="y"/>
+            </properties>
+        </object>
+    </objectgroup>
+    <objectgroup height="12" width="11" name="Object">
+        <object type="bot" gid="1027" x="48" y="96" name="bot">
+            <properties>
+                <property value="1" name="id" type="int"/>
+                <property value="bottom" name="lookAt"/>
+                <property value="dramed" name="skin"/>
+            </properties>
+        </object>
+    </objectgroup>
 </map>

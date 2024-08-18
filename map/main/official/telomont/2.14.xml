@@ -1,9 +1,9 @@
 <map zone="road11" type="outdoor">
-	<name lang="en">Road</name>
-	<name lang="fr">Route</name>
-	<grass>
-          <monster id="Conileaf" minLevel="20" maxLevel="25" luck="30" />
-          <monster id="Sclairus" minLevel="20" maxLevel="25" luck="20" />
-          <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="50" />
-  </grass>
+    <name lang="en">Road</name>
+    <name lang="fr">Route</name>
+    <grass>
+        <monster id="Conileaf" minLevel="20" maxLevel="25" luck="30"/>
+        <monster id="Sclairus" minLevel="20" maxLevel="25" luck="20"/>
+        <monster id="Spycozeus" minLevel="21" maxLevel="26" luck="50"/>
+    </grass>
 </map>

@@ -1,6 +1,6 @@
 <!-- test when attributes is missing -->
 <map>
-    <bot id="50">
+    <bot id="1">
         <name>Nurse</name>
         <name lang="fr">Infirmière</name>
         <step type="text" id="1">
@@ -13,14 +13,14 @@
             <text lang="fr"><![CDATA[Bonne journée!]]></text>
         </step>
     </bot>
-    <bot id="51">
+    <bot id="2">
         <name>Seller</name>
         <name lang="fr">Vendeur</name>
         <step type="text" id="1">
-        <text><![CDATA[Welcome to the PokeMart<br />
+            <text><![CDATA[Welcome to the PokeMart<br />
             <a href="2">Buy</a><br />
             <a href="3">Sell</a>]]></text>
-        <text lang="fr"><![CDATA[Bienvenu dans la Boutique Pokémon<br />
+            <text lang="fr"><![CDATA[Bienvenu dans la Boutique Pokémon<br />
             <a href="2">Acheter</a><br />
             <a href="3">Vendre</a>]]></text>
         </step>
@@ -34,7 +34,7 @@
         </step>
         <step type="sell" id="3"/>
     </bot>
-    <bot id="52">
+    <bot id="3">
         <name><![CDATA[Girl]]></name>
         <step type="text" id="1">
             <text><![CDATA[Listen...<br /><br /><a href="2">[Learn]</a>]]></text>
@@ -42,12 +42,12 @@
         </step>
         <step type="learn" id="2"/>
     </bot>
-    <bot id="53">
+    <bot id="4">
         <name><![CDATA[]]></name>
         <step type="text" id="1">
             <text><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Create clan]</a>]]></text>
             <text lang="fr"><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Creer un clan]</a>]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="test" />
+        <step type="zonecapture" id="2" zone="test"/>
     </bot>
 </map>
