@@ -1,5 +1,4 @@
-<!-- test when attributes is missing -->
-<map>
+<map type="indoor" zone="test">
     <bot id="1">
         <name>Nurse</name>
         <name lang="fr">Infirmière</name>
@@ -25,29 +24,29 @@
             <a href="3">Vendre</a>]]></text>
         </step>
         <step type="shop" id="2">
-            <product itemId="IronTrap"/>
-            <product itemId="Potion grade A"/>
-            <product itemId="Repulse grade A"/>
-            <product itemId="Burn gel"/>
-            <product itemId="Muscle relax"/>
-            <product itemId="Serum"/>
+            <product item="IronTrap"/>
+            <product item="Potion grade A"/>
+            <product item="Repulse grade A"/>
+            <product item="Burn gel"/>
+            <product item="Muscle relax"/>
+            <product item="Serum"/>
         </step>
         <step type="sell" id="3"/>
     </bot>
     <bot id="3">
         <name><![CDATA[Girl]]></name>
         <step type="text" id="1">
-            <text><![CDATA[Listen...<br /><br /><a href="2">[Learn]</a>]]></text>
-            <text lang="fr"><![CDATA[Écoute...<br /><br /><a href="2">[Apprendre]</a>]]></text>
+            <text><![CDATA[<a href="clan_create">[Create clan]</a>]]></text>
+            <text lang="fr"><![CDATA[<a href="clan_create">[Creer un clan]</a>]]></text>
         </step>
         <step type="learn" id="2"/>
     </bot>
     <bot id="4">
         <name><![CDATA[]]></name>
         <step type="text" id="1">
-            <text><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Create clan]</a>]]></text>
-            <text lang="fr"><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a><br /><a href="clan_create">[Creer un clan]</a>]]></text>
+            <text><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a>]]></text>
+            <text lang="fr"><![CDATA[Chut!<br /><br /><a href="2">[Zone capture]</a>]]></text>
         </step>
-        <step type="zonecapture" id="2" zone="test"/>
+        <step type="zonecapture" id="2"/>
     </bot>
 </map>
