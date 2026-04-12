@@ -39,7 +39,6 @@
             <text><![CDATA[<a href="clan_create">[Create clan]</a>]]></text>
             <text lang="fr"><![CDATA[<a href="clan_create">[Creer un clan]</a>]]></text>
         </step>
-        <step type="learn" id="2"/>
     </bot>
     <bot id="4">
         <name><![CDATA[]]></name>
