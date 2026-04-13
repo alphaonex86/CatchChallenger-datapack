@@ -2,7 +2,6 @@
 success="100%"
 applyOn="aloneEnemy"
 applyOn can be: aloneEnemy, themself, allEnemy, allAlly
-sp="0", can't be learn naturaly
 endurance="40"
 -->
 <skills>
@@ -13,7 +12,7 @@ endurance="40"
         <description>Small attack when can fight anymore</description>
         <description lang="fr">Petit attaque quand ne peu plus attaquer</description>
         <effect>
-            <level sp="10" endurance="40" number="1">
+            <level endurance="40" number="1">
                 <life success="100%" quantity="-15%"  applyOn="aloneEnemy"/>
             </level>
         </effect>
@@ -24,7 +23,7 @@ endurance="40"
         <description>Powerful attack who Aglow the opponent, low possibility of success.</description>
         <description lang="fr">Puissante attaque qui Embrasé l'adversaire, faible possibilité de succès.</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" quantity="-105" applyOn="aloneEnemy"/>
                 <buff id="1" success="25%"/>
             </level>
@@ -40,7 +39,7 @@ endurance="40"
         <description>Powerful punch on fire</description>
         <description lang="fr">Puissant coup de poing en feu</description>
         <effect>
-            <level sp="10" endurance="35" number="1">
+            <level endurance="35" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
                 <buff id="1" success="10%"/>
             </level>
@@ -56,7 +55,7 @@ endurance="40"
         <description>Create a torrent of flame that burns slowly but very long time</description>
         <description lang="fr">créer un torrent de flamme qui brûle lentement mais très longtemps</description>
         <effect>
-            <level sp="10" endurance="15" number="1">
+            <level endurance="15" number="1">
                 <life success="60%" applyOn="aloneEnemy" quantity="-20"/>
                 <buff id="1" success="100%"/>
             </level>
@@ -72,7 +71,7 @@ endurance="40"
         <description>Fire throw against the ennemy</description>
         <description lang="fr">Jet de feu qui arose l'énemi</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -89,7 +88,7 @@ endurance="40"
         <description>Create a powerful tsunami sweeping away everything in its path</description>
         <description lang="fr">créer un puissant tsunami balayant tout sur son passage</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="60%" applyOn="aloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -106,7 +105,7 @@ endurance="40"
         <description>Create bubbles that explodes on contact with the opponent</description>
         <description lang="fr">Créer des bulles qui explose au contact de l'adversaire</description>
         <effect>
-            <level sp="10" endurance="35" number="1">
+            <level endurance="35" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="35" number="2">
@@ -120,7 +119,7 @@ endurance="40"
         <description>Compressed  water at a point which explodes on contact with the opponent</description>
         <description lang="fr">Concentre l'eau en un point qui explose au contact de l'adversaire</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -137,7 +136,7 @@ endurance="40"
         <description>Powerful attack who split the opponent, low possibility of success.</description>
         <description lang="fr">Attaque puissante qui taille l'ennemi de part en part, faible possibilité de succès.</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" applyOn="aloneEnemy" quantity="-125"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -154,7 +153,7 @@ endurance="40"
         <description>Lance sheet has very high speed</description>
         <description lang="fr">Lance des feuille à très forte vitesse</description>
         <effect>
-            <level sp="10" endurance="25" number="1">
+            <level endurance="25" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -171,7 +170,7 @@ endurance="40"
         <description>Cutting the enemy through grass</description>
         <description lang="fr">Couper l'ennemi à travers l'herbe</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -188,7 +187,7 @@ endurance="40"
         <description>Very technical Combot but very destructive</description>
         <description lang="fr">Combot très technique mais très destructeur</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" applyOn="aloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -205,7 +204,7 @@ endurance="40"
         <description>you force your opponent to fall brutally</description>
         <description lang="fr">Mise au sol brutal de l'adversaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -222,7 +221,7 @@ endurance="40"
         <description>Coup double, hitting  your opponent brutally</description>
         <description lang="fr">Coup double, frappant votre adversaire brutalement</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -239,7 +238,7 @@ endurance="40"
         <description>increase agility in close combat.</description>
         <description lang="fr">augmenter l'agilité au combat rapproché</description>
         <effect>
-            <level sp="10" endurance="15" number="1">
+            <level endurance="15" number="1">
                 <buff id="8" success="90%" applyOn="allAlly"/>
             </level>
             <level sp="300" endurance="20" number="2">
@@ -253,7 +252,7 @@ endurance="40"
         <description>A devastating wind léve sweeping all are passing, sketchy.</description>
         <description lang="fr">Un vent dévastateur se léve balayant tout sur sont passage, peu précis c'est une arme à double tranchant. </description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="55%" applyOn="allEnemy" quantity="-140"/>
                 <life success="10%" applyOn="allAlly" quantity="-140"/>
             </level>
@@ -273,7 +272,7 @@ endurance="40"
         <description>Sends a blow</description>
         <description lang="fr">Envoie une Bourrasque</description>
         <effect>
-            <level sp="10" endurance="35" number="1">
+            <level endurance="35" number="1">
                 <life success="90%" applyOn="allEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="40" number="2">
@@ -290,7 +289,7 @@ endurance="40"
         <description>Sends a tornado</description>
         <description lang="fr">Envoie une Tornade</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -307,7 +306,7 @@ endurance="40"
         <description>Sends a mental wave</description>
         <description lang="fr">Envoie une onde mental</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="40%" applyOn="allEnemy" quantity="-130"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -324,7 +323,7 @@ endurance="40"
         <description>Sends a mental wave</description>
         <description lang="fr">Envoie une onde mental</description>
         <effect>
-            <level sp="10" endurance="40" number="1">
+            <level endurance="40" number="1">
                 <life success="90%" applyOn="allEnemy" quantity="-45"/>
             </level>
             <level sp="30" endurance="40" number="2">
@@ -338,7 +337,7 @@ endurance="40"
         <description>Different objects projected on the opponent</description>
         <description lang="fr">Projette différents objets sur l'adversaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-60"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -366,7 +365,7 @@ endurance="40"
         <description>Form a powerful landslide, taking everything in its path.s</description>
         <description lang="fr">Un puissant éboulement se forme, emportant tout sur son passage.</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" applyOn="aloneEnemy" quantity="-115"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -383,7 +382,7 @@ endurance="40"
         <description>Send a stone on the opponent</description>
         <description lang="fr">Envoye une pierre sur l'adversaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-40"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -397,7 +396,7 @@ endurance="40"
         <description>Send stalagmites at very high speed</description>
         <description lang="fr">Envoye des stalagmites à très grande vitesse</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -414,7 +413,7 @@ endurance="40"
         <description>Fission takes place which releases a significant radioactivity very toxic</description>
         <description lang="fr">Une fission à lieu ce qui dégage une importantes radioactivité, très toxic</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="65%" applyOn="aloneEnemy" quantity="-100"/>
                 <buff id="5" success="5%"/>
             </level>
@@ -434,7 +433,7 @@ endurance="40"
         <description>Sticks his poisoned dart in his opponent</description>
         <description lang="fr">Enfonce son dard empoisonné dans son adversaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-30"/>
                 <buff id="5" success="5%"/>
             </level>
@@ -450,7 +449,7 @@ endurance="40"
         <description>Drops a poison gas in the area</description>
         <description lang="fr">Relâche un gaz empoisonné dans l'aire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <buff id="5" success="90%"/>
             </level>
             <level sp="300" endurance="25" number="2">
@@ -464,7 +463,7 @@ endurance="40"
         <description>Sticks his poisoned Fang in his opponent</description>
         <description lang="fr">Enfonce ses crocs empoisonné dans son adversaire</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" applyOn="aloneEnemy" quantity="-50"/>
                 <buff id="5" success="15%"/>
             </level>
@@ -484,7 +483,7 @@ endurance="40"
         <description>Discharge accumulates then be projected in any direction</description>
         <description lang="fr">Des Décharge s'accumule pour etre ensuite projeté dans tous les sens.</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" applyOn="aloneEnemy" quantity="-120"/>
                 <life success="90%" applyOn="themself" quantity="-10%"/>
             </level>
@@ -504,7 +503,7 @@ endurance="40"
         <description>hits his opponent with lightning</description>
         <description lang="fr">frappe son adversaire grâce à un éclaire</description>
         <effect>
-            <level sp="10" endurance="20" number="1">
+            <level endurance="20" number="1">
                 <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
                 <buff id="2" success="10%"/>
             </level>
@@ -520,7 +519,7 @@ endurance="40"
         <description>hits his opponent with thunder</description>
         <description lang="fr">frappe son adversaire grâce à la foudre</description>
         <effect>
-           <level sp="10" endurance="20" number="1">
+           <level endurance="20" number="1">
                 <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="22" number="2">
@@ -537,7 +536,7 @@ endurance="40"
         <description>Slice through his opponent with its claws</description>
         <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
         <effect>
-            <level sp="10" endurance="25" number="1">
+            <level endurance="25" number="1">
                 <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -554,7 +553,7 @@ endurance="40"
         <description>A rain of steal fell on the opponent</description>
         <description lang="fr">Une pluie de métaux s'abat sur l'ennemie</description>
         <effect>
-            <level sp="10" endurance="25" number="1">
+            <level endurance="25" number="1">
                 <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -571,7 +570,7 @@ endurance="40"
         <description>Skin changes which solidifies for resist attack</description>
         <description lang="fr">Modification de la peau qui se solidifie pour résister au attaque</description>
         <effect>
-            <level sp="10" endurance="15" number="1">
+            <level endurance="15" number="1">
                 <buff id="8" success="90%" applyOn="themself"/>
             </level>
             <level sp="300" endurance="20" number="2">
@@ -585,7 +584,7 @@ endurance="40"
         <description>Traps his opponent in the permanent snow</description>
         <description lang="fr">Emprisonne son adversaire dans les neiges éternelle</description>
         <effect>
-            <level sp="10" endurance="8" number="1">
+            <level endurance="8" number="1">
                 <life success="50%" quantity="-135" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="9" number="2">
@@ -602,7 +601,7 @@ endurance="40"
         <description>Slice through his opponent with its claws</description>
         <description lang="fr">Tranche son adversaire grâce à ses griffes.</description>
         <effect>
-            <level sp="10" endurance="25" number="1">
+            <level endurance="25" number="1">
                 <life success="90%" quantity="-40" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -619,7 +618,7 @@ endurance="40"
         <description>An avalanche of snow fell on the opponent</description>
         <description lang="fr">Une avalanche de neige s'abat sur l'ennemie</description>
         <effect>
-            <level sp="10" endurance="25" number="1">
+            <level endurance="25" number="1">
                 <life success="90%" quantity="-60" applyOn="aloneEnemy"/>
             </level>
             <level sp="300" endurance="30" number="2">
@@ -636,7 +635,7 @@ endurance="40"
         <description>Skin changes which solidifies for resist attack</description>
         <description lang="fr">Modification de la peau qui se solidifie pour résister au attaque</description>
         <effect>
-            <level sp="10" endurance="15" number="1">
+            <level endurance="15" number="1">
                 <buff id="8" success="90%" applyOn="allAlly"/>
             </level>
             <level sp="300" endurance="20" number="2">
@@ -650,7 +649,7 @@ endurance="40"
         <description>Tackle the enemy</description>
         <description lang="fr">Charge l'ennemie</description>
         <effect>
-            <level sp="10" endurance="40" number="1">
+            <level endurance="40" number="1">
                 <life success="90%" quantity="-35" applyOn="aloneEnemy"/>
             </level>
             <level sp="150" endurance="40" number="2">
@@ -664,7 +663,7 @@ endurance="40"
         <description>Up armor</description>
         <description lang="fr">Augmente l'armure</description>
         <effect>
-            <level sp="10" endurance="40" number="1">
+            <level endurance="40" number="1">
                 <buff id="3" success="90%" applyOn="allAlly"/>
             </level>
         </effect>
@@ -675,7 +674,7 @@ endurance="40"
         <description>Decreases the opponent's attack</description>
         <description lang="fr">Diminue l'attaque de l'adversaire </description>
         <effect>
-            <level sp="10" endurance="40" number="1">
+            <level endurance="40" number="1">
                 <buff id="4" success="90%" applyOn="allEnemy"/>
             </level>
         </effect>
@@ -686,7 +685,7 @@ endurance="40"
         <description>Use claw for protect himsell</description>
         <description lang="fr">Utilise ses griffe afin de ce protége</description>
         <effect>
-            <level sp="10" endurance="35" number="1" applyOn="aloneEnemy">
+            <level endurance="35" number="1" applyOn="aloneEnemy">
                 <life success="90%" quantity="-45"/>
             </level>
             <level sp="300" endurance="40" number="2" applyOn="aloneEnemy">
@@ -722,7 +721,7 @@ endurance="40"
         <description>Tourbidi turn</description>
         <description lang="fr">Tourbidi tourne</description>
         <effect>
-            <level sp="10" endurance="30" number="1"/>
+            <level endurance="30" number="1"/>
         </effect>
     </skill>
  
