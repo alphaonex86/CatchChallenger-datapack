@@ -6,7 +6,7 @@
     </grass>
     <bot id="1">
         <name>Sign</name>
-        <name langue="fr">Panneau</name>
+        <name lang="fr">Panneau</name>
         <step type="text">
             <!-- test without, should work -->
             <text><![CDATA[Test object after grass]]></text>
