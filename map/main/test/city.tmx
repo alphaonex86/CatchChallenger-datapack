@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="9" width="30" height="34" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="48">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="9" width="30" height="34" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="52">
  <tileset firstgid="1" source="../../tileset/terra.tsx"/>
  <tileset firstgid="1025" source="../../tileset/wood.tsx"/>
  <tileset firstgid="2049" source="../../tileset/rename.tsx"/>
@@ -38,22 +38,22 @@
  </layer>
  <layer id="6" name="Water" width="30" height="34">
   <data encoding="base64" compression="zstd">
-   KLUv/WDwDrUAACAAANEQBQC9AR/ae6AggQR2MB7mB1g=
+   KLUv/WDwDvUAADAAANEQkREHgCCDDwFBtRvECn97D9QEkh3sMD8YAQ==
   </data>
  </layer>
  <layer id="7" name="Lava" width="30" height="34">
   <data encoding="base64" compression="zstd">
-   KLUv/WDwDrUAACAAALERBQCtAR/ae6AggQR2MJ7mB1g=
+   KLUv/WDwDi0BAFAAALERcREAUREACAARJ84VMCANIEyJ8EN7DxQkkMAOxtP8AAs=
   </data>
  </layer>
  <layer id="8" name="WaterOver" width="30" height="34">
   <data encoding="base64" compression="zstd">
-   KLUv/WDwDpUCAKQDAAC5AAAAugAAALvWAAAA1wAAANjZAAAA2gAAANv2AAAA9wAAAPj5AAAA+gAAAPsWAQAAFwEAABgBAAcAGsJ5D9zDYB6QHRYnzzMzO8P8AAs=
+   KLUv/WDwDhUDAMQDAAC5AAAAugAAALvWAAAA1wAAANjZAAAA2gAAANv2AAAA9wAAAPj5AAAA+gAAAPsWAQAAFwEAABgBANa5DACVcBUAEBog2ACMNwDoMoNxfwJXMpgSZJLFyVPOzOQwP2gD
   </data>
  </layer>
  <layer id="9" name="Collisions" width="30" height="34">
   <data encoding="base64" compression="zstd">
-   KLUv/WDwDpUJAHINJStwazKMAe7dPf/Hd2v8/7r6G2AAEFRJMT4UEUZgIMCT4l0O26YHunt+SPQUT2dCeToL4XXwMngVvAg0XsbDeBeTvMiDvMdzLMkr8oK8Hi/HLF7Fo3gTirParDSrzAozzts8zcs8zBxew2N4C+qysqwqq2gF7fIsr/KiBwEEPFH0A00oTwfi9DBwEjhJnCI+GyeFU0JOoNEGJ8EkZbZ0AAOioFXhTfpuU15t03cse4YSPYcA+HYmEnFgEpmRaOG2pET7SEe0tzSxGO20OZ7K8LSJiWm3evQ3ugW+1vsbZZsDvLY8wTlUIdo4Sca8+tEysU3fraQ19qoyv4IAMVDPDc1exXv+qO9t8YyKjqLg6Mxxdj73/7QLqzf/5BqhVMnUWtE+t/RdywAjKiEfs4ayMw==
+   KLUv/WDwDpUJAKJNJStwazKMAe7dPf/Hd2v8/7r6G2AAEFRJMT4UEUZgIMCT4l0O26YHunt+SPQUT2dCeToL4XXwMngVvAgAAp7Gy3gY72KSF3mQ93iOJXlFXpDX4+WYxat4FG9CcVablWaVWWHGeZuneZmHmcNreAxvQV1WllVlFa2gXZ7lVV70oCeKfqAJ5elAnB4GTgIniVPEZ+OkcEoISaDhBibBJGW09OACokDGJAdN8moTvtqmr1j2DCVqFoLg2tk4hIFJZIZAG6clJdoDMUcEe6sKm9Ogpv8qed7iY0xbPDf+u9nmMbFb2IbDh/OCc6XWAUpjX+Xk3aSvhtMae1WZW0GSIKjngWav4z0PVOey7wwVzZFgaOY4dT57e74TgzdH0vrgVMlUDag+j/TO0oY5KkGPWUPhGQ==
   </data>
  </layer>
  <layer id="10" name="WalkBehind" width="30" height="34">
@@ -115,8 +115,11 @@
   <object id="24" name="Test Water/Lava+animation" x="80" y="144" width="144" height="80"/>
   <object id="25" name="Missing tileset" x="32" y="96" width="16" height="16"/>
   <object id="26" name="Animated" x="288" y="208" width="16" height="16"/>
+  <object id="48" name="Animated" x="224" y="416" width="16" height="16"/>
+  <object id="49" name="Animated" x="256" y="416" width="16" height="16"/>
+  <object id="50" name="Animated+rand+withitem" x="208" y="432" width="64" height="16"/>
   <object id="27" name="Test not accessible tile" x="64" y="288" width="16" height="16"/>
-  <object id="28" name="NPC" type="bot" gid="4097" x="304" y="272" width="16" height="16">
+  <object id="28" name="NPC" type="bot" gid="4097" x="208" y="432" width="16" height="16">
    <properties>
     <property name="id" type="int" value="3"/>
     <property name="lookAt" value="move"/>
@@ -133,7 +136,7 @@
     <property name="id" type="int" value="1"/>
    </properties>
   </object>
-  <object id="44" type="bot" gid="4097" x="288" y="320" width="16" height="16">
+  <object id="44" type="bot" gid="4097" x="272" y="416" width="16" height="16">
    <properties>
     <property name="id" type="int" value="2"/>
    </properties>
@@ -143,6 +146,7 @@
     <property name="comment" value="Some simple bot will go to catch monster and be blocked"/>
    </properties>
   </object>
+  <object id="51" name="spawn view" x="208" y="400" width="80" height="48"/>
  </objectgroup>
  <imagelayer id="13" name="Image Layer 1"/>
  <group id="14" name="Group 1"/>
