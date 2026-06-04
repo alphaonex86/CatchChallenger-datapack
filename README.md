@@ -185,6 +185,89 @@ Maps default background music per map type (`city`, `indoor`, `outdoor`). Indivi
 
 Defines per-map-type visual overlays (e.g., cave darkness with color/alpha, night tint on outdoor/city maps triggered by day/night event).
 
+## Map Layer Conventions
+
+Maps are Tiled `.tmx` files with named tile layers the engine consumes: `Walkable`
+(base graphics), `Collisions` (any non-empty tile blocks on-foot movement),
+`Grass`/`Water`/`Lava` (encounter layers — see `layers.xml`),
+`LedgesUp`/`LedgesDown`/`LedgesLeft`/`LedgesRight` (one-way jumps) and `WalkBehind`
+(tiles drawn above the player). Object groups carry warps (`door`,
+`teleport on push`, `teleport on it`), map borders (`border-*`) and NPCs (`bot`).
+
+Conventions:
+
+- **Never put the same tile at the same position on two different layers** (a
+  fully transparent tile is exempt from this check). The real tile lives once,
+  on the `Walkable` layer; the semantic layers (`Collisions`, `Grass`, `Water`,
+  `Lava`, `Ledges*`) use a **transparent** tile (the engine only needs a
+  non-empty gid to mark the cell), so nothing is drawn twice and the editor
+  render matches the game. Do not re-use the cell's Walkable tile on a semantic
+  layer (that would duplicate it), and do not use a separate visible marker/tint
+  (that would obscure the map).
+- **`.tmx` maps reference `.tsx` tilesets by relative path only** (never
+  absolute), computed relative to the map's own directory.
+- **Water** tiles go in the `Water` layer only (not `Collisions`); `layers.xml`
+  surf-gates the Water layer, which is what stops on-foot walking there.
+- **Object markers use the shared `map/invisible.tsx`** (objects are not tile
+  layers, so a transparent marker is fine): tile **0** = `bot`, **1** = `rescue`,
+  **2** = `teleport on push`/`teleport on it`, **3** = `border-*` offset.
+- **A `door` object must reference a real, animated tile** (a tileset tile with
+  an `animation="<ms>ms;<n>frames"` property, `n>1`) — the client deletes a door
+  whose tile has no animation. (`teleport on *` warps do not animate.)
+- **`border-*` objects are centred on their edge**; the engine reads the object's
+  position as the neighbour-alignment offset (`border.top` → object x,
+  `border.left` → object y), so only that offset needs to be correct.
+
+### Tileset Conventions
+
+- **HARD RULE — a tileset must preserve the maps' *immediate* 2-D tile
+  adjacency.** A generated / de-duplicated tileset is laid out following the
+  maps' own spatial layout. For any pair of tiles, if across *all* the maps the
+  relationship is *always* the same, that *same immediate* relationship must be
+  kept in the tileset:
+  - if a tile is *always* **just above** another (same column, the cell directly
+    on top) → place it **just above** it in the tileset;
+  - if a tile is *always* **just below** another (same column, the cell directly
+    underneath) → place it **just below** it;
+  - if a tile is *always* **just to the left** of another (same row, the next
+    cell to the left) → place it **just to the left**;
+  - if a tile is *always* **just to the right** of another (same row, the next
+    cell to the right) → place it **just to the right**.
+
+  So a building's (or any object's) tiles keep their exact on-map shape and the
+  sheet reads like the map. Leaving blank (transparent) cells between groups to
+  keep each group's 2-D shape is fine. This applies to **every visible tile** —
+  the `WalkBehind` (over) tiles a player sees on top (building/tree tops) are laid
+  out by the same 2-D adjacency as the ground tiles, not dumped in arbitrary
+  order; layer membership is irrelevant, only what is seen on the map.
+
+  A **post-generation guard** verifies this: for every tile it derives the map
+  position(s) and checks that each *consistent* immediate neighbour (the same
+  tile to the right / left / above / below on every map) is kept immediately
+  adjacent in the sheet. The single unavoidable exception is a **cyclic map
+  pattern** — a repeating texture (fence, brick, water: `…A B A B…`, or a longer
+  `A B C A` loop) where a tile is its own neighbour around a loop. A loop cannot
+  be flattened into a finite de-duplicated grid, so exactly one closing edge per
+  loop is reported as an *unavoidable cyclic-pattern edge* — that is expected,
+  not a defect. Every non-cyclic (linearisable) adjacency must be preserved.
+
+  **De-duplication is preserved — no tile graphic is needlessly repeated.** Each
+  distinct 16×16 graphic is stored once; tiles whose on-map neighbour is *always*
+  the same are packed as rigid 2-D blocks (so a building reads like the map), and
+  identical blocks recurring across maps collapse to a single copy. A generator
+  must not emit one cell per neighbourhood (that multiplies the sheet count for
+  no visual gain), and must wipe its previous output before regenerating so stale
+  sheets no map references don't accumulate.
+
+  **HARD RULE — no duplicate tile across a pool's sheets.** Within a tileset pool
+  (the set of `.tsx`/`.png` sheets a map references), a non-animation tile
+  graphic must appear **exactly once** — never twice in a sheet, never spread
+  across two sheets. A **post-generation guard** re-reads the produced sheets and
+  fails the build if any non-animation graphic repeats. *Animation frames are the
+  only exception:* a door's closed frame, or a water frame, legitimately equals a
+  static Walkable tile, and an N-frame run must stay contiguous, so those cells
+  are exempt from the guard.
+
 ## Maps, Quests, and Zones
 
 All map, quest, and zone documentation is in **[map/main/README.md](map/main/README.md)**.
