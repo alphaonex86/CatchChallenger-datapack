@@ -2,6 +2,86 @@
 
 > **Note:** The `official/` subdirectory is outdated and buggy. Use `test/` as the reference implementation.
 
+## Main Datapacks, Regions & Sub-Datapacks
+
+`map/main/` is **not** a single map set — it holds several **independent main
+datapacks**, one per folder, each a self-contained world (the hand-made `test/`
+reference here, or larger worlds added by a site). The player picks which one to
+play:
+
+| Folder | `<name>` | `<initial>` | Contents |
+|---|---|---|---|
+| `test/` | Test map | T | Hand-made reference (the rest of this guide) |
+| `<label>/` | (display name) | (1 letter) | A full world — one or more regions of maps, with its own tilesets, zones, music and quests |
+
+Each `map/main/<label>/` carries its **own** `informations.xml`, `start.xml`,
+`tileset/`, `zone/`, and optional `music/` + `quests/`, plus its region trees.
+Nothing is shared between datapacks **except** the engine's read-only
+`map/invisible.tsx` marker tileset (objects/triggers). A datapack's tileset pool
+lives only in `map/main/<label>/tileset/`.
+
+### Region → Location → Map hierarchy
+
+Real datapacks add two folder levels the flat `test/` layout omits. Maps live at:
+
+```
+map/main/<label>/<region>/<location>/<mapname>.tmx (+ .xml)
+```
+
+- **Region** — a world area (a continent, an island group …): `<region>/`, e.g.
+  `mainland/`, `north-isles/`.
+- **Location** — a town / road / cave folder, named after its overworld map.
+  The overworld map repeats the folder name (`mainland/harbor-town/harbor-town.tmx`);
+  its interiors sit beside it (`house-1.tmx`, `gym.tmx`, `shop.tmx`, `building-3.tmx`).
+- **Sub-folders for big interiors** — a multi-floor building/cave is its own
+  folder of `floor-N` maps (`harbor-town/department-store/floor-0.tmx` …
+  `floor-5.tmx`).
+- **`area-N/`** — numbered buckets for maps with no distinct named location
+  (e.g. `mainland/area-1/market`). A large world can have dozens.
+- **`road/`, `road-NN/`** — road buckets (`mainland/road/road-1`). A converter may
+  instead give each road its own location folder (`mainland/road-1/road-1`).
+  Both patterns are valid — the engine cares about the *path*, not the grouping.
+
+### Map references use full relative paths
+
+Every place that names a map — `start.xml`, a quest's `map=`, or a warp object's
+`map` property — uses the path **from the main-datapack root**, region included,
+without the `.tmx`/`.xml` extension:
+
+```xml
+<map file="mainland/area-1/market" x="4" y="2"/>                <!-- start.xml -->
+<quest map="mainland/harbor-town/harbor-town" bot="237" .../>
+```
+
+Because maps sit at varying depths, each `.tmx`'s tileset paths are computed
+relative to **that map's own directory** — a region map uses `../../tileset/...`
+and `../../../../invisible.tsx`; a `floor-N` map one level deeper uses
+`../../../tileset/...` and `../../../../../invisible.tsx`.
+
+### `sub/` — sub-datapack overlays (edition variants)
+
+A datapack can ship `sub/<variant>/` folders that are **overlay datapacks**
+layered on top of the parent. A sub-datapack:
+
+- has its own `informations.xml` (its own `<name>`, `<initial>` and accent `color`);
+- contains **only `.xml` metadata files, no `.tmx`** — it inherits all
+  visuals/geometry from the parent map;
+- **mirrors the parent's relative path** (`sub/variant-a/<region>/road/road-1.xml`
+  overrides `<region>/road/road-1.xml`);
+- replaces that map's server-side data — typically the **wild-encounter tables** —
+  for edition-exclusive content. The variants share the same maps but meet
+  different monsters.
+
+```
+<label>/
+    <region>/road/road-1.xml                      # base encounters
+    sub/
+        variant-a/ <region>/road/road-1.xml       # variant-A table (override)
+        variant-b/ <region>/road/road-1.xml       # variant-B table (override)
+```
+
+---
+
 ## Directory Structure
 
 ```
@@ -18,6 +98,10 @@ map/main/<main-datapack>/
     <mapname>.tmx           # Tiled map file (visual layout + objects)
     <mapname>.xml           # Map metadata file (bots, monsters, conditions)
 ```
+
+The tree above is the **flat** layout used by `test/`. Production datapacks nest
+the `<mapname>` pairs under `<region>/<location>/` (and `floor-N` sub-folders) — see
+[Region → Location → Map hierarchy](#region--location--map-hierarchy) above.
 
 Each map is defined by a **pair of files** sharing the same base name:
 - `<mapname>.tmx` — The visual map created with the [Tiled Map Editor](https://www.mapeditor.org/)
@@ -67,6 +151,13 @@ Available tilesets:
 | `animations.tsx` | Animated tiles (water, lava, effects) |
 | `rename.tsx` | Additional decoration tiles |
 
+> The names above are the **`test/` pool**. Generated/converted datapacks build
+> their own per-datapack, content-named pool under `map/main/<label>/tileset/` —
+> e.g. `common_0.tsx`, `harbor-town_0.tsx`, and tiles shared by two maps in
+> `town-a-town-b_0.tsx`; some converters instead number sheets `normal1.tsx`…`normalN.tsx`.
+> The `_0` suffix is the sheet index within a multi-sheet set, and `animations.tsx`
+> is the one constant. Only `invisible.tsx` is referenced from the shared `map/` root.
+
 ### Tile Layers
 
 Layers define the visual and logical structure of the map. They are **order-sensitive**, the engine interprets them firstly by **name** and only after by position.
@@ -90,10 +181,18 @@ Layers define the visual and logical structure of the map. They are **order-sens
 | `Grass` | No | Tiles that trigger **wild monster encounters** when walked on (tall grass). |
 | `Water` | No | Water tiles. Walking on them triggers water-type wild encounters (requires special item). |
 | `Lava` | No | Lava tiles. Triggers lava-type encounters (requires special item). |
-| `LedgesBottom` | No | One-way jump ledges (player can jump **down** but not climb back up). |
-| `LedgesTop` | No | One-way jump ledges (player can jump **up** but not climb back down). |
+| `LedgesDown` | No | One-way jump ledges (player can jump **down** but not climb back up). |
+| `LedgesUp` | No | One-way jump ledges (player can jump **up** but not climb back down). |
 | `LedgesRight` | No | One-way jump ledges (player can jump **right** but not go back left). |
 | `LedgesLeft` | No | One-way jump ledges (player can jump **left** but not go back right). |
+
+> **Layer names:** the engine resolves layers by **name**, so spelling matters.
+> Converted production maps use `LedgesDown` / `LedgesUp` for the vertical ledges
+> (some older `test/` maps use `LedgesBottom` / `LedgesTop`) — prefer
+> `LedgesDown` / `LedgesUp` for new region maps. A map may also carry **several
+> layers with the same name** (commonly two `Collisions`): same-named tile layers
+> are OR-merged for gameplay and stacked for rendering, which is how a wall's
+> under-tile and over-tile both block while drawing below the player.
 
 ### Object Layers
 
@@ -254,6 +353,27 @@ Monsters are defined per terrain type. Each terrain section corresponds to a **t
 | `<waterSuperRod>` | `Water` | Using super rod on water |
 
 You can add more into map/layers.xml
+
+> Cave maps may use `<grass>` (tile-driven — a `type="cave"` map can still carry a
+> `<grass>` table) and/or `<cave>` (whole-map movement).
+
+#### Day/night encounter variants
+
+Any encounter section has an optional **`Night` twin**, selected by the day/night
+event (`player/event.xml`). At night the engine uses the `*Night` table if present
+and otherwise falls back to the base section. The production datapacks use
+`<grassNight>` and `<caveNight>` alongside `<grass>` / `<cave>` / `<water>`:
+
+```xml
+<grass>                                   <!-- daytime -->
+  <monster id="16"  minLevel="2" maxLevel="4" luck="55"/>
+  <monster id="161" minLevel="2" maxLevel="3" luck="40"/>
+</grass>
+<grassNight>                              <!-- nighttime -->
+  <monster id="163" minLevel="2" maxLevel="4" luck="85"/>
+  <monster id="19"  minLevel="2" maxLevel="4" luck="15"/>
+</grassNight>
+```
 
 **Monster entry format:**
 
@@ -452,8 +572,18 @@ The `<blockedtext>` element contains the message shown when the condition is not
 | Attribute | Description |
 |---|---|
 | `id` | Profile/game mode name. |
-| `file` | Map filename (without extension) where the player spawns. |
+| `file` | Map path (without extension) where the player spawns — full region path in nested datapacks (e.g. `mainland/harbor-town/harbor-town`). |
 | `x`, `y` | Tile coordinates of the spawn point. |
+
+A datapack can declare **several profiles**, each spawning in a different place
+(used for game-mode variants):
+
+```xml
+<profile>
+  <start id="normal"><map file="mainland/harbor-town/harbor-town" x="26" y="27"/></start>
+  <start id="explorer"><map file="north-isles/riverside-city/riverside-city" x="13" y="19"/></start>
+</profile>
+```
 
 ### `zone/<name>.xml` — Zone Definition
 
@@ -465,6 +595,17 @@ The `<blockedtext>` element contains the message shown when the condition is not
 ```
 
 Zones are referenced by the `zone` attribute on `<map>` in the XML metadata. Used for clan territory control.
+
+A zone may also pin **background music per map type**, overriding `map/music.xml`
+for every map in the zone:
+
+```xml
+<zone>
+    <name>Harbor Town</name>
+    <music type="city"   backgroundsound="music/harbor-town.opus"/>
+    <music type="indoor" backgroundsound="music/harbor-town.opus"/>
+</zone>
+```
 
 ### `quests/<id>/definition.xml` — Quest Definition
 
@@ -485,7 +626,8 @@ Zones are referenced by the `zone` attribute on `<map>` in the XML metadata. Use
 
 | Attribute/Element | Description |
 |---|---|
-| `bot` | Path to the bot that gives this quest (`map/objectId` format). |
+| `bot` | The bot that gives this quest. |
+| `map` | (nested datapacks) Full region path of the bot's map, with `bot` then holding just the numeric object id — e.g. `map="mainland/harbor-town/harbor-town" bot="237"`. The flat form combines both as `bot="house1/41"`. |
 | `repeatable` | `"yes"` if the quest can be repeated. |
 | `<step>` | Quest objectives. `<item>` = required item with quantity. |
 | `<rewards>` | Completion rewards. `show="true"` shows them upfront. |

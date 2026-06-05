@@ -196,14 +196,36 @@ Maps are Tiled `.tmx` files with named tile layers the engine consumes: `Walkabl
 
 Conventions:
 
-- **Never put the same tile at the same position on two different layers** (a
-  fully transparent tile is exempt from this check). The real tile lives once,
-  on the `Walkable` layer; the semantic layers (`Collisions`, `Grass`, `Water`,
-  `Lava`, `Ledges*`) use a **transparent** tile (the engine only needs a
-  non-empty gid to mark the cell), so nothing is drawn twice and the editor
-  render matches the game. Do not re-use the cell's Walkable tile on a semantic
-  layer (that would duplicate it), and do not use a separate visible marker/tint
-  (that would obscure the map).
+- **A ROM converter writes ONLY inside its per-ROM output folder
+  `map/main/<label>/`.** It must NEVER create or modify any file outside it — in
+  particular the shared `map/invisible.png` / `map/invisible.tsx`, the engine's
+  marker tileset for stuff that is invisible in the Tiled editor because the game
+  adds it at runtime (teleporters, bots, …), referenced **read-only**. Every map
+  TILE must be a REAL tile extracted from the ROM, in a tileset LOCAL under
+  `map/main/<label>/tileset/`. Do NOT generate/synthesise marker tiles.
+- **Do NOT trust the tile-layer ORDER or grouping** in a `.tmx` — CatchChallenger
+  finds layers by name and rebuilds the layer list at load, inconsistently
+  (sometimes re-orders, sometimes not; sometimes inserts/groups, sometimes not).
+  In `client/libqtcatchchallenger/maprender/` (`layerChangeLevelAndTagsChange` +
+  `MapItem::addMap`) it deletes hidden/unknown layers, inserts the player object
+  group before `WalkBehind` (else after `Collisions`, else appended), moves the
+  `Moving` group, and inserts new object-group layers beside any tile layer with
+  animated/random/trigger tiles. The on-disk order/grouping is non-authoritative;
+  maps must be correct regardless — never depend on draw order or on layers
+  staying separate/together.
+- **Feature tile layers use REAL tiles, DISJOINT (no markers).** Each cell's real
+  tile goes to EXACTLY ONE layer by behaviour — `Water`→Water, `Ledge*`→that ledge
+  layer, `Grass`→Grass, else collidable→`Collisions`, else `Walkable`. The ground
+  layers never overlap, so hiding any single layer produces a visible change (see
+  `map/main/test/city.tmx`). `Walkable` is empty at water/grass/ledge/collision
+  cells; the engine still makes them passable (water/grass/lava via the layer's
+  `walkOn` `monstersCollision` in `layers.xml`, ledges one-way, collisions block).
+- **`WalkBehind` (above the player) is ONLY for player-reachable cells.** A
+  collidable cell's over-tile is never walked behind, so it stays BELOW the player,
+  superposed on a SECOND layer named `Collisions`. The engine OR-merges every
+  `Collisions` layer for blocking, so extra same-named layers are free visual
+  superposition (stack a wall's under + over tile), not tiles above the player.
+  Multiple identically-named layers = logically OR-merged, visually stacked.
 - **`.tmx` maps reference `.tsx` tilesets by relative path only** (never
   absolute), computed relative to the map's own directory.
 - **Water** tiles go in the `Water` layer only (not `Collisions`); `layers.xml`
